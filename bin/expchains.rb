@@ -11,7 +11,7 @@ class ExpChains
 
         exp_chain = generate_from_symbolinfo(symbolinfo)
 
-        if options[:merge]
+        if options[:merge] && File.exist?(options[:merge])
             old_exp_chain = read_expchain(options[:merge])
             exp_chain = old_exp_chain.merge(exp_chain) do |key, old, new|
                 v = new.clone
