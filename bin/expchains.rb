@@ -199,7 +199,6 @@ if __FILE__ == $0
             ExpChains.compiletab(options)
         end
 
-        puts options
     rescue SystemExit => e
         raise e
     rescue Exception => e
