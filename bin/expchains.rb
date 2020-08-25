@@ -39,7 +39,9 @@ class ExpChains
 
         File.open(options[:tabfile], "w") do |f|
             tab_content.each do |t, e|
-                f.write("#{t.ljust(16)} #{e}\n")
+                if ! (e == "delete" || e == "remove")
+                    f.write("#{t.ljust(16)} #{e}\n")
+                end
             end
         end
     end
@@ -136,6 +138,9 @@ class ExpChains
     end
 
     def self.convert_expiration_to_tab(expiration)
+        if expiration == "delete" || expiration == "remove"
+            return expiration
+        end
         year = expiration[0, 4]
         month = expiration[4,2]
         day = expiration[6, 2]
