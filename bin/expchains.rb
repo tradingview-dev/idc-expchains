@@ -86,7 +86,7 @@ class ExpChains
         if m
             return "#{m['root']} #{m['month']}20#{m['year']}#{m['session']}#{m['exchange']}"
         end
-        re_with_day = /^(?<root>[A-Z0-9_]+) (?<year>[0-9]{2})(?<month>[A-Z])(?<day>[0-9]{2})(?<session>=[0-9]+)?(?<exchange>-[A-Z0-9]+)?$/
+        re_with_day = /^(?<root>[A-Z0-9_]+) (?<year>[0-9]{2})(?<month>[A-Z])(?<day>[0-9]{2})?(?<session>=[0-9]+)?(?<exchange>-[A-Z0-9]+)?$/
         m = re_with_day.match(t)
         if m
             return "#{m['root']} 20#{m['year']}#{m['month']}#{m['day']}#{m['session']}#{m['exchange']}"
