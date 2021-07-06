@@ -25,6 +25,7 @@ class ExpChains
 
     def self.compiletab(options)
         p = File.join(options[:path], "**", "*.csv")
+        p.gsub!('\\', '/')
 
         tab_content = {}
 
@@ -37,10 +38,12 @@ class ExpChains
             tab_content.merge! expchain_to_tab(exp_chain)
         end
 
+        tab_keys = tab_content.keys.sort
         File.open(options[:tabfile], "w") do |f|
-            tab_content.each do |t, e|
+            tab_keys.each do |t|
+                e = tab_content[t]
                 if ! (e == "delete" || e == "remove")
-                    f.write("#{t.ljust(16)} #{e}\n")
+                    f.write("#{t}\t#{e}\n")
                 end
             end
         end
@@ -120,7 +123,7 @@ class ExpChains
 
     def self.write_expchain(filename, exp_chain)
         symbol_props = exp_chain.values
-        symbol_props.sort_by{|p| [p['root'], p['expiration']] }
+        symbol_props.sort_by!{|p| [p['root'], p['expiration']]}
         CSV.open(filename, "w") do |csv|
             symbol_props.each do |p|
                 csv << symbol_prop_to_csv_line(p)
