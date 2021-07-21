@@ -11,6 +11,7 @@ EXCLUDE_FROM_TAB_OLD_RE = [
 ]
 
 EXCLUDE_FROM_TAB_NEW_RE = [
+    /moex_futures.csv/,
     /bse_futures.csv/,
     /nse_futures.csv/,
     /multicommodity_futures.csv/,
