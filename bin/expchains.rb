@@ -3,6 +3,18 @@ require 'json'
 require 'csv'
 require 'optparse'
 
+EXCLUDE_FROM_TAB_OLD_RE = [
+]
+
+EXCLUDE_FROM_TAB_NEW_RE = [
+]
+
+EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
+]
+
+EXCLUDE_FROM_ICE_EXPCHAINS_NEW_RE = [
+]
+
 class ExpChains
     def self.generate(options)
         symbolinfo_file = File.open(options[:symbolinfo], "r")
@@ -30,10 +42,22 @@ class ExpChains
         tab_content = {}
 
         if options[:merge]
-            tab_content = read_tabfile(options[:merge])
+            ice_expchains_filter = EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE
+            if options[:new]
+                ice_expchains_filter = EXCLUDE_FROM_ICE_EXPCHAINS_NEW_RE
+            end
+            tab_content = filter_tabfile(ice_expchains_filter, read_tabfile(options[:merge]))
+        end
+        exclude_csv_filter = EXCLUDE_FROM_TAB_OLD_RE
+        if options[:new]
+            exclude_csv_filter = EXCLUDE_FROM_TAB_NEW_RE
         end
 
         Dir.glob(p) do |file|
+            if exclude_csv_filter.any? {|re| re =~ file }
+                puts "Exclude file from tab: #{file}"
+                next
+            end
             exp_chain = read_expchain(file)
             tab_content.merge! expchain_to_tab(exp_chain)
         end
@@ -163,6 +187,14 @@ class ExpChains
         return tab_content
     end
 
+    def self.filter_tabfile(filters, tabfile)
+        if filters.empty?
+            return tabfile
+        end
+        filtered = tabfile.select{|key, value| not filters.any?{|re| re =~ key} }
+        return filtered
+    end
+
 end
 
 if __FILE__ == $0
@@ -191,6 +223,9 @@ if __FILE__ == $0
                 end
                 opts.on("-m MERGE_TABFILE", "--merge MERGE_TABFILE", "old tab file") do |v|
                     options[:merge] = v
+                end
+                opts.on("-n", "--new", "new tab file for new futures") do |v|
+                    options[:new] = true
                 end
             end,
         }
