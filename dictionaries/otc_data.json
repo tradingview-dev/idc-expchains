@@ -2841,6 +2841,7 @@
   },
   {
     "companyName": "Agilyx AS",
+    "country": "Norway",
     "isCaveatEmptor": false,
     "symbol": "AGXXF",
     "tierCode": "PC",
@@ -10291,8 +10292,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "BCCEF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PN",
+    "tierName": "Pink No Information"
   },
   {
     "companyName": "BEAM COMMUNICATIONS HLDGS LTD.",
@@ -10315,6 +10316,13 @@
     "country": "Mexico",
     "isCaveatEmptor": false,
     "symbol": "BCCLF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "BICO GROUP AB",
+    "isCaveatEmptor": false,
+    "symbol": "BCCOY",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -20173,7 +20181,7 @@
   {
     "companyName": "Questex Gold & Copper Ltd.",
     "country": "Canada",
-    "industry": "Metal Mining",
+    "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "CLASF",
     "tierCode": "PC",
@@ -25026,6 +25034,13 @@
     "symbol": "CVGRF",
     "tierCode": "QB",
     "tierName": "OTCQB"
+  },
+  {
+    "companyName": "Converge ICT Solutions Inc.",
+    "isCaveatEmptor": false,
+    "symbol": "CVGYY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Ventura Cannabis and Wellness Corp.",
@@ -32671,15 +32686,6 @@
     "tierName": "Pink No Information"
   },
   {
-    "companyName": "E-Therapeutics PLC",
-    "country": "United Kingdom",
-    "industry": "Medicinal and botanicals",
-    "isCaveatEmptor": false,
-    "symbol": "ETPPF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "ENTOURAGE HEALTH CORP.",
     "country": "Canada",
     "industry": "Crop planting and protection",
@@ -32732,6 +32738,15 @@
     "companyName": "E2Gold Inc.",
     "isCaveatEmptor": false,
     "symbol": "ETUGF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "E-Therapeutics PLC",
+    "country": "United Kingdom",
+    "industry": "Medicinal and botanicals",
+    "isCaveatEmptor": false,
+    "symbol": "ETXPF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -48843,8 +48858,8 @@
     "industry": "Services-Amusement & Recreation Services",
     "isCaveatEmptor": false,
     "symbol": "IMHC",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Isetan Mitsukoshi Holdings Ltd.",
@@ -55573,7 +55588,7 @@
   {
     "companyName": "Liberty Broadband Corporation",
     "country": "United States",
-    "industry": "Telephone communication, except radio",
+    "industry": "Cable and pay television services",
     "isCaveatEmptor": false,
     "symbol": "LBRDB",
     "tierCode": "QB",
@@ -60219,11 +60234,11 @@
   {
     "companyName": "MDWerks, Inc.",
     "country": "United States",
-    "industry": "Business services, misc",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "MDWK",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "MediXall Group, Inc.",
@@ -60621,15 +60636,6 @@
     "symbol": "MFRVF",
     "tierCode": "PC",
     "tierName": "Pink Current"
-  },
-  {
-    "companyName": "Medifirst Solutions Inc.",
-    "country": "United States",
-    "industry": "Electromedical equipment",
-    "isCaveatEmptor": false,
-    "symbol": "MFST",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
   },
   {
     "companyName": "Morinaga & Co., Ltd.",
@@ -62661,6 +62667,15 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "MODIV INC.",
+    "country": "United States",
+    "industry": "Real estate investment trusts",
+    "isCaveatEmptor": false,
+    "symbol": "MOIVP",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Mojo Organics, Inc.",
     "country": "United States",
     "industry": "Bottled and canned soft drinks",
@@ -64587,15 +64602,6 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "MyDx, Inc.",
-    "country": "United States",
-    "industry": "Measuring and controlling devices, misc",
-    "isCaveatEmptor": false,
-    "symbol": "MYDX",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
-  },
-  {
     "companyName": "My Freightworld Technologies, Inc.",
     "country": "United States",
     "industry": "Transportation Services",
@@ -65956,15 +65962,6 @@
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "NGRC",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
-  },
-  {
-    "companyName": "Ngen Technologies Holdings Corp.",
-    "country": "United States",
-    "industry": "Canned, Frozen & Preservd Fruit, Veg & Food Specialties",
-    "isCaveatEmptor": false,
-    "symbol": "NGRP",
     "tierCode": "PN",
     "tierName": "Pink No Information"
   },
@@ -67427,8 +67424,8 @@
     "industry": "Medicinal and botanicals",
     "isCaveatEmptor": false,
     "symbol": "NPHC",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Northland Power, Inc.",
@@ -67661,6 +67658,7 @@
   },
   {
     "companyName": "NORTHSTAR CLEAN TECHNOLOGIES INC.",
+    "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "NRCTF",
     "tierCode": "PC",
@@ -69405,8 +69403,8 @@
     "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "NXMH",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "NextMart, Inc.",
@@ -70274,8 +70272,8 @@
     "industry": "Direct mail advertising services",
     "isCaveatEmptor": false,
     "symbol": "OILY",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Oil Search Ltd.",
@@ -70480,7 +70478,7 @@
     "tierName": "Pink No Information"
   },
   {
-    "companyName": "OM HOLDINGS INTERNATIONAL, INC.",
+    "companyName": "OM Holdings International, Inc.",
     "country": "United States",
     "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
@@ -70634,15 +70632,6 @@
     "symbol": "ONCWF",
     "tierCode": "PC",
     "tierName": "Pink Current"
-  },
-  {
-    "companyName": "Online Disruptive Technologies, Inc.",
-    "country": "United States",
-    "industry": "Diagnostic substances",
-    "isCaveatEmptor": false,
-    "symbol": "ONDR",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
   },
   {
     "companyName": "Onex Corporation",
@@ -103160,8 +103149,8 @@
     "industry": "Industrial Organic Chemicals",
     "isCaveatEmptor": false,
     "symbol": "WAYS",
-    "tierCode": "PN",
-    "tierName": "Pink No Information"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "WB Burgers Asia Inc.",
