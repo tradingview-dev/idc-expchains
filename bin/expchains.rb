@@ -4,9 +4,11 @@ require 'csv'
 require 'optparse'
 
 EXCLUDE_FROM_TAB_OLD_RE = [
+    /moex_2_futures.csv/,
 ]
 
 EXCLUDE_FROM_TAB_NEW_RE = [
+    /moex_futures.csv/,
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
