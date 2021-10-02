@@ -5300,15 +5300,6 @@
     "tierName": "OTCQB"
   },
   {
-    "companyName": "Aquesta Financial Holdings, Inc",
-    "country": "United States",
-    "industry": "National commercial banks",
-    "isCaveatEmptor": false,
-    "symbol": "AQFH",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "Aequus Pharmaceuticals Inc.",
     "country": "Canada",
     "industry": "Food and Kindred Products",
@@ -9991,14 +9982,6 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Brookfield Infrastructure Partners L.P.",
-    "industry": "Water Transportation",
-    "isCaveatEmptor": false,
-    "symbol": "BIPAF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "Bird Construction Inc.",
     "country": "Canada",
     "isCaveatEmptor": false,
@@ -14419,6 +14402,14 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "CBBLF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Power Group Projects Corp.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "CBBWF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -21436,8 +21427,8 @@
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "CTGO",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Cathay Constuction Co Ltd.",
@@ -25390,6 +25381,14 @@
     "symbol": "DTTYF",
     "tierCode": "PC",
     "tierName": "Pink Current"
+  },
+  {
+    "companyName": "DASSAULT AVIATION",
+    "country": "France",
+    "isCaveatEmptor": false,
+    "symbol": "DUAVF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "DUBBER CORP LTD.",
@@ -37639,15 +37638,6 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Garrett Motion Inc.",
-    "country": "Switzerland",
-    "industry": "Motor vehicle parts and accessories",
-    "isCaveatEmptor": false,
-    "symbol": "GTXAP",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "GTX Corp.",
     "country": "United States",
     "industry": "Radio and TV communications equipment",
@@ -44309,8 +44299,8 @@
     "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "IRRLF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "IRESS Ltd.",
@@ -49353,7 +49343,7 @@
   {
     "companyName": "Liberty Broadband Corporation",
     "country": "United States",
-    "industry": "Telephone communication, except radio",
+    "industry": "Cable and pay television services",
     "isCaveatEmptor": false,
     "symbol": "LBRDB",
     "tierCode": "QB",
@@ -52617,6 +52607,14 @@
     "symbol": "MCHIF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "McHenry Bancorp Inc",
+    "country": "United States",
+    "isCaveatEmptor": false,
+    "symbol": "MCHND",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "MultiChoice Group Limited",
@@ -60659,15 +60657,6 @@
     "tierName": "Pink Limited"
   },
   {
-    "companyName": "Nutriband Inc.",
-    "country": "United States",
-    "industry": "Surgical appliances and supplies",
-    "isCaveatEmptor": false,
-    "symbol": "NTRB",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
-  },
-  {
     "companyName": "Neutra Corp.",
     "country": "United States",
     "industry": "Medicinal and botanicals",
@@ -61837,6 +61826,15 @@
     "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "OCANF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Preferred Commerce Inc.",
+    "country": "United States",
+    "industry": "Games, toys and children's vehicles",
+    "isCaveatEmptor": false,
+    "symbol": "OCBM",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -83956,6 +83954,14 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "Embracer Group AB",
+    "country": "Sweden",
+    "isCaveatEmptor": false,
+    "symbol": "THQQF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "THREAT PROTECT AUSTRALIA LTD.",
     "isCaveatEmptor": false,
     "symbol": "THRTF",
@@ -92930,6 +92936,33 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Washington Prime Group Inc.",
+    "country": "United States",
+    "industry": "Real estate investment trusts",
+    "isCaveatEmptor": false,
+    "symbol": "WPGGQ",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Washington Prime Group Inc.",
+    "country": "United States",
+    "industry": "Real estate investment trusts",
+    "isCaveatEmptor": false,
+    "symbol": "WPGHQ",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Washington Prime Group Inc.",
+    "country": "United States",
+    "industry": "Real estate investment trusts",
+    "isCaveatEmptor": false,
+    "symbol": "WPGIQ",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "World Poker Store, Inc. (The)",
     "country": "United States",
     "isCaveatEmptor": false,
@@ -95273,6 +95306,13 @@
     "symbol": "ZNNC",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Zhongyuan Bk Co Ltd",
+    "isCaveatEmptor": false,
+    "symbol": "ZNNGY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Zion Oil & Gas, Inc.",
