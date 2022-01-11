@@ -2360,14 +2360,6 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Apollo Healthcare Corp.",
-    "country": "Canada",
-    "isCaveatEmptor": false,
-    "symbol": "AHCCF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "Anhui Conch Cement Co., Ltd.",
     "country": "China",
     "isCaveatEmptor": false,
@@ -3962,8 +3954,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "AMEFF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "AMEN Properties, Inc.",
@@ -10545,6 +10537,14 @@
     "companyName": "Berkeley Group Holdings Plc.",
     "country": "United Kingdom",
     "isCaveatEmptor": false,
+    "symbol": "BKGFF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Berkeley Group Holdings Plc.",
+    "country": "United Kingdom",
+    "isCaveatEmptor": false,
     "symbol": "BKGFY",
     "tierCode": "PC",
     "tierName": "Pink Current"
@@ -11177,7 +11177,7 @@
   },
   {
     "companyName": "GLOBALBLOCK DIGITAL ASSET TRADING LTD.",
-    "country": "Canada",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "BLVDF",
     "tierCode": "PC",
@@ -16497,8 +16497,8 @@
     "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "CGLD",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Coro Global Inc.",
@@ -22178,6 +22178,13 @@
     "country": "China",
     "isCaveatEmptor": false,
     "symbol": "CTVIF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Cottonwood Multifamily Opportuity Fund Inc.",
+    "isCaveatEmptor": false,
+    "symbol": "CTWD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -28446,8 +28453,8 @@
     "industry": "Miscellaneous investing",
     "isCaveatEmptor": false,
     "symbol": "ENKS",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "ENEL Societa per Azioni",
@@ -34018,8 +34025,8 @@
     "industry": "Custom computer programming services",
     "isCaveatEmptor": false,
     "symbol": "FUIG",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Fubon Financial Holding Co. Ltd.",
@@ -39659,7 +39666,7 @@
   {
     "companyName": "Hubilu Venture Corporation",
     "country": "United States",
-    "industry": "Management consulting services",
+    "industry": "Real Estate Operators (No Developers) & Lessors",
     "isCaveatEmptor": false,
     "symbol": "HBUV",
     "tierCode": "PC",
@@ -51409,10 +51416,11 @@
   {
     "companyName": "KwikClick,Inc.",
     "country": "United States",
+    "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
     "symbol": "KWIK",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Kiwi Property Group Ltd.",
@@ -51676,7 +51684,7 @@
   {
     "companyName": "Liberty Broadband Corporation",
     "country": "United States",
-    "industry": "Cable and pay television services",
+    "industry": "Telephone communication, except radio",
     "isCaveatEmptor": false,
     "symbol": "LBRDB",
     "tierCode": "QB",
@@ -52091,8 +52099,8 @@
     "industry": "Loan brokers",
     "isCaveatEmptor": false,
     "symbol": "LFLS",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Lifestyle International Holdings, Ltd.",
@@ -57355,13 +57363,6 @@
     "symbol": "MMEX",
     "tierCode": "PC",
     "tierName": "Pink Current"
-  },
-  {
-    "companyName": "Malaysia Marine & Heavy Engineering SDN BHD",
-    "isCaveatEmptor": false,
-    "symbol": "MMHEF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
   },
   {
     "companyName": "Miramar Hotel & Investment Co., Ltd.",
@@ -65437,13 +65438,6 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Vango Mining Ltd.",
-    "isCaveatEmptor": false,
-    "symbol": "ORDRF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "Orea Mining Corp.",
     "country": "Canada",
     "industry": "Gold and Silver Ores",
@@ -66422,7 +66416,7 @@
     "country": "United States",
     "industry": "Real estate investment trusts",
     "isCaveatEmptor": false,
-    "symbol": "PASDV",
+    "symbol": "PASDL",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -74556,14 +74550,6 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "NORTHSTAR CLEAN TECHNOLOGIES INC.",
-    "country": "Canada",
-    "isCaveatEmptor": false,
-    "symbol": "ROOOF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
-  },
-  {
     "companyName": "PJSC Rostelecom",
     "country": "Russian Federation",
     "industry": "Telephone communication, except radio",
@@ -74762,12 +74748,12 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Randall & Quilter Invt Hldgs Ltd.",
+    "companyName": "Randall & Quilter Investment Holdings Ltd.",
     "country": "Bermuda",
     "isCaveatEmptor": false,
-    "symbol": "RQULF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "symbol": "RQIHF",
+    "tierCode": "QX",
+    "tierName": "OTCQX International"
   },
   {
     "companyName": "Royal Road Minerals Ltd",
@@ -91815,6 +91801,7 @@
   },
   {
     "companyName": "UNIDOC HEALTH CORP.",
+    "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "UNDHF",
     "tierCode": "PC",
@@ -98180,14 +98167,6 @@
     "symbol": "YTFD",
     "tierCode": "PC",
     "tierName": "Pink Current"
-  },
-  {
-    "companyName": "YTL Corp. Berhad",
-    "country": "Malaysia",
-    "isCaveatEmptor": false,
-    "symbol": "YTLCF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
   },
   {
     "companyName": "YTL Power International BHD",
