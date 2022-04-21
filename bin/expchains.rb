@@ -4,11 +4,17 @@ require 'csv'
 require 'optparse'
 
 EXCLUDE_FROM_TAB_OLD_RE = [
+    /bse_2_futures.csv/,
+    /nse_2_futures.csv/,
+    /multicommodity_2_futures.csv/,
     /moex_2_futures.csv/,
 ]
 
 EXCLUDE_FROM_TAB_NEW_RE = [
     /moex_futures.csv/,
+    /bse_futures.csv/,
+    /nse_futures.csv/,
+    /multicommodity_futures.csv/,
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
