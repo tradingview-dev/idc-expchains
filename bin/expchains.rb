@@ -159,6 +159,7 @@ class ExpChains
             elseif p['symbol'] == "VN30Z2020"
                 p['expiration'] = ""
                 puts 'If u see it revert commit'
+                exp_chain[p['symbol']] = p
             else
                 exp_chain[p['symbol']] = p
             end
