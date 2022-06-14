@@ -157,7 +157,6 @@ class ExpChains
             if p['expiration'].empty?
                 puts 'Skip line \'' + l.join(',') + '\' due empty expiration at processing ' + filename
             else
-                p['expiration'] = ""
                 exp_chain[p['symbol']] = p
             end
         end
