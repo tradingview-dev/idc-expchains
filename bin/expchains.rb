@@ -157,6 +157,10 @@ class ExpChains
             if p['expiration'].empty?
                 puts 'Skip line \'' + l.join(',') + '\' due empty expiration at processing ' + filename
             else
+                if p['symbol'] == "VN30Z2020"
+                    p['expiration'] = ""
+                    puts 'If u see it revert commit'
+                end
                 exp_chain[p['symbol']] = p
             end
         end
