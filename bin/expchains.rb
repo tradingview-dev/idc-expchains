@@ -156,11 +156,10 @@ class ExpChains
             p = symbol_prop_from_csv_line(l)
             if p['expiration'].empty?
                 puts 'Skip line \'' + l.join(',') + '\' due empty expiration at processing ' + filename
+            elseif p['symbol'] == "VN30Z2020"
+                p['expiration'] = ""
+                puts 'If u see it revert commit'
             else
-                if p['symbol'] == "VN30Z2020"
-                    p['expiration'] = ""
-                    puts 'If u see it revert commit'
-                end
                 exp_chain[p['symbol']] = p
             end
         end
