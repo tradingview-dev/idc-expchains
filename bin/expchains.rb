@@ -148,7 +148,11 @@ class ExpChains
         exp_chain = {}
         lines.each do |l|
             p = symbol_prop_from_csv_line(l)
-            exp_chain[p['symbol']] = p
+            if p['expiration'].empty?
+                puts 'Skip line \'' + l.join(',') + '\' due empty expiration at processing ' + filename
+            else
+                exp_chain[p['symbol']] = p
+            end
         end
         return exp_chain
     end
