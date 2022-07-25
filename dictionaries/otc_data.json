@@ -7468,8 +7468,8 @@
     "industry": "Motor vehicle parts and accessories",
     "isCaveatEmptor": false,
     "symbol": "ATVK",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Australian Vanadium",
@@ -24081,8 +24081,8 @@
     "industry": "Crude petroleum and natural gas",
     "isCaveatEmptor": false,
     "symbol": "DBRM",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "DBS Group Holdings Ltd.",
@@ -24129,8 +24129,8 @@
     "industry": "Management consulting services",
     "isCaveatEmptor": false,
     "symbol": "DCAC",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Dacian Gold Ltd.",
@@ -27071,6 +27071,15 @@
     "companyName": "ETFS Metal Securities Austrailia Ltd",
     "isCaveatEmptor": false,
     "symbol": "EAUSF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Ecco Auto World Corporation",
+    "country": "China",
+    "industry": "Custom computer programming services",
+    "isCaveatEmptor": false,
+    "symbol": "EAWC",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -32544,7 +32553,7 @@
   },
   {
     "companyName": "flooidCX Corp.",
-    "country": "Canada",
+    "country": "United States",
     "industry": "Business services, misc",
     "isCaveatEmptor": false,
     "symbol": "FLCX",
@@ -52773,7 +52782,7 @@
   {
     "companyName": "Liberty Broadband Corporation",
     "country": "United States",
-    "industry": "Telephone communication, except radio",
+    "industry": "Cable and pay television services",
     "isCaveatEmptor": false,
     "symbol": "LBRDB",
     "tierCode": "QB",
@@ -53298,8 +53307,8 @@
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "LGCXF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "LAGARDERE SA",
@@ -53703,8 +53712,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "LIQQF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "LI S ENERGY LTD.",
@@ -65301,8 +65310,8 @@
     "industry": "Business associations",
     "isCaveatEmptor": false,
     "symbol": "NWPN",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "New Peoples Bankshares, Inc.",
@@ -70711,6 +70720,13 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Gemfields Group Ltd.",
+    "isCaveatEmptor": false,
+    "symbol": "PLLHF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Pirelli S.p.A.",
     "country": "Italy",
     "isCaveatEmptor": false,
@@ -70808,7 +70824,7 @@
   {
     "companyName": "POLESTAR AUTOMOTIVE HLDG UK PLC",
     "country": "United States",
-    "industry": "Blank Checks",
+    "industry": "Motor vehicles and car bodies",
     "isCaveatEmptor": false,
     "symbol": "PLSAY",
     "tierCode": "PC",
@@ -76654,8 +76670,8 @@
     "companyName": "Regina Miracle Intl Hlds Ltd.",
     "isCaveatEmptor": false,
     "symbol": "RMIHF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Romios Gold Resources Inc.",
@@ -77142,16 +77158,16 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "ROYMF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Royal Mail Plc",
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "ROYMY",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Royal Unibrew A S",
@@ -85099,8 +85115,8 @@
     "industry": "Semiconductors and related devices",
     "isCaveatEmptor": false,
     "symbol": "SODI",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "CLEANGO INNOVATIONS INC.",
@@ -87046,6 +87062,14 @@
     "symbol": "STHI",
     "tierCode": "QB",
     "tierName": "OTCQB"
+  },
+  {
+    "companyName": "Statehouse Holdings Inc.",
+    "country": "United States",
+    "isCaveatEmptor": false,
+    "symbol": "STHZF",
+    "tierCode": "QX",
+    "tierName": "OTCQX International"
   },
   {
     "companyName": "Smithson Investment Trust PLC.",
@@ -89481,6 +89505,15 @@
     "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "TCRI",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Terrace Energy Corp.",
+    "country": "Canada",
+    "industry": "Oil and gas exploration services",
+    "isCaveatEmptor": false,
+    "symbol": "TCRRD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -92087,6 +92120,13 @@
     "companyName": "Toagosei Co., Ltd.",
     "isCaveatEmptor": false,
     "symbol": "TOAGF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "TOA OIL CO LTD.",
+    "isCaveatEmptor": false,
+    "symbol": "TOAOF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
   },
@@ -96593,8 +96633,8 @@
     "industry": "Drugs, proprietaries, and sundries",
     "isCaveatEmptor": false,
     "symbol": "VDRM",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Vendetta Mining Corporate",
@@ -97515,8 +97555,8 @@
     "industry": "Holding companies, misc",
     "isCaveatEmptor": false,
     "symbol": "VLXC",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Volex Group Plc.",
@@ -100418,6 +100458,13 @@
     "industry": "Business services, misc",
     "isCaveatEmptor": false,
     "symbol": "WRPT",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "WALKER RIV RES CORP",
+    "isCaveatEmptor": false,
+    "symbol": "WRRZD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
