@@ -26,7 +26,8 @@ EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_NEW_RE = [
-    /-BOF$/
+    /-BOF$/,
+    /-ADF$/,
 ]
 
 class ExpChains
