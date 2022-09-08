@@ -14,6 +14,9 @@ EXCLUDE_FROM_TAB_OLD_RE = [
     /nymex_2_nohistory_futures.csv/,
     /nymex_2_a_futures.csv/,
     /nymex_2_b_futures.csv/,
+    /cbot_2_globex_futures.csv/,
+    /cbot_2_mini_globex_futures.csv/,
+    /cbot_2_mini_futures.csv/,
 ]
 
 EXCLUDE_FROM_TAB_NEW_RE = [
@@ -27,6 +30,9 @@ EXCLUDE_FROM_TAB_NEW_RE = [
     /nymex_2_futures.csv/,
     /nymex_mini_futures.csv/,
     /nymex_nohistory_futures.csv/,
+    /cbot_globex_futures.csv/,
+    /cbot_mini2_futures.csv/,
+    /cbot_mini_futures.csv/,
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
