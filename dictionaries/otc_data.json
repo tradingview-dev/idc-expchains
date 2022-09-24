@@ -770,6 +770,7 @@
   },
   {
     "companyName": "ASCENTIAL PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "ACENY",
     "tierCode": "PC",
@@ -1239,6 +1240,7 @@
   },
   {
     "companyName": "AUDIOBOOM GROUP PLC",
+    "country": "Jersey",
     "isCaveatEmptor": false,
     "symbol": "ADBMF",
     "tierCode": "PC",
@@ -1403,7 +1405,6 @@
   {
     "companyName": "Adriatic Metals PLC",
     "country": "United Kingdom",
-    "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "ADMLF",
     "tierCode": "QX",
@@ -1543,7 +1544,6 @@
   {
     "companyName": "Adriatic Metals PLC",
     "country": "United Kingdom",
-    "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "ADTLF",
     "tierCode": "PC",
@@ -3759,6 +3759,7 @@
   },
   {
     "companyName": "Alliance Trust Co., Ltd.",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "ALITF",
     "tierCode": "PC",
@@ -10702,6 +10703,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Banco Hipotecario S.A.",
+    "country": "Argentina",
+    "isCaveatEmptor": false,
+    "symbol": "BHPTY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Burke & Herbert Bank & Trust Co. (Alexandria, VA)",
     "country": "United States",
     "industry": "Commercial banks, misc",
@@ -10985,6 +10994,15 @@
     "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "BISA",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "First Bitcoin Capital Corp.",
+    "country": "Israel",
+    "industry": "Functions related to deposit banking",
+    "isCaveatEmptor": false,
+    "symbol": "BITCF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -12432,6 +12450,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "BNKSF",
     "tierCode": "PC",
@@ -20604,6 +20623,7 @@
   },
   {
     "companyName": "Centralnic Group PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "CNNIF",
     "tierCode": "PC",
@@ -21487,6 +21507,15 @@
     "symbol": "CPNNF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Culpeo Minerals Limited",
+    "country": "Australia",
+    "industry": "Metal Mining",
+    "isCaveatEmptor": false,
+    "symbol": "CPORF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Charoen Pokphand Foods plc",
@@ -26067,6 +26096,7 @@
   },
   {
     "companyName": "Deliveroo PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "DLVEY",
     "tierCode": "PC",
@@ -26964,6 +26994,7 @@
   },
   {
     "companyName": "Deliveroo PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "DROOF",
     "tierCode": "PC",
@@ -36408,6 +36439,7 @@
   },
   {
     "companyName": "GAMMA COMMUNICATIONS PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "GAMCF",
     "tierCode": "PC",
@@ -38488,6 +38520,7 @@
   },
   {
     "companyName": "ContourGlobal PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "GLOFF",
     "tierCode": "PC",
@@ -38897,6 +38930,7 @@
   },
   {
     "companyName": "Games Workshop Group",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "GMWKF",
     "tierCode": "PC",
@@ -43983,6 +44017,7 @@
   },
   {
     "companyName": "HIPGNOSIS SONGS FD LTD.",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "HPGSF",
     "tierCode": "PC",
@@ -46056,6 +46091,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IEMBF",
     "tierCode": "PC",
@@ -46921,6 +46957,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IMATF",
     "tierCode": "PC",
@@ -47135,6 +47172,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IMSBF",
     "tierCode": "PC",
@@ -47172,6 +47210,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IMSXF",
     "tierCode": "PC",
@@ -47745,6 +47784,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IOGEF",
     "tierCode": "PC",
@@ -48535,6 +48575,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISGPF",
     "tierCode": "PC",
@@ -48586,6 +48627,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISHPF",
     "tierCode": "PC",
@@ -48648,6 +48690,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISJMF",
     "tierCode": "PC",
@@ -48730,6 +48773,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISRCF",
     "tierCode": "PC",
@@ -48737,6 +48781,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISRHF",
     "tierCode": "PC",
@@ -48760,6 +48805,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISRNF",
     "tierCode": "PC",
@@ -48783,6 +48829,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISRUF",
     "tierCode": "PC",
@@ -48863,6 +48910,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISSZF",
     "tierCode": "PC",
@@ -48925,6 +48973,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISVFF",
     "tierCode": "PC",
@@ -48969,6 +49018,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISVVF",
     "tierCode": "PC",
@@ -49486,6 +49536,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IVMGF",
     "tierCode": "PC",
@@ -49526,6 +49577,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IVSPF",
     "tierCode": "PC",
@@ -59511,6 +59563,7 @@
   },
   {
     "companyName": "M & G PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "MGPUF",
     "tierCode": "PC",
@@ -61402,6 +61455,14 @@
     "symbol": "MOHCY",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "ECMOHO Limited",
+    "industry": "Catalog and mail-order houses",
+    "isCaveatEmptor": false,
+    "symbol": "MOHOY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Equator Beverage Company",
@@ -79714,6 +79775,7 @@
   },
   {
     "companyName": "Renew Holdings PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "RNWHF",
     "tierCode": "PC",
@@ -83532,6 +83594,15 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "Siderurgica Venezolana Sivensa S.A.",
+    "country": "Venezuela",
+    "industry": "Iron & Steel Foundries",
+    "isCaveatEmptor": false,
+    "symbol": "SDNVY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Sandston Corp.",
     "country": "United States",
     "industry": "Blank Checks",
@@ -84059,6 +84130,7 @@
   },
   {
     "companyName": "Sequoia Economic Infrastructure Income Fund Ltd.",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "SEQIF",
     "tierCode": "PC",
@@ -87970,6 +88042,7 @@
   },
   {
     "companyName": "Serinus Energy Plc",
+    "country": "Jersey",
     "isCaveatEmptor": false,
     "symbol": "SNUYF",
     "tierCode": "PC",
@@ -88417,6 +88490,7 @@
   },
   {
     "companyName": "ISHARES V PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "SPAGF",
     "tierCode": "PC",
@@ -103717,6 +103791,7 @@
   },
   {
     "companyName": "Watches of Switzerland Group PLC",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "WOSGF",
     "tierCode": "PC",
@@ -104257,6 +104332,7 @@
   },
   {
     "companyName": "WITAN INVESTMENT TRUST PLC.",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "WTNTF",
     "tierCode": "PC",
@@ -105084,6 +105160,14 @@
     "industry": "Flat glass",
     "isCaveatEmptor": false,
     "symbol": "XYIGY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "XY LABS INC.",
+    "industry": "Communications equipment, misc",
+    "isCaveatEmptor": false,
+    "symbol": "XYLB",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
