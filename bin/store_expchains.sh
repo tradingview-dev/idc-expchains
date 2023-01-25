@@ -21,7 +21,7 @@ while read -r SI_TVC_GROUP; do
     curl "$IDC_TVC_HOST/symbol_info?group=$SI_TVC_GROUP" > "$SYMBOLINFO_DIR/$SI_TVC_GROUP.json"
 done <<< "$SI_TVC_GROUPS"
 
-SI_OTHER_GROUPS=(moex_iss_futures)
+SI_OTHER_GROUPS=(moex_iss_futures nymex_cfd_futures_internal)
 for GROUP in ${SI_OTHER_GROUPS[@]}; do
     echo "Getting $GROUP"
     curl "$IDC_HOST/symbol_info?group=$GROUP" > "$SYMBOLINFO_DIR/$GROUP.json"
