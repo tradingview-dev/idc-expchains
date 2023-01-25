@@ -289,6 +289,7 @@
   {
     "companyName": "Angold Resources Ltd.",
     "country": "Canada",
+    "industry": "Gold ores",
     "isCaveatEmptor": false,
     "symbol": "AAUGF",
     "tierCode": "QB",
@@ -1084,6 +1085,7 @@
   {
     "companyName": "Alpha Cognition Inc.",
     "country": "Canada",
+    "industry": "Pharmaceutical preparations",
     "isCaveatEmptor": false,
     "symbol": "ACOGF",
     "tierCode": "QB",
@@ -2080,6 +2082,7 @@
   },
   {
     "companyName": "AFC Energy Plc.",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "AFGYF",
     "tierCode": "PC",
@@ -4057,6 +4060,7 @@
   {
     "companyName": "Alkaline Fuel Cell Power Corp.",
     "country": "Canada",
+    "industry": "Industrial machinery and equipment",
     "isCaveatEmptor": false,
     "symbol": "ALKFF",
     "tierCode": "QB",
@@ -4225,6 +4229,7 @@
   {
     "companyName": "Alpha Growth PLC",
     "country": "United Kingdom",
+    "industry": "Insurance agents, brokers, & services",
     "isCaveatEmptor": false,
     "symbol": "ALPGF",
     "tierCode": "QB",
@@ -4528,6 +4533,7 @@
   {
     "companyName": "Ambari Brands Inc.",
     "country": "Canada",
+    "industry": "Miscellaneous retail stores, misc",
     "isCaveatEmptor": false,
     "symbol": "AMBBF",
     "tierCode": "QB",
@@ -4536,6 +4542,7 @@
   {
     "companyName": "Ambu A/S",
     "country": "Denmark",
+    "industry": "Miscellaneous retail stores, misc",
     "isCaveatEmptor": false,
     "symbol": "AMBBY",
     "tierCode": "PL",
@@ -4551,6 +4558,7 @@
   {
     "companyName": "Ambu A/S",
     "country": "Denmark",
+    "industry": "Miscellaneous retail stores, misc",
     "isCaveatEmptor": false,
     "symbol": "AMBFF",
     "tierCode": "PL",
@@ -4908,6 +4916,7 @@
   {
     "companyName": "AmmPower Corp.",
     "country": "Canada",
+    "industry": "Chemical and fertilizer mining",
     "isCaveatEmptor": false,
     "symbol": "AMMPF",
     "tierCode": "QB",
@@ -4970,6 +4979,7 @@
   {
     "companyName": "Amcomri Entertainment Inc.",
     "country": "Canada",
+    "industry": "Services allied to motion pictures",
     "isCaveatEmptor": false,
     "symbol": "AMNNF",
     "tierCode": "QB",
@@ -5306,6 +5316,7 @@
   {
     "companyName": "Angus Gold Inc.",
     "country": "Canada",
+    "industry": "Gold ores",
     "isCaveatEmptor": false,
     "symbol": "ANGVF",
     "tierCode": "QB",
@@ -5787,6 +5798,7 @@
   {
     "companyName": "Apollo Silver Corp.",
     "country": "Canada",
+    "industry": "Silver ores",
     "isCaveatEmptor": false,
     "symbol": "APGOF",
     "tierCode": "QB",
@@ -6238,6 +6250,7 @@
   {
     "companyName": "Argo Gold Inc",
     "country": "Canada",
+    "industry": "Gold ores",
     "isCaveatEmptor": false,
     "symbol": "ARBTF",
     "tierCode": "QB",
@@ -7851,7 +7864,7 @@
   {
     "companyName": "Active Energy Group Plc",
     "country": "United Kingdom",
-    "industry": "Gas production and/or distribution",
+    "industry": "Fuel oil dealers",
     "isCaveatEmptor": false,
     "symbol": "ATGVF",
     "tierCode": "QB",
@@ -9463,6 +9476,7 @@
   {
     "companyName": "Arizona Lithium Ltd.",
     "country": "Australia",
+    "industry": "Metal ores, misc",
     "isCaveatEmptor": false,
     "symbol": "AZLAF",
     "tierCode": "QB",
@@ -11679,8 +11693,8 @@
     "industry": "Commercial physical research",
     "isCaveatEmptor": false,
     "symbol": "BIOQ",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Swedish Orphan Biovitrum AB",
@@ -12904,7 +12918,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Black Mountain Gold USA Corp",
+    "companyName": "MILLENNIAL POTASH CORP.",
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "BMGCF",
@@ -18744,8 +18758,8 @@
     "industry": "Services-Computer Programming, Data Processing, Etc.",
     "isCaveatEmptor": false,
     "symbol": "CGUD",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Casino Guichard Perrachon SA",
@@ -35182,8 +35196,8 @@
     "industry": "Finance Services",
     "isCaveatEmptor": false,
     "symbol": "FGCO",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Fujitsu General Ltd.",
@@ -44753,7 +44767,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "HOLY COW FOODS INC.",
+    "companyName": "NEXTGEN FOOD ROBOTICS CORP.",
     "isCaveatEmptor": false,
     "symbol": "HCWFF",
     "tierCode": "PC",
@@ -49119,7 +49133,7 @@
   },
   {
     "companyName": "Invinity Energy Sys Plc.",
-    "country": "United Kingdom",
+    "country": "Jersey",
     "industry": "Storage batteries",
     "isCaveatEmptor": false,
     "symbol": "IESVF",
@@ -50074,6 +50088,15 @@
     "symbol": "IMIMF",
     "tierCode": "QB",
     "tierName": "OTCQB"
+  },
+  {
+    "companyName": "IMI plc",
+    "country": "United Kingdom",
+    "industry": "General Industrial Machinery & Equipment",
+    "isCaveatEmptor": false,
+    "symbol": "IMIUY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "OMNI BRIDGEWAY LTD.",
@@ -58228,8 +58251,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "LEBGF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Lecicio Egypt SAE",
@@ -58334,8 +58357,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "LEXTF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "LGBTQ Loyalty Holdings, Inc.",
@@ -60482,7 +60505,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Luff Enterprises Ltd.",
+    "companyName": "HERBAL DISPATCH INC.",
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "LUFFF",
@@ -65136,8 +65159,8 @@
     "country": "Sweden",
     "isCaveatEmptor": false,
     "symbol": "MOBNF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QX",
+    "tierName": "OTCQX International"
   },
   {
     "companyName": "Mobile Lads Corp",
@@ -66123,7 +66146,7 @@
   {
     "companyName": "MedSmart Group Inc.",
     "country": "United States",
-    "industry": "Eating places",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "MSGP",
     "tierCode": "PC",
@@ -68100,8 +68123,8 @@
     "industry": "Apparel and accessories, misc",
     "isCaveatEmptor": false,
     "symbol": "NECA",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "NextEra Energy, Inc.",
@@ -78114,8 +78137,8 @@
     "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "PNDLF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "PANDOX AB",
@@ -81504,8 +81527,8 @@
     "industry": "Crude petroleum and natural gas",
     "isCaveatEmptor": false,
     "symbol": "QREE",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Aurizon Holdings Ltd.",
@@ -84011,6 +84034,22 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Rockley Photonics Holdings Limited",
+    "industry": "Semiconductors and related devices",
+    "isCaveatEmptor": false,
+    "symbol": "RKLWQ",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Rockley Photonics Holdings Limited",
+    "industry": "Semiconductors and related devices",
+    "isCaveatEmptor": false,
+    "symbol": "RKLYQ",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Rokmaster Resources Corp.",
     "country": "Canada",
     "industry": "Metal Mining",
@@ -85003,8 +85042,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "RPSGF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "RSE COLLECTION LLC.",
@@ -97945,6 +97984,7 @@
   {
     "companyName": "Alianza Minerals Ltd.",
     "country": "Canada",
+    "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "TARSF",
     "tierCode": "QB",
@@ -108106,8 +108146,8 @@
     "industry": "Electronic & Other Electrical Equipment (No Computer Equip)",
     "isCaveatEmptor": false,
     "symbol": "VTXB",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Victrex Plc.",
