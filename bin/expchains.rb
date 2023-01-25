@@ -23,6 +23,7 @@ EXCLUDE_FROM_TAB_OLD_RE = [
     /nymex_2_daily_futures.csv/,
     /comex_2_daily_futures.csv/,
     /cme_2_daily_globex_futures.csv/,
+    /nymex_cfd_futures_internal.csv/,
 ]
 
 EXCLUDE_FROM_TAB_NEW_RE = [
@@ -30,6 +31,7 @@ EXCLUDE_FROM_TAB_NEW_RE = [
     /nymex_2_daily_futures.csv/,
     /comex_2_daily_futures.csv/,
     /cme_2_daily_globex_futures.csv/,
+    /nymex_cfd_futures_internal.csv/,
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
