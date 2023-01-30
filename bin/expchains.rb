@@ -35,13 +35,12 @@ EXCLUDE_FROM_TAB_NEW_RE = [
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_OLD_RE = [
-    /^NKTI.*-SGX$/
+    /^.*-1C$/,
 ]
 
 EXCLUDE_FROM_ICE_EXPCHAINS_NEW_RE = [
-    /-BOF$/,
-    /-ADF$/,
     /^JQ [A-Z][0-9][0-9]-CME$/,
+    /^.*-1C$/,
 ]
 
 class ExpChains
