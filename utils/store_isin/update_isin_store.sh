@@ -25,18 +25,18 @@ ADD_OPTIONS=""
 if [ "$SOURCE" == "production" ]; then
     echo "WARN: isin data will be pulled from production"
     URL_PREFIX="http://idc-nyc2.tradingview.com:8073"
-    MERGE_METHOD="-O"
+    MERGE_METHOD="--overwrite"
     ADD_OPTIONS="--prod-filter"
 else
     URL_PREFIX="http://idc-staging.tradingview.com:8071"
-    MERGE_METHOD="-A"
+    MERGE_METHOD="--append"
 fi
 
 ISIN_DIR="./isin-store"
 
 if [ ! -d "$ISIN_DIR" ]; then
     echo "Clone branch ${ISIN_BRANCH} from repo ${ISIN_REPO}"
-    git clone -b $ISIN_BRANCH "$ISIN_REPO" "$ISIN_DIR"
+    git clone --depth 1 -b $ISIN_BRANCH "$ISIN_REPO" "$ISIN_DIR"
 else
     pushd "$ISIN_DIR"
     echo "Update branch ${ISIN_BRANCH} from repo ${ISIN_REPO}"
@@ -46,21 +46,34 @@ else
     popd
 fi
 
-mkdir -p "${ISIN_DIR}/isin/"
-"${DIR}/isin_updater.rb" \
-    -D "${ISIN_DIR}/isin" \
+mkdir -p "${ISIN_DIR}/isin_new/"
+"${DIR}/isin_updater.rb" download \
+    -D "${ISIN_DIR}/isin_new" \
     -U "$URL_PREFIX" \
-    "$MERGE_METHOD" \
     $ADD_OPTIONS
 
 pushd "${ISIN_DIR}"
+git pull origin "$ISIN_BRANCH"
+popd
+
+mkdir -p "${ISIN_DIR}/isin/"
+"${DIR}/isin_updater.rb" merge \
+    --new-data "${ISIN_DIR}/isin_new" \
+    --prev-data "${ISIN_DIR}/isin" \
+    --target-data "${ISIN_DIR}/isin" \
+    $MERGE_METHOD
+
+pushd "${ISIN_DIR}"
+rm -rf "isin_new/"
+
 git add "isin/*"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $ISIN_BRANCH"
 else
     echo "Update isin in $ISIN_BRANCH"
     git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit isin"
+    CHANGED_FILES=$(git diff --name-only --cached | tr '\n' ' ')
+    git commit -m "Autocommit $CHANGED_FILES"
     git push origin "$ISIN_BRANCH"
 fi
 popd
