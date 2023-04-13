@@ -44,7 +44,7 @@ class ISINDownloader
         sources = resp.split(/\n/)
         sources.select! {|s| !(s =~ /^922$/)}
 
-        sources.select! {|s| s =~ /^545$/}
+#        sources.select! {|s| s =~ /^545$/}
         return sources
     end
 
@@ -238,7 +238,6 @@ class ISINDownloader
     end
 
     def mergeISINData(originalPath, newPath, targetPath, source, merge)
-        filePath = "#{dataPath}/#{source}.csv"
         data = readISINData("#{newPath}/#{source}.csv", source)
 
         if !merge.nil?
@@ -371,7 +370,7 @@ class ISINDownloader
         puts "Writing to #{targetPath}"
         isinData.each do |source, data|
             puts "Write isin for #{source}"
-            writeISINData(targetPath, source, data, merge)
+            writeISINData(targetPath, source, data)
         end
 
         #pp isinData
@@ -393,17 +392,6 @@ class ISINDownloader
             puts "Processing #{source}.csv"
             mergeISINData(prevPath, newPath, targetPath, source, merge)
         end
-
-        puts "Writing to #{targetPath}"
-        isinData.each do |source, data|
-            puts "Write isin for #{source}"
-            writeISINData(targetPath, source, data, merge)
-        end
-
-        #pp isinData
-
-        #feedSources.each {|f, s| s.each{|i| puts i}}
-        # pp feedSymbols
     end
 
 end
@@ -418,10 +406,7 @@ if __FILE__ == $0
         opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
             options[:verbose] = v
         end
-        opts.separator ""
-        opts.separator subtext
     end
-    #end.parse!
 
     subcommands = {
         'download' => OptionParser.new do |opts|
@@ -470,39 +455,4 @@ if __FILE__ == $0
         puts "Unsupported command"
         exit(1)
     end
-
-
-     puts "Command: #{command} "
-     p options
-     puts "ARGV:"
-     p ARGV
-
-
-    OptionParser.new do |opts|
-        opts.on("-U PREFIX", "--url-prefix PREFIX") do |v|
-            options[:urlPrefix] = v
-        end
-
-        opts.on("-D PATH", "--data path") do |v|
-            options[:dataPath] = v
-        end
-        opts.on("-v", "--verbose") do |v|
-            options[:verbose] = true
-        end
-        opts.on("-A", "--append") do |v|
-            options[:merge] = :append
-        end
-        opts.on("-O", "--overwrite") do |v|
-            options[:merge] = :overwrite
-        end
-        opts.on("--prod-filter") do |v|
-            options[:prodFilter] = true
-        end
-    end.parse!
-
-    filename = ARGV[0]
-
-    requester = ISINDownloader.new(options)
-
-    requester.run(options)
 end
