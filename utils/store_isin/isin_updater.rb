@@ -298,6 +298,7 @@ class ISINDownloader
     def readISINData(dataPath, source)
         isinData = {}
         filePath = "#{dataPath}/#{source}.csv"
+        puts "Loading #{filePath}"
         if !File.file? filePath
             return isinData
         end
