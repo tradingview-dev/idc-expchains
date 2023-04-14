@@ -238,7 +238,7 @@ class ISINDownloader
     end
 
     def mergeISINData(originalPath, newPath, targetPath, source, merge)
-        data = readISINData("#{newPath}/#{source}.csv", source)
+        data = readISINData(newPath, source)
 
         if !merge.nil?
             originalData = readISINData(originalPath, source)
