@@ -5,9 +5,9 @@ RUN apt-get update && \
     gem install typhoeus
 
 COPY isin_updater.rb /store_isin/
-COPY update_isin_store.sh /store_isin/
+COPY update_isin_storage.sh /store_isin/
 
 RUN chmod +x /store_isin/isin_updater.rb && \
-    chmod +x /store_isin/update_isin_store.sh
+    chmod +x /store_isin/update_isin_storage.sh
 
 WORKDIR /store_isin
