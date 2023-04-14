@@ -53,7 +53,7 @@ mkdir -p "${ISIN_DIR}/isin_new/"
     $ADD_OPTIONS
 
 pushd "${ISIN_DIR}"
-git pull origin "$ISIN_BRANCH"
+#git pull origin "$ISIN_BRANCH"
 popd
 
 mkdir -p "${ISIN_DIR}/isin/"
