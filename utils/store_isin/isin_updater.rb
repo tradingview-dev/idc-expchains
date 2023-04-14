@@ -44,7 +44,7 @@ class ISINDownloader
         sources = resp.split(/\n/)
         sources.select! {|s| !(s =~ /^922$/)}
 
-#        sources.select! {|s| s =~ /^545$/}
+        sources.select! {|s| s =~ /^2500$/}
         return sources
     end
 
