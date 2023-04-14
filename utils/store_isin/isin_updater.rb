@@ -44,7 +44,7 @@ class ISINDownloader
         sources = resp.split(/\n/)
         sources.select! {|s| !(s =~ /^922$/)}
 
-#        sources.select! {|s| s =~ /^545$/}
+#        sources.select! {|s| s =~ /^2500$/}
         return sources
     end
 
@@ -238,7 +238,7 @@ class ISINDownloader
     end
 
     def mergeISINData(originalPath, newPath, targetPath, source, merge)
-        data = readISINData("#{newPath}/#{source}.csv", source)
+        data = readISINData(newPath, source)
 
         if !merge.nil?
             originalData = readISINData(originalPath, source)
@@ -298,6 +298,7 @@ class ISINDownloader
     def readISINData(dataPath, source)
         isinData = {}
         filePath = "#{dataPath}/#{source}.csv"
+        puts "Loading #{filePath}"
         if !File.file? filePath
             return isinData
         end
