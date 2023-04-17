@@ -418,6 +418,9 @@ if __FILE__ == $0
             opts.on("-D PATH", "--data path") do |v|
                 options[:targetPath] = v
             end
+            opts.on("--prod-filter") do |v|
+                options[:prodFilter] = true
+            end
         end,
         'merge' => OptionParser.new do |opts|
             opts.banner = "Usage: merge [options]"
