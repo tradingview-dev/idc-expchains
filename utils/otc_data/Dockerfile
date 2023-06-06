@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends ruby-dev build-essential git openssh-client curl ruby2.7 && \
+    apt-get install -y --no-install-recommends ruby-dev build-essential git openssh-client curl ruby2.7 wget && \
     gem install typhoeus &&\
     cd /bin && \
     wget -O jq "https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux64" && \
