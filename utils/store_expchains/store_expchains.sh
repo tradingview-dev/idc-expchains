@@ -27,4 +27,5 @@ for GROUP in "${SI_OTHER_GROUPS[@]}"; do
     curl -s "$IDC_HOST/symbol_info?group=$GROUP" > "$SYMBOLINFO_DIR/$GROUP.json"
 done <<< "${SI_OTHER_GROUPS[@]}"
 
+echo "Running update_expchains.sh"
 "${DIR}/update_expchains.sh" "$SYMBOLINFO_DIR" "$EXPCHAINS_BRANCH"
