@@ -17,7 +17,7 @@ while read -r SI_GROUP; do
 done <<< "$SI_GROUPS"
 
 echo "Getting groups from $IDC_TVC_HOST"
-SI_TVC_GROUPS="$(curl -s "$IDC_TVC_HOST/meta/info.json" | jq -r  '.groups | keys | .[]' | grep '_futures$')"
+SI_TVC_GROUPS="$(curl -s "$IDC_TVC_HOST/meta/info.json" | jq -r  '.groups | keys | .[]' | grep '_futures$' || true)"
 while read -r SI_TVC_GROUP; do
     echo "Getting $SI_TVC_GROUP"
     curl -s "$IDC_TVC_HOST/symbol_info?group=$SI_TVC_GROUP" > "$SYMBOLINFO_DIR/$SI_TVC_GROUP.json"
