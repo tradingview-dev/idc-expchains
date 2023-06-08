@@ -59,7 +59,7 @@ if [ "$(git status -s)" = "" ]; then
 else
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit"
+    git commit -m "Autocommit expchains"
     git push origin "$EXPCHAINS_BRANCH"
 fi
 popd
