@@ -32,7 +32,7 @@ def format_to_tv_expchains(root, exp, exg, exp_date):
 
 
 def parse_line(line):
-    root, exp_exg, exp_date = re.split(r'\s(?=[A-Z])|\t', line.rstrip())
+    root, exp_exg, exp_date = re.split(r'\s(?=[A-Z0-9])|\t', line.rstrip())
     exp_exg = exp_exg.split('-')
     exp, exg = (exp_exg[0], exp_exg[1]) if len(exp_exg) == 2 else (exp_exg[0], None)
     exp = exp.split('=')[0]
