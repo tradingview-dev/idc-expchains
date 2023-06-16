@@ -19,6 +19,9 @@ done <<< "$SI_GROUPS"
 echo "Getting groups from $IDC_TVC_HOST"
 SI_TVC_GROUPS="$(curl -s "$IDC_TVC_HOST/meta/info.json" | jq -r  '.groups | keys | .[]' | grep '_futures$' || true)"
 while read -r SI_TVC_GROUP; do
+    if [[ -z "$SI_TVC_GROUP" ]]; then
+        continue
+    fi
     echo "Getting $SI_TVC_GROUP"
     curl -s "$IDC_TVC_HOST/symbol_info?group=$SI_TVC_GROUP" | jq . > "$SYMBOLINFO_DIR/$SI_TVC_GROUP.json"
 done <<< "$SI_TVC_GROUPS"
