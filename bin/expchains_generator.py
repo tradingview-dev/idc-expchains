@@ -18,13 +18,15 @@ def print_result(output_file, result):
 
 
 def format_to_tv_expchains(root, exp, exg, exp_date):
-    year = re.search(r'\d{4}', exp).group(0)
+    match = re.match(r'(?P<y1>\d{4})(?P<m1>[A-Z])|(?P<m2>[A-Z])(?P<y2>\d{4})', exp)
+    year = match.group('y1') or match.group('y2')
+    month = match.group('m1') or match.group('m2')
     if exg is not None:
         dbc_symbol = '{0} {1}-{2}'.format(root, exp, exg)
     else:
         dbc_symbol = '{0} {1}'.format(root, exp)
-    tv_symbol = root + exp
-    rts_symbol = 'F:{0}\\{1}'.format(root, year[-2:])
+    tv_symbol = root + month + year
+    rts_symbol = 'F:{0}\\{1}{2}'.format(root, month, year[-2:])
     tv_root = root
     exp_date = exp_date.translate(None, '/')
     exp_date = exp_date[-4:] + exp_date[:2] + exp_date[2:4]
