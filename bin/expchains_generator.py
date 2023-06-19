@@ -7,7 +7,7 @@ import sys
 
 
 def print_result(output_file, result):
-    result = sorted(result, key=lambda it: it[0])
+    result = sorted(result, key=lambda it: it[4])
     if output_file == 'stdout':
         for item in result:
             print(','.join(map(str, item)))
