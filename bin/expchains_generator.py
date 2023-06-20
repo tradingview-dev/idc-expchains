@@ -7,7 +7,7 @@ import sys
 
 
 def print_result(output_file, result):
-    result = sorted(result, key=lambda it: it[0])
+    result = sorted(result, key=lambda it: it[1])
     if output_file == 'stdout':
         for item in result:
             print(','.join(map(str, item)))
@@ -28,7 +28,7 @@ def format_to_tv_expchains(root, exp, exg, exp_date):
     tv_symbol = root + month + year
     rts_symbol = 'F:{0}\\{1}{2}'.format(root, month, year[-2:])
     tv_root = root
-    exp_date = exp_date.translate(None, '/')
+    exp_date = re.sub('/', '', exp_date)
     exp_date = exp_date[-4:] + exp_date[:2] + exp_date[2:4]
     return dbc_symbol, rts_symbol, tv_root, tv_symbol, exp_date
 
