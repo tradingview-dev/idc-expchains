@@ -6,6 +6,9 @@ import re
 import sys
 
 
+ILLEGAL_SYMBOL_MESSAGE = 'Illegal symbol'
+
+
 def print_result(output_file, result):
     result = sorted(result, key=lambda it: it[3] + it[4])
     if output_file == 'stdout':
@@ -18,23 +21,29 @@ def print_result(output_file, result):
 
 
 def format_to_tv_expchains(root, exp, exg, exp_date):
-    match = re.match(r'(?P<y1>\d{4})(?P<m1>[A-Z])|(?P<m2>[A-Z])(?P<y2>\d{4})', exp)
+    match = re.match(r'(?P<y1>\d{4})(?P<m1>[A-Z])|(?P<m2>[A-Z])(?P<e>\d?)(?P<y2>\d{4})', exp)
+    if not match or match.group('e'):
+        if exg:
+            raise ValueError('{0} {1} {2}'.format(root, exp, exp_date), ILLEGAL_SYMBOL_MESSAGE)
+        else:
+            raise ValueError('{0} {1}-{2} {3}'.format(root, exp, exg, exp_date), ILLEGAL_SYMBOL_MESSAGE)
     year = match.group('y1') or match.group('y2')
     month = match.group('m1') or match.group('m2')
-    if exg is not None:
-        dbc_symbol = '{0} {1}-{2}'.format(root, exp, exg)
-    else:
-        dbc_symbol = '{0} {1}'.format(root, exp)
+    dbc_symbol = '{0} {1}-{2}'.format(root, exp, exg) if not exg else '{0} {1}'.format(root, exp)
     tv_symbol = root + month + year
     rts_symbol = 'F:{0}\\{1}{2}'.format(root, month, year[-2:])
     tv_root = root
-    exp_date = re.sub('/', '', exp_date)
+    exp_date = re.sub(r'/', '', exp_date)
+    exp_date = re.sub(r' ', '0', exp_date)
     exp_date = exp_date[-4:] + exp_date[:2] + exp_date[2:4]
     return dbc_symbol, rts_symbol, tv_root, tv_symbol, exp_date
 
 
 def parse_line(line):
-    root, exp_exg, exp_date = re.split(r'\s(?=[A-Z0-9])|\t', line.rstrip())
+    try:
+        root, exp_exg, exp_date = re.split(r'(?<![\t/])\s', line.rstrip())
+    except ValueError:
+        raise ValueError(line, ILLEGAL_SYMBOL_MESSAGE)
     exp_exg = exp_exg.split('-')
     exp, exg = (exp_exg[0], exp_exg[1]) if len(exp_exg) == 2 else (exp_exg[0], None)
     exp = exp.split('=')[0]
@@ -45,11 +54,13 @@ def search_and_parse(input_file, regex):
     result, pattern = [], re.compile(regex, re.MULTILINE)
     with open(input_file, 'r') as input_file:
         for line in input_file:
-            if pattern.search(line) is not None:
-                root, exp, exg, exp_date = parse_line(line)
-                dbc_symbol, rts_symbol, tv_root, tv_symbol, exp_date = format_to_tv_expchains(root, exp, exg, exp_date)
-                result.append([tv_symbol, dbc_symbol, rts_symbol, tv_root, exp_date])
-
+            if pattern.search(line):
+                try:
+                    root, exp, exg, exp_date = parse_line(line)
+                    dbc_symbol, rts_symbol, tv_root, tv_symbol, exp_date = format_to_tv_expchains(root, exp, exg, exp_date)
+                    result.append([tv_symbol, dbc_symbol, rts_symbol, tv_root, exp_date])
+                except ValueError as (arg, strerror):
+                    sys.stderr.write('{0}: {1} has been skipped\n'.format(strerror, arg))
     return result
 
 
