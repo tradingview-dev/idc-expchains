@@ -1,9 +1,6 @@
 #!/bin/bash
 set -e
 
-SCRIPT=$(readlink -f $0)
-SCRIPTPATH=`dirname $SCRIPT`
-
 EXPCHAINS_REPO="git@xgit.tradingview.com:tv/idc-expchains.git"
 
 if [ "$1" == "" ]; then
@@ -34,27 +31,34 @@ else
 fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
-FILE="${EXP_CHAINS_DIR}/dictionaries/otc_data.json"
+FILE="${EXP_CHAINS_DIR}/dictionaries/CorpActs.tab"
 
-tmpfile=$(mktemp /tmp/otc_data.XXXXXX)
+tmpfile=$(mktemp /tmp/corpacts.XXXXXX)
 
-ruby "$SCRIPTPATH/otc_data.rb" --merge "${FILE}" | jq -S . > "${tmpfile}"
+
+URLS=("https://esignalreport.com/update/CorpActs.tab" "http://fs2.esignal.com/CorpActs.tab")
+
+for url in "${URLS[@]}"; do
+  curl -s --compressed --retry 3 --max-time 480 -o "${tmpfile}" --url "$url" && break
+done
+
 mv "${tmpfile}" "${FILE}"
 FILE_SIZE=$(stat --printf '%s' "${FILE}")
 
-if [ "$FILE_SIZE" -lt "2000000" ]; then
+if [ "$FILE_SIZE" -lt "400000" ]; then
     	echo "ERROR: Resulting file ${FILE} is too small ${FILE_SIZE}"
     	exit 1
 fi
 
 pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/otc_data.json"
+git add "dictionaries/CorpActs.tab"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit otc_data"
+    git commit -m "Autocommit CorpActs.tab"
     git push origin "$EXPCHAINS_BRANCH"
 fi
 popd
+
