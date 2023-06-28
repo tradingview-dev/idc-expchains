@@ -23,7 +23,7 @@ EXP_CHAINS_DIR="./idc-expchains"
 
 if [ ! -d "$EXP_CHAINS_DIR" ]; then
     echo "Clone branch ${EXPCHAINS_BRANCH} from repo ${EXPCHAINS_REPO}"
-    git clone -b $EXPCHAINS_BRANCH "$EXPCHAINS_REPO" "$EXP_CHAINS_DIR"
+    git clone --depth 1 --single-branch -b $EXPCHAINS_BRANCH "$EXPCHAINS_REPO" "$EXP_CHAINS_DIR"
 else
     pushd "$EXP_CHAINS_DIR"
     echo "Update branch ${EXPCHAINS_BRANCH} from repo ${EXPCHAINS_REPO}"
