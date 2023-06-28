@@ -36,7 +36,7 @@ ISIN_DIR="./isin-store"
 
 if [ ! -d "$ISIN_DIR" ]; then
     echo "Clone branch ${ISIN_BRANCH} from repo ${ISIN_REPO}"
-    git clone --depth 1 -b $ISIN_BRANCH "$ISIN_REPO" "$ISIN_DIR"
+    git clone --depth 1 --single-branch -b $ISIN_BRANCH "$ISIN_REPO" "$ISIN_DIR"
 else
     pushd "$ISIN_DIR"
     echo "Update branch ${ISIN_BRANCH} from repo ${ISIN_REPO}"
