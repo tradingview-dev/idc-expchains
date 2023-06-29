@@ -4,7 +4,7 @@ set -e
 SCRIPT=$(readlink -f $0)
 SCRIPTPATH=`dirname $SCRIPT`
 
-EXPCHAINS_REPO="git@xgit.tradingview.com:tv/idc-expchains.git"
+EXPCHAINS_REPO="git@xgit.tradingview.com:idc/idc-expchains.git"
 
 if [ "$1" == "" ]; then
 	echo "Please specify expchains branch"
