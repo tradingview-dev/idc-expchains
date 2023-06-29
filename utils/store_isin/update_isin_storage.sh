@@ -2,7 +2,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-ISIN_REPO="git@git.xtools.tv:tv/idc-expchains.git"
+ISIN_REPO="git@git.xtools.tv:idc/idc-expchains.git"
 
 if [ "$1" == "" ]; then
 	echo "Please specify data source production or staging"
