@@ -8854,6 +8854,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Atento S.A.",
+    "industry": "Telephone communication, except radio",
+    "isCaveatEmptor": false,
+    "symbol": "ATTOF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Ascott Residence Trust",
     "country": "Singapore",
     "isCaveatEmptor": false,
@@ -23777,6 +23785,7 @@
   {
     "companyName": "CHILEAN COBALT CORP.",
     "country": "United States",
+    "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "COBA",
     "tierCode": "PC",
@@ -29690,6 +29699,7 @@
   },
   {
     "companyName": "Damico International Shipping SA",
+    "country": "Luxembourg",
     "isCaveatEmptor": false,
     "symbol": "DMCOF",
     "tierCode": "PL",
@@ -36947,8 +36957,8 @@
     "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "FCIC",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "First Citrus Bancorporation, Inc.",
@@ -43357,6 +43367,15 @@
     "symbol": "GIGA",
     "tierCode": "QB",
     "tierName": "OTCQB"
+  },
+  {
+    "companyName": "Giga Metals Corp",
+    "country": "Canada",
+    "industry": "Metal Mining",
+    "isCaveatEmptor": false,
+    "symbol": "GIGGF",
+    "tierCode": "QX",
+    "tierName": "OTCQX International"
   },
   {
     "companyName": "Genting Singapore Limited",
@@ -84926,6 +84945,13 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "PT Sumber Alfaria Trijaya TBK",
+    "isCaveatEmptor": false,
+    "symbol": "PSBAF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Postal Savings Bank of China Corp Ltd.",
     "isCaveatEmptor": false,
     "symbol": "PSBKF",
@@ -94653,8 +94679,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "SCRSF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "SCOR",
@@ -100463,8 +100489,8 @@
     "industry": "Patent owners and lessors",
     "isCaveatEmptor": false,
     "symbol": "SPEV",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Spey Resources Corp.",
@@ -107305,8 +107331,8 @@
     "industry": "Electric services",
     "isCaveatEmptor": false,
     "symbol": "TLNE",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "QX",
+    "tierName": "OTCQX U.S."
   },
   {
     "companyName": "Talon Metals Corp.",
