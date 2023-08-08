@@ -5,12 +5,12 @@ import inspect
 import os
 import re
 import sys
-
+from typing import Optional
 
 ILLEGAL_SYMBOL_MESSAGE = 'Illegal symbol'
 
 
-def print_result(output_file, result):
+def print_result(output_file: str, result: list[tuple[str, str, str, str, str]]) -> None:
     """
     Prints results to a file or std out.
     :param output_file: a file to write results, if not specified the program will write to std out
@@ -26,7 +26,7 @@ def print_result(output_file, result):
                 f.write('{0}\n'.format(','.join(map(str, item))))
 
 
-def format_to_tv_expchains(root, exp, exg, exp_date):
+def format_to_tv_expchains(root: str, exp: str, exg: Optional[str], exp_date: str) -> tuple[str, str, str, str, str]:
     """
     Formats source expchains components to tv expchains components.
     :param root: source root component
@@ -51,10 +51,10 @@ def format_to_tv_expchains(root, exp, exg, exp_date):
     exp_date = re.sub(r'/', '', exp_date)
     exp_date = re.sub(r' ', '0', exp_date)
     exp_date = exp_date[-4:] + exp_date[:2] + exp_date[2:4]
-    return dbc_symbol, rts_symbol, tv_root, tv_symbol, exp_date
+    return tv_symbol, dbc_symbol, rts_symbol, tv_root, exp_date
 
 
-def parse_line(line):
+def parse_line(line: str) -> tuple[str, str, Optional[str], str]:
     """
     Parses a passed line to components.
     :param line: line to parse
@@ -62,35 +62,47 @@ def parse_line(line):
     :raise ValueError: if failed to split the passed line into required components
     """
     try:
+        # the exp_exg variable must have an expiration component and should have an exchange component
         root, exp_exg, exp_date = re.split(r'(?<![\t/])\s', line.rstrip())
     except ValueError:
         raise ValueError('{0}: {1} "{2}"'.format(inspect.currentframe().f_code.co_name, ILLEGAL_SYMBOL_MESSAGE, line.rstrip()))
     exp_exg = exp_exg.split('-')
     exp, exg = (exp_exg[0], exp_exg[1]) if len(exp_exg) == 2 else (exp_exg[0], None)
-    exp = exp.split('=')[0]
     return root, exp, exg, exp_date
 
 
-def search_and_parse(input_file, regex):
+def parse(lines: list[str]) -> list[tuple[str, str, str, str, str]]:
     """
-    Reads a file line by line, tests each line for passed template,
-    tries to parse the line into components if matched,
+    Tries to parse each line into components,
     and tries to format the components to tv expchains format.
-    :param input_file: a file to parse
-    :param regex: a template to test
+    :param lines: a list of lines to parse
     :return: a list of expchains components
     :raise ValueError: if failed to parse a line or failed to format the components to tv expchains format
+    """
+    result = []
+    for line in lines:
+        try:
+            root, exp, exg, exp_date = parse_line(line)
+            result.append(format_to_tv_expchains(root, exp, exg, exp_date))
+        except ValueError as e:
+            sys.stderr.write('{0} has been skipped\n'.format(e))
+    return result
+
+
+def search(input_file: str, regex: str) -> list[str]:
+    """
+    Reads a file line by line and tests each line for passed template.
+    :param input_file: a file to parse
+    :param regex: a template to test
+    :return: a list of matched lines
     """
     result, pattern = [], re.compile(regex, re.MULTILINE)
     with open(input_file, 'r') as input_file:
         for line in input_file:
             if pattern.search(line):
-                try:
-                    root, exp, exg, exp_date = parse_line(line)
-                    dbc_symbol, rts_symbol, tv_root, tv_symbol, exp_date = format_to_tv_expchains(root, exp, exg, exp_date)
-                    result.append([tv_symbol, dbc_symbol, rts_symbol, tv_root, exp_date])
-                except ValueError as e:
-                    sys.stderr.write('{0} has been skipped\n'.format(e))
+                if '=' in line:
+                    continue  # drop the entries with session ID
+                result.append(line)
     return result
 
 
@@ -111,7 +123,7 @@ def main(args):
               'place it nearly this script.'.format(args.input_file))
         return 1
 
-    result = search_and_parse(args.input_file, args.regex)
+    result = parse(search(args.input_file, args.regex))
     print_result(args.output_file, result)
 
     return 0
