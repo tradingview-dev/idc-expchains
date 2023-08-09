@@ -10,7 +10,7 @@ from typing import Optional
 ILLEGAL_SYMBOL_MESSAGE = 'Illegal symbol'
 
 
-def print_result(output_file: str, result: list[tuple[str, str, str, str, str]]) -> None:
+def print_result(output_file: str, result: list) -> None:
     """
     Prints results to a file or std out.
     :param output_file: a file to write results, if not specified the program will write to std out
@@ -26,7 +26,7 @@ def print_result(output_file: str, result: list[tuple[str, str, str, str, str]])
                 f.write('{0}\n'.format(','.join(map(str, item))))
 
 
-def format_to_tv_expchains(root: str, exp: str, exg: Optional[str], exp_date: str) -> tuple[str, str, str, str, str]:
+def format_to_tv_expchains(root: str, exp: str, exg: Optional[str], exp_date: str) -> tuple:
     """
     Formats source expchains components to tv expchains components.
     :param root: source root component
@@ -54,7 +54,7 @@ def format_to_tv_expchains(root: str, exp: str, exg: Optional[str], exp_date: st
     return tv_symbol, dbc_symbol, rts_symbol, tv_root, exp_date
 
 
-def parse_line(line: str) -> tuple[str, str, Optional[str], str]:
+def parse_line(line: str) -> tuple:
     """
     Parses a passed line to components.
     :param line: line to parse
@@ -71,7 +71,7 @@ def parse_line(line: str) -> tuple[str, str, Optional[str], str]:
     return root, exp, exg, exp_date
 
 
-def parse(lines: list[str]) -> list[tuple[str, str, str, str, str]]:
+def parse(lines: list) -> list:
     """
     Tries to parse each line into components,
     and tries to format the components to tv expchains format.
@@ -89,7 +89,7 @@ def parse(lines: list[str]) -> list[tuple[str, str, str, str, str]]:
     return result
 
 
-def search(input_file: str, regex: str) -> list[str]:
+def search(input_file: str, regex: str) -> list:
     """
     Reads a file line by line and tests each line for passed template.
     :param input_file: a file to parse
