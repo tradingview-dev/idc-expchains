@@ -9,6 +9,7 @@ EXCLUDE_FROM_TAB_OLD_RE = [
     /cbot_2_mini_futures.csv/,
     /cbot_2_mini_globex_futures.csv/,
     /cme_2_daily_globex_futures.csv/,
+    /cme_2_daily_mini_futures.csv/,
     /cme_2_globex_futures.csv/,
     /cme_2_mini_futures.csv/,
     /cme_2_mini_globex_futures.csv/,
@@ -29,6 +30,7 @@ EXCLUDE_FROM_TAB_OLD_RE = [
 
 EXCLUDE_FROM_TAB_NEW_RE = [
     /cme_2_daily_globex_futures.csv/,
+    /cme_2_daily_mini_futures.csv/,
     /comex_2_daily_futures.csv/,
     /moex_futures.csv/,
     /moex_iss_futures.csv/,
