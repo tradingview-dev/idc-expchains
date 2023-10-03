@@ -2043,7 +2043,7 @@
     "tierName": "Pink Limited"
   },
   {
-    "companyName": "Aegon N.V.",
+    "companyName": "Aegon Ltd.",
     "country": "Netherlands",
     "industry": "Life insurance",
     "isCaveatEmptor": false,
@@ -5391,8 +5391,8 @@
     "industry": "Services-Health Services",
     "isCaveatEmptor": false,
     "symbol": "AMIH",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Ashanti Sankofa Inc.",
@@ -18935,8 +18935,8 @@
     "industry": "Subdivisers and developers, misc",
     "isCaveatEmptor": false,
     "symbol": "CCAJ",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Colonial Coal International Corp",
@@ -30794,8 +30794,8 @@
     "industry": "American Depositary Receipts",
     "isCaveatEmptor": false,
     "symbol": "DNKEY",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Denki Kogyo Co., Ltd.",
@@ -30910,8 +30910,8 @@
     "industry": "American Depositary Receipts",
     "isCaveatEmptor": false,
     "symbol": "DNSKF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "DENTALCORP HLDGS LTD",
@@ -35003,6 +35003,24 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Enbridge Inc.",
+    "country": "Canada",
+    "industry": "Pipe Lines (No Natural Gas)",
+    "isCaveatEmptor": false,
+    "symbol": "ENBNF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Enbridge Inc.",
+    "country": "Canada",
+    "industry": "Pipe Lines (No Natural Gas)",
+    "isCaveatEmptor": false,
+    "symbol": "ENBOF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "ENB Financial Corp.",
     "country": "United States",
     "industry": "National commercial banks",
@@ -35278,8 +35296,8 @@
     "country": "Hong Kong",
     "isCaveatEmptor": false,
     "symbol": "ENMHF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "DH ENCHANTMENT INC.",
@@ -36334,8 +36352,8 @@
     "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "ETER",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Eastfield Resources Ltd.",
@@ -41406,8 +41424,8 @@
     "industry": "Screw machine products",
     "isCaveatEmptor": false,
     "symbol": "FSCR",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "First Seismic Corp.",
@@ -55191,8 +55209,8 @@
     "industry": "Pharmaceutical preparations",
     "isCaveatEmptor": false,
     "symbol": "INFIQ",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Infinity Bancorp",
@@ -55955,8 +55973,8 @@
     "industry": "Aircraft parts and equipment, misc",
     "isCaveatEmptor": false,
     "symbol": "IPTK",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Indianapolis Power & Light Co.",
@@ -57513,6 +57531,14 @@
     "companyName": "INVICTA HOLDINGS LTD.",
     "isCaveatEmptor": false,
     "symbol": "IVCHF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "INVOCARE LTD",
+    "country": "Australia",
+    "isCaveatEmptor": false,
+    "symbol": "IVCLF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -64731,8 +64757,8 @@
     "industry": "Medicinal and botanicals",
     "isCaveatEmptor": false,
     "symbol": "LMLLF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "LITHIUM AUSTRALIA LTD",
@@ -72378,6 +72404,14 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "MENSCH UND MASCHINE SOFTWARE SE",
+    "country": "Germany",
+    "isCaveatEmptor": false,
+    "symbol": "MSHHF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Mitsubishi Shokuhin Co Ltd.",
     "isCaveatEmptor": false,
     "symbol": "MSHXF",
@@ -74076,8 +74110,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "NBMFF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "NetBrands Corp.",
@@ -75746,6 +75780,14 @@
     "symbol": "NKGFF",
     "tierCode": "QX",
     "tierName": "OTCQX International"
+  },
+  {
+    "companyName": "Nakanishi Inc. Tochigi",
+    "country": "Japan",
+    "isCaveatEmptor": false,
+    "symbol": "NKNSF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "NIPPON KANZAI HOLDINGS CO LTD.",
@@ -86254,6 +86296,15 @@
     "country": "Canada",
     "industry": "Oil and gas exploration services",
     "isCaveatEmptor": false,
+    "symbol": "PPLOF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Pembina Pipeline Corp.",
+    "country": "Canada",
+    "industry": "Oil and gas exploration services",
+    "isCaveatEmptor": false,
     "symbol": "PPLPF",
     "tierCode": "PC",
     "tierName": "Pink Current"
@@ -87274,6 +87325,14 @@
     "symbol": "PSMMY",
     "tierCode": "PC",
     "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Personal Assets Trust Plc",
+    "country": "United Kingdom",
+    "isCaveatEmptor": false,
+    "symbol": "PSNTF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Pearson PLC",
@@ -90722,6 +90781,14 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "RAIDEN RES LTD",
+    "country": "Australia",
+    "isCaveatEmptor": false,
+    "symbol": "RDNRF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Redefine Properties Ltd.",
     "isCaveatEmptor": false,
     "symbol": "RDPEF",
@@ -92457,8 +92524,8 @@
     "industry": "Cable and pay television services",
     "isCaveatEmptor": false,
     "symbol": "RLTR",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "RELX PLC",
@@ -98381,8 +98448,8 @@
     "industry": "Pharmaceutical preparations",
     "isCaveatEmptor": false,
     "symbol": "SGBI",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Standard Bank Group Ltd.",
@@ -104261,6 +104328,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "SSGA SPDR ETFS Europe I PLC",
+    "country": "United States",
+    "isCaveatEmptor": false,
+    "symbol": "SSDVF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Silver Spruce Resources Inc.",
     "country": "Canada",
     "isCaveatEmptor": false,
@@ -104716,6 +104791,14 @@
     "symbol": "SSSAF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "SSGA SPDR ETFS Europe I PLC",
+    "country": "United States",
+    "isCaveatEmptor": false,
+    "symbol": "SSSDF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "SSGA SPDR ETFS EUROPE II PLC",
@@ -111063,8 +111146,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "TNTAF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "PostNL N.V.",
@@ -111583,6 +111666,7 @@
   },
   {
     "companyName": "TOYS R US ANZ LTD.",
+    "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "TOYRF",
     "tierCode": "PC",
@@ -116907,7 +116991,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "VIA SA",
+    "companyName": "Grupo Casas Bahia S.A.",
     "country": "Brazil",
     "isCaveatEmptor": false,
     "symbol": "VIAYY",
@@ -120144,6 +120228,7 @@
   },
   {
     "companyName": "Widad Group Berhad",
+    "country": "Malaysia",
     "isCaveatEmptor": false,
     "symbol": "WIDGF",
     "tierCode": "PL",
