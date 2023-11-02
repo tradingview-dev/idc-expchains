@@ -31,33 +31,46 @@ else
 fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
-FILE="${EXP_CHAINS_DIR}/dictionaries/CorpActs.tab"
+CORPACTS_FILE="${EXP_CHAINS_DIR}/dictionaries/CorpActs.tab"
+LASTCORPACTS_FILE="${EXP_CHAINS_DIR}/dictionaries/LastCorpActs.tab"
 
-tmpfile=$(mktemp /tmp/corpacts.XXXXXX)
+TMP_CORPACTS_FILE=$(mktemp /tmp/corpacts.XXXXXX)
+TMP_LASTCORPACTS_FILE=$(mktemp /tmp/lastcorpacts.XXXXXX)
 
 
 URLS=("https://esignalreport.com/update/CorpActs.tab" "http://fs2.esignal.com/CorpActs.tab")
 
 for url in "${URLS[@]}"; do
-  curl -s --compressed --retry 3 --max-time 480 -o "${tmpfile}" --url "$url" && break
+  curl -s --compressed --retry 3 --max-time 480 -o "${TMP_CORPACTS_FILE}" --url "$url" && break
 done
 
-mv "${tmpfile}" "${FILE}"
-FILE_SIZE=$(stat --printf '%s' "${FILE}")
+echo "Generating LastCorpActs.tab from CorpActs.tab..."
+LASTCORPACTS_SCRIPT="${EXP_CHAINS_DIR}/bin/lastcorpacts.rb"
+ruby "${LASTCORPACTS_SCRIPT}" -f "${TMP_CORPACTS_FILE}" > "${TMP_LASTCORPACTS_FILE}"
+LINES=$(wc -l <"${TMP_LASTCORPACTS_FILE}")
+echo "Completed. Generated ${LINES} line(s)"
+
+mv "${TMP_CORPACTS_FILE}" "${CORPACTS_FILE}"
+mv "${TMP_LASTCORPACTS_FILE}" "${LASTCORPACTS_FILE}"
+
+FILE_SIZE=$(stat --printf '%s' "${CORPACTS_FILE}")
 
 if [ "$FILE_SIZE" -lt "400000" ]; then
-    	echo "ERROR: Resulting file ${FILE} is too small ${FILE_SIZE}"
+    	echo "ERROR: Resulting file ${CORPACTS_FILE} is too small ${FILE_SIZE}"
     	exit 1
 fi
 
 pushd "$EXP_CHAINS_DIR"
+
 git add "dictionaries/CorpActs.tab"
+git add "dictionaries/LastCorpActs.tab"
+
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit CorpActs.tab"
+    git commit -m "Autocommit CorpActs.tab and LastCorpActs.tab"
     git push origin "$EXPCHAINS_BRANCH"
 fi
 popd
