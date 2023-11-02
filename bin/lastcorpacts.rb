@@ -59,6 +59,7 @@ if __FILE__ == $0
 			lastSplits[symbol] = item;
 		end
 
+		puts "symbol;split-date;split-factor"
 		lastSplits.each{ |key, value| puts value.toString }
     rescue SystemExit => e
         raise e
