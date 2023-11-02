@@ -20,7 +20,9 @@ if __FILE__ == $0
 	    lastSplits = Hash.new
 	    currentDate = "19000101"
 	    skippedMode = true
+	    lineNumber = 0
 		File.open(corpActsTabFile).each do |line|
+			lineNumber = lineNumber + 1
 			line = line.strip
 			if !line
 				next
@@ -38,20 +40,21 @@ if __FILE__ == $0
 			end
 
 			if skippedMode
-				STDERR.puts "Skipped '" + line + "'"
+				STDERR.puts "Skipped line " + lineNumber.to_s + ":'" + line + "'"
 				next
 			end
 
 			m = /^(.*):(.*),(.*)/.match(line)
 			if !m
-				STDERR.puts "Unable to parse '" + line + "'. Skipped"
+				STDERR.puts "Unable to parse line " + lineNumber.to_s + ":'" + line + "'. Skipped"
+				next
 			end
 
 			symbol = m[2].strip
 			factor = m[3].strip
 
 			if !symbol
-				STDERR.puts "Skipped '" + line + "' due empty symbol"
+				STDERR.puts "Skipped line " + lineNumber.to_s + ":'" + line + "' due empty symbol"
 				next
 			end
 
