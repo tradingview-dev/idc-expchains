@@ -50,8 +50,8 @@ if [ "$FILE_SIZE1" -lt "2500" ] || [ "$FILE_SIZE2" -lt "2500" ]; then
     exit 1
 fi
 
-mv FILE1 "${EXP_CHAINS_DIR}/dictionaries/"
-mv FILE2 "${EXP_CHAINS_DIR}/dictionaries/"
+mv "${FILE1}" "${EXP_CHAINS_DIR}/dictionaries/"
+mv "${FILE2}" "${EXP_CHAINS_DIR}/dictionaries/"
 
 pushd "$EXP_CHAINS_DIR"
 git add "dictionaries/amex_data.csv" "dictionaries/nyse_data.csv"
