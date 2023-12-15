@@ -45,7 +45,7 @@ echo "Python script done"
 FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
 FILE_SIZE2=$(stat --printf '%s' "${FILE2}")
 
-f [ "$FILE_SIZE1" -lt "2500" ] || [ "$FILE_SIZE2" -lt "2500" ]; then
+if [ "$FILE_SIZE1" -lt "2500" ] || [ "$FILE_SIZE2" -lt "2500" ]; then
     echo "ERROR: One or both resulting files are too small"
     exit 1
 fi
