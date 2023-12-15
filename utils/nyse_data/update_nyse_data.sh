@@ -40,8 +40,6 @@ python3 "$SCRIPTPATH/nyse_data.py"
 FILE1="${SCRIPTPATH}/amex_data.csv"
 FILE2="${SCRIPTPATH}/nyse_data.csv"
 
-echo "Python script done"
-
 FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
 FILE_SIZE2=$(stat --printf '%s' "${FILE2}")
 
