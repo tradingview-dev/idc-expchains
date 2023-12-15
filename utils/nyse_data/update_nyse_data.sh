@@ -34,10 +34,13 @@ else
 fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
-FILE1="${EXP_CHAINS_DIR}/dictionaries/amex_data.csv"
-FILE2="${EXP_CHAINS_DIR}/dictionaries/nyse_data.csv"
 
-python3 "$SCRIPTPATH/nyse_data.py" "${FILE1}" "${FILE2}"
+python3 "$SCRIPTPATH/nyse_data.py"
+
+FILE1="${SCRIPTPATH}/amex_data.csv"
+FILE2="${SCRIPTPATH}/nyse_data.csv"
+
+echo "Python script done"
 
 FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
 FILE_SIZE2=$(stat --printf '%s' "${FILE2}")
@@ -46,6 +49,9 @@ f [ "$FILE_SIZE1" -lt "2500" ] || [ "$FILE_SIZE2" -lt "2500" ]; then
     echo "ERROR: One or both resulting files are too small"
     exit 1
 fi
+
+mv FILE1 "${EXP_CHAINS_DIR}/dictionaries/"
+mv FILE2 "${EXP_CHAINS_DIR}/dictionaries/"
 
 pushd "$EXP_CHAINS_DIR"
 git add "dictionaries/amex_data.csv" "dictionaries/nyse_data.csv"
