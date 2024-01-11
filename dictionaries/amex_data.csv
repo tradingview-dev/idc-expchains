@@ -2,6 +2,7 @@ tv-symbol;description;mic-code
 AAA;AXS First Priority CLO Bond ETF;ARCX
 AAAU;Goldman Sachs Physical Gold ETF Shares;BATS
 AAMC;Altisource Asset Mgmt Corp;XASE
+AAPX;T-Rex 2X Long Apple Daily Target ETF;BATS
 AAPY;Kurv Yield Premium Strategy Apple (AAPL) ETF;BATS
 AAU;Almaden Minerals Ltd.;XASE
 ABEQ;Absolute Select Value ETF;ARCX
@@ -98,6 +99,7 @@ ARCM;Arrow Reserve Capital Management ETF;BATS
 AREN;The Arena Group Holdings Inc.;XASE
 ARGT;Global X MSCI Argentina ETF;ARCX
 ARKA;ARK 21Shares Active Bitcoin Futures Strategy ETF;BATS
+ARKB;ARK 21Shares Bitcoin ETF;BATS
 ARKC;ARK 21Shares Active On-Chain Bitcoin Strategy ETF;BATS
 ARKD;ARK 21Shares Blockchain and Digital Economy Innovation ETF;BATS
 ARKF;ARK Fintech Innovation ETF;ARCX
@@ -248,6 +250,7 @@ BILS;SPDR Bloomberg 3-12 Month T-Bill ETF;ARCX
 BILZ;PIMCO Ultra Short Government Active ETF;ARCX
 BINC;BlackRock Flexible Income ETF;ARCX
 BINV;Brandes International ETF;BATS
+BITB;Bitwise Bitcoin ETF;ARCX
 BITC;Bitwise Bitcoin Strategy Optimum Roll ETF;ARCX
 BITE;Bite Acquisition Corp.;XASE
 BITE.U;Bite Acquisition Corp. Units each consisting of one share of common stock and one-half of one redeemable warrant;XASE
@@ -320,6 +323,8 @@ BSR;Beacon Selective Risk ETF;ARCX
 BSTP;Innovator Buffer Step-Up Strategy ETF;ARCX
 BSV;Vanguard Short-Term Bond ETF;ARCX
 BTAL;AGF U.S. Market Neutral Anti-Beta Fund;ARCX
+BTCO;Invesco Galaxy Bitcoin ETF;BATS
+BTCW;WisdomTree Bitcoin Fund;BATS
 BTEK;BlackRock Future Tech ETF;ARCX
 BTG;B2Gold Corp.;XASE
 BTHM;BlackRock Future U.S. Themes ETF;ARCX
@@ -856,6 +861,7 @@ EWZ;iShares MSCI Brazil ETF;ARCX
 EXI;iShares Global Industrials ETF;ARCX
 EYLD;Cambria Emerging Shareholder Yield ETF;BATS
 EZA;iShares MSCI South Africa ETF;ARCX
+EZBC;Franklin Bitcoin ETF;BATS
 EZJ;ProShares Ultra MSCI Japan;ARCX
 EZM;WisdomTree U.S. MidCap Fund;ARCX
 EZU;iShare MSCI Eurozone ETF of ISHARES INC.;BATS
@@ -871,6 +877,7 @@ FBCV;Fidelity Blue Chip Value ETF;BATS
 FBGX;UBS AG FI Enhanced Large Cap Growth ETN;ARCX
 FBND;Fidelity Total Bond ETF;ARCX
 FBT;First Trust NYSE Arca Biotechnology Index Fund;ARCX
+FBTC;Fidelity Wise Origin Bitcoin Fund;BATS
 FBY;YieldMax META Option Income Strategy ETF;ARCX
 FCFY;First Trust S&P 500 Diversified Free Cash Flow ETF;ARCX
 FCG;First Trust Natural Gas ETF;ARCX
@@ -1102,6 +1109,7 @@ GBF;iShares Government/Credit Bond ETF;ARCX
 GBIL;Goldman Sachs Access Treasury 0-1 Year ETF;ARCX
 GBLD;Invesco MSCI Green Building ETF;ARCX
 GBR;New Concept Energy Inc;XASE
+GBTC;Grayscale Bitcoin Trust (BTC);ARCX
 GBUY;Goldman Sachs Future Consumer Equity ETF;ARCX
 GCAD;Gabelli Commercial Aerospace and Defense ETF;ARCX
 GCC;WisdomTree Enhanced Commodity Strategy Fund;ARCX
@@ -1174,6 +1182,7 @@ GOAU;US Global GO Gold and Precious Metal Miners ETF;ARCX
 GOCT;FT Vest U.S. Equity Moderate Buffer ETF - October;BATS
 GOEX;Global X Gold Explorers ETF (NEW);ARCX
 GOOP;Kurv Yield Premium Strategy Google (GOOGL) ETF;BATS
+GOOX;T-Rex 2X Long Alphabet Daily Target ETF;BATS
 GOOY;YieldMax GOOGL Option Income Strategy ETF;ARCX
 GORO;Gold Resource Corporation;XASE
 GOVT;iShares U.S. Treasury Bond ETF;BATS
@@ -1279,6 +1288,7 @@ HNRA;HNR Acquisition Corp;XASE
 HNRA/W;HNR Acquisition Corp Warrants each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share;XASE
 HNW;Pioneer Diversified High Income Fund Inc.;XASE
 HOCT;Innovator Premium Income 9 Buffer ETF - October;BATS
+HODL;VanEck Bitcoin Trust;BATS
 HOMZ;Hoya Capital Housing ETF;ARCX
 HSCZ;iShares Currency Hedged MSCI EAFE Small-Cap ETF;ARCX
 HSMV;First Trust Horizon Managed Volatility Small/Mid ETF;ARCX
@@ -1305,6 +1315,7 @@ HYGV;FlexShares High Yield Value-Scored Bond Index Fund;ARCX
 HYGW;iShares High Yield Corporate Bond BuyWrite Strategy ETF;BATS
 HYHG;ProShares High Yield-Interest Rate Hedged ETF;BATS
 HYIN;WisdomTree Alternative Income Fund;BATS
+HYKE;Vest 2 Year Interest Rate Hedge ETF;BATS
 HYLB;Xtrackers USD High Yield Corporate Bond ETF;ARCX
 HYLG;Global X Health Care Covered Call & Growth ETF;ARCX
 HYMB;SPDR Nuveen Bloomberg High Yield Municipal Bond ETF;ARCX
@@ -1874,6 +1885,7 @@ MRNY;YieldMax MRNA Option Income Strategy ETF;ARCX
 MRSK;Toews Agility Shares Managed Risk ETF;ARCX
 MRT;Marti Technologies Inc.;XASE
 MSFO;YieldMax MSFT Option Income Strategy ETF;ARCX
+MSFX;T-Rex 2X Long Microsoft Daily Target ETF;BATS
 MSFY;Kurv Yield Premium Strategy Microsoft (MSFT) ETF;BATS
 MSMR;McElhenny Sheffield Managed Risk ETF;BATS
 MSN;Emerson Radio Corp. ;XASE
@@ -3125,6 +3137,9 @@ ZSB;USCF Sustainable Battery Metals Strategy Fund;ARCX
 ZSC;USCF Sustainable Commodity Strategy Fund;ARCX
 ZSL;ProShares UltraShort Silver;ARCX
 ZTAX;X-Square Municipal Income Tax Free ETF;ARCX
+ZTEN;F/m 10-Year Investment Grade Corporate Bond ETF;ARCX
 ZTEST;BATS LISTED TEST STOCK FOR CTS CQS;BATS
+ZTRE;F/m 3-Year Investment Grade Corporate Bond ETF;ARCX
+ZTWO;F/m 2-Year Investment Grade Corporate Bond ETF;ARCX
 ZVV;NYSE Arca Listed Test Stock For CTS CQS;ARCX
 ZZK;NYSE Arca Listed Test Stock For CTS CQS;ARCX
