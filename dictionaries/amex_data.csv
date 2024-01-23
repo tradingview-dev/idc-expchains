@@ -2,6 +2,7 @@ tv-symbol;description;mic-code
 AAA;AXS First Priority CLO Bond ETF;ARCX
 AAAU;Goldman Sachs Physical Gold ETF Shares;BATS
 AAMC;Altisource Asset Mgmt Corp;XASE
+AAPX;T-Rex 2X Long Apple Daily Target ETF;BATS
 AAPY;Kurv Yield Premium Strategy Apple (AAPL) ETF;BATS
 AAU;Almaden Minerals Ltd.;XASE
 ABEQ;Absolute Select Value ETF;ARCX
@@ -12,9 +13,6 @@ ACTV;LeaderShares Activist Leaders ETF;ARCX
 ACU;Acme United Corporation;XASE
 ACVF;American Conservative Values ETF;ARCX
 ACWV;iShares MSCI Global Min Vol Factor ETF;BATS
-ADEX;Adit EdTech Acquisition Corp;XASE
-ADEX.U;Adit EdTech Acquisition Corp Units each consisting of one share of common stock and one-half of one redeemable warrant;XASE
-ADEX/W;Adit EdTech Acquisition Corp Redeemable Warrants each whole warrant exercisable for shares of common stock at an exercise price of $11.50 per share;XASE
 ADFI;Anfield Dynamic Fixed Income ETF;BATS
 ADIV;SmartETFs Asia Pacific Dividend Builder ETF;ARCX
 ADME;Aptus Behavioral Momentum ETF;BATS
@@ -56,6 +54,7 @@ AIRI;Air Industries Group;XASE
 AIVI;WisdomTree International AI Enhanced Value Fund;ARCX
 AIVL;WisdomTree U.S. AI Enhanced Value Fund;ARCX
 AIYY;YieldMax AI Option Income Strategy ETF;ARCX
+AJAN;Innovator Equity Defined Protection ETF - 2 Yr to January 2026;BATS
 ALTL;Pacer Lunt Large Cap Alternator ETF;ARCX
 ALUM;USCF Aluminum Strategy Fund;ARCX
 AMAX;Adaptive Hedged Multi-Asset Income ETF;ARCX
@@ -100,6 +99,7 @@ ARCM;Arrow Reserve Capital Management ETF;BATS
 AREN;The Arena Group Holdings Inc.;XASE
 ARGT;Global X MSCI Argentina ETF;ARCX
 ARKA;ARK 21Shares Active Bitcoin Futures Strategy ETF;BATS
+ARKB;ARK 21Shares Bitcoin ETF;BATS
 ARKC;ARK 21Shares Active On-Chain Bitcoin Strategy ETF;BATS
 ARKD;ARK 21Shares Blockchain and Digital Economy Innovation ETF;BATS
 ARKF;ARK Fintech Innovation ETF;ARCX
@@ -112,7 +112,6 @@ ARKY;ARK 21Shares Active Bitcoin Ethereum Strategy ETF;BATS
 ARKZ;ARK 21Shares Active Ethereum Futures Strategy ETF;BATS
 ARMN;Aris Mining Corporation;XASE
 ARMP;Armata Pharmaceuticals Inc. Common Stock;XASE
-ARMR;Armor US Equity Index ETF;ARCX
 ARP;PMV Adaptive Risk Parity ETF;ARCX
 ASEA;Global X FTSE Southeast Asia ETF;ARCX
 ASHR;Xtrackers Harvest CSI 300 China A-Shares ETF;ARCX
@@ -218,6 +217,7 @@ BCDF;Horizon Kinetics Blockchain Development ETF;ARCX
 BCHP;Principal Focused Blue Chip ETF;BATS
 BCI;abrdn Bloomberg All Commodity Strategy K-1 Free ETF;ARCX
 BCIM;abrdn Bloomberg Industrial Metals Strategy K-1 Free ETF;ARCX
+BCUS;Bancreek U.S. Large Cap ETF;ARCX
 BCV;Bancroft Fund Ltd.;XASE
 BCV/PA;Bancroft Fund Ltd 5.375% Series A Cumulative Preferred Shares;XASE
 BDCX;ETRACS Quarterly Pay 1.5x Leveraged MarketVector BDC Liquid Index ETN due June 10 2050;ARCX
@@ -239,7 +239,7 @@ BFIX;Build Bond Innovation ETF;ARCX
 BFOR;Barron's 400 ETF;ARCX
 BGI;Birks Group Inc;XASE
 BGIG;Bahl & Gaynor Income Growth ETF;ARCX
-BGLD;FT Cboe Vest Gold Strategy Quarterly Buffer ETF;BATS
+BGLD;FT Vest Gold Strategy Quarterly Buffer ETF;BATS
 BHB;Bar Harbor Bankshares;XASE
 BHM;Bluerock Homes Trust Inc.;XASE
 BHYB;Xtrackers USD High Yield BB-B ex Financials ETF;BATS
@@ -250,6 +250,7 @@ BILS;SPDR Bloomberg 3-12 Month T-Bill ETF;ARCX
 BILZ;PIMCO Ultra Short Government Active ETF;ARCX
 BINC;BlackRock Flexible Income ETF;ARCX
 BINV;Brandes International ETF;BATS
+BITB;Bitwise Bitcoin ETF;ARCX
 BITC;Bitwise Bitcoin Strategy Optimum Roll ETF;ARCX
 BITE;Bite Acquisition Corp.;XASE
 BITE.U;Bite Acquisition Corp. Units each consisting of one share of common stock and one-half of one redeemable warrant;XASE
@@ -322,6 +323,8 @@ BSR;Beacon Selective Risk ETF;ARCX
 BSTP;Innovator Buffer Step-Up Strategy ETF;ARCX
 BSV;Vanguard Short-Term Bond ETF;ARCX
 BTAL;AGF U.S. Market Neutral Anti-Beta Fund;ARCX
+BTCO;Invesco Galaxy Bitcoin ETF;BATS
+BTCW;WisdomTree Bitcoin Fund;BATS
 BTEK;BlackRock Future Tech ETF;ARCX
 BTG;B2Gold Corp.;XASE
 BTHM;BlackRock Future U.S. Themes ETF;ARCX
@@ -330,13 +333,13 @@ BTR;Beacon Tactical Risk ETF;ARCX
 BTTR;Better Choice Company Inc.;XASE
 BUCK;Simplify Stable Income ETF;ARCX
 BUFB;Innovator Laddered Allocation Buffer ETF;BATS
-BUFD;FT Cboe Vest Fund of Deep Buffer ETFs;BATS
+BUFD;FT Vest Fund of Deep Buffer ETFs;BATS
 BUFF;Innovator Laddered Allocation Power Buffer ETF;BATS
-BUFG;FT Cboe Vest Buffered Allocation Growth ETF;BATS
-BUFQ;FT Cboe Vest Fund of Nasdaq-100 Buffer ETFs;BATS
-BUFR;FT Cboe Vest Fund of Buffer ETFs;BATS
-BUFT;FT Cboe Vest Buffered Allocation Defensive ETF;BATS
-BUFZ;FT Cboe Vest Laddered Moderate Buffer ETF;BATS
+BUFG;FT Vest Buffered Allocation Growth ETF;BATS
+BUFQ;FT Vest Fund of Nasdaq-100 Buffer ETFs;BATS
+BUFR;FT Vest Fund of Buffer ETFs;BATS
+BUFT;FT Vest Buffered Allocation Defensive ETF;BATS
+BUFZ;FT Vest Laddered Moderate Buffer ETF;BATS
 BUL;Pacer US Cash Cows Growth ETF;ARCX
 BULZ;MicroSectors FANG & Innovation 3x Leveraged ETN;ARCX
 BURU;Nuburu Inc.;XASE
@@ -368,7 +371,9 @@ CBLS;Clough Long/Short Equity ETF;ARCX
 CBOE;Cboe Global Markets Inc.;BATS
 CBON;VanEck China Bond ETF;ARCX
 CBSE;Clough Select Equity ETF;ARCX
+CCEF;Calamos CEF Income & Arbitrage ETF;ARCX
 CCEL;Cryo-Cell International Inc.;XASE
+CCMG;CCM Global Equity ETF;ARCX
 CCOR;Core Alternative Capital;ARCX
 CCRV;iShares Commodity Curve Carry Strategy ETF;ARCX
 CDEI;Calvert US Large-Cap Diversity Equity and Inclusion Index ETF;ARCX
@@ -497,10 +502,10 @@ CYA;Simplify Tail Risk Strategy ETF;ARCX
 CYBN;Cybin Inc.;XASE
 CZA;Invesco Zacks Mid-Cap ETF;ARCX
 DALT;Anfield Diversified Alternatives ETF;BATS
-DAPR;FT Cboe Vest U.S. Equity Deep Buffer ETF - April;BATS
+DAPR;FT Vest U.S. Equity Deep Buffer ETF - April;BATS
 DARP;Grizzle Growth ETF;ARCX
 DAT;ProShares Big Data Refiners ETF;ARCX
-DAUG;FT Cboe Vest U.S. Equity Deep Buffer ETF - August;BATS
+DAUG;FT Vest U.S. Equity Deep Buffer ETF - August;BATS
 DBA;Invesco DB Agriculture Fund;ARCX
 DBAW;Xtrackers MSCI All World ex US Hedged Equity ETF;ARCX
 DBB;Invesco DB Base Metals Fund;ARCX
@@ -512,7 +517,6 @@ DBEM;Xtrackers MSCI Emerging Markets Hedged Equity ETF;ARCX
 DBEU;Xtrackers MSCI Europe Hedged Equity ETF;ARCX
 DBEZ;Xtrackers MSCI Eurozone Hedged Equity ETF;ARCX
 DBGR;Xtrackers MSCI Germany Hedged Equity ETF;ARCX
-DBJA;Innovator Double Stacker 9 Buffer ETF - January;BATS
 DBJP;Xtrackers MSCI Japan Hedged Equity ETF;ARCX
 DBMF;iMGP DBi Managed Futures Strategy ETF;ARCX
 DBND;DoubleLine Opportunistic Bond ETF;ARCX
@@ -523,7 +527,7 @@ DC/W;Dakota Gold Corp. Warrants each warrant exercisable for one Common Share at
 DCMB;DoubleLine Commercial Real Estate ETF;ARCX
 DCOR;Dimensional US Core Equity 1 ETF;ARCX
 DDC;DDC Enterprise Limited;XASE
-DDEC;FT Cboe Vest U.S. Equity Deep Buffer ETF - December;BATS
+DDEC;FT Vest U.S. Equity Deep Buffer ETF - December;BATS
 DDLS;WisdomTree Dynamic Currency Hedged International SmallCap Equity Fund;BATS
 DDM;ProShares Ultra Dow30;ARCX
 DDWM;WisdomTree Dynamic Currency Hedged International Equity Fund;BATS
@@ -535,7 +539,6 @@ DEEF;Xtrackers FTSE Developed ex US Multifactor ETF;ARCX
 DEEP;Roundhill Acquirers Deep Value ETF;ARCX
 DEFI;Hashdex Bitcoin Futures ETF;ARCX
 DEHP;Dimensional Emerging Markets High Profitability ETF;ARCX
-DEIF;Sterling Capital Diverse Multi-Manager Active ETF;ARCX
 DEM;WisdomTree Emerging Markets High Dividend Fund;ARCX
 DES;WisdomTree U.S. SmallCap Dividend Fund;ARCX
 DESK;VanEck Office and Commercial REIT ETF;ARCX
@@ -553,7 +556,7 @@ DFAX;Dimensional World ex U.S. Core Equity 2 ETF;ARCX
 DFCA;Dimensional California Municipal Bond ETF;ARCX
 DFCF;Dimensional Core Fixed Income ETF;ARCX
 DFE;WisdomTree Europe SmallCap Dividend Fund;ARCX
-DFEB;FT Cboe Vest U.S. Equity Deep Buffer ETF - February;BATS
+DFEB;FT Vest U.S. Equity Deep Buffer ETF - February;BATS
 DFEM;Dimensional Emerging Markets Core Equity 2 ETF;ARCX
 DFEN;Direxion Daily Aerospace & Defense Bull 3X Shares;ARCX
 DFEV;Dimensional Emerging Markets Value ETF;ARCX
@@ -606,19 +609,19 @@ DIVO;Amplify CWP Enhanced Dividend Income ETF;ARCX
 DIVS;SmartETFs Dividend Builder ETF;ARCX
 DIVY;Sound Equity Dividend Income ETF;ARCX
 DIVZ;TrueShares Low Volatility Equity Income ETF;ARCX
-DJAN;FT Cboe Vest U.S. Equity Deep Buffer ETF - January;BATS
+DJAN;FT Vest U.S. Equity Deep Buffer ETF - January;BATS
 DJCB;ETRACS Bloomberg Commodity Index Total Return ETN Series B due October 31 2039;ARCX
 DJD;Invesco Dow Jones Industrial Average Dividend ETF;ARCX
 DJIA;Global X Dow 30 Covered Call ETF;ARCX
 DJP;iPath Bloomberg Commodity Index Total Return ETN due June 12 2036;ARCX
-DJUL;FT Cboe Vest U.S. Equity Deep Buffer ETF - July;BATS
-DJUN;FT Cboe Vest U.S. Equity Deep Buffer ETF - June;BATS
+DJUL;FT Vest U.S. Equity Deep Buffer ETF - July;BATS
+DJUN;FT Vest U.S. Equity Deep Buffer ETF - June;BATS
 DKRB;Subversive Decarbonization ETF;BATS
 DLA;Delta Apparel Inc.;XASE
 DLN;WisdomTree U.S. LargeCap Dividend Fund;ARCX
 DLS;WisdomTree International SmallCap Dividend Fund;ARCX
-DMAR;FT Cboe Vest U.S. Equity Deep Buffer ETF - March;BATS
-DMAY;FT Cboe Vest U.S. Equity Deep Buffer ETF - May;BATS
+DMAR;FT Vest U.S. Equity Deep Buffer ETF - March;BATS
+DMAY;FT Vest U.S. Equity Deep Buffer ETF - May;BATS
 DMBS;DoubleLine Mortgage ETF;ARCX
 DMCY;Democracy International Fund;ARCX
 DMDV;AAM S& P Developed Markets High Dividend Value ETF;ARCX
@@ -628,24 +631,22 @@ DMYY.U;dMY Squared Technology Group Inc. Units each consisting of one share of C
 DMYY/W;dMY Squared Technology Group Inc. Redeemable Warrants each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share;XASE
 DNL;WisdomTree Global ex-US Quality Dividend Growth Fund;ARCX
 DNN;Denison Mines Corp;XASE
-DNOV;FT Cboe Vest U.S. Equity Deep Buffer ETF - November;BATS
-DOCT;FT Cboe Vest U.S. Equity Deep Buffer ETF - October;BATS
+DNOV;FT Vest U.S. Equity Deep Buffer ETF - November;BATS
+DOCT;FT Vest U.S. Equity Deep Buffer ETF - October;BATS
 DOG;ProShares Short Dow30;ARCX
-DOGG;FT Cboe Vest DJIA Dogs 10 Target Income ETF;BATS
+DOGG;FT Vest DJIA Dogs 10 Target Income ETF;BATS
 DOL;WisdomTree International LargeCap Dividend Fund;ARCX
 DON;WisdomTree U.S. MidCap Dividend Fund;ARCX
 DPSI;DecisionPoint Systems Inc.;XASE
 DPST;Direxion Daily Regional Banks Bull 3X Shares;ARCX
 DRIP;Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares;ARCX
-DRLL;Strive U.S. Energy ETF;ARCX
 DRN;Direxion Daily Real Estate Bull 3X Shares;ARCX
 DRSK;Aptus Defined Risk ETF;BATS
 DRUP;GraniteShares Nasdaq Select Disruptors ETF;ARCX
 DRV;Direxion Daily Real Estate Bear 3X Shares;ARCX
 DSCF;Discipline Fund ETF;BATS
-DSEP;FT Cboe Vest U.S. Equity Deep Buffer ETF - September;BATS
+DSEP;FT Vest U.S. Equity Deep Buffer ETF - September;BATS
 DSI;iShares MSCI KLD 400 Social ETF;ARCX
-DSJA;Innovator Double Stacker ETF - January;BATS
 DSS;DSS Inc.;XASE
 DSTL;Distillate U.S. Fundamental Stability & Value ETF;ARCX
 DTD;WisdomTree U.S. Total Dividend Fund;ARCX
@@ -812,7 +813,6 @@ ESML;iShares ESG Aware MSCI USA Small-Cap ETF;BATS
 ESP;Espey Mfg. & Electronics Corp;XASE
 ESUS;ETRACS 2x Leveraged MSCI USA ESG Focus TR ETN;ARCX
 ETHO;ETF Managers Trust New Issue;ARCX
-EU;enCore Energy Corp.;XASE
 EUDG;WisdomTree Europe Quality Dividend Growth Fund;ARCX
 EUDV;ProShares MSCI Europe Dividend Growers ETF;BATS
 EUM;ProShares Trust Short MSCI Emerging Markets;ARCX
@@ -821,6 +821,7 @@ EURL;Direxion Daily FTSE Europe Bull 3x Shares;ARCX
 EUSA;iShares MSCI USA Equal Weighted ETF;ARCX
 EUSB;iShares ESG Advanced Total USD Bond Market ETF;ARCX
 EUSC;WisdomTree Europe Hedged SmallCap Equity Fund;ARCX
+EV;Mast Global Battery Recycling & Production ETF;ARCX
 EVAV;Direxion Daily Electric and Autonomous Vehicles Bull 2X Shares;ARCX
 EVBN;Evans Bancorp Inc;XASE
 EVE;EVe Mobility Acquisition Corp;XASE
@@ -862,14 +863,15 @@ EWZ;iShares MSCI Brazil ETF;ARCX
 EXI;iShares Global Industrials ETF;ARCX
 EYLD;Cambria Emerging Shareholder Yield ETF;BATS
 EZA;iShares MSCI South Africa ETF;ARCX
+EZBC;Franklin Bitcoin ETF;BATS
 EZJ;ProShares Ultra MSCI Japan;ARCX
 EZM;WisdomTree U.S. MidCap Fund;ARCX
 EZU;iShare MSCI Eurozone ETF of ISHARES INC.;BATS
 FAIL;Cambria Global Tail Risk ETF;BATS
 FAN;First Trust Global Wind Energy ETF;ARCX
-FAPR;FT Cboe Vest U.S. Equity Buffer ETF - April;BATS
+FAPR;FT Vest U.S. Equity Buffer ETF - April;BATS
 FAS;Direxion Daily Financial Bull 3x Shares;ARCX
-FAUG;FT Cboe Vest U.S. Equity Buffer ETF - August;BATS
+FAUG;FT Vest U.S. Equity Buffer ETF - August;BATS
 FAX;abrdn Asia-Pacific Income Fund Inc;XASE
 FAZ;Direxion Daily Financial Bear 3x Shares;ARCX
 FBCG;Fidelity Blue Chip Growth ETF;BATS
@@ -877,6 +879,7 @@ FBCV;Fidelity Blue Chip Value ETF;BATS
 FBGX;UBS AG FI Enhanced Large Cap Growth ETN;ARCX
 FBND;Fidelity Total Bond ETF;ARCX
 FBT;First Trust NYSE Arca Biotechnology Index Fund;ARCX
+FBTC;Fidelity Wise Origin Bitcoin Fund;BATS
 FBY;YieldMax META Option Income Strategy ETF;ARCX
 FCFY;First Trust S&P 500 Diversified Free Cash Flow ETF;ARCX
 FCG;First Trust Natural Gas ETF;ARCX
@@ -891,7 +894,7 @@ FCUS;Pinnacle Focused Opportunities ETF;ARCX
 FDAT;Tactical Advantage ETF;ARCX
 FDCE;Foundations Dynamic Core ETF;BATS
 FDD;First Trust STOXX European Select Dividend Income Fund;ARCX
-FDEC;FT Cboe Vest U.S. Equity Buffer ETF - December;BATS
+FDEC;FT Vest U.S. Equity Buffer ETF - December;BATS
 FDEM;Fidelity Emerging Markets Multifactor ETF;BATS
 FDEV;Fidelity International Multifactor ETF;BATS
 FDG;American Century Focused Dynamic Growth ETF;ARCX
@@ -928,7 +931,7 @@ FENY;Fidelity MSCI Energy Index ETF;ARCX
 FESM;Fidelity Enhanced Small Cap ETF;ARCX
 FEUS;FlexShares ESG & Climate US Large Cap Core Index Fund;ARCX
 FEZ;SPDR EURO STOXX 50 ETF;ARCX
-FFEB;FT Cboe Vest U.S. Equity Buffer ETF - February;BATS
+FFEB;FT Vest U.S. Equity Buffer ETF - February;BATS
 FFIU;UVA Unconstrained Medium-Term Fixed Income ETF;ARCX
 FFLS;The Future Fund Long/Short ETF;ARCX
 FFND;The Future Fund Active ETF;ARCX
@@ -954,9 +957,9 @@ FITE;SPDR S&P Kensho Future Security ETF;ARCX
 FIVA;Fidelity International Value Factor ETF;ARCX
 FIVG;Defiance Next Gen Connectivity ETF;ARCX
 FIW;First Trust Water ETF;ARCX
-FJAN;FT Cboe Vest U.S. Equity Buffer ETF - January;BATS
-FJUL;FT Cboe Vest U.S. Equity Buffer ETF - July;BATS
-FJUN;FT Cboe Vest U.S. Equity Buffer ETF - June;BATS
+FJAN;FT Vest U.S. Equity Buffer ETF - January;BATS
+FJUL;FT Vest U.S. Equity Buffer ETF - July;BATS
+FJUN;FT Vest U.S. Equity Buffer ETF - June;BATS
 FLAU;Franklin FTSE Australia ETF;ARCX
 FLAX;Franklin FTSE Asia ex Japan ETF;ARCX
 FLBL;Franklin Senior Loan ETF;BATS
@@ -1003,11 +1006,13 @@ FLUD;Franklin Ultra Short Bond ETF;ARCX
 FLV;American Century Focused Large Cap Value ETF;ARCX
 FLYD;MicroSectors Travel -3x Inverse Leveraged ETN;ARCX
 FLYU;MicroSectors Travel 3x Leveraged ETN;ARCX
+FLYX;flyExclusive Inc.;XASE
+FLYX/W;flyExclusive Inc. Redeemable warrants each whole warrant exercisable for one Class A common stock at an exercise price of $11.50 per share;XASE
 FM;iShares Frontier and Select EM ETF;ARCX
 FMAG;Fidelity Magellan ETF;BATS
-FMAR;FT Cboe Vest U.S. Equity Buffer ETF - March;BATS
+FMAR;FT Vest U.S. Equity Buffer ETF - March;BATS
 FMAT;Fidelity MSCI Materials Index ETF;ARCX
-FMAY;FT Cboe Vest U.S. Equity Buffer ETF - May;BATS
+FMAY;FT Vest U.S. Equity Buffer ETF - May;BATS
 FMCX;FMC Excelsior Focus Equity ETF;ARCX
 FMDE;Fidelity Enhanced Mid Cap ETF;ARCX
 FMF;First Trust Managed Futures Strategy Fund;ARCX
@@ -1026,8 +1031,8 @@ FNGG;Direxion Daily NYSE FANG+ Bull 2X Shares;ARCX
 FNGO;MicroSectors FANG+ Index 2X Leveraged ETNs due January 8 2038;ARCX
 FNGS;MicroSectors FANG+ ETNs due January 8 2038;ARCX
 FNGU;MicroSectors FANG+ Index 3X Leveraged ETNs due January 8 2038;ARCX
-FNOV;FT Cboe Vest U.S. Equity Buffer ETF - November;BATS
-FOCT;FT Cboe Vest U.S. Equity Buffer ETF - October;BATS
+FNOV;FT Vest U.S. Equity Buffer ETF - November;BATS
+FOCT;FT Vest U.S. Equity Buffer ETF - October;BATS
 FORH;Formidable ETF;ARCX
 FOVL;iShares Focused Value Factor ETF;ARCX
 FOXO;FOXO Technologies Inc.;XASE
@@ -1046,7 +1051,7 @@ FRNW;Fidelity Clean Energy ETF;BATS
 FRTY;Alger Mid Cap 40 ETF;ARCX
 FSBD;Fidelity Sustainable Core Plus Bond ETF;ARCX
 FSEC;Fidelity Investment Grade Securitized ETF;ARCX
-FSEP;FT Cboe Vest U.S. Equity Buffer ETF - September;BATS
+FSEP;FT Vest U.S. Equity Buffer ETF - September;BATS
 FSI;Flexible Solutions International Inc.;XASE
 FSIG;First Trust Limited Duration Investment Grade Corporate ETF;ARCX
 FSLD;Fidelity Sustainable Low Duration Bond ETF;ARCX
@@ -1064,8 +1069,8 @@ FTF;Franklin Limited Duration Income Trust Common Shrs. of Beneficial Interest;X
 FTHF;First Trust Emerging Markets Human Flourishing ETF;ARCX
 FTIF;First Trust Bloomberg Inflation Sensitive Equity ETF;ARCX
 FTLS;First Trust Long/Short Equity ETF;ARCX
+FTRB;Federated Hermes Total Return Bond ETF;ARCX
 FTSD;Franklin Short Duration U.S. Government ETF;ARCX
-FTWO;Strive FAANG 2.0 ETF;ARCX
 FUMB;First Trust Ultra Short Duration Municipal ETF;ARCX
 FUNL;CornerCap Fundametrics Large-Cap ETF;BATS
 FURY;Fury Gold Mines Limited;XASE
@@ -1098,14 +1103,15 @@ GAA;Cambria Global Asset Allocation ETF;BATS
 GABF;Gabelli Financial Services Opportunities ETF;ARCX
 GAL;SPDR SSgA Global Allocation ETF of SSgA Active Trust;ARCX
 GAMR;Wedbush ETFMG Video Game Tech ETF;ARCX
-GAPR;FT Cboe Vest U.S. Equity Moderate Buffer ETF - April;BATS
+GAPR;FT Vest U.S. Equity Moderate Buffer ETF - April;BATS
 GAST;Gabelli Automation ETF;ARCX
 GAU;Galiano Gold Inc.;XASE
-GAUG;FT Cboe Vest U.S. Equity Moderate Buffer ETF - August;BATS
+GAUG;FT Vest U.S. Equity Moderate Buffer ETF - August;BATS
 GBF;iShares Government/Credit Bond ETF;ARCX
 GBIL;Goldman Sachs Access Treasury 0-1 Year ETF;ARCX
 GBLD;Invesco MSCI Green Building ETF;ARCX
 GBR;New Concept Energy Inc;XASE
+GBTC;Grayscale Bitcoin Trust (BTC);ARCX
 GBUY;Goldman Sachs Future Consumer Equity ETF;ARCX
 GCAD;Gabelli Commercial Aerospace and Defense ETF;ARCX
 GCC;WisdomTree Enhanced Commodity Strategy Fund;ARCX
@@ -1113,6 +1119,7 @@ GCLN;Goldman Sachs Bloomberg Clean Energy Equity ETF;BATS
 GCOR;Goldman Sachs Access U.S. Aggregate Bond ETF;ARCX
 GCOW;Pacer Global Cash Cows Dividend ETF;BATS
 GDE;WisdomTree Efficient Gold Plus Equity Strategy Fund;BATS
+GDEC;FT Vest U.S. Equity Moderate Buffer ETF - December;BATS
 GDEF;Goldman Sachs Defensive Equity ETF;ARCX
 GDMA;Gadsden Dynamic Multi-Asset ETF;BATS
 GDMN;WisdomTree Efficient Gold Plus Gold Miners Strategy Fund;BATS
@@ -1126,7 +1133,7 @@ GEM;Goldman Sachs ActiveBeta Emerging Markets Equity ETF;ARCX
 GEMD;Goldman Sachs Access Emerging Markets USD Bond ETF;BATS
 GENC;Gencor Industries Inc.;XASE
 GERM;ETFMG Treatments Testing and Advancements ETF;ARCX
-GFEB;FT Cboe Vest U.S. Equity Moderate Buffer ETF - February;BATS
+GFEB;FT Vest U.S. Equity Moderate Buffer ETF - February;BATS
 GFOF;Grayscale Future of Finance ETF;ARCX
 GGM;GGM Macro Alignment ETF;ARCX
 GGME;Invesco Next Gen Media and Gaming ETF;ARCX
@@ -1142,9 +1149,9 @@ GHYG;iShares US & Intl High Yield Corp Bond ETF;BATS
 GIGB;Goldman Sachs Access Investment Grade Corporate Bond ETF;ARCX
 GII;SPDR S&P Global Infrastructure ETF;ARCX
 GINN;Goldman Sachs Innovate Equity ETF;ARCX
-GJAN;FT Cboe Vest U.S. Equity Moderate Buffer ETF - January;BATS
-GJUL;FT Cboe Vest U.S. Equity Moderate Buffer ETF - July;BATS
-GJUN;FT Cboe Vest U.S. Equity Moderate Buffer ETF - June;BATS
+GJAN;FT Vest U.S. Equity Moderate Buffer ETF - January;BATS
+GJUL;FT Vest U.S. Equity Moderate Buffer ETF - July;BATS
+GJUN;FT Vest U.S. Equity Moderate Buffer ETF - June;BATS
 GK;AdvisorShares Gerber Kawasaki ETF;ARCX
 GLD;SPDR Gold Trust SPDR Gold Shares;ARCX
 GLDB;Strategy Shares Gold-Hedged Bond ETF;BATS
@@ -1164,24 +1171,24 @@ GLU;The Gabelli Utility & Income Trust;XASE
 GLU/PA;The Gabelli Global Utility & Income Trust Series A;XASE
 GLU/PB;The Gabelli Global Utility & Income Trust Series B Cumulative Puttable and Callable Preferred Shares;XASE
 GLV;Clough Global Dividend and Income Fund;XASE
-GMAR;FT Cboe Vest U.S. Equity Moderate Buffer ETF - March;BATS
-GMAY;FT Cboe Vest U.S. Equity Moderate Buffer ETF - May;BATS
+GMAR;FT Vest U.S. Equity Moderate Buffer ETF - March;BATS
+GMAY;FT Vest U.S. Equity Moderate Buffer ETF - May;BATS
 GMET;VanEck Green Metals ETF;ARCX
 GMF;SPDR S&P Emerging Asia Pacific ETF;ARCX
 GMOM;Cambria Global Momentum ETF;BATS
 GMUN;Goldman Sachs Community Municipal Bond ETF;ARCX
-GNOV;FT Cboe Vest U.S. Equity Moderate Buffer ETF - November;BATS
+GNOV;FT Vest U.S. Equity Moderate Buffer ETF - November;BATS
 GNR;SPDR S&P Global Natural Resources ETF;ARCX
 GNS;Genius Group Limited;XASE
 GOAU;US Global GO Gold and Precious Metal Miners ETF;ARCX
-GOCT;FT Cboe Vest U.S. Equity Moderate Buffer ETF - October;BATS
+GOCT;FT Vest U.S. Equity Moderate Buffer ETF - October;BATS
 GOEX;Global X Gold Explorers ETF (NEW);ARCX
 GOOP;Kurv Yield Premium Strategy Google (GOOGL) ETF;BATS
+GOOX;T-Rex 2X Long Alphabet Daily Target ETF;BATS
 GOOY;YieldMax GOOGL Option Income Strategy ETF;ARCX
 GORO;Gold Resource Corporation;XASE
 GOVT;iShares U.S. Treasury Bond ETF;BATS
 GOVZ;iShares 25+ Year Treasury STRIPS Bond ETF;BATS
-GPAL;Goldman Sachs ActiveBeta Paris-Aligned Climate U.S. Large Cap Equity ETF;BATS
 GPOW;Goldman Sachs North American Pipelines & Power Equity ETF;BATS
 GQI;Natixis Gateway Quality Income ETF;ARCX
 GQRE;FlexShares Global Quality Real Estate Index Fund;ARCX
@@ -1197,7 +1204,7 @@ GRPM;Invesco S&P MidCap 400 GARP ETF;ARCX
 GSAT;Globalstar Inc.;XASE
 GSC;Goldman Sachs Small Cap Core Equity ETF;ARCX
 GSEE;Goldman Sachs MarketBeta Emerging Markets Equity ETF;BATS
-GSEP;FT Cboe Vest U.S. Equity Moderate Buffer ETF - September;BATS
+GSEP;FT Vest U.S. Equity Moderate Buffer ETF - September;BATS
 GSEU;Goldman Sachs ActiveBeta Europe Equity ETF;ARCX
 GSEW;Goldman Sachs Equal Weight U.S. Large Cap Equity ETF;BATS
 GSFP;Goldman Sachs Future Planet Equity ETF;ARCX
@@ -1273,6 +1280,7 @@ HIDV;AB US High Dividend ETF;ARCX
 HIGH;Simplify Enhanced Income ETF;ARCX
 HIPS;GraniteShares HIPS US High Income ETF;ARCX
 HIYS;Invesco High Yield Select ETF;BATS
+HJAN;Innovator Premium Income 9 Buffer ETF - January;BATS
 HJEN;Direxion Hydrogen ETF;ARCX
 HKND;Humankind US Stock ETF;ARCX
 HLGE;Hartford Longevity Economy ETF;ARCX
@@ -1281,6 +1289,7 @@ HNRA;HNR Acquisition Corp;XASE
 HNRA/W;HNR Acquisition Corp Warrants each whole warrant exercisable for three quarters of one share of Class A Common Stock at an exercise price of $11.50 per whole share;XASE
 HNW;Pioneer Diversified High Income Fund Inc.;XASE
 HOCT;Innovator Premium Income 9 Buffer ETF - October;BATS
+HODL;VanEck Bitcoin Trust;BATS
 HOMZ;Hoya Capital Housing ETF;ARCX
 HSCZ;iShares Currency Hedged MSCI EAFE Small-Cap ETF;ARCX
 HSMV;First Trust Horizon Managed Volatility Small/Mid ETF;ARCX
@@ -1307,6 +1316,7 @@ HYGV;FlexShares High Yield Value-Scored Bond Index Fund;ARCX
 HYGW;iShares High Yield Corporate Bond BuyWrite Strategy ETF;BATS
 HYHG;ProShares High Yield-Interest Rate Hedged ETF;BATS
 HYIN;WisdomTree Alternative Income Fund;BATS
+HYKE;Vest 2 Year Interest Rate Hedge ETF;BATS
 HYLB;Xtrackers USD High Yield Corporate Bond ETF;ARCX
 HYLG;Global X Health Care Covered Call & Growth ETF;ARCX
 HYMB;SPDR Nuveen Bloomberg High Yield Municipal Bond ETF;ARCX
@@ -1328,7 +1338,6 @@ IAUF;iShares Gold Strategy ETF;BATS
 IAUM;iShares Gold Trust Micro;ARCX
 IAUX;i-80 Gold Corp.;XASE
 IBD;Inspire Corporate Bond ETF;ARCX
-IBDO;iShares iBonds Dec 2023 Term Corporate ETF;ARCX
 IBDP;iShares iBonds Dec 2024 Term Corporate ETF;ARCX
 IBDQ;iShares iBonds Dec 2025 Term Corporate ETF;ARCX
 IBDR;iShares iBonds Dec 2026 Term Corporate ETF;ARCX
@@ -1339,7 +1348,6 @@ IBDV;iShares iBonds Dec 2030 Term Corporate ETF;ARCX
 IBDW;iShares iBonds Dec 2031 Term Corporate ETF;ARCX
 IBDX;iShares iBonds Dec 2032 Term Corporate ETF;ARCX
 IBDY;iShares iBonds Dec 2033 Term Corporate ETF;ARCX
-IBHC;iShares iBonds 2023 Term High Yield and Income ETF;BATS
 IBHD;iShares iBonds 2024 Term High Yield and Income ETF;BATS
 IBHE;iShares iBonds 2025 Term High Yield and Income ETF;BATS
 IBHF;iShares iBonds 2026 Term High Yield and Income ETF;BATS
@@ -1375,10 +1383,10 @@ ICLO;Invesco AAA CLO Floating Rate Note ETF;BATS
 ICOW;Pacer Developed Markets International Cash Cows 100 ETF;BATS
 ICSH;BlackRock Ultra Short-Term Bond ETF;BATS
 ICVT;iShares Convertible Bond ETF;BATS
-ID;PARTS iD Inc.;XASE
 IDAT;iShares Future Cloud 5G and Tech ETF;ARCX
 IDEC;Innovator International Developed Power Buffer ETF - December;ARCX
 IDEV;iShares Core MSCI International Developed Markets ETF;ARCX
+IDGT;iShares U.S. Digital Infrastructure and Real Estate ETF;ARCX
 IDHQ;Invesco S&P International Developed Quality ETF;ARCX
 IDLV;Invesco S&P International Developed Low Volatility ETF;ARCX
 IDMO;Invesco S&P International Developed Momentum ETF;ARCX
@@ -1409,9 +1417,8 @@ IGE;iShares North American Natural Resources ETF;BATS
 IGEB;iShares Investment Grade Bond Factor ETF;BATS
 IGHG;ProShares Investment Grade-Interest Rate Hedged;BATS
 IGLB;iShares 10+ Year Investment Grade Corporate Bond ETF;ARCX
-IGLD;FT Cboe Vest Gold Strategy Target Income ETF;BATS
+IGLD;FT Vest Gold Strategy Target Income ETF;BATS
 IGM;iShares Expanded Tech Sector ETF;ARCX
-IGN;iShares North American Tech-Multimedia Networking ETF;ARCX
 IGPT;Invesco AI and Next Gen Software ETF;ARCX
 IGRO;iShares International Dividend Growth ETF;BATS
 IGTR;Innovator Gradient Tactical Rotation Strategy ETF;ARCX
@@ -1501,6 +1508,7 @@ ISDB;Invesco Short Duration Bond ETF;BATS
 ISDR;Issuer Direct Corporation;XASE
 ISEP;Innovator International Developed Power Buffer ETF - September;ARCX
 ISMD;Inspire Small/Mid Cap ETF;ARCX
+ISPY;ProShares S&P 500 High Income ETF;BATS
 ISRA;VanEck Israel ETF;ARCX
 ISVL;iShares International Developed Small Cap Value Factor ETF;BATS
 ISWN;Amplify BlackSwan ISWN ETF;ARCX
@@ -1578,6 +1586,11 @@ IYY;iShares Dow Jones U.S. ETF;ARCX
 IYZ;iShares U.S. Telecommunications ETF;BATS
 IZRL;ARK Israel Innovative Technology ETF;BATS
 JAAA;Janus Henderson AAA CLO ETF;ARCX
+JAND;Innovator Premium Income 10 Barrier ETF - January;BATS
+JANH;Innovator Premium Income 20 Barrier ETF - January;BATS
+JANJ;Innovator Premium Income 30 Barrier ETF - January;BATS
+JANP;PGIM US Large-Cap Buffer 12 ETF - January;BATS
+JANQ;Innovator Premium Income 40 Barrier ETF - January;BATS
 JANT;AllianzIM U.S. Large Cap Buffer10 Jan ETF;ARCX
 JANW;AllianzIM U.S. Large Cap Buffer20 Jan ETF;ARCX
 JANZ;TrueShares Structured Outcome (January) ETF;BATS
@@ -1589,6 +1602,7 @@ JCPB;JPMorgan Core Plus Bond ETF;BATS
 JCPI;JPMorgan Inflation Managed Bond ETF;BATS
 JCTR;JPMorgan Carbon Transition U.S. Equity ETF;ARCX
 JDST;Direxion Daily Junior Gold Miners Index Bear 2X Shares;ARCX
+JDVI;John Hancock Disciplined Value International Select ETF;ARCX
 JEMA;JPMorgan ActiveBuilders Emerging Markets Equity ETF;BATS
 JEPI;JPMorgan Equity Premium Income ETF;ARCX
 JEPY;Defiance S&P 500 Enhanced Options Income ETF;ARCX
@@ -1694,7 +1708,7 @@ KLXY;KraneShares Global Luxury Index ETF;ARCX
 KMET;KraneShares Electrification Metals Strategy ETF;ARCX
 KMLM;KFA Mount Lucas Managed Futures Index Strategy ETF;ARCX
 KNCT;Invesco Next Gen Connectivity ETF;ARCX
-KNG;FT Cboe Vest S&P 500 Dividend Aristocrats Target Income ETF;BATS
+KNG;FT Vest S&P 500 Dividend Aristocrats Target Income ETF;BATS
 KNGS;Roundhill S&P Dividend Monarchs ETF;ARCX
 KNW;Know Labs Inc.;XASE
 KOCG;FIS Knights of Columbus Global Belief ETF;ARCX
@@ -1740,12 +1754,14 @@ LEU;Centrus Energy Corp.;XASE
 LEXI;Alexis Practical Tactical ETF;ARCX
 LFEQ;VanEck Long/Flat Trend ETF;ARCX
 LGH;HCM Defender 500 Index ETF;ARCX
+LGHT;Langar Global HealthTech ETF;ARCX
 LGL;The LGL Group Inc.;XASE
 LGL/W;LGL Group Inc (The) Warrants to purchase Common Stock (expiring November 16 2025);XASE
 LGLV;SPDR SSGA US Large Cap Low Volatility Index ETF;ARCX
 LGLZ;Subversive Cannabis ETF;BATS
 LGOV;First Trust Long Duration Opportunities ETF;ARCX
 LIT;Global X Lithium & Battery Tech ETF;ARCX
+LJAN;Innovator Premium Income 15 Buffer ETF - January;BATS
 LKOR;FlexShares Credit-Scored US Long Corporate Bond Index Fund;BATS
 LMND/W;Lemonade Inc. Warrants to purchase Common Stock;XASE
 LNG;Cheniere Energy Inc.;XASE
@@ -1869,8 +1885,8 @@ MRGR;ProShares Merger ETF;BATS
 MRNY;YieldMax MRNA Option Income Strategy ETF;ARCX
 MRSK;Toews Agility Shares Managed Risk ETF;ARCX
 MRT;Marti Technologies Inc.;XASE
-MRT/W;Marti Technologies Inc. Warrants each whole warrant exercisable for one class A ordinary share at an exercise price of $11.50;XASE
 MSFO;YieldMax MSFT Option Income Strategy ETF;ARCX
+MSFX;T-Rex 2X Long Microsoft Daily Target ETF;BATS
 MSFY;Kurv Yield Premium Strategy Microsoft (MSFT) ETF;BATS
 MSMR;McElhenny Sheffield Managed Risk ETF;BATS
 MSN;Emerson Radio Corp. ;XASE
@@ -1897,6 +1913,7 @@ MVV;ProShares Ultra MidCap400;ARCX
 MWG;Multi Ways Holdings Limited;XASE
 MXC;Mexco Energy Corporation;XASE
 MXI;iShares Global Materials ETF;ARCX
+MYLD;Cambria Micro and SmallCap Shareholder Yield ETF;BATS
 MYND;Mynd.ai Inc. American Depositary Shares each representing ten (10) Class A Ordinary Shares;XASE
 MYO;Myomo Inc.;XASE
 MYY;ProShares Short MidCap400;ARCX
@@ -1954,7 +1971,6 @@ NSCS;Nuveen Small Cap Select ETF;ARCX
 NSPI;Nationwide S&P 500 Risk Managed Income ETF;ARCX
 NSTB;Northern Star Investment Corp. II;XASE
 NSTB.U;Northern Star Investment Corp. II Units each consisting of one share of Class A common stock and one-fifth of one redeemable warrant;XASE
-NSTB/W;Northern Star Investment Corp. II Redeemable warrants each whole warrant exercisable for shares of Class A common stock at an exercise price of $11.50 per share;XASE
 NTIP;Network-1 Technologies Inc.;XASE
 NTKI;Nationwide Russell 2000 Risk Managed Income ETF;ARCX
 NTRL;Global X Carbon Credits Strategy ETF;ARCX
@@ -2016,6 +2032,7 @@ OGIG;ALPS  O'Shares Global Internet Giants ETF;BATS
 OIH;VanEck Oil Services ETF;ARCX
 OILD;MicroSectors Oil & Gas Exp. & Prod. -3x Inverse Leveraged ETN;ARCX
 OILK;ProShares K-1 Free Crude Oil Strategy ETF;BATS
+OILT;Texas Capital Texas Oil Index ETF;ARCX
 OILU;MicroSectors Oil & Gas Exp. & Prod. 3x Leveraged ETN;ARCX
 OMFL;Invesco Russell 1000 Dynamic Multifactor ETF;BATS
 OMFS;Invesco Russell 2000 Dynamic Multifactor ETF;BATS
@@ -2027,7 +2044,6 @@ ONLN;ProShares Online Retail ETF;ARCX
 ONOF;Global X Adaptive U.S. Risk Management ETF;ARCX
 OOTO;Direxion Daily Travel & Vacation Bull 2X Shares;ARCX
 OPER;ClearShares Ultra-Short Maturity ETF;ARCX
-OPPX;Corbett Road Tactical Opportunity ETF;ARCX
 OPTT;Ocean Power Technologies Inc.;XASE
 ORLA;Orla Mining Ltd.;XASE
 OSCV;Opus Small Cap Value ETF;BATS
@@ -2061,6 +2077,7 @@ PBD;Invesco Global Clean Energy ETF;ARCX
 PBDC;Putnam BDC Income ETF;ARCX
 PBE;Invesco Biotechnology & Genome ETF;ARCX
 PBJ;Invesco Food & Beverage ETF;ARCX
+PBJA;PGIM US Large-Cap Buffer 20 ETF - January;BATS
 PBL;PGIM Portfolio Ballast ETF;BATS
 PBP;Invesco S&P 500 BuyWrite ETF;ARCX
 PBTP;Invesco 0-5 Yr US TIPS ETF;BATS
@@ -2118,8 +2135,11 @@ PIN;Invesco India ETF;ARCX
 PINK;Simplify Health Care ETF;ARCX
 PIT;VanEck Commodity Strategy ETF;BATS
 PJAN;Innovator U.S. Equity Power Buffer ETF - January;BATS
+PJBF;PGIM Jennison Better Future ETF;BATS
 PJFG;PGIM Jennison Focused Growth ETF;ARCX
+PJFM;PGIM Jennison Focused Mid-Cap ETF;BATS
 PJFV;PGIM Jennison Focused Value ETF;ARCX
+PJIO;PGIM Jennison International Opportunities ETF;ARCX
 PJP;Invesco Pharmaceuticals ETF;ARCX
 PJUL;Innovator U.S. Equity Power Buffer ETF - July;BATS
 PJUN;Innovator U.S. Equity Power Buffer ETF - June;BATS
@@ -2143,11 +2163,13 @@ PPIE;Putnam PanAgora ESG International Equity ETF;ARCX
 PPLT;abrdn Physical Platinum Shares ETF;ARCX
 PPTY;U.S. Diversified Real Estate ETF;ARCX
 PQDI;Principal Spectrum Tax-Advantaged Dividend Active ETF;ARCX
+PRAE;PlanRock Alternative Growth ETF;ARCX
 PRAY;FIS Christian Stock Fund;ARCX
 PREF;Principal Spectrum Preferred Securities Active ETF;ARCX
 PRF;Invesco FTSE RAFI US 1000 ETF;ARCX
 PRFD;PIMCO Preferred and Capital Securities Active Exchange-Traded Fund;ARCX
 PRK;Park National Corporation;XASE
+PRMN;PlanRock Market Neutral Income ETF;ARCX
 PRNT;The 3D Printing ETF;BATS
 PSCJ;Pacer Swan SOS Conservative (July) ETF;BATS
 PSCQ;Pacer Swan SOS Conservative (October) ETF;BATS
@@ -2160,6 +2182,7 @@ PSFF;Pacer Swan SOS Fund of Funds ETF;BATS
 PSFJ;Pacer Swan SOS Flex (July) ETF;BATS
 PSFM;Pacer Swan SOS Flex (April) ETF;BATS
 PSFO;Pacer Swan SOS Flex (October) ETF;BATS
+PSH;PGIM Short Duration High Yield ETF;BATS
 PSI;Invesco Semiconductors ETF;ARCX
 PSIL;AdvisorShares Psychedelics ETF;ARCX
 PSK;SPDR ICE Preferred Securities ETF;ARCX
@@ -2212,7 +2235,7 @@ PZT;Invesco New York AMT-Free Municipal Bond ETF;ARCX
 QAI;IQ Hedge Multi-Strategy Tracker ETF;ARCX
 QARP;Xtrackers Russell 1000 US Quality at a Reasonable Price ETF;ARCX
 QCON;American Century Quality Convertible Securities ETF;BATS
-QDEC;FT Cboe Vest Growth-100 Buffer ETF - December;BATS
+QDEC;FT Vest Growth-100 Buffer ETF - December;BATS
 QDEF;FlexShares Quality Dividend Defensive Index Fund;ARCX
 QDF;FlexShares Quality Dividend Index Fund;ARCX
 QDIV;Global X S&P 500 Quality Dividend ETF;ARCX
@@ -2225,7 +2248,7 @@ QGRW;WisdomTree U.S. Quality Growth Fund;ARCX
 QID;ProShares UltraShort QQQ;ARCX
 QINT;American Century Quality Diversified International ETF;ARCX
 QIS;Simplify Multi-QIS Alternative ETF;ARCX
-QJUN;FT Cboe Vest Growth-100 Buffer ETF - June;BATS
+QJUN;FT Vest Growth-100 Buffer ETF - June;BATS
 QLC;FlexShares US Quality Large Cap Index Fund;BATS
 QLD;ProShares Ultra QQQ;ARCX
 QLTA;iShares Aaa - A Rated Corporate Bond ETF;ARCX
@@ -2233,12 +2256,12 @@ QLTY;GMO U.S. Quality ETF;ARCX
 QLV;FlexShares US Quality Low Volatility Index Fund;ARCX
 QLVD;FlexShares Developed Markets ex-US Quality Low Volatility Index Fund;ARCX
 QLVE;FlexShares Emerging Markets Quality Low Volatility Index Fund;ARCX
-QMAR;FT Cboe Vest Growth-100 Buffer ETF - March;BATS
+QMAR;FT Vest Growth-100 Buffer ETF - March;BATS
 QPFF;American Century Quality Preferred ETF;BATS
 QPX;AdvisorShares Q Dynamic Growth ETF;ARCX
 QQH;HCM Defender 100 Index ETF;ARCX
 QRFT;Qraft AI-Enhanced US Large Cap ETF;ARCX
-QSPT;FT Cboe Vest Nasdaq-100 Buffer ETF - September;BATS
+QSPT;FT Vest Nasdaq-100 Buffer ETF - September;BATS
 QSWN;Amplify BlackSwan Tech & Treasury ETF;ARCX
 QTAP;Innovator Growth Accelerated Plus ETF - April;BATS
 QTJA;Innovator Growth Accelerated Plus ETF - January;BATS
@@ -2266,7 +2289,7 @@ RCG;RENN Fund Inc.;XASE
 RDFI;Rareview Dynamic Fixed Income ETF;BATS
 RDIV;Invesco S&P Ultra Dividend Revenue ETF;ARCX
 RDOG;ALPS REIT Dividend Dogs ETF;ARCX
-RDVI;FT Cboe Vest Rising Dividend Achievers Target Income ETF;BATS
+RDVI;FT Vest Rising Dividend Achievers Target Income ETF;BATS
 RECS;Columbia Research Enhanced Core ETF;ARCX
 REET;iShares Global REIT ETF;ARCX
 REGL;ProShares S&P MidCap 400 Dividend Aristocrats ETF;BATS
@@ -2300,6 +2323,7 @@ RINF;ProShares Inflation Expectations ETF;ARCX
 RISN;Inspire Tactical Balanced ETF;ARCX
 RISR;FolioBeyond Alternative Income and Interest Rate Hedge ETF;ARCX
 RITA;ETFB Green SRI REITs ETF;ARCX
+RJMG;FT Raymond James Multicap Growth Equity ETF;ARCX
 RLGT;Radiant Logistics Inc.;XASE
 RLY;SPDR SSgA Multi-Asset Real Return ETF of SSgA Active Trust;ARCX
 RMIF;LHA Risk-Managed Income ETF;BATS
@@ -2357,7 +2381,7 @@ RXL;ProShares Ultra Health Care;ARCX
 RYJ;Invesco Raymond James SB-1 Equity ETF;ARCX
 RYLD;Global X Russell 2000 Covered Call ETF;ARCX
 RYLG;Global X Russell 2000 Covered Call & Growth ETF;ARCX
-RYSE;Cboe Vest 10 Year Interest Rate Hedge ETF;BATS
+RYSE;Vest 10 Year Interest Rate Hedge ETF;BATS
 RZG;Invesco S&P SmallCap 600 Pure Growth ETF;ARCX
 RZV;Invesco S&P SmallCap 600 Pure Value ETF;ARCX
 SAA;ProShares Ulta SmallCap600;ARCX
@@ -2370,7 +2394,7 @@ SAMT;Strategas Macro Thematic Opportunities ETF;ARCX
 SANE;Subversive Mental Health ETF;BATS
 SATO;Invesco Alerian Galaxy Crypto Economy ETF;BATS
 SATX;SatixFy Communications Ltd.;XASE
-SAUG;FT Cboe Vest U.S. Small Cap Moderate Buffer ETF - August;BATS
+SAUG;FT Vest U.S. Small Cap Moderate Buffer ETF - August;BATS
 SBB;ProShares Short SmallCap600;ARCX
 SBEV;Splash Beverage Group Inc.;XASE
 SBEV/W;Splash Beverage Group Inc. Warrants to purchase one whole share of Common Stock at an exercise price of $4.60;XASE
@@ -2420,7 +2444,7 @@ SDOW;ProShares UltraPro Short Dow 30;ARCX
 SDP;ProShares UltraShort Utilities;ARCX
 SDPI;Superior Drilling Products Inc.;XASE
 SDS;ProShares UltraShort S&P500;ARCX
-SDVD;FT Cboe Vest SMID Rising Dividend Achievers Target Income ETF;BATS
+SDVD;FT Vest SMID Rising Dividend Achievers Target Income ETF;BATS
 SDY;SPDR S&P Dividend ETF;ARCX
 SEA;U.S. Global Sea to Sky Cargo ETF;ARCX
 SEB;Seaboard Corporation;XASE
@@ -2456,7 +2480,6 @@ SHE;SPDR MSCI USA Gender Diversity ETF;ARCX
 SHLD;Global X Defense Tech ETF;ARCX
 SHM;SPDR Nuveen Bloomberg Short Term Municipal Bond ETF;ARCX
 SHNY;MicroSectors Gold 3x Leveraged ETN;ARCX
-SHOC;Strive U.S. Semiconductor ETF;ARCX
 SHPP;Pacer Industrials and Logistics ETF;ARCX
 SHRT;Gotham Short Strategies ETF;ARCX
 SHUS;Syntax Stratified U.S. Total Market Hedged ETF;ARCX
@@ -2496,7 +2519,7 @@ SLVP;iShares MSCI Global Silver and Metals Miners ETF;BATS
 SLX;VanEck Steel ETF;ARCX
 SLYG;SPDR S&P 600 Small Cap Growth ETF (based on S&P SmallCap 600 Growth Index--symbol: CKG);ARCX
 SLYV;SPDR S&P 600 Small Cap Value ETF (based on S&P SmallCap 600 Value Index symbol--CVK);ARCX
-SMAY;FT Cboe Vest U.S. Small Cap Moderate Buffer ETF - May;BATS
+SMAY;FT Vest U.S. Small Cap Moderate Buffer ETF - May;BATS
 SMB;VanEck Short Muni ETF;BATS
 SMDD;ProShares UltraPro Short MidCap400;ARCX
 SMDV;ProShares Russell 2000 Dividend Growers ETF;BATS
@@ -2518,7 +2541,7 @@ SMOT;VanEck Morningstar SMID Moat ETF;BATS
 SMTH;ALPS Smith Core Plus Bond ETF;ARCX
 SNAV;Mohr Sector Nav ETF;BATS
 SNMP;Evolve Transition Infrastructure LP;XASE
-SNOV;FT Cboe Vest U.S. Small Cap Moderate Buffer ETF - November;BATS
+SNOV;FT Vest U.S. Small Cap Moderate Buffer ETF - November;BATS
 SNPD;Xtrackers S&P ESG Dividend Aristocrats ETF;BATS
 SNPE;Xtrackers S&P 500 ESG ETF;ARCX
 SNPG;Xtrackers S&P 500 Growth ESG ETF;BATS
@@ -2574,6 +2597,7 @@ SPUS;SP Funds S&P 500 Sharia  ETF;ARCX
 SPUU;Direxion Daily S&P 500 Bull 2X Shares;ARCX
 SPVM;Invesco S&P 500 Value with Momentum ETF;ARCX
 SPVU;Invesco S&P 500 Enhanced Value ETF;ARCX
+SPWO;SP Funds S&P World (ex-US) ETF;ARCX
 SPXB;ProShares S&P 500 Bond ETF;ARCX
 SPXE;ProShares S&P 500 Ex-Energy ETF;ARCX
 SPXL;Direxion Daily S&P 500  Bull 3x Shares;ARCX
@@ -2609,15 +2633,12 @@ SSXU;Day Hagan/Ned Davis Research Smart Sector International ETF;ARCX
 SSY;SunLink Health Systems Inc;XASE
 STAX;Macquarie Tax-Free USA Short Term ETF;ARCX
 STCE;Schwab Crypto Thematic ETF;ARCX
-STGF;Merk Stagflation ETF;ARCX
 STIP;iShares 0-5 Year TIPS Bond ETF;ARCX
 STLG;iShares Factors US Growth Style ETF;BATS
 STNC;Hennessy Stance ESG ETF;ARCX
 STOT;SPDR DoubleLine Short Duration Total Return Tactical ETF;BATS
 STPZ;PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund;ARCX
-STRV;Strive 500 ETF;ARCX
 STRW;Strawberry Fields REIT Inc.;XASE
-STXE;Strive Emerging Markets Ex-China ETF;ARCX
 STXS;Stereotaxis Inc. Common Stock;XASE
 SUB;iShares Short-Term National Muni Bond ETF;ARCX
 SUPL;ProShares Supply Chain Logistics ETF;ARCX
@@ -2637,6 +2658,7 @@ SXUS;Janus Henderson International Sustainable Equity ETF;ARCX
 SYII;Syntax Stratified Total Market II ETF;ARCX
 SYLD;Cambria Shareholder Yield ETF;BATS
 SYNB;Putnam BioRevolution ETF;ARCX
+SYNX;Silynxcom Ltd.;XASE
 SYUS;Syntax Stratified U.S. Total Market ETF;ARCX
 SZK;ProShares UltraShort Consumer Staples;ARCX
 SZNE;Pacer CFRA- Stoval Equal Weight Seasonal Rotation ETF;ARCX
@@ -2650,6 +2672,8 @@ TAIL;Cambria Tail Risk ETF;BATS
 TAN;Invesco Solar ETF;ARCX
 TAXF;American Century Diversified Municipal Bond ETF;ARCX
 TBF;ProShares Short 20+ Year Treasury ETF;ARCX
+TBFC;The Brinsmere Fund - Conservative ETF;ARCX
+TBFG;The Brinsmere Fund - Growth ETF;ARCX
 TBG;TBG Dividend Focus ETF;ARCX
 TBJL;Innovator 20+ Year Treasury Bond 9 Buffer ETF - July;BATS
 TBLL;Invesco Short Term Treasury ETF;ARCX
@@ -2662,7 +2686,7 @@ TDTF;FlexShares iBoxx 5-Year Target Duration TIPS Index Fund;ARCX
 TDTT;FlexShares iBoxx 3-Year Target Duration TIPS Index Fund;ARCX
 TDV;ProShares S&P Technology Dividend Aristocrats ETF;BATS
 TDVG;T. Rowe Price Dividend Growth ETF;ARCX
-TDVI;FT Cboe Vest Technology Dividend Target Income ETF;BATS
+TDVI;FT Vest Technology Dividend Target Income ETF;BATS
 TDW/W;Tidewater Inc.;XASE
 TECB;iShares U.S. Tech Breakthrough Multisector ETF;ARCX
 TECL;Direxion Daily Technology Bull 3x Shares;ARCX
@@ -2743,7 +2767,6 @@ TRT;Trio-Tech International ;XASE
 TRTY;Cambria Trinity ETF;BATS
 TRX;TRX Gold Corporation;XASE
 TSEC;Touchstone Securitized Income ETF;ARCX
-TSJA;Innovator Triple Stacker ETF - January;BATS
 TSLH;Innovator Hedged TSLA Strategy ETF;BATS
 TSLP;Kurv Yield Premium Strategy Tesla (TSLA) ETF;BATS
 TSLY;YieldMax TSLA Option Income Strategy ETF;ARCX
@@ -2760,6 +2783,7 @@ TWM;ProShares UltraShort Russell2000;ARCX
 TXS;Texas Capital Texas Equity Index ETF;ARCX
 TYA;Simplify Intermediate Term Treasury Futures Strategy ETF;BATS
 TYD;Direxion Daily 7-10 Year Treasury Bull 3X Shares (based on the NYSE 7-10 Year Treasury Bond Index - symbol AXSVTN);ARCX
+TYLD;Cambria Tactical Yield ETF;BATS
 TYLG;Global X Information Technology Covered Call & Growth ETF;ARCX
 TYO;Direxion Daily 7-10 Year Treasury Bear 3X Shares (based on the NYSE 7-10 Year Treasury Bond Index - symbol AXSVTN);ARCX
 TZA;Direxion Daily Small Cap Bear 3x Shares;ARCX
@@ -2862,7 +2886,6 @@ VCXB.U;10X Capital Venture Acquisition Corp. III Units each consisting of one Cl
 VCXB/W;10X Capital Venture Acquisition Corp. III Redeemable warrants each whole warrant exercisable for one Class A ordinary share each at an exercise price of $11.50 per share;XASE
 VDC;Vanguard Consumer Staples ETF;ARCX
 VDE;Vanguard Energy ETF;ARCX
-VDNI;V-Shares US Leadership Diversity ETF;ARCX
 VEA;Vanguard FTSE Developed Markets ETF;ARCX
 VEGA;AdvisorShares STAR Global Buy-Write ETF;ARCX
 VEGI;iShares MSCI Agriculture Producers ETF;ARCX
@@ -2899,7 +2922,6 @@ VIXY;ProShares VIX Short-Term Futures ETF;BATS
 VKI;Invesco Advantage Municipal Income Trust II;XASE
 VLU;SPDR S&P 1500 Value Tilt ETF;ARCX
 VLUE;iShares MSCI USA Value Factor ETF;BATS
-VMAT;V-Shares MSCI World ESG Materiality and Carbon Transition ETF;BATS
 VMAX;Hartford US Value ETF;BATS
 VNAM;Global X MSCI Vietnam ETF;ARCX
 VNLA;Janus Henderson Short Duration Income ETF;ARCX
@@ -2981,7 +3003,7 @@ WWJD;Inspire International ETF;ARCX
 WWR;Westwater Resources Inc.;XASE
 WYY;WidePoint Corporation;XASE
 XAR;SPDR S&P Aerospace & Defense ETF;ARCX
-XAUG;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - August;BATS
+XAUG;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - August;BATS
 XB;BondBloxx B-Rated USD High Yield Corporate Bond ETF;ARCX
 XBAP;Innovator U.S. Equity Accelerated 9 Buffer ETF - April;BATS
 XBB;BondBloxx BB-Rated USD High Yield Corporate Bond ETF;ARCX
@@ -2997,7 +3019,7 @@ XCLR;Global X S&P 500 Collar 95-110 ETF;ARCX
 XCOR;FundX ETF;ARCX
 XDAP;Innovator U.S. Equity Accelerated ETF - April;BATS
 XDAT;Franklin Exponential Data ETF;BATS
-XDEC;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - December;BATS
+XDEC;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - December;BATS
 XDJA;Innovator U.S. Equity Accelerated ETF - January;BATS
 XDJL;Innovator U.S. Equity Accelerated ETF - July;BATS
 XDOC;Innovator U.S. Equity Accelerated ETF - October;BATS
@@ -3018,12 +3040,14 @@ XHYF;BondBloxx USD High Yield Bond Financial & REIT Sector ETF;ARCX
 XHYH;BondBloxx USD High Yield Bond Healthcare Sector ETF;ARCX
 XHYI;BondBloxx USD High Yield Bond Industrial Sector ETF;ARCX
 XHYT;BondBloxx USD High Yield Bond Telecom Media & Technology Sector ETF;ARCX
-XISE;FT Cboe Vest U.S. Equity Buffer & Premium Income ETF - September;BATS
+XIDE;FT Vest U.S. Equity Buffer & Premium Income ETF - December;BATS
+XISE;FT Vest U.S. Equity Buffer & Premium Income ETF - September;BATS
 XITK;SPDR FactSet Innovative Technology ETF;ARCX
+XJAN;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - January;BATS
 XJH;iShares ESG Screened S&P Mid-Cap ETF;BATS
 XJR;iShares ESG Screened S&P Small-Cap ETF;BATS
-XJUL;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - July;BATS
-XJUN;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - June;BATS
+XJUL;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - July;BATS
+XJUN;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - June;BATS
 XLB;Materials Select Sector SPDR Fund;ARCX
 XLC;The Communication Services Select Sector SPDR Fund;ARCX
 XLE;Energy Select Sector SPDR Fund;ARCX
@@ -3037,7 +3061,7 @@ XLSR;SPDR SSGA US Sector Rotation ETF;ARCX
 XLU;Utilities Select Sector SPDR Fund;ARCX
 XLV;Health Care Select Sector SPDR Fund;ARCX
 XLY;Consumer Discretionary Select Sector SPDR Fund;ARCX
-XMAR;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - March;BATS
+XMAR;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - March;BATS
 XME;SPDR S&P Metals & Mining ETF;ARCX
 XMHQ;Invesco S&P MidCap Quality ETF;ARCX
 XMLV;Invesco S&P MidCap Low Volatility ETF;ARCX
@@ -3045,9 +3069,9 @@ XMMO;Invesco S&P MidCap Momentum ETF;ARCX
 XMPT;VanEck CEF Muni Income ETF;BATS
 XMVM;Invesco S&P MidCap Value with Momentum ETF;ARCX
 XNAV;FundX Aggressive ETF;ARCX
-XNOV;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - November;BATS
+XNOV;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - November;BATS
 XNTK;SPDR NYSE Technology ETF;ARCX
-XOCT;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - October;BATS
+XOCT;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - October;BATS
 XOMO;YieldMax XOM Option Income Strategy ETF;ARCX
 XONE;BondBloxx Bloomberg One Year Target Duration US Treasury ETF;ARCX
 XOP;SPDR S&P Oil & Gas Exploration & Production ETF;ARCX
@@ -3060,7 +3084,7 @@ XRLX;FundX Conservative ETF;ARCX
 XRMI;Global X S&P 500 Risk Managed Income ETF;ARCX
 XRT;SPDR S&P Retail ETF;ARCX
 XSD;SPDR S&P Semiconductor ETF;ARCX
-XSEP;FT Cboe Vest U.S. Equity Enhance & Moderate Buffer ETF - September;BATS
+XSEP;FT Vest U.S. Equity Enhance & Moderate Buffer ETF - September;BATS
 XSHD;Invesco S&P SmallCap High Dividend Low Volatility ETF;BATS
 XSHQ;Invesco S&P SmallCap Quality ETF;BATS
 XSLV;Invesco S&P SmallCap Low Volatility ETF;ARCX
@@ -3084,26 +3108,27 @@ XTWY;BondBloxx Bloomberg Twenty Year Target Duration US Treasury ETF ;ARCX
 XUSP;Innovator Uncapped Accelerated U.S. Equity ETF;BATS
 XVOL;Acruence Active Hedge U.S. Equity ETF;BATS
 XVV;iShares ESG Screened S&P 500 ETF;BATS
-XWEB;SPDR S&P Internet ETF;ARCX
 XXXX;MAX S&P 500 4x Leveraged ETN;ARCX
 XYLD;Global X S&P 500 Covered Call ETF;ARCX
 XYLE;Global X S&P 500 ESG Covered Call ETF;ARCX
 XYLG;Global X S&P 500 Covered Call & Growth ETF;ARCX
 YALL;God Bless America ETF;ARCX
 YANG;Direxion Daily FTSE  China Bear 3X Shares;ARCX
+YBTC;Roundhill Bitcoin Covered Call Strategy ETF;BATS
 YCBD;cbdMD Inc. Common Stock;XASE
 YCBD/PA;cbdMD Inc. 8.0% Series A Cumulative Convertible Preferred Stock;XASE
 YCL;ProShares Ultra Yen;ARCX
 YCS;ProShares UltraShort Yen;ARCX
-YDEC;FT Cboe Vest International Equity Buffer ETF - December;BATS
+YDEC;FT Vest International Equity Moderate Buffer ETF - December;BATS
 YEAR;AB Ultra Short Income ETF;ARCX
 YINN;Direxion Daily FTSE  China Bull 3X Shares;ARCX
-YJUN;FT Cboe Vest International Equity Buffer ETF - June;BATS
+YJUN;FT Vest International Equity Buffer ETF - June;BATS
 YLD;Principal Active High Yield ETF;ARCX
-YMAR;FT Cboe Vest International Equity Buffer ETF - March;BATS
+YMAR;FT Vest International Equity Buffer ETF - March;BATS
+YMAX;YieldMax Universe Fund of Option Income ETFs;ARCX
 YOLO;AdvisorShares Pure Cannabis ETF;ARCX
 YPS;Arrow Reverse Cap 500 ETF;BATS
-YSEP;FT Cboe Vest International Equity Buffer ETF - September;BATS
+YSEP;FT Vest International Equity Buffer ETF - September;BATS
 YUMY;VanEck Future of Food ETF;ARCX
 YXI;ProShares Short FTSE China 50 of PROSHARES TRUST;ARCX
 YYY;Amplify High Income ETF;ARCX
@@ -3120,7 +3145,9 @@ ZSB;USCF Sustainable Battery Metals Strategy Fund;ARCX
 ZSC;USCF Sustainable Commodity Strategy Fund;ARCX
 ZSL;ProShares UltraShort Silver;ARCX
 ZTAX;X-Square Municipal Income Tax Free ETF;ARCX
+ZTEN;F/m 10-Year Investment Grade Corporate Bond ETF;ARCX
 ZTEST;BATS LISTED TEST STOCK FOR CTS CQS;BATS
+ZTRE;F/m 3-Year Investment Grade Corporate Bond ETF;ARCX
+ZTWO;F/m 2-Year Investment Grade Corporate Bond ETF;ARCX
 ZVV;NYSE Arca Listed Test Stock For CTS CQS;ARCX
 ZZK;NYSE Arca Listed Test Stock For CTS CQS;ARCX
-ZZZ;NYSE Arca Listed Test Stock For CTS CQS;ARCX
