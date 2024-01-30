@@ -8,9 +8,9 @@ async def fetch_isin(session, url, isin_queue) -> None:
 
     async with session.get(url) as response:
         data = await response.json()
+        id = int(url.split("/")[5])
 
         try:
-            id = int(url.split("/")[5])
             serie = data["content"][0]["serie"]
             isin = data["content"][0]["isin"]
 
