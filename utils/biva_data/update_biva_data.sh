@@ -56,6 +56,6 @@ else
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
     git commit -m "Autocommit biva data"
-    git push origin "$EXPCHAINS_BRANCH"
+    git push origin "$EXPCHAINS_BRANCH" "staging"
 fi
 popd
