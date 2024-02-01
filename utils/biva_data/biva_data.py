@@ -27,7 +27,6 @@ async def fetch_isin(session, url, isin_queue) -> None:
 
 async def get_isins(urls: list) -> list:
     """
-    A function that creates tasks for async parsing and retrieves results from the queue
     :param urls: list of urls for creating tasks for async parsing
     :return: list of tuples with id, serie and isin
     """
