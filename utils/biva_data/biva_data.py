@@ -5,7 +5,11 @@ import requests
 
 
 async def fetch_isin(session, url, isin_queue) -> None:
-
+    """
+    :param session: aiohttp.ClientSession()
+    :param url: symbol's url
+    :param isin_queue: queue for saving the results of async parsing
+    """
     async with session.get(url) as response:
         data = await response.json()
         id = int(url.split("/")[5])
@@ -22,7 +26,11 @@ async def fetch_isin(session, url, isin_queue) -> None:
 
 
 async def get_isins(urls: list) -> list:
-
+    """
+    A function that creates tasks for async parsing and retrieves results from the queue
+    :param urls: list of urls for creating tasks for async parsing
+    :return: list of tuples with id, serie and isin
+    """
     isins = []
 
     isin_queue = asyncio.Queue()
@@ -39,7 +47,11 @@ async def get_isins(urls: list) -> list:
 
 
 def write_result(symbols: list, isins: list) -> None:
-
+    """
+    A function that matches symbols by their id and writes the tv-symbol, description and isin to a file
+    :param symbols: list of tuples with id, symbol and description
+    :param isins: list of tuples with id, serie and isin
+    """
     with open("biva_data.csv", "w") as file:
             file.write("tv-symbol;description;isin\n")
 
