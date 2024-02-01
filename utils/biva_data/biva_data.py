@@ -12,14 +12,14 @@ async def fetch_isin(session, url, isin_queue) -> None:
     """
     async with session.get(url) as response:
         data = await response.json()
-        id = int(url.split("/")[5])
+        isin_id = int(url.split("/")[5])
 
         try:
             serie = data["content"][0]["serie"]
             isin = data["content"][0]["isin"]
 
-            if id is not None and isin is not None:
-                isin_queue.put_nowait((id, serie, isin))
+            if isin_id is not None and isin is not None:
+                isin_queue.put_nowait((isin_id, serie, isin))
 
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON for {url}: {e}")
@@ -39,8 +39,8 @@ async def get_isins(urls: list) -> list:
             await asyncio.gather(*tasks)
 
     while not isin_queue.empty():
-            id, serie, isin = isin_queue.get_nowait()
-            isins.append((id, serie, isin))
+            isin_id, serie, isin = isin_queue.get_nowait()
+            isins.append((isin_id, serie, isin))
 
     return isins
 
@@ -55,7 +55,7 @@ def write_result(symbols: list, isins: list) -> None:
             file.write("tv-symbol;description;isin\n")
 
             for symbol in symbols:
-                desc_id, symbol, description = symbol
+                symbol_id, symbol, description = symbol
 
                 if description[-1] == ".":
                     description = description[:-1]
@@ -63,7 +63,7 @@ def write_result(symbols: list, isins: list) -> None:
                 for s_isin in isins:
                     isin_id, serie, isin = s_isin
 
-                    if desc_id == isin_id:
+                    if symbol_id == isin_id:
 
                         if serie == "*":
                             file.write(f"{symbol};{description};{isin}\n")
