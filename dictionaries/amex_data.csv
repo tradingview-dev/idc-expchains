@@ -530,8 +530,9 @@ DBO;Invesco DB Oil Fund;ARCX
 DBP;Invesco DB Precious Metals Fund;ARCX
 DC;Dakota Gold Corp.;XASE
 DC/W;Dakota Gold Corp. Warrants each warrant exercisable for one Common Share at an exercise price of $2.08;XASE
-DCMB;DoubleLine Commercial Real Estate ETF;ARCX
+DCMT;DoubleLine Commodity Strategy ETF;ARCX
 DCOR;Dimensional US Core Equity 1 ETF;ARCX
+DCRE;DoubleLine Commercial Real Estate ETF;ARCX
 DDC;DDC Enterprise Limited;XASE
 DDEC;FT Vest U.S. Equity Deep Buffer ETF - December;BATS
 DDLS;WisdomTree Dynamic Currency Hedged International SmallCap Equity Fund;BATS
@@ -587,6 +588,7 @@ DFSU;Dimensional US Sustainability Core 1 ETF;ARCX
 DFSV;Dimensional US Small Cap Value ETF;ARCX
 DFUS;Dimensional U.S. Equity ETF;ARCX
 DFUV;Dimensional US Marketwide Value ETF;ARCX
+DFVE;DoubleLine Fortune 500 Equal Weight ETF;ARCX
 DFVX;Dimensional US Large Cap Vector ETF;ARCX
 DGIN;VanEck Digital India ETF;ARCX
 DGP;DB Gold Double Long ETN due February 15 2038;ARCX
@@ -921,6 +923,7 @@ FDV;Federated Hermes U.S. Strategic Dividend ETF;ARCX
 FDVL;Foundations Dynamic Value ETF;BATS
 FDVV;Fidelity High Dividend ETF;ARCX
 FDWM;Fidelity Women's Leadership ETF;ARCX
+FEBP;PGIM US Large-Cap Buffer 12 ETF - February;BATS
 FEBT;AllianzIM U.S. Large Cap Buffer10 Feb ETF;ARCX
 FEBW;AllianzIM U.S. Large Cap Buffer20 Feb ETF;ARCX
 FEBZ;TrueShares Structured Outcome (February) ETF;BATS
@@ -986,6 +989,7 @@ FLHY;Franklin High Yield Corporate ETF;BATS
 FLIA;Franklin International Aggregate Bond ETF;BATS
 FLIN;Franklin FTSE India ETF;ARCX
 FLJH;Franklin FTSE Japan Hedged ETF;ARCX
+FLJJ;AllianzIM U.S. Equity 6 Month Floor5 Jan/Jul ETF;ARCX
 FLJP;Franklin FTSE Japan ETF;ARCX
 FLKR;Franklin FTSE South Korea ETF;ARCX
 FLLA;Franklin FTSE Latin America;ARCX
@@ -1160,7 +1164,6 @@ GJUL;FT Vest U.S. Equity Moderate Buffer ETF - July;BATS
 GJUN;FT Vest U.S. Equity Moderate Buffer ETF - June;BATS
 GK;AdvisorShares Gerber Kawasaki ETF;ARCX
 GLD;SPDR Gold Trust SPDR Gold Shares;ARCX
-GLDB;Strategy Shares Gold-Hedged Bond ETF;BATS
 GLDG;GoldMining Inc.;XASE
 GLDM;SPDR Gold MiniShares;ARCX
 GLDX;USCF GOLD STRATEGY PLUS INCOME FUND;ARCX
@@ -1189,6 +1192,7 @@ GNS;Genius Group Limited;XASE
 GOAU;US Global GO Gold and Precious Metal Miners ETF;ARCX
 GOCT;FT Vest U.S. Equity Moderate Buffer ETF - October;BATS
 GOEX;Global X Gold Explorers ETF (NEW);ARCX
+GOLY;Strategy Shares Gold-Hedged Bond ETF;BATS
 GOOP;Kurv Yield Premium Strategy Google (GOOGL) ETF;BATS
 GOOX;T-Rex 2X Long Alphabet Daily Target ETF;BATS
 GOOY;YieldMax GOOGL Option Income Strategy ETF;ARCX
@@ -1413,6 +1417,7 @@ IETC;iShares U.S. Tech Independence Focused ETF;BATS
 IEUR;iShares Core MSCI Europe ETF;ARCX
 IEV;iShares Europe ETF;ARCX
 IEZ;iShares U.S. Oil Equipment & Services ETF;ARCX
+IFEB;Innovator International Developed Power Buffer ETF - February;ARCX
 IFED;ETRACS IFED Invest with the Fed TR Index ETN;ARCX
 IFRA;iShares U.S. Infrastructure ETF;BATS
 IG;Principal Investment Grade Corporate Active ETF;ARCX
@@ -2084,6 +2089,7 @@ PAWZ;ProShares Pet Care ETF;BATS
 PBD;Invesco Global Clean Energy ETF;ARCX
 PBDC;Putnam BDC Income ETF;ARCX
 PBE;Invesco Biotechnology & Genome ETF;ARCX
+PBFB;PGIM US Large-Cap Buffer 20 ETF - February;BATS
 PBJ;Invesco Food & Beverage ETF;ARCX
 PBJA;PGIM US Large-Cap Buffer 20 ETF - January;BATS
 PBL;PGIM Portfolio Ballast ETF;BATS
@@ -2505,6 +2511,7 @@ SING;SinglePoint Inc.;BATS
 SIO;Touchstone Strategic Income Opportunities ETF;ARCX
 SIVR;abrdn Physical Silver Shares ETF;ARCX
 SIXA;ETC 6 Meridian Mega Cap Equity ETF;ARCX
+SIXF;AllianzIM U.S. Large Cap 6 Month Buffer10 Feb/Aug ETF;ARCX
 SIXH;ETC 6 Meridian Hedged Equity Index Option ETF;ARCX
 SIXJ;AllianzIM U.S. Large Cap 6 Month Buffer10 Jan/Jul ETF;ARCX
 SIXL;ETC 6 Meridian Low Beta Equity ETF;ARCX
@@ -2768,7 +2775,6 @@ TPYP;Tortoise North American Pipeline ETF;ARCX
 TRFK;Pacer Data and Digital Revolution ETF;ARCX
 TRFM;AAM Transformers ETF;ARCX
 TRND;Pacer Trendpilot Fund of Funds ETF;ARCX
-TRPL;Pacer Metaurus US Large Cap Dividend Multiplier 300 ETF;ARCX
 TRT;Trio-Tech International ;XASE
 TRTY;Cambria Trinity ETF;BATS
 TRX;TRX Gold Corporation;XASE
