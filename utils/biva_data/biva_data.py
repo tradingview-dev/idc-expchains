@@ -4,6 +4,9 @@ import json
 import requests
 
 
+URL = "https://www.biva.mx/emisoras/sic?size=10000&page=0"
+
+
 async def fetch_isin(session, url, isin_queue) -> None:
     """
     :param session: aiohttp.ClientSession()
@@ -72,17 +75,25 @@ def write_result(symbols: list, isins: list) -> None:
                             file.write(f"{symbol + '/' + serie};{description};{isin}\n")
 
 
-def main():
-
+def get_urls_symbols() -> tuple:
+    """
+    :return: two lists with urls and symbols
+    """
     urls = []
     symbols = []
 
-    SIC = requests.get("https://www.biva.mx/emisoras/sic?size=10000&page=0").json()["content"]
+    SIC = requests.get(URL).json()["content"]
 
     for symbol in SIC:
 
         urls.append(f'https://www.biva.mx/emisoras/sic/{symbol["id"]}/emisiones?size=10&page=0')
         symbols.append((symbol["id"], symbol["clave"], symbol["nombre"]))
+
+    return urls, symbols
+
+def main():
+
+    urls, symbols = get_urls_symbols()
 
     isins = asyncio.run(get_isins(urls))
 
