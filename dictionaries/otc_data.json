@@ -1306,6 +1306,7 @@
   },
   {
     "companyName": "ADASTRIA CO LTD",
+    "country": "Japan",
     "isCaveatEmptor": false,
     "symbol": "ACOLF",
     "tierCode": "PL",
@@ -8384,7 +8385,6 @@
   {
     "companyName": "AMSC ASA",
     "country": "Norway",
-    "industry": "Ship building and repairing",
     "isCaveatEmptor": false,
     "symbol": "ASCJF",
     "tierCode": "QX",
@@ -44073,7 +44073,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Faurecia SA",
+    "companyName": "Faurecia SE",
     "country": "France",
     "isCaveatEmptor": false,
     "symbol": "FURCF",
@@ -50872,6 +50872,13 @@
     "symbol": "HAVLF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Havilah Resources Ltd.",
+    "isCaveatEmptor": false,
+    "symbol": "HAVRF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Hawaiian Electric Co., Inc.",
@@ -79121,6 +79128,7 @@
   {
     "companyName": "NGEx Minerals Ltd.",
     "country": "Canada",
+    "industry": "Metal mining services",
     "isCaveatEmptor": false,
     "symbol": "NGXXF",
     "tierCode": "PC",
@@ -97529,8 +97537,8 @@
     "industry": "Computer and software stores",
     "isCaveatEmptor": false,
     "symbol": "RMHI",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Regina Miracle Intl Hlds Ltd.",
@@ -100721,7 +100729,7 @@
     "tierName": "Pink Limited"
   },
   {
-    "companyName": "HORIZON COPPER CORP.",
+    "companyName": "Horizon Copper Corp.",
     "country": "Canada",
     "industry": "Copper ores",
     "isCaveatEmptor": false,
@@ -105418,8 +105426,8 @@
     "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
     "symbol": "SJOYW",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Arcwest Expl Inc.",
@@ -114425,6 +114433,7 @@
   {
     "companyName": "Taiga Building Products Ltd.",
     "country": "Canada",
+    "industry": "Wholesale-Lumber & Other Construction Materials",
     "isCaveatEmptor": false,
     "symbol": "TGAFF",
     "tierCode": "PC",
@@ -128152,6 +128161,7 @@
   },
   {
     "companyName": "World Wireless Communications Inc.",
+    "country": "United States",
     "isCaveatEmptor": false,
     "symbol": "WWRL",
     "tierCode": "PC",
