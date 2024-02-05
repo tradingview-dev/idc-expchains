@@ -11,10 +11,9 @@ BLACK_LIST = ["CKDs", "SIC Deuda", "Warrants", "CERPIs"]
 
 async def fetch_isin(session, url, isin_queue) -> None:
     """
-    fetch International Quotation System (SIC) isins
     :param session: aiohttp.ClientSession()
     :param url: symbol's url
-    :param isin_sic_queue: queue for saving the results of async parsing
+    :param isin_queue: queue for saving the results of async parsing
     """
     async with session.get(url) as response:
         data = await response.json()
