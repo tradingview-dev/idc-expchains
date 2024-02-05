@@ -9,7 +9,7 @@ RI_URL = "https://www.biva.mx/emisoras/empresas?size=10000&page=0"
 BLACK_LIST = ["CKDs", "SIC Deuda", "Warrants", "CERPIs"]
 
 
-async def fetch_sic_isin(session, url, isin_sic_queue) -> None:
+async def fetch_isin(session, url, isin_queue) -> None:
     """
     fetch International Quotation System (SIC) isins
     :param session: aiohttp.ClientSession()
@@ -30,7 +30,7 @@ async def fetch_sic_isin(session, url, isin_sic_queue) -> None:
                         continue
 
                     if isin_id is not None and isin is not None:
-                        isin_sic_queue.put_nowait((isin_id, serie, isin))
+                        isin_queue.put_nowait((isin_id, serie, isin))
 
                 except json.JSONDecodeError as e:
                     print(f"Error decoding JSON for {url}: {e}")
@@ -39,60 +39,28 @@ async def fetch_sic_isin(session, url, isin_sic_queue) -> None:
             return
 
 
-async def fetch_ri_isin(session, url, isin_ri_queue) -> None:
-    """
-    fetch Registered Issuers isins
-    :param session: aiohttp.ClientSession()
-    :param url: symbol's url
-    :param isin_ri_queue: queue for saving the results of async parsing
-    """
-    async with session.get(url) as response:
-        data = await response.json()
-        isin_id = int(url.split("/")[5])
-        try:
-            for symbol in range(len(data["content"])):
-                try:
-                    serie = data["content"][symbol]["serie"]
-                    isin = data["content"][symbol]["isin"]
-
-                    if data["content"][symbol]["tipoInstrumento"] in BLACK_LIST:
-                        continue
-
-                    if isin_id is not None and isin is not None:
-                        isin_ri_queue.put_nowait((isin_id, serie, isin))
-
-                except json.JSONDecodeError as e:
-                    print(f"Error decoding JSON for {url}: {e}")
-        except KeyError:
-            print(f"Empty data {url}")
-            return
-
-
-async def get_isins(sic_urls: list, ri_urls: list) -> list:
+async def get_isins(urls: list) -> list:
     """
     :param urls: list of urls for creating tasks for async parsing
     :return: list of tuples with id, serie and isin
     """
     isins = []
 
-    isin_sic_queue = asyncio.Queue()
+    isin_queue = asyncio.Queue()
 
-    isin_ri_queue = asyncio.Queue()
+    for iteration in range(1, 3):
+        if iteration == 1:
+            start = 0
+            finish = round(len(urls)/2)
+        else:
+            start = round(len(urls)/2)
+            finish = len(urls)
+        async with aiohttp.ClientSession() as session:
+            tasks = [fetch_isin(session, url, isin_queue) for url in urls[start:finish]]
+            await asyncio.gather(*tasks)
 
-    async with aiohttp.ClientSession() as session:
-        tasks = [fetch_sic_isin(session, url, isin_sic_queue) for url in sic_urls]
-        await asyncio.gather(*tasks)
-
-    async with aiohttp.ClientSession() as session:
-        tasks = [fetch_ri_isin(session, url, isin_ri_queue) for url in ri_urls]
-        await asyncio.gather(*tasks)
-
-    while not isin_sic_queue.empty():
-        isin_id, serie, isin = isin_sic_queue.get_nowait()
-        isins.append((isin_id, serie, isin))
-
-    while not isin_ri_queue.empty():
-        isin_id, serie, isin = isin_ri_queue.get_nowait()
+    while not isin_queue.empty():
+        isin_id, serie, isin = isin_queue.get_nowait()
         isins.append((isin_id, serie, isin))
 
     return isins
@@ -129,29 +97,28 @@ def get_urls_symbols() -> tuple:
     """
     :return: two lists with urls and symbols
     """
-    sic_urls = []
-    ri_urls = []
+    urls = []
     symbols = []
 
     SIC = requests.get(SIC_URL).json()["content"]
     RI = requests.get(RI_URL).json()["content"]
 
     for symbol in SIC:
-        sic_urls.append(f'https://www.biva.mx/emisoras/sic/{symbol["id"]}/emisiones?size=10&page=0')
+        urls.append(f'https://www.biva.mx/emisoras/sic/{symbol["id"]}/emisiones?size=10&page=0')
         symbols.append((symbol["id"], symbol["clave"], symbol["nombre"]))
 
     for symbol in RI:
-        ri_urls.append(f'https://www.biva.mx/emisoras/empresas/{symbol["id"]}/emisiones?size=10&page=0&cotizacion=true')
+        urls.append(f'https://www.biva.mx/emisoras/empresas/{symbol["id"]}/emisiones?size=10&page=0&cotizacion=true')
         symbols.append((symbol["id"], symbol["clave"], symbol["nombre"]))
 
-    return sic_urls, ri_urls, symbols
+    return urls, symbols
 
 
 def main():
 
-    sic_urls, ri_urls, symbols = get_urls_symbols()
+    urls, symbols = get_urls_symbols()
 
-    isins = asyncio.run(get_isins(sic_urls, ri_urls))
+    isins = asyncio.run(get_isins(urls))
 
     write_result(symbols, isins)
 
