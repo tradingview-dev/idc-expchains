@@ -6,6 +6,8 @@ import requests
 SIC_URL = "https://www.biva.mx/emisoras/sic?size=10000&page=0"
 RI_URL = "https://www.biva.mx/emisoras/empresas?size=10000&page=0"
 
+BLACK_LIST = ["CKDs", "SIC Deuda", "Warrants", "CERPIs"]
+
 
 async def fetch_sic_isin(session, url, isin_sic_queue) -> None:
     """
@@ -17,16 +19,23 @@ async def fetch_sic_isin(session, url, isin_sic_queue) -> None:
     async with session.get(url) as response:
         data = await response.json()
         isin_id = int(url.split("/")[5])
-
         try:
-            serie = data["content"][0]["serie"]
-            isin = data["content"][0]["isin"]
+            for symbol in range(len(data["content"])):
 
-            if isin_id is not None and isin is not None:
-                isin_sic_queue.put_nowait((isin_id, serie, isin))
+                try:
+                    serie = data["content"][symbol]["serie"]
+                    isin = data["content"][symbol]["isin"]
 
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON for {url}: {e}")
+                    if data["content"][symbol]["tipoInstrumento"] in BLACK_LIST:
+                        continue
+
+                    if isin_id is not None and isin is not None:
+                        isin_sic_queue.put_nowait((isin_id, serie, isin))
+
+                except json.JSONDecodeError as e:
+                    print(f"Error decoding JSON for {url}: {e}")
+        except KeyError:
+            return
 
 
 async def fetch_ri_isin(session, url, isin_ri_queue) -> None:
@@ -39,16 +48,20 @@ async def fetch_ri_isin(session, url, isin_ri_queue) -> None:
     async with session.get(url) as response:
         data = await response.json()
         isin_id = int(url.split("/")[5])
-
         try:
-            serie = data["content"][0]["serie"]
-            isin = data["content"][0]["isin"]
+            for symbol in range(len(data["content"])):
+                try:
+                    serie = data["content"][symbol]["serie"]
+                    isin = data["content"][symbol]["isin"]
 
-            if isin_id is not None and isin is not None:
-                isin_ri_queue.put_nowait((isin_id, serie, isin))
+                    if data["content"][symbol]["tipoInstrumento"] in BLACK_LIST:
+                        continue
 
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON for {url}: {e}")
+                    if isin_id is not None and isin is not None:
+                        isin_ri_queue.put_nowait((isin_id, serie, isin))
+
+                except json.JSONDecodeError as e:
+                    print(f"Error decoding JSON for {url}: {e}")
         except KeyError:
             print(f"Empty data {url}")
             return
