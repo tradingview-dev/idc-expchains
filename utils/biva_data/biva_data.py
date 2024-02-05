@@ -90,7 +90,7 @@ def write_result(symbols: list, isins: list) -> None:
     :param symbols: list of tuples with id, symbol and description
     :param isins: list of tuples with id, serie and isin
     """
-    with open("biva_data_final_plus.csv", "w") as file:
+    with open("biva_data.csv", "w") as file:
         file.write("tv-symbol;description;isin\n")
 
         for symbol in symbols:
