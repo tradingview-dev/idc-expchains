@@ -35,6 +35,7 @@ async def fetch_sic_isin(session, url, isin_sic_queue) -> None:
                 except json.JSONDecodeError as e:
                     print(f"Error decoding JSON for {url}: {e}")
         except KeyError:
+            print(f"Empty data {url}")
             return
 
 
