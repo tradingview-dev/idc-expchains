@@ -1133,6 +1133,7 @@
   },
   {
     "companyName": "Asian Citrus Holdings Ltd.",
+    "country": "China",
     "isCaveatEmptor": false,
     "symbol": "ACITD",
     "tierCode": "PC",
@@ -10696,8 +10697,8 @@
     "industry": "Nonresidential building operators",
     "isCaveatEmptor": false,
     "symbol": "AWCA",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Alumina Limited",
@@ -18859,8 +18860,8 @@
     "industry": "Finance Services",
     "isCaveatEmptor": false,
     "symbol": "CAFI",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Cafe Serendipity Holdings, Inc.",
@@ -22979,8 +22980,8 @@
     "industry": "Life insurance",
     "isCaveatEmptor": false,
     "symbol": "CILJF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Capital Limited",
@@ -31206,6 +31207,7 @@
   },
   {
     "companyName": "Differ Group Holding Co. Ltd.",
+    "country": "China",
     "isCaveatEmptor": false,
     "symbol": "DFFGD",
     "tierCode": "PC",
@@ -38192,6 +38194,15 @@
     "symbol": "ESCNF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "ESG, Inc.",
+    "country": "United States",
+    "industry": "Biological products, except diagnostic",
+    "isCaveatEmptor": false,
+    "symbol": "ESGH",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "EnviroGold Global Limited",
@@ -60497,8 +60508,8 @@
     "industry": "Commercial banks, misc",
     "isCaveatEmptor": false,
     "symbol": "ITCLY",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "I.T.C. Ltd.",
@@ -88543,8 +88554,8 @@
     "industry": "Pharmaceutical preparations",
     "isCaveatEmptor": false,
     "symbol": "PCYN",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "PT DELTA DUNIA PETROINDO TBK",
@@ -94203,6 +94214,7 @@
   },
   {
     "companyName": "PHOENIX MEDIA INVT (HOLDINGS) LTD.",
+    "country": "China",
     "isCaveatEmptor": false,
     "symbol": "PXSTD",
     "tierCode": "PC",
@@ -112156,7 +112168,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Radio and TV communications equipment",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -123030,8 +123042,8 @@
     "industry": "Computer integrated systems design",
     "isCaveatEmptor": false,
     "symbol": "UTRX",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "United Utilities Group PLC",
@@ -126679,6 +126691,14 @@
     "companyName": "K9 Gold Corp.",
     "country": "Canada",
     "isCaveatEmptor": false,
+    "symbol": "WDFCD",
+    "tierCode": "QB",
+    "tierName": "OTCQB"
+  },
+  {
+    "companyName": "K9 Gold Corp.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
     "symbol": "WDFCF",
     "tierCode": "QB",
     "tierName": "OTCQB"
@@ -128621,7 +128641,7 @@
     "tierName": "OTCQB"
   },
   {
-    "companyName": "Global AI Inc. ",
+    "companyName": "Global AI Inc.",
     "country": "United States",
     "industry": "Retail-Nonstore Retailers",
     "isCaveatEmptor": false,
