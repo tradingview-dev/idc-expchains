@@ -7303,6 +7303,13 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "Alicanto Minerals Ltd.",
+    "isCaveatEmptor": false,
+    "symbol": "AQIMF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Golden Ally Lifetech Group Inc.",
     "country": "United States",
     "industry": "Misc Industrial & Commercial Machinery & Equipment",
@@ -8879,6 +8886,13 @@
     "symbol": "ASRMF",
     "tierCode": "PC",
     "tierName": "Pink Current"
+  },
+  {
+    "companyName": "ASR Nederland N.V.",
+    "isCaveatEmptor": false,
+    "symbol": "ASRRF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Assisted 4 Living Inc.",
@@ -26067,7 +26081,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "CorEnergy Infrastructure Trust, Inc. ",
+    "companyName": "CorEnergy Infrastructure Trust, Inc.",
     "country": "United States",
     "industry": "Real estate investment trusts",
     "isCaveatEmptor": false,
@@ -26094,7 +26108,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "CorEnergy Infrastructure Trust, Inc. ",
+    "companyName": "CorEnergy Infrastructure Trust, Inc.",
     "country": "United States",
     "industry": "Real estate investment trusts",
     "isCaveatEmptor": false,
@@ -28777,8 +28791,8 @@
     "companyName": "Costa Group Holdings Ltd.",
     "isCaveatEmptor": false,
     "symbol": "CTTQF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Controladora Vuela Compania de Aviacion S.A.B DE C V",
@@ -38839,15 +38853,15 @@
     "companyName": "Evergrande Property Services Group Limited",
     "isCaveatEmptor": false,
     "symbol": "EVGPF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Evergrande Property Services Group Limited",
     "isCaveatEmptor": false,
     "symbol": "EVGPY",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "CHINA EVERGRANDE NEW ENERGY VEH GROUP LTD.",
@@ -43216,6 +43230,13 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "FRECF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "FREDONIA MNG INC.",
+    "isCaveatEmptor": false,
+    "symbol": "FREDF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -64375,8 +64396,8 @@
     "industry": "Beverages",
     "isCaveatEmptor": false,
     "symbol": "KGKG",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "King Global Ventures Inc.",
@@ -68331,8 +68352,8 @@
     "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "LINIF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Liontown Resources Ltd.",
@@ -73020,6 +73041,13 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "ME THERAPEUTICS HLDGS INC.",
+    "isCaveatEmptor": false,
+    "symbol": "METXF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "MEXICAN GOLD MNG CORP.",
     "country": "Canada",
     "industry": "Gold and Silver Ores",
@@ -74908,6 +74936,13 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "MITRE MNG CORP LTD.",
+    "isCaveatEmptor": false,
+    "symbol": "MMCRF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "MIND MEDICINE MINDMED INC.",
     "country": "United States",
     "industry": "Medicinal and botanicals",
@@ -75402,7 +75437,7 @@
   },
   {
     "companyName": "GEN 2 TECHNOLOGIES INC.",
-    "country": "United States",
+    "country": "Canada",
     "industry": "Plastics products, misc",
     "isCaveatEmptor": false,
     "symbol": "MNIZ",
@@ -75523,6 +75558,15 @@
     "industry": "Paper; coated and laminated packaging",
     "isCaveatEmptor": false,
     "symbol": "MNODD",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Mondi Plc.",
+    "country": "United Kingdom",
+    "industry": "Paper; coated and laminated packaging",
+    "isCaveatEmptor": false,
+    "symbol": "MNODF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -83079,6 +83123,15 @@
     "country": "Canada",
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
+    "symbol": "NVGLD",
+    "tierCode": "QB",
+    "tierName": "OTCQB"
+  },
+  {
+    "companyName": "NV Gold Corp",
+    "country": "Canada",
+    "industry": "Gold and Silver Ores",
+    "isCaveatEmptor": false,
     "symbol": "NVGLF",
     "tierCode": "QB",
     "tierName": "OTCQB"
@@ -84151,6 +84204,7 @@
   {
     "companyName": "Oceanagold Corp.",
     "country": "Canada",
+    "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "OCANF",
     "tierCode": "QX",
@@ -87785,7 +87839,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Platinex, Inc.",
+    "companyName": "PTX Metals Inc.",
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "PANXF",
@@ -90727,6 +90781,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Pro Medicus, Ltd.",
+    "country": "Australia",
+    "isCaveatEmptor": false,
+    "symbol": "PMDIY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Pt Mitra Adiperkasa Tbk",
     "country": "Indonesia",
     "industry": "Retail-Miscellaneous Retail",
@@ -91385,6 +91447,14 @@
     "symbol": "POLXF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "ME GROUP INTL PLC",
+    "country": "United Kingdom",
+    "isCaveatEmptor": false,
+    "symbol": "POMOF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Atari",
@@ -98873,6 +98943,15 @@
     "symbol": "ROHHF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "RiskOn International, Inc.",
+    "country": "United States",
+    "industry": "Data processing and preparation",
+    "isCaveatEmptor": false,
+    "symbol": "ROII",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Route1 Inc.",
@@ -112250,7 +112329,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Blank Checks",
+    "industry": "Radio and TV communications equipment",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -132088,8 +132167,8 @@
     "industry": "Womens and childrens clothing",
     "isCaveatEmptor": false,
     "symbol": "ZTTO",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Zuki Inc.",
