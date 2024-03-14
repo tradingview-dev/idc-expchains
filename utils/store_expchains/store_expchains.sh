@@ -29,7 +29,6 @@ done <<< "$SI_TVC_GROUPS"
 echo "Getting manual groups"
 SI_OTHER_GROUPS=(
   "moex_iss_futures"
-  "nymex_cfd_futures_internal"
   "six_cme_globex_futures"
   "six_cme_globex_mini_futures"
   "six_cme_globex_night_futures"
