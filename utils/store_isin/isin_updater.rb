@@ -12,7 +12,7 @@ class ISINDownloader
         @verbose = options[:verbose] || false
     end
 
-    def getFeeds(urlPrefix, prodFilter)
+    def getFeeds(urlPrefix)
         uri = URI("#{urlPrefix}/meta/info.json")
         if @verbose
             puts "#{uri}"
@@ -26,10 +26,6 @@ class ISINDownloader
                 feeds << upstream["name"]
             end
         end
-
-#        if prodFilter
-#            feeds.select! {|f| f =~ /-sf-/}
-#        end
 
         return feeds
     end
@@ -244,17 +240,10 @@ class ISINDownloader
             originalData = readISINData(originalPath, source)
             if merge == :overwrite
                 data = originalData.merge(data) do |key, oldval, newval|
-                    if oldval.nil?
+                    if !newval.nil?
                         newval
                     else
-                        mergeval = oldval.merge(newval) do |k, o, n|
-                            if !n.nil? && !n.empty? && !usIsin?(o)
-                                n
-                            else
-                                o
-                            end
-                        end
-                        mergeval
+                        oldval
                     end
                 end
             elsif merge == :append
@@ -262,16 +251,7 @@ class ISINDownloader
                     if oldval.nil?
                         newval
                     else
-                        mergeval = oldval.merge(newval) do |k, o, n|
-                            if !n.nil? && !n.empty? && usIsin?(n)
-                                n
-                            elsif !o.nil? && !o.empty?
-                                o
-                            else
-                                n
-                            end
-                        end
-                        mergeval
+                        oldval
                     end
                 end
             end
@@ -316,9 +296,8 @@ class ISINDownloader
         urlPrefix = options[:urlPrefix] || 'http://idc-staging.trading+view.com:8071'
         dataPath = options[:dataPath] || "./"
         merge = options[:merge]
-        prodFilter = options[:prodFilter]
 
-        feeds = getFeeds(urlPrefix, prodFilter)
+        feeds = getFeeds(urlPrefix)
 
         feedSources = {}
         feeds.each do |feed|
@@ -349,9 +328,8 @@ class ISINDownloader
     def download(options)
         urlPrefix = options[:urlPrefix] || 'http://idc-staging.trading+view.com:8071'
         targetPath = options[:targetPath] || "./"
-        prodFilter = options[:prodFilter]
 
-        feeds = getFeeds(urlPrefix, prodFilter)
+        feeds = getFeeds(urlPrefix)
 
         feedSources = {}
         feeds.each do |feed|
@@ -417,9 +395,6 @@ if __FILE__ == $0
             end
             opts.on("-D PATH", "--data path") do |v|
                 options[:targetPath] = v
-            end
-            opts.on("--prod-filter") do |v|
-                options[:prodFilter] = true
             end
         end,
         'merge' => OptionParser.new do |opts|
