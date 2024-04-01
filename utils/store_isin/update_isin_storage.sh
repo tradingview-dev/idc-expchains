@@ -20,16 +20,14 @@ ISIN_BRANCH="$2"
 
 URL_PREFIX=""
 MERGE_METHOD=""
-ADD_OPTIONS=""
 
 if [ "$SOURCE" == "production" ]; then
     echo "WARN: isin data will be pulled from production"
     URL_PREFIX="http://idc-nyc2.tradingview.com:8073"
-    MERGE_METHOD="--overwrite"
-    ADD_OPTIONS="--prod-filter"
+    MERGE_METHOD="--append"
 else
     URL_PREFIX="http://idc-staging.tradingview.com:8071"
-    MERGE_METHOD="--append"
+    MERGE_METHOD="--overwrite"
 fi
 
 ISIN_DIR="./isin-store"
@@ -49,8 +47,7 @@ fi
 mkdir -p "${ISIN_DIR}/isin_new/"
 "${DIR}/isin_updater.rb" download \
     -D "${ISIN_DIR}/isin_new" \
-    -U "$URL_PREFIX" \
-    $ADD_OPTIONS
+    -U "$URL_PREFIX"
 
 pushd "${ISIN_DIR}"
 git pull origin "$ISIN_BRANCH"
