@@ -4001,7 +4001,7 @@
     "tierName": "OTCQB"
   },
   {
-    "companyName": "Ain Pharmaciez Inc",
+    "companyName": "AIN HLDGS INC.",
     "isCaveatEmptor": false,
     "symbol": "AINPF",
     "tierCode": "PL",
@@ -8942,6 +8942,7 @@
   },
   {
     "companyName": "ASIAINFO TECHNOLOGIES LTD.",
+    "country": "China",
     "isCaveatEmptor": false,
     "symbol": "ASNFF",
     "tierCode": "PC",
@@ -13982,6 +13983,13 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "BIIAF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Bijou Brigitte Modische Accessoires AG",
+    "isCaveatEmptor": false,
+    "symbol": "BIJBF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -19933,6 +19941,15 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Companhia Brasileira de Distribuicao",
+    "country": "Brazil",
+    "industry": "Grocery stores",
+    "isCaveatEmptor": false,
+    "symbol": "CBDBY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "CBD of Denver Inc.",
     "country": "Germany",
     "industry": "Nondurable goods, misc",
@@ -22915,8 +22932,8 @@
     "country": "China",
     "isCaveatEmptor": false,
     "symbol": "CHOLF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Choom Hldgs Inc.",
@@ -28063,8 +28080,8 @@
     "industry": "Computer and software stores",
     "isCaveatEmptor": false,
     "symbol": "CRWE",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "CrowdGather, Inc.",
@@ -47465,6 +47482,15 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Green Giant Inc.",
+    "country": "China",
+    "industry": "Real Estate",
+    "isCaveatEmptor": false,
+    "symbol": "GGEI",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "GOLCONDA GOLD LTD.",
     "country": "Canada",
     "industry": "Gold and Silver Ores",
@@ -48280,7 +48306,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Lithium Lion Metals Inc.",
+    "companyName": "PANTHER MINERALS INC.",
     "country": "Canada",
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
@@ -72353,8 +72379,8 @@
     "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "MAGE",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Magnet Forensics Inc.",
@@ -73414,7 +73440,7 @@
     "tierName": "Pink Limited"
   },
   {
-    "companyName": "Macnica Fuji Electronics Hldgs Inc.",
+    "companyName": "MACNICA HLDGS INC",
     "isCaveatEmptor": false,
     "symbol": "MCNCF",
     "tierCode": "PL",
@@ -78876,8 +78902,8 @@
     "industry": "Local & Suburban Transit & Interurban Hwy Passenger Trans",
     "isCaveatEmptor": false,
     "symbol": "MTCPY",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Metacrine, Inc.",
@@ -79198,8 +79224,8 @@
     "industry": "Local & Suburban Transit & Interurban Hwy Passenger Trans",
     "isCaveatEmptor": false,
     "symbol": "MTRJF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "METRO SYSTEMS CORP PUBLIC CO LTD.",
@@ -86052,8 +86078,8 @@
     "industry": "Water, sewer, and utility lines",
     "isCaveatEmptor": false,
     "symbol": "OCLN",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "ONCOSIL MED LTD.",
@@ -89590,7 +89616,7 @@
     "tierName": "OTCQX International"
   },
   {
-    "companyName": "PAL Co., Ltd.",
+    "companyName": "PAL GROUP HLDGS CO LTD.",
     "country": "Japan",
     "isCaveatEmptor": false,
     "symbol": "PALZF",
@@ -91531,7 +91557,8 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "PHOTRON LTD.",
+    "companyName": "IMAGICA GROUP INC",
+    "country": "Japan",
     "isCaveatEmptor": false,
     "symbol": "PHLTF",
     "tierCode": "PL",
@@ -92214,6 +92241,14 @@
     "companyName": "PLURILOCK SEC INC.",
     "country": "Canada",
     "isCaveatEmptor": false,
+    "symbol": "PLCKD",
+    "tierCode": "QB",
+    "tierName": "OTCQB"
+  },
+  {
+    "companyName": "PLURILOCK SEC INC.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
     "symbol": "PLCKF",
     "tierCode": "QB",
     "tierName": "OTCQB"
@@ -92406,7 +92441,7 @@
   {
     "companyName": "Plandai Biotechnology, Inc.",
     "country": "United States",
-    "industry": "Pharmaceutical preparations",
+    "industry": "Eating places",
     "isCaveatEmptor": false,
     "symbol": "PLPL",
     "tierCode": "PC",
@@ -93168,8 +93203,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "PNSPF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Pinar Sut Mamulleri Sanayii As",
@@ -93943,8 +93978,8 @@
     "industry": "Apartment building operators",
     "isCaveatEmptor": false,
     "symbol": "PRDL",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Prada Spa",
@@ -96418,8 +96453,8 @@
     "country": "China",
     "isCaveatEmptor": false,
     "symbol": "PYHOF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Property For Industry Ltd.",
@@ -105779,8 +105814,8 @@
     "industry": "Business services, misc",
     "isCaveatEmptor": false,
     "symbol": "SEAN",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "SEATECH VENTURES CORP.",
@@ -109490,6 +109525,14 @@
     "symbol": "SLOIY",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Solar Roadways Inc.",
+    "country": "United States",
+    "isCaveatEmptor": false,
+    "symbol": "SLRD",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Solera National Bancorp, Inc.",
@@ -114686,7 +114729,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Radio and TV communications equipment",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -117680,7 +117723,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Threepro Inc.",
+    "companyName": "GIG WKS INC.",
     "isCaveatEmptor": false,
     "symbol": "TEKFF",
     "tierCode": "PL",
@@ -119384,6 +119427,15 @@
     "industry": "Household Appliances",
     "isCaveatEmptor": false,
     "symbol": "TKLS",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Telekom Austria AG",
+    "country": "Austria",
+    "industry": "Telephone communication, except radio",
+    "isCaveatEmptor": false,
+    "symbol": "TKMAF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -123801,6 +123853,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "TOP 10 SPLIT TR",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "TXTUF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "Texwinca Holdings Ltd.",
     "country": "China",
     "isCaveatEmptor": false,
@@ -126340,8 +126400,8 @@
     "industry": "Beverages",
     "isCaveatEmptor": false,
     "symbol": "VDKB",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Vodacom Group Ltd.",
