@@ -17305,8 +17305,8 @@
     "industry": "Nonresidential building operators",
     "isCaveatEmptor": false,
     "symbol": "BRPSF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "BROOQLY, INC.",
@@ -17742,8 +17742,8 @@
     "industry": "Crude petroleum and natural gas",
     "isCaveatEmptor": false,
     "symbol": "BSNLF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "BASS OIL LTD.",
@@ -19413,8 +19413,8 @@
     "industry": "Copper ores",
     "isCaveatEmptor": false,
     "symbol": "CAEN",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "CHINA EAST ED HOLDINGS LTD",
@@ -30220,8 +30220,8 @@
     "industry": "Commercial physical research",
     "isCaveatEmptor": false,
     "symbol": "CVUEF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "QX",
+    "tierName": "OTCQX International"
   },
   {
     "companyName": "Sociedad Comercial Del Plata Cadelplata Come",
@@ -41534,8 +41534,8 @@
     "industry": "Prepackaged software",
     "isCaveatEmptor": false,
     "symbol": "FDMSF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Fuel Doctor Holdings, Inc.",
@@ -46204,8 +46204,8 @@
     "industry": "Eating places",
     "isCaveatEmptor": false,
     "symbol": "GAMN",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Gander Gold Corporation",
@@ -60831,6 +60831,14 @@
     "companyName": "Interpump Group S.p.a.",
     "country": "Italy",
     "isCaveatEmptor": false,
+    "symbol": "IPGLF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Interpump Group S.p.a.",
+    "country": "Italy",
+    "isCaveatEmptor": false,
     "symbol": "IPGYY",
     "tierCode": "PL",
     "tierName": "Pink Limited"
@@ -62445,8 +62453,8 @@
     "industry": "Membership organizations",
     "isCaveatEmptor": false,
     "symbol": "ITNF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "International Monetary Systems, Ltd.",
@@ -71989,6 +71997,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "LT GROUP INC.",
+    "country": "Philippines",
+    "isCaveatEmptor": false,
+    "symbol": "LTGIF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Lithium Ionic Corp.",
     "country": "Canada",
     "isCaveatEmptor": false,
@@ -74163,7 +74179,7 @@
     "tierName": "OTCQB"
   },
   {
-    "companyName": "MDA LTD.",
+    "companyName": "MDA Space Ltd.",
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "MDALF",
@@ -83010,8 +83026,8 @@
     "industry": "Semiconductors and related devices",
     "isCaveatEmptor": false,
     "symbol": "NMGC",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "NANO MAGIC INC.",
@@ -104648,8 +104664,8 @@
     "country": "Guernsey",
     "isCaveatEmptor": false,
     "symbol": "SAAGF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Saipem S.p.A.",
@@ -104680,8 +104696,8 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "SABOF",
-    "tierCode": "QX",
-    "tierName": "OTCQX International"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Sanatana Resources Inc.",
@@ -105736,6 +105752,13 @@
     "symbol": "SCDCF",
     "tierCode": "QB",
     "tierName": "OTCQB"
+  },
+  {
+    "companyName": "SCE Trust VIII",
+    "isCaveatEmptor": false,
+    "symbol": "SCEXP",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Source Energy Services Ltd.",
@@ -108245,8 +108268,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "SHIEF",
-    "tierCode": "QX",
-    "tierName": "OTCQX International"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "ShiftCarbon Inc.",
@@ -114902,8 +114925,8 @@
     "industry": "Residential construction, misc",
     "isCaveatEmptor": false,
     "symbol": "STHI",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "STRATHCONA RES LTD.",
@@ -115502,7 +115525,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Blank Checks",
+    "industry": "Radio and TV communications equipment",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -115594,8 +115617,8 @@
     "country": "United States",
     "isCaveatEmptor": false,
     "symbol": "SUGCF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Sugar Creek Financial Corp.",
