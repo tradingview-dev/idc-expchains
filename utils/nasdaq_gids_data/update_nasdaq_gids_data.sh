@@ -37,7 +37,7 @@ mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
 python3 "$SCRIPTPATH/nasdaq_gids_data.py"
 
-FILE1="${SCRIPTPATH}/symbols_NASDAQ_GIDS.csv"
+FILE1="${SCRIPTPATH}/nasdaq_gids_symbols.csv"
 
 FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
 
@@ -49,7 +49,7 @@ fi
 mv "${FILE1}" "${EXP_CHAINS_DIR}/dictionaries/"
 
 pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/symbols_NASDAQ_GIDS.csv"
+git add "dictionaries/nasdaq_gids_symbols.csv"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else
