@@ -5,9 +5,9 @@ import openpyxl
 import os
 import urllib.request
 
-DESTINATION = 'symbols_NASDAQ_GIDS.xlsx'
+DESTINATION = 'nasdaq_gids_symbols.xlsx'
 
-MY_CSV = "symbols_NASDAQ_GIDS.csv"
+MY_CSV = "nasdaq_gids_symbols.csv"
 
 URL = 'https://indexes.nasdaqomx.com/Home/ExportGidsDirectory'
 
