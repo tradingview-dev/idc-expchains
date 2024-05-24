@@ -9,7 +9,7 @@ DESTINATION = 'nasdaq_gids_symbols.xlsx'
 
 MY_CSV = "nasdaq_gids_symbols.csv"
 
-URL = 'https://indexes.nasdaqomx.com/Home/ExportGidsDirectory'
+URL = 'https://indexes.nasdaqomx.com/Index/ExportDirectory'
 
 
 def download_file(url: str, destination: str) -> None:
@@ -30,7 +30,7 @@ def get_indices_from_xlsx(destination: str) -> list:
 
     for row in sheet.iter_rows(values_only=True):
 
-        if row[2] == "E" or row[0] == "Symbol":
+        if row[7] == "" or row[0] == "Symbol":
             continue
 
         gids_indices.append(row[0])
