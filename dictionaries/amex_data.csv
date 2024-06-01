@@ -465,6 +465,7 @@ CPAI;Counterpoint Quantitative Equity ETF;ARCX
 CPER;United States Copper Index Fund;ARCX
 CPHI;China Pharma Holdings Inc.;XASE
 CPII;Ionic Inflation Protection ETF;ARCX
+CPNJ;Calamos Nasdaq-100 Structured Alt Protection ETF - June;ARCX
 CPSM;Calamos S&P 500 Structured Alt Protection ETF - May;ARCX
 CQQQ;Invesco China Technology ETF;ARCX
 CRAK;VanEck Oil Refiners ETF;ARCX
@@ -791,6 +792,7 @@ EPS;WisdomTree U.S. LargeCap Fund;ARCX
 EPU;iShares MSCI Peru and Global Exposure ETF;ARCX
 EPV;ProShares UltraShort FTSE Europe;ARCX
 EQAL;Invesco Russell 1000 Equal Weight ETF;ARCX
+EQIN;Columbia U.S. Equity Income ETF;ARCX
 EQL;ALPS Equal Sector Weight ETF;ARCX
 EQLS;Simplify Market Neutral Equity Long/Short ETF;ARCX
 EQTY;Kovitz Core Equity ETF;ARCX
@@ -807,8 +809,6 @@ ESG;FlexShares STOXX US ESG Select Index Fund;BATS
 ESGA;American Century Sustainable Equity ETF;ARCX
 ESGB;IQ MacKay ESG Core Plus Bond ETF;ARCX
 ESGG;FlexShares STOXX Global ESG Select Index Fund;BATS
-ESGN;Columbia International ESG Equity Income ETF;ARCX
-ESGS;Columbia U.S. ESG Equity Income ETF;ARCX
 ESGV;Vanguard ESG U.S. Stock ETF;BATS
 ESGY;American Century Sustainable Growth ETF;ARCX
 ESIX;SPDR S&P SmallCap 600 ESG ETF;ARCX
@@ -1111,6 +1111,7 @@ GABF;Gabelli Financial Services Opportunities ETF;ARCX
 GAL;SPDR SSgA Global Allocation ETF of SSgA Active Trust;ARCX
 GAMR;Amplify Video Game Tech ETF;ARCX
 GAPR;FT Vest U.S. Equity Moderate Buffer ETF - April;BATS
+GARP;iShares MSCI USA Quality GARP ETF;BATS
 GAST;Gabelli Automation ETF;ARCX
 GAU;Galiano Gold Inc.;XASE
 GAUG;FT Vest U.S. Equity Moderate Buffer ETF - August;BATS
@@ -1408,7 +1409,7 @@ IDRV;iShares Self-Driving EV and Tech ETF;ARCX
 IDU;iShares U.S. Utilities ETF;ARCX
 IDUB;Aptus International Enhanced Yield ETF;BATS
 IDV;iShares International Select Dividend ETF;BATS
-IDVO;Amplify International Enhanced Dividend Income ETF;ARCX
+IDVO;Amplify CWP International Enhanced Dividend Income ETF;ARCX
 IDX;VanEck Indonesia Index ETF;ARCX
 IE;Ivanhoe Electric Inc.;XASE
 IEDI;iShares U.S. Consumer Focused ETF;BATS
@@ -1451,6 +1452,7 @@ IJK;iShares S&P Mid-Cap 400 Growth ETF;ARCX
 IJR;iShares Core S&P Small-Cap ETF;ARCX
 IJS;iShares S&P Small-Cap 600 Value ETF;ARCX
 IJUL;Innovator International Developed Power Buffer ETF - July;ARCX
+IJUN;Innovator International Developed Power Buffer ETF - June;ARCX
 ILCB;iShares Morningstar U.S. Equity ETF;ARCX
 ILCG;iShares Morningstar Growth ETF;ARCX
 ILCV;iShares Morningstar Value ETF;ARCX
@@ -1477,6 +1479,7 @@ INDF;Nifty India Financials ETF;ARCX
 INDL;Direxion Daily MSCI India Bull 2X Shares;ARCX
 INDO;Indonesia Energy Corporation Limited;XASE
 INDS;Pacer Industrial Real Estate ETF;ARCX
+INEQ;Columbia International Equity Income ETF;ARCX
 INFL;Horizon Kinetics Inflation Beneficiaries ETF;ARCX
 INFU;InfuSystem Holdings Inc.;XASE
 INKM;SPDR SSgA Income Allocation ETF of SSgA Active Trust;ARCX
@@ -1652,6 +1655,7 @@ JMOM;JPMorgan U.S. Momentum Factor ETF;ARCX
 JMSI;JPMorgan Sustainable Municipal Income ETF;ARCX
 JMST;JPMorgan Ultra-Short Municipal Income ETF;BATS
 JMUB;JPMorgan Municipal ETF;BATS
+JNEU;AllianzIM U.S. Equity Buffer15 Uncapped June ETF;BATS
 JNK;SPDR Bloomberg High Yield Bond ETF;ARCX
 JNUG;Direxion Daily Junior Gold Miners Index Bull 2X Shares;ARCX
 JOB;GEE Group Inc.;XASE
@@ -1687,6 +1691,7 @@ JULQ;Innovator Premium Income 40 Barrier ETF - July;BATS
 JULT;AllianzIM U.S. Large Cap Buffer10 Jul ETF;ARCX
 JULW;AllianzIM U.S. Large Cap Buffer20 Jul ETF;ARCX
 JULZ;TrueShares Structured Outcome (July) ETF;BATS
+JUNP;PGIM US Large-Cap Buffer 12 ETF - June;BATS
 JUNT;AllianzIM U.S. Large Cap Buffer10 Jun ETF;ARCX
 JUNW;AllianzIM U.S. Large Cap Buffer20 Jun ETF;ARCX
 JUNZ;TrueShares Structured Outcome (June) ETF;BATS
@@ -1716,6 +1721,7 @@ KHYB;KraneShares Asia Pacific High Income Bond ETF;ARCX
 KIE;SPDR S&P Insurance ETF;ARCX
 KJAN;Innovator U.S. Small Cap Power Buffer ETF - January;BATS
 KJUL;Innovator U.S. Small Cap Power Buffer ETF - July;BATS
+KJUN;Innovator U.S. Small Cap Power Buffer ETF - June;BATS
 KLDW;Knowledge Leaders Developed World ETF;ARCX
 KLIP;KraneShares China Internet and Covered Call Strategy ETF;ARCX
 KLNE;Direxion Daily Global Clean Energy Bull 2X Shares;ARCX
@@ -1993,6 +1999,7 @@ NHC;National Healthcare Corp.;XASE
 NHS;Neuberger Berman High Yield Strategies Fund Inc.;XASE
 NJAN;Innovator Growth-100 Power Buffer ETF - January;BATS
 NJUL;Innovator Growth-100 Power Buffer ETF - July;BATS
+NJUN;Innovator Growth-100 Power Buffer ETF - June;BATS
 NLR;VanEck Uranium and Nuclear ETF;ARCX
 NML;Neuberger Berman Energy Infrastructure and Income Fund Inc.;XASE
 NNVC;NanoViricides Inc.;XASE
@@ -2122,6 +2129,7 @@ PBFB;PGIM US Large-Cap Buffer 20 ETF - February;BATS
 PBJ;Invesco Food & Beverage ETF;ARCX
 PBJA;PGIM US Large-Cap Buffer 20 ETF - January;BATS
 PBJL;PGIM US Large-Cap Buffer 20 ETF - July;BATS
+PBJN;PGIM US Large-Cap Buffer 20 ETF - June;BATS
 PBL;PGIM Portfolio Ballast ETF;BATS
 PBMR;PGIM US Large-Cap Buffer 20 ETF - March;BATS
 PBMY;PGIM US Large-Cap Buffer 20 ETF - May;BATS
@@ -2421,6 +2429,7 @@ RSSB;Return Stacked Global Stocks & Bonds ETF;BATS
 RSST;Return Stacked U.S. Stocks & Managed Futures ETF;BATS
 RSSY;Return Stacked U.S. Stocks & Futures Yield ETF;BATS
 RTAI;Rareview Tax Advantaged Income ETF;BATS
+RTRE;Rareview Total Return Bond ETF;BATS
 RUFF;Alpha Dog ETF;ARCX
 RULE;Adaptive Core ETF;BATS
 RVER;Trenchless Fund ETF;ARCX
@@ -2565,6 +2574,7 @@ SING;SinglePoint Inc.;BATS
 SIO;Touchstone Strategic Income Opportunities ETF;ARCX
 SIVR;abrdn Physical Silver Shares ETF;ARCX
 SIXA;ETC 6 Meridian Mega Cap Equity ETF;ARCX
+SIXD;AllianzIM U.S. Large Cap 6 Month Buffer10 Jun/Dec ETF;ARCX
 SIXF;AllianzIM U.S. Large Cap 6 Month Buffer10 Feb/Aug ETF;ARCX
 SIXH;ETC 6 Meridian Hedged Equity Index Option ETF;ARCX
 SIXJ;AllianzIM U.S. Large Cap 6 Month Buffer10 Jan/Jul ETF;ARCX
@@ -2704,7 +2714,6 @@ STAX;Macquarie Tax-Free USA Short Term ETF;ARCX
 STBF;Performance Trust Short Term Bond ETF;BATS
 STCE;Schwab Crypto Thematic ETF;ARCX
 STIP;iShares 0-5 Year TIPS Bond ETF;ARCX
-STLG;iShares Factors US Growth Style ETF;BATS
 STNC;Hennessy Stance ESG ETF;ARCX
 STOT;SPDR DoubleLine Short Duration Total Return Tactical ETF;BATS
 STPZ;PIMCO 1-5 Year U.S. TIPS Index Exchange-Traded Fund;ARCX
