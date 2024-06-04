@@ -30,7 +30,7 @@ def get_indices_from_xlsx(destination: str) -> list:
 
     for row in sheet.iter_rows(values_only=True):
 
-        if row[7] == "" or row[0] == "Symbol":
+        if (row[7] == "" and row[6] == "SandP") or row[0] == "Symbol":
             continue
 
         gids_indices.append(row[0])
