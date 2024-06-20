@@ -23,6 +23,7 @@ def download_file(url: str, destination: str) -> None:
 def get_indices_from_xlsx(destination: str) -> list:
     """
     :param destination: file name where page of the indices list
+    :return: sorted list with symbols
     """
     gids_indices = []
     workbook = openpyxl.load_workbook(destination, read_only=True)
