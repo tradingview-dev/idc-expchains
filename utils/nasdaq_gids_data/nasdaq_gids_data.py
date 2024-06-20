@@ -41,14 +41,14 @@ def get_indices_from_xlsx(destination: str) -> list:
         for row in sheet.iter_rows(values_only=True):
             if (row[7] == "" and row[6] == "SandP") or row[0] == "Symbol":
                 continue
-            indices.append(row[0])
+            gids_indices.append(row[0])
 
         workbook.close()
     except Exception as e:
         print(f"Error reading xlsx file: {e}")
         raise
 
-    return sorted(indices)
+    return sorted(gids_indices)
 
 
 def write_to_csv(indices: list) -> None:
