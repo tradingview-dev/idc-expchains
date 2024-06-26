@@ -2,6 +2,7 @@ FROM ubuntu:20.04
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends ruby-dev build-essential git openssh-client curl ruby2.7 && \
+    gem install ffi -v 1.16.3 && \
     gem install typhoeus
 
 COPY isin_updater.rb /store_isin/
