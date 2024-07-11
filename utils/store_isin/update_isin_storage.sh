@@ -26,7 +26,7 @@ if [ "$SOURCE" == "production" ]; then
     URL_PREFIX="http://idc-nyc2.tradingview.com:8073"
     MERGE_METHOD="--append"
 else
-    URL_PREFIX="http://idc-staging.tradingview.com:8071"
+    URL_PREFIX="http://idc-stable.tradingview.com:8071"
     MERGE_METHOD="--overwrite"
 fi
 
