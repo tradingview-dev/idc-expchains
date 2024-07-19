@@ -54,6 +54,7 @@ class ISINDownloader
 #        symbols.select! {|s| !(s =~ /^P[0-9]?:.*$/)}
 #        symbols.select! {|s| !(s =~ /^W[0-9]?:.*$/)}
         symbols.select! {|s| !(s =~ /^F[0-9]?:.*$/)}
+        symbols.select! {|s| !(s =~ /^N[0-9]?:.*$/)}
         return symbols
     end
 
