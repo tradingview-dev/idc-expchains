@@ -17,6 +17,7 @@ fi
 
 SOURCE="$1"
 ISIN_BRANCH="$2"
+INVALIDATE_CACHE="$3"
 
 URL_PREFIX=""
 MERGE_METHOD=""
@@ -42,6 +43,11 @@ else
     git checkout $ISIN_BRANCH
     git pull origin $ISIN_BRANCH
     popd
+fi
+
+if [[ "$INVALIDATE_CACHE" == "invalidate" ]]; then
+  "${DIR}/isin_updater.rb" invalidate \
+      -U "$URL_PREFIX"
 fi
 
 mkdir -p "${ISIN_DIR}/isin_new/"
