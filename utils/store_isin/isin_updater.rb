@@ -294,45 +294,27 @@ class ISINDownloader
         return isinData
     end
 
-    def invalidateCacheParallel(urlPrefix, feedSources)
+    def invalidateCache(urlPrefix, feeds)
         urlList = []
-        feedSources.each do |feed, sources|
-            sources.each do |source|
-                urlList << URI("#{urlPrefix}/upstream/#{feed}/streaming/ctl?invalidate&sources=#{source}")
-            end
-        end
-
-        urlList.shuffle!
-        totalSize = urlList.size
         processed = 0
-
-        while !urlList.empty? do
-            urls = urlList.pop(10)
-            requests = []
-            hydra = Typhoeus::Hydra.new(:max_concurrency => 10)
-            urls.each do |url|
-                if @verbose
-                    puts "#{url}"
-                end
-                r = Typhoeus::Request.new(url,
-                    followlocation: true,
-                    method: :get)
-                requests << r
-                hydra.queue(r)
+        totalFeeds = feeds.size
+        feeds = feeds.shuffle
+        feeds.each do |feed|
+            uri = URI("#{urlPrefix}/upstream/#{feed}/streaming/ctl?invalidate=1")
+            if @verbose
+                puts "#{uri}"
             end
-            hydra.run
-            requests.each do |request|
-            begin
-                if request.response.code != 200 && request.response.code != 202
-                    puts "Error while invalidate symbols cache: #{request.url}"
-                end
-            rescue
+            resp = Net::HTTP.get(uri)
+            if ! resp.kind_of? Net::HTTPSuccess
+                puts "Cache invalidated for #{feed}"
+            else
+                puts "Error wile invalidating cache #{feed}: #{resp}"
             end
-            end
-            processed += urls.size
-            puts "#{processed} processed of #{totalSize}, pause"
-            sleep 15
+            processed += 1
+            puts "#{processed} processed of #{totalFeeds}, pause"
+            sleep 120
         end
+        puts "Cache invalidation completed"
     end
 
     def invalidate(options)
@@ -340,13 +322,7 @@ class ISINDownloader
 
         feeds = getFeeds(urlPrefix)
 
-        feedSources = {}
-        feeds.each do |feed|
-            sources = getSources(urlPrefix, feed)
-            feedSources[feed] = sources
-        end
-
-        invalidateCacheParallel(urlPrefix, feedSources)
+        invalidateCache(urlPrefix, feeds)
     end
 
     def download(options)
