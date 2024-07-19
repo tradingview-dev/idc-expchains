@@ -8,6 +8,9 @@ require 'csv'
 require 'json'
 
 class ISINDownloader
+    GET_SYMBOLS_PARALLEL = 100
+    GET_SNAPSHOTS_PARALLEL = 50
+
     def initialize(options = {})
         @verbose = options[:verbose] || false
     end
@@ -55,7 +58,7 @@ class ISINDownloader
     end
 
     def getSymbolsParallel(urlPrefix, feed, sources)
-        hydra = Typhoeus::Hydra.new(:max_concurrency => 100)
+        hydra = Typhoeus::Hydra.new(:max_concurrency => GET_SYMBOLS_PARALLEL)
 
         requests = Hash.new
         sources.each do |source|
@@ -128,7 +131,7 @@ class ISINDownloader
 
         while !symbolList.empty? do
             symbols = symbolList.pop(500)
-            hydra = Typhoeus::Hydra.new(:max_concurrency => 50)
+            hydra = Typhoeus::Hydra.new(:max_concurrency => GET_SNAPSHOTS_PARALLEL)
             currentChunkSymbols = symbols.size
 
             requests = Hash.new
@@ -291,11 +294,49 @@ class ISINDownloader
         return isinData
     end
 
+    def invalidateCacheParallel(urlPrefix, feedSources)
+        urlList = []
+        feedSources.each do |feed, sources|
+            sources.each do |source|
+                urlList << URI("#{urlPrefix}/upstream/#{feed}/streaming/ctl?invalidate&sources=#{source}")
+            end
+        end
 
-    def run(options)
+        urlList.shuffle!
+        totalSize = urlList.size
+        processed = 0
+
+        while !urlList.empty? do
+            urls = urlList.pop(10)
+            requests = []
+            hydra = Typhoeus::Hydra.new(:max_concurrency => 10)
+            urls.each do |url|
+                if @verbose
+                    puts "#{url}"
+                end
+                r = Typhoeus::Request.new(url,
+                    followlocation: true,
+                    method: :get)
+                requests << r
+                hydra.queue(r)
+            end
+            hydra.run
+            requests.each do |request|
+            begin
+                if request.response.code != 200 && request.response.code != 202
+                    puts "Error while invalidate symbols cache: #{request.url}"
+                end
+            rescue
+            end
+            end
+            processed += urls.size
+            puts "#{processed} processed of #{totalSize}, pause"
+            sleep 15
+        end
+    end
+
+    def invalidate(options)
         urlPrefix = options[:urlPrefix] || 'http://idc-staging.trading+view.com:8071'
-        dataPath = options[:dataPath] || "./"
-        merge = options[:merge]
 
         feeds = getFeeds(urlPrefix)
 
@@ -305,24 +346,7 @@ class ISINDownloader
             feedSources[feed] = sources
         end
 
-        feedSymbols = {}
-
-        feedSources.each do |feed, sources|
-            feedSymbols[feed] = getSymbolsParallel(urlPrefix, feed, sources)
-        end
-        feedSymbols = filterDuplicatingSources(feedSymbols)
-
-        isinData = getAllISIN(urlPrefix, feedSymbols)
-
-        isinData.each do |source, data|
-            puts "Write isin for #{source}"
-            mergeWriteISINData(dataPath, source, data, merge)
-        end
-
-        #pp isinData
-
-        #feedSources.each {|f, s| s.each{|i| puts i}}
-        # pp feedSymbols
+        invalidateCacheParallel(urlPrefix, feedSources)
     end
 
     def download(options)
@@ -351,11 +375,6 @@ class ISINDownloader
             puts "Write isin for #{source}"
             writeISINData(targetPath, source, data)
         end
-
-        #pp isinData
-
-        #feedSources.each {|f, s| s.each{|i| puts i}}
-        # pp feedSymbols
     end
 
     def merge(options)
@@ -388,6 +407,12 @@ if __FILE__ == $0
     end
 
     subcommands = {
+        'invalidate' => OptionParser.new do |opts|
+            opts.banner = "Usage: invalidate [options]"
+            opts.on("-U PREFIX", "--url-prefix PREFIX") do |v|
+                options[:urlPrefix] = v
+            end
+        end,
         'download' => OptionParser.new do |opts|
             opts.banner = "Usage: download [options]"
             opts.on("-U PREFIX", "--url-prefix PREFIX") do |v|
@@ -426,6 +451,8 @@ if __FILE__ == $0
     requester = ISINDownloader.new(options)
     puts "Command: #{command} "
     case command
+    when "invalidate"
+        requester.invalidate(options)
     when "download"
         requester.download(options)
     when "merge"
