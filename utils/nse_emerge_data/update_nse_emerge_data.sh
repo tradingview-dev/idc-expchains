@@ -52,7 +52,7 @@ fi
 mv "${FILE1}" "${EXP_CHAINS_DIR}/dictionaries/"
 
 pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/nse_sme_lising.csv"
+git add "dictionaries/nse_sme_listing.csv"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else
