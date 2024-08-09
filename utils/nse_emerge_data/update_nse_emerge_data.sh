@@ -38,7 +38,7 @@ mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 curl 'https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv' \
   --compressed -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0' > "$SCRIPTPATH/nse_raw_listing.csv"
 
-python3 "$SCRIPTPATH/nse_emerge_data.py" "$SCRIPTPATH/nse_raw_listing.csv" "$SCRIPTPATH/nse_sme_listing.csv"
+python3 "$SCRIPTPATH/nse_emerge_data.py" -s "$SCRIPTPATH/nse_raw_listing.csv" -t "$SCRIPTPATH/nse_sme_listing.csv"
 
 FILE1="${SCRIPTPATH}/nse_sme_listing.csv"
 
