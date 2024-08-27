@@ -37,7 +37,7 @@ mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
 python3 "$SCRIPTPATH/cik_codes.py"
 
-FILE1="${SCRIPTPATH}/cik_codes.csv"
+FILE1="${SCRIPTPATH}/cik_codes.json"
 
 FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
 
@@ -49,7 +49,7 @@ fi
 mv "${FILE1}" "${EXP_CHAINS_DIR}/dictionaries/"
 
 pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/cik_codes.csv"
+git add "dictionaries/cik_codes.json"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else
