@@ -304,8 +304,13 @@ def filter_sort_deduplicate_symbols(symbols: List[SECSymbol]) -> List[SymbolCik]
 
     symbols.sort(key=lambda x: (x.cik, -x.popularity))
     unique_cik = set()
+    unique_symbol = set()
     final_data = []
     for symbol in symbols:
+        if symbol.symbol not in unique_symbol:
+            unique_symbol.add(symbol.symbol)
+        else:
+            continue
         if symbol.cik not in unique_cik:
             unique_cik.add(symbol.cik)
             final_data.append(SymbolCik.from_sec_symbol(symbol))
