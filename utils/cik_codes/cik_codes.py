@@ -6,6 +6,7 @@ The processed symbol mapping is then saved to both local and AWS S3 storage.
 
 import csv
 import gzip
+import json
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Set
@@ -15,7 +16,7 @@ import ijson
 import requests
 
 # Путь к существующему файлу мэппинга символов с cik для обновления (в случае если символ поменялся для cik) и добавления новых символов
-EXISTING_SYMBOL_MAPPING_PATH = "cik_codes.csv"
+EXISTING_SYMBOL_MAPPING_PATH = "cik_codes.json"
 
 
 @dataclass
@@ -142,6 +143,27 @@ class SymbolMapping:
             writer.writeheader()
             for symbol in self.symbols:
                 writer.writerow(symbol.__dict__)
+
+    def write_to_symlistfeed(self, filepath) -> None:
+        """Writes the symbol mappings to a symlistfeed-format file.
+
+        Args:
+            filepath (str): The path to the symlistfeed file.
+        """
+
+        json_data = {
+            "fields": ["cik-code"],
+            "symbols": []
+        }
+
+        for symbol in self.symbols:
+            json_data["symbols"].append({
+                     "f": [symbol.cik],
+                     "s": symbol.symbol
+            })
+
+        with open(filepath, "w", newline="") as json_file:
+            json.dump(json_data, json_file)
 
     def update_with_new_mapping(self, new_symbols: List[SymbolCik]) -> None:
         """Updates the symbol mappings with new data.
@@ -326,8 +348,11 @@ def update_existing_symbol_mapping():
     # Update existing symbol mapping with new data
     existing_symbol_mapping.update_with_new_mapping(new_symbol_mapping)
 
+    # Write the updated symbol mapping to symlistfeed format
+    existing_symbol_mapping.write_to_symlistfeed(EXISTING_SYMBOL_MAPPING_PATH)
+
     # Write the updated symbol mapping to CSV
-    existing_symbol_mapping.write_to_csv(EXISTING_SYMBOL_MAPPING_PATH)
+    # existing_symbol_mapping.write_to_csv(EXISTING_SYMBOL_MAPPING_PATH)
 
 
 def main():
