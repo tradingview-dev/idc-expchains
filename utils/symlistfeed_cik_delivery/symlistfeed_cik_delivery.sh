@@ -14,7 +14,7 @@ fi
 EXPCHAINS_BRANCH="$1"
 
 if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
-  SYMLIST_ENVIRONMENT = "staging"
+  SYMLIST_ENVIRONMENT="staging"
 	echo "Upload files to staging"
 else
   SYMLIST_ENVIRONMENT = "master"
