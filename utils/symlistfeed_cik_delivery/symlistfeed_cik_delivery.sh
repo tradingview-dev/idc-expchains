@@ -35,4 +35,5 @@ else
     popd
 fi
 
+cp "dictionaries/cik_codes.json" "$SCRIPTPATH/cik_codes.json"
 python3 "$SCRIPTPATH/symlistfeed_cik_delivery.py" --provider "dataops" --filename "cik_codes.json" --ruleset-filename "cik_codes_v1.json" --environment "$SYMLIST_ENVIRONMENT"
