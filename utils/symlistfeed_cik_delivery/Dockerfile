@@ -6,7 +6,7 @@ RUN apt-get update && \
 RUN pip3 install openpyxl
 
 COPY symlistfeed_cik_delivery.sh /symlistfeed_cik_delivery/
-COPY symlistfeed_cik_delivery.sh /symlistfeed_cik_delivery/
+COPY symlistfeed_cik_delivery.py /symlistfeed_cik_delivery/
 
 WORKDIR /symlistfeed_cik_delivery
 
