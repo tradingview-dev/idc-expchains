@@ -111,7 +111,7 @@ class SymbolMapping:
     symbols: List[SymbolCik] = field(default_factory=list)
 
     @classmethod
-    def read_from_csv(cls, filepath: str | Path) -> "SymbolMapping":
+    def read_from_csv(cls, filepath) -> "SymbolMapping":
         """Reads symbol mappings from a CSV file.
 
         Args:
@@ -130,7 +130,7 @@ class SymbolMapping:
             print(f"Old symbol_mapping not found!")
         return cls(symbols=symbols)
 
-    def write_to_csv(self, filepath: str | Path) -> None:
+    def write_to_csv(self, filepath) -> None:
         """Writes the symbol mappings to a CSV file.
 
         Args:
@@ -160,7 +160,7 @@ class SymbolMapping:
 def load_tv_symbols(
     url: str = "https://s3.amazonaws.com/tradingview-symbology/symbols.json",
     symbol_types: Optional[Set[str]] = None,
-    filtered_tv_symbols_path: str | Path = "/tmp/filtered_tv_symbols.csv",
+    filtered_tv_symbols_path = "/tmp/filtered_tv_symbols.csv",
     batch_size: int = 1000,
 ) -> None:
     """Fetches TV symbols from a JSON URL, filters them, and saves to a CSV file.
@@ -193,7 +193,7 @@ def load_tv_symbols(
 
 
 def load_sec_symbols(
-    url: str = "https://www.sec.gov/files/company_tickers_exchange.json", sec_symbols_path: str | Path = "/tmp/sec_symbols.csv"
+    url: str = "https://www.sec.gov/files/company_tickers_exchange.json", sec_symbols_path = "/tmp/sec_symbols.csv"
 ) -> None:
     """Fetches SEC symbols and saves them to a CSV file.
 
@@ -214,7 +214,7 @@ def load_sec_symbols(
             writer.writerow(row)
 
 
-def read_tv_symbols(filepath: str | Path) -> Dict[str, TVSymbol]:
+def read_tv_symbols(filepath) -> Dict[str, TVSymbol]:
     """Reads TV symbols from a CSV file.
 
     Args:
@@ -231,7 +231,7 @@ def read_tv_symbols(filepath: str | Path) -> Dict[str, TVSymbol]:
     return tv_symbols
 
 
-def read_sec_symbols(filepath: str | Path) -> List[SECSymbol]:
+def read_sec_symbols(filepath) -> List[SECSymbol]:
     """Reads SEC symbols from a CSV file.
 
     Args:
@@ -291,7 +291,7 @@ def filter_sort_deduplicate_symbols(symbols: List[SECSymbol]) -> List[SymbolCik]
 
 
 def get_new_symbol_mapping(
-    filtered_tv_symbols_path: str | Path = "/tmp/filtered_tv_symbols.csv", sec_symbols_path: str | Path = "/tmp/sec_symbols.csv"
+    filtered_tv_symbols_path = "/tmp/filtered_tv_symbols.csv", sec_symbols_path = "/tmp/sec_symbols.csv"
 ) -> List[SymbolCik]:
     """Fetches new symbol mappings.
 
