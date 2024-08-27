@@ -5,7 +5,7 @@ RUN apt-get update && \
 
 RUN pip3 install openpyxl
 
-COPY cik_codes.py.py /cik_codes/
+COPY cik_codes.py /cik_codes/
 COPY update_cik_codes.sh /cik_codes/
 
 WORKDIR /cik_codes
