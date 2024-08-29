@@ -286,7 +286,7 @@ def join_symbols(tv_symbols: Dict[str, TVSymbol], sec_symbols: List[SECSymbol]) 
             sec_symbol.symbol_primaryname = tv_symbol.symbol_primaryname
             sec_symbol.is_tv_symbol = 1
             sec_symbol.popularity = tv_symbol.popularity
-            sec_symbol.symbol = tv_symbol.symbol_primaryname or tv_symbol.symbol_fullname
+            sec_symbol.symbol = tv_symbol.symbol_fullname
     return [sec_symbol for sec_symbol in sec_symbols if sec_symbol.is_tv_symbol]
 
 
@@ -304,13 +304,8 @@ def filter_sort_deduplicate_symbols(symbols: List[SECSymbol]) -> List[SymbolCik]
 
     symbols.sort(key=lambda x: (x.cik, -x.popularity))
     unique_cik = set()
-    unique_symbol = set()
     final_data = []
     for symbol in symbols:
-        if symbol.symbol not in unique_symbol:
-            unique_symbol.add(symbol.symbol)
-        else:
-            continue
         if symbol.cik not in unique_cik:
             unique_cik.add(symbol.cik)
             final_data.append(SymbolCik.from_sec_symbol(symbol))
