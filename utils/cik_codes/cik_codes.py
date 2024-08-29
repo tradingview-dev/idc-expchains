@@ -370,7 +370,7 @@ def main():
     symbol_url = "https://s3.amazonaws.com/tradingview-symbology/symbols.json"
     if parser.env == "staging":
         symbol_url = "http://s3.amazonaws.com/tradingview-symbology-staging/symbols.json"
-    load_tv_symbols(url: symbol_url, filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
+    load_tv_symbols(url=symbol_url, filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
     print(f"Time spent loading TV-symbols: {time.time() - start_time:.2f} seconds")
 
     # Load SEC-symbols and save local
