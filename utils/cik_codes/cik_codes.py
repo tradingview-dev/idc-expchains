@@ -11,6 +11,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Set
 import time
+from argparse import ArgumentParser
 
 import ijson
 import requests
@@ -180,7 +181,7 @@ class SymbolMapping:
 
 
 def load_tv_symbols(
-    url: str = "https://s3.amazonaws.com/tradingview-symbology/symbols.json",
+    url: str = "",
     symbol_types: Optional[Set[str]] = None,
     filtered_tv_symbols_path = "/tmp/filtered_tv_symbols.csv",
     batch_size: int = 1000,
@@ -358,12 +359,18 @@ def update_existing_symbol_mapping():
 def main():
     """Main function to update and save symbol mappings."""
 
+    parser = ArgumentParser(description='Symlist-data-file delivery to symlistfeed-preprocessor.')
+    parser.add_argument('--env',         type=str, required=True,
+                        help="Environment staging/production. Used for request symbols")
     # Load TV-symbols and save local
     print("Start loading TV-symbols")
     start_time = time.time()
     filtered_tv_symbols_path = "/tmp/filtered_tv_symbols.csv"
     symbol_types = {"stock", "fund", "dr", "structured", "warrant"}
-    load_tv_symbols(filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
+    symbol_url = "https://s3.amazonaws.com/tradingview-symbology/symbols.json"
+    if parser.env == "staging":
+        symbol_url = "http://s3.amazonaws.com/tradingview-symbology-staging/symbols.json"
+    load_tv_symbols(url: symbol_url, filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
     print(f"Time spent loading TV-symbols: {time.time() - start_time:.2f} seconds")
 
     # Load SEC-symbols and save local

@@ -35,7 +35,7 @@ fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
-python3 "$SCRIPTPATH/cik_codes.py"
+python3 "$SCRIPTPATH/cik_codes.py" --env "$EXPCHAINS_BRANCH"
 
 FILE1="${SCRIPTPATH}/cik_codes.json"
 
