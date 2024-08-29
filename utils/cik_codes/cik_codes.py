@@ -362,13 +362,14 @@ def main():
     parser = ArgumentParser(description='Symlist-data-file delivery to symlistfeed-preprocessor.')
     parser.add_argument('--env',         type=str, required=True,
                         help="Environment staging/production. Used for request symbols")
+    args = parser.parse_args()
     # Load TV-symbols and save local
     print("Start loading TV-symbols")
     start_time = time.time()
     filtered_tv_symbols_path = "/tmp/filtered_tv_symbols.csv"
     symbol_types = {"stock", "fund", "dr", "structured", "warrant"}
     symbol_url = "https://s3.amazonaws.com/tradingview-symbology/symbols.json"
-    if parser.env == "staging":
+    if args.env == "staging":
         symbol_url = "http://s3.amazonaws.com/tradingview-symbology-staging/symbols.json"
     load_tv_symbols(url=symbol_url, filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
     print(f"Time spent loading TV-symbols: {time.time() - start_time:.2f} seconds")
