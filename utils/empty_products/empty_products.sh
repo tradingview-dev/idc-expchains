@@ -44,12 +44,5 @@ if [ ! -f "$FILE1" ]; then
 fi
 
 
-CHANNEL="#empty-products"
-NAME="Jenkins-IDC"
-TEXT=`cat $FILE1`
+echo "$(cat $FILE1)"
 
-curl -X POST \
-	--data-urlencode "payload={\"channel\": \"$CHANNEL\", \"username\": \"$NAME\", \"text\": \"$TEXT\", \"link_names\": \"1\" }" \
-    "$SLACK_NOTIFY_URL"
-
-rm "$FILE1"
