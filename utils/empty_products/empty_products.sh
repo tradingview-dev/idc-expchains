@@ -13,11 +13,6 @@ fi
 
 EXPCHAINS_BRANCH="$1"
 
-if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
-	echo "Upload files to staging"
-else
-	echo "WARNING: Files will be uploaded to production storage"
-fi
 
 EXP_CHAINS_DIR="./idc-expchains"
 
