@@ -17,7 +17,7 @@ if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
   SYMLIST_ENVIRONMENT="staging"
 	echo "Upload files to staging"
 else
-  SYMLIST_ENVIRONMENT = "master"
+  SYMLIST_ENVIRONMENT="master"
 	echo "WARNING: Files will be uploaded to production storage"
 fi
 
