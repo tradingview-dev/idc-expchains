@@ -11,14 +11,12 @@ if [ "$1" == "" ]; then
 	exit -1
 fi
 
+SYMLIST_ENVIRONMENT="$1"
 EXPCHAINS_BRANCH="$1"
 
-if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
-  SYMLIST_ENVIRONMENT="staging"
-	echo "Upload files to staging"
-else
-  SYMLIST_ENVIRONMENT = "master"
-	echo "WARNING: Files will be uploaded to production storage"
+if [ "$SYMLIST_ENVIRONMENT" == "stable" ]; then
+  EXPCHAINS_BRANCH="master"
+	echo "Upload files to stable"
 fi
 
 EXP_CHAINS_DIR="./idc-expchains"
