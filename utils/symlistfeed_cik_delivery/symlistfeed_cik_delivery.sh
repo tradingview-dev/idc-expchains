@@ -15,8 +15,8 @@ SYMLIST_ENVIRONMENT="$1"
 EXPCHAINS_BRANCH="$1"
 
 if [ "$SYMLIST_ENVIRONMENT" == "stable" ]; then
-  EXPCHAINS_BRANCH="master"
-	echo "Upload files to stable"
+    EXPCHAINS_BRANCH="master"
+    echo "Upload files to stable"
 fi
 
 EXP_CHAINS_DIR="./idc-expchains"
