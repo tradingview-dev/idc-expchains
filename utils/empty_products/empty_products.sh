@@ -32,6 +32,8 @@ fi
 python3 "$SCRIPTPATH/empty_products.py"
 
 FILE1="${SCRIPTPATH}/empty_products"
+FILE2="${SCRIPTPATH}/empty_products_idc"
+FILE3="${SCRIPTPATH}/empty_products_not_idc"
 
 if [ ! -f "$FILE1" ]; then
     echo "All products filled!"
@@ -41,3 +43,24 @@ fi
 
 echo "$(cat $FILE1)"
 
+if [ -e "$FILE2" ]; then
+    echo "Some idc products not filled"
+    CHANNEL_HOOK=$2
+    CHANNEL_NAME="#symbolinfo-updater-staging-idc"
+    TEXT_MESSAGE=$(cat $FILE2)
+    curl -X POST \
+	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
+      "$CHANNEL_HOOK"
+    exit 0
+fi
+
+if [ -e "$FILE3" ]; then
+    echo "Some non-idc products not filled"
+    CHANNEL_HOOK=$3
+    CHANNEL_NAME="#symbolinfo-updater-staging-hub"
+    TEXT_MESSAGE=$(cat $FILE3)
+    curl -X POST \
+	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
+      "$CHANNEL_HOOK"
+    exit 0
+fi
