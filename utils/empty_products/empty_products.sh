@@ -55,7 +55,7 @@ if [ -e "$FILE2" ]; then
   '{
     channel: $channel,
     username: $username,
-    attachments: $text,
+    attachments: $attachments,
     link_names: "1"
   }')
     curl -X POST \
@@ -75,7 +75,7 @@ if [ -e "$FILE3" ]; then
   '{
     channel: $channel,
     username: $username,
-    attachments: $text,
+    attachments: $attachments,
     link_names: "1"
   }')
     curl -X POST \
