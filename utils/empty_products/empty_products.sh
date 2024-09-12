@@ -49,7 +49,7 @@ if [ -e "$FILE2" ]; then
     CHANNEL_NAME="#symbolinfo-updater-staging-idc"
     TEXT_MESSAGE=$(cat $FILE2)
     curl -X POST \
-	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"EMPTY PRODUCTS LIST\n $TEXT_MESSAGE\", \"link_names\": \"1\" }" \
+	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
       "$CHANNEL_HOOK"
 fi
 
@@ -59,6 +59,6 @@ if [ -e "$FILE3" ]; then
     CHANNEL_NAME="#symbolinfo-updater-staging-hub"
     TEXT_MESSAGE=$(cat $FILE3)
     curl -X POST \
-	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"EMPTY PRODUCTS LIST\n $TEXT_MESSAGE\", \"link_names\": \"1\" }" \
+	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
       "$CHANNEL_HOOK"
 fi
