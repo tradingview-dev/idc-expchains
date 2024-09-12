@@ -52,14 +52,16 @@ if [ -e "$FILE2" ]; then
   --arg channel "$CHANNEL_NAME" \
   --arg username "Jenkins-IDC" \
   --arg attachments "$TEXT_MESSAGE" \
+  --arg blocks "$TEXT_MESSAGE" \
   '{
     channel: $channel,
     username: $username,
     attachments: $attachments,
+    blocks: $blocks,
     link_names: "1"
   }')
     curl -X POST \
-	    --data-urlencode "payload=$payload" \
+	    -H 'Content-type: application/json' --data $payload \
       "$CHANNEL_HOOK"
 fi
 
@@ -72,13 +74,15 @@ if [ -e "$FILE3" ]; then
   --arg channel "$CHANNEL_NAME" \
   --arg username "Jenkins-IDC" \
   --arg attachments "$TEXT_MESSAGE" \
+  --arg blocks "$TEXT_MESSAGE" \
   '{
     channel: $channel,
     username: $username,
     attachments: $attachments,
+    blocks: $blocks,
     link_names: "1"
   }')
     curl -X POST \
-	    --data-urlencode "payload=$payload" \
+	    -H 'Content-type: application/json' --data $payload \
       "$CHANNEL_HOOK"
 fi
