@@ -48,6 +48,19 @@ if [ -e "$FILE2" ]; then
     CHANNEL_HOOK=$2
     CHANNEL_NAME="#symbolinfo-updater-staging-idc"
     TEXT_MESSAGE=$(cat $FILE2)
+        payload=$(jq -n
+  --arg channel "$CHANNEL_NAME"
+  --arg username "Jenkins-IDC"
+  --arg text "$TEXT_MESSAGE"
+  '{
+    channel: $channel,
+    username: $username,
+    text: $text,
+    link_names: "1"
+  }')
+    curl -X POST \
+	    --data-urlencode "payload=payload" \
+      "$CHANNEL_HOOK"
     curl -X POST \
 	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
       "$CHANNEL_HOOK"
@@ -58,7 +71,17 @@ if [ -e "$FILE3" ]; then
     CHANNEL_HOOK=$3
     CHANNEL_NAME="#symbolinfo-updater-staging-hub"
     TEXT_MESSAGE=$(cat $FILE3)
+    payload=$(jq -n
+  --arg channel "$CHANNEL_NAME"
+  --arg username "Jenkins-IDC"
+  --arg text "$TEXT_MESSAGE"
+  '{
+    channel: $channel,
+    username: $username,
+    text: $text,
+    link_names: "1"
+  }')
     curl -X POST \
-	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
+	    --data-urlencode "payload=payload" \
       "$CHANNEL_HOOK"
 fi
