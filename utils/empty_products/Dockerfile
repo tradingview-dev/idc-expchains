@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN apt-get update && \
-    apt-get install -y git openssh-client python3 python3-pip curl
+    apt-get install -y git openssh-client python3 python3-pip curl jq
 
 RUN pip3 install pandas
 
