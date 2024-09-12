@@ -51,11 +51,11 @@ if [ -e "$FILE2" ]; then
     payload=$(jq -n \
   --arg channel "$CHANNEL_NAME" \
   --arg username "Jenkins-IDC" \
-  --arg text "$TEXT_MESSAGE" \
+  --arg attachments "$TEXT_MESSAGE" \
   '{
     channel: $channel,
     username: $username,
-    text: $text,
+    attachments: $text,
     link_names: "1"
   }')
     curl -X POST \
@@ -71,11 +71,11 @@ if [ -e "$FILE3" ]; then
     payload=$(jq -n \
   --arg channel "$CHANNEL_NAME" \
   --arg username "Jenkins-IDC" \
-  --arg text "$TEXT_MESSAGE" \
+  --arg attachments "$TEXT_MESSAGE" \
   '{
     channel: $channel,
     username: $username,
-    text: $text,
+    attachments: $text,
     link_names: "1"
   }')
     curl -X POST \
