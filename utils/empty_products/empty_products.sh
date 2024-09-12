@@ -48,10 +48,10 @@ if [ -e "$FILE2" ]; then
     CHANNEL_HOOK=$2
     CHANNEL_NAME="#symbolinfo-updater-staging-idc"
     TEXT_MESSAGE=$(cat $FILE2)
-        payload=$(jq -n
-  --arg channel "$CHANNEL_NAME"
-  --arg username "Jenkins-IDC"
-  --arg text "$TEXT_MESSAGE"
+    payload=$(jq -n \
+  --arg channel "$CHANNEL_NAME" \
+  --arg username "Jenkins-IDC" \
+  --arg text "$TEXT_MESSAGE" \
   '{
     channel: $channel,
     username: $username,
@@ -71,10 +71,10 @@ if [ -e "$FILE3" ]; then
     CHANNEL_HOOK=$3
     CHANNEL_NAME="#symbolinfo-updater-staging-hub"
     TEXT_MESSAGE=$(cat $FILE3)
-    payload=$(jq -n
-  --arg channel "$CHANNEL_NAME"
-  --arg username "Jenkins-IDC"
-  --arg text "$TEXT_MESSAGE"
+    payload=$(jq -n \
+  --arg channel "$CHANNEL_NAME" \
+  --arg username "Jenkins-IDC" \
+  --arg text "$TEXT_MESSAGE" \
   '{
     channel: $channel,
     username: $username,
