@@ -59,10 +59,7 @@ if [ -e "$FILE2" ]; then
     link_names: "1"
   }')
     curl -X POST \
-	    --data-urlencode "payload=payload" \
-      "$CHANNEL_HOOK"
-    curl -X POST \
-	    --data-urlencode "payload={\"channel\": \"$CHANNEL_NAME\", \"username\": \"Jenkins-IDC\", \"text\": \"$TEXT_MESSAGE\", \"link_names\": \"1\" }" \
+	    --data-urlencode "payload=$payload" \
       "$CHANNEL_HOOK"
 fi
 
@@ -82,6 +79,6 @@ if [ -e "$FILE3" ]; then
     link_names: "1"
   }')
     curl -X POST \
-	    --data-urlencode "payload=payload" \
+	    --data-urlencode "payload=$payload" \
       "$CHANNEL_HOOK"
 fi
