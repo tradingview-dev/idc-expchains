@@ -43,7 +43,11 @@ FILE2="${SCRIPTPATH}/LSX.csv"
 FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
 FILE_SIZE2=$(stat --printf '%s' "${FILE2}")
 
-if [ "$FILE_SIZE1" -lt "1000" || "$FILE_SIZE2" -lt "1000" ]; then
+if [ "$FILE_SIZE1" -lt "1000" ]; then
+    echo "ERROR: One or both resulting files are too small"
+    exit 1
+fi
+if [ "$FILE_SIZE2" -lt "1000" ]; then
     echo "ERROR: One or both resulting files are too small"
     exit 1
 fi
