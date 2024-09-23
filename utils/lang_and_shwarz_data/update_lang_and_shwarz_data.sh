@@ -17,7 +17,7 @@ if [ "$EXPCHAINS_BRANCH" == "idc-3555-instrument-for-parse-ls-and-lsx-symbols" ]
 	echo "Upload files to idc-3555-instrument-for-parse-ls-and-lsx-symbols"
 #else
 #	echo "WARNING: Files will be uploaded to production storage"
-#fi
+fi
 
 EXP_CHAINS_DIR="./idc-expchains"
 
