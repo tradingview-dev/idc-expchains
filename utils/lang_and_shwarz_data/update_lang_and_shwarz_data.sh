@@ -13,11 +13,11 @@ fi
 
 EXPCHAINS_BRANCH="$1"
 
-if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
-	echo "Upload files to staging"
-else
-	echo "WARNING: Files will be uploaded to production storage"
-fi
+if [ "$EXPCHAINS_BRANCH" == "idc-3555-instrument-for-parse-ls-and-lsx-symbols" ]; then
+	echo "Upload files to idc-3555-instrument-for-parse-ls-and-lsx-symbols"
+#else
+#	echo "WARNING: Files will be uploaded to production storage"
+#fi
 
 EXP_CHAINS_DIR="./idc-expchains"
 
