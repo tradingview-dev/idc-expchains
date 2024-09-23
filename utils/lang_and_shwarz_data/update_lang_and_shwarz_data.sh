@@ -35,7 +35,7 @@ fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
-python3 "$SCRIPTPATH/lang_and_shwartz_data.py"
+python3 "$SCRIPTPATH/lang_and_shwarz_data.py"
 
 FILE1="${SCRIPTPATH}/LS.csv"
 FILE2="${SCRIPTPATH}/LSX.csv"
@@ -59,7 +59,7 @@ if [ "$(git status -s)" = "" ]; then
 else
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit lang_and_shwartz_data data"
+    git commit -m "Autocommit lang_and_shwarz_data data"
     git push origin "$EXPCHAINS_BRANCH"
 fi
 popd
