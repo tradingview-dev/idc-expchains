@@ -82,14 +82,15 @@ def request_with_retries(url:str , exchange: str, func):
                 return func(response, exchange)
             elif response.status_code != 200:
                 retries += 1
-                print(f"{response.status_code} ошибка. Попытка {retries}/{MAX_RETRIES}. Повтор через {DELAY} секунд...")
+                print(f"{response.status_code} fail. Attempt {retries}/{MAX_RETRIES}. Repeat after {DELAY} seconds...")
                 time.sleep(DELAY)
             else:
                 response.raise_for_status()
         except requests.exceptions.RequestException as e:
-            print(f"Ошибка при запросе: {e}")
+            print(f"Fail request: {e}")
             retries += 1
             time.sleep(DELAY)
+    print(f'{url} skipped. More than {MAX_RETRIES} attempts')
 
 
 def delete_spaces(string: str) -> str:
