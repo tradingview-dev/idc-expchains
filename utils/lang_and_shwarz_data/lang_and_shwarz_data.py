@@ -20,15 +20,15 @@ USER_AGENTS: list = ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.
                      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
                     ]
-TYPES: dict = { "x": {#'stock': 'base,db61b74d98c0231d3f763734d4024967a7dec93018004b8e54bf76aac8f05311',
+TYPES: dict = { "x": {'stock': 'base,db61b74d98c0231d3f763734d4024967a7dec93018004b8e54bf76aac8f05311',
                      'funds': 'funds,db61b74d98c0231d3f763734d40249676d071aafe753a3d4187f9bff52b984b2',
-                     #'etf': 'base,db61b74d98c0231d3f763734d4024967a4936f9404f19de7d94a2d6d78a6a923',
-                     #'bonds': 'base,db61b74d98c0231d3f763734d4024967f76522185ef4cddfb2badef9903d4577',
+                     'etf': 'base,db61b74d98c0231d3f763734d4024967a4936f9404f19de7d94a2d6d78a6a923',
+                     'bonds': 'base,db61b74d98c0231d3f763734d4024967f76522185ef4cddfb2badef9903d4577',
                     },
-               "tc": {#'stock': 'base,db61b74d98c0231d3f763734d4024967d77d9e99392bb3d6963f8af4deb84132',
-                      #'etf': 'base,db61b74d98c0231d3f763734d40249675a79565b7f66fc5e646b315b471ada1e',
+               "tc": {'stock': 'base,db61b74d98c0231d3f763734d4024967d77d9e99392bb3d6963f8af4deb84132',
+                      'etf': 'base,db61b74d98c0231d3f763734d40249675a79565b7f66fc5e646b315b471ada1e',
                       'funds': 'base,db61b74d98c0231d3f763734d40249673667c40fc411581916f9920d3a1fcef8',
-                      #'bonds': 'base,db61b74d98c0231d3f763734d4024967e1e6dc9a5e724bd45e0492b9f6af2992',
+                      'bonds': 'base,db61b74d98c0231d3f763734d4024967e1e6dc9a5e724bd45e0492b9f6af2992',
                       'certificates': 'derivative,db61b74d98c0231d3f763734d40249679df65b6f0e9312c861b9a91a760318b3',
                      }
                }
