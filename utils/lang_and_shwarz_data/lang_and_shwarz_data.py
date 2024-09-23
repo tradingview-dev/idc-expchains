@@ -3,7 +3,7 @@ import random
 import requests
 import time
 
-DELAY: int = 4
+DELAY: int = 3
 EXCHANGES = ["x", "tc"]
 MAP: dict = {
     "Aktien": "Stock",
@@ -63,11 +63,11 @@ def si_to_csv(symbols: list, exchange: str):
     else:
         file_name = "LS"
     with open(f"{file_name}.csv", "w") as file:
-        file.write("tv-symbol;isin;description;type\n")
+        file.write("tv-symbol;isin;description\n")
         for stock in symbols:
             if stock is None:
                 continue
-            file.write(f'{stock["tv-symbol"]};{stock["isin"]};{stock["description"]};{stock["type"]}\n')
+            file.write(f'{stock["tv-symbol"]};{stock["isin"]};{stock["description"]}\n')
 
 
 def request_with_retries(url:str , exchange: str, func):
@@ -123,7 +123,7 @@ def si_to_tv_dict(si_symbol, _)-> dict:
     """
     symbol = si_symbol.json()[0]
     symbol_info = {'tv-symbol': str(symbol['wkn']), 'isin': symbol['isin'],
-                   'description': delete_spaces(symbol['displayname']), 'type': symbol['categoryName']}
+                   'description': delete_spaces(symbol['displayname'])}
     return symbol_info
 
 
