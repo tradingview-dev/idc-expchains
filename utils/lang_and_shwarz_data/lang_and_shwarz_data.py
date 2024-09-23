@@ -3,7 +3,7 @@ import random
 import requests
 import time
 
-DELAY: int = 2
+DELAY: int = 4
 EXCHANGES = ["x", "tc"]
 MAP: dict = {
     "Aktien": "Stock",
