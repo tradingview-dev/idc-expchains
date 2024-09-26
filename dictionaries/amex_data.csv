@@ -346,6 +346,7 @@ BUFQ;FT Vest Laddered Nasdaq Buffer ETF;BATS
 BUFR;FT Vest Laddered Buffer ETF;BATS
 BUFS;FT Vest Laddered Small Cap Moderate Buffer ETF;BATS
 BUFT;FT Vest Buffered Allocation Defensive ETF;BATS
+BUFY;FT Vest Laddered International Moderate Buffer ETF;BATS
 BUFZ;FT Vest Laddered Moderate Buffer ETF;BATS
 BUL;Pacer US Cash Cows Growth ETF;ARCX
 BULZ;MicroSectors FANG & Innovation 3x Leveraged ETN;ARCX
@@ -1624,7 +1625,7 @@ IWM;iShares Russell 2000 ETF;ARCX
 IWMI;NEOS Russell 2000 High Income ETF;BATS
 IWML;ETRACS 2x Leveraged US Size Factor TR ETN;ARCX
 IWMW;iShares Russell 2000 BuyWrite ETF;BATS
-IWMY;Defiance R2000 Enhanced Options Income ETF;ARCX
+IWMY;Defiance R2000 Enhanced Options & 0DTE Income ETF;ARCX
 IWN;iShares Russell 2000 Value ETF;ARCX
 IWO;iShares Russell 2000 Growth ETF;ARCX
 IWP;iShares Russell Mid-Cap Growth ETF;ARCX
@@ -1670,12 +1671,12 @@ JCHI;JPMorgan Active China ETF;ARCX
 JCPB;JPMorgan Core Plus Bond ETF;BATS
 JCPI;JPMorgan Inflation Managed Bond ETF;BATS
 JCTR;JPMorgan Carbon Transition U.S. Equity ETF;ARCX
+JDIV;JPMorgan Dividend Leaders ETF;ARCX
 JDST;Direxion Daily Junior Gold Miners Index Bear 2X Shares;ARCX
 JDVI;John Hancock Disciplined Value International Select ETF;ARCX
 JEMA;JPMorgan ActiveBuilders Emerging Markets Equity ETF;BATS
 JEMB;Janus Henderson Emerging Markets Debt Hard Currency ETF;ARCX
 JEPI;JPMorgan Equity Premium Income ETF;ARCX
-JEPY;Defiance S&P 500 Enhanced Options Income ETF;ARCX
 JETD;MAX Airlines -3x Inverse Leveraged ETN;ARCX
 JETS;U.S. Global Jets ETF;ARCX
 JETU;MAX Airlines 3x Leveraged ETN;ARCX
@@ -1852,6 +1853,7 @@ LFAX;Stone Ridge 2061 Longevity Income ETF;BATS
 LFAZ;Stone Ridge 2062 Longevity Income ETF;BATS
 LFBB;Stone Ridge 2063 Longevity Income ETF;BATS
 LFEQ;VanEck Long/Flat Trend ETF;ARCX
+LGCY;Legacy Education Inc.;XASE
 LGH;HCM Defender 500 Index ETF;ARCX
 LGHT;Langar Global HealthTech ETF;ARCX
 LGL;The LGL Group Inc.;XASE
@@ -1908,7 +1910,6 @@ LSAT;LeaderShares AlphaFactor Tactical Focused ETF;ARCX
 LSEQ;Harbor Long-Short Equity ETF;ARCX
 LSF;Laird Superfood Inc.;XASE
 LSGR;Natixis Loomis Sayles Focused Growth ETF;ARCX
-LSST;Natixis Loomis Sayles Short Duration Income ETF;ARCX
 LTL;ProShares Ultra Communication Services;ARCX
 LTPZ;PIMCO 15+ Year U.S. TIPS Index Exchange-Traded Fund;ARCX
 LUX;Tema Luxury ETF;ARCX
@@ -2761,7 +2762,7 @@ SNPE;Xtrackers S&P 500 ESG ETF;ARCX
 SNPG;Xtrackers S&P 500 Growth ESG ETF;BATS
 SNPV;Xtrackers S&P 500 Value ESG ETF;BATS
 SOAR;Volato Group Inc.;XASE
-SOF;Amplify Samsung SOFR ETF;ARCX
+SOFR;Amplify Samsung SOFR ETF;ARCX
 SOLR;SmartETFs Sustainable Energy II ETF;ARCX
 SOVF;Sovereign's Capital Flourish Fund;ARCX
 SOXL;Direxion Daily Semiconductor Bull 3X Shares;ARCX
@@ -3193,6 +3194,7 @@ WBIY;WBI Power FactorTM High Dividend ETF;ARCX
 WCEO;Hypatia Women CEO ETF;ARCX
 WDIV;SPDR S&P Global Dividend ETF;ARCX
 WDNA;WisdomTree BioRevolution Fund;BATS
+WDTE;Defiance S&P 500 Enhanced Options & 0DTE Income ETF;ARCX
 WEAT;Teucrium Wheat Fund;ARCX
 WEBL;Direxion Daily Dow Jones Internet Bull 3X Shares;ARCX
 WEBS;Direxion Daily Dow Jones Internet Bear 3X Shares;ARCX
