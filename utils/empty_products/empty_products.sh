@@ -30,7 +30,7 @@ fi
 
 CHANNEL_HOOK_IDC=$2
 CHANNEL_HOOK_HUB=$3
-python3 "$SCRIPTPATH/empty_products.py" idc_hook=${CHANNEL_HOOK_IDC} hub_hook=${CHANNEL_HOOK_HUB}
+python3 "$SCRIPTPATH/empty_products.py" --idc_hook ${CHANNEL_HOOK_IDC} --hub_hook ${CHANNEL_HOOK_HUB}
 
 FILE1="${SCRIPTPATH}/empty_products"
 FILE2="${SCRIPTPATH}/empty_products_idc"
