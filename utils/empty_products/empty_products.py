@@ -1,5 +1,4 @@
 import pandas as pd
-import json
 import requests
 import argparse
 
@@ -17,14 +16,14 @@ def post_to_slack(product_list, attachment_header, hook):
             {"type": "section", "text": {"type": "mrkdwn", "text": attachment_body}}
         ]
     })
-    msg_text = f":one or several symbols not have products>"
+    msg_text = f"one or several symbols not have products"
     msg_body = [{"type": "section", "text": {"type": "mrkdwn", "text": msg_text}}]
     msg = {
         "blocks": msg_body,
         "attachments": msg_attachments,
         "link_names": "1"
     }
-    response = requests.post("https://hooks.slack.com/services/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", json=msg)
+    response = requests.post(hook, json=msg)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('idc_hook', type=str,
