@@ -24,7 +24,7 @@ def post_to_slack(product_list, attachment_header, hook):
         "attachments": msg_attachments,
         "link_names": "1"
     }
-    response = requests.post(hook, json=msg)
+    response = requests.post("https://hooks.slack.com/services/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", json=msg)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('idc_hook', type=str,
