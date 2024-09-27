@@ -6,7 +6,7 @@ import argparse
 def post_to_slack(product_list, attachment_header, hook):
     msg_attachments = []
     empty_products_list = product_list.apply(lambda row: ';'.join(row.values.astype(str)), axis=1).tolist()
-    empty_products_list.insert("symbol;group;description", 0)
+    empty_products_list.insert(0, "symbol;group;description")
     error_list = [f"- {p}" for p in empty_products_list]
     if len(error_list) > 25:
         error_list = ["..."] + error_list[-24:]
