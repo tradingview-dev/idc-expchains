@@ -28,8 +28,9 @@ else
     popd
 fi
 
-
-python3 "$SCRIPTPATH/empty_products.py"
+CHANNEL_HOOK_IDC=$2
+CHANNEL_HOOK_HUB=$3
+python3 "$SCRIPTPATH/empty_products.py" idc_hook=${CHANNEL_HOOK_IDC} hub_hook=${CHANNEL_HOOK_HUB}
 
 FILE1="${SCRIPTPATH}/empty_products"
 FILE2="${SCRIPTPATH}/empty_products_idc"
@@ -47,38 +48,10 @@ if [ -e "$FILE2" ]; then
     echo "Some idc products not filled"
     CHANNEL_HOOK=$2
     CHANNEL_NAME="#symbolinfo-updater-staging-idc"
-    TEXT_MESSAGE=$(cat $FILE2)
-    payload=$(jq -n \
-  --arg channel "$CHANNEL_NAME" \
-  --arg username "Jenkins-IDC" \
-  --arg attachments "$TEXT_MESSAGE" \
-  '{
-    channel: $channel,
-    username: $username,
-    attachments: $attachments,
-    link_names: "1"
-  }')
-    curl -X POST \
-	    --data-urlencode "payload=$payload" \
-      "$CHANNEL_HOOK"
+    echo $(cat $FILE2)
 fi
 
 if [ -e "$FILE3" ]; then
     echo "Some non-idc products not filled"
-    CHANNEL_HOOK=$3
-    CHANNEL_NAME="#symbolinfo-updater-staging-hub"
-    TEXT_MESSAGE=$(cat $FILE3)
-    payload=$(jq -n \
-  --arg channel "$CHANNEL_NAME" \
-  --arg username "Jenkins-IDC" \
-  --arg attachments "$TEXT_MESSAGE" \
-  '{
-    channel: $channel,
-    username: $username,
-    attachments: $attachments,
-    link_names: "1"
-  }')
-    curl -X POST \
-	    --data-urlencode "payload=$payload" \
-      "$CHANNEL_HOOK"
+    echo $(cat $FILE3)
 fi
