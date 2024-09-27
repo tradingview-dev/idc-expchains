@@ -26,9 +26,9 @@ def post_to_slack(product_list, attachment_header, hook):
     response = requests.post(hook, json=msg)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('idc_hook', type=str,
+parser.add_argument('--idc_hook', type=str,
                     help='IDC slack hook')
-parser.add_argument('hub_hook', type=str,
+parser.add_argument('--hub_hook', type=str,
                     help='hub slack hook')
 args = parser.parse_args()
 
