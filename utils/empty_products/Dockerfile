@@ -4,7 +4,6 @@ RUN apt-get update && \
     apt-get install -y git openssh-client python3 python3-pip curl jq
 
 RUN pip3 install pandas
-RUN pip3 install json
 RUN pip3 install requests
 
 COPY empty_products.py /empty_products/
