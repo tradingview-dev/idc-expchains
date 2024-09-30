@@ -3,14 +3,14 @@ import random
 import requests
 import time
 
-DELAY: int = 3
+DELAY: int = 5
 EXCHANGES = ["x", "tc"]
 MAP: dict = {
     "Aktien": "Stock",
     "Fonds" : "Fund",
     "Anleihe": "Bond",
 }
-MAX_RETRIES: int = 4
+MAX_RETRIES: int = 7
 USER_AGENTS: list = ["Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
                      "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0",
                      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
