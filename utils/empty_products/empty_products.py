@@ -30,10 +30,16 @@ parser.add_argument('--idc_hook', type=str,
                     help='IDC slack hook')
 parser.add_argument('--hub_hook', type=str,
                     help='hub slack hook')
+parser.add_argument('--env', type=str,
+                    help='environment staging/prod')
 args = parser.parse_args()
 
 
-symbols = pd.read_json("https://s3.amazonaws.com/tradingview-symbology-staging/symbols.json")
+symbols = {}
+if args.env == 'staging':
+    symbols = pd.read_json("https://s3.amazonaws.com/tradingview-symbology-staging/symbols.json")
+else:
+    symbols = pd.read_json("https://s3.amazonaws.com/tradingview-symbology/symbols.json")
 
 
 symbols = symbols.query('`symbol-type`== "commodity" or `symbol-type`=="futures"')
