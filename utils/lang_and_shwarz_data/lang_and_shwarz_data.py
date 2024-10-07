@@ -201,7 +201,7 @@ class LangAndSchwarzParser:
     def request_retries_symbols(self):
         print("Парсинг символов с ошибкой:")
         while len(self.retries_symbols) > 0:
-            symbol = deque.popleft()
+            symbol = self.retries_symbols.popleft()
             self.request_with_retries(symbol, "", self.si_to_tv_dict)
 
 def main():
