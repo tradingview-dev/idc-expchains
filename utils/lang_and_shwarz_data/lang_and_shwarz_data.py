@@ -33,6 +33,8 @@ class LangAndSchwarzParser:
                           }
                    }
 
+    current_url = ""
+
     symbols: list = []
 
     retries_symbols: deque = deque()
@@ -79,6 +81,7 @@ class LangAndSchwarzParser:
         :return: response to request
         """
         retries = 0
+        self.current_url = url
         while retries < self.MAX_RETRIES:
             try:
                 response = requests.get(url, headers=self.get_headers())
@@ -142,7 +145,11 @@ class LangAndSchwarzParser:
         :return: total symbols list
         """
         soup = BeautifulSoup(resp.content, "html.parser")
-        category = soup.find('h3').text
+        category = ""
+        try:
+            category = soup.find('h3').text
+        except AttributeError:
+            self.request_with_retries(self.current_url, exchange, self.symbols_handler)
         if category == "Stocks" or (exchange == "x" and category != "Anleihen"):
             td_tags = soup.find_all('td', class_=False)
             for tag in td_tags:
@@ -199,10 +206,11 @@ class LangAndSchwarzParser:
         self.si_to_csv(exchange)
 
     def request_retries_symbols(self):
-        print("Парсинг символов с ошибкой:")
-        while len(self.retries_symbols) > 0:
-            symbol = self.retries_symbols.popleft()
-            self.request_with_retries(symbol, "", self.si_to_tv_dict)
+        if len(self.retries_symbols) > 0:
+            print("Парсинг символов с ошибкой:")
+            while len(self.retries_symbols) > 0:
+                symbol = self.retries_symbols.popleft()
+                self.request_with_retries(symbol, "", self.si_to_tv_dict)
 
 def main():
     parser = LangAndSchwarzParser()
