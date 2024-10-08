@@ -10203,7 +10203,6 @@
 {'tv-symbol': 'A2AL1U', 'isin': 'LU1291103338', 'description': 'BNPPE-M.USA SRISS5C.UECDL'}
 {'tv-symbol': 'A2PGAL', 'isin': 'LU1659681586', 'description': 'BNPPE-M.USA SRISS5C.UEEOC'}
 {'tv-symbol': 'A2H5E5', 'isin': 'LU1659681669', 'description': 'BNPPE-M.USA SRISS5C.UEEOD'}
-Fail request: HTTPSConnectionPool(host='www.ls-x.de', port=443): Max retries exceeded with url: /_rpc/json/.lstc/instrument/search/main?q=A2AL1T&localeId=2 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025BFE998D30>, 'Connection to www.ls-x.de timed out. (connect timeout=None)'))
 {'tv-symbol': 'A2AL1T', 'isin': 'LU1291101555', 'description': 'BNPPE-MSCI EU.SC.XCW UECE'}
 {'tv-symbol': 'A2DJG1', 'isin': 'LU1481203070', 'description': 'BNPPE-MSCI JA.X CW UEEOHC'}
 {'tv-symbol': 'A2ADB1', 'isin': 'LU1291104575', 'description': 'BNPPE-MSCI N.AM.XCW UECEO'}
