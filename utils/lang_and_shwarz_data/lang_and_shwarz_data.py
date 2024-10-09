@@ -1,14 +1,15 @@
 from bs4 import BeautifulSoup
 from collections import deque
+import argparse
 import random
 import requests
+import sys
 import time
 
 
 class LangAndSchwarzParser:
 
     DELAY: int = 5
-    EXCHANGES = ["x", "tc"]
     MAX_RETRIES: int = 5
     USER_AGENTS: list = [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
@@ -212,10 +213,11 @@ class LangAndSchwarzParser:
                 symbol = self.retries_symbols.popleft()
                 self.request_with_retries(symbol, "", self.si_to_tv_dict)
 
-def main():
-    parser = LangAndSchwarzParser()
-    for exchange in parser.EXCHANGES:
-        parser.parse_symbols(exchange)
+def main(args):
+    symbols_parser = LangAndSchwarzParser()
+    symbols_parser.parse_symbols(args.exchange)
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-exchange', dest='exchange', required=False, help='Exchange (tc/x)')
+    sys.exit(main(parser.parse_args()))

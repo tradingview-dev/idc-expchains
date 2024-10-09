@@ -35,7 +35,9 @@ fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
-python3 "$SCRIPTPATH/lang_and_shwarz_data.py"
+python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "x"
+sleep 300
+python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "tc"
 
 FILE1="${SCRIPTPATH}/LS.csv"
 FILE2="${SCRIPTPATH}/LSX.csv"
