@@ -3,7 +3,6 @@ set -e
 
 SCRIPT=$(readlink -f $0)
 SCRIPTPATH=`dirname $SCRIPT`
-EXCHANGE = "$2"
 
 EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
 
@@ -13,6 +12,7 @@ if [ "$1" == "" ]; then
 fi
 
 EXPCHAINS_BRANCH="$1"
+EXCHANGE="$2"
 
 if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
 	echo "Upload files to staging"
