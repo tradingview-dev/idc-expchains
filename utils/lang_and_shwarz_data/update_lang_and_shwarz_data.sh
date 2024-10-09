@@ -3,6 +3,7 @@ set -e
 
 SCRIPT=$(readlink -f $0)
 SCRIPTPATH=`dirname $SCRIPT`
+EXCHANGE = "$2"
 
 EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
 
@@ -35,31 +36,27 @@ fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
-python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "x"
-sleep 300
-python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "tc"
+python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "$EXCHANGE"
 
-FILE1="${SCRIPTPATH}/LS.csv"
-FILE2="${SCRIPTPATH}/LSX.csv"
+if [[ "$EXCHANGE" == "x" ]]; then
+  FILE="LSX.csv"
+else
+  FILE="LS.csv"
+fi
 
-FILE_SIZE1=$(stat --printf '%s' "${FILE1}")
-FILE_SIZE2=$(stat --printf '%s' "${FILE2}")
+FILE_PATH="${SCRIPTPATH}/${FILE}"
 
-if [ "$FILE_SIZE1" -lt "1000" ]; then
+FILE_SIZE=$(stat --printf '%s' "${FILE}")
+
+if [ "$FILE_SIZE" -lt "1000" ]; then
     echo "ERROR: One or both resulting files are too small"
     exit 1
 fi
-if [ "$FILE_SIZE2" -lt "1000" ]; then
-    echo "ERROR: One or both resulting files are too small"
-    exit 1
-fi
 
-mv "${FILE1}" "${EXP_CHAINS_DIR}/dictionaries/"
-mv "${FILE2}" "${EXP_CHAINS_DIR}/dictionaries/"
+mv "${FILE_PATH}" "${EXP_CHAINS_DIR}/dictionaries/"
 
 pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/LS.csv"
-git add "dictionaries/LSX.csv"
+git add "dictionaries/${FILE}"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else

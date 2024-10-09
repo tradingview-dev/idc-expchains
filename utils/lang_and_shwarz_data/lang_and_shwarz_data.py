@@ -150,6 +150,7 @@ class LangAndSchwarzParser:
         try:
             category = soup.find('h3').text
         except AttributeError:
+            time.sleep(300)
             self.request_with_retries(self.current_url, exchange, self.symbols_handler)
         if category == "Stocks" or (exchange == "x" and category != "Anleihen"):
             td_tags = soup.find_all('td', class_=False)
