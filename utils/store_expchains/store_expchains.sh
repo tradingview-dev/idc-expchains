@@ -30,6 +30,7 @@ echo "Getting manual groups"
 SI_OTHER_GROUPS=(
   "moex_iss_futures"
   "alor_futures"
+  "russia_futures"
   "six_istanbul_futures"
   )
 for GROUP in "${SI_OTHER_GROUPS[@]}"; do
