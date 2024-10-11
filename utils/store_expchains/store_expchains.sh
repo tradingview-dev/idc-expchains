@@ -30,6 +30,7 @@ echo "Getting manual groups"
 SI_OTHER_GROUPS=(
   "moex_iss_futures"
   "alor_futures"
+  "russia_futures"
   "alor_rest_futures"
   "six_cme_globex_futures"
   "six_cme_globex_mini_futures"
