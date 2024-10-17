@@ -63,7 +63,7 @@ class ISINDownloader
 
         requests = Hash.new
         sources.each do |source|
-            uri = URI("#{urlPrefix}/upstream/#{feed}/streaming/symbols?sources=#{source}")
+            uri = URI("#{urlPrefix}/upstream/#{feed}/streaming/symbols?source=#{source}")
             if @verbose
                 puts "#{uri}"
             end
