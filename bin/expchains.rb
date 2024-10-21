@@ -113,7 +113,7 @@ class ExpChains
         if !symbols.kind_of?(Array)
             symbols = [symbols]
         end
-        tickers = symbolinfo['ticker']
+        tickers = symbolinfo['feed-ticker']
         expirations = symbolinfo['expiration']
         roots = symbolinfo['root']
 
