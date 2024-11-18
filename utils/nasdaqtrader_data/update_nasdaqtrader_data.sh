@@ -40,7 +40,7 @@ curl -s \
      > "${EXP_CHAINS_DIR}/dictionaries/nasdaqtrader_descriptions.txt"
 
 pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/nasdaqtrader_descriptions.json"
+git add "dictionaries/nasdaqtrader_descriptions.csv"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
 else
