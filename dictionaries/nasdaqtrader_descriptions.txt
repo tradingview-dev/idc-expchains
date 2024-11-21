@@ -166,7 +166,7 @@ AKTX|Akari Therapeutics Plc - American Depositary Shares|S|N|N|100|N|N
 AKYA|Akoya BioSciences, Inc. - Common Stock|Q|N|N|100|N|N
 ALAB|Astera Labs, Inc. - Common Stock|Q|N|N|100|N|N
 ALAR|Alarum Technologies Ltd. - American Depositary Shares|S|N|N|100|N|N
-ALBT|Avalon GloboCare Corp. - Common Stock|S|N|D|100|N|N
+ALBT|Avalon GloboCare Corp. - Common Stock|S|N|N|100|N|N
 ALCE|Alternus Clean Energy, Inc. - Class A Common Stock|S|N|D|100|N|N
 ALCO|Alico, Inc. - Common Stock|Q|N|N|100|N|N
 ALCY|Alchemy Investments Acquisition Corp 1 - Class A Ordinary Shares|S|N|N|100|N|N
@@ -736,7 +736,6 @@ BYNOU|byNordic Acquisition Corporation - Units|G|N|N|100|N|N
 BYNOW|byNordic Acquisition Corporation - Warrant|G|N|N|100|N|N
 BYRN|Byrna Technologies, Inc. - Common Stock|S|N|N|100|N|N
 BYSI|BeyondSpring, Inc. - Ordinary Shares|S|N|N|100|N|N
-BYU|BAIYU Holdings, Inc. - Common Stock|S|N|D|100|N|N
 BZ|KANZHUN LIMITED - American Depository Shares|Q|N|N|100|N|N
 BZFD|BuzzFeed, Inc. - Class A Common Stock|S|N|N|100|N|N
 BZFDW|BuzzFeed, Inc. - Warrant|S|N|N|100|N|N
@@ -1459,7 +1458,6 @@ EWCZ|European Wax Center, Inc. - Class A Common Stock|Q|N|N|100|N|N
 EWJV|iShares MSCI Japan Value ETF|G|N|N|100|Y|N
 EWTX|Edgewise Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 EWZS|iShares MSCI Brazil Small-Cap ETF|G|N|N|100|Y|N
-EXAI|Exscientia Plc - American Depositary Shares|Q|N|N|100|N|N
 EXAS|Exact Sciences Corporation - Common Stock|S|N|N|100|N|N
 EXC|Exelon Corporation - Common Stock|Q|N|N|100|N|N
 EXE|Expand Energy Corporation - Common Stock|Q|N|N|100|N|N
@@ -2680,9 +2678,6 @@ MBRX|Moleculin Biotech, Inc. - Common Stock|S|N|N|100|N|N
 MBUU|Malibu Boats, Inc. - Common Stock|G|N|N|100|N|N
 MBWM|Mercantile Bank Corporation - Common Stock|Q|N|N|100|N|N
 MBX|MBX Biosciences, Inc. - Common Stock|Q|N|N|100|N|N
-MCAG|Mountain Crest Acquisition Corp. V - Common Stock|S|N|N|100|N|N
-MCAGR|Mountain Crest Acquisition Corp. V - Right|S|N|N|100|N|N
-MCAGU|Mountain Crest Acquisition Corp. V - Unit|S|N|N|100|N|N
 MCBS|MetroCity Bankshares, Inc. - Common Stock|Q|N|N|100|N|N
 MCDS|JPMorgan Fundamental Data Science Mid Core ETF|G|N|N|100|Y|N
 MCFT|MasterCraft Boat Holdings, Inc. - Common Stock|G|N|N|100|N|N
@@ -3697,6 +3692,8 @@ RMCO|Royalty Management Holding Corporation - Class A Common Stock|S|N|N|100|N|N
 RMCOW|Royalty Management Holding Corporation - Warrant|S|N|N|100|N|N
 RMNI|Rimini Street, Inc. - Common Stock|G|N|D|100|N|N
 RMR|The RMR Group Inc. - Class A Common Stock|S|N|N|100|N|N
+RMSG|Real Messenger Corporation - Ordinary Shares|S|N|N|100|N|N
+RMSGW|Real Messenger Corporation - Warrants|S|N|N|100|N|N
 RMTI|Rockwell Medical, Inc. - Common Stock|S|N|N|100|N|N
 RNA|Avidity Biosciences, Inc. - Common Stock|G|N|N|100|N|N
 RNAC|Cartesian Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
@@ -4415,6 +4412,7 @@ URBN|Urban Outfitters, Inc. - Common Stock|Q|N|N|100|N|N
 URGN|UroGen Pharma Ltd. - Ordinary Shares|G|N|N|100|N|N
 URNJ|Sprott Junior Uranium Miners ETF|G|N|N|100|Y|N
 UROY|Uranium Royalty Corp. - Common Stock|S|N|N|100|N|N
+USAF|Atlas America Fund|G|N|N|100|Y|N
 USAP|Universal Stainless & Alloy Products, Inc. - Common Stock|Q|N|N|100|N|N
 USAU|U.S. Gold Corp. - Common Stock|S|N|N|100|N|N
 USCB|USCB Financial Holdings, Inc.  - Class A Common Stock|G|N|N|100|N|N
@@ -4501,7 +4499,7 @@ VICR|Vicor Corporation - Common Stock|Q|N|N|100|N|N
 VIGI|Vanguard International Dividend Appreciation ETF|G|N|N|100|Y|N
 VIGL|Vigil Neuroscience, Inc. - Common Stock|Q|N|N|100|N|N
 VINC|Vincerx Pharma, Inc. - Common Stock|S|N|D|100|N|N
-VINO|Gaucho Group Holdings, Inc. - Common Stock|S|N|N|100|N|N
+VINO|Gaucho Group Holdings, Inc. - Common Stock|S|N|Q|100|N|N
 VINP|Vinci Partners Investments Ltd. - Class A Common Shares|Q|N|N|100|N|N
 VIOT|Viomi Technology Co., Ltd - American Depositary Shares|Q|N|N|100|N|N
 VIR|Vir Biotechnology, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4804,4 +4802,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1120202407:00|||||||
+File Creation Time: 1121202407:00|||||||
