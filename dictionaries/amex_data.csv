@@ -254,6 +254,7 @@ BHM;Bluerock Homes Trust Inc.;XASE
 BHYB;Xtrackers USD High Yield BB-B ex Financials ETF;BATS
 BIBL;Inspire 100 ETF;ARCX
 BIDD;BlackRock International Dividend ETF;ARCX
+BIGY;YieldMax Target 12 Big 50 Option Income ETF;ARCX
 BIL;SPDR Bloomberg 1-3 Month T-Bill ETF;ARCX
 BILD;Macquarie Global Listed Infrastructure ETF;ARCX
 BILS;SPDR Bloomberg 3-12 Month T-Bill ETF;ARCX
@@ -822,7 +823,6 @@ EQL;ALPS Equal Sector Weight ETF;ARCX
 EQLS;Simplify Market Neutral Equity Long/Short ETF;ARCX
 EQLT;iShares MSCI Emerging Markets Quality Factor ETF;BATS
 EQTY;Kovitz Core Equity ETF;ARCX
-EQUL;NYLI Engender Equality ETF;ARCX
 EQWL;Invesco S&P 100 Equal Weight ETF;ARCX
 EQX;Equinox Gold Corp.;XASE
 ERC;Allspring Multi-Sector Income Fund;XASE
@@ -910,6 +910,7 @@ EZET;Franklin Ethereum ETF;BATS
 EZJ;ProShares Ultra MSCI Japan;ARCX
 EZM;WisdomTree U.S. MidCap Fund;ARCX
 EZU;iShare MSCI Eurozone ETF of ISHARES INC.;BATS
+FAI;First Trust Bloomberg Artificial Intelligence ETF;ARCX
 FAIL;Cambria Global Tail Risk ETF;BATS
 FAN;First Trust Global Wind Energy ETF;ARCX
 FAPR;FT Vest U.S. Equity Buffer ETF - April;BATS
@@ -959,6 +960,7 @@ FDV;Federated Hermes U.S. Strategic Dividend ETF;ARCX
 FDVL;Foundations Dynamic Value ETF;BATS
 FDVV;Fidelity High Dividend ETF;ARCX
 FDWM;Fidelity Women's Leadership ETF;ARCX
+FEAC;Fidelity Enhanced U.S. All-Cap Equity ETF;ARCX
 FEBP;PGIM US Large-Cap Buffer 12 ETF - February;BATS
 FEBT;AllianzIM U.S. Large Cap Buffer10 Feb ETF;ARCX
 FEBW;AllianzIM U.S. Large Cap Buffer20 Feb ETF;ARCX
@@ -969,13 +971,17 @@ FEIG;FlexShares ESG & Climate Investment Grade Corporate Core Index Fund;ARCX
 FELC;Fidelity Enhanced Large Cap Core ETF;ARCX
 FELG;Fidelity Enhanced Large Cap Growth ETF;ARCX
 FELV;Fidelity Enhanced Large Cap Value ETF;ARCX
+FEMR;Fidelity Enhanced Emerging Markets ETF;ARCX
 FENI;Fidelity Enhanced International ETF;ARCX
 FENY;Fidelity MSCI Energy Index ETF;ARCX
 FESM;Fidelity Enhanced Small Cap ETF;ARCX
 FETH;Fidelity Ethereum Fund;BATS
 FEUS;FlexShares ESG & Climate US Large Cap Core Index Fund;ARCX
 FEZ;SPDR EURO STOXX 50 ETF;ARCX
+FFDI;Fidelity Fundamental Developed International ETF;BATS
 FFEB;FT Vest U.S. Equity Buffer ETF - February;BATS
+FFEM;Fidelity Fundamental Emerging Markets ETF;BATS
+FFGX;Fidelity Fundamental Global ex-U.S. ETF;BATS
 FFIU;UVA Unconstrained Medium-Term Fixed Income ETF;ARCX
 FFLC;Fidelity Fundamental Large Cap Core ETF;BATS
 FFLG;Fidelity Fundamental Large Cap Growth ETF;BATS
@@ -1572,7 +1578,6 @@ IQDF;FlexShares International Quality Dividend Index Fund;ARCX
 IQDG;WisdomTree International Quality Dividend Growth Fund;BATS
 IQDY;FlexShares International Quality Dividend Dynamic Index Fund;ARCX
 IQHI;NYLI MacKay ESG High Income ETF;ARCX
-IQIN;NYLI 500 International ETF;ARCX
 IQLT;iShares MSCI Intl Quality Factor ETF;ARCX
 IQM;Franklin Intelligent Machines ETF;BATS
 IQRA;NYLI CBRE Real Assets ETF;ARCX
@@ -2552,7 +2557,6 @@ ROKT;SPDR S&P Kensho Final Frontiers ETF;ARCX
 ROLR;High Roller Technologies Inc.;XASE
 ROM;ProShares Ultra Technology;ARCX
 ROMO;Strategy Shares Newfound/ReSolve Robust Momentum ETF;BATS
-ROOF;NYLI CBRE NextGen Real Estate ETF;ARCX
 RORO;ATAC US Rotation ETF;ARCX
 ROSC;Hartford Multifactor Small Cap ETF;ARCX
 ROUS;Hartford Multifactor US Equity ETF;ARCX
@@ -3072,6 +3076,7 @@ UOCT;Innovator U.S. Equity Ultra Buffer ETF - October;BATS
 UPAR;UPAR Ultra Risk Parity ETF;ARCX
 UPGD;Invesco Bloomberg Analyst Rating Improvers ETF;ARCX
 UPRO;ProShares UltraPro S&P 500;ARCX
+UPSD;Aptus Large Cap Upside ETF;BATS
 UPV;ProShares Ultra FTSE Europe;ARCX
 UPW;ProShares Ultra Utilities;ARCX
 URA;Global X Uranium ETF;ARCX
@@ -3132,6 +3137,7 @@ VCAR;Simplify Volt RoboCar Disruption and Tech ETF;ARCX
 VCEB;Vanguard ESG U.S. Corporate Bond ETF;BATS
 VCLN;Virtus Duff & Phelps Clean Energy ETF;ARCX
 VCR;Vanguard Consumer Discretionary ETF;ARCX
+VCRM;Vanguard Core Tax-Exempt Bond ETF;BATS
 VDC;Vanguard Consumer Staples ETF;ARCX
 VDE;Vanguard Energy ETF;ARCX
 VEA;Vanguard FTSE Developed Markets ETF;ARCX
@@ -3186,6 +3192,7 @@ VPL;Vanguard FTSE Pacific ETF;ARCX
 VPU;Vanguard Utilities ETF;ARCX
 VRAI;Virtus Real Asset Income ETF;ARCX
 VRP;Invesco Variable Rate Preferred ETF;ARCX
+VSDM;Vanguard Short Duration Tax-Exempt Bond ETF;BATS
 VSGX;Vanguard ESG International Stock ETF;BATS
 VSHY;Virtus Newfleet Short Duration High Yield Bond ETF;ARCX
 VSLU;Applied Finance Valuation Large Cap ETF;ARCX
