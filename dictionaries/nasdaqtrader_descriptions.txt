@@ -40,7 +40,7 @@ ACGL|Arch Capital Group Ltd. - Common Stock|Q|N|N|100|N|N
 ACGLN|Arch Capital Group Ltd. - Depositary Shares, each Representing a 1/1,000th Interest in a 4.550% Non-Cumulative Preferred Share, Series G|Q|N|N|100|N|N
 ACGLO|Arch Capital Group Ltd. - Depositary Shares Each Representing 1/1,000th Interest in a Share of5.45% Non-Cumulative Preferred Shares, Series F|Q|N|N|100|N|N
 ACHC|Acadia Healthcare Company, Inc. - Common Stock|Q|N|N|100|N|N
-ACHL|Achilles Therapeutics plc - American Depositary Shares|S|N|D|100|N|N
+ACHL|Achilles Therapeutics plc - American Depositary Shares|S|N|N|100|N|N
 ACHV|Achieve Life Sciences, Inc.  - Common Shares|S|N|N|100|N|N
 ACIC|American Coastal Insurance Corporation - Common Stock|S|N|N|100|N|N
 ACIU|AC Immune SA - Common Stock|G|N|N|100|N|N
@@ -434,7 +434,7 @@ AZN|AstraZeneca PLC - American Depositary Shares|Q|N|N|100|N|N
 AZPN|Aspen Technology, Inc. - Common Stock|Q|N|N|100|N|N
 AZTA|Azenta, Inc. - Common Stock|Q|N|N|100|N|N
 BABX|GraniteShares 2x Long BABA Daily ETF|G|N|N|100|Y|N
-BACK|IMAC Holdings, Inc. - Common Stock|S|N|E|100|N|N
+BACK|IMAC Holdings, Inc. - Common Stock|S|N|H|100|N|N
 BACQU|Bleichroeder Acquisition Corp. I - Unit|G|N|N|100|N|N
 BAER|Bridger Aerospace Group Holdings, Inc. - Common Stock|G|N|N|100|N|N
 BAERW|Bridger Aerospace Group Holdings, Inc. - Warrant|G|N|N|100|N|N
@@ -832,8 +832,8 @@ CEFA|Global X S&P Catholic Values Developed ex-U.S. ETF|G|N|N|100|Y|N
 CEG|Constellation Energy Corporation - Common Stock|Q|N|N|100|N|N
 CELC|Celcuity Inc. - Common Stock|S|N|N|100|N|N
 CELH|Celsius Holdings, Inc. - Common Stock|S|N|N|100|N|N
-CELU|Celularity Inc. - Class A Common Stock|S|N|N|100|N|N
-CELUW|Celularity Inc. - Warrant|S|N|N|100|N|N
+CELU|Celularity Inc. - Class A Common Stock|S|N|E|100|N|N
+CELUW|Celularity Inc. - Warrant|S|N|E|100|N|N
 CELZ|Creative Medical Technology Holdings, Inc. - Common Stock|S|N|N|100|N|N
 CENN|Cenntro Inc. - Common Stock|S|N|N|100|N|N
 CENT|Central Garden & Pet Company - Common Stock|Q|N|N|100|N|N
@@ -1442,8 +1442,8 @@ EVGOW|EVgo Inc. - Warrants, each whole warrant exercisable for one share of Clas
 EVGR|Evergreen Corporation - Class A Ordinary Share|G|N|D|100|N|N
 EVGRU|Evergreen Corporation - Unit|G|N|N|100|N|N
 EVGRW|Evergreen Corporation - Warrant|G|N|N|100|N|N
-EVLV|Evolv Technologies Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
-EVLVW|Evolv Technologies Holdings, Inc. - Warrant|S|N|N|100|N|N
+EVLV|Evolv Technologies Holdings, Inc. - Class A Common Stock|S|N|E|100|N|N
+EVLVW|Evolv Technologies Holdings, Inc. - Warrant|S|N|E|100|N|N
 EVMT|Invesco Electric Vehicle Metals Commodity Strategy No K-1 ETF|G|N|N|100|Y|N
 EVO|Evotec SE - American Depositary Shares each representing 1/2 of one ordinary share|Q|N|N|100|N|N
 EVOK|Evoke Pharma, Inc. - Common Stock|S|N|N|100|N|N
@@ -1622,9 +1622,9 @@ FOLD|Amicus Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 FONR|Fonar Corporation - Common Stock|S|N|N|100|N|N
 FORA|Forian Inc. - Common Stock|S|N|N|100|N|N
 FORD|Forward Industries, Inc. - Common Stock|S|N|N|100|N|N
-FORL|Four Leaf Acquisition Corporation - Class A Common Stock|S|N|D|100|N|N
-FORLU|Four Leaf Acquisition Corporation - Unit|S|N|D|100|N|N
-FORLW|Four Leaf Acquisition Corporation - Warrants|S|N|D|100|N|N
+FORL|Four Leaf Acquisition Corporation - Class A Common Stock|S|N|H|100|N|N
+FORLU|Four Leaf Acquisition Corporation - Unit|S|N|H|100|N|N
+FORLW|Four Leaf Acquisition Corporation - Warrants|S|N|H|100|N|N
 FORM|FormFactor, Inc. - Common Stock|Q|N|N|100|N|N
 FORR|Forrester Research, Inc. - Common Stock|Q|N|N|100|N|N
 FORTY|Formula Systems (1985) Ltd. - American Depositary Shares|Q|N|N|100|N|N
@@ -1902,7 +1902,7 @@ GSMGW|Cheer Holding, Inc.  - Warrant|S|N|N|100|N|N
 GSRTU|GSR III Acquisition Corp. - Unit|G|N|N|100|N|N
 GSUN|Golden Sun Health Technology Group Limited - Class A Ordinary Shares|S|N|N|100|N|N
 GT|The Goodyear Tire & Rubber Company - Common Stock|Q|N|N|100|N|N
-GTBP|GT Biopharma, Inc. - Common Stock|S|N|N|100|N|N
+GTBP|GT Biopharma, Inc. - Common Stock|S|N|D|100|N|N
 GTEC|Greenland Technologies Holding Corporation - Ordinary Shares|S|N|N|100|N|N
 GTI|Graphjet Technology - Class A Ordinary Shares|G|N|N|100|N|N
 GTIM|Good Times Restaurants Inc. - Common Stock|S|N|N|100|N|N
@@ -2007,7 +2007,7 @@ HOVRW|New Horizon Aircraft Ltd. - Warrant|S|N|D|100|N|N
 HOWL|Werewolf Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 HPAI|Helport AI Limited - Ordinary Shares|S|N|N|100|N|N
 HPAIW|Helport AI Limited - Warrants|S|N|N|100|N|N
-HPH|Highest Performances Holdings Inc. - American Depository Shares|G|N|N|100|N|N
+HPH|Highest Performances Holdings Inc. - American Depository Shares|G|N|D|100|N|N
 HPK|HighPeak Energy, Inc. - Common Stock|G|N|N|100|N|N
 HPKEW|HighPeak Energy, Inc. - Warrant|G|N|N|100|N|N
 HQGO|Hartford US Quality Growth ETF|G|N|N|100|Y|N
@@ -2226,7 +2226,7 @@ INSG|Inseego Corp. - Common Stock|Q|N|N|100|N|N
 INSM|Insmed Incorporated - Common Stock|Q|N|N|100|N|N
 INTA|Intapp, Inc. - Common Stock|Q|N|N|100|N|N
 INTC|Intel Corporation - Common Stock|Q|N|N|100|N|N
-INTG|The Intergroup Corporation - Common Stock|S|N|N|100|N|N
+INTG|The Intergroup Corporation - Common Stock|S|N|D|100|N|N
 INTJ|Intelligent Group Limited - Ordinary Shares|S|N|N|100|N|N
 INTR|Inter & Co. Inc. - Class A Common Shares|Q|N|N|100|N|N
 INTS|Intensity Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
@@ -2572,7 +2572,9 @@ LOVE|The Lovesac Company - Common Stock|G|N|N|100|N|N
 LPAA|Launch One Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 LPAAU|Launch One Acquisition Corp. - Unit|G|N|N|100|N|N
 LPAAW|Launch One Acquisition Corp. - Warrant|G|N|N|100|N|N
+LPBB|Launch Two Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 LPBBU|Launch Two Acquisition Corp. - Unit|G|N|N|100|N|N
+LPBBW|Launch Two Acquisition Corp. - Warrant|G|N|N|100|N|N
 LPCN|Lipocine Inc. - Common Stock|S|N|N|100|N|N
 LPLA|LPL Financial Holdings Inc. - Common Stock|Q|N|N|100|N|N
 LPRO|Open Lending Corporation - Common Stock|G|N|N|100|N|N
@@ -3562,7 +3564,7 @@ QTEC|First Trust NASDAQ-100-Technology Sector Index Fund|G|N|N|100|Y|N
 QTI|QT Imaging Holdings, Inc. - Common Stock|Q|N|D|100|N|N
 QTOP|iShares Nasdaq Top 30 Stocks ETF|G|N|N|100|Y|N
 QTR|Global X NASDAQ 100 Tail Risk ETF|G|N|N|100|Y|N
-QTRX|Quanterix Corporation - Common Stock|G|N|N|100|N|N
+QTRX|Quanterix Corporation - Common Stock|G|N|E|100|N|N
 QTTB|Q32 Bio Inc. - Common Stock|G|N|N|100|N|N
 QTUM|Defiance Quantum ETF|G|N|N|100|Y|N
 QUBT|Quantum Computing Inc. - Common Stock|S|N|N|100|N|N
@@ -3793,8 +3795,8 @@ SBUX|Starbucks Corporation - Common Stock|Q|N|N|100|N|N
 SCDS|JPMorgan Fundamental Data Science Small Core ETF|G|N|N|100|Y|N
 SCHL|Scholastic Corporation - Common Stock|Q|N|N|100|N|N
 SCKT|Socket Mobile, Inc. - Common Stock|S|N|N|100|N|N
-SCLX|Scilex Holding Company - Common Stock|S|N|D|100|N|N
-SCLXW|Scilex Holding Company - Warrant|S|N|N|100|N|N
+SCLX|Scilex Holding Company - Common Stock|S|N|H|100|N|N
+SCLXW|Scilex Holding Company - Warrant|S|N|E|100|N|N
 SCNI|Scinai Immunotherapeutics Ltd. - American Depositary Shares|S|N|N|100|N|N
 SCNX|Scienture Holdings, Inc. - Common Stock|S|N|N|100|N|N
 SCOR|comScore, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3843,7 +3845,7 @@ SFNC|Simmons First National Corporation - Common Stock|Q|N|N|100|N|N
 SFST|Southern First Bancshares, Inc. - Common Stock|G|N|N|100|N|N
 SFWL|Shengfeng Development Limited - Class A Ordinary Shares|S|N|N|100|N|N
 SGA|Saga Communications, Inc. - Class A Common Stock|G|N|N|100|N|N
-SGBX|Safe & Green Holdings Corp. - Common Stock|S|N|D|100|N|N
+SGBX|Safe & Green Holdings Corp. - Common Stock|S|N|H|100|N|N
 SGC|Superior Group of Companies, Inc. - Common Stock|G|N|N|100|N|N
 SGD|Safe and Green Development Corporation - Common Stock|S|N|D|100|N|N
 SGHT|Sight Sciences, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4062,7 +4064,7 @@ STAF|Staffing 360 Solutions, Inc. - Common Stock|S|N|D|100|N|N
 STBA|S&T Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 STBX|Starbox Group Holdings Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 STCN|Steel Connect, Inc. - Common Stock|S|N|N|100|N|N
-STEC|Santech Holdings Limited - American Depositary Shares|G|N|D|100|N|N
+STEC|Santech Holdings Limited - American Depositary Shares|G|N|H|100|N|N
 STEP|StepStone Group Inc. - Class A Common Stock|Q|N|N|100|N|N
 STFS|Star Fashion Culture Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
 STGW|Stagwell Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -4262,7 +4264,7 @@ TORO|Toro Corp. - Common stock|S|N|N|100|N|N
 TOUR|Tuniu Corporation - American Depositary Shares|G|N|N|100|N|N
 TOWN|Towne Bank - Common Stock|Q|N|N|100|N|N
 TOYO|TOYO Co., Ltd - Ordinary Shares|S|N|N|100|N|N
-TPCS|TechPrecision Corporation - Common stock|S|N|N|100|N|N
+TPCS|TechPrecision Corporation - Common stock|S|N|E|100|N|N
 TPG|TPG Inc. - Class A Common Stock|Q|N|N|100|N|N
 TPGXL|TPG Inc. - 6.950% Fixed-Rate Junior Subordinated Notes due 2064|G|N|N|100|N|N
 TPIC|TPI Composites, Inc. - Common Stock|G|N|N|100|N|N
@@ -4795,4 +4797,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1129202407:00|||||||
+File Creation Time: 1129202421:31|||||||
