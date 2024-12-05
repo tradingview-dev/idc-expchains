@@ -234,7 +234,7 @@ AMRN|Amarin Corporation plc - American Depositary Shares, each representing one 
 AMRX|Amneal Pharmaceuticals, Inc. - Class A Common Stock|Q|N|N|100|N|N
 AMSC|American Superconductor Corporation - Common Stock|Q|N|N|100|N|N
 AMSF|AMERISAFE, Inc. - Common Stock|Q|N|N|100|N|N
-AMST|Amesite Inc. - Common Stock|S|N|N|100|N|N
+AMST|Amesite Inc. - Common Stock|S|N|D|100|N|N
 AMTX|Aemetis, Inc - Common Stock|G|N|N|100|N|N
 AMWD|American Woodmark Corporation - Common Stock|Q|N|N|100|N|N
 AMZD|Direxion Daily AMZN Bear 1X Shares|G|N|N|100|Y|N
@@ -384,7 +384,7 @@ ATRC|AtriCure, Inc. - Common Stock|G|N|N|100|N|N
 ATRO|Astronics Corporation - Common Stock|Q|N|N|100|N|N
 ATSG|Air Transport Services Group, Inc - Common Stock|Q|N|N|100|N|N
 ATXG|Addentax Group Corp. - Common Stock|S|N|D|100|N|N
-ATXI|Avenue Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
+ATXI|Avenue Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 ATXS|Astria Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 ATYR|aTyr Pharma, Inc. - Common Stock|S|N|N|100|N|N
 AUBN|Auburn National Bancorporation, Inc. - Common Stock|G|N|N|100|N|N
@@ -497,8 +497,8 @@ BELFB|Bel Fuse Inc. - Class B Common Stock|Q|N|N|100|N|N
 BELT|iShares Long-Term U.S. Equity Active ETF|G|N|N|100|Y|N
 BENF|Beneficient - Class A Common Stock|S|N|N|100|N|N
 BENFW|Beneficient - Warrant|S|N|N|100|N|N
-BETR|Better Home  - Class A Common Stock|G|N|N|100|N|N
-BETRW|Better Home  - Warrant|G|N|N|100|N|N
+BETR|Better Home & Finance Holding Company - Class A Common Stock|G|N|N|100|N|N
+BETRW|Better Home & Finance Holding Company - Warrant|G|N|N|100|N|N
 BFC|Bank First Corporation - Common Stock|S|N|N|100|N|N
 BFIN|BankFinancial Corporation - Common Stock|Q|N|N|100|N|N
 BFRG|Bullfrog AI Holdings, Inc. - Common Stock|S|N|N|100|N|N
@@ -538,7 +538,7 @@ BIS|ProShares UltraShort Nasdaq Biotechnology|G|N|N|100|Y|N
 BITF|Bitfarms Ltd. - Common Stock|G|N|N|100|N|N
 BITS|Global X Blockchain & Bitcoin Strategy ETF|G|N|N|100|Y|N
 BIVI|BioVie Inc. - Common stock|S|N|N|100|N|N
-BJDX|Bluejay Diagnostics, Inc. - Common Stock|S|N|D|100|N|N
+BJDX|Bluejay Diagnostics, Inc. - Common Stock|S|N|N|100|N|N
 BJK|VanEck Gaming ETF|G|N|N|100|Y|N
 BJRI|BJ's Restaurants, Inc. - Common Stock|Q|N|N|100|N|N
 BKCH|Global X Blockchain ETF|G|N|N|100|Y|N
@@ -549,7 +549,7 @@ BKIV|BNY Mellon Innovators ETF|G|N|N|100|Y|N
 BKNG|Booking Holdings Inc. - Common Stock|Q|N|N|100|N|N
 BKR|Baker Hughes Company - Common Stock|Q|N|N|100|N|N
 BKWO|BNY Mellon Women's Opportunities ETF|G|N|N|100|Y|N
-BKYI|BIO-key International, Inc. - Common Stock|S|N|D|100|N|N
+BKYI|BIO-key International, Inc. - Common Stock|S|N|N|100|N|N
 BL|BlackLine, Inc. - Common Stock|Q|N|N|100|N|N
 BLAC|Bellevue Life Sciences Acquisition Corp. - Common Stock|S|N|D|100|N|N
 BLACR|Bellevue Life Sciences Acquisition Corp. - Rights|S|N|N|100|N|N
@@ -844,6 +844,7 @@ CENT|Central Garden & Pet Company - Common Stock|Q|N|N|100|N|N
 CENTA|Central Garden & Pet Company - Class A Common Stock Nonvoting|Q|N|N|100|N|N
 CENX|Century Aluminum Company - Common Stock|Q|N|N|100|N|N
 CEP|Cantor Equity Partners, Inc. - Class A ordinary shares|G|N|N|100|N|N
+CEPI|REX Crypto Equity Premium Income ETF|G|N|N|100|Y|N
 CERO|CERo Therapeutics Holdings, Inc. - Common Stock|G|N|D|100|N|N
 CEROW|CERo Therapeutics Holdings, Inc. - Warrants|S|N|N|100|N|N
 CERS|Cerus Corporation - Common Stock|G|N|N|100|N|N
@@ -1014,6 +1015,7 @@ COOT|Australian Oilseeds Holdings Limited - Ordinary Shares|G|N|D|100|N|N
 COOTW|Australian Oilseeds Holdings Limited - Warrant|G|N|N|100|N|N
 COPJ|Sprott Junior Copper Miners ETF|G|N|N|100|Y|N
 COPP|Sprott Copper Miners ETF|G|N|N|100|Y|N
+CORO|iShares International Country Rotation Active ETF|G|N|N|100|Y|N
 CORT|Corcept Therapeutics Incorporated - Common Stock|S|N|N|100|N|N
 CORZ|Core Scientific, Inc. - Common Stock|Q|N|N|100|N|N
 CORZW|Core Scientific, Inc. - Tranche 1 Warrants|Q|N|N|100|N|N
@@ -1785,6 +1787,7 @@ GEVO|Gevo, Inc. - Common Stock|S|N|N|100|N|N
 GFAI|Guardforce AI Co., Limited - Ordinary Shares|S|N|N|100|N|N
 GFAIW|Guardforce AI Co., Limited - Warrant|S|N|N|100|N|N
 GFGF|Guru Favorite Stocks ETF|G|N|N|100|Y|N
+GFLW|VictoryShares Free Cash Flow Growth ETF|G|N|N|100|Y|N
 GFS|GlobalFoundries Inc. - Ordinary Share|Q|N|N|100|N|N
 GGAL|Grupo Financiero Galicia S.A. - American Depositary Shares, Class B Shares underlying|S|N|N|100|N|N
 GGLL|Direxion Daily GOOGL Bull 2X Shares|G|N|N|100|Y|N
@@ -2185,7 +2188,7 @@ IMMP|Immutep Limited - American Depositary Shares|G|N|N|100|N|N
 IMMR|Immersion Corporation - Common Stock|Q|N|N|100|N|N
 IMMX|Immix Biopharma, Inc. - Common Stock|S|N|N|100|N|N
 IMNM|Immunome, Inc. - Common Stock|S|N|N|100|N|N
-IMNN|Imunon, Inc. - Common Stock|S|N|N|100|N|N
+IMNN|Imunon, Inc. - Common Stock|S|N|D|100|N|N
 IMOM|Alpha Architect International Quantitative Momentum ETF|G|N|N|100|Y|N
 IMOS|ChipMOS TECHNOLOGIES INC. - American Depositary Shares|Q|N|N|100|N|N
 IMPP|Imperial Petroleum Inc. - Common Shares|S|N|N|100|N|N
@@ -2514,7 +2517,7 @@ LGCL|Lucas GC Limited - Ordinary Shares|S|N|N|100|N|N
 LGHL|Lion Group Holding Ltd. - American Depositary Share|S|N|D|100|N|N
 LGHLW|Lion Group Holding Ltd. - Warrant|S|N|N|100|N|N
 LGIH|LGI Homes, Inc. - Common Stock|Q|N|N|100|N|N
-LGMK|LogicMark, Inc. - Common Stock|S|N|D|100|N|N
+LGMK|LogicMark, Inc. - Common Stock|S|N|N|100|N|N
 LGND|Ligand Pharmaceuticals Incorporated - Common Stock|G|N|N|100|N|N
 LGO|Largo Inc. - Common Shares|Q|N|N|100|N|N
 LGRO|Level Four Large Cap Growth Active ETF|G|N|N|100|Y|N
@@ -3077,7 +3080,7 @@ NWL|Newell Brands Inc. - Common Stock|Q|N|N|100|N|N
 NWPX|Northwest Pipe Company - Common Stock|Q|N|N|100|N|N
 NWS|News Corporation - Class B Common Stock|Q|N|N|100|N|N
 NWSA|News Corporation - Class A Common Stock|Q|N|N|100|N|N
-NWTN|NWTN Inc. - Class B Ordinary Shares|S|N|H|100|N|N
+NWTN|NWTN Inc. - Class B Ordinary Shares|S|N|E|100|N|N
 NWTNW|NWTN Inc. - Warrant|S|N|E|100|N|N
 NXGL|NexGel, Inc - Common Stock|S|N|N|100|N|N
 NXGLW|NexGel, Inc - Warrant|S|N|N|100|N|N
@@ -3511,6 +3514,7 @@ PYZ|Invesco Dorsey Wright Basic Materials Momentum ETF|G|N|N|100|Y|N
 PZZA|Papa John's International, Inc. - Common Stock|Q|N|N|100|N|N
 QABA|First Trust NASDAQ ABA Community Bank Index Fund|G|N|N|100|Y|N
 QAT|iShares MSCI Qatar ETF|G|N|N|100|Y|N
+QBIG|Invesco Top QQQ ETF|G|N|N|100|Y|N
 QBUF|Innovator Nasdaq-100 10 Buffer ETF Quarterly|G|N|N|100|Y|N
 QCLN|First Trust NASDAQ Clean Edge Green Energy Index Fund|G|N|N|100|Y|N
 QCLR|Global X NASDAQ 100 Collar 95-110 ETF|G|N|N|100|Y|N
@@ -3539,6 +3543,7 @@ QOWZ|Invesco Nasdaq Free Cash Flow Achievers ETF|G|N|N|100|Y|N
 QQA|Invesco QQQ Income Advantage ETF|G|N|N|100|Y|N
 QQEW|First Trust NASDAQ-100 Equal Weighted Index Fund|G|N|N|100|Y|N
 QQJG|Invesco ESG NASDAQ Next Gen 100 ETF|G|N|N|100|Y|N
+QQLV|Invesco QQQ Low Volatility ETF|G|N|N|100|Y|N
 QQMG|Invesco ESG NASDAQ 100 ETF|G|N|N|100|Y|N
 QQQ|Invesco QQQ Trust, Series 1|G|N|N|100|Y|N
 QQQA|ProShares Nasdaq-100 Dorsey Wright Momentum ETF|G|N|N|100|Y|N
@@ -3953,7 +3958,7 @@ SMLR|Semler Scientific, Inc. - Common Stock|S|N|N|100|N|N
 SMMT|Summit Therapeutics Inc.  - Common Stock|G|N|N|100|N|N
 SMPL|The Simply Good Foods Company - Common Stock|S|N|N|100|N|N
 SMRI|Bushido Capital US Equity ETF|G|N|N|100|Y|N
-SMSI|Smith Micro Software, Inc. - Common Stock|S|N|N|100|N|N
+SMSI|Smith Micro Software, Inc. - Common Stock|S|N|D|100|N|N
 SMST|Defiance Daily Target 2x Short MSTR ETF|G|N|N|100|Y|N
 SMTC|Semtech Corporation - Common Stock|Q|N|N|100|N|N
 SMTI|Sanara MedTech Inc. - Common Stock|S|N|N|100|N|N
@@ -4070,7 +4075,7 @@ STAF|Staffing 360 Solutions, Inc. - Common Stock|S|N|D|100|N|N
 STBA|S&T Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 STBX|Starbox Group Holdings Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 STCN|Steel Connect, Inc. - Common Stock|S|N|N|100|N|N
-STEC|Santech Holdings Limited - American Depositary Shares|G|N|H|100|N|N
+STEC|Santech Holdings Limited - American Depositary Shares|S|N|H|100|N|N
 STEP|StepStone Group Inc. - Class A Common Stock|Q|N|N|100|N|N
 STFS|Star Fashion Culture Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
 STGW|Stagwell Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -4155,6 +4160,7 @@ TARK|Tradr 2X Long Innovation ETF|G|N|N|100|Y|N
 TARS|Tarsus Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 TASK|TaskUs, Inc. - Class A Common Stock|Q|N|N|100|N|N
 TATT|TAT Technologies Ltd. - Ordinary Shares|G|N|N|100|N|N
+TAVIU|Tavia Acquisition Corp. - Unit|G|N|N|100|N|N
 TAXE|Intermediate Municipal Income ETF|G|N|N|100|Y|N
 TAYD|Taylor Devices, Inc. - Common Stock|S|N|N|100|N|N
 TBBK|The Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4188,7 +4194,7 @@ TDIV|First Trust NASDAQ Technology Dividend Index Fund|G|N|N|100|Y|N
 TDSB|Cabana Target Beta ETF|G|N|N|100|Y|N
 TDSC|Cabana Target Drawdown 10 ETF|G|N|N|100|Y|N
 TDTH|Trident Digital Tech Holdings Ltd - American Depository Shares|S|N|N|100|N|N
-TDUP|ThredUp Inc. - Class A Common Stock|Q|N|D|100|N|N
+TDUP|ThredUp Inc. - Class A Common Stock|Q|N|N|100|N|N
 TEAM|Atlassian Corporation  - Class A Common Stock|Q|N|N|100|N|N
 TECH|Bio-Techne Corp - Common Stock|Q|N|N|100|N|N
 TECTP|Tectonic Financial, Inc. - 9.00% Fixed-to-Floating Rate Series B Non-Cumulative Perpetual Preferred Stock|S|N|N|100|N|N
@@ -4530,6 +4536,7 @@ VNET|VNET Group, Inc. - American Depositary Shares|Q|N|N|100|N|N
 VNOM|Viper Energy, Inc.  - Class A Common Stock|Q|N|N|100|N|N
 VNQI|Vanguard Global ex-U.S. Real Estate ETF|G|N|N|100|Y|N
 VOD|Vodafone Group Plc - American Depositary Shares each representing ten Ordinary Shares|Q|N|N|100|N|N
+VOLT|Tema Electrification ETF|G|N|N|100|Y|N
 VONE|Vanguard Russell 1000 ETF|G|N|N|100|Y|N
 VONG|Vanguard Russell 1000 Growth ETF|G|N|N|100|Y|N
 VONV|Vanguard Russell 1000 Value ETF|G|N|N|100|Y|N
@@ -4803,4 +4810,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1204202407:00|||||||
+File Creation Time: 1205202407:00|||||||
