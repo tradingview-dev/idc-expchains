@@ -46,7 +46,6 @@ SI_OTHER_GROUPS=(
   "six_nymex_globex_a_futures"
   "six_nymex_globex_b_futures"
   "six_nymex_globex_mini_futures"
-  "six_bovespa_futures"
   "six_istanbul_futures"
   )
 for GROUP in "${SI_OTHER_GROUPS[@]}"; do
