@@ -833,8 +833,8 @@ CEFA|Global X S&P Catholic Values Developed ex-U.S. ETF|G|N|N|100|Y|N
 CEG|Constellation Energy Corporation - Common Stock|Q|N|N|100|N|N
 CELC|Celcuity Inc. - Common Stock|S|N|N|100|N|N
 CELH|Celsius Holdings, Inc. - Common Stock|S|N|N|100|N|N
-CELU|Celularity Inc. - Class A Common Stock|S|N|E|100|N|N
-CELUW|Celularity Inc. - Warrant|S|N|E|100|N|N
+CELU|Celularity Inc. - Class A Common Stock|S|N|N|100|N|N
+CELUW|Celularity Inc. - Warrant|S|N|N|100|N|N
 CELZ|Creative Medical Technology Holdings, Inc. - Common Stock|S|N|N|100|N|N
 CENN|Cenntro Inc. - Common Stock|S|N|N|100|N|N
 CENT|Central Garden & Pet Company - Common Stock|Q|N|N|100|N|N
@@ -1191,7 +1191,7 @@ DERM|Journey Medical Corporation - Common Stock|S|N|N|100|N|N
 DEVS|DevvStream Corp. - Common Stock|S|N|N|100|N|N
 DFGP|Dimensional Global Core Plus Fixed Income ETF|G|N|N|100|Y|N
 DFGX|Dimensional Global ex US Core Fixed Income ETF|G|N|N|100|Y|N
-DFLI|Dragonfly Energy Holdings Corp - Common Stock|S|N|D|100|N|N
+DFLI|Dragonfly Energy Holdings Corp - Common Stock|S|N|N|100|N|N
 DFLIW|Dragonfly Energy Holdings Corp - Warrant|S|N|N|100|N|N
 DGCB|Dimensional Global Credit ETF|G|N|N|100|Y|N
 DGHI|Digihost Technology Inc. - Common Subordinate Voting Shares|S|N|N|100|N|N
@@ -1298,7 +1298,9 @@ DYCQU|DT Cloud Acquisition Corporation - Unit|G|N|N|100|N|N
 DYFI|IDX Dynamic Fixed Income ETF|G|N|N|100|Y|N
 DYN|Dyne Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 DYNI|IDX Dynamic Innovation ETF|G|N|N|100|Y|N
+DYNX|Dynamix Corporation - Class A Ordinary Share|G|N|N|100|N|N
 DYNXU|Dynamix Corporation - Unit|G|N|N|100|N|N
+DYNXW|Dynamix Corporation - Warrant|G|N|N|100|N|N
 DYTA|SGI Dynamic Tactical ETF|G|N|N|100|Y|N
 EA|Electronic Arts Inc. - Common Stock|Q|N|N|100|N|N
 EAST|Eastside Distilling, Inc. - Common Stock|S|N|D|100|N|N
@@ -2413,7 +2415,7 @@ KNDI|Kandi Technologies Group, Inc. - Ordinary Shares|Q|N|N|100|N|N
 KNGZ|First Trust S&P 500 Diversified Dividend Aristocrats ETF|G|N|N|100|Y|N
 KNSA|Kiniksa Pharmaceuticals, Ltd. - Class A Ordinary Shares|Q|N|N|100|N|N
 KOD|Kodiak Sciences Inc - Common Stock|G|N|N|100|N|N
-KOPN|Kopin Corporation - Common Stock|S|N|D|100|N|N
+KOPN|Kopin Corporation - Common Stock|S|N|N|100|N|N
 KOSS|Koss Corporation - Common Stock|S|N|N|100|N|N
 KPLT|Katapult Holdings, Inc. - Common Stock|G|N|N|100|N|N
 KPLTW|Katapult Holdings, Inc. - Warrant|G|N|N|100|N|N
@@ -2838,9 +2840,9 @@ MSFL|GraniteShares 2x Long MSFT Daily ETF|G|N|N|100|Y|N
 MSFT|Microsoft Corporation - Common Stock|Q|N|N|100|N|N
 MSFU|Direxion Daily MSFT Bull 2X Shares|G|N|N|100|Y|N
 MSGM|Motorsport Games Inc. - Class A Common Stock|S|N|D|100|N|N
-MSPR|MSP Recovery, Inc. - Class A Common Stock|G|N|N|100|N|N
-MSPRW|MSP Recovery, Inc. - Warrant|G|N|N|100|N|N
-MSPRZ|MSP Recovery, Inc. - Warrant|G|N|N|100|N|N
+MSPR|MSP Recovery, Inc. - Class A Common Stock|S|N|N|100|N|N
+MSPRW|MSP Recovery, Inc. - Warrant|S|N|N|100|N|N
+MSPRZ|MSP Recovery, Inc. - Warrant|S|N|N|100|N|N
 MSS|Maison Solutions Inc. - Class A Common Stock|S|N|N|100|N|N
 MSSA|Metal Sky Star Acquisition Corporation - Ordinary shares|G|N|D|100|N|N
 MSSAR|Metal Sky Star Acquisition Corporation - Right|G|N|D|100|N|N
@@ -2933,6 +2935,8 @@ NDRA|ENDRA Life Sciences Inc. - Common Stock|S|N|N|100|N|N
 NDSN|Nordson Corporation - Common Stock|Q|N|N|100|N|N
 NECB|NorthEast Community Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 NEGG|Newegg Commerce, Inc. - Common Shares|S|N|D|100|N|N
+NEHC|New Era Helium Inc - Common Stock|G|N|N|100|N|N
+NEHCW|New Era Helium Inc - Warrants|S|N|N|100|N|N
 NEO|NeoGenomics, Inc. - Common Stock|S|N|N|100|N|N
 NEOG|Neogen Corporation - Common Stock|Q|N|N|100|N|N
 NEON|Neonode Inc. - Common Stock|S|N|N|100|N|N
@@ -3521,7 +3525,7 @@ QHDG|Innovator Hedged Nasdaq-100 ETF|G|N|N|100|Y|N
 QIPT|Quipt Home Medical Corp. - Common Shares|S|N|N|100|N|N
 QLGN|Qualigen Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 QLYS|Qualys, Inc. - Common Stock|Q|N|N|100|N|N
-QMCO|Quantum Corporation - Common Stock|G|N|D|100|N|N
+QMCO|Quantum Corporation - Common Stock|G|N|N|100|N|N
 QMID|WisdomTree U.S. MidCap Quality Growth Fund|G|N|N|100|Y|N
 QMMM|QMMM Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 QMOM|Alpha Architect U.S. Quantitative Momentum ETF|G|N|N|100|Y|N
@@ -4798,4 +4802,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1209202403:03|||||||
+File Creation Time: 1210202407:00|||||||
