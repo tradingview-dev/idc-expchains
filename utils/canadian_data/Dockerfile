@@ -5,7 +5,7 @@ RUN apt-get update && \
 
 RUN pip3 install bs4 requests
 
-COPY canadian_data.py /canadian_data/
+COPY update_canadian_data.py /canadian_data/
 COPY update_canadian_data.sh /canadian_data/
 
 WORKDIR /canadian_data
