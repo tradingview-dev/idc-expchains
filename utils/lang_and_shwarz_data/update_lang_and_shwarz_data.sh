@@ -8,17 +8,20 @@ EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
 
 if [ "$1" == "" ]; then
 	echo "Please specify expchains branch"
-	exit -1
+	exit 1
 fi
 
 EXPCHAINS_BRANCH="$1"
 EXCHANGE="$2"
+FORCE="$3"
 
 if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
 	echo "Upload files to staging"
 else
 	echo "WARNING: Files will be uploaded to production storage"
 fi
+
+python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "$EXCHANGE"
 
 EXP_CHAINS_DIR="./idc-expchains"
 
@@ -36,8 +39,6 @@ fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
-python3 "$SCRIPTPATH/lang_and_shwarz_data.py" -exchange "$EXCHANGE"
-
 if [[ "$EXCHANGE" == "x" ]]; then
   FILE="LSX.csv"
 else
@@ -46,11 +47,15 @@ fi
 
 FILE_PATH="${SCRIPTPATH}/${FILE}"
 
-FILE_SIZE=$(stat --printf '%s' "${FILE}")
+FILE_LINES=$(wc -l < "${FILE}")
+PREV_FILE_LINES=$(wc -l < "${EXP_CHAINS_DIR}/dictionaries/${FILE}")
+LINES_DELTA=$((FILE_LINES-PREV_FILE_LINES))
 
-if [ "$FILE_SIZE" -lt "1000" ]; then
-    echo "ERROR: One or both resulting files are too small"
+if [ "$FORCE" != "force" ]; then
+  if [ "$LINES_DELTA" -lt "-500" ]; then
+    echo "ERROR: lines delta between new and old versions of ${FILE} is ${LINES_DELTA}, too many lines removed"
     exit 1
+  fi
 fi
 
 mv "${FILE_PATH}" "${EXP_CHAINS_DIR}/dictionaries/"
