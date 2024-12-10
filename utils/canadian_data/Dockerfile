@@ -10,5 +10,5 @@ COPY update_canadian_data.sh /canadian_data/
 
 WORKDIR /canadian_data
 
-RUN chmod +x /canadian_data/canadian_data.py && \
+RUN chmod +x /canadian_data/update_canadian_data.py && \
     chmod +x /canadian_data/update_canadian_data.sh
