@@ -51,8 +51,10 @@ FILE_LINES=$(wc -l < "${FILE}")
 PREV_FILE_LINES=$(wc -l < "${EXP_CHAINS_DIR}/dictionaries/${FILE}")
 LINES_DELTA=$((FILE_LINES-PREV_FILE_LINES))
 
-if [ "$FORCE" != "force" ]; then
-  if [ "$LINES_DELTA" -lt "-500" ]; then
+if [ "$LINES_DELTA" -lt "-500" ]; then
+  if [ "$FORCE" == "force" ]; then
+    echo "ERROR: lines delta between new and old versions of ${FILE} is ${LINES_DELTA}, too many lines removed, but update forced"
+  else
     echo "ERROR: lines delta between new and old versions of ${FILE} is ${LINES_DELTA}, too many lines removed"
     exit 1
   fi
