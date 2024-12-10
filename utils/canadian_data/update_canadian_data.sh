@@ -36,7 +36,7 @@ fi
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
-python3 "$SCRIPTPATH/canadian_data.py"
+python3 "$SCRIPTPATH/update_canadian_data.py"
 
 
 FILE="canadian_descriptions.json"
