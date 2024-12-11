@@ -1,5 +1,6 @@
 #!/bin/bash
-set -ex
+set -e
+set +x
 
 # The color codes are left just for a reminder
 BOLD_RED='\033[1;31m'
