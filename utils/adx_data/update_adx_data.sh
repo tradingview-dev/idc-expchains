@@ -73,6 +73,12 @@ REQUEST_HEADERS=( -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.
 curl -s "$REQUEST_URL" "${REQUEST_HEADERS[@]}" --data-raw "Status=L&Boad=REGULAR&Del=0" | jq . -S > "${EXP_CHAINS_DIR}/dictionaries/adx_data_regular.json"
 curl -s "$REQUEST_URL" "${REQUEST_HEADERS[@]}" --data-raw "Status=L&Boad=FUND&Del=0" | jq . -S > "${EXP_CHAINS_DIR}/dictionaries/adx_data_fund.json"
 
+if [ ! -s "${EXP_CHAINS_DIR}/dictionaries/adx_data_regular.json" ] && [ ! -s "${EXP_CHAINS_DIR}/dictionaries/adx_data_fund.json" ]; then
+    rm -f "${EXP_CHAINS_DIR}/dictionaries/adx_data_regular.json"
+    rm -f "${EXP_CHAINS_DIR}/dictionaries/adx_data_fund.json"
+    exit 1
+fi
+
 pushd "$EXP_CHAINS_DIR"
 git add "dictionaries/adx_data_regular.json"
 git add "dictionaries/adx_data_fund.json"
