@@ -82,7 +82,7 @@ if [ "$(git status -s)" = "" ]; then
 else
     log_info "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit saudi data"
+    git commit -m "Autocommit ADX descriptions"
     git push origin "$EXPCHAINS_BRANCH"
 fi
 popd
