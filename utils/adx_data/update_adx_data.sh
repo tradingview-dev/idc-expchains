@@ -77,6 +77,7 @@ curl -s "$REQUEST_URL" "${REQUEST_HEADERS[@]}" --data-raw "Status=L&Boad=FUND&De
 if [ ! -s "${EXP_CHAINS_DIR}/dictionaries/adx_data_regular.json" ] && [ ! -s "${EXP_CHAINS_DIR}/dictionaries/adx_data_fund.json" ]; then
     rm -f "${EXP_CHAINS_DIR}/dictionaries/adx_data_regular.json"
     rm -f "${EXP_CHAINS_DIR}/dictionaries/adx_data_fund.json"
+    log_error "Failed to request data!"
     exit 1
 fi
 
