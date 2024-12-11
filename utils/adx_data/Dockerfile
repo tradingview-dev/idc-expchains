@@ -1,9 +1,11 @@
 FROM ubuntu:24.04
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends git openssh-client curl jq
+RUN apt update && \
+    apt install -y --no-install-recommends git openssh-client curl ca-certificates jq && \
+    apt clean && \
+    rm -rf /var/lib/apt/lists/
 
-ARG PATH_TO_SCRIPT="/expchains"
+ARG PATH_TO_SCRIPT="/var/tmp/adx_data"
 
 COPY update_adx_data.sh "${PATH_TO_SCRIPT}/"
 
