@@ -1,6 +1,5 @@
 #!/bin/bash
-set -e
-set +x
+set -ex
 
 # The color codes are left just for a reminder
 BOLD_RED='\033[1;31m'
@@ -71,6 +70,7 @@ REQUEST_HEADERS=( -H "User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.
                -H "Pragma: no-cache" \
                -H "Cache-Control: no-cache" )
 
+curl -s "$REQUEST_URL" "${REQUEST_HEADERS[@]}" --data-raw "Status=L&Boad=REGULAR&Del=0"
 curl -s "$REQUEST_URL" "${REQUEST_HEADERS[@]}" --data-raw "Status=L&Boad=REGULAR&Del=0" | jq . -S > "${EXP_CHAINS_DIR}/dictionaries/adx_data_regular.json"
 curl -s "$REQUEST_URL" "${REQUEST_HEADERS[@]}" --data-raw "Status=L&Boad=FUND&Del=0" | jq . -S > "${EXP_CHAINS_DIR}/dictionaries/adx_data_fund.json"
 
