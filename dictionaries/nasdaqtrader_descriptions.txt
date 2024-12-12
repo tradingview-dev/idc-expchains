@@ -131,8 +131,8 @@ AIEV|Thunder Power Holdings, Inc. - Common Stock|G|N|D|100|N|N
 AIFF|Firefly Neuroscience, Inc.  - Common Stock|S|N|N|100|N|N
 AIFU|AIX Inc. - American Depositary Shares|Q|N|N|100|N|N
 AIHS|Senmiao Technology Limited - Common Stock|S|N|N|100|N|N
-AILE|iLearningEngines, Inc. - Common Stock|S|N|N|100|N|N
-AILEW|iLearningEngines, Inc. - Warrant|S|N|N|100|N|N
+AILE|iLearningEngines, Inc. - Common Stock|S|N|E|100|N|N
+AILEW|iLearningEngines, Inc. - Warrant|S|N|E|100|N|N
 AIMAU|Aimfinity Investment Corp. I - Unit|G|N|N|100|N|N
 AIMAW|Aimfinity Investment Corp. I - Warrant|G|N|N|100|N|N
 AIMBU|Aimfinity Investment Corp. I - Subunit|G|N|N|100|N|N
@@ -364,6 +364,7 @@ ATLC|Atlanticus Holdings Corporation - Common Stock|Q|N|N|100|N|N
 ATLCL|Atlanticus Holdings Corporation - 6.125% Senior Notes due 2026|G|N|N|100|N|N
 ATLCP|Atlanticus Holdings Corporation - 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share|Q|N|N|100|N|N
 ATLCZ|Atlanticus Holdings Corporation - 9.25% Senior Notes due 2029|G|N|N|100|N|N
+ATLN|Atlantic International Corp. - Common Stock|G|N|N|100|N|N
 ATLO|Ames National Corporation - Common Stock|S|N|N|100|N|N
 ATLX|Atlas Lithium Corporation - Common Stock|S|N|N|100|N|N
 ATMC|AlphaTime Acquisition Corp - Ordinary Shares|G|N|D|100|N|N
@@ -627,11 +628,13 @@ BREA|Brera Holdings PLC - Class B Ordinary Shares|S|N|D|100|N|N
 BRFH|Barfresh Food Group Inc. - Common Stock|S|N|N|100|N|N
 BRHY|iShares High Yield Active ETF|G|N|N|100|Y|N
 BRID|Bridgford Foods Corporation - Common Stock|G|N|N|100|N|N
+BRKD|Direxion Daily BRKB Bear 1X Shares|G|N|N|100|Y|N
 BRKH|BurTech Acquisition Corp. - Class A Common Stock|G|N|N|100|N|N
 BRKHU|BurTech Acquisition Corp. - Unit|G|N|N|100|N|N
 BRKHW|BurTech Acquisition Corp. - Warrants|G|N|N|100|N|N
 BRKL|Brookline Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 BRKR|Bruker Corporation - Common Stock|Q|N|N|100|N|N
+BRKU|Direxion Daily BRKB Bull 2X Shares|G|N|N|100|Y|N
 BRLS|Borealis Foods Inc. - Class A Common Shares|S|N|N|100|N|N
 BRLSW|Borealis Foods Inc. - Warrant|S|N|N|100|N|N
 BRLT|Brilliant Earth Group, Inc. - Class A Common Stock|G|N|N|100|N|N
@@ -969,6 +972,8 @@ CMPS|COMPASS Pathways Plc - American Depository Shares|Q|N|N|100|N|N
 CMPX|Compass Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 CMRX|Chimerix, Inc. - Common Stock|G|N|D|100|N|N
 CMTL|Comtech Telecommunications Corp. - Common Stock|Q|N|N|100|N|N
+CNCK|Coincheck Group N.V. - Ordinary Shares|G|N|N|100|N|N
+CNCKW|Coincheck Group N.V. - Warrants|S|N|N|100|N|N
 CNCR|Range Cancer Therapeutics ETF|G|N|N|100|Y|N
 CNDT|Conduent Incorporated - Common Stock|Q|N|N|100|N|N
 CNET|ZW Data Action Technologies Inc. - Common Stock|S|N|N|100|N|N
@@ -1415,8 +1420,8 @@ ESGRP|Enstar Group Limited - Depositary Shares Each Representing 1/1000th of an 
 ESGU|iShares ESG Aware MSCI USA ETF|G|N|N|100|Y|N
 ESHA|ESH Acquisition Corp. - Class A Common Stock|G|N|N|100|N|N
 ESHAR|ESH Acquisition Corp. - Right|G|N|N|100|N|N
-ESLA|Estrella Immunopharma, Inc. - Common Stock|S|N|D|100|N|N
-ESLAW|Estrella Immunopharma, Inc. - Warrant|S|N|D|100|N|N
+ESLA|Estrella Immunopharma, Inc. - Common Stock|S|N|N|100|N|N
+ESLAW|Estrella Immunopharma, Inc. - Warrant|S|N|N|100|N|N
 ESLT|Elbit Systems Ltd. - Ordinary Shares|Q|N|N|100|N|N
 ESMV|iShares ESG MSCI USA Min Vol Factor ETF|G|N|N|100|Y|N
 ESN|Essential 40 Stock ETF|G|N|N|100|Y|N
@@ -1839,7 +1844,7 @@ GLXG|Galaxy Payroll Group Limited - Ordinary Shares|S|N|N|100|N|N
 GLYC|GlycoMimetics, Inc. - Common Stock|G|N|D|100|N|N
 GMAB|Genmab A/S - American Depositary Shares|Q|N|N|100|N|N
 GMGI|Golden Matrix Group, Inc. - Common Stock|S|N|N|100|N|N
-GMM|Global Mofy AI Limited  - Class A Ordinary Shares|S|N|D|100|N|N
+GMM|Global Mofy AI Limited  - Class A Ordinary Shares|S|N|N|100|N|N
 GNFT|GENFIT S.A. - American Depositary Shares|Q|N|N|100|N|N
 GNLN|Greenlane Holdings, Inc. - Class A Common Stock|S|N|D|100|N|N
 GNLX|Genelux Corporation - Common Stock|S|N|N|100|N|N
@@ -1854,7 +1859,7 @@ GOCO|GoHealth, Inc. - Class A Common Stock|S|N|N|100|N|N
 GODN|Golden Star Acquisition Corporation - Ordinary Shares|G|N|N|100|N|N
 GODNR|Golden Star Acquisition Corporation - Rights|G|N|N|100|N|N
 GODNU|Golden Star Acquisition Corporation - Unit|G|N|N|100|N|N
-GOEV|Canoo Inc.  - Class A Common Stock|S|N|N|100|N|N
+GOEV|Canoo Inc.  - Class A Common Stock|S|N|D|100|N|N
 GOEVW|Canoo Inc.  - Warrant|S|N|N|100|N|N
 GOGL|Golden Ocean Group Limited - Common Stock|Q|N|N|100|N|N
 GOGO|Gogo Inc. - Common Stock|Q|N|N|100|N|N
@@ -2489,7 +2494,7 @@ LDTCW|LeddarTech Holdings Inc. - Warrants|G|N|D|100|N|N
 LDWY|Lendway, Inc. - Common Stock|S|N|N|100|N|N
 LE|Lands' End, Inc. - Common Stock|S|N|N|100|N|N
 LECO|Lincoln Electric Holdings, Inc. - Common Shares|Q|N|N|100|N|N
-LEDS|SemiLEDS Corporation - Common Stock|S|N|N|100|N|N
+LEDS|SemiLEDS Corporation - Common Stock|S|N|D|100|N|N
 LEE|Lee Enterprises, Incorporated - Common Stock|Q|N|N|100|N|N
 LEGH|Legacy Housing Corporation - Common Stock|Q|N|D|100|N|N
 LEGN|Legend Biotech Corporation - American Depositary Shares|Q|N|N|100|N|N
@@ -3318,7 +3323,7 @@ PFI|Invesco Dorsey Wright Financial Momentum ETF|G|N|N|100|Y|N
 PFIE|Profire Energy, Inc. - Common Stock|S|N|N|100|N|N
 PFIS|Peoples Financial Services Corp.  - Common Stock|Q|N|N|100|N|N
 PFM|Invesco Dividend Achievers ETF|G|N|N|100|Y|N
-PFMT|Performant Healthcare Inc. - Common Stock|Q|N|N|100|N|N
+PFMT|Performant Healthcare, Inc. - Common Stock|Q|N|N|100|N|N
 PFX|PhenixFIN Corporation  - Common Stock|G|N|N|100|N|N
 PFXNZ|PhenixFIN Corporation  - 5.25% Notes due 2028|G|N|N|100|N|N
 PGC|Peapack-Gladstone Financial Corporation - Common Stock|Q|N|N|100|N|N
@@ -3364,8 +3369,10 @@ PLPC|Preformed Line Products Company - Common Stock|Q|N|N|100|N|N
 PLRX|Pliant Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 PLRZ|Polyrizon Ltd. - Ordinary Shares|S|N|N|100|N|N
 PLSE|Pulse Biosciences, Inc - Common Stock|S|N|N|100|N|N
+PLTD|Direxion Daily PLTR Bear 1X Shares|G|N|N|100|Y|N
 PLTK|Playtika Holding Corp. - Common Stock|Q|N|N|100|N|N
 PLTR|Palantir Technologies Inc. - Class A Common Stock|Q|N|N|100|N|N
+PLTU|Direxion Daily PLTR Bull 2X Shares|G|N|N|100|Y|N
 PLUG|Plug Power, Inc. - Common Stock|S|N|N|100|N|N
 PLUR|Pluri Inc. - Common Stock|S|N|D|100|N|N
 PLUS|ePlus inc. - Common Stock|Q|N|N|100|N|N
@@ -4204,7 +4211,7 @@ TERN|Terns Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 TETE|Technology & Telecommunication Acquisition Corporation - Class A Ordinary Shares|G|N|N|100|N|N
 TETEU|Technology & Telecommunication Acquisition Corporation - Unit|G|N|N|100|N|N
 TETEW|Technology & Telecommunication Acquisition Corporation - Warrant|G|N|N|100|N|N
-TFFP|TFF Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
+TFFP|TFF Pharmaceuticals, Inc. - Common Stock|S|N|Q|100|N|N
 TFIN|Triumph Financial, Inc. - Common Stock|Q|N|N|100|N|N
 TFINP|Triumph Financial, Inc. - Depositary Shares, Each Representing a 1/40th Interest in a Share of Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock|Q|N|N|100|N|N
 TFSL|TFS Financial Corporation - Common Stock|Q|N|N|100|N|N
@@ -4284,7 +4291,7 @@ TRMB|Trimble Inc. - Common Stock|Q|N|E|100|N|N
 TRMD|TORM plc - Class A Common Stock|Q|N|N|100|N|N
 TRMK|Trustmark Corporation - Common Stock|Q|N|N|100|N|N
 TRML|Tourmaline Bio, Inc.  - Common Stock|Q|N|N|100|N|N
-TRNR|Interactive Strength Inc. - Common Stock|S|N|D|100|N|N
+TRNR|Interactive Strength Inc. - Common Stock|S|N|N|100|N|N
 TRNS|Transcat, Inc. - Common Stock|G|N|N|100|N|N
 TROO|TROOPS, Inc.  - Ordinary Shares|S|N|N|100|N|N
 TROW|T. Rowe Price Group, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4633,7 +4640,7 @@ WIMI|WiMi Hologram Cloud Inc. - American Depositary Share|G|N|D|100|N|N
 WINA|Winmark Corporation - Common Stock|G|N|N|100|N|N
 WINC|Western Asset Short Duration Income ETF|G|N|N|100|Y|N
 WING|Wingstop Inc. - Common Stock|Q|N|N|100|N|N
-WINT|Windtree Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
+WINT|Windtree Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 WINV|WinVest Acquisition Corp. - Common Stock|S|N|D|100|N|N
 WINVR|WinVest Acquisition Corp. - Right|S|N|D|100|N|N
 WINVU|WinVest Acquisition Corp. - Unit|S|N|D|100|N|N
@@ -4800,4 +4807,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1211202407:00|||||||
+File Creation Time: 1212202403:03|||||||
