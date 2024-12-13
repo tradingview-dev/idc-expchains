@@ -56,9 +56,9 @@ mv "${FILE_PATH1}" "${EXP_CHAINS_DIR}/dictionaries/"
 
 FILE2="taipei_local_descriptions.json"
 
-FILE_PATH1="${SCRIPTPATH}/${FILE2}"
+FILE_PATH2="${SCRIPTPATH}/${FILE2}"
 
-FILE_SIZE1=$(stat --printf '%s' "${FILE2}")
+FILE_SIZE2=$(stat --printf '%s' "${FILE2}")
 
 #if [ "$FILE_SIZE2" -lt "1000" ]; then
 #    echo "ERROR: One or both resulting files are too small"
