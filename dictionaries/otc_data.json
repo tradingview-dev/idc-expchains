@@ -9518,6 +9518,13 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "Asetek A S",
+    "isCaveatEmptor": false,
+    "symbol": "ASKRF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "ASL Marine Holdings Ltd.",
     "isCaveatEmptor": false,
     "symbol": "ASLHF",
@@ -13984,8 +13991,8 @@
     "industry": "Radio and TV communications equipment",
     "isCaveatEmptor": false,
     "symbol": "BDRL",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Bombardier Inc.",
@@ -22139,8 +22146,8 @@
     "industry": "Bank holding companies",
     "isCaveatEmptor": false,
     "symbol": "CCFC",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Muncy Columbia Financial Corporation",
@@ -23700,8 +23707,8 @@
     "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
     "symbol": "CGAC",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "China Resources Gas Group Ltd",
@@ -37104,8 +37111,8 @@
     "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
     "symbol": "DTGI",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Defense Technologies International Corp.",
@@ -47342,6 +47349,7 @@
   },
   {
     "companyName": "FREDONIA MNG INC.",
+    "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "FREDF",
     "tierCode": "PC",
@@ -49740,8 +49748,8 @@
     "industry": "Services-Misc Health & Allied Services, NEC",
     "isCaveatEmptor": false,
     "symbol": "GBNHF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Globe International Ltd.",
@@ -53393,7 +53401,7 @@
   {
     "companyName": "Aurum Megametals Corp.",
     "country": "United States",
-    "industry": "Gold and Silver Ores",
+    "industry": "Holding companies, misc",
     "isCaveatEmptor": false,
     "symbol": "GPGCD",
     "tierCode": "PC",
@@ -59335,6 +59343,14 @@
     "companyName": "Hon Kwok Land Investment Co Ltd.",
     "isCaveatEmptor": false,
     "symbol": "HONWF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "HEMOGENYX PHARMACEUTICALS PLC.",
+    "country": "United Kingdom",
+    "isCaveatEmptor": false,
+    "symbol": "HOPHD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -66347,8 +66363,8 @@
     "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
     "symbol": "ITFY",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "INTEGRAL DIAGNOSTICS LTD",
@@ -75857,6 +75873,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Lode Gold Resources Inc.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "LODFF",
+    "tierCode": "QB",
+    "tierName": "OTCQB"
+  },
+  {
     "companyName": "LOGAN ENERGY CORP",
     "country": "Canada",
     "isCaveatEmptor": false,
@@ -80334,7 +80358,7 @@
   {
     "companyName": "MAG MAGNA CORP.",
     "country": "United States",
-    "industry": "Medicinal and botanicals",
+    "industry": "Agricultural Services",
     "isCaveatEmptor": false,
     "symbol": "MGNC",
     "tierCode": "PC",
@@ -92271,6 +92295,7 @@
   {
     "companyName": "Osprey BNB Chain Trust",
     "country": "United States",
+    "industry": "Commodity contracts brokers and dealers",
     "isCaveatEmptor": false,
     "symbol": "OBNB",
     "tierCode": "QX",
@@ -96112,7 +96137,7 @@
   {
     "companyName": "Pan American Energy Corp.",
     "country": "Canada",
-    "industry": "Gold and Silver Ores",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
     "isCaveatEmptor": false,
     "symbol": "PAANF",
     "tierCode": "QB",
@@ -99539,6 +99564,15 @@
     "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "PMCUF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Psychemedics Corp.",
+    "country": "United States",
+    "industry": "Medical laboratories",
+    "isCaveatEmptor": false,
+    "symbol": "PMDI",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -106414,8 +106448,8 @@
     "industry": "Crude petroleum and natural gas",
     "isCaveatEmptor": false,
     "symbol": "RENI",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Renovare Environmental, Inc.",
@@ -121660,7 +121694,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "SS Innovations International Inc",
+    "companyName": "SS Innovations International, Inc.",
     "country": "United States",
     "industry": "Surgical and medical instruments",
     "isCaveatEmptor": false,
@@ -123086,7 +123120,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Radio and TV communications equipment",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -126776,8 +126810,8 @@
     "industry": "Data processing and preparation",
     "isCaveatEmptor": false,
     "symbol": "TGNT",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Green Organic Dutchman Holdings Ltd.",
@@ -128784,8 +128818,8 @@
     "industry": "Custom computer programming services",
     "isCaveatEmptor": false,
     "symbol": "TMMI",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "TINGO INC.",
@@ -130194,6 +130228,7 @@
   },
   {
     "companyName": "TERA PROBE INC.",
+    "country": "Japan",
     "isCaveatEmptor": false,
     "symbol": "TPRBF",
     "tierCode": "PL",
@@ -131915,8 +131950,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "TTAXF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Tata Consumer Products Ltd.",
@@ -134700,6 +134735,14 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "USLIF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "UNICO SILVER LTD.",
+    "country": "Australia",
+    "isCaveatEmptor": false,
+    "symbol": "USLRF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
