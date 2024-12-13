@@ -59,7 +59,6 @@ class LangAndSchwarzParser:
 
     def si_to_csv(self, exchange: str):
         """
-        :param symbols: final list with symbols from exchange []dict{}
         :param exchange: Site identifier
         :return:
         """
@@ -67,14 +66,15 @@ class LangAndSchwarzParser:
             file_name = "LSX"
         else:
             file_name = "LS"
+        sorted_symbols = sorted(self.symbols, key=lambda v: None if v is None else v["tv-symbol"])
         with open(f"{file_name}.csv", "w") as file:
             file.write("tv-symbol;isin;description\n")
-            for stock in self.symbols:
+            for stock in sorted_symbols:
                 if stock is None:
                     continue
                 file.write(f'{stock["tv-symbol"]};{stock["isin"]};{stock["description"]}\n')
 
-    def request_with_retries(self, url:str , exchange: str, func):
+    def request_with_retries(self, url: str, exchange: str, func):
         """
         :param url: url for request
         :param exchange: Site identifier
@@ -121,7 +121,7 @@ class LangAndSchwarzParser:
                 continue
         return new_string
 
-    def si_to_tv_dict(self, si_symbol, _)-> dict:
+    def si_to_tv_dict(self, si_symbol, _) -> dict:
         """
         :param si_symbol: response to request data
         :return: dict with tv-symbol
@@ -178,7 +178,7 @@ class LangAndSchwarzParser:
         return self.request_with_retries(url, exchange, self.get_last_page)
 
     @staticmethod
-    def get_last_page(resp, _)-> str:
+    def get_last_page(resp, _) -> str:
         """
         :param resp: response to request
         :return: count pages symbols
@@ -193,8 +193,7 @@ class LangAndSchwarzParser:
                 return "1"
         return max_offset
 
-
-    def parse_symbols(self, exchange: str)-> None:
+    def parse_symbols(self, exchange: str) -> None:
         """
         :param exchange: exchange identifier
         """
@@ -214,9 +213,11 @@ class LangAndSchwarzParser:
                 symbol = self.retries_symbols.popleft()
                 self.request_with_retries(symbol, "", self.si_to_tv_dict)
 
+
 def main(args):
     symbols_parser = LangAndSchwarzParser()
     symbols_parser.parse_symbols(args.exchange)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
