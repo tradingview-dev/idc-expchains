@@ -116,7 +116,7 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
         }
     }
     board_securities_url_pattern: str = "https://iss.moex.com/iss/engines/{type}/markets/{subtype}/boards/{board}/securities.json"
-    boards_securities = {"data": {}}
+    boards_securities = {}
     num_of_names = count_names(boards)
     curr_req_num = 1
     for instr_t, instr_subtypes in boards.items():
@@ -135,9 +135,10 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
                     raise e
 
                 securities = resp['securities']
-                boards_securities['metadata'] = securities['metadata']
-                boards_securities['columns'] = securities['columns']
-                boards_securities['data'][board] = securities['data']
+                boards_securities[board] = {
+                    'columns': securities['columns'],
+                    'data': securities['data']
+                }
 
                 curr_req_num += 1
 
