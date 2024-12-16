@@ -261,15 +261,16 @@ def main(logger: ConsoleOutput, branch: str | None):
         return 1
 
     rates_base_url = "http://iss.moex.com/iss/apps/infogrid/stock/rates.json"
-    rates_url_params = {
-        "_": 1607005374424,
-        "lang": "ru",
-        "iss.meta": "off",
-        "sort_order": "asc",
-        "sort_column": "SECID",
-        "morning": 1
+    rates_url_params = {"_": 1607005374424, "lang": "ru", "iss.meta": "off", "sort_order": "asc", "sort_column": "SECID", 'morning': 1}
+    morning_moex_stock_rates = paginated_request(logger, rates_base_url, headers, rates_url_params, 0, 100)
+    rates_url_params['evening'] = 1
+    evening_moex_stock_rates = paginated_request(logger, rates_base_url, headers, rates_url_params, 0, 100)
+    moex_stock_rates = {
+        "rates": {
+            "morning": morning_moex_stock_rates['rates'],
+            "evening": evening_moex_stock_rates['rates']
+        }
     }
-    moex_stock_rates = paginated_request(logger, rates_base_url, headers, rates_url_params, 0, 100)
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["stock_rates"], moex_stock_rates)
     if not os.path.getsize(dictionaries_paths["stock_rates"]):
         logger.error("Requested data are empty")

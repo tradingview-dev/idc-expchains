@@ -1,9 +1,3 @@
-ARG PATH_TO_LIB="/var/tmp/idc-expchains/utils/lib"
-
-FROM alpine AS othersource
-ARG PATH_TO_LIB
-COPY lib "$PATH_TO_LIB"
-
 FROM ubuntu:24.04
 ARG PATH_TO_LIB
 
@@ -12,15 +6,15 @@ RUN apt update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
-ARG DST_PATH_TO_SCRIPT="/var/tmp/moex_data"
-ARG SRC_PATH_TO_SCRIPT="moex_data"
+ARG DST_SCRIPT_PATH="/var/tmp/moex_data"
+ARG SRC_SCRIPT_PATH="moex_data"
 ARG SCRIPT_NAME="update_moex_data.py"
 
-ARG DST_PATH_TO_LIB="/var/tmp/moex_data/utils/lib"
+ARG DST_LIB_PATH="/var/tmp/moex_data/utils/lib"
 
-COPY --from=othersource "$PATH_TO_LIB" "${DST_PATH_TO_LIB}/"
-COPY "${SRC_PATH_TO_SCRIPT}/${SCRIPT_NAME}" "${DST_PATH_TO_SCRIPT}/"
+COPY "lib" "${DST_LIB_PATH}/"
+COPY "${SRC_SCRIPT_PATH}/${SCRIPT_NAME}" "${DST_SCRIPT_PATH}/"
 
-WORKDIR "${DST_PATH_TO_SCRIPT}"
+WORKDIR "${DST_SCRIPT_PATH}"
 
-RUN chmod +x "${DST_PATH_TO_SCRIPT}/${SCRIPT_NAME}"
+RUN chmod +x "${DST_SCRIPT_PATH}/${SCRIPT_NAME}"
