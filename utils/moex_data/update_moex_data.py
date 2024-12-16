@@ -99,9 +99,6 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
         "otc": {
             "shares": {
                 "names": ["MTQR"]
-            },
-            "bonds": {
-                "names": ["TQCB"]
             }
         },
         "currency": {
