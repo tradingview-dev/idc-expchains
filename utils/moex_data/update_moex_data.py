@@ -65,7 +65,8 @@ def write_to_file(filename, content):
     with open(filename, 'w') as file:
         json.dump(content, file)
 
-def request_boards_securities(logger: ConsoleOutput):
+
+def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
 
     def count_names(data: dict):
         queue = deque([data])
@@ -127,10 +128,11 @@ def request_boards_securities(logger: ConsoleOutput):
                     req_data["lang"] = boards["lang"]
                 logger.info(f"[{curr_req_num}/{num_of_names}] Requesting {board} board securities... ", False)
                 try:
-                    resp = LoggedRequest[dict]().request(LoggedRequest.Methods.GET, req_url, None, req_data)
+                    resp = LoggedRequest[dict]().request(LoggedRequest.Methods.GET, req_url, headers, req_data)
                     logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
-                except RequestException | JSONDecodeError:
-                    return 1
+                except (RequestException, JSONDecodeError) as e:
+                    logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+                    raise e
 
                 securities = resp['securities']
                 boards_securities['metadata'] = securities['metadata']
@@ -141,7 +143,8 @@ def request_boards_securities(logger: ConsoleOutput):
 
     return boards_securities
 
-def paginated_request(logger: ConsoleOutput, base_url, params: dict, start: int, page_size: int):
+
+def paginated_request(logger: ConsoleOutput, base_url, headers: dict[str, str], params: dict, start: int, page_size: int):
     resp = {
         "rates": {
             "data": []
@@ -151,7 +154,7 @@ def paginated_request(logger: ConsoleOutput, base_url, params: dict, start: int,
     processed, total, counter = start, start, 1
     while processed <= total:
         logger.info(f"Requesting page {counter}/{'undefined' if start == total else total/page_size}... ", False)
-        n_resp, page_size, total = request_page(requester, base_url, params, processed, page_size)
+        n_resp, page_size, total = request_page(requester, base_url, headers, params, processed, page_size)
         logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
         processed += page_size
         counter += 1
@@ -160,16 +163,18 @@ def paginated_request(logger: ConsoleOutput, base_url, params: dict, start: int,
 
     return resp
 
-def request_page(requester: LoggedRequest, base_url: str, params: dict, start: int, page_size: int):
+
+def request_page(requester: LoggedRequest, base_url: str, headers: dict[str, str], params: dict, start: int, page_size: int):
     params['start'] = start
     params['page_size'] = page_size
-    response = requester.request(LoggedRequest.Methods.GET, base_url, None, params)
+    response = requester.request(LoggedRequest.Methods.GET, base_url, headers, params)
 
     cursor = {}
     for col, index in zip(response['rates.cursor']['columns'], range(len(response['rates.cursor']['data'][0]))):
         cursor[col] = response['rates.cursor']['data'][0][index]
 
     return response, int(cursor['PAGESIZE']), int(cursor['TOTAL'])
+
 
 def show_diff_content(logger: ConsoleOutput, index: IndexFile):
 
@@ -179,6 +184,7 @@ def show_diff_content(logger: ConsoleOutput, index: IndexFile):
     logger.weak_warn("Changes to be committed:")
     for change in diff:
         logger.weak_warn(f"{change.change_type}: {change.b_path}")
+
 
 def main(logger: ConsoleOutput, branch: str | None):
 
@@ -226,7 +232,13 @@ def main(logger: ConsoleOutput, branch: str | None):
         "stock_rates": f"{EXPCHAINS_DIR}/dictionaries/moex_stock_rates.json"
     }
 
-    boards_securities = request_boards_securities(logger)
+    headers = {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en,ru;q=0.7,en-US;q=0.3",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+    }
+
+    boards_securities = request_boards_securities(logger, headers)
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["boards_securities"], boards_securities)
     if not os.path.getsize(dictionaries_paths["boards_securities"]):
         logger.error("Requested data are empty")
@@ -236,7 +248,7 @@ def main(logger: ConsoleOutput, branch: str | None):
     index_boards_securities_url = "https://iss.moex.com/iss/engines/stock/markets/index/securities.json"
     logger.info(f"Requesting index boards securities... ", False)
     try:
-        index_boards_securities = LoggedRequest[dict]().request(LoggedRequest.Methods.GET, index_boards_securities_url, None, {"lang": "ru"})
+        index_boards_securities = LoggedRequest[dict]().request(LoggedRequest.Methods.GET, index_boards_securities_url, headers, {"lang": "ru"})
         logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
     except Exception as e:
         logger.error(e)
@@ -256,7 +268,7 @@ def main(logger: ConsoleOutput, branch: str | None):
         "sort_column": "SECID",
         "morning": 1
     }
-    moex_stock_rates = paginated_request(logger, rates_base_url, rates_url_params, 0, 100)
+    moex_stock_rates = paginated_request(logger, rates_base_url, headers, rates_url_params, 0, 100)
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["stock_rates"], moex_stock_rates)
     if not os.path.getsize(dictionaries_paths["stock_rates"]):
         logger.error("Requested data are empty")
@@ -272,6 +284,7 @@ def main(logger: ConsoleOutput, branch: str | None):
         repo.remotes.origin.push()
     else:
         logger.info(f"No changes in {branch}")
+
 
 if __name__ == "__main__":
     logger = ConsoleOutput(os.path.splitext(os.path.basename(__file__))[0])
