@@ -63,7 +63,7 @@ class LoggedRequest(Generic[T]):
 
 def write_to_file(filename, content):
     with open(filename, 'w') as file:
-        json.dump(content, file)
+        json.dump(content, file, ensure_ascii=False)
 
 
 def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
