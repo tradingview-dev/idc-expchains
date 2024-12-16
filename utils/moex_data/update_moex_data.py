@@ -266,10 +266,8 @@ def main(logger: ConsoleOutput, branch: str | None):
     rates_url_params['evening'] = 1
     evening_moex_stock_rates = paginated_request(logger, rates_base_url, headers, rates_url_params, 0, 100)
     moex_stock_rates = {
-        "rates": {
-            "morning": morning_moex_stock_rates['rates'],
-            "evening": evening_moex_stock_rates['rates']
-        }
+        "morning": morning_moex_stock_rates['rates'],
+        "evening": evening_moex_stock_rates['rates']
     }
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["stock_rates"], moex_stock_rates)
     if not os.path.getsize(dictionaries_paths["stock_rates"]):
