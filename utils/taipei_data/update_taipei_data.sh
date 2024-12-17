@@ -22,9 +22,6 @@ fi
 
 EXP_CHAINS_DIR="./idc-expchains"
 
-mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
-
-python3 "$SCRIPTPATH/update_taipei_data.py"
 
 if [ ! -d "$EXP_CHAINS_DIR" ]; then
     echo "Clone branch ${EXPCHAINS_BRANCH} from repo ${EXPCHAINS_REPO}"
@@ -38,6 +35,9 @@ else
     popd
 fi
 
+mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
+
+python3 "$SCRIPTPATH/update_taipei_data.py"
 
 
 FILE1="taipei_descriptions.json"
