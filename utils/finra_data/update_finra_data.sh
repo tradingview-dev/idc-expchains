@@ -6,13 +6,21 @@ SCRIPTPATH=`dirname $SCRIPT`
 
 EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
 
-EXP_CHAINS_DIR="./idc-expchains"
+if [ "$1" == "" ]; then
+	echo "Please specify expchains branch"
+	exit -1
+fi
+
+EXPCHAINS_BRANCH="$1"
+EXCHANGE="$2"
 
 if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
 	echo "Upload files to staging"
 else
 	echo "WARNING: Files will be uploaded to production storage"
 fi
+
+EXP_CHAINS_DIR="./idc-expchains"
 
 if [ ! -d "$EXP_CHAINS_DIR" ]; then
     echo "Clone branch ${EXPCHAINS_BRANCH} from repo ${EXPCHAINS_REPO}"
@@ -25,14 +33,6 @@ else
     git pull origin $EXPCHAINS_BRANCH
     popd
 fi
-
-if [ "$1" == "" ]; then
-	echo "Please specify expchains branch"
-	exit -1
-fi
-
-EXPCHAINS_BRANCH="$1"
-EXCHANGE="$2"
 
 mkdir -p "${EXP_CHAINS_DIR}/dictionaries/"
 
