@@ -33,7 +33,7 @@ def get_headers() -> dict:
     }
     return headers
 
-url = "https://info.xstaging.tv/factset_finra_isins.csv"
+url = "https://info.tradingview.com/factset_finra_isins.csv"
 
 
 MAX_RETRIES = 5
