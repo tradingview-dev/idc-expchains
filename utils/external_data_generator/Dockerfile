@@ -1,0 +1,20 @@
+FROM ubuntu:24.04
+ARG PATH_TO_LIB
+
+RUN apt update && \
+    apt install -y --no-install-recommends python3 python3-pip git python3-git python3-requests openssh-client curl ca-certificates jq && \
+    apt clean && \
+    rm -rf /var/lib/apt/lists/
+
+RUN pip3 install bs4 requests git deepdiff difflib shutil openpyxl
+
+ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
+ARG SRC_SCRIPT_PATH="external_data_generator"
+ARG SCRIPT_NAME="external_data_generator.py"
+
+
+COPY "${SRC_SCRIPT_PATH}/${SCRIPT_NAME}" "${DST_SCRIPT_PATH}/"
+
+WORKDIR "${DST_SCRIPT_PATH}"
+
+RUN chmod +x "${DST_SCRIPT_PATH}/${SCRIPT_NAME}"
