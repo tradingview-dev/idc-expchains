@@ -3,6 +3,8 @@ import random
 import shutil
 import difflib
 import time
+from fileinput import filename
+
 import requests
 from deepdiff.serialization import json_dumps
 from git import Repo
@@ -95,6 +97,7 @@ def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[
     :return: array of changed files names
     """
     res = []
+    print(f"++++++DEBUG++++++{file_names}" )
     for filename in file_names:
         file1_path = os.path.join(dir1, filename)
         file2_path = os.path.join(dir2, filename)
@@ -176,6 +179,7 @@ def delivery(file_names: list[str], branch):
             raise e
         print("Successful update repo")
 
+    print(f"~~~~~DEBUG~~~~~{file_names}")
     index = repo.index
     changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR)
     print(f"!!!DEBUG!!!!!! {changed_files}")
