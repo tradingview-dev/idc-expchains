@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# coding=utf-8
+
 import argparse
 
 from utils import default_request_handler, json_request_handler, delivery
