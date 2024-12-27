@@ -113,7 +113,7 @@ def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[
                         os.remove(file1_path)
                         res.append(filename)
                     else:
-                        print(f"Skipping {filename}: New file size exceeds twice the size of the old file.")
+                        print(f"Skipping {filename}: New file size less twice the size of the old file.")
         else:
             if os.path.exists(file1_path):
                 print(f"Skipping {filename}: File not found in both directories. {file1_path} Not found")
@@ -162,7 +162,7 @@ def delivery(file_names: list[str], branch):
 
     index = repo.index
     changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR)
-    if changed_files:
+    if changed_files != []:
         index.add(changed_files)
         print(f"Updating expchains in {branch}... ")
         index.commit(f"Autocommit {', '.join(changed_files)} data")
