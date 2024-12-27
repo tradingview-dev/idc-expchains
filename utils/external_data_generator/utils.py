@@ -137,7 +137,8 @@ def delivery(file_names: list[str], branch):
     EXPCHAINS_REPO = "git@git.xtools.tv:idc/idc-expchains.git"
     EXPCHAINS_DIR = "./idc-expchains"
     DICTIONARY_DIR = EXPCHAINS_DIR.join('dictionaries')
-    NEW_FILES_DIR = ""
+    NEW_FILES_DIR = "/var/tmp"
+    NEW_FILES_DIR = NEW_FILES_DIR.join("external_data_generator")
 
     if not os.path.exists(EXPCHAINS_DIR):
         try:
