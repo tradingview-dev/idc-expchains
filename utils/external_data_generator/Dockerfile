@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 ARG PATH_TO_LIB
 
 RUN apt update && \
-    apt install -y --no-install-recommends python3 python3-pip git python3-git python3-requests python3-deepdiff python3-aiohttp openssh-client curl ca-certificates jq && \
+    apt install -y --no-install-recommends python3 python3-pip git python3-git python3-requests python3-deepdiff python3-aiohttp python3-bs4 openssh-client curl ca-certificates jq && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
