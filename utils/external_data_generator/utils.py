@@ -181,7 +181,7 @@ def delivery(file_names: list[str], branch):
     if changed_files:
         index.add(['/'.join(p.split('/')[2:]) for p in changed_files])
         print(f"Updating expchains in {branch}... ")
-        index.commit(f"Autocommit {', '.join(changed_files)} data")
+        index.commit(f"Autocommit {', '.join([os.path.basename(p) for p in changed_files])} data")
         repo.remotes.origin.push()
     else:
         print(f"No changes in {branch}")
