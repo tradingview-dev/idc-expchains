@@ -103,9 +103,8 @@ def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[
             size1 = os.path.getsize(file1_path)
             size2 = os.path.getsize(file2_path)
 
-            # Compare file contents
-            with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
-                if f1.read() != f2.read():
+            if files_are_different(file1_path, file2_path):
+                with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
                     if size1 * 2 > size2:
                         print(f"File {filename} have diff")
                         show_diff(file1_path, file2_path)
@@ -130,6 +129,17 @@ def show_diff(file1_path: str, file2_path: str):
 
     for line in diff:
         print(line, end="")
+
+def files_are_different(file1_path, file2_path):
+    with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
+        while True:
+            chunk1 = f1.read(4096)  # Read in chunks of 4 KB
+            chunk2 = f2.read(4096)
+            if chunk1 != chunk2:
+                return True
+            if not chunk1:  # End of file reached
+                return False
+    return False
 
 def delivery(file_names: list[str], branch):
     if branch == "":
