@@ -86,7 +86,7 @@ def json_request_handler(url: str, path: str, post_data: dict = None):
         file_writer(json_dumps(response.json(), indent=4, ensure_ascii=False), path)
 
 
-def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[str]:
+def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str):
     """
     Compares files with the same names in two directories and overwrites the files in dir1 if they are different,
     and the new file's size does not exceed twice the size of the old file.
@@ -98,10 +98,10 @@ def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[
     """
     res = []
     print(f"++++++DEBUG++++++{file_names}" )
-    for filename in file_names:
-        file1_path = os.path.join(dir1, filename)
-        file2_path = os.path.join(dir2, filename)
-
+    for file_name in file_names:
+        file1_path = os.path.join(dir1, file_name)
+        file2_path = os.path.join(dir2, file_name)
+        print(f"&&&&&&&&&&DEBUG&&&&&{file1_path}***{file2_path}")
         if os.path.exists(file1_path) and os.path.exists(file2_path):
             size1 = os.path.getsize(file1_path)
             size2 = os.path.getsize(file2_path)
