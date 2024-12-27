@@ -131,6 +131,7 @@ def show_diff(file1_path: str, file2_path: str):
         print(line, end="")
 
 def files_are_different(file1_path, file2_path):
+    # Open both files in binary mode and compare chunk by chunk
     with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
         while True:
             chunk1 = f1.read(4096)  # Read in chunks of 4 KB
@@ -139,7 +140,6 @@ def files_are_different(file1_path, file2_path):
                 return True
             if not chunk1:  # End of file reached
                 return False
-    return False
 
 def delivery(file_names: list[str], branch):
     if branch == "":
