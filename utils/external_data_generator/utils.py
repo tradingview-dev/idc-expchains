@@ -120,7 +120,7 @@ def compare_and_overwrite_files(file_names, dir1, dir2):
                         show_diff(file1_path, file2_path)
                         shutil.copy(str(file1_path), str(file2_path))
                         os.remove(file1_path)
-                        res.append(filename)
+                        res.append(file2_path)
                     else:
                         print(f"Skipping {filename}: New file size less twice the size of the old file.")
         else:
@@ -184,8 +184,8 @@ def delivery(file_names: list[str], branch):
     index = repo.index
     changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR)
     print(f"!!!DEBUG!!!!!! {changed_files}")
-    if changed_files != []:
-        index.add(changed_files)
+    if changed_files:
+        index.add(['/'.join(p.split('/')[2:]) for p in changed_files])
         print(f"Updating expchains in {branch}... ")
         index.commit(f"Autocommit {', '.join(changed_files)} data")
         repo.remotes.origin.push()
