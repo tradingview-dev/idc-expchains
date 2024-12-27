@@ -18,3 +18,7 @@ COPY "${SRC_SCRIPT_PATH}/${SCRIPT_NAME}" "${DST_SCRIPT_PATH}/"
 WORKDIR "${DST_SCRIPT_PATH}"
 
 RUN chmod +x "${DST_SCRIPT_PATH}/${SCRIPT_NAME}"
+
+RUN echo $(ls -R)
+RUN echo $(ls -R /var/tmp/external_data_generator)
+RUN echo $(ls -R ./idc-expchains)
