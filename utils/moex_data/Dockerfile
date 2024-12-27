@@ -19,6 +19,6 @@ WORKDIR "${DST_SCRIPT_PATH}"
 
 RUN chmod +x "${DST_SCRIPT_PATH}/${SCRIPT_NAME}"
 
-RUN echo $(ls -R)
-RUN echo $(ls -R /var/tmp/external_data_generator)
-RUN echo $(ls -R ./idc-expchains)
+RUN ls -R "${DST_SCRIPT_PATH}"
+RUN ls -R /var/tmp/external_data_generator
+RUN ls -R ./idc-expchains
