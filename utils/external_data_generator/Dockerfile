@@ -10,7 +10,7 @@ RUN pip3 install bs4 requests git deepdiff difflib shutil openpyxl
 
 ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
 ARG SRC_SCRIPT_PATH="external_data_generator"
-ARG SCRIPT_NAME="external_data_generator.py"
+ARG SCRIPT_NAME="main.py"
 
 
 COPY "${SRC_SCRIPT_PATH}/${SCRIPT_NAME}" "${DST_SCRIPT_PATH}/"
