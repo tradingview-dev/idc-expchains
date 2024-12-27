@@ -6,7 +6,6 @@ RUN apt update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
-RUN pip3 install bs4 requests git deepdiff difflib shutil openpyxl
 
 ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
 ARG SRC_SCRIPT_PATH="external_data_generator"
