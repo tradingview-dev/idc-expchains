@@ -86,7 +86,7 @@ def json_request_handler(url: str, path: str, post_data: dict = None):
         file_writer(json_dumps(response.json(), indent=4, ensure_ascii=False), path)
 
 
-def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str):
+def compare_and_overwrite_files(file_names, dir1, dir2):
     """
     Compares files with the same names in two directories and overwrites the files in dir1 if they are different,
     and the new file's size does not exceed twice the size of the old file.
