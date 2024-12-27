@@ -102,7 +102,7 @@ def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[
         if os.path.exists(file1_path) and os.path.exists(file2_path):
             size1 = os.path.getsize(file1_path)
             size2 = os.path.getsize(file2_path)
-            print("----------DEBUG-------------")
+            print("-----------DEBUG-------------")
             print(size1)
             print(size2)
             print(file1_path)
@@ -178,6 +178,7 @@ def delivery(file_names: list[str], branch):
 
     index = repo.index
     changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR)
+    print(f"!!!DEBUG!!!!!! {changed_files}")
     if changed_files != []:
         index.add(changed_files)
         print(f"Updating expchains in {branch}... ")
