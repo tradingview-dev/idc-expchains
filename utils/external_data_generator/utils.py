@@ -115,7 +115,10 @@ def compare_and_overwrite_files(file_names: list[str], dir1, dir2: str) -> list[
                     else:
                         print(f"Skipping {filename}: New file size exceeds twice the size of the old file.")
         else:
-            print(f"Skipping {filename}: File not found in both directories.")
+            if os.path.exists(file1_path):
+                print(f"Skipping {filename}: File not found in both directories. {file1_path} Not found")
+            if os.path.exists(file2_path):
+                print(f"Skipping {filename}: File not found in both directories. {file2_path} Not found")
     return res
 
 def show_diff(file1_path: str, file2_path: str):
@@ -134,7 +137,7 @@ def delivery(file_names: list[str], branch):
     EXPCHAINS_REPO = "git@git.xtools.tv:idc/idc-expchains.git"
     EXPCHAINS_DIR = "./idc-expchains"
     DICTIONARY_DIR = EXPCHAINS_DIR.join('dictionaries')
-    NEW_FILES_DIR = EXPCHAINS_DIR.join("utils").join("external_data_generator")
+    NEW_FILES_DIR = "/var/tmp/external_data_generator"
 
     if not os.path.exists(EXPCHAINS_DIR):
         try:
