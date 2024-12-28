@@ -11,7 +11,7 @@ AAPD|Direxion Daily AAPL Bear 1X Shares|G|N|N|100|Y|N
 AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N
 AAPU|Direxion Daily AAPL Bull 2X Shares|G|N|N|100|Y|N
 AAXJ|iShares MSCI All Country Asia ex Japan ETF|G|N|N|100|Y|N
-ABAT|American Battery Technology Company - Common Stock|S|N|N|100|N|N
+ABAT|American Battery Technology Company - Common Stock|S|N|D|100|N|N
 ABCL|AbCellera Biologics Inc. - Common Shares|Q|N|N|100|N|N
 ABCS|Alpha Blue Capital US Small-Mid Cap Dynamic ETF|G|N|N|100|Y|N
 ABEO|Abeona Therapeutics Inc. - Common Stock|S|N|N|100|N|N
@@ -220,11 +220,11 @@ AMGN|Amgen Inc. - Common Stock|Q|N|N|100|N|N
 AMID|Argent Mid Cap ETF|G|N|N|100|Y|N
 AMIX|Autonomix Medical, Inc. - Common Stock|S|N|N|100|N|N
 AMKR|Amkor Technology, Inc. - Common Stock|Q|N|N|100|N|N
-AMLI|American Lithium Corp. - Common Stock|S|N|D|100|N|N
+AMLI|American Lithium Corp. - Common Stock|S|N|N|100|N|N
 AMLX|Amylyx Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 AMOD|Alpha Modus Holdings, Inc. - Class A Common Stock|G|N|D|100|N|N
 AMODW|Alpha Modus Holdings, Inc. - Warrant|S|N|D|100|N|N
-AMPG|Amplitech Group, Inc. - Common Stock|S|N|D|100|N|N
+AMPG|Amplitech Group, Inc. - Common Stock|S|N|N|100|N|N
 AMPGW|Amplitech Group, Inc. - Warrants|S|N|N|100|N|N
 AMPH|Amphastar Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 AMPL|Amplitude, Inc. - Class A Common Stock|S|N|N|100|N|N
@@ -338,7 +338,7 @@ ASNS|Actelis Networks, Inc. - Common Stock|S|N|N|100|N|N
 ASO|Academy Sports and Outdoors, Inc. - Common Stock|Q|N|N|100|N|N
 ASPCU|A SPAC III Acquisition Corp. - Unit|S|N|N|100|N|N
 ASPI|ASP Isotopes Inc. - Common Stock|S|N|N|100|N|N
-ASPS|Altisource Portfolio Solutions S.A. - Common Stock|Q|N|N|100|N|N
+ASPS|Altisource Portfolio Solutions S.A. - Common Stock|Q|N|D|100|N|N
 ASRT|Assertio Holdings, Inc. - Common Stock|S|N|N|100|N|N
 ASRV|AmeriServ Financial Inc. - Common Stock|G|N|N|100|N|N
 ASST|Asset Entities Inc. - Class B Common Stock|S|N|D|100|N|N
@@ -700,7 +700,7 @@ BTM|Bitcoin Depot Inc. - Class A Common Stock|S|N|N|100|N|N
 BTMD|Biote Corp. - Class A common stock|G|N|N|100|N|N
 BTMWW|Bitcoin Depot Inc. - Warrant|S|N|N|100|N|N
 BTOC|Armlogi Holding Corp. - common stock|G|N|N|100|N|N
-BTOG|Bit Origin Limited - Ordinary Shares|S|N|E|100|N|N
+BTOG|Bit Origin Limited - Ordinary Shares|S|N|N|100|N|N
 BTSG|BrightSpring Health Services, Inc. - Common Stock|Q|N|N|100|N|N
 BTSGU|BrightSpring Health Services, Inc. - Tangible Equity Unit|Q|N|N|100|N|N
 BUFC|AB Conservative Buffer ETF|G|N|N|100|Y|N
@@ -1050,7 +1050,7 @@ CRGO|Freightos Limited - Ordinary shares|S|N|N|100|N|N
 CRGOW|Freightos Limited - Warrants|S|N|N|100|N|N
 CRGX|CARGO Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 CRIS|Curis, Inc. - Common Stock|S|N|N|100|N|N
-CRKN|Crown Electrokinetics Corp. - Common Stock|S|N|N|100|N|N
+CRKN|Crown Electrokinetics Corp. - Common Stock|S|N|D|100|N|N
 CRMD|CorMedix Inc. - Common Stock|G|N|N|100|N|N
 CRML|Critical Metals Corp. - Ordinary Shares|G|N|N|100|N|N
 CRMLW|Critical Metals Corp. - Warrants|S|N|N|100|N|N
@@ -3013,7 +3013,9 @@ NTRP|NextTrip, Inc. - Common Stock|S|N|D|100|N|N
 NTRS|Northern Trust Corporation - Common Stock|Q|N|N|100|N|N
 NTRSO|Northern Trust Corporation - Depositary Shares Each Representing a 1/1,000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock|Q|N|N|100|N|N
 NTWK|NETSOL Technologies Inc. - Common Stock|S|N|N|100|N|N
+NTWO|Newbury Street II Acquisition Corp - Class A Ordinary Shares|G|N|N|100|N|N
 NTWOU|Newbury Street II Acquisition Corp - Unit|G|N|N|100|N|N
+NTWOW|Newbury Street II Acquisition Corp - Warrant|G|N|N|100|N|N
 NUKK|Nukkleus Inc. - Ordinary Shares|G|N|D|100|N|N
 NUKKW|Nukkleus Inc. - Warrants|S|N|N|100|N|N
 NURO|NeuroMetrix, Inc. - Common Stock|S|N|N|100|N|N
@@ -3309,6 +3311,7 @@ PGY|Pagaya Technologies Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 PGYWW|Pagaya Technologies Ltd. - Warrants|S|N|N|100|N|N
 PHAR|Pharming Group N.V. - ADS, each representing 10 ordinary shares|G|N|N|100|N|N
 PHAT|Phathom Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
+PHH|Park Ha Biological Technology Co., Ltd. - ordinary shares|S|N|N|100|N|N
 PHIO|Phio Pharmaceuticals Corp. - Common Stock|S|N|N|100|N|N
 PHLT|Performant Healthcare, Inc. - Common Stock|Q|N|N|100|N|N
 PHO|Invesco Water Resources ETF|G|N|N|100|Y|N
@@ -3369,7 +3372,7 @@ POCI|Precision Optics Corporation, Inc. - Common stock|S|N|N|100|N|N
 PODC|PodcastOne, Inc. - Common Stock|S|N|N|100|N|N
 PODD|Insulet Corporation - Common Stock|Q|N|N|100|N|N
 POET|POET Technologies Inc. - Common Shares|S|N|N|100|N|N
-POLA|Polar Power, Inc. - Common Stock|S|N|D|100|N|N
+POLA|Polar Power, Inc. - Common Stock|S|N|N|100|N|N
 POLE|Andretti Acquisition Corp. II - Class A Ordinary Shares|G|N|N|100|N|N
 POLEU|Andretti Acquisition Corp. II - Unit|G|N|N|100|N|N
 POLEW|Andretti Acquisition Corp. II - Warrant|G|N|N|100|N|N
@@ -3548,7 +3551,7 @@ QTEC|First Trust NASDAQ-100-Technology Sector Index Fund|G|N|N|100|Y|N
 QTI|QT Imaging Holdings, Inc. - Common Stock|Q|N|D|100|N|N
 QTOP|iShares Nasdaq Top 30 Stocks ETF|G|N|N|100|Y|N
 QTR|Global X NASDAQ 100 Tail Risk ETF|G|N|N|100|Y|N
-QTRX|Quanterix Corporation - Common Stock|G|N|E|100|N|N
+QTRX|Quanterix Corporation - Common Stock|G|N|N|100|N|N
 QTTB|Q32 Bio Inc. - Common Stock|G|N|N|100|N|N
 QTUM|Defiance Quantum ETF|G|N|N|100|Y|N
 QUBT|Quantum Computing Inc. - Common Stock|S|N|N|100|N|N
@@ -4787,4 +4790,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1227202407:00|||||||
+File Creation Time: 1227202421:31|||||||
