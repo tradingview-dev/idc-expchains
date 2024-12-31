@@ -71,8 +71,8 @@ ADGM|Adagio Medical Holdings, Inc - Common Stock|S|N|N|100|N|N
 ADI|Analog Devices, Inc. - Common Stock|Q|N|N|100|N|N
 ADIL|Adial Pharmaceuticals, Inc - Common Stock|S|N|N|100|N|N
 ADMA|ADMA Biologics Inc - Common Stock|G|N|N|100|N|N
-ADN|Advent Technologies Holdings, Inc. - Class A Common Stock|S|N|H|100|N|N
-ADNWW|Advent Technologies Holdings, Inc. - Warrant|S|N|H|100|N|N
+ADN|Advent Technologies Holdings, Inc. - Class A Common Stock|S|N|D|100|N|N
+ADNWW|Advent Technologies Holdings, Inc. - Warrant|S|N|D|100|N|N
 ADP|Automatic Data Processing, Inc. - Common Stock|Q|N|N|100|N|N
 ADPT|Adaptive Biotechnologies Corporation - Common Stock|Q|N|N|100|N|N
 ADSE|ADS-TEC ENERGY PLC - Ordinary Shares|S|N|N|100|N|N
@@ -1333,6 +1333,7 @@ EFSC|Enterprise Financial Services Corporation - Common Stock|Q|N|N|100|N|N
 EFSCP|Enterprise Financial Services Corporation - Depositary Shares Each Representing a 1/40th Interest in a Share of 5% Fixed Rate Non-Cumulative Perpetual Preferred Stock, Series A|Q|N|N|100|N|N
 EGAN|eGain Corporation - Common Stock|S|N|N|100|N|N
 EGBN|Eagle Bancorp, Inc. - Common Stock|S|N|N|100|N|N
+EGGQ|NestYield Visionary ETF|G|N|N|100|Y|N
 EGHT|8x8 Inc - Common stock|Q|N|N|100|N|N
 EH|EHang Holdings Limited - ADS|G|N|N|100|N|N
 EHGO|Eshallgo Inc. - Class A Ordinary Shares|S|N|N|100|N|N
@@ -2054,7 +2055,7 @@ HUDAR|Hudson Acquisition I Corp. - Right|G|N|D|100|N|N
 HUDAU|Hudson Acquisition I Corp. - Unit|G|N|D|100|N|N
 HUDI|Huadi International Group Co., Ltd. - Ordinary Shares|S|N|N|100|N|N
 HUHU|HUHUTECH International Group Inc. - Ordinary Shares|S|N|N|100|N|N
-HUIZ|Huize Holding Limited - American Depositary Shares|G|N|D|100|N|N
+HUIZ|Huize Holding Limited - American Depositary Shares|G|N|N|100|N|N
 HUMA|Humacyte, Inc. - Common Stock|Q|N|N|100|N|N
 HUMAW|Humacyte, Inc. - Warrant|Q|N|N|100|N|N
 HURA|TuHURA Biosciences, Inc. - Common Stock|S|N|N|100|N|N
@@ -2165,7 +2166,7 @@ IMCC|IM Cannabis Corp. - Common Shares|S|N|N|100|N|N
 IMCR|Immunocore Holdings plc - American Depositary Shares|Q|N|N|100|N|N
 IMCV|iShares Morningstar Mid-Cap Value ETF|G|N|N|100|Y|N
 IMG|CIMG Inc. - Common Stock|S|N|N|100|N|N
-IMKTA|Ingles Markets, Incorporated - Class A Common Stock|Q|N|N|100|N|N
+IMKTA|Ingles Markets, Incorporated - Class A Common Stock|Q|N|E|100|N|N
 IMMP|Immutep Limited - American Depositary Shares|G|N|N|100|N|N
 IMMR|Immersion Corporation - Common Stock|Q|N|N|100|N|N
 IMMX|Immix Biopharma, Inc. - Common Stock|S|N|N|100|N|N
@@ -2739,7 +2740,7 @@ MLACU|Mountain Lake Acquisition Corp. - Units|G|N|N|100|N|N
 MLCO|Melco Resorts & Entertainment Limited - American Depositary Shares |Q|N|N|100|N|N
 MLEC|Moolec Science SA - Ordinary shares|S|N|D|100|N|N
 MLECW|Moolec Science SA - Warrant|S|N|N|100|N|N
-MLGO|MicroAlgo, Inc. - Ordinary Shares|S|N|D|100|N|N
+MLGO|MicroAlgo, Inc. - Ordinary Shares|S|N|N|100|N|N
 MLKN|MillerKnoll, Inc. - Common Stock|Q|N|N|100|N|N
 MLTX|MoonLake Immunotherapeutics - Class A Ordinary Shares|S|N|N|100|N|N
 MLYS|Mineralys Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3158,7 +3159,6 @@ OPAL|OPAL Fuels Inc. - Class A Common Stock|S|N|N|100|N|N
 OPBK|OP Bancorp - Common Stock|G|N|N|100|N|N
 OPCH|Option Care Health, Inc. - Common Stock|Q|N|N|100|N|N
 OPEN|Opendoor Technologies Inc  - Common Stock|Q|N|N|100|N|N
-OPHC|OptimumBank Holdings, Inc. - Common Stock|S|N|N|100|N|N
 OPI|Office Properties Income Trust - Common Shares of Beneficial Interest|Q|N|N|100|N|N
 OPINL|Office Properties Income Trust - 6.375% Senior Notes due 2050|G|N|N|100|N|N
 OPK|Opko Health, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4625,7 +4625,9 @@ WIX|Wix.com Ltd. - Ordinary Shares|Q|N|N|100|N|N
 WKEY|WISeKey International Holding Ltd - American Depositary Shares|G|N|N|100|N|N
 WKHS|Workhorse Group, Inc. - Common Stock|S|N|D|100|N|N
 WKSP|Worksport, Ltd. - Common Stock|S|N|D|100|N|N
+WLAC|Willow Lane Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 WLACU|Willow Lane Acquisition Corp. - Unit|G|N|N|100|N|N
+WLACW|Willow Lane Acquisition Corp. - Warrants|G|N|N|100|N|N
 WLDN|Willdan Group, Inc. - Common Stock|G|N|N|100|N|N
 WLDS|Wearable Devices Ltd. - Ordinary Share|S|N|N|100|N|N
 WLDSW|Wearable Devices Ltd. - Warrant|S|N|N|100|N|N
@@ -4787,4 +4789,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100||N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 1230202407:00|||||||
+File Creation Time: 1231202407:00|||||||
