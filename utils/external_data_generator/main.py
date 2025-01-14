@@ -40,6 +40,7 @@ def main():
         canadian_descriptions = "canadian_descriptions.json"
         json_request_handler("http://webapi.thecse.com/trading/listed/market/security_maintenance.json", canadian_descriptions)
         delivery([canadian_descriptions], args.branch)
+        run_s3_process_snapshot(args.branch, ["canadian_descriptions.json"], "external/canada", ".tar.gz",1)
     elif args.data_cluster == "finra":
         factset_finra_isins = "factset_finra_isins.csv"
         default_request_handler("https://info.tradingview.com/factset_finra_isins.csv", factset_finra_isins)
