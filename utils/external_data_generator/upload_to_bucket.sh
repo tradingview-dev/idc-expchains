@@ -1,18 +1,39 @@
+function log_info() {
+  local MESSAGE=$1
+  printf "${BOLD}%s${NC}\n" "$MESSAGE"
+}
 
-case "$ENVIRONMENT" in
-    'production')
-        BASE_URL='s3://tradingview-sourcedata-storage'
-        ;;
-    'stable')
-        BASE_URL='s3://tradingview-sourcedata-storage-stable'
-        ;;
-	  'staging')
-        BASE_URL='s3://tradingview-sourcedata-storage-staging'
-        ;;
-    * )
-        log_error "Unexpected param $ENVIRONMENT"
-        exit 1;
-esac
+function log_success() {
+  local MESSAGE=$1
+  printf "${BOLD_GREEN}%s${NC}\n" "$MESSAGE"
+}
+
+function log_warn() {
+  local MESSAGE=$1
+  printf "${BOLD_YELLOW}%s${NC}\n" "$MESSAGE"
+}
+
+function log_error() {
+  local MESSAGE=$1
+  printf "${BOLD_RED}ERROR: %s${NC}\n" "$MESSAGE"
+}
+
+
+BASE_URL='s3://tradingview-sourcedata-storage-staging'
+#case "$ENVIRONMENT" in
+#    'production')
+#        BASE_URL='s3://tradingview-sourcedata-storage'
+#        ;;
+#    'stable')
+#        BASE_URL='s3://tradingview-sourcedata-storage-stable'
+#        ;;
+#	  'staging')
+#        BASE_URL='s3://tradingview-sourcedata-storage-staging'
+#        ;;
+#    * )
+#        log_error "Unexpected param $ENVIRONMENT"
+#        exit 1;
+#esac
 
 if [[ -z "$SOURCEDATA_AWS_ACCESS_KEY_ID" ]] || [[ -z "$SOURCEDATA_AWS_SECRET_ACCESS_KEY" ]]; then
   log_error "SOURCEDATA_AWS_ACCESS_KEY_ID and SOURCEDATA_AWS_SECRET_ACCESS_KEY must be defined"
