@@ -2,10 +2,23 @@ FROM ubuntu:24.04
 ARG PATH_TO_LIB
 
 RUN apt update && \
-    apt install -y --no-install-recommends python3 python3-pip git python3-git python3-awscli python3-openpyxl python3-requests python3-deepdiff python3-aiohttp python3-bs4 python3-httplib2  openssh-client curl ca-certificates jq && \
+    apt install -y --no-install-recommends python3 python3-pip git python3-git python3-openpyxl python3-requests python3-deepdiff python3-aiohttp python3-bs4 python3-httplib2  openssh-client curl ca-certificates jq && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
+# Install necessary dependencies including curl, unzip, and ca-certificates
+RUN apt-get update && \
+    apt-get install -y \
+    curl \
+    unzip \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Download and install AWS CLI v2
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+    unzip awscliv2.zip && \
+    sudo ./aws/install && \
+    rm -rf awscliv2.zip
 
 ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
 ARG SRC_SCRIPT_PATH="external_data_generator"
