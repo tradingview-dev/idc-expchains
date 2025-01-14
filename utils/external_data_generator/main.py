@@ -28,7 +28,7 @@ def main():
         json_request_handler(adx_url, adx_data_regular, post_data={"Status": "L", "Boad": "REGULAR", "Del": "0"})
         json_request_handler(adx_url,adx_data_fund, post_data={"Status": "L", "Boad": "FUND", "Del": "0"})
         delivery([adx_data_regular, adx_data_fund], args.branch)
-        run_s3_process_snapshot(args.branch, ["adx_data_regular.json", "adx_data_fund.json"], "external/adx", ".tar.gz", 1)
+        run_s3_process_snapshot(args.branch, "adx_data_regular.json adx_data_fund.json", "external/adx", ".tar.gz", 1)
     elif args.data_cluster == "asx":
         asx_descriptions = "asx_descriptions.json"
         default_request_handler("https://asx.api.markitdigital.com/asx-research/1.0/companies/directory/file", asx_descriptions)
@@ -40,7 +40,7 @@ def main():
         canadian_descriptions = "canadian_descriptions.json"
         json_request_handler("http://webapi.thecse.com/trading/listed/market/security_maintenance.json", canadian_descriptions)
         delivery([canadian_descriptions], args.branch)
-        run_s3_process_snapshot(args.branch, ["canadian_descriptions.json"], "external/canada", ".tar.gz",1)
+        run_s3_process_snapshot(args.branch, "canadian_descriptions.json", "external/canada", ".tar.gz",1)
     elif args.data_cluster == "finra":
         factset_finra_isins = "factset_finra_isins.csv"
         default_request_handler("https://info.tradingview.com/factset_finra_isins.csv", factset_finra_isins)
