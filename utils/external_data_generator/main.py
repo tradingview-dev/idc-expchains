@@ -12,7 +12,7 @@ from saudi import saudi_handler
 from nyse import nyse_handler
 from nasdaq_gids import nasdaq_gids_handler
 from nse_emerge import nse_emerge_handler
-from utils.external_data_generator.upload_to_bucket import run_s3_process_snapshot
+from upload_to_bucket import run_s3_process_snapshot
 
 
 def main():
