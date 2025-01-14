@@ -6,18 +6,10 @@ RUN apt update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
-# Install necessary dependencies including curl, unzip, and ca-certificates
-RUN apt-get update && \
-    apt-get install -y \
-    curl \
-    unzip \
-    ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
 
-# Download and install AWS CLI v2
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
     unzip awscliv2.zip && \
-    sudo ./aws/install && \
+    ./aws/install && \
     rm -rf awscliv2.zip
 
 ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
