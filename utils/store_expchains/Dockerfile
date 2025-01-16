@@ -1,15 +1,22 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends git openssh-client curl ruby2.7 wget && \
-    cd /bin && \
-    wget -O jq "https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux64" && \
-    chmod 755 jq
+    apt-get install -y --no-install-recommends git openssh-client curl ruby2.7 wget jq && \
+    apt clean && \
+    rm -rf /var/lib/apt/lists/
 
-COPY store_expchains.sh /store_expchains/
-COPY update_expchains.sh /store_expchains/
+ARG DST_SCRIPT_PATH="/var/tmp/store_expchains"
 
-RUN chmod +x /store_expchains/store_expchains.sh && \
-    chmod +x /store_expchains/update_expchains.sh
+ARG STORE_SCRIPT="store_expchains.sh"
+ARG UPDATE_SCRIPT="update_expchains.sh"
+ARG UPLOAD_SCRIPT="store_expchains_to_sourcedata.sh"
 
-WORKDIR /store_expchains
+COPY "$STORE_SCRIPT" "${DST_SCRIPT_PATH}/"
+COPY "$UPDATE_SCRIPT" "${DST_SCRIPT_PATH}/"
+COPY "$UPLOAD_SCRIPT" "${DST_SCRIPT_PATH}/"
+
+RUN chmod +x "${DST_SCRIPT_PATH}/$STORE_SCRIPT" && \
+    chmod +x "${DST_SCRIPT_PATH}/$UPDATE_SCRIPT" && \
+    chmod +x "${DST_SCRIPT_PATH}/$UPLOAD_SCRIPT"
+
+WORKDIR "${DST_SCRIPT_PATH}"
