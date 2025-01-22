@@ -282,5 +282,6 @@ function s3_process_snapshot() {
 
 # shellcheck disable=SC2046
 # shellcheck disable=SC2005
+cd ./idc-expchains
 FILES_TO_STORE=$(echo $(ls expchains/*))
 s3_process_snapshot -i "$FILES_TO_STORE" -s "tvc/expchains.tar.gz" -d 1
