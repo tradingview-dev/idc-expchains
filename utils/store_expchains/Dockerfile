@@ -1,7 +1,7 @@
 FROM ubuntu:24.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends git openssh-client curl ruby3.2 wget jq && \
+    apt-get install -y --no-install-recommends python3-pip git openssh-client curl ruby3.2 wget jq && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
