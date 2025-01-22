@@ -1,9 +1,11 @@
 FROM ubuntu:24.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends awscli git openssh-client curl ruby3.2 wget jq && \
+    apt-get install -y --no-install-recommends git openssh-client curl ruby3.2 wget jq && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/
+
+RUN snap install aws-cli --classic
 
 ARG DST_SCRIPT_PATH="/var/tmp/store_expchains"
 
