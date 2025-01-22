@@ -5,6 +5,8 @@ RUN apt-get update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/
 
+RUN pip install --no-cache-dir awscli
+
 ARG DST_SCRIPT_PATH="/var/tmp/store_expchains"
 
 ARG STORE_SCRIPT="store_expchains.sh"
