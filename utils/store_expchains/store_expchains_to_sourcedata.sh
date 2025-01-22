@@ -227,13 +227,6 @@ function s3_process_snapshot() {
   local -r remote_snapshot_path="${remote_snapshot_dir}/${filename}"
   local -r show_diff="${args[diff]}"
 
-  log_warn "snapshot_fullname: $snapshot_fullname"
-  log_warn "filename: $filename"
-  log_warn "remote_file_ext: $remote_file_ext"
-  log_warn "snapshot_path: $snapshot_path"
-  log_warn "remote_snapshot_dir: $remote_snapshot_dir"
-  log_warn "remote_snapshot_path: $remote_snapshot_path"
-
   log_info "Processing $snapshot_fullname snapshot..."
 
   mkdir -p "${remote_snapshot_dir}"
@@ -247,12 +240,12 @@ function s3_process_snapshot() {
 
   if ! [ -e "$remote_snapshot_path" ]; then
     log_error "This is initial upload of $snapshot_fullname snapshot or download had been failed"
-    local file_ext
-    zip_files files[@] "$snapshot_path" file_ext
-    if [ "$file_ext" != "$remote_file_ext" ]; then
-      log_warn "An extension of the remote file does not match an extension of the new file"
-    fi
-    upload_snapshot "$snapshot_path" "$snapshot_fullname" || true
+#    local file_ext
+#    zip_files files[@] "$snapshot_path" file_ext
+#    if [ "$file_ext" != "$remote_file_ext" ]; then
+#      log_warn "An extension of the remote file does not match an extension of the new file"
+#    fi
+#    upload_snapshot "$snapshot_path" "$snapshot_fullname" || true
     return 1
   fi
 
@@ -280,8 +273,8 @@ function s3_process_snapshot() {
   log_success "Processing $snapshot_fullname snapshot is DONE"
 }
 
+cd ./idc-expchains
 # shellcheck disable=SC2046
 # shellcheck disable=SC2005
-cd ./idc-expchains
 FILES_TO_STORE=$(echo $(ls expchains/*))
 s3_process_snapshot -i "$FILES_TO_STORE" -s "tvc/expchains.tar.gz" -d 1
