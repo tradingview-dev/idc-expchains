@@ -1,11 +1,9 @@
 FROM ubuntu:24.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends python3-pip git openssh-client curl ruby3.2 wget jq && \
-    apt clean && \
+    apt-get install -y --no-install-recommends awscli git openssh-client curl ruby3.2 wget jq && \
+    apt-get clean && \
     rm -rf /var/lib/apt/lists/
-
-RUN pip install --no-cache-dir awscli
 
 ARG DST_SCRIPT_PATH="/var/tmp/store_expchains"
 
