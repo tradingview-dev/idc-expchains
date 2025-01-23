@@ -1,31 +1,7 @@
-import subprocess
 import os
-import logging
 import zipfile
-
 import boto3
 from botocore.exceptions import NoCredentialsError
-
-# Setup logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-
-def log_error(message):
-    logger.error(message)
-
-
-def log_info(message):
-    logger.info(message)
-
-
-def log_success(message):
-    logger.info(f"SUCCESS: {message}")
-
-
-def log_warn(message):
-    logger.warning(f"WARNING: {message}")
-
 
 def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, diff_flag):
     # Initialize the S3 client with credentials from environment variables
@@ -40,6 +16,12 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, 
 
     # Define the archive name (you can use any name here, e.g., 'snapshot.zip')
     archive_name = f"{snapshot_name}.zip"
+
+    # Ensure the directory where the archive will be stored exists
+    archive_dir = os.path.dirname(archive_name)
+    if archive_dir and not os.path.exists(archive_dir):
+        os.makedirs(archive_dir)
+        print(f"Created directory {archive_dir}")
 
     # Create the zip file
     try:
@@ -70,4 +52,3 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, 
     if os.path.exists(archive_name):
         os.remove(archive_name)
         print(f"Removed local archive {archive_name}.")
-
