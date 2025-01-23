@@ -240,12 +240,12 @@ function s3_process_snapshot() {
 
   if ! [ -e "$remote_snapshot_path" ]; then
     log_error "This is initial upload of $snapshot_fullname snapshot or download had been failed"
-    local file_ext
-    zip_files files[@] "$snapshot_path" file_ext
-    if [ "$file_ext" != "$remote_file_ext" ]; then
-      log_warn "An extension of the remote file does not match an extension of the new file"
-    fi
-    upload_snapshot "$snapshot_path" "$snapshot_fullname" || true
+#    local file_ext
+#    zip_files files[@] "$snapshot_path" file_ext
+#    if [ "$file_ext" != "$remote_file_ext" ]; then
+#      log_warn "An extension of the remote file does not match an extension of the new file"
+#    fi
+#    upload_snapshot "$snapshot_path" "$snapshot_fullname" || true
     return 1
   fi
 

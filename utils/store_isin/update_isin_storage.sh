@@ -45,38 +45,38 @@ else
     popd
 fi
 
-#if [[ "$INVALIDATE_CACHE" == "invalidate" ]]; then
-#  "${DIR}/isin_updater.rb" invalidate \
-#      -U "$URL_PREFIX"
-#fi
-#
-#mkdir -p "${ISIN_DIR}/isin_new/"
-#"${DIR}/isin_updater.rb" download \
-#    -D "${ISIN_DIR}/isin_new" \
-#    -U "$URL_PREFIX"
-#
-#pushd "${ISIN_DIR}"
-#git pull origin "$ISIN_BRANCH"
-#popd
-#
-#mkdir -p "${ISIN_DIR}/isin/"
-#"${DIR}/isin_updater.rb" merge \
-#    --new-data "${ISIN_DIR}/isin_new" \
-#    --prev-data "${ISIN_DIR}/isin" \
-#    --target-data "${ISIN_DIR}/isin" \
-#    $MERGE_METHOD
-#
-#pushd "${ISIN_DIR}"
-#rm -rf "isin_new/"
-#
-#git add "isin/*"
-#if [ "$(git status -s)" = "" ]; then
-#    echo "No changes in $ISIN_BRANCH"
-#else
-#    echo "Update isin in $ISIN_BRANCH"
-#    git --no-pager -c color.ui=always diff --staged
-#    CHANGED_FILES=$(git diff --name-only --cached | tr '\n' ' ')
-#    git commit -m "Autocommit $CHANGED_FILES"
-#    git push origin "$ISIN_BRANCH"
-#fi
-#popd
+if [[ "$INVALIDATE_CACHE" == "invalidate" ]]; then
+  "${DIR}/isin_updater.rb" invalidate \
+      -U "$URL_PREFIX"
+fi
+
+mkdir -p "${ISIN_DIR}/isin_new/"
+"${DIR}/isin_updater.rb" download \
+    -D "${ISIN_DIR}/isin_new" \
+    -U "$URL_PREFIX"
+
+pushd "${ISIN_DIR}"
+git pull origin "$ISIN_BRANCH"
+popd
+
+mkdir -p "${ISIN_DIR}/isin/"
+"${DIR}/isin_updater.rb" merge \
+    --new-data "${ISIN_DIR}/isin_new" \
+    --prev-data "${ISIN_DIR}/isin" \
+    --target-data "${ISIN_DIR}/isin" \
+    $MERGE_METHOD
+
+pushd "${ISIN_DIR}"
+rm -rf "isin_new/"
+
+git add "isin/*"
+if [ "$(git status -s)" = "" ]; then
+    echo "No changes in $ISIN_BRANCH"
+else
+    echo "Update isin in $ISIN_BRANCH"
+    git --no-pager -c color.ui=always diff --staged
+    CHANGED_FILES=$(git diff --name-only --cached | tr '\n' ' ')
+    git commit -m "Autocommit $CHANGED_FILES"
+    git push origin "$ISIN_BRANCH"
+fi
+popd
