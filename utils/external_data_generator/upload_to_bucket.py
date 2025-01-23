@@ -53,15 +53,24 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, 
     try:
         # Run the shell script as a subprocess
         log_info(f"Running command: {' '.join(command)}")
-        result = subprocess.run(command, capture_output=True, text=True)
+        result = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+
+        # Stream stdout and stderr to the console as they come in
+        for line in result.stdout:
+            log_info(line.strip())  # Print the output to the console
+        for line in result.stderr:
+            log_error(line.strip())  # Print any errors to the console
+
+        # Wait for the subprocess to finish and get the return code
+        result.wait()
 
         # Check for errors in the subprocess execution
         if result.returncode != 0:
-            log_error(f"Error running shell script: {result.stderr}")
+            log_error(f"Error running shell script: {result.stderr.read()}")
             return
 
-        # Log the successful output
-        log_success(f"Shell script executed successfully: {result.stdout}")
+        # Log the successful output (you may also want to capture stdout/stderr to log after finishing)
+        log_success(f"Shell script executed successfully: {result.stdout.read()}")
 
     except Exception as e:
         log_error(f"An error occurred while running the subprocess: {e}")
