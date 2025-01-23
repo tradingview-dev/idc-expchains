@@ -189,3 +189,5 @@ function s3_process_snapshot() {
     fi
   done
 }
+
+s3_process_snapshot
