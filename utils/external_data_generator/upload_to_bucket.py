@@ -37,10 +37,14 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, 
 
         print(f"Created archive {archive_name}")
 
+        # Extract bucket name and object key from the baseurl
+        bucket_name = baseurl.split('/')[2]  # Extract the bucket name from the URL
+        object_key = '/'.join(baseurl.split('/')[3:]) + snapshot_name + '.zip'  # Build the object key
+
         # Upload the archive to the S3 bucket
         try:
-            s3.upload_file(archive_name, baseurl + snapshot_name, archive_name)
-            print(f"Successfully uploaded {archive_name} to {snapshot_name} bucket.")
+            s3.upload_file(archive_name, bucket_name, object_key)
+            print(f"Successfully uploaded {archive_name} to s3://{bucket_name}/{object_key}.")
         except NoCredentialsError:
             print("Credentials not available.")
         except Exception as e:
