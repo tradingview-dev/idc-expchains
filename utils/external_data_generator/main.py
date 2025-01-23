@@ -27,8 +27,8 @@ def main():
         adx_data_fund = "adx_data_fund.json"
         json_request_handler(adx_url, adx_data_regular, post_data={"Status": "L", "Boad": "REGULAR", "Del": "0"})
         json_request_handler(adx_url,adx_data_fund, post_data={"Status": "L", "Boad": "FUND", "Del": "0"})
-        delivery([adx_data_regular, adx_data_fund], args.branch)
         run_s3_process_snapshot(args.branch, "adx_data_regular.json adx_data_fund.json", "external/adx", ".tar.gz", 1)
+        delivery([adx_data_regular, adx_data_fund], args.branch)
     elif args.data_cluster == "asx":
         asx_descriptions = "asx_descriptions.json"
         default_request_handler("https://asx.api.markitdigital.com/asx-research/1.0/companies/directory/file", asx_descriptions)
