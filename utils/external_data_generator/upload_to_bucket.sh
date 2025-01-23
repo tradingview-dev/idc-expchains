@@ -90,6 +90,7 @@ function download_data_snapshot() {
 }
 
 function parse_args() {
+  echo "Parsing arguments: $@"
   while (( "$#" )); do
     case $1 in
       -i|--input)
