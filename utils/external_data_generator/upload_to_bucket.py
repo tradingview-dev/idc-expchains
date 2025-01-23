@@ -5,6 +5,7 @@ from botocore.exceptions import NoCredentialsError
 
 def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, diff_flag):
     # Initialize the S3 client with credentials from environment variables
+    baseurl = "s3://tradingview-sourcedata-storage-staging/external/"
     s3 = boto3.client(
         's3',
         aws_access_key_id=os.environ['SOURCEDATA_AWS_ACCESS_KEY_ID'],
@@ -36,14 +37,10 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, 
 
         print(f"Created archive {archive_name}")
 
-        # Split the full bucket path into bucket name and object key
-        bucket_name = snapshot_name.split('/')[0]  # First part is the bucket name
-        object_key = '/'.join(snapshot_name.split('/')[1:])  # Rest is the object key (path)
-
         # Upload the archive to the S3 bucket
         try:
-            s3.upload_file(archive_name, bucket_name, object_key)
-            print(f"Successfully uploaded {archive_name} to {bucket_name}/{object_key}.")
+            s3.upload_file(archive_name, baseurl + snapshot_name, archive_name)
+            print(f"Successfully uploaded {archive_name} to {snapshot_name} bucket.")
         except NoCredentialsError:
             print("Credentials not available.")
         except Exception as e:
