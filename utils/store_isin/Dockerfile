@@ -1,14 +1,29 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends ruby-dev build-essential git openssh-client curl ruby2.7 && \
+    apt-get install -y --no-install-recommends build-essential ruby-dev unzip git openssh-client curl ruby3.2 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/ && \
     gem install ffi -v 1.16.3 && \
     gem install typhoeus
 
-COPY isin_updater.rb /store_isin/
-COPY update_isin_storage.sh /store_isin/
+RUN curl -s "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+    unzip -q awscliv2.zip && \
+    ./aws/install && \
+    rm -rf awscliv2.zip
 
-RUN chmod +x /store_isin/isin_updater.rb && \
-    chmod +x /store_isin/update_isin_storage.sh
+ARG DST_SCRIPT_PATH="/var/tmp/store_isin"
 
-WORKDIR /store_isin
+ARG UPDATER_SCRIPT="isin_updater.rb"
+ARG UPDATE_SCRIPT="update_isin_storage.sh"
+ARG UPLOAD_SCRIPT="store_isin_to_sourcedata.sh"
+
+COPY "$UPDATER_SCRIPT" "${DST_SCRIPT_PATH}/"
+COPY "$UPDATE_SCRIPT" "${DST_SCRIPT_PATH}/"
+COPY "$UPLOAD_SCRIPT" "${DST_SCRIPT_PATH}/"
+
+RUN chmod +x "${DST_SCRIPT_PATH}/$UPDATER_SCRIPT" && \
+    chmod +x "${DST_SCRIPT_PATH}/$UPDATE_SCRIPT" && \
+    chmod +x "${DST_SCRIPT_PATH}/$UPLOAD_SCRIPT"
+
+WORKDIR "${DST_SCRIPT_PATH}"

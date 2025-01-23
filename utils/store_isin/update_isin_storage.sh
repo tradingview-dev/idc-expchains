@@ -31,7 +31,7 @@ else
     MERGE_METHOD="--overwrite"
 fi
 
-ISIN_DIR="./isin-store"
+ISIN_DIR="./idc-expchains"
 
 if [ ! -d "$ISIN_DIR" ]; then
     echo "Clone branch ${ISIN_BRANCH} from repo ${ISIN_REPO}"
