@@ -173,8 +173,8 @@ function s3_process_snapshot() {
   #  -z: filter the archive through gzip
   #  -f: use archive file or device ARCHIVE
   #  -C: change to directory DIR
-  local -r remote_snapshot_dir="${remote_snapshot_path%"$file_ext"}_"
-  mkdir -p "$remote_snapshot_dir" && tar -xzf "$remote_snapshot_path" -C "$remote_snapshot_dir"
+  # local -r remote_snapshot_dir="${remote_snapshot_path%"$file_ext"}_"
+  # mkdir -p "$remote_snapshot_dir" && tar -xzf "$remote_snapshot_path" -C "$remote_snapshot_dir"
   # unzip -qu "$remote_snapshot_path" -d "$remote_snapshot_dir"
 
   for file in "${files[@]}"; do
