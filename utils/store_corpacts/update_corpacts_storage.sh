@@ -226,4 +226,4 @@ function s3_process_snapshot() {
 
 }
 
-s3_process_snapshot()
+s3_process_snapshot
