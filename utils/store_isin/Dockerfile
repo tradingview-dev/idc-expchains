@@ -1,7 +1,7 @@
 FROM ubuntu:24.04
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends build-essential unzip git openssh-client curl ruby3.2 && \
+    apt-get install -y --no-install-recommends build-essential ruby-dev unzip git openssh-client curl ruby3.2 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/ && \
     gem install ffi -v 1.16.3 && \
