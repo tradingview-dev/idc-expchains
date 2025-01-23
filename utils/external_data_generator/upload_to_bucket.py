@@ -1,6 +1,10 @@
 import subprocess
 import os
 import logging
+import zipfile
+
+import boto3
+from botocore.exceptions import NoCredentialsError
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -24,54 +28,46 @@ def log_warn(message):
 
 
 def run_s3_process_snapshot(environment, input_files, snapshot_name, extension, diff_flag):
-    # Define base URL based on environment
-    if environment == 'production':
-        base_url = 's3://tradingview-sourcedata-storage'
-    elif environment == 'stable':
-        base_url = 's3://tradingview-sourcedata-storage-stable'
-    elif environment == 'staging':
-        base_url = 's3://tradingview-sourcedata-storage-staging'
-    else:
-        log_error(f"Unexpected environment: {environment}")
-        return
+    # Initialize the S3 client with credentials from environment variables
+    s3 = boto3.client(
+        's3',
+        aws_access_key_id=os.environ['SOURCEDATA_AWS_ACCESS_KEY_ID'],
+        aws_secret_access_key=os.environ['SOURCEDATA_AWS_SECRET_ACCESS_KEY'],
+    )
 
-    # Ensure that the required AWS environment variables are set
-    if not os.getenv('SOURCEDATA_AWS_ACCESS_KEY_ID') or not os.getenv('SOURCEDATA_AWS_SECRET_ACCESS_KEY'):
-        log_error("SOURCEDATA_AWS_ACCESS_KEY_ID and SOURCEDATA_AWS_SECRET_ACCESS_KEY must be defined")
-        return
+    # Split the input_files string into a list of file names
+    files = input_files.split()
 
-    # Prepare the command and arguments to call the shell script
-    command = [
-        "bash",  # Use bash to execute the script
-        "upload_to_bucket.sh",  # Path to the shell script
-        "-i", input_files,  # Input files as a string
-        "-s", snapshot_name,  # Snapshot name
-        "-x", extension,  # Extension (e.g., ".tar.gz")
-        "-d", str(diff_flag)  # Show differences flag (1 or 0)
-    ]
+    # Define the archive name (you can use any name here, e.g., 'snapshot.zip')
+    archive_name = f"{snapshot_name}.zip"
 
+    # Create the zip file
     try:
-        # Run the shell script as a subprocess
-        log_info(f"Running command: {' '.join(command)}")
-        result = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        with zipfile.ZipFile(archive_name, 'w', zipfile.ZIP_DEFLATED) as zipf:
+            for file in files:
+                # Ensure the file exists before adding it to the zip archive
+                if os.path.exists(file):
+                    zipf.write(file, os.path.basename(file))  # Add the file to the archive
+                    print(f"Added {file} to the archive.")
+                else:
+                    print(f"Warning: {file} does not exist and will not be added to the archive.")
 
-        # Stream stdout and stderr to the console as they come in
-        for line in result.stdout:
-            log_info(line.strip())  # Print the output to the console
-        for line in result.stderr:
-            log_error(line.strip())  # Print any errors to the console
+        print(f"Created archive {archive_name}")
 
-        # Wait for the subprocess to finish and get the return code
-        result.wait()
-
-        # Check for errors in the subprocess execution
-        if result.returncode != 0:
-            log_error(f"Error running shell script: {result.stderr.read()}")
-            return
-
-        # Log the successful output (you may also want to capture stdout/stderr to log after finishing)
-        log_success(f"Shell script executed successfully: {result.stdout.read()}")
+        # Upload the archive to the S3 bucket
+        try:
+            s3.upload_file(archive_name, snapshot_name, archive_name)
+            print(f"Successfully uploaded {archive_name} to {snapshot_name} bucket.")
+        except NoCredentialsError:
+            print("Credentials not available.")
+        except Exception as e:
+            print(f"An error occurred while uploading to S3: {e}")
 
     except Exception as e:
-        log_error(f"An error occurred while running the subprocess: {e}")
+        print(f"Error while creating zip file: {e}")
+
+    # Optionally, you can remove the local archive after upload
+    if os.path.exists(archive_name):
+        os.remove(archive_name)
+        print(f"Removed local archive {archive_name}.")
 
