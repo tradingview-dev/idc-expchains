@@ -223,6 +223,7 @@ function s3_process_snapshot() {
       break
     fi
   done
+
 }
 
 s3_process_snapshot()
