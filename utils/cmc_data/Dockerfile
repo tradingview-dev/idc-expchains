@@ -8,6 +8,11 @@ RUN apt-get update && \
     wget -O jq "https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux64" && \
     chmod 755 jq
 
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+    unzip awscliv2.zip && \
+    ./aws/install && \
+    rm -rf awscliv2.zip \
+
 COPY cmc_properties.rb /cmc_data/
 COPY update_defi_typespec.sh /cmc_data/
 
