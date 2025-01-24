@@ -229,7 +229,7 @@ AMRN|Amarin Corporation plc - American Depositary Shares, each representing one 
 AMRX|Amneal Pharmaceuticals, Inc. - Class A Common Stock|Q|N|N|100|N|N
 AMSC|American Superconductor Corporation - Common Stock|Q|N|N|100|N|N
 AMSF|AMERISAFE, Inc. - Common Stock|Q|N|N|100|N|N
-AMST|Amesite Inc. - Common Stock|S|N|D|100|N|N
+AMST|Amesite Inc. - Common Stock|S|N|N|100|N|N
 AMTX|Aemetis, Inc - Common Stock|G|N|N|100|N|N
 AMWD|American Woodmark Corporation - Common Stock|Q|N|N|100|N|N
 AMZD|Direxion Daily AMZN Bear 1X Shares|G|N|N|100|Y|N
@@ -285,7 +285,7 @@ APTO|Aptose Biosciences, Inc. - Common Shares|S|N|D|100|N|N
 APVO|Aptevo Therapeutics Inc. - Common Stock|S|N|N|100|N|N
 APWC|Asia Pacific Wire & Cable Corporation Limited  - Common shares, Par value .01 per share|S|N|N|100|N|N
 APYX|Apyx Medical Corporation - Common Stock|Q|N|N|100|N|N
-AQB|AquaBounty Technologies, Inc. - Common Stock|S|N|N|100|N|N
+AQB|AquaBounty Technologies, Inc. - Common Stock|S|N|D|100|N|N
 AQMS|Aqua Metals, Inc. - Common Stock|S|N|D|100|N|N
 AQST|Aquestive Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 AQU|Aquaron Acquisition Corp. - Common Stock|S|N|H|100|N|N
@@ -794,7 +794,7 @@ CCIXU|Churchill Capital Corp IX - Unit|G|N|N|100|N|N
 CCIXW|Churchill Capital Corp IX - Warrant|G|N|N|100|N|N
 CCLD|CareCloud, Inc. - Common Stock|G|N|N|100|N|N
 CCLDO|CareCloud, Inc. - 8.75% Series B Cumulative Redeemable Perpetual Preferred Stock|G|N|N|100|N|N
-CCLDP|CareCloud, Inc. - 11% Series A Cumulative Redeemable Perpetual Preferred Stock|G|N|N|100|N|N
+CCLDP|CareCloud, Inc. - 8.75% Series A Cumulative Redeemable Perpetual Preferred Stock|G|N|N|100|N|N
 CCNE|CNB Financial Corporation - Common Stock|Q|N|N|100|N|N
 CCNEP|CNB Financial Corporation - Depositary shares, each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed- Rate Non-Cumulative Perpetual Preferred Stock|Q|N|N|100|N|N
 CCNR|ALPS/CoreCommodity Natural Resources ETF|G|N|N|100|Y|N
@@ -992,6 +992,7 @@ COGT|Cogent Biosciences, Inc. - Common Stock|Q|N|N|100|N|N
 COHU|Cohu, Inc. - Common Stock|Q|N|N|100|N|N
 COIN|Coinbase Global, Inc. - Class A Common Stock|Q|N|N|100|N|N
 COKE|Coca-Cola Consolidated, Inc. - Common Stock|Q|N|N|100|N|N
+COLAU|Columbus Acquisition Corp - Unit|G|N|N|100|N|N
 COLB|Columbia Banking System, Inc. - Common Stock|Q|N|N|100|N|N
 COLL|Collegium Pharmaceutical, Inc. - Common Stock|Q|N|N|100|N|N
 COLM|Columbia Sportswear Company - Common Stock|Q|N|N|100|N|N
@@ -1768,6 +1769,7 @@ GEG|Great Elm Group, Inc.  - Common Stock|Q|N|N|100|N|N
 GEGGL|Great Elm Group, Inc.  - 7.25% Notes due 2027|G|N|N|100|N|N
 GEHC|GE HealthCare Technologies Inc. - Common Stock|Q|N|N|100|N|N
 GELS|Gelteq Limited - Ordinary Shares|S|N|N|100|N|N
+GEME|Pacific North of South EM Equity Active ETF|G|N|N|100|Y|N
 GEN|Gen Digital Inc. - Common Stock|Q|N|N|100|N|N
 GENK|GEN Restaurant Group, Inc. - Class A Common Stock|G|N|N|100|N|N
 GEOS|Geospace Technologies Corporation - Common Stock|Q|N|N|100|N|N
@@ -1990,7 +1992,7 @@ HONE|HarborOne Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 HOOD|Robinhood Markets, Inc. - Class A Common Stock|Q|N|N|100|N|N
 HOOK|HOOKIPA Pharma Inc. - Common Stock|S|N|N|100|N|N
 HOPE|Hope Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
-HOTH|Hoth Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
+HOTH|Hoth Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 HOUR|Hour Loop, Inc. - common stock|S|N|N|100|N|N
 HOVNP|Hovnanian Enterprises Inc - Depositary Share representing 1/1000th of 7.625% Series A Preferred Stock|G|N|N|100|N|N
 HOVR|New Horizon Aircraft Ltd. - Class A Ordinary Shares|S|N|D|100|N|N
@@ -2042,9 +2044,6 @@ HUBC|Hub Cyber Security Ltd. - Ordinary Shares|G|N|D|100|N|N
 HUBCW|Hub Cyber Security Ltd. - Warrant expiring 2/27/28|S|N|N|100|N|N
 HUBCZ|Hub Cyber Security Ltd. - Warrant|G|N|D|100|N|N
 HUBG|Hub Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
-HUDA|Hudson Acquisition I Corp. - Common Stock|G|N|D|100|N|N
-HUDAR|Hudson Acquisition I Corp. - Right|G|N|D|100|N|N
-HUDAU|Hudson Acquisition I Corp. - Unit|G|N|D|100|N|N
 HUDI|Huadi International Group Co., Ltd. - Ordinary Shares|S|N|N|100|N|N
 HUHU|HUHUTECH International Group Inc. - Ordinary Shares|S|N|N|100|N|N
 HUIZ|Huize Holding Limited - American Depositary Shares|G|N|N|100|N|N
@@ -2344,7 +2343,7 @@ JWEL|Jowell Global Ltd. - Ordinary Shares|S|N|N|100|N|N
 JXG|JX Luxventure Group Inc. - Common Stock|S|N|N|100|N|N
 JYD|Jayud Global Logistics Limited - Class A Ordinary Shares|S|N|N|100|N|N
 JYNT|The Joint Corp. - Common Stock|S|N|N|100|N|N
-JZ|Jianzhi Education Technology Group Company Limited - American Depositary Shares|S|N|N|100|N|N
+JZ|Jianzhi Education Technology Group Company Limited - American Depositary Shares|S|N|D|100|N|N
 JZXN|Jiuzi Holdings, Inc. - Ordinary Shares|S|N|N|100|N|N
 KALA|KALA BIO, Inc. - Common Stock|S|N|N|100|N|N
 KALU|Kaiser Aluminum Corporation - Common Stock|Q|N|N|100|N|N
@@ -2475,7 +2474,7 @@ LFUS|Littelfuse, Inc. - Common Stock|Q|N|N|100|N|N
 LFVN|Lifevantage Corporation - Common Stock|S|N|N|100|N|N
 LFWD|Lifeward Ltd. - Ordinary Shares|S|N|N|100|N|N
 LGCB|Linkage Global Inc - Class A Ordinary Shares|S|N|D|100|N|N
-LGCL|Lucas GC Limited - Ordinary Shares|S|N|N|100|N|N
+LGCL|Lucas GC Limited - Ordinary Shares|S|N|D|100|N|N
 LGHL|Lion Group Holding Ltd. - American Depositary Share|S|N|D|100|N|N
 LGHLW|Lion Group Holding Ltd. - Warrant|S|N|N|100|N|N
 LGIH|LGI Homes, Inc. - Common Stock|Q|N|N|100|N|N
@@ -2676,7 +2675,7 @@ MELI|MercadoLibre, Inc. - Common Stock|Q|N|N|100|N|N
 MEMS|Matthews Emerging Markets Discovery Active ETF|G|N|N|100|Y|N
 MEOH|Methanex Corporation - Common Stock|Q|N|N|100|N|N
 MERC|Mercer International Inc. - Common Stock|Q|N|N|100|N|N
-MESA|Mesa Air Group, Inc. - Common Stock|S|N|N|100|N|N
+MESA|Mesa Air Group, Inc. - Common Stock|S|N|E|100|N|N
 MESO|Mesoblast Limited - American Depositary Shares|Q|N|N|100|N|N
 META|Meta Platforms, Inc. - Class A Common Stock|Q|N|N|100|N|N
 METC|Ramaco Resources, Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -2823,7 +2822,7 @@ MTVA|MetaVia Inc.  - Common Stock|S|N|N|100|N|N
 MU|Micron Technology, Inc. - Common Stock|Q|N|N|100|N|N
 MUD|Direxion Daily MU Bear 1X Shares|G|N|N|100|Y|N
 MULL|GraniteShares 2x Long MU Daily ETF|G|N|N|100|Y|N
-MULN|Mullen Automotive, Inc. - Common Stock|S|N|N|100|N|N
+MULN|Mullen Automotive, Inc. - Common Stock|S|N|E|100|N|N
 MURA|Mural Oncology plc - Ordinary Shares|G|N|N|100|N|N
 MUU|Direxion Daily MU Bull 2X Shares|G|N|N|100|Y|N
 MVBF|MVB Financial Corp. - Common Stock|S|N|N|100|N|N
@@ -2883,7 +2882,7 @@ NCNO|nCino, Inc. - Common Stock|Q|N|N|100|N|N
 NCPB|Nuveen Core Plus Bond ETF|G|N|N|100|Y|N
 NCPL|Netcapital Inc. - Common Stock|S|N|N|100|N|N
 NCPLW|Netcapital Inc. - warrants|S|N|N|100|N|N
-NCRA|Nocera, Inc. - common stock|S|N|N|100|N|N
+NCRA|Nocera, Inc. - common stock|S|N|D|100|N|N
 NCSM|NCS Multistage Holdings, Inc. - Common Stock|S|N|N|100|N|N
 NCTY|The9 Limited - American Depository Shares|S|N|N|100|N|N
 NDAA|Ned Davis Research 360 Dynamic Allocation ETF|G|N|N|100|Y|N
@@ -3027,7 +3026,7 @@ NVEC|NVE Corporation - Common Stock|S|N|N|100|N|N
 NVEE|NV5 Global, Inc. - Common Stock|Q|N|N|100|N|N
 NVFY|Nova Lifestyle, Inc - Common Stock|S|N|D|100|N|N
 NVMI|Nova Ltd. - Ordinary Shares|Q|N|N|100|N|N
-NVNI|Nvni Group Limited - Ordinary Shares|S|N|H|100|N|N
+NVNI|Nvni Group Limited - Ordinary Shares|S|N|E|100|N|N
 NVNIW|Nvni Group Limited - Warrants|S|N|E|100|N|N
 NVNO|enVVeno Medical Corporation - Common Stock|S|N|N|100|N|N
 NVTS|Navitas Semiconductor Corporation - Common Stock|G|N|N|100|N|N
@@ -3783,7 +3782,7 @@ SCOR|comScore, Inc. - Common Stock|Q|N|N|100|N|N
 SCPH|scPharmaceuticals Inc. - Common Stock|Q|N|N|100|N|N
 SCSC|ScanSource, Inc. - Common Stock|Q|N|N|100|N|N
 SCVL|Shoe Carnival, Inc. - Common Stock|Q|N|N|100|N|N
-SCWO|374Water Inc. - common stock|S|N|N|100|N|N
+SCWO|374Water Inc. - common stock|S|N|D|100|N|N
 SCWX|SecureWorks Corp. - Class A Common Stock|Q|N|N|100|N|N
 SCYX|SCYNEXIS, Inc. - Common Stock|G|N|N|100|N|N
 SCZ|iShares MSCI EAFE Small-Cap ETF|G|N|N|100|Y|N
@@ -3877,6 +3876,7 @@ SJ|Scienjoy Holding Corporation - Class A Ordinary Shares|S|N|N|100|N|N
 SJCP|SanJac Alpha Core Plus Bond ETF|G|N|N|100|Y|N
 SJLD|SanJac Alpha Low Duration ETF|G|N|N|100|Y|N
 SJW|SJW Group - Common Stock|Q|N|N|100|N|N
+SKBL|Skyline Builders Group Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 SKGR|SK Growth Opportunities Corporation - Class A Common Stock|G|N|N|100|N|N
 SKGRU|SK Growth Opportunities Corporation - Unit|G|N|N|100|N|N
 SKGRW|SK Growth Opportunities Corporation - Warrant|G|N|N|100|N|N
@@ -4239,7 +4239,7 @@ TORO|Toro Corp. - Common stock|S|N|N|100|N|N
 TOUR|Tuniu Corporation - American Depositary Shares|G|N|N|100|N|N
 TOWN|Towne Bank - Common Stock|Q|N|N|100|N|N
 TOYO|TOYO Co., Ltd - Ordinary Shares|S|N|N|100|N|N
-TPCS|TechPrecision Corporation - Common stock|S|N|E|100|N|N
+TPCS|TechPrecision Corporation - Common stock|S|N|N|100|N|N
 TPG|TPG Inc. - Class A Common Stock|Q|N|N|100|N|N
 TPGXL|TPG Inc. - 6.950% Fixed-Rate Junior Subordinated Notes due 2064|G|N|N|100|N|N
 TPIC|TPI Composites, Inc. - Common Stock|G|N|N|100|N|N
@@ -4253,7 +4253,7 @@ TRIN|Trinity Capital Inc. - Common Stock|Q|N|N|100|N|N
 TRINI|Trinity Capital Inc. - 7.875% Notes Due 2029|Q|N|N|100|N|N
 TRINZ|Trinity Capital Inc. - 7.875% Notes due 2029|Q|N|N|100|N|N
 TRIP|TripAdvisor, Inc. - Common Stock|Q|N|N|100|N|N
-TRMB|Trimble Inc. - Common Stock|Q|N|E|100|N|N
+TRMB|Trimble Inc. - Common Stock|Q|N|N|100|N|N
 TRMD|TORM plc - Class A Common Stock|Q|N|N|100|N|N
 TRMK|Trustmark Corporation - Common Stock|Q|N|N|100|N|N
 TRML|Tourmaline Bio, Inc.  - Common Stock|Q|N|N|100|N|N
@@ -4324,6 +4324,7 @@ TXN|Texas Instruments Incorporated - Common Stock|Q|N|N|100|N|N
 TXRH|Texas Roadhouse, Inc. - Common Stock|Q|N|N|100|N|N
 TXSS|Texas Capital Texas Small Cap Equity Index ETF|G|N|N|100|Y|N
 TXUE|Thornburg International Equity ETF|G|N|N|100|Y|N
+TXUG|Thornburg International Growth Fund ETF|G|N|N|100|Y|N
 TYGO|Tigo Energy, Inc. - Common Stock|S|N|N|100|N|N
 TYRA|Tyra Biosciences, Inc. - Common Stock|Q|N|N|100|N|N
 TZOO|Travelzoo - Common Stock|Q|N|N|100|N|N
@@ -4388,7 +4389,6 @@ URGN|UroGen Pharma Ltd. - Ordinary Shares|G|N|N|100|N|N
 URNJ|Sprott Junior Uranium Miners ETF|G|N|N|100|Y|N
 UROY|Uranium Royalty Corp. - Common Stock|S|N|N|100|N|N
 USAF|Atlas America Fund|G|N|N|100|Y|N
-USAP|Universal Stainless & Alloy Products, Inc. - Common Stock|Q|N|N|100|N|N
 USAU|U.S. Gold Corp. - Common Stock|S|N|N|100|N|N
 USCB|USCB Financial Holdings, Inc.  - Class A Common Stock|G|N|N|100|N|N
 USCF|Themes US Cash Flow Champions ETF|G|N|N|100|Y|N
@@ -4780,4 +4780,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0123202507:00|||||||
+File Creation Time: 0124202506:00|||||||
