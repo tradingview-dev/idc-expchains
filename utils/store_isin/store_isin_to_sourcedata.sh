@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-set -eu
+set -e
+set +x
 
 # The color codes are left just for a reminder
 BOLD_RED='\033[1;31m'
@@ -9,6 +10,7 @@ BOLD='\033[1m'
 NC='\033[0m'
 
 ENVIRONMENT=$1
+FORCE_UPLOAD=${2:-0} # set passed value at 2 position or set default 0
 
 function log_info() {
   local -r message=$1
@@ -22,7 +24,7 @@ function log_success() {
 
 function log_warn() {
   local -r message=$1
-  printf "${BOLD_YELLOW}%s${NC}\n" "$message"
+  printf "${BOLD_YELLOW}WARN: %s${NC}\n" "$message"
 }
 
 function log_error() {
@@ -56,17 +58,20 @@ if [[ -z "$AWS_ACCESS_KEY_ID" ]] || [[ -z "$AWS_SECRET_ACCESS_KEY" ]]; then
     exit 1;
 fi
 
+ERROR_CODE=1
+UNSTABLE_CODE=2
+
 aws --version
 
 function show_diff() {
   local -r first_file=$1
   local -r second_file=$2
-  local -r first_file_ext=${first_file#*.}
-  local -r second_file_ext=${second_file#*.}
+  local -r first_file_ext=${first_file##*.}
+  local -r second_file_ext=${second_file##*.}
 
   if [ "$first_file_ext" != "$second_file_ext" ]; then
     log_warn "Unable to show diff between $first_file and $second_file: file extensions do not match"
-    return 0
+    return "$UNSTABLE_CODE"
   fi
 
   local formatted_first_file="$first_file"
@@ -101,21 +106,12 @@ function zip_files() {
     # So to do this, it's necessary first archive files into a single archive, and then compress the archive.
     # Another way is to use Windows-specific idiom utils, such as ZIP:
     # zip -qum9 "$snapshot_path" "${files[@]}"
-    if (( ${#files[@]} == 1 )); then
-      # gzip used options:
-      #  -c: write on standard output, keep original files unchanged
-      #  -q: suppress all warnings
-      #  -9: compress better
-      r_file_ext="gz"
-      gzip -cq9 "${files[@]}" > "${snapshot_path%%.*}.$r_file_ext"
-    else
-      # tar used options:
-      #  -c: create a new archive
-      #  -z: filter the archive through gzip
-      #  -f: use archive file or device ARCHIVE
-      r_file_ext="tar.gz"
-      tar -czf "${snapshot_path%%.*}.$r_file_ext" --transform 's/.*\///' "${files[@]}"
-    fi
+    # tar used options:
+    #  -c: create a new archive
+    #  -z: filter the archive through gzip
+    #  -f: use archive file or device ARCHIVE
+    r_file_ext="tar.gz"
+    tar -czf "${snapshot_path%%.*}.$r_file_ext" --transform 's/.*\///' "${files[@]}"
 }
 
 function decompress_file() {
@@ -149,7 +145,7 @@ function decompress_file() {
       ;;
     *)
       log_error "Decompressing failed: unexpected format $file_ext"
-      exit 1;
+      exit "$ERROR_CODE";
   esac
 }
 
@@ -176,6 +172,10 @@ function download_snapshot() {
 }
 
 function parse_args() {
+  # default values
+  args[diff]=1
+  args[force]=0
+  # parsing passed values
   while (( "$#" )); do
     case $1 in
       -i|--input)
@@ -183,8 +183,8 @@ function parse_args() {
           args[input]="$2"
           shift
         else
-          log_error "Error: argument -i/--input is required"
-          return 1
+          log_error "argument -i/--input is required"
+          return "$ERROR_CODE"
         fi
         ;;
       -s|--snapshot)
@@ -192,20 +192,25 @@ function parse_args() {
           args[snapshot]="$2"
           shift
         else
-          log_error "Error: argument -s/--snapshot is required"
-          return 1
+          log_error "argument -s/--snapshot is required"
+          return "$ERROR_CODE"
         fi
         ;;
       -d|--diff)
-        args[diff]=1
         if [[ -n $2 ]]; then
           args[diff]="$2"
         fi
         shift
         ;;
+      -f|--force)
+        if [[ -n $2 ]]; then
+          args[force]="$2"
+        fi
+        shift
+        ;;
       *)
         log_error "Unknown option '$1'"
-        return 1
+        return "$ERROR_CODE"
         ;;
     esac
     shift
@@ -225,7 +230,6 @@ function s3_process_snapshot() {
   local -r snapshot_path="${out_dir}/${snapshot_fullname}"
   local -r remote_snapshot_dir="${snapshot_path%."$remote_file_ext"}/remote"
   local -r remote_snapshot_path="${remote_snapshot_dir}/${filename}"
-  local -r show_diff="${args[diff]}"
 
   log_info "Processing $snapshot_fullname snapshot..."
 
@@ -240,13 +244,17 @@ function s3_process_snapshot() {
 
   if ! [ -e "$remote_snapshot_path" ]; then
     log_error "This is initial upload of $snapshot_fullname snapshot or download had been failed"
-#    local file_ext
-#    zip_files files[@] "$snapshot_path" file_ext
-#    if [ "$file_ext" != "$remote_file_ext" ]; then
-#      log_warn "An extension of the remote file does not match an extension of the new file"
-#    fi
-#    upload_snapshot "$snapshot_path" "$snapshot_fullname" || true
-    return 1
+    if [ "${args[force]}" = '1' ]; then
+      log_warn "Force upload is enabled, the snapshot will be updated..."
+      local file_ext
+      zip_files files[@] "$snapshot_path" file_ext
+      if [ "$file_ext" != "$remote_file_ext" ]; then
+        log_warn "An extension of the remote file does not match an extension of the new file"
+      fi
+      upload_snapshot "$snapshot_path" "$snapshot_fullname" || true
+      return "$UNSTABLE_CODE"
+    fi
+    return "$ERROR_CODE"
   fi
 
   decompress_file "$remote_snapshot_path" "$remote_snapshot_dir"
@@ -256,14 +264,14 @@ function s3_process_snapshot() {
     if is_equals "$file" "$remote_snapshot_dir/${file##*/}"; then
       log_success "s3: $file is not modified"
     else
-      if [ "$show_diff" = '1' ]; then
+      if [ "${args[diff]}" = '1' ]; then
         show_diff "$file" "$remote_snapshot_dir/${file##*/}"
       fi
       log_warn "s3: $file is modified, packing all related files to snapshot and uploading..."
       local file_ext
       zip_files files[@] "$snapshot_path" file_ext
       if [ "$file_ext" != "$remote_file_ext" ]; then
-        log_warn "An extension of the remote packed file does not match an extension of the new packed file"
+        log_warn "An extension of the remote file does not match an extension of the new file"
       fi
       upload_snapshot "$snapshot_path" "$snapshot_fullname"
       break
@@ -277,4 +285,6 @@ cd ./idc-expchains
 # shellcheck disable=SC2046
 # shellcheck disable=SC2005
 FILES_TO_STORE=$(echo $(ls isin/*))
-s3_process_snapshot -i "$FILES_TO_STORE" -s "tvc/isins.tar.gz" -d 1
+RETVAL=0
+s3_process_snapshot -i "$FILES_TO_STORE" -s "tvc/isins.tar.gz" -f "$FORCE_UPLOAD" || RETVAL=$? && true
+exit "$RETVAL"
