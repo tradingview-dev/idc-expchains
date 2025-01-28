@@ -467,7 +467,6 @@ BBLGW|Bone Biologics Corp - warrants|S|N|N|100|N|N
 BBSI|Barrett Business Services, Inc. - Common Stock|Q|N|N|100|N|N
 BCAB|BioAtla, Inc. - Common Stock|G|N|N|100|N|N
 BCAL|California BanCorp - Common Stock|S|N|N|100|N|N
-BCAN|Femto Technologies Inc. - Common Stock|S|N|N|100|N|N
 BCAX|Bicara Therapeutics Inc. - Common Stock|G|N|N|100|N|N
 BCBP|BCB Bancorp, Inc. (NJ) - Common Stock|G|N|N|100|N|N
 BCDA|BioCardia, Inc. - Common Stock|S|N|N|100|N|N
@@ -1609,6 +1608,7 @@ FMHI|First Trust Municipal High Income ETF|G|N|N|100|Y|N
 FMNB|Farmers National Banc Corp. - Common Stock|S|N|N|100|N|N
 FMST|Foremost Clean Energy Ltd. - Common stock|S|N|N|100|N|N
 FMSTW|Foremost Clean Energy Ltd. - Warrant|S|N|N|100|N|N
+FMTO|Femto Technologies Inc. - Common Stock|S|N|N|100|N|N
 FNGR|FingerMotion, Inc. - common stock|S|N|N|100|N|N
 FNK|First Trust Mid Cap Value AlphaDEX Fund|G|N|N|100|Y|N
 FNKO|Funko, Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -1830,6 +1830,7 @@ GLXG|Galaxy Payroll Group Limited - Ordinary Shares|S|N|N|100|N|N
 GLYC|GlycoMimetics, Inc. - Common Stock|S|N|D|100|N|N
 GMAB|Genmab A/S - American Depositary Shares|Q|N|N|100|N|N
 GMGI|Golden Matrix Group, Inc. - Common Stock|S|N|N|100|N|N
+GMHS|Gamehaus Holdings Inc. - Class A Ordinary Shares|S|N|N|100|N|N
 GMM|Global Mofy AI Limited  - Class A Ordinary Shares|S|N|N|100|N|N
 GNFT|GENFIT S.A. - American Depositary Shares|Q|N|N|100|N|N
 GNLN|Greenlane Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
@@ -1929,7 +1930,7 @@ HBT|HBT Financial, Inc. - Common Stock|Q|N|N|100|N|N
 HCAT|Health Catalyst, Inc - Common stock|Q|N|N|100|N|N
 HCKT|The Hackett Group, Inc. - Common Stock|Q|N|N|100|N|N
 HCM|HUTCHMED (China) Limited - American Depositary Shares|Q|N|N|100|N|N
-HCOW|Amplify Cash Flow High Income ETF|G|N|N|100|Y|N
+HCOW|Amplify COWS Covered Call ETF|G|N|N|100|Y|N
 HCP|HashiCorp, Inc. - Class A Common Stock|Q|N|N|100|N|N
 HCSG|Healthcare Services Group, Inc. - Common Stock|Q|N|N|100|N|N
 HCTI|Healthcare Triangle, Inc. - Common Stock|S|N|D|100|N|N
@@ -2155,7 +2156,7 @@ IMAB|I-MAB - American Depositary Shares|G|N|N|100|N|N
 IMCC|IM Cannabis Corp. - Common Shares|S|N|N|100|N|N
 IMCR|Immunocore Holdings plc - American Depositary Shares|Q|N|N|100|N|N
 IMCV|iShares Morningstar Mid-Cap Value ETF|G|N|N|100|Y|N
-IMG|CIMG Inc. - Common Stock|S|N|D|100|N|N
+IMG|CIMG Inc. - Common Stock|S|N|H|100|N|N
 IMKTA|Ingles Markets, Incorporated - Class A Common Stock|Q|N|N|100|N|N
 IMMP|Immutep Limited - American Depositary Shares|G|N|N|100|N|N
 IMMR|Immersion Corporation - Common Stock|Q|N|N|100|N|N
@@ -2668,7 +2669,7 @@ MDXH|MDxHealth SA - Ordinary Shares|S|N|N|100|N|N
 ME|23andMe Holding Co. - Common Stock|S|N|N|100|N|N
 MEDP|Medpace Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 MEDX|Horizon Kinetics Medical ETF|G|N|N|100|Y|N
-MEGL|Magic Empire Global Limited - Ordinary Shares|S|N|D|100|N|N
+MEGL|Magic Empire Global Limited - Class A Ordinary Shares|S|N|D|100|N|N
 MEIP|MEI Pharma, Inc. - Common Stock|S|N|N|100|N|N
 MELI|MercadoLibre, Inc. - Common Stock|Q|N|N|100|N|N
 MEMS|Matthews Emerging Markets Discovery Active ETF|G|N|N|100|Y|N
@@ -2821,7 +2822,7 @@ MTVA|MetaVia Inc.  - Common Stock|S|N|N|100|N|N
 MU|Micron Technology, Inc. - Common Stock|Q|N|N|100|N|N
 MUD|Direxion Daily MU Bear 1X Shares|G|N|N|100|Y|N
 MULL|GraniteShares 2x Long MU Daily ETF|G|N|N|100|Y|N
-MULN|Mullen Automotive, Inc. - Common Stock|S|N|E|100|N|N
+MULN|Mullen Automotive, Inc. - Common Stock|S|N|N|100|N|N
 MURA|Mural Oncology plc - Ordinary Shares|G|N|N|100|N|N
 MUU|Direxion Daily MU Bull 2X Shares|G|N|N|100|Y|N
 MVBF|MVB Financial Corp. - Common Stock|S|N|N|100|N|N
@@ -3324,9 +3325,6 @@ PLBC|Plumas Bancorp - Common Stock|S|N|N|100|N|N
 PLBY|PLBY Group, Inc.  - Common Stock|G|N|N|100|N|N
 PLCE|Children's Place, Inc. (The) - Common Stock|Q|N|N|100|N|N
 PLL|Piedmont Lithium Inc.   - Common Stock|S|N|N|100|N|N
-PLMJ|Plum Acquisition Corp. III - Class A Ordinary Shares|S|N|H|100|N|N
-PLMJU|Plum Acquisition Corp. III - Unit|S|N|H|100|N|N
-PLMJW|Plum Acquisition Corp. III - Warrant|S|N|H|100|N|N
 PLMKU|Plum Acquisition Corp. IV - Unit|G|N|N|100|N|N
 PLMR|Palomar Holdings, Inc. - Common stock|Q|N|N|100|N|N
 PLPC|Preformed Line Products Company - Common Stock|Q|N|N|100|N|N
@@ -3536,7 +3534,6 @@ QSIAW|Quantum-Si Incorporated - Warrant|G|N|N|100|N|N
 QSIX|Pacer Metaurus Nasdaq 100 Dividend Multiplier 600 ETF|G|N|N|100|Y|N
 QSML|WisdomTree U.S. SmallCap Quality Growth Fund|G|N|N|100|Y|N
 QTEC|First Trust NASDAQ-100-Technology Sector Index Fund|G|N|N|100|Y|N
-QTI|QT Imaging Holdings, Inc. - Common Stock|Q|N|D|100|N|N
 QTOP|iShares Nasdaq Top 30 Stocks ETF|G|N|N|100|Y|N
 QTR|Global X NASDAQ 100 Tail Risk ETF|G|N|N|100|Y|N
 QTRX|Quanterix Corporation - Common Stock|G|N|N|100|N|N
@@ -3994,6 +3991,8 @@ SPCB|SuperCom, Ltd. - Ordinary Shares|S|N|N|100|N|N
 SPCX|SPAC and New Issue ETF|G|N|N|100|Y|N
 SPFI|South Plains Financial, Inc. - Common Stock|Q|N|N|100|N|N
 SPGC|Sacks Parente Golf, Inc. - Common Stock|S|N|N|100|N|N
+SPHA|Shepherd Ave Capital Acquisition Corporation - Class A Ordinary shares|G|N|N|100|N|N
+SPHAR|Shepherd Ave Capital Acquisition Corporation - Right|G|N|N|100|N|N
 SPHAU|Shepherd Ave Capital Acquisition Corporation - Unit|G|N|N|100|N|N
 SPHL|Springview Holdings Ltd - Ordinary shares|S|N|N|100|N|N
 SPKL|Spark I Acquisition Corp. - Class A Ordinary Share|G|N|N|100|N|N
@@ -4779,4 +4778,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0127202507:00|||||||
+File Creation Time: 0128202506:00|||||||
