@@ -67,7 +67,7 @@ git add "dictionaries/LastCorpActs.tab"
 
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
-else
+elif [ 2 -eq 1 ]; then
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
     git commit -m "Autocommit CorpActs.tab and LastCorpActs.tab"
@@ -100,21 +100,20 @@ function log_error() {
 }
 
 
-BASE_URL='s3://tradingview-sourcedata-storage-staging'
-#case "$ENVIRONMENT" in
-#    'production')
-#        BASE_URL='s3://tradingview-sourcedata-storage'
-#        ;;
-#    'stable')
-#        BASE_URL='s3://tradingview-sourcedata-storage-stable'
-#        ;;
-#	  'staging')
-#        BASE_URL='s3://tradingview-sourcedata-storage-staging'
-#        ;;
-#    * )
-#        log_error "Unexpected param $ENVIRONMENT"
-#        exit 1;
-#esac
+case "$ENVIRONMENT" in
+    'production')
+        BASE_URL='s3://tradingview-sourcedata-storage'
+        ;;
+    'stable')
+        BASE_URL='s3://tradingview-sourcedata-storage-stable'
+        ;;
+	  'staging')
+        BASE_URL='s3://tradingview-sourcedata-storage-staging'
+        ;;
+    * )
+        log_error "Unexpected param $ENVIRONMENT"
+        exit 1;
+esac
 
 if [[ -z "$SOURCEDATA_AWS_ACCESS_KEY_ID" ]] || [[ -z "$SOURCEDATA_AWS_SECRET_ACCESS_KEY" ]]; then
   log_error "SOURCEDATA_AWS_ACCESS_KEY_ID and SOURCEDATA_AWS_SECRET_ACCESS_KEY must be defined"
@@ -192,7 +191,7 @@ function s3_process_snapshot() {
     log_info "$file"
   done
 
-  download_data_snapshot "$snapshot_name$file_ext" "$remote_snapshot_path" || true
+  #download_data_snapshot "$snapshot_name$file_ext" "$remote_snapshot_path" || true
 
   if ! [ -e "$remote_snapshot_path" ]; then
     log_error "This is initial upload of $snapshot_name snapshot or download had been failed"
@@ -208,19 +207,19 @@ function s3_process_snapshot() {
   #  -z: filter the archive through gzip
   #  -f: use archive file or device ARCHIVE
   #  -C: change to directory DIR
-  local -r remote_snapshot_dir="${remote_snapshot_path%"$file_ext"}_"
-  mkdir -p "$remote_snapshot_dir" && tar -xzf "$remote_snapshot_path" -C "$remote_snapshot_dir"
+  # local -r remote_snapshot_dir="${remote_snapshot_path%"$file_ext"}_"
+ #  mkdir -p "$remote_snapshot_dir" && tar -xzf "$remote_snapshot_path" -C "$remote_snapshot_dir"
   # unzip -qu "$remote_snapshot_path" -d "$remote_snapshot_dir"
 
   for file in "${files[@]}"; do
-    log_info "Comparing $file..."
-    if is_equals "$file" "$remote_snapshot_dir/$file" "$show_diff"; then
-      log_success "s3: $file is not modified"
-    else
-      log_warn "s3: $file is modified, packing all related files to snapshot and uploading..."
-      zip_files files[@] "$snapshot_path"
-      upload_snapshot "$snapshot_path" "$snapshot_name$file_ext"
-      break
+    #log_info "Comparing $file..."
+    #if is_equals "$file" "$remote_snapshot_dir/$file" "$show_diff"; then
+      #log_success "s3: $file is not modified"
+    #else
+    log_warn "s3: $file is modified, packing all related files to snapshot and uploading..."
+    zip_files files[@] "$snapshot_path"
+    upload_snapshot "$snapshot_path" "$snapshot_name$file_ext"
+    break
     fi
   done
 
