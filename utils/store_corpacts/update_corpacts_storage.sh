@@ -200,13 +200,13 @@ function s3_process_snapshot() {
 
   #download_data_snapshot "$snapshot_name$file_ext" "$remote_snapshot_path" || true
 
-  if ! [ -e "$remote_snapshot_path" ]; then
-    log_error "This is initial upload of $snapshot_name snapshot or download had been failed"
+#  if ! [ -e "$remote_snapshot_path" ]; then
+#    log_error "This is initial upload of $snapshot_name snapshot or download had been failed"
 #    log_warn "Packing all related files to snapshot and uploading..."
 #    zip_files files[@] "$snapshot_path"
 #    upload_snapshot "$snapshot_path" "$snapshot_name$file_ext"
-    return 1 # $?
-  fi
+#    return 1 # $?
+#  fi
 
   # decompress the downloaded file
   # tar used options:
