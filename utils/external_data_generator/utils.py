@@ -178,7 +178,8 @@ def delivery(file_names: list[str], branch):
 
     index = repo.index
     changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR)
-    if changed_files:
+    ENVIRONMENT = os.environ['ENVIRONMENT']
+    if changed_files and ENVIRONMENT != "stable":
         index.add(['/'.join(p.split('/')[2:]) for p in changed_files])
         print(f"Updating expchains in {branch}... ")
         index.commit(f"Autocommit {', '.join([os.path.basename(p) for p in changed_files])} data")
