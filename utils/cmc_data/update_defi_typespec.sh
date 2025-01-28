@@ -73,11 +73,13 @@ pushd "$EXP_CHAINS_DIR"
 git add "dictionaries/defi_typespec.csv"
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
+elif [ $2 -eq 1 ]; then
+      echo "Update expchains in $EXPCHAINS_BRANCH"
+      git --no-pager -c color.ui=always diff --staged
+      git commit -m "Autocommit defi_typespec.csv"
+      git push origin "$EXPCHAINS_BRANCH"
 else
-    echo "Update expchains in $EXPCHAINS_BRANCH"
-    git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit defi_typespec.csv"
-    git push origin "$EXPCHAINS_BRANCH"
+  echo "Disabled by $2 param"
 fi
 
 
@@ -105,21 +107,20 @@ function log_error() {
 }
 
 
-BASE_URL='s3://tradingview-sourcedata-storage-staging'
-#case "$ENVIRONMENT" in
-#    'production')
-#        BASE_URL='s3://tradingview-sourcedata-storage'
-#        ;;
-#    'stable')
-#        BASE_URL='s3://tradingview-sourcedata-storage-stable'
-#        ;;
-#	  'staging')
-#        BASE_URL='s3://tradingview-sourcedata-storage-staging'
-#        ;;
-#    * )
-#        log_error "Unexpected param $ENVIRONMENT"
-#        exit 1;
-#esac
+case "$ENVIRONMENT" in
+    'production')
+        BASE_URL='s3://tradingview-sourcedata-storage'
+        ;;
+    'stable')
+        BASE_URL='s3://tradingview-sourcedata-storage-stable'
+        ;;
+	  'staging')
+        BASE_URL='s3://tradingview-sourcedata-storage-staging'
+        ;;
+    * )
+        log_error "Unexpected param $ENVIRONMENT"
+        exit 1;
+esac
 
 if [[ -z "$SOURCEDATA_AWS_ACCESS_KEY_ID" ]] || [[ -z "$SOURCEDATA_AWS_SECRET_ACCESS_KEY" ]]; then
   log_error "SOURCEDATA_AWS_ACCESS_KEY_ID and SOURCEDATA_AWS_SECRET_ACCESS_KEY must be defined"
@@ -213,7 +214,7 @@ function s3_process_snapshot() {
   #  -z: filter the archive through gzip
   #  -f: use archive file or device ARCHIVE
   #  -C: change to directory DIR
-  local -r remote_snapshot_dir="${remote_snapshot_path%"$file_ext"}_"
+  # local -r remote_snapshot_dir="${remote_snapshot_path%"$file_ext"}_"
   # mkdir -p "$remote_snapshot_dir" && tar -xzf "$remote_snapshot_path" -C "$remote_snapshot_dir"
   # unzip -qu "$remote_snapshot_path" -d "$remote_snapshot_dir"
 
