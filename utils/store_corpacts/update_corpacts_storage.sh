@@ -227,7 +227,6 @@ function s3_process_snapshot() {
     zip_files files[@] "$snapshot_path"
     upload_snapshot "$snapshot_path" "$snapshot_name$file_ext"
     break
-    fi
   done
 
 }
