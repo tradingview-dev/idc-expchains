@@ -100,6 +100,12 @@ function log_error() {
 }
 
 
+# Check if ENVIRONMENT is set and has a valid value
+if [ -z "$ENVIRONMENT" ]; then
+  log_error "ENVIRONMENT variable is not set. Please define the environment (production, staging, etc.)"
+  exit 1
+fi
+
 case "$ENVIRONMENT" in
     'production')
         BASE_URL='s3://tradingview-sourcedata-storage'
@@ -107,12 +113,13 @@ case "$ENVIRONMENT" in
     'stable')
         BASE_URL='s3://tradingview-sourcedata-storage-stable'
         ;;
-	  'staging')
+    'staging')
         BASE_URL='s3://tradingview-sourcedata-storage-staging'
         ;;
     * )
         log_error "Unexpected param $ENVIRONMENT"
-        exit 1;
+        exit 1
+        ;;
 esac
 
 if [[ -z "$SOURCEDATA_AWS_ACCESS_KEY_ID" ]] || [[ -z "$SOURCEDATA_AWS_SECRET_ACCESS_KEY" ]]; then
