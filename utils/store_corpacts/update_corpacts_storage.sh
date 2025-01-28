@@ -67,7 +67,7 @@ git add "dictionaries/LastCorpActs.tab"
 
 if [ "$(git status -s)" = "" ]; then
     echo "No changes in $EXPCHAINS_BRANCH"
-elif [ 2 -eq 1 ]; then
+elif [ $2 -eq 1 ]; then
     echo "Update expchains in $EXPCHAINS_BRANCH"
     git --no-pager -c color.ui=always diff --staged
     git commit -m "Autocommit CorpActs.tab and LastCorpActs.tab"
