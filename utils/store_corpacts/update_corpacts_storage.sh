@@ -72,6 +72,8 @@ elif [ $2 -eq 1 ]; then
     git --no-pager -c color.ui=always diff --staged
     git commit -m "Autocommit CorpActs.tab and LastCorpActs.tab"
     git push origin "$EXPCHAINS_BRANCH"
+else
+  echo "Disabled by $2 param"
 fi
 
 
