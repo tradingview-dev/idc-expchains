@@ -302,8 +302,6 @@ BLV;Vanguard Long-Term Bond ETF;ARCX
 BMAR;Innovator U.S. Equity Buffer ETF - March;BATS
 BMAY;Innovator U.S. Equity Buffer ETF - May;BATS
 BMED;iShares Health Innovation Active ETF;ARCX
-BMTX;BM Technologies Inc.;XASE
-BMTX/W;BM Technologies Inc. Warrants each warrant exercisable for one share of Common Stock at an exercise price of $11.50;XASE
 BMVP;Invesco Bloomberg MVP Multi-factor ETF;ARCX
 BNDC;FlexShares Core Select Bond Fund;ARCX
 BNDD;Quadratic Deflation ETF;ARCX
@@ -495,6 +493,7 @@ CPRO;Calamos Russell 2000 Structured Alt Protection ETF - October;ARCX
 CPRY;Calamos Russell 2000 Structured Alt Protection ETF - January;ARCX
 CPSA;Calamos S&P 500 Structured Alt Protection ETF - August;ARCX
 CPSD;Calamos S&P 500 Structured Alt Protection ETF - December;ARCX
+CPSF;Calamos S&P 500 Structured Alt Protection ETF - February;ARCX
 CPSJ;Calamos S&P 500 Structured Alt Protection ETF - July;ARCX
 CPSL;Calamos Laddered S&P 500 Structured Alt Protection ETF;BATS
 CPSM;Calamos S&P 500 Structured Alt Protection ETF - May;ARCX
@@ -561,7 +560,7 @@ DBEU;Xtrackers MSCI Europe Hedged Equity ETF;ARCX
 DBEZ;Xtrackers MSCI Eurozone Hedged Equity ETF;ARCX
 DBJP;Xtrackers MSCI Japan Hedged Equity ETF;ARCX
 DBMF;iMGP DBi Managed Futures Strategy ETF;ARCX
-DBND;DoubleLine Opportunistic Bond ETF;ARCX
+DBND;DoubleLine Opportunistic Core Bond ETF;ARCX
 DBO;Invesco DB Oil Fund;ARCX
 DBP;Invesco DB Precious Metals Fund;ARCX
 DC;Dakota Gold Corp.;XASE
@@ -740,7 +739,7 @@ EAOK;iShares ESG Aware Conservative Allocation ETF;BATS
 EAOM;iShares ESG Aware Moderate Allocation ETF;BATS
 EAOR;iShares ESG Aware Growth Allocation ETF;BATS
 EAPR;Innovator Emerging Markets Power Buffer ETF - April;ARCX
-EASG;Xtrackers MSCI EAFE ESG Leaders Equity ETF;ARCX
+EASG;Xtrackers MSCI EAFE Selection Equity ETF;ARCX
 EATV;VegTech Plant-based Innovation & Climate ETF;BATS
 EATZ;AdvisorShares Restaurant ETF;ARCX
 EBIT;Harbor AlphaEdge Small Cap Earners ETF;ARCX
@@ -989,6 +988,7 @@ FDWM;Fidelity Women's Leadership ETF;ARCX
 FEAC;Fidelity Enhanced U.S. All-Cap Equity ETF;ARCX
 FEBP;PGIM US Large-Cap Buffer 12 ETF - February;BATS
 FEBT;AllianzIM U.S. Large Cap Buffer10 Feb ETF;ARCX
+FEBU;AllianzIM U.S. Equity Buffer15 Uncapped Feb ETF;BATS
 FEBW;AllianzIM U.S. Large Cap Buffer20 Feb ETF;ARCX
 FEBZ;TrueShares Structured Outcome (February) ETF;BATS
 FEDM;FlexShares ESG & Climate Developed Markets ex-US Core Index Fund;ARCX
@@ -1209,6 +1209,7 @@ GBR;New Concept Energy Inc;XASE
 GBTC;Grayscale Bitcoin Trust ETF;ARCX
 GBUY;Goldman Sachs Future Consumer Equity ETF;ARCX
 GBXA;Goldman Sachs U.S. Large Cap Buffer 1 ETF;BATS
+GBXB;Goldman Sachs U.S. Large Cap Buffer 2 ETF;BATS
 GCAD;Gabelli Commercial Aerospace and Defense ETF;ARCX
 GCAL;Goldman Sachs Dynamic California Municipal Income ETF;ARCX
 GCC;WisdomTree Enhanced Commodity Strategy Fund;ARCX
@@ -1821,6 +1822,7 @@ KEM;KraneShares Dynamic Emerging Markets Strategy ETF;ARCX
 KEMQ;KraneShares Emerging Markets Consumer Technology Index ETF;ARCX
 KEMX;KraneShares MSCI Emerging Markets Ex China Index ETF;ARCX
 KEUA;KraneShares European Carbon Allowance Strategy ETF;ARCX
+KFEB;Innovator U.S. Small Cap Power Buffer ETF - February;BATS
 KGRN;KraneShares MSCI China Clean Technology Index ETF;ARCX
 KHPI;Kensington Hedged Premium Income ETF;BATS
 KHYB;KraneShares Asia Pacific High Income USD Bond ETF;ARCX
@@ -1878,12 +1880,12 @@ LCR;Leuthold Core ETF;ARCX
 LCTD;BlackRock World ex U.S. Carbon Transition Readiness ETF;ARCX
 LCTU;BlackRock U.S. Carbon Transition Readiness ETF;ARCX
 LCTX;Lineage Cell Therapeutics Inc.;XASE
-LDDR;Stone Ridge 2035 Term Income ETF;BATS
-LDER;Stone Ridge 2040 Term Income ETF;BATS
+LDDR;LifeX 2035 Term Income ETF;BATS
+LDER;LifeX 2040 Term Income ETF;BATS
 LDRC;iShares iBonds 1-5 Year Corporate Ladder ETF;ARCX
 LDRH;iShares iBonds 1-5 Year High Yield and Income Ladder ETF;ARCX
 LDRI;iShares iBonds 1-5 Year TIPS Ladder ETF;ARCX
-LDRR;Stone Ridge 2045 Term Income ETF;BATS
+LDRR;LifeX 2045 Term Income ETF;BATS
 LDRT;iShares iBonds 1-5 Year Treasury Ladder ETF;ARCX
 LDUR;PIMCO Enhanced Low Duration Active Exchange-Traded Fund;ARCX
 LEAD;Siren DIVCON Leaders Dividend ETF;BATS
@@ -1986,6 +1988,8 @@ MADE;iShares U.S. Manufacturing ETF;ARCX
 MAG;MAG Silver Corp.;XASE
 MAGA;Point Bridge America First ETF;BATS
 MAGG;Madison Aggregate Bond ETF;ARCX
+MAGS;Roundhill Magnificent Seven ETF;BATS
+MAGX;Roundhill Daily 2X Long Magnificent Seven ETF;BATS
 MAIA;MAIA Biotechnology Inc.;XASE
 MAKX;ProShares S&P Kensho Smart Factories ETF;ARCX
 MAMB;Monarch Ambassador Income Index ETF;BATS
@@ -2160,6 +2164,7 @@ NEAR;iShares Short Duration Bond Active ETF;BATS
 NEN;New England Realty Associates Limited Partnership;XASE
 NETL;NETLease Corporate Real Estate ETF;ARCX
 NEWP;New Pacific Metals Corp.;XASE
+NFEB;Innovator Growth-100 Power Buffer ETF - February;BATS
 NFGC;New Found Gold Corp;XASE
 NFLP;Kurv Yield Premium Strategy Netflix (NFLX) ETF;BATS
 NFLT;Virtus Newfleet Multi-Sector Bond ETF;ARCX
@@ -2349,6 +2354,7 @@ PDN;Invesco FTSE RAFI Developed Markets ex-U.S. Small-Mid ETF;ARCX
 PED;PEDEVCO Corp.;XASE
 PEJ;Invesco Leisure and Entertainment ETF;ARCX
 PEMX;Putnam Emerging Markets ex-China ETF;ARCX
+PEVC;Pacer PE/VC ETF;ARCX
 PEX;ProShares Global Listed Private Equity ETF;BATS
 PEXL;Pacer US Export Leaders ETF;ARCX
 PFEB;Innovator U.S. Equity Power Buffer ETF - February;BATS
@@ -2400,6 +2406,7 @@ PLTY;YieldMax PLTR Option Income Strategy ETF;ARCX
 PLX;Protalix BioTherapeutics Inc. Common Stock;XASE
 PMAR;Innovator U.S. Equity Power Buffer ETF - March;BATS
 PMAY;Innovator U.S. Equity Power Buffer ETF - May;BATS
+PMFB;PGIM S&P 500 Max Buffer ETF - February;BATS
 PMIO;PGIM Municipal Income Opportunities ETF;ARCX
 PMJA;PGIM S&P 500 Max Buffer ETF - January;BATS
 PMNT;Perfect Moment Ltd.;XASE
@@ -3183,7 +3190,7 @@ USO;United States Oil Fund LP;ARCX
 USPX;Franklin U.S. Equity Index ETF;ARCX
 USRT;iShares Core U.S. REIT ETF;ARCX
 USSE;Segall Bryant & Hamill Select Equity ETF;ARCX
-USSG;Xtrackers MSCI USA ESG Leaders Equity ETF;ARCX
+USSG;Xtrackers MSCI USA Selection Equity ETF;ARCX
 UST;ProShares Ultra 7-10 Year Treasury;ARCX
 UTES;Virtus Reaves Utilities ETF;ARCX
 UTG;Reaves Utility Income Fund;XASE
@@ -3475,6 +3482,7 @@ ZBZX;BATS LISTED TEST STOCK FOR CTS CQS;BATS
 ZDEK;Innovator Equity Defined Protection ETF - 1 Yr December;BATS
 ZDGE;Zedge Inc.;XASE
 ZECP;Zacks Earnings Consistent Portfolio ETF;BATS
+ZFEB;Innovator Equity Defined Protection ETF - 1 Yr February;BATS
 ZHDG;Zega Buy & Hedge ETF;ARCX
 ZIG;The Acquirers Fund;ARCX
 ZJAN;Innovator Equity Defined Protection ETF - 1 Yr January;BATS
