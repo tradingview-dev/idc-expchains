@@ -53,7 +53,7 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name):
 
         # Extract bucket name and object key from the baseurl
         bucket_name = baseurl.split('/')[2]  # Extract the bucket name from the URL
-        object_key = '/'.join(baseurl.split('/')[3:]) + snapshot_name + '.tar.gz'  # Build the object key
+        object_key = '/'.join(baseurl.split('/')[3:]) + 'external/' + snapshot_name + '.tar.gz'  # Build the object key
 
         # Upload the archive to the S3 bucket
         try:
