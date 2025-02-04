@@ -30,10 +30,10 @@ def main():
         delivery([adx_data_regular, adx_data_fund], args.branch)
         run_s3_process_snapshot(args.branch, "adx_data_regular.json adx_data_fund.json", "adx")
     elif args.data_cluster == "asx":
-        asx_descriptions = "asx_descriptions.json"
+        asx_descriptions = "asx_descriptions.csv"
         default_request_handler("https://asx.api.markitdigital.com/asx-research/1.0/companies/directory/file", asx_descriptions)
         delivery([asx_descriptions], args.branch)
-        run_s3_process_snapshot(args.branch, "asx_descriptions.json", "asx")
+        run_s3_process_snapshot(args.branch, "asx_descriptions.csv", "asx")
     elif args.data_cluster == "biva":
         biva_handler()
         delivery(["biva_data.csv"], args.branch)
