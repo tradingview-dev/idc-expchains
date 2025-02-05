@@ -60,8 +60,9 @@ def main():
         nse_raw_listing = "nse_raw_listing.csv"
         default_request_handler("https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv", nse_raw_listing)
         nse_emerge_handler()
-        delivery([nse_raw_listing], args.branch)
-        run_s3_process_snapshot(args.branch, nse_raw_listing, "nse")
+        result_file = "nse_sme_listing.csv"
+        delivery([result_file], args.branch)
+        run_s3_process_snapshot(args.branch, result_file, "nse")
     elif args.data_cluster == "nasdaq_gids":
         nasdaq_gids_handler()
         delivery(["nasdaq_gids_symbols.csv"], args.branch)
