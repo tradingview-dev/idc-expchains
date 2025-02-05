@@ -20474,8 +20474,17 @@
   },
   {
     "companyName": "BW Offshore",
+    "country": "Bermuda",
     "isCaveatEmptor": false,
     "symbol": "BWOFY",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "BW Offshore",
+    "country": "Bermuda",
+    "isCaveatEmptor": false,
+    "symbol": "BWOSF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
   },
@@ -35430,8 +35439,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "DITHF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Daito Trust Construction Co.",
@@ -37517,8 +37526,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "DSSMY",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Dusit Thani Public Co., Ltd.",
@@ -39356,8 +39365,8 @@
     "industry": "Business services, misc",
     "isCaveatEmptor": false,
     "symbol": "EDXC",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "ELEMATEC CORP.",
@@ -39981,8 +39990,8 @@
     "industry": "Electronic & Other Electrical Equipment (No Computer Equip)",
     "isCaveatEmptor": false,
     "symbol": "EGTYF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Energy Finders, Inc.",
@@ -42790,8 +42799,8 @@
     "industry": "Computer facilities management",
     "isCaveatEmptor": false,
     "symbol": "ESYL",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Essensys PLC",
@@ -51299,8 +51308,8 @@
     "industry": "Crude petroleum and natural gas",
     "isCaveatEmptor": false,
     "symbol": "GENGF",
-    "tierCode": "QX",
-    "tierName": "OTCQX International"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Generation Hemp Inc.",
@@ -51762,6 +51771,8 @@
   },
   {
     "companyName": "GO GO BUYERS, INC.",
+    "country": "United States",
+    "industry": "Services-Computer Programming, Data Processing, Etc.",
     "isCaveatEmptor": false,
     "symbol": "GGBY",
     "tierCode": "PC",
@@ -77414,7 +77425,7 @@
     "tierName": "Pink Limited"
   },
   {
-    "companyName": "LABYRINTH RES LTD.",
+    "companyName": "GORILLA GOLD MINES LTD",
     "isCaveatEmptor": false,
     "symbol": "LRRLF",
     "tierCode": "PC",
@@ -92576,6 +92587,7 @@
   {
     "companyName": "NOVIQTECH LTD",
     "country": "Australia",
+    "industry": "Prepackaged software",
     "isCaveatEmptor": false,
     "symbol": "NVQLF",
     "tierCode": "PC",
@@ -94907,6 +94919,14 @@
     "symbol": "OJSCY",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "EVOKAI CREATIVE LABS INC.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "OKAID",
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "EVOKAI CREATIVE LABS INC.",
@@ -108546,6 +108566,24 @@
     "country": "United States",
     "industry": "Lessors of Real Property, NEC",
     "isCaveatEmptor": false,
+    "symbol": "RHEP",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Regional Health Properties, Inc.",
+    "country": "United States",
+    "industry": "Lessors of Real Property, NEC",
+    "isCaveatEmptor": false,
+    "symbol": "RHEPA",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Regional Health Properties, Inc.",
+    "country": "United States",
+    "industry": "Lessors of Real Property, NEC",
+    "isCaveatEmptor": false,
     "symbol": "RHEPB",
     "tierCode": "QB",
     "tierName": "OTCQB"
@@ -109367,8 +109405,8 @@
     "country": "South Africa",
     "isCaveatEmptor": false,
     "symbol": "RMBHF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "REMEDY ENTMT OYJ",
@@ -109571,6 +109609,14 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "RMNXF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "RAMP METALS INC.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "RMPMF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -124745,7 +124791,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Radio and TV communications equipment",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -132911,6 +132957,15 @@
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "TRSWF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Triton International Limited",
+    "country": "Bermuda",
+    "industry": "Equipment rental and leasing, misc",
+    "isCaveatEmptor": false,
+    "symbol": "TRTFF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
