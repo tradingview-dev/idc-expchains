@@ -1399,6 +1399,7 @@ HIBL;Direxion Daily S&P 500 High Beta Bull 3X Shares;ARCX
 HIBS;Direxion Daily S&P 500 High Beta Bear 3X Shares;ARCX
 HIDV;AB US High Dividend ETF;ARCX
 HIGH;Simplify Enhanced Income ETF;ARCX
+HIMU;iShares High Yield Muni Active ETF;BATS
 HIPS;GraniteShares HIPS US High Income ETF;ARCX
 HIYS;Invesco High Yield Select ETF;BATS
 HJUL;Innovator Premium Income 9 Buffer ETF - July;BATS
@@ -1441,7 +1442,6 @@ HYLB;Xtrackers USD High Yield Corporate Bond ETF;ARCX
 HYLG;Global X Health Care Covered Call & Growth ETF;ARCX
 HYLN;Hyliion Holdings Corp.;XASE
 HYMB;SPDR Nuveen Bloomberg High Yield Municipal Bond ETF;ARCX
-HYMU;iShares High Yield Muni Income Active ETF;BATS
 HYRM;Xtrackers Risk Managed USD High Yield Strategy ETF;ARCX
 HYS;PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund;ARCX
 HYSA;BondBloxx USD High Yield Bond Sector Rotation ETF;ARCX
@@ -1908,9 +1908,9 @@ LEU;Centrus Energy Corp.;XASE
 LFAE;LifeX 2048 Longevity Income ETF;BATS
 LFAF;LifeX 2049 Longevity Income ETF;BATS
 LFAI;LifeX 2050 Longevity Income ETF;BATS
-LFAJ;Stone Ridge 2051 Longevity Income ETF;BATS
-LFAK;Stone Ridge 2052 Longevity Income ETF;BATS
-LFAL;Stone Ridge 2053 Longevity Income ETF;BATS
+LFAJ;LifeX 2051 Longevity Income ETF;BATS
+LFAK;LifeX 2052 Longevity Income ETF;BATS
+LFAL;LifeX 2053 Longevity Income ETF;BATS
 LFAN;Stone Ridge 2054 Longevity Income ETF;BATS
 LFAO;Stone Ridge 2055 Longevity Income ETF;BATS
 LFAQ;Stone Ridge 2056 Longevity Income ETF;BATS
@@ -1936,9 +1936,9 @@ LGOV;First Trust Long Duration Opportunities ETF;ARCX
 LIAB;LifeX 2048 Inflation-Protected Longevity Income ETF;BATS
 LIAC;LifeX 2049 Inflation-Protected Longevity Income ETF;BATS
 LIAE;LifeX 2050 Inflation-Protected Longevity Income ETF;BATS
-LIAF;Stone Ridge 2051 Inflation-Protected Longevity Income ETF;BATS
-LIAG;Stone Ridge 2052 Inflation-Protected Longevity Income ETF;BATS
-LIAJ;Stone Ridge 2053 Inflation-Protected Longevity Income ETF;BATS
+LIAF;LifeX 2051 Inflation-Protected Longevity Income ETF;BATS
+LIAG;LifeX 2052 Inflation-Protected Longevity Income ETF;BATS
+LIAJ;LifeX 2053 Inflation-Protected Longevity Income ETF;BATS
 LIAK;Stone Ridge 2054 Inflation-Protected Longevity Income ETF;BATS
 LIAM;Stone Ridge 2055 Inflation-Protected Longevity Income ETF;BATS
 LIAO;Stone Ridge 2056 Inflation-Protected Longevity Income ETF;BATS
@@ -2052,7 +2052,7 @@ MGV;Vanguard Mega Cap  Value ETF;ARCX
 MHH;Mastech Digital Inc.;XASE
 MI;NFT Limited;XASE
 MID;American Century Mid Cap Growth Impact ETF;ARCX
-MIDE;Xtrackers S&P MidCap 400 ESG ETF;ARCX
+MIDE;Xtrackers S&P MidCap 400 Scored & Screened ETF;ARCX
 MIDU;Direxion Daily Mid Cap Bull 3X Shares;ARCX
 MIG;VanEck Moody's Analytics IG Corporate Bond ETF;BATS
 MILK;Pacer US Cash Cows Bond ETF;BATS
@@ -2812,6 +2812,7 @@ SHUS;Stratified LargeCap Hedged ETF;ARCX
 SHYD;VanEck Short High Yield Muni ETF;BATS
 SHYG;iShares 0-5 Year High Yield Corporate Bond ETF;ARCX
 SHYL;Xtrackers Short Duration High Yield Bond ETF;ARCX
+SHYM;iShares High Yield Muni Income Active ETF;BATS
 SIF;SIFCO Industries Inc.;XASE
 SIFI;Harbor Scientific Alpha Income ETF;ARCX
 SIHY;Harbor Scientific Alpha High-Yield ETF;ARCX
@@ -2873,10 +2874,10 @@ SMTH;ALPS Smith Core Plus Bond ETF;ARCX
 SNAV;Mohr Sector Nav ETF;BATS
 SNOV;FT Vest U.S. Small Cap Moderate Buffer ETF - November;BATS
 SNOY;YieldMax SNOW Option Income Strategy  ETF;ARCX
-SNPD;Xtrackers S&P ESG Dividend Aristocrats ETF;BATS
-SNPE;Xtrackers S&P 500 ESG ETF;ARCX
-SNPG;Xtrackers S&P 500 Growth ESG ETF;BATS
-SNPV;Xtrackers S&P 500 Value ESG ETF;BATS
+SNPD;Xtrackers S&P Dividend Aristocrats Screened ETF;BATS
+SNPE;Xtrackers S&P 500 Scored & Screened ETF;ARCX
+SNPG;Xtrackers S&P 500 Growth Scored & Screened ETF;BATS
+SNPV;Xtrackers S&P 500 Value Scored & Screened ETF;BATS
 SOAR;Volato Group Inc.;XASE
 SOFR;Amplify Samsung SOFR ETF;ARCX
 SOLR;SmartETFs Sustainable Energy II ETF;ARCX
