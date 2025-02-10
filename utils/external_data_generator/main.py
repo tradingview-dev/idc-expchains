@@ -12,6 +12,7 @@ from saudi import saudi_handler
 from nyse import nyse_handler
 from nasdaq_gids import nasdaq_gids_handler
 from nse_emerge import nse_emerge_handler
+from tokyo import tokyo_handler
 from upload_to_bucket import run_s3_process_snapshot
 
 
@@ -89,6 +90,10 @@ def main():
         taipei_handler()
         delivery(["taipei_descriptions.json", "taipei_local_descriptions.json"], args.branch)
         run_s3_process_snapshot(args.branch, "taipei_descriptions.json taipei_local_descriptions.json", "sse")
+    elif args.data_cluster == "tokyo":
+        tokyo_handler()
+        delivery(["tokyo_local_descriptions.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, "tokyo_local_descriptions.csv", "tokyo")
     else:
         print("No data-cluster found!")
 
