@@ -113,9 +113,7 @@ def compare_and_overwrite_files(file_names, dir1, dir2):
                 with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
                     if size1 * 2 > size2:
                         print(f"File {filename} have diff")
-                        show_diff(file1_path, file2_path)
                         shutil.copy(str(file1_path), str(file2_path))
-                        os.remove(file1_path)
                         res.append(file2_path)
                     else:
                         print(f"Skipping {filename}: New file size less twice the size of the old file.")
