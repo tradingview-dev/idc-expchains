@@ -80,7 +80,7 @@ def main():
     elif args.data_cluster == "saudi":
         saudi_handler()
         delivery(["saudi_main_market.json", "saudi_nomu_parallel_market.json"], args.branch)
-        run_s3_process_snapshot(args.branch, "saudi_main_market.json saudi_nomu_parallel_market.json", "amex")
+        run_s3_process_snapshot(args.branch, "saudi_main_market.json saudi_nomu_parallel_market.json", "saudi")
     elif args.data_cluster == "shanghai":
         shanghai_handler()
         delivery(["sse_descriptions.csv"], args.branch)
