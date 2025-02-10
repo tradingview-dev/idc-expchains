@@ -29,71 +29,71 @@ def main():
         json_request_handler(adx_url, adx_data_regular, post_data={"Status": "L", "Boad": "REGULAR", "Del": "0"})
         json_request_handler(adx_url,adx_data_fund, post_data={"Status": "L", "Boad": "FUND", "Del": "0"})
         delivery([adx_data_regular, adx_data_fund], args.branch)
-        run_s3_process_snapshot(args.branch, "adx_data_regular.json adx_data_fund.json", "adx")
+        run_s3_process_snapshot(args.branch, [adx_data_regular, adx_data_fund], "adx")
     elif args.data_cluster == "asx":
         asx_descriptions = "asx_descriptions.csv"
         default_request_handler("https://asx.api.markitdigital.com/asx-research/1.0/companies/directory/file", asx_descriptions)
         delivery([asx_descriptions], args.branch)
-        run_s3_process_snapshot(args.branch, "asx_descriptions.csv", "asx")
+        run_s3_process_snapshot(args.branch, [asx_descriptions], "asx")
     elif args.data_cluster == "biva":
         biva_handler()
         delivery(["biva_data.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "biva_data.json", "biva")
+        run_s3_process_snapshot(args.branch, ["biva_data.json"], "biva")
     elif args.data_cluster == "canada":
         canadian_descriptions = "canadian_descriptions.json"
         json_request_handler("http://webapi.thecse.com/trading/listed/market/security_maintenance.json", canadian_descriptions)
         delivery([canadian_descriptions], args.branch)
-        run_s3_process_snapshot(args.branch, "canadian_descriptions.json", "cse")
+        run_s3_process_snapshot(args.branch, [canadian_descriptions], "cse")
     elif args.data_cluster == "finra":
         factset_finra_isins = "factset_finra_isins.csv"
         default_request_handler("https://info.tradingview.com/factset_finra_isins.csv", factset_finra_isins)
-        run_s3_process_snapshot(args.branch, "factset_finra_isins.json", "finra")
         delivery([factset_finra_isins], args.branch)
+        run_s3_process_snapshot(args.branch, [factset_finra_isins], "finra")
     elif args.data_cluster == "LSX":
         lang_and_shwarz_handler(args.data_cluster)
         delivery(["LSX.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "LSX.csv", "lsx")
+        run_s3_process_snapshot(args.branch, ["LSX.csv"], "lsx")
     elif args.data_cluster == "LS":
         lang_and_shwarz_handler(args.data_cluster)
         delivery(["LS.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "LSX.cs", "ls")
+        run_s3_process_snapshot(args.branch, ["LS.csv"], "ls")
     elif args.data_cluster == "nse_emerge":
         nse_raw_listing = "nse_raw_listing.csv"
         default_request_handler("https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv", nse_raw_listing)
         nse_emerge_handler()
         result_file = "nse_sme_listing.csv"
         delivery([result_file], args.branch)
-        run_s3_process_snapshot(args.branch, result_file, "nse")
+        run_s3_process_snapshot(args.branch, [result_file], "nse")
     elif args.data_cluster == "nasdaq_gids":
         nasdaq_gids_handler()
         delivery(["nasdaq_gids_symbols.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "nasdaq_gids_symbols.csv", "gids")
+        run_s3_process_snapshot(args.branch, ["nasdaq_gids_symbols.csv"], "gids")
     elif args.data_cluster == "nasdaqtrader":
         nasdaqtrader_descriptions = "nasdaqtrader_descriptions.txt"
         default_request_handler("https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",nasdaqtrader_descriptions)
         delivery([nasdaqtrader_descriptions], args.branch)
-        run_s3_process_snapshot(args.branch, nasdaqtrader_descriptions, "nasdaq")
+        run_s3_process_snapshot(args.branch, [nasdaqtrader_descriptions], "nasdaq")
     elif args.data_cluster == "nyse":
         nyse_handler()
         delivery(["nyse_data.csv", "amex_data.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "nyse_data.csv", "nyse")
-        run_s3_process_snapshot(args.branch, "amex_data.csv", "amex")
+        run_s3_process_snapshot(args.branch, ["nyse_data.csv"], "nyse")
+        run_s3_process_snapshot(args.branch, ["amex_data.csv"], "amex")
     elif args.data_cluster == "saudi":
         saudi_handler()
         delivery(["saudi_main_market.json", "saudi_nomu_parallel_market.json"], args.branch)
-        run_s3_process_snapshot(args.branch, "saudi_main_market.json saudi_nomu_parallel_market.json", "saudi")
+        run_s3_process_snapshot(args.branch, ["saudi_main_market.json", "saudi_nomu_parallel_market.json"], "saudi")
     elif args.data_cluster == "shanghai":
         shanghai_handler()
         delivery(["sse_descriptions.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "sse_descriptions.csv", "sse",".tar.gz", 1)
+        run_s3_process_snapshot(args.branch, ["sse_descriptions.csv"], "sse",".tar.gz", 1)
     elif args.data_cluster == "taipei":
         taipei_handler()
         delivery(["taipei_descriptions.json", "taipei_local_descriptions.json"], args.branch)
-        run_s3_process_snapshot(args.branch, "taipei_descriptions.json taipei_local_descriptions.json", "sse")
+        run_s3_process_snapshot(args.branch, ["taipei_descriptions.json", "taipei_local_descriptions.json"], "sse")
     elif args.data_cluster == "tokyo":
         tokyo_handler()
         delivery(["tokyo_local_descriptions.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, "tokyo_local_descriptions.csv", "tokyo")
+        run_s3_process_snapshot(args.branch, ["tokyo_local_descriptions.csv"], "tokyo")
     else:
         print("No data-cluster found!")
 
