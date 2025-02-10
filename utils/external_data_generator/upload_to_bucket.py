@@ -3,7 +3,7 @@ import tarfile
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-def run_s3_process_snapshot(environment, input_files, snapshot_name):
+def run_s3_process_snapshot(environment, files, snapshot_name):
     ENVIRONMENT = os.environ['ENVIRONMENT']
 
     # Set the base URL for S3 based on the environment
@@ -24,9 +24,6 @@ def run_s3_process_snapshot(environment, input_files, snapshot_name):
         aws_access_key_id=os.environ['SOURCEDATA_AWS_ACCESS_KEY_ID'],
         aws_secret_access_key=os.environ['SOURCEDATA_AWS_SECRET_ACCESS_KEY'],
     )
-
-    # Split the input_files string into a list of file names
-    files = input_files.split()
 
     # Define the archive name with .tar.gz extension
     archive_name = f"{snapshot_name}.tar.gz"
