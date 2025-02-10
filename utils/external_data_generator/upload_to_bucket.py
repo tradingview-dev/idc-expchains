@@ -6,8 +6,6 @@ from botocore.exceptions import NoCredentialsError
 def run_s3_process_snapshot(environment, files, snapshot_name):
     ENVIRONMENT = os.environ['ENVIRONMENT']
 
-    # Set the base URL for S3 based on the environment
-    baseurl = "s3://tradingview-sourcedata-storage-staging/external/"
     if ENVIRONMENT == "production":
         baseurl = 's3://tradingview-sourcedata-storage'
     elif ENVIRONMENT == "stable":
@@ -18,7 +16,6 @@ def run_s3_process_snapshot(environment, files, snapshot_name):
         print(f"Unexpected param {ENVIRONMENT}")
         return  # Exit if environment is not valid
 
-    # Initialize the S3 client with AWS credentials
     s3 = boto3.client(
         's3',
         aws_access_key_id=os.environ['SOURCEDATA_AWS_ACCESS_KEY_ID'],
@@ -34,7 +31,6 @@ def run_s3_process_snapshot(environment, files, snapshot_name):
         os.makedirs(archive_dir)
         print(f"Created directory {archive_dir}")
 
-    # Create the tar.gz file
     try:
         with tarfile.open(archive_name, 'w:gz') as tarf:
             for file in files:
@@ -64,7 +60,6 @@ def run_s3_process_snapshot(environment, files, snapshot_name):
     except Exception as e:
         print(f"Error while creating tar.gz file: {e}")
 
-    # Optionally, you can remove the local archive after upload
     if os.path.exists(archive_name):
         os.remove(archive_name)
         print(f"Removed local archive {archive_name}.")
