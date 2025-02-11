@@ -3,6 +3,7 @@ import random
 import shutil
 import difflib
 import time
+import subprocess
 from fileinput import filename
 
 import requests
@@ -184,3 +185,12 @@ def delivery(file_names: list[str], branch):
         repo.remotes.origin.push()
     else:
         print(f"No changes in {branch}")
+
+
+def execute_to_file(cmd_line: list, out_file: str):
+    with open(out_file, "w", encoding="utf-8") as f:
+        cmd_result = subprocess.run(cmd_line, stdout=f)
+        if cmd_result.returncode != 0:
+            raise RuntimeError(f"External command {cmd_line} finished with non zero code: " + str(cmd_result.returncode))
+        else:
+            print(f"External command {cmd_line} finished successfully")
