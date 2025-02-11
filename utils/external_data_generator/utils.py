@@ -87,7 +87,7 @@ def json_request_handler(url: str, path: str, post_data: dict = None):
         file_writer(json_dumps(response.json(), indent=4, ensure_ascii=False), path)
 
 
-def compare_and_overwrite_files(file_names, dir1, dir2):
+def compare_and_overwrite_files(file_names, dir1, dir2, check_diff):
     """
     Compares files with the same names in two directories and overwrites the files in dir1 if they are different,
     and the new file's size does not exceed twice the size of the old file.
@@ -112,12 +112,12 @@ def compare_and_overwrite_files(file_names, dir1, dir2):
 
             if files_are_different(file1_path, file2_path):
                 with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
-                    if size1 * 2 > size2:
+                    if check_diff and size1 * 2 < size2:
+                        print(f"Skipping {filename}: New file size less twice the size of the old file.")
+                    else:
                         print(f"File {filename} have diff")
                         shutil.copy(str(file1_path), str(file2_path))
                         res.append(file2_path)
-                    else:
-                        print(f"Skipping {filename}: New file size less twice the size of the old file.")
         else:
             if os.path.exists(file1_path):
                 print(f"Skipping {filename}: File not found in both directories. {file1_path} Not found")
@@ -146,7 +146,8 @@ def files_are_different(file1_path, file2_path):
             if not chunk1:  # End of file reached
                 return False
 
-def delivery(file_names: list[str], branch):
+
+def delivery(file_names: list[str], branch, check_diff=True):
     if branch == "":
         return
     EXPCHAINS_REPO = "git@git.xtools.tv:idc/idc-expchains.git"
@@ -176,7 +177,7 @@ def delivery(file_names: list[str], branch):
         print("Successful update repo")
 
     index = repo.index
-    changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR)
+    changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR, check_diff)
     ENVIRONMENT = os.environ['ENVIRONMENT']
     if changed_files and ENVIRONMENT != "stable":
         index.add(['/'.join(p.split('/')[2:]) for p in changed_files])
