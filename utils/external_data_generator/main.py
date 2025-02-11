@@ -94,6 +94,10 @@ def main():
         tokyo_handler()
         delivery(["tokyo_local_descriptions.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["tokyo_local_descriptions.csv"], "tokyo")
+    elif args.data_cluster == "twse":
+        tokyo_handler()
+        delivery(["twse_descriptions.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, ["twse_descriptions.csv"], "twse")
     else:
         print("No data-cluster found!")
 
