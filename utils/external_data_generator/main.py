@@ -89,7 +89,7 @@ def main():
         run_s3_process_snapshot(args.branch, ["sse_descriptions.csv"], "shanghai")
     elif args.data_cluster == "taipei":
         taipei_handler()
-        delivery(["taipei_descriptions.json", "taipei_local_descriptions.json"], args.branch, check_diff=False)
+        delivery(["taipei_descriptions.json", "taipei_local_descriptions.json"], args.branch)
         run_s3_process_snapshot(args.branch, ["taipei_descriptions.json", "taipei_local_descriptions.json"], "taipei")
     elif args.data_cluster == "tokyo":
         tokyo_handler()
