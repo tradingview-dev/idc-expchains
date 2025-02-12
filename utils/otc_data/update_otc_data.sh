@@ -156,9 +156,9 @@ function download_data_snapshot() {
 
 function s3_process_snapshot() {
   # define vars
-  read -ra files <<< "defi_typespec.csv"
+  read -ra files <<< "otc_data.json"
   local -r out_dir="./out"
-  local -r snapshot_name="tvc/defi"
+  local -r snapshot_name="external/otc"
   local -r file_ext=".tar.gz"
   local -r snapshot_path="${out_dir}/${snapshot_name}${file_ext}"
   local -r remote_snapshot_path="${out_dir}/${snapshot_name}.remote${file_ext}"
