@@ -282,7 +282,7 @@ APLD|Applied Digital Corporation - Common Stock|Q|N|N|100|N|N
 APLM|Apollomics Inc. - Class A Ordinary Shares|S|N|N|100|N|N
 APLMW|Apollomics Inc. - Warrant|S|N|N|100|N|N
 APLS|Apellis Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
-APLT|Applied Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
+APLT|Applied Therapeutics, Inc. - Common Stock|G|N|D|100|N|N
 APM|Aptorum Group Limited - Class A Ordinary Shares|S|N|N|100|N|N
 APOG|Apogee Enterprises, Inc. - Common Stock|Q|N|N|100|N|N
 APP|Applovin Corporation - Class A Common Stock|Q|N|N|100|N|N
@@ -415,7 +415,7 @@ AVBP|ArriVent BioPharma, Inc. - Common Stock|G|N|N|100|N|N
 AVDL|Avadel Pharmaceuticals plc - Ordinary Share|G|N|N|100|N|N
 AVDX|AvidXchange Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 AVGO|Broadcom Inc. - Common Stock|Q|N|N|100|N|N
-AVGR|Avinger, Inc. - Common Stock|S|N|D|100|N|N
+AVGR|Avinger, Inc. - Common Stock|S|N|N|100|N|N
 AVGX|Defiance Daily Target 2X Long AVGO ETF|G|N|N|100|Y|N
 AVIR|Atea Pharmaceuticals, Inc. - common stock|Q|N|N|100|N|N
 AVL|Direxion Daily AVGO Bull 2X Shares|G|N|N|100|Y|N
@@ -536,7 +536,7 @@ BHFAP|Brighthouse Financial, Inc. - Depositary Shares 6.6% Non-Cumulative Prefer
 BHIL|Benson Hill, Inc. - Common Stock|S|N|N|100|N|N
 BHRB|Burke & Herbert Financial Services Corp. - Common Stock|S|N|N|100|N|N
 BHST|BioHarvest Sciences Inc. - Common Stock|G|N|N|100|N|N
-BIAF|bioAffinity Technologies, Inc. - Common Stock|S|N|N|100|N|N
+BIAF|bioAffinity Technologies, Inc. - Common Stock|S|N|D|100|N|N
 BIAFW|bioAffinity Technologies, Inc. - Warrant|S|N|N|100|N|N
 BIB|ProShares Ultra Nasdaq Biotechnology|G|N|N|100|Y|N
 BIDU|Baidu, Inc. - American Depositary Shares, each representing 8 ordinary share|Q|N|N|100|N|N
@@ -949,7 +949,7 @@ CLRCR|ClimateRock - Right|G|N|N|100|N|N
 CLRCU|ClimateRock - Unit|G|N|N|100|N|N
 CLRCW|ClimateRock - Warrant|G|N|N|100|N|N
 CLRO|ClearOne, Inc. - Common Stock|S|N|D|100|N|N
-CLSD|Clearside Biomedical, Inc. - Common Stock|G|N|N|100|N|N
+CLSD|Clearside Biomedical, Inc. - Common Stock|G|N|D|100|N|N
 CLSK|CleanSpark, Inc. - Common Stock|S|N|N|100|N|N
 CLSKW|CleanSpark, Inc. - Warrant|S|N|N|100|N|N
 CLSM|Cabana Target Leading Sector Moderate ETF|G|N|N|100|Y|N
@@ -1763,6 +1763,8 @@ GBBKW|Global Blockchain Acquisition Corp. - Warrant|S|N|N|100|N|N
 GBDC|Golub Capital BDC, Inc. - Closed End Fund|Q|N|N|100|N|N
 GBIO|Generation Bio Co. - Common stock|Q|N|N|100|N|N
 GCBC|Greene County Bancorp, Inc. - Common Stock|S|N|N|100|N|N
+GCL|GCL Global Holdings Ltd - Ordinary Shares|Q|N|N|100|N|N
+GCLWW|GCL Global Holdings Ltd - Warrants|Q|N|N|100|N|N
 GCMG|GCM Grosvenor Inc. - Class A Common Stock|G|N|N|100|N|N
 GCMGW|GCM Grosvenor Inc. - Warrant|G|N|N|100|N|N
 GCT|GigaCloud Technology Inc - Class A Ordinary Shares|G|N|N|100|N|N
@@ -2868,7 +2870,7 @@ MYMG|SPDR SSGA My2027 Municipal Bond ETF|G|N|N|100|Y|N
 MYMH|SPDR SSGA My2028 Municipal Bond ETF|G|N|N|100|Y|N
 MYMI|SPDR SSGA My2029 Municipal Bond ETF|G|N|N|100|Y|N
 MYMJ|SPDR SSGA My2030 Municipal Bond ETF|G|N|N|100|Y|N
-MYNA|Mynaric AG - American Depository Shares|Q|N|H|100|N|N
+MYNA|Mynaric AG - American Depository Shares|Q|N|N|100|N|N
 MYNZ|Mainz Biomed N.V. - Ordinary Shares|S|N|N|100|N|N
 MYPS|PLAYSTUDIOS, Inc.  - Class A Common Stock|G|N|N|100|N|N
 MYPSW|PLAYSTUDIOS, Inc.  - Warrant|G|N|N|100|N|N
@@ -2897,6 +2899,7 @@ NBTB|NBT Bancorp Inc. - Common Stock|Q|N|N|100|N|N
 NBTX|Nanobiotix S.A. - ADSs|Q|N|N|100|N|N
 NCEW|New Century Logistics (BVI) Limited - Ordinary Shares|S|N|N|100|N|N
 NCI|Neo-Concept International Group Holdings Limited - Ordinary Shares|S|N|D|100|N|N
+NCIQ|Hashdex Nasdaq Crypto Index US ETF - Shares of Beneficial Interest|G|N|N|100|N|N
 NCMI|National CineMedia, Inc. - Common Stock|Q|N|N|100|N|N
 NCNA|NuCana plc - American Depositary Shares|S|N|N|100|N|N
 NCNO|nCino, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3002,7 +3005,7 @@ NSI|National Security Emerging Markets Index ETF|G|N|N|100|Y|N
 NSIT|Insight Enterprises, Inc. - Common Stock|Q|N|N|100|N|N
 NSPR|InspireMD Inc. - Common Stock|S|N|N|100|N|N
 NSSC|NAPCO Security Technologies, Inc. - Common Stock|Q|N|N|100|N|N
-NSTS|NSTS Bancorp, Inc. - Common Stock|S|N|N|100|N|N
+NSTS|NSTS Bancorp, Inc. - Common Stock|S|N|D|100|N|N
 NSYS|Nortech Systems Incorporated - Common Stock|S|N|N|100|N|N
 NTAP|NetApp, Inc. - Common Stock|Q|N|N|100|N|N
 NTCL|NETCLASS TECHNOLOGY INC - Class A Ordinary Shares|S|N|N|100|N|N
@@ -3247,7 +3250,7 @@ PASG|Passage Bio, Inc. - Common Stock|S|N|D|100|N|N
 PATK|Patrick Industries, Inc. - Common Stock|Q|N|N|100|N|N
 PATN|Pacer Nasdaq International Patent Leaders ETF|G|N|N|100|Y|N
 PAVM|PAVmed Inc. - Common Stock|S|N|D|100|N|N
-PAVMZ|PAVmed Inc. - Series Z Warrant|S|N|D|100|N|N
+PAVMZ|PAVmed Inc. - Series Z Warrant|S|N|N|100|N|N
 PAVS|Paranovus Entertainment Technology Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 PAX|Patria Investments Limited - Class A Common Shares|Q|N|N|100|N|N
 PAYO|Payoneer Global Inc. - Common Stock|G|N|N|100|N|N
@@ -3845,7 +3848,7 @@ SFWL|Shengfeng Development Limited - Class A Ordinary Shares|S|N|N|100|N|N
 SGA|Saga Communications, Inc. - Class A Common Stock|G|N|N|100|N|N
 SGBX|Safe & Green Holdings Corp. - Common Stock|S|N|D|100|N|N
 SGC|Superior Group of Companies, Inc. - Common Stock|G|N|N|100|N|N
-SGD|Safe and Green Development Corporation - Common Stock|S|N|D|100|N|N
+SGD|Safe and Green Development Corporation - Common Stock|S|N|N|100|N|N
 SGHT|Sight Sciences, Inc. - Common Stock|Q|N|N|100|N|N
 SGLY|Singularity Future Technology Ltd. - Common Stock|S|N|N|100|N|N
 SGMA|SigmaTron International, Inc. - Common Stock|S|N|N|100|N|N
@@ -4781,7 +4784,7 @@ ZIONP|Zions Bancorporation N.A. - Depositary Shares each representing a 1/40th o
 ZJK|ZJK Industrial Co., Ltd. - Ordinary Shares|S|N|N|100|N|N
 ZJYL|JIN MEDICAL INTERNATIONAL LTD. - Ordinary Shares|S|N|N|100|N|N
 ZJZZT|NASDAQ TEST STOCK|Q|Y|N|100||N
-ZKIN|ZK International Group Co., Ltd - Ordinary Share|S|N|D|100|N|N
+ZKIN|ZK International Group Co., Ltd - Ordinary Share|S|N|N|100|N|N
 ZLAB|Zai Lab Limited - American Depositary Shares|G|N|N|100|N|N
 ZM|Zoom Communications, Inc. - Class A Common Stock|Q|N|N|100|N|N
 ZNTL|Zentalis Pharmaceuticals, Inc. - common stock|G|N|N|100|N|N
@@ -4805,4 +4808,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0214202507:00|||||||
+File Creation Time: 0214202521:31|||||||
