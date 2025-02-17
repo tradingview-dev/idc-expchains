@@ -8,7 +8,7 @@ def post_to_slack(product_list, attachment_header, hook):
     empty_products_list.insert(0, "symbol;group;description")
     error_list = [f"- {p}" for p in empty_products_list]
     if len(error_list) > 25:
-        error_list = ["..."] + error_list[-24:]
+        error_list = ["!TOO MANY SYMBOLS WITHOUT PRODUCT NEED TO CHECK JENKINS PLAN https://jenkins.xtools.tv/job/idc_empty_products"] + error_list[-24:]
     attachment_body = "\n".join(error_list)
     msg_attachments.append({
         "blocks": [
