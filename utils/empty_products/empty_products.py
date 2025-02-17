@@ -7,28 +7,23 @@ def post_to_slack(product_list, attachment_header, hook):
     empty_products_list = product_list.apply(lambda row: ';'.join(row.values.astype(str)), axis=1).tolist()
     empty_products_list.insert(0, "symbol;group;description")
     error_list = [f"- {p}" for p in empty_products_list]
-    len_error_list = len(error_list)
-    while true:
-        if len(error_list) > 25:
-            error_list = ["..."] + error_list[-24:]
-        attachment_body = "\n".join(error_list)
-        msg_attachments.append({
-            "blocks": [
-                {"type": "section", "text": {"type": "mrkdwn", "text": attachment_header}},
-                {"type": "section", "text": {"type": "mrkdwn", "text": attachment_body}}
-            ]
-        })
-        msg_text = f"one or several symbols not have products"
-        msg_body = [{"type": "section", "text": {"type": "mrkdwn", "text": msg_text}}]
-        msg = {
-            "blocks": msg_body,
-            "attachments": msg_attachments,
-            "link_names": "1"
-        }
-        response = requests.post(hook, json=msg)
-        len_error_list -= 24
-        if len_error_list <= 0:
-            break
+    # if len(error_list) > 25:
+        # error_list = ["..."] + error_list[-24:]
+    attachment_body = "\n".join(error_list)
+    msg_attachments.append({
+        "blocks": [
+            {"type": "section", "text": {"type": "mrkdwn", "text": attachment_header}},
+            {"type": "section", "text": {"type": "mrkdwn", "text": attachment_body}}
+        ]
+    })
+    msg_text = f"one or several symbols not have products"
+    msg_body = [{"type": "section", "text": {"type": "mrkdwn", "text": msg_text}}]
+    msg = {
+        "blocks": msg_body,
+        "attachments": msg_attachments,
+        "link_names": "1"
+    }
+    response = requests.post(hook, json=msg)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--idc_hook', type=str,
