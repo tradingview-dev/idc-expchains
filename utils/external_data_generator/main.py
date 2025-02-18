@@ -39,7 +39,7 @@ def main():
     elif args.data_cluster == "biva":
         biva_handler()
         delivery(["biva_data.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, ["biva_data.json"], "biva")
+        run_s3_process_snapshot(args.branch, ["biva_data.csv"], "biva")
     elif args.data_cluster == "canada":
         canadian_descriptions = "canadian_descriptions.json"
         json_request_handler("http://webapi.thecse.com/trading/listed/market/security_maintenance.json", canadian_descriptions)
