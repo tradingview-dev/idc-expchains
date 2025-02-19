@@ -3,7 +3,7 @@
 
 import argparse
 
-from utils import default_request_handler, json_request_handler, delivery
+from utils import default_request_handler, json_request_handler, delivery, load_from_repo
 from biva import biva_handler
 from lang_and_shwarz_data import lang_and_shwarz_handler
 from taipei import taipei_handler
@@ -51,8 +51,9 @@ def main():
         delivery([factset_finra_isins], args.branch)
         run_s3_process_snapshot(args.branch, [factset_finra_isins], "finra")
     elif args.data_cluster == "LSX":
-        lang_and_shwarz_handler(args.data_cluster)
-        delivery(["LSX.csv"], args.branch)
+        #lang_and_shwarz_handler(args.data_cluster)
+        #delivery(["LSX.csv"], args.branch)
+        load_from_repo(["LSX.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["LSX.csv"], "lsx")
     elif args.data_cluster == "LS":
         lang_and_shwarz_handler(args.data_cluster)
