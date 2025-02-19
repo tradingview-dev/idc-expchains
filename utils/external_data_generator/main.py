@@ -51,14 +51,12 @@ def main():
         delivery([factset_finra_isins], args.branch)
         run_s3_process_snapshot(args.branch, [factset_finra_isins], "finra")
     elif args.data_cluster == "LSX":
-        #lang_and_shwarz_handler(args.data_cluster)
-        #delivery(["LSX.csv"], args.branch)
-        load_from_repo(["LSX.csv"], args.branch)
+        lang_and_shwarz_handler(args.data_cluster)
+        delivery(["LSX.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["LSX.csv"], "lsx")
     elif args.data_cluster == "LS":
-        #lang_and_shwarz_handler(args.data_cluster)
-        #delivery(["LS.csv"], args.branch)
-        load_from_repo(["LS.csv"], args.branch)
+        lang_and_shwarz_handler(args.data_cluster)
+        delivery(["LS.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["LS.csv"], "ls")
     elif args.data_cluster == "nse_emerge":
         nse_raw_listing = "nse_raw_listing.csv"
