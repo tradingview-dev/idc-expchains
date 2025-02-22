@@ -28,7 +28,7 @@ ADIV;SmartETFs Asia Pacific Dividend Builder ETF;ARCX
 ADME;Aptus Behavioral Momentum ETF;BATS
 ADPV;Adaptiv Select ETF;ARCX
 ADVE;Matthews Asia Dividend Active ETF;ARCX
-AEF;abrdn Emerging Markets Equity Income Fund Inc.;XASE
+AEF;abrdn Emerging Markets ex-China Fund Inc.;XASE
 AEON;AEON Biopharma Inc.;XASE
 AESR;Anfield U.S. Equity Sector Rotation ETF;BATS
 AETH;Bitwise Trendwise Ether and Treasuries Rotation Strategy ETF;ARCX
@@ -73,7 +73,6 @@ AMDY;YieldMax AMD Option Income Strategy ETF;ARCX
 AMJB;Alerian MLP Index ETNs due January 28 2044;ARCX
 AMLP;Alerian MLP ETF;ARCX
 AMOM;Qraft AI-Enhanced US Large Cap Momentum ETF;ARCX
-AMPD;CNIC ICE U.S. Carbon Neutral Power Futures Index ETF;ARCX
 AMS;American Shared Hospital Services;XASE
 AMUB;ETRACS Alerian MLP Index ETN Series B due July 18 2042;ARCX
 AMZA;InfraCap MLP ETF;ARCX
@@ -405,7 +404,7 @@ CCMG;CCM Global Equity ETF;ARCX
 CCOR;Core Alternative Capital;ARCX
 CCRV;iShares Commodity Curve Carry Strategy ETF;ARCX
 CDEI;Calvert US Large-Cap Diversity Equity and Inclusion Index ETF;ARCX
-CDX;Simplify High Yield PLUS Credit Hedge ETF;ARCX
+CDX;Simplify High Yield ETF;ARCX
 CEF;Sprott Physical Gold and Silver Trust;ARCX
 CEFD;ETRACS Monthly Pay 1.5X Leveraged Closed-End Fund Index ETN;ARCX
 CEFS;Saba Closed-End Funds ETF;BATS
@@ -1000,6 +999,7 @@ FDVL;Foundations Dynamic Value ETF;BATS
 FDVV;Fidelity High Dividend ETF;ARCX
 FDWM;Fidelity Women's Leadership ETF;ARCX
 FEAC;Fidelity Enhanced U.S. All-Cap Equity ETF;ARCX
+FEBM;FT Vest U.S. Equity Max Buffer ETF - February;BATS
 FEBP;PGIM S&P 500 Buffer 12 ETF - February;BATS
 FEBT;AllianzIM U.S. Large Cap Buffer10 Feb ETF;ARCX
 FEBU;AllianzIM U.S. Equity Buffer15 Uncapped Feb ETF;BATS
@@ -1349,6 +1349,7 @@ GTE;Gran Tierra Energy Inc.;XASE
 GTEK;Goldman Sachs Future Tech Leaders Equity ETF;ARCX
 GTIP;Goldman Sachs Access Inflation Protected USD Bond ETF;BATS
 GTO;Invesco Total Return Bond ETF;ARCX
+GTOS;Invesco Short Duration Total Return Bond ETF;BATS
 GUMI;Goldman Sachs Ultra Short Municipal Income ETF;ARCX
 GUNR;FlexShares Global Upstream Natural Resources Index Fund;ARCX
 GUNZ;Tuttle Capital Self Defense Index ETF;BATS
@@ -1584,7 +1585,6 @@ IMCB;iShares Morningstar Mid-Cap ETF;ARCX
 IMCG;iShares Morningstar Mid-Cap Growth ETF;ARCX
 IMFL;Invesco International Developed Dynamic Multifactor ETF;BATS
 IMO;Imperial Oil Limited;XASE
-IMSI;Invesco Municipal Strategic Income ETF;BATS
 IMTB;iShares Core 5-10 Year USD Bond ETF;ARCX
 IMTM;iShares MSCI Intl Momentum Factor ETF;ARCX
 INCE;Franklin Income Equity Focus ETF;ARCX
@@ -1633,13 +1633,13 @@ IQSI;NYLI Candriam International Equity ETF;ARCX
 IQSM;NYLI Candriam U.S. Mid Cap Equity ETF;ARCX
 IQSU;NYLI Candriam U.S. Large Cap Equity ETF;ARCX
 IRET;iREIT MarketVector Quality REIT Index ETF;ARCX
+IROC;Invesco Rochester High Yield Municipal ETF;BATS
 IRTR;iShares LifePath Retirement ETF;ARCX
 IRVH;Global X Interest Rate Volatility & Inflation Hedge ETF;ARCX
 ISCB;iShares Morningstar Small-Cap ETF;ARCX
 ISCF;iShares International Small Cap Equity Factor ETF;ARCX
 ISCG;iShares Morningstar Small-Cap Growth ETF;ARCX
 ISCV;iShares Morningstar Small-Cap Value ETF;ARCX
-ISDB;Invesco Short Duration Bond ETF;BATS
 ISEP;Innovator International Developed Power Buffer ETF - September;ARCX
 ISMD;Inspire Small/Mid Cap ETF;ARCX
 ISPY;ProShares S&P 500 High Income ETF;BATS
@@ -2020,6 +2020,7 @@ MARO;YieldMax MARA Option Income Strategy ETF;ARCX
 MART;AllianzIM U.S. Large Cap Buffer10 Mar ETF;ARCX
 MARW;AllianzIM U.S. Large Cap Buffer20 Mar ETF;ARCX
 MARZ;TrueShares Structured Outcome (March) ETF;BATS
+MAVF;Matrix Advisors Value ETF;ARCX
 MAXJ;iShares Large Cap Max Buffer Jun ETF;BATS
 MAYP;PGIM S&P 500 Buffer 12 ETF - May;BATS
 MAYT;AllianzIM U.S. Large Cap Buffer10 May ETF;ARCX
@@ -2559,6 +2560,7 @@ QLVD;FlexShares Developed Markets ex-US Quality Low Volatility Index Fund;ARCX
 QLVE;FlexShares Emerging Markets Quality Low Volatility Index Fund;ARCX
 QMAG;FT Vest Nasdaq-100 Moderate Buffer ETF - August;BATS
 QMAR;FT Vest Growth-100 Buffer ETF - March;BATS
+QMFE;FT Vest Nasdaq-100 Moderate Buffer ETF - February;BATS
 QMMY;FT Vest Nasdaq-100 Moderate Buffer ETF - May;BATS
 QMNV;FT Vest Nasdaq-100 Moderate Buffer ETF - November;BATS
 QPFF;American Century Quality Preferred ETF;BATS
