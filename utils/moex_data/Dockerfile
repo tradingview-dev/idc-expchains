@@ -10,9 +10,9 @@ ARG DST_SCRIPT_PATH="/var/tmp/moex_data"
 ARG SRC_SCRIPT_PATH="moex_data"
 ARG SCRIPT_NAME="update_moex_data.py"
 
-ARG DST_LIB_PATH="/var/tmp/moex_data/utils/lib"
+ARG DST_LIB_PATH="/var/tmp/moex_data/lib"
 
-COPY "lib" "${DST_LIB_PATH}/"
+COPY "../lib" "${DST_LIB_PATH}/"
 COPY "${SRC_SCRIPT_PATH}/${SCRIPT_NAME}" "${DST_SCRIPT_PATH}/"
 
 WORKDIR "${DST_SCRIPT_PATH}"

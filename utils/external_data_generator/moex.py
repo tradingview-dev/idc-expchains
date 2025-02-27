@@ -7,10 +7,8 @@ import os
 import sys
 from collections import deque
 from json import JSONDecodeError
-from pathlib import Path
-from typing import Final, Mapping, Generic, TypeVar
+from typing import Mapping, Generic, TypeVar
 
-from git import Repo, IndexFile
 from requests import request, RequestException
 
 from lib.ConsoleOutput import ConsoleOutput
@@ -51,12 +49,12 @@ class LoggedRequest(Generic[T]):
                 raise RequestException("Response is empty")
             return resp.json()
         except RequestException as e:
-            logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+            self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
             self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method:")
             self._logger.error(e)
             raise e
         except JSONDecodeError as e:
-            logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+            self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
             self._logger.error(f"Failed to decode response: {e.msg}\nStart index of doc where parsing failed {e.pos}, line {e.lineno}, column {e.colno}")
             raise e
 
@@ -174,60 +172,12 @@ def request_page(requester: LoggedRequest, base_url: str, headers: dict[str, str
     return response, int(cursor['PAGESIZE']), int(cursor['TOTAL'])
 
 
-def show_diff_content(logger: ConsoleOutput, index: IndexFile):
-
-    # Создаём объект Diff, сравнивающий рабочее дерево с HEAD
-    diff = index.diff('HEAD')
-
-    logger.weak_warn("Changes to be committed:")
-    for change in diff:
-        logger.weak_warn(f"{change.change_type}: {change.b_path}")
-
-
-def main(logger: ConsoleOutput, branch: str | None):
-
-    if not branch:
-        logger.info("Please specify expchains branch")
-        return 1
-
-    if branch == "staging":
-        logger.info("Files will be uploaded to staging storage")
-    else:
-        logger.warn("Files will be uploaded to production storage")
-
-    EXPCHAINS_REPO: Final[str] = "git@git.xtools.tv:idc/idc-expchains.git"
-    EXPCHAINS_DIR: Final[str] = "./idc-expchains"
-
-    if not os.path.exists(EXPCHAINS_DIR):
-        logger.info(f"Cloning branch {branch} from repo {branch}... ", False)
-        try:
-            repo = Repo.clone_from(EXPCHAINS_REPO, EXPCHAINS_DIR, branch=branch, depth=1, single_branch=True)
-        except Exception as e:
-            logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-            raise e
-        logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
-    else:
-        repo = Repo(EXPCHAINS_DIR)
-        logger.info(f"Updating branch {branch} from repo {EXPCHAINS_REPO}... ", False)
-        try:
-            # Fetch updates
-            origin = repo.remotes.origin
-            origin.fetch()
-            # Checkout to the specified branch
-            repo.heads[branch].checkout()
-            # Pull changes
-            origin.pull()
-        except Exception as e:
-            logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-            raise e
-        logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
-
-    Path(f"{EXPCHAINS_DIR}/dictionaries").mkdir(parents=True, exist_ok=True)
+def update_moex_data(logger: ConsoleOutput) -> int:
 
     dictionaries_paths = {
-        "boards_securities": f"{EXPCHAINS_DIR}/dictionaries/moex_boards_securities.json",
-        "index_boards_securities": f"{EXPCHAINS_DIR}/dictionaries/moex_index_boards_securities.json",
-        "stock_rates": f"{EXPCHAINS_DIR}/dictionaries/moex_stock_rates.json"
+        "boards_securities": "moex_boards_securities.json",
+        "index_boards_securities": "moex_index_boards_securities.json",
+        "stock_rates": f"moex_stock_rates.json"
     }
 
     headers = {
@@ -241,7 +191,6 @@ def main(logger: ConsoleOutput, branch: str | None):
     if not os.path.getsize(dictionaries_paths["boards_securities"]):
         logger.error("Requested data are empty")
         return 1
-
 
     index_boards_securities_url = "https://iss.moex.com/iss/engines/stock/markets/index/securities.json"
     logger.info(f"Requesting index boards securities... ", False)
@@ -269,22 +218,17 @@ def main(logger: ConsoleOutput, branch: str | None):
         logger.error("Requested data are empty")
         return 1
 
-    index = repo.index
-    index.add(['/'.join(p.split('/')[2:]) for p in dictionaries_paths.values()])
+    return 0
 
-    if repo.is_dirty():
-        logger.info(f"Updating expchains in {branch}... ")
-        show_diff_content(logger, index)
-        index.commit("Autocommit MOEX data")
-        repo.remotes.origin.push()
-    else:
-        logger.info(f"No changes in {branch}")
+
+def moex_handler():
+    logger = ConsoleOutput(os.path.splitext(os.path.basename(__file__))[0])
+    try:
+        return update_moex_data(logger)
+    except Exception as e:
+        logger.error(e)
+        return 1
 
 
 if __name__ == "__main__":
-    logger = ConsoleOutput(os.path.splitext(os.path.basename(__file__))[0])
-    try:
-        sys.exit(main(logger, sys.argv[1] if len(sys.argv) > 1 else None))
-    except Exception as e:
-        logger.error(e)
-        sys.exit(1)
+    sys.exit(moex_handler())
