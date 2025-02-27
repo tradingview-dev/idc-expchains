@@ -36,7 +36,9 @@ ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
 ARG SRC_SCRIPT_PATH="external_data_generator"
 ARG SCRIPT_NAME="main.py"
 
+ARG DST_LIB_PATH="/var/tmp/external_data_generator/lib"
 
+COPY "../lib" "${DST_LIB_PATH}/"
 COPY "${SRC_SCRIPT_PATH}/*" "${DST_SCRIPT_PATH}/"
 
 WORKDIR "${DST_SCRIPT_PATH}"
