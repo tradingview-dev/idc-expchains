@@ -188,6 +188,42 @@ def delivery(file_names: list[str], branch, check_diff=True):
         print(f"No changes in {branch}")
 
 
+def load_from_repo(file_names: list[str], branch):
+    if branch == "":
+        return
+    EXPCHAINS_REPO = "git@git.xtools.tv:idc/idc-expchains.git"
+    EXPCHAINS_DIR = "./idc-expchains"
+    DICTIONARY_DIR = os.path.join(EXPCHAINS_DIR, 'dictionaries')
+    NEW_FILES_DIR = "/var/tmp"
+    NEW_FILES_DIR = os.path.join(NEW_FILES_DIR, "external_data_generator")
+
+    if not os.path.exists(EXPCHAINS_DIR):
+        try:
+            repo = Repo.clone_from(EXPCHAINS_REPO, EXPCHAINS_DIR, branch=branch, depth=1, single_branch=True)
+        except Exception as e:
+            print("Fail to clone git repo")
+            raise e
+        print("Successful clone")
+    else:
+        repo = Repo(EXPCHAINS_DIR)
+        print(f"Updating branch {branch} from repo {EXPCHAINS_REPO}... ", False)
+        try:
+            origin = repo.remotes.origin
+            origin.fetch()
+            repo.heads[branch].checkout()
+            origin.pull()
+        except Exception as e:
+            print("Fail to update repo")
+            raise e
+        print("Successful update repo")
+
+    for f_name in file_names:
+        print(f"Copy {f_name} from repo")
+        repo_file = os.path.join(DICTIONARY_DIR, f_name)
+        target_file = os.path.join(NEW_FILES_DIR, f_name)
+        shutil.copy(repo_file, target_file)
+
+
 def execute_to_file(cmd_line: list, out_file: str):
     with open(out_file, "w", encoding="utf-8") as f:
         cmd_result = subprocess.run(cmd_line, stdout=f)
