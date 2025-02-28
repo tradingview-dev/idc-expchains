@@ -3,7 +3,7 @@
 
 import argparse
 
-from utils import default_request_handler, json_request_handler, delivery
+from utils import default_request_handler, json_request_handler, delivery, load_from_repo
 from biva import biva_handler
 from lang_and_shwarz_data import lang_and_shwarz_handler
 from taipei import taipei_handler
@@ -51,13 +51,17 @@ def main():
         delivery([factset_finra_isins], args.branch)
         run_s3_process_snapshot(args.branch, [factset_finra_isins], "finra")
     elif args.data_cluster == "LSX":
-        lang_and_shwarz_handler(args.data_cluster)
-        delivery(["LSX.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, ["LSX.csv"], "lsx")
+        #lang_and_shwarz_handler(args.data_cluster)
+        files = ["LSX.csv"]
+        load_from_repo(files, args.branch)
+        #delivery(files, args.branch)
+        run_s3_process_snapshot(args.branch, files, "lsx")
     elif args.data_cluster == "LS":
-        lang_and_shwarz_handler(args.data_cluster)
-        delivery(["LS.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, ["LS.csv"], "ls")
+        #lang_and_shwarz_handler(args.data_cluster)
+        files = ["LS.csv"]
+        load_from_repo(files, args.branch)
+        #delivery(files, args.branch)
+        run_s3_process_snapshot(args.branch, files, "ls")
     elif args.data_cluster == "nse_emerge":
         nse_raw_listing = "nse_raw_listing.csv"
         default_request_handler("https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv", nse_raw_listing)
