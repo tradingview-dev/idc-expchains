@@ -1,5 +1,4 @@
 FROM ubuntu:24.04
-ARG PATH_TO_LIB
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -27,18 +26,18 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/
 
 
-RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
-    unzip awscliv2.zip && \
+RUN curl -s "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
+    unzip -q awscliv2.zip && \
     ./aws/install && \
     rm -rf awscliv2.zip
 
 ARG DST_SCRIPT_PATH="/var/tmp/external_data_generator"
-ARG SRC_SCRIPT_PATH="external_data_generator"
+ARG SRC_SCRIPT_PATH="/utils/external_data_generator"
 ARG SCRIPT_NAME="main.py"
 
 ARG DST_LIB_PATH="/var/tmp/external_data_generator/lib"
 
-COPY "../lib" "${DST_LIB_PATH}/"
+COPY "lib" "${DST_LIB_PATH}/"
 COPY "${SRC_SCRIPT_PATH}/*" "${DST_SCRIPT_PATH}/"
 
 WORKDIR "${DST_SCRIPT_PATH}"
