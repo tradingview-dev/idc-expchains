@@ -149,7 +149,9 @@ def files_are_different(file1_path, file2_path):
 
 def delivery(file_names: list[str], branch, check_diff=True):
     if branch == "":
+        print("Branch is not specified")
         return
+
     EXPCHAINS_REPO = "git@git.xtools.tv:idc/idc-expchains.git"
     EXPCHAINS_DIR = "./idc-expchains"
     DICTIONARY_DIR = os.path.join(EXPCHAINS_DIR, 'dictionaries')
