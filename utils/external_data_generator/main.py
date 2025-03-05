@@ -15,6 +15,7 @@ from nse_emerge import nse_emerge_handler
 from tokyo import tokyo_handler
 from twse import twse_handler
 from moex import moex_handler
+from korea import korea_handler
 from upload_to_bucket import run_s3_process_snapshot
 
 
@@ -112,6 +113,10 @@ def main():
             "moex_boards_securities.json",
             "moex_index_boards_securities.json",
             "moex_stock_rates.json"], "moex")
+    elif args.data_cluster == "korea":
+        korea_handler()
+        delivery(["korea_local_descriptions.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, ["korea_local_descriptions.csv"], "korea")
     else:
         print("No data-cluster found!")
 
