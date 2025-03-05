@@ -14,6 +14,7 @@ from nasdaq_gids import nasdaq_gids_handler
 from nse_emerge import nse_emerge_handler
 from tokyo import tokyo_handler
 from twse import twse_handler
+from korea import korea_handler
 from upload_to_bucket import run_s3_process_snapshot
 
 
@@ -99,6 +100,10 @@ def main():
         twse_handler()
         delivery(["twse_descriptions.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["twse_descriptions.csv"], "twse")
+    elif args.data_cluster == "korea":
+        korea_handler()
+        delivery(["korea_local_descriptions.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, ["korea_local_descriptions.csv"], "korea")
     else:
         print("No data-cluster found!")
 
