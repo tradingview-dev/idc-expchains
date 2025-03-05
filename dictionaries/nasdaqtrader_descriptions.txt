@@ -32,8 +32,8 @@ ABSI|Absci Corporation - Common Stock|Q|N|N|100|N|N
 ABTS|Abits Group Inc - Ordinary Shares|S|N|D|100|N|N
 ABUS|Arbutus Biopharma Corporation - Common Stock|Q|N|N|100|N|N
 ABVC|ABVC BioPharma, Inc. - Common Stock|S|N|D|100|N|N
-ABVE|Above Food Ingredients Inc. - Common Stock|G|N|D|100|N|N
-ABVEW|Above Food Ingredients Inc. - Warrant|G|N|N|100|N|N
+ABVE|Above Food Ingredients Inc. - Common Stock|G|N|H|100|N|N
+ABVEW|Above Food Ingredients Inc. - Warrant|G|N|E|100|N|N
 ABVX|Abivax SA - American Depositary Shares|G|N|N|100|N|N
 ACAD|ACADIA Pharmaceuticals Inc. - Common Stock|Q|N|N|100|N|N
 ACB|Aurora Cannabis Inc. - Common Shares|S|N|N|100|N|N
@@ -984,8 +984,8 @@ CNTY|Century Casinos, Inc. - Common Stock|S|N|N|100|N|N
 CNVS|Cineverse Corp. - Class A Common Stock|S|N|N|100|N|N
 CNXC|Concentrix Corporation - Common Stock|Q|N|N|100|N|N
 CNXN|PC Connection, Inc. - Common Stock|Q|N|N|100|N|N
-COCH|Envoy Medical, Inc. - Class A Common Stock|S|N|N|100|N|N
-COCHW|Envoy Medical, Inc. - Warrant|S|N|N|100|N|N
+COCH|Envoy Medical, Inc. - Class A Common Stock|S|N|D|100|N|N
+COCHW|Envoy Medical, Inc. - Warrant|S|N|D|100|N|N
 COCO|The Vita Coco Company, Inc. - Common Stock|Q|N|N|100|N|N
 COCP|Cocrystal Pharma, Inc. - Common Stock|S|N|N|100|N|N
 CODA|Coda Octopus Group, Inc. - Common stock|S|N|N|100|N|N
@@ -1049,7 +1049,6 @@ CRGO|Freightos Limited - Ordinary shares|S|N|N|100|N|N
 CRGOW|Freightos Limited - Warrants|S|N|N|100|N|N
 CRGX|CARGO Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 CRIS|Curis, Inc. - Common Stock|S|N|D|100|N|N
-CRKN|Crown Electrokinetics Corp. - Common Stock|S|N|D|100|N|N
 CRMD|CorMedix Inc. - Common Stock|G|N|N|100|N|N
 CRML|Critical Metals Corp. - Ordinary Shares|G|N|N|100|N|N
 CRMLW|Critical Metals Corp. - Warrants|S|N|N|100|N|N
@@ -1318,7 +1317,7 @@ EBON|Ebang International Holdings Inc. - Class A Ordinary Shares|Q|N|N|100|N|N
 EBTC|Enterprise Bancorp Inc - Common Stock|Q|N|N|100|N|N
 ECBK|ECB Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 ECDA|ECD Automotive Design, Inc. - Common Stock|S|N|H|100|N|N
-ECDAW|ECD Automotive Design, Inc. - Warrant|S|N|E|100|N|N
+ECDAW|ECD Automotive Design, Inc. - Warrant|S|N|H|100|N|N
 ECOR|electroCore, Inc. - Common Stock|S|N|N|100|N|N
 ECOW|Pacer Emerging Markets Cash Cows 100 ETF|G|N|N|100|Y|N
 ECPG|Encore Capital Group Inc - Common Stock|Q|N|N|100|N|N
@@ -1606,7 +1605,7 @@ FLD|Fold Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
 FLDB|Fidelity Low Duration Bond ETF|G|N|N|100|Y|N
 FLDDW|Fold Holdings, Inc. - Warrant|S|N|N|100|N|N
 FLEX|Flex Ltd. - Ordinary Shares|Q|N|N|100|N|N
-FLGC|Flora Growth Corp. - Common Stock|S|N|N|100|N|N
+FLGC|Flora Growth Corp. - Common Stock|S|N|D|100|N|N
 FLGT|Fulgent Genetics, Inc. - Common Stock|G|N|N|100|N|N
 FLIC|The First of Long Island Corporation - Common Stock|S|N|N|100|N|N
 FLL|Full House Resorts, Inc. - Common Stock|S|N|N|100|N|N
@@ -2099,9 +2098,10 @@ IBB|iShares Biotechnology ETF|G|N|N|100|Y|N
 IBBQ|Invesco Nasdaq Biotechnology ETF|G|N|N|100|Y|N
 IBCP|Independent Bank Corporation - Common Stock|Q|N|N|100|N|N
 IBEX|IBEX Limited - Common Share|G|N|N|100|N|N
-IBG|Innovation Beverage Group Limited - Ordinary Shares|S|N|N|100|N|N
+IBG|Innovation Beverage Group Limited - Ordinary Shares|S|N|D|100|N|N
 IBGA|iShares iBonds Dec 2044 Term Treasury ETF|G|N|N|100|Y|N
 IBGK|iShares iBonds Dec 2054 Term Treasury ETF|G|N|N|100|Y|N
+IBIO|iBio, Inc. - Common Stock|S|N|N|100|N|N
 IBIT|iShares Bitcoin Trust ETF|G|N|N|100|Y|N
 IBKR|Interactive Brokers Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
 IBOC|International Bancshares Corporation - Common Stock|Q|N|N|100|N|N
@@ -2689,7 +2689,7 @@ MDXH|MDxHealth SA - Ordinary Shares|S|N|N|100|N|N
 ME|23andMe Holding Co. - Common Stock|S|N|N|100|N|N
 MEDP|Medpace Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 MEDX|Horizon Kinetics Medical ETF|G|N|N|100|Y|N
-MEGL|Magic Empire Global Limited - Class A Ordinary Shares|S|N|D|100|N|N
+MEGL|Magic Empire Global Limited - Class A Ordinary Shares|S|N|N|100|N|N
 MEIP|MEI Pharma, Inc. - Common Stock|S|N|N|100|N|N
 MELI|MercadoLibre, Inc. - Common Stock|Q|N|N|100|N|N
 MEMS|Matthews Emerging Markets Discovery Active ETF|G|N|N|100|Y|N
@@ -2801,7 +2801,7 @@ MRM|MEDIROM Healthcare Technologies Inc. - American Depositary Share|S|N|N|100|N
 MRNA|Moderna, Inc. - Common Stock|Q|N|N|100|N|N
 MRNO|Murano Global Investments PLC - Ordinary Shares|S|N|N|100|N|N
 MRNOW|Murano Global Investments PLC - Warrants|S|N|N|100|N|N
-MRSN|Mersana Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
+MRSN|Mersana Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
 MRTN|Marten Transport, Ltd. - Common Stock|Q|N|N|100|N|N
 MRUS|Merus N.V. - Common Shares|G|N|N|100|N|N
 MRVI|Maravai LifeSciences Holdings, Inc. - Class A common stock|Q|N|N|100|N|N
@@ -2842,7 +2842,7 @@ MTVA|MetaVia Inc.  - Common Stock|S|N|N|100|N|N
 MU|Micron Technology, Inc. - Common Stock|Q|N|N|100|N|N
 MUD|Direxion Daily MU Bear 1X Shares|G|N|N|100|Y|N
 MULL|GraniteShares 2x Long MU Daily ETF|G|N|N|100|Y|N
-MULN|Mullen Automotive, Inc. - Common Stock|S|N|N|100|N|N
+MULN|Mullen Automotive, Inc. - Common Stock|S|N|D|100|N|N
 MURA|Mural Oncology plc - Ordinary Shares|G|N|N|100|N|N
 MUU|Direxion Daily MU Bull 2X Shares|G|N|N|100|Y|N
 MVBF|MVB Financial Corp. - Common Stock|S|N|N|100|N|N
@@ -2958,8 +2958,6 @@ NIVFW|NewGenIvf Group Limited - Warrants|S|N|N|100|N|N
 NIXT|Research Affiliates Deletions ETF|G|N|N|100|Y|N
 NIXX|Nixxy, Inc. - Common Stock|S|N|N|100|N|N
 NIXXW|Nixxy, Inc. - Warrant|S|N|N|100|N|N
-NKGN|NKGen Biotech, Inc. - Common Stock|G|N|H|100|N|N
-NKGNW|NKGen Biotech, Inc. - Warrants|S|N|E|100|N|N
 NKSH|National Bankshares, Inc. - Common Stock|S|N|N|100|N|N
 NKTR|Nektar Therapeutics - Common Stock|S|N|N|100|N|N
 NKTX|Nkarta, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3204,7 +3202,7 @@ OSUR|OraSure Technologies, Inc. - Common Stock|Q|N|N|100|N|N
 OSW|OneSpaWorld Holdings Limited - Common Shares|S|N|N|100|N|N
 OTEX|Open Text Corporation - Common Shares|Q|N|N|100|N|N
 OTLK|Outlook Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
-OTLY|Oatly Group AB - American Depositary Shares|Q|N|D|100|N|N
+OTLY|Oatly Group AB - American Depositary Shares|Q|N|N|100|N|N
 OTRK|Ontrak, Inc. - Common Stock|S|N|N|100|N|N
 OTTR|Otter Tail Corporation - Common Stock|Q|N|N|100|N|N
 OUST|Ouster, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3372,6 +3370,7 @@ PMEC|Primech Holdings Ltd. - Ordinary Shares|S|N|D|100|N|N
 PMN|ProMIS Neurosciences Inc. - Common Shares|S|N|D|100|N|N
 PMTS|CPI Card Group Inc. - Common Stock|G|N|N|100|N|N
 PMVP|PMV Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
+PN|Skycorp Solar Group Limited - Ordinary Shares|S|N|N|100|N|N
 PNBK|Patriot National Bancorp Inc. - Common Stock|G|N|N|100|N|N
 PNFP|Pinnacle Financial Partners, Inc. - Common Stock|Q|N|N|100|N|N
 PNFPP|Pinnacle Financial Partners, Inc. - Depositary shares of Pinnacle Financial Partners, Inc., each representing a 1/40th Interest in a share of its 6.75% Fixed-Rate Non-Cumulative Perpetual Preferred Stock, Series B|Q|N|N|100|N|N
@@ -4022,7 +4021,7 @@ SPOK|Spok Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 SPPL|SIMPPLE LTD. - Ordinary Shares|S|N|D|100|N|N
 SPRB|Spruce Biosciences, Inc. - Common Stock|S|N|D|100|N|N
 SPRC|SciSparc Ltd. - Ordinary Shares|S|N|D|100|N|N
-SPRO|Spero Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
+SPRO|Spero Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
 SPRX|Spear Alpha ETF|G|N|N|100|Y|N
 SPRY|ARS Pharmaceuticals, Inc. - Common Stock|G|N|N|100|N|N
 SPSC|SPS Commerce, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4803,4 +4802,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0304202506:00|||||||
+File Creation Time: 0305202503:02|||||||
