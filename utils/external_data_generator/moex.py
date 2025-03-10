@@ -206,7 +206,7 @@ def update_moex_data(logger: ConsoleOutput) -> int:
         logger.error("Requested data are empty")
         return 1
 
-    rates_base_url = "http://iss.moex.com/iss/apps/infogrid/stock/rates.json"
+    rates_base_url = "https://iss.moex.com/iss/apps/infogrid/stock/rates.json"
     rates_base_url_params = {"_": 1607005374424, "lang": "ru", "iss.meta": "off", "sort_order": "asc", "sort_column": "SECID"}
     morning_rates_url_params = rates_base_url_params | {"morning": 1}
     morning_moex_stock_rates = paginated_request(logger, rates_base_url, headers, morning_rates_url_params, 0, 100)
