@@ -13,6 +13,7 @@ RUN apt-get update && \
         python3-bs4 \
         python3-boto3 \
         python3-httplib2 \
+        python3-pandas \
         openssh-client \
         curl \
         ca-certificates \
