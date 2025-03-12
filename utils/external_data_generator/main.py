@@ -17,7 +17,7 @@ from twse import twse_handler
 from moex import moex_handler
 from korea import korea_handler
 from upload_to_bucket import run_s3_process_snapshot
-from utils.external_data_generator.cftc_code import cftc_handler
+from cftc_code import cftc_handler
 
 
 def main():
