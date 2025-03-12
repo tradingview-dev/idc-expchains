@@ -17,6 +17,7 @@ from twse import twse_handler
 from moex import moex_handler
 from korea import korea_handler
 from upload_to_bucket import run_s3_process_snapshot
+from utils.external_data_generator.cftc_code import cftc_handler
 
 
 def main():
@@ -115,6 +116,9 @@ def main():
         korea_handler()
         delivery(["korea_local_descriptions.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["korea_local_descriptions.csv"], "korea")
+    elif args.data_cluster == "cftc":
+        cftc_handler()
+        run_s3_process_snapshot(args.branch, ["strike-price-report.csv"], "cftc")
     else:
         print("No data-cluster found!")
 
