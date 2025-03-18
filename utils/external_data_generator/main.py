@@ -120,7 +120,15 @@ def main():
         run_s3_process_snapshot(args.branch, ["korea_local_descriptions.csv"], "korea")
     elif args.data_cluster == "cftc":
         cftc_handler()
-        run_s3_process_snapshot(args.branch, ["strike-price-report.csv"], "cftc")
+        run_s3_process_snapshot(args.branch, ["cftc_CBOT.csv",
+                                              "cftc_CME.csv"
+                                              "cftc_ICEUS.csv"
+                                              "cftc_COMEX.csv"
+                                              "cftc_NYMEX.csv"
+                                              "cftc_CBOE.csv"
+                                              "cftc_SGX.csv"
+                                              "cftc_ICEEU.csv"
+                                              ], "cftc")
     else:
         print("No data-cluster found!")
 
