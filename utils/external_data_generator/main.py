@@ -121,12 +121,12 @@ def main():
     elif args.data_cluster == "cftc":
         cftc_handler()
         run_s3_process_snapshot(args.branch, ["cftc_CBOT.csv",
-                                              "cftc_CME.csv"
-                                              "cftc_ICEUS.csv"
-                                              "cftc_COMEX.csv"
-                                              "cftc_NYMEX.csv"
-                                              "cftc_CBOE.csv"
-                                              "cftc_SGX.csv"
+                                              "cftc_CME.csv",
+                                              "cftc_ICEUS.csv",
+                                              "cftc_COMEX.csv",
+                                              "cftc_NYMEX.csv",
+                                              "cftc_CBOE.csv",
+                                              "cftc_SGX.csv",
                                               "cftc_ICEEU.csv"
                                               ], "cftc")
     else:
