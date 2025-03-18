@@ -898,7 +898,7 @@ CHSCM|CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series
 CHSCN|CHS Inc - Preferred Class B Series 2 Reset Rate|Q|N|N|100|N|N
 CHSCO|CHS Inc - Class B Cumulative Redeemable Preferred Stock|Q|N|N|100|N|N
 CHSCP|CHS Inc - 8%  Cumulative Redeemable Preferred Stock|Q|N|N|100|N|N
-CHSN|Chanson International Holding - Class A Ordinary Shares|S|N|N|100|N|N
+CHSN|Chanson International Holding - Class A Ordinary Shares|S|N|D|100|N|N
 CHTR|Charter Communications, Inc. - Class A Common Stock|Q|N|N|100|N|N
 CHW|Calamos Global Dynamic Income Fund - Closed End Fund|Q|N|N|100|N|N
 CHX|ChampionX Corporation - Common Stock|Q|N|N|100|N|N
@@ -999,6 +999,8 @@ COHU|Cohu, Inc. - Common Stock|Q|N|N|100|N|N
 COIG|Leverage Shares 2X Long COIN Daily ETF|G|N|N|100|Y|N
 COIN|Coinbase Global, Inc. - Class A Common Stock|Q|N|N|100|N|N
 COKE|Coca-Cola Consolidated, Inc. - Common Stock|Q|N|N|100|N|N
+COLA|Columbus Acquisition Corp - Ordinary Shares|G|N|N|100|N|N
+COLAR|Columbus Acquisition Corp - Rights|G|N|N|100|N|N
 COLAU|Columbus Acquisition Corp - Unit|G|N|N|100|N|N
 COLB|Columbia Banking System, Inc. - Common Stock|Q|N|N|100|N|N
 COLL|Collegium Pharmaceutical, Inc. - Common Stock|Q|N|N|100|N|N
@@ -1185,7 +1187,6 @@ DFGX|Dimensional Global ex US Core Fixed Income ETF|G|N|N|100|Y|N
 DFLI|Dragonfly Energy Holdings Corp - Common Stock|S|N|D|100|N|N
 DFLIW|Dragonfly Energy Holdings Corp - Warrant|S|N|D|100|N|N
 DGCB|Dimensional Global Credit ETF|G|N|N|100|Y|N
-DGHI|Digi Power X Inc. - Common Subordinate Voting Shares|S|N|N|100|N|N
 DGICA|Donegal Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
 DGICB|Donegal Group, Inc. - Class B Common Stock|Q|N|N|100|N|N
 DGII|Digi International Inc. - Common Stock|Q|N|N|100|N|N
@@ -1194,6 +1195,7 @@ DGNX|Diginex Limited - Ordinary Shares|S|N|N|100|N|N
 DGRE|WisdomTree Emerging Markets Quality Dividend Growth Fund|G|N|N|100|Y|N
 DGRS|WisdomTree U.S. SmallCap Quality Dividend Growth Fund|G|N|N|100|Y|N
 DGRW|WisdomTree U.S. Quality Dividend Growth Fund|G|N|N|100|Y|N
+DGXX|Digi Power X Inc. - Common Subordinate Voting Shares|S|N|N|100|N|N
 DH|Definitive Healthcare Corp. - Class A Common Stock|Q|N|N|100|N|N
 DHAI|DIH Holding US, Inc. - Class A Common Stock|G|N|D|100|N|N
 DHAIW|DIH Holding US, Inc. - Warrant|S|N|N|100|N|N
@@ -1346,7 +1348,7 @@ EGGQ|NestYield Visionary ETF|G|N|N|100|Y|N
 EGHT|8x8 Inc - Common stock|Q|N|N|100|N|N
 EH|EHang Holdings Limited - ADS|G|N|N|100|N|N
 EHGO|Eshallgo Inc. - Class A Ordinary Shares|S|N|N|100|N|N
-EHLDV|Euroholdings Ltd. - Common Stock When Issued|S|N|N|100|N|N
+EHLD|Euroholdings Ltd. - Common Stock|S|N|N|100|N|N
 EHLS|Even Herd Long Short ETF|G|N|N|100|Y|N
 EHTH|eHealth, Inc. - Common Stock|Q|N|N|100|N|N
 EJH|E-Home Household Service Holdings Limited - Ordinary shares|S|N|N|100|N|N
@@ -1411,7 +1413,6 @@ ERNA|Eterna Therapeutics Inc. - Common Stock|S|N|D|100|N|N
 ERNZ|TrueShares Active Yield ETF|G|N|N|100|Y|N
 ESCA|Escalade, Incorporated - Common Stock|G|N|N|100|N|N
 ESEA|Euroseas Ltd. - Common Stock|S|N|N|100|N|N
-ESEAV|Euroseas Ltd. - Ex-Distribution When Issued|S|N|N|100|N|N
 ESGD|iShares ESG Aware MSCI EAFE ETF|G|N|N|100|Y|N
 ESGE|iShares ESG Aware MSCI EM ETF|G|N|N|100|Y|N
 ESGL|ESGL Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
@@ -2154,7 +2155,7 @@ IHRT|iHeartMedia, Inc. - Class A Common Stock|Q|N|N|100|N|N
 IHYF|Invesco High Yield Bond Factor ETF|G|N|N|100|Y|N
 III|Information Services Group, Inc. - Common Stock|G|N|N|100|N|N
 IIIV|i3 Verticals, Inc. - Common Stock|Q|N|N|100|N|N
-IINN|Inspira Technologies Oxy B.H.N. Ltd. - Ordinary Shares|S|N|N|100|N|N
+IINN|Inspira Technologies Oxy B.H.N. Ltd. - Ordinary Shares|S|N|D|100|N|N
 IINNW|Inspira Technologies Oxy B.H.N. Ltd. - Warrant|S|N|N|100|N|N
 IJT|iShares S&P SmallCap 600 Growth ETF|G|N|N|100|Y|N
 IKNA|Ikena Oncology, Inc. - Common Stock|G|N|N|100|N|N
@@ -2538,7 +2539,7 @@ LMBS|First Trust Low Duration Opportunities ETF|G|N|N|100|Y|N
 LMFA|LM Funding America, Inc. - Common Stock|S|N|N|100|N|N
 LMNR|Limoneira Co - Common Stock|Q|N|N|100|N|N
 LNKB|LINKBANCORP, Inc. - Common Stock|S|N|N|100|N|N
-LNKS|Linkers Industries Limited - Class A Ordinary Shares|S|N|N|100|N|N
+LNKS|Linkers Industries Limited - Class A Ordinary Shares|S|N|D|100|N|N
 LNSR|LENSAR, Inc. - Common Stock|S|N|N|100|N|N
 LNT|Alliant Energy Corporation - Common Stock|Q|N|N|100|N|N
 LNTH|Lantheus Holdings, Inc. - Common Stock|G|N|N|100|N|N
@@ -2925,7 +2926,7 @@ NEOV|NeoVolta Inc. - Common Stock|S|N|N|100|N|N
 NEOVW|NeoVolta Inc. - Warrant|S|N|N|100|N|N
 NEPH|Nephros, Inc. - Common Stock|S|N|N|100|N|N
 NERD|Roundhill Video Games ETF|G|N|N|100|Y|N
-NERV|Minerva Neurosciences, Inc - Common Stock|S|N|D|100|N|N
+NERV|Minerva Neurosciences, Inc - Common Stock|S|N|N|100|N|N
 NESR|National Energy Services Reunited Corp - Ordinary Shares|S|N|N|100|N|N
 NESRW|National Energy Services Reunited Corp - Warrants|S|N|N|100|N|N
 NETD|Nabors Energy Transition Corp. II - Class A Ordinary Shares|G|N|N|100|N|N
@@ -3345,7 +3346,7 @@ PKBK|Parke Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 PKOH|Park-Ohio Holdings Corp. - Common Stock|Q|N|N|100|N|N
 PKW|Invesco BuyBack Achievers ETF|G|N|N|100|Y|N
 PLAB|Photronics, Inc. - Common Stock|Q|N|N|100|N|N
-PLAO|Patria Latin American Opportunity Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
+PLAO|Patria Latin American Opportunity Acquisition Corp. - Class A Ordinary Shares|G|N|D|100|N|N
 PLAY|Dave & Buster's Entertainment, Inc. - Common Stock|Q|N|N|100|N|N
 PLBC|Plumas Bancorp - Common Stock|S|N|N|100|N|N
 PLBY|PLBY Group, Inc.  - Common Stock|G|N|D|100|N|N
@@ -4813,4 +4814,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0317202503:03|||||||
+File Creation Time: 0318202507:00|||||||
