@@ -10879,6 +10879,7 @@
   },
   {
     "companyName": "ANTIPA MINERALS LTD.",
+    "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "ATPMF",
     "tierCode": "PC",
@@ -13646,7 +13647,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "The BC Bud Co.",
+    "companyName": "Digital Commodities Capital Corp.",
     "country": "Canada",
     "isCaveatEmptor": false,
     "symbol": "BCBCF",
@@ -14691,6 +14692,14 @@
     "tierName": "OTCQB"
   },
   {
+    "companyName": "Rockland Resources Ltd.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "BERLF",
+    "tierCode": "QB",
+    "tierName": "OTCQB"
+  },
+  {
     "companyName": "Besra Gold Inc",
     "isCaveatEmptor": false,
     "symbol": "BESAF",
@@ -15371,6 +15380,15 @@
     "symbol": "BHLL",
     "tierCode": "QB",
     "tierName": "OTCQB"
+  },
+  {
+    "companyName": "Benson Hill, Inc.",
+    "country": "United States",
+    "industry": "Food and Kindred Products",
+    "isCaveatEmptor": false,
+    "symbol": "BHLWQ",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "BH Macro, Ltd.",
@@ -28232,8 +28250,8 @@
     "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "CNDA",
-    "tierCode": "QX",
-    "tierName": "OTCQX U.S."
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Concord Acquisition Corp II",
@@ -33114,6 +33132,14 @@
     "companyName": "CVC BRASIL OPERADORA E AGENCIA DE VIAGENS S A",
     "isCaveatEmptor": false,
     "symbol": "CVCBY",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "CVC CAPITAL PARTNERS PLC",
+    "country": "Jersey",
+    "isCaveatEmptor": false,
+    "symbol": "CVCCF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
   },
@@ -52904,8 +52930,8 @@
     "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "GIGGF",
-    "tierCode": "QX",
-    "tierName": "OTCQX International"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Genting Singapore Limited",
@@ -67339,6 +67365,15 @@
     "country": "Canada",
     "industry": "Uranium-radium-vanadium ores",
     "isCaveatEmptor": false,
+    "symbol": "ISEND",
+    "tierCode": "QX",
+    "tierName": "OTCQX International"
+  },
+  {
+    "companyName": "IsoEnergy Ltd.",
+    "country": "Canada",
+    "industry": "Uranium-radium-vanadium ores",
+    "isCaveatEmptor": false,
     "symbol": "ISENF",
     "tierCode": "QX",
     "tierName": "OTCQX International"
@@ -80106,8 +80141,8 @@
     "industry": "Communication services, misc",
     "isCaveatEmptor": false,
     "symbol": "MARK",
-    "tierCode": "QX",
-    "tierName": "OTCQX U.S."
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Marubeni Corp.",
@@ -81120,6 +81155,13 @@
     "symbol": "MCTZF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Martin Currie Portfolio Investment Trust Plc.",
+    "isCaveatEmptor": false,
+    "symbol": "MCUEF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Medicure Inc.",
@@ -102892,8 +102934,8 @@
     "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "PNSPF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Pinstripes Holdings Inc.",
@@ -105098,6 +105140,15 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "PetroChina Co., Ltd.",
+    "country": "China",
+    "industry": "Crude petroleum and natural gas",
+    "isCaveatEmptor": false,
+    "symbol": "PTCCY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "PureTech Health PLC",
     "country": "United States",
     "industry": "Pharmaceutical preparations",
@@ -105731,6 +105782,15 @@
     "companyName": "PT Arwana Citramulia TBK",
     "isCaveatEmptor": false,
     "symbol": "PTWCF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "PT XL Axiata Tbk",
+    "country": "Indonesia",
+    "industry": "Telephone communication, except radio",
+    "isCaveatEmptor": false,
+    "symbol": "PTXAF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
   },
@@ -108178,6 +108238,14 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "Roberto Resources Inc.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
+    "symbol": "RBTOF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "RUBICON WTR LTD",
     "country": "Australia",
     "isCaveatEmptor": false,
@@ -109910,8 +109978,8 @@
     "industry": "Pharmaceutical preparations",
     "isCaveatEmptor": false,
     "symbol": "RGTLF",
-    "tierCode": "QB",
-    "tierName": "OTCQB"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "REGENETP INC.",
@@ -109987,8 +110055,8 @@
     "industry": "Lessors of Real Property, NEC",
     "isCaveatEmptor": false,
     "symbol": "RHEP",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Regional Health Properties, Inc.",
@@ -109996,8 +110064,8 @@
     "industry": "Lessors of Real Property, NEC",
     "isCaveatEmptor": false,
     "symbol": "RHEPA",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "Regional Health Properties, Inc.",
@@ -122048,6 +122116,15 @@
     "country": "Australia",
     "industry": "Insurance carriers, misc",
     "isCaveatEmptor": false,
+    "symbol": "SNMCD",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Suncorp Group Ltd",
+    "country": "Australia",
+    "industry": "Insurance carriers, misc",
+    "isCaveatEmptor": false,
     "symbol": "SNMCY",
     "tierCode": "PC",
     "tierName": "Pink Current"
@@ -126403,7 +126480,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Blank Checks",
+    "industry": "Radio and TV communications equipment",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -128987,6 +129064,24 @@
     "symbol": "TCBC",
     "tierCode": "QX",
     "tierName": "OTCQX U.S."
+  },
+  {
+    "companyName": "TC BioPharm (Holdings) plc",
+    "country": "United Kingdom",
+    "industry": "Biological products, except diagnostic",
+    "isCaveatEmptor": false,
+    "symbol": "TCBPY",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "TC BioPharm (Holdings) plc",
+    "country": "United Kingdom",
+    "industry": "Biological products, except diagnostic",
+    "isCaveatEmptor": false,
+    "symbol": "TCBWF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Technogym Spa",
@@ -144914,6 +145009,13 @@
     "symbol": "WRDLY",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "WARRIEDAR RES LTD",
+    "isCaveatEmptor": false,
+    "symbol": "WRDRF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Wharf Real Estate Investment Co Ltd.",
