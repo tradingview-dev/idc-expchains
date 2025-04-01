@@ -67,7 +67,7 @@ class ParseMstarDescription:
 
         with open("mstar_descriptions.csv", "w") as file:
 
-            file.write("symbol;description\n")
+            file.write("tv-symbol;description\n")
 
             for symbol in self.symbols:
 
