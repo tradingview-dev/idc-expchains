@@ -4,11 +4,13 @@
 import argparse
 
 from utils import default_request_handler, json_request_handler, delivery, load_from_repo
+from aquis import aquis_handler
 from biva import biva_handler
 from lang_and_shwarz_data import lang_and_shwarz_handler
 from taipei import taipei_handler
 from shanghai import shanghai_handler
 from saudi import saudi_handler
+from mstar import mstar_handler
 from nyse import nyse_handler
 from nasdaq_gids import nasdaq_gids_handler
 from nse_emerge import nse_emerge_handler
@@ -127,6 +129,14 @@ def main():
                                               "cftc_SGX.csv",
                                               "cftc_ICEEU.csv"
                                               ], "cftc")
+    elif args.data_cluster == "aquis":
+        aquis_handler()
+        delivery(["aquis.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, ["aquis.csv"], "aquis")
+    elif args.data_cluster == "mstar":
+        mstar_handler()
+        delivery(["mstar_descriptions.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, ["mstar_descriptions.csv"], "mstar")
     else:
         print("No data-cluster found!")
 
