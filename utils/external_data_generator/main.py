@@ -6,6 +6,7 @@ import argparse
 from utils import default_request_handler, json_request_handler, delivery, load_from_repo
 from aquis import aquis_handler
 from biva import biva_handler
+from cboe import cboe_handler
 from cme import cme_handler
 from lang_and_shwarz_data import lang_and_shwarz_handler
 from taipei import taipei_handler
@@ -147,6 +148,10 @@ def main():
                       "Futures_products.csv"], args.branch)
             run_s3_process_snapshot(args.branch, ["Options_products.csv",
                                                   "Futures_products.csv"], "cme")
+    elif args.data_cluster == "cboe":
+            cboe_handler()
+            delivery(["cboe.csv"], args.branch)
+            run_s3_process_snapshot(args.branch, ["cboe.csv"], "cboe")
     else:
         print("No data-cluster found!")
 
