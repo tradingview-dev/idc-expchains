@@ -6,6 +6,7 @@ import argparse
 from utils import default_request_handler, json_request_handler, delivery, load_from_repo
 from aquis import aquis_handler
 from biva import biva_handler
+from cme import cme_handler
 from lang_and_shwarz_data import lang_and_shwarz_handler
 from taipei import taipei_handler
 from shanghai import shanghai_handler
@@ -137,6 +138,13 @@ def main():
         mstar_handler()
         delivery(["mstar_descriptions.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["mstar_descriptions.csv"], "mstar")
+    elif args.data_cluster == "cme":
+            cme_handler("Futures")
+            cme_handler("Options")
+            delivery(["Options_products.csv",
+                      "Futures_products.csv"], args.branch)
+            run_s3_process_snapshot(args.branch, ["Options_products.csv",
+                                                  "Futures_products.csv"], "cme")
     else:
         print("No data-cluster found!")
 
