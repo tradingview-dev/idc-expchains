@@ -296,7 +296,6 @@ APPF|AppFolio, Inc. - Class A Common Stock|G|N|N|100|N|N
 APPN|Appian Corporation - Class A Common Stock|G|N|N|100|N|N
 APPS|Digital Turbine, Inc. - Common Stock|S|N|N|100|N|N
 APRE|Aprea Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
-APTO|Aptose Biosciences, Inc. - Common Shares|S|N|D|100|N|N
 APVO|Aptevo Therapeutics Inc. - Common Stock|S|N|N|100|N|N
 APWC|Asia Pacific Wire & Cable Corporation Limited  - Common shares, Par value .01 per share|S|N|N|100|N|N
 APYX|Apyx Medical Corporation - Common Stock|Q|N|N|100|N|N
@@ -1238,8 +1237,8 @@ DRDBU|Roman DBDR Acquisition Corp. II - Unit|G|N|N|100|N|N
 DRDBW|Roman DBDR Acquisition Corp. II - Warrants|G|N|N|100|N|N
 DRIO|DarioHealth Corp. - Common Stock|S|N|D|100|N|N
 DRIV|Global X Autonomous & Electric Vehicles ETF|G|N|N|100|Y|N
-DRMA|Dermata Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
-DRMAW|Dermata Therapeutics, Inc. - Warrant|S|N|N|100|N|N
+DRMA|Dermata Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
+DRMAW|Dermata Therapeutics, Inc. - Warrant|S|N|D|100|N|N
 DRRX|DURECT Corporation - Common Stock|S|N|D|100|N|N
 DRS|Leonardo DRS, Inc. - Common Stock|Q|N|N|100|N|N
 DRTS|Alpha Tau Medical Ltd. - Ordinary Shares|S|N|N|100|N|N
@@ -1373,6 +1372,7 @@ EMXC|iShares MSCI Emerging Markets ex China ETF|G|N|N|100|Y|N
 EMXF|iShares ESG Advanced MSCI EM ETF|G|N|N|100|Y|N
 ENGN|enGene Holdings Inc. - Common Stock|S|N|N|100|N|N
 ENGNW|enGene Holdings Inc. - Warrants|S|N|N|100|N|N
+ENGS|Energys Group Limited - Ordinary Shares|S|N|N|100|N|N
 ENLT|Enlight Renewable Energy Ltd. - Ordinary Shares|Q|N|N|100|N|N
 ENLV|Enlivex Therapeutics Ltd. - Ordinary Shares|S|N|N|100|N|N
 ENPH|Enphase Energy, Inc. - Common Stock|G|N|N|100|N|N
@@ -1635,7 +1635,7 @@ FNY|First Trust Mid Cap Growth AlphaDEX Fund|G|N|N|100|Y|N
 FOLD|Amicus Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 FONR|Fonar Corporation - Common Stock|S|N|N|100|N|N
 FORA|Forian Inc. - Common Stock|S|N|N|100|N|N
-FORD|Forward Industries, Inc. - Common Stock|S|N|D|100|N|N
+FORD|Forward Industries, Inc. - Common Stock|S|N|N|100|N|N
 FORL|Four Leaf Acquisition Corporation - Class A Common Stock|S|N|D|100|N|N
 FORLU|Four Leaf Acquisition Corporation - Unit|S|N|D|100|N|N
 FORLW|Four Leaf Acquisition Corporation - Warrants|S|N|D|100|N|N
@@ -2550,7 +2550,7 @@ LNZAW|LanzaTech Global, Inc. - Warrant|S|N|N|100|N|N
 LOAN|Manhattan Bridge Capital, Inc - Common Stock|S|N|N|100|N|N
 LOBO|LOBO EV TECHNOLOGIES LTD. - Ordinary shares|S|N|N|100|N|N
 LOCO|El Pollo Loco Holdings, Inc. - Common Stock|Q|N|N|100|N|N
-LOGC|ContextLogic Inc. - Class A Common Stock|Q|N|N|100|N|N
+LOGC|ContextLogic Inc. - Class A Common Stock|Q|N|D|100|N|N
 LOGI|Logitech International S.A. - Registered Shares|Q|N|N|100|N|N
 LOKVU|Live Oak Acquisition Corp. V - Units|G|N|N|100|N|N
 LOOP|Loop Industries, Inc. - Common Stock|G|N|N|100|N|N
@@ -3136,7 +3136,7 @@ OFIX|Orthofix Medical Inc.  - Common Stock|Q|N|N|100|N|N
 OFLX|Omega Flex, Inc. - Common Stock|G|N|N|100|N|N
 OFS|OFS Capital Corporation - Closed End Fund|Q|N|N|100|N|N
 OFSSH|OFS Capital Corporation - 4.95% Notes due 2028|Q|N|N|100|N|N
-OGI|Organigram Holdings Inc. - Common Shares|Q|N|N|100|N|N
+OGI|Organigram Global Inc. - Common Shares|Q|N|N|100|N|N
 OKTA|Okta, Inc. - Class A Common Stock|Q|N|N|100|N|N
 OKUR|OnKure Therapeutics, Inc. - Class A Common Stock|G|N|N|100|N|N
 OKYO|OKYO Pharma Limited - Ordinary Shares|S|N|N|100|N|N
@@ -3175,7 +3175,7 @@ OPAL|OPAL Fuels Inc. - Class A Common Stock|S|N|N|100|N|N
 OPBK|OP Bancorp - Common Stock|G|N|N|100|N|N
 OPCH|Option Care Health, Inc. - Common Stock|Q|N|N|100|N|N
 OPEN|Opendoor Technologies Inc  - Common Stock|Q|N|N|100|N|N
-OPI|Office Properties Income Trust - Common Shares of Beneficial Interest|Q|N|N|100|N|N
+OPI|Office Properties Income Trust - Common Shares of Beneficial Interest|Q|N|D|100|N|N
 OPINL|Office Properties Income Trust - 6.375% Senior Notes due 2050|G|N|N|100|N|N
 OPK|Opko Health, Inc. - Common Stock|Q|N|N|100|N|N
 OPOF|Old Point Financial Corporation - Common Stock|S|N|N|100|N|N
@@ -3486,7 +3486,6 @@ PTMN|Portman Ridge Finance Corporation - Closed End Fund|Q|N|N|100|N|N
 PTNQ|Pacer Trendpilot 100 ETF|G|N|N|100|Y|N
 PTON|Peloton Interactive, Inc. - Common Stock|Q|N|N|100|N|N
 PTPI|Petros Pharmaceuticals, Inc. - Common Stock|S|N|D|100|N|N
-PTVE|Pactiv Evergreen Inc. - Common stock|Q|N|N|100|N|N
 PUBM|PubMatic, Inc. - Class A Common Stock|G|N|N|100|N|N
 PUI|Invesco Dorsey Wright Utilities Momentum ETF|G|N|N|100|Y|N
 PULM|Pulmatrix, Inc. - Common Stock|S|N|N|100|N|N
@@ -3674,6 +3673,7 @@ RGP|Resources Connection, Inc. - Common Stock|Q|N|N|100|N|N
 RGS|Regis Corporation - Common Stock|G|N|N|100|N|N
 RGTI|Rigetti Computing, Inc.  - Common stock|S|N|N|100|N|N
 RGTIW|Rigetti Computing, Inc.  - Redeemable warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50|S|N|N|100|N|N
+RGTX|Defiance Daily Target 2X Long RGTI ETF|G|N|N|100|Y|N
 RHLD|Resolute Holdings Management - Common Stock|G|N|N|100|N|N
 RIBB|Ribbon Acquisition Corp - Class A Ordinary Shares|S|N|N|100|N|N
 RIBBR|Ribbon Acquisition Corp - Rights|S|N|N|100|N|N
@@ -3822,6 +3822,7 @@ SDA|SunCar Technology Group Inc. - Ordinary Shares|S|N|N|100|N|N
 SDAWW|SunCar Technology Group Inc. - Warrant|S|N|N|100|N|N
 SDG|iShares MSCI Global Sustainable Development Goals ETF|G|N|N|100|Y|N
 SDGR|Schrodinger, Inc. - Common Stock|Q|N|N|100|N|N
+SDHIU|Siddhi Acquisition Corp - Unit|G|N|N|100|N|N
 SDOT|Sadot Group Inc. - Common Stock|S|N|N|100|N|N
 SDSI|American Century Short Duration Strategic Income ETF|G|N|N|100|Y|N
 SDST|Stardust Power Inc. - Common Stock|G|N|D|100|N|N
@@ -3849,7 +3850,7 @@ SEVN|Seven Hills Realty Trust  - Common Stock|S|N|N|100|N|N
 SEZL|Sezzle Inc. - Common Stock|S|N|N|100|N|N
 SFBC|Sound Financial Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 SFD|Smithfield Foods, Inc. - Common Stock|Q|N|N|100|N|N
-SFHG|Samfine Creation Holdings Group Limited - Ordinary Share|S|N|N|100|N|N
+SFHG|Samfine Creation Holdings Group Limited - Ordinary Share|S|N|D|100|N|N
 SFIX|Stitch Fix, Inc. - Class A Common Stock|Q|N|N|100|N|N
 SFLO|VictoryShares Small Cap Free Cash Flow ETF|G|N|N|100|Y|N
 SFM|Sprouts Farmers Market, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3956,6 +3957,7 @@ SMCI|Super Micro Computer, Inc. - Common Stock|Q|N|N|100|N|N
 SMCL|GraniteShares 2x Long SMCI Daily ETF|G|N|N|100|Y|N
 SMCO|Hilton Small-MidCap Opportunity ETF|G|N|N|100|Y|N
 SMCX|Defiance Daily Target 2X Long SMCI ETF|G|N|N|100|Y|N
+SMCZ|Defiance Daily Target 2X Short SMCI ETF|G|N|N|100|Y|N
 SMH|VanEck Semiconductor ETF|G|N|N|100|Y|N
 SMHX|VanEck Fabless Semiconductor ETF|G|N|N|100|Y|N
 SMID|Smith-Midland Corporation - Common Stock|S|N|N|100|N|N
@@ -4545,7 +4547,6 @@ VONG|Vanguard Russell 1000 Growth ETF|G|N|N|100|Y|N
 VONV|Vanguard Russell 1000 Value ETF|G|N|N|100|Y|N
 VOR|Vor Biopharma Inc. - Common Stock|Q|N|N|100|N|N
 VOXR|Vox Royalty Corp. - common stock|S|N|N|100|N|N
-VOXX|VOXX International Corporation - Class A Common Stock|Q|N|N|100|N|N
 VPLS|Vanguard Core Plus Bond ETF|G|N|N|100|Y|N
 VRA|Vera Bradley, Inc. - Common Stock|Q|N|N|100|N|N
 VRAR|The Glimpse Group, Inc. - Common Stock|S|N|N|100|N|N
@@ -4652,8 +4653,8 @@ WINT|Windtree Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 WISE|Themes Generative Artificial Intelligence ETF|G|N|N|100|Y|N
 WIX|Wix.com Ltd. - Ordinary Shares|Q|N|N|100|N|N
 WKEY|WISeKey International Holding Ltd - American Depositary Shares|G|N|N|100|N|N
-WKHS|Workhorse Group, Inc. - Common Stock|S|N|D|100|N|N
-WKSP|Worksport, Ltd. - Common Stock|S|N|D|100|N|N
+WKHS|Workhorse Group, Inc. - Common Stock|S|N|N|100|N|N
+WKSP|Worksport, Ltd. - Common Stock|S|N|N|100|N|N
 WLAC|Willow Lane Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 WLACU|Willow Lane Acquisition Corp. - Unit|G|N|N|100|N|N
 WLACW|Willow Lane Acquisition Corp. - Warrants|G|N|N|100|N|N
@@ -4683,6 +4684,7 @@ WSC|WillScot Holdings Corporation - Class A Common Stock|S|N|N|100|N|N
 WSFS|WSFS Financial Corporation - Common Stock|Q|N|N|100|N|N
 WTBA|West Bancorporation - Common Stock|Q|N|N|100|N|N
 WTBN|WisdomTree Bianco Total Return Fund|G|N|N|100|Y|N
+WTF|Waton Financial Limited - Ordinary Shares|S|N|N|100|N|N
 WTFC|Wintrust Financial Corporation - Common Stock|Q|N|N|100|N|N
 WTFCM|Wintrust Financial Corporation - Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock, Series D|Q|N|N|100|N|N
 WTFCP|Wintrust Financial Corporation - Depositary Shares, Each Representing a 1/1,000th Interest in a Share of 6.875% Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series E|Q|N|N|100|N|N
@@ -4694,6 +4696,7 @@ WVVI|Willamette Valley Vineyards, Inc. - Common Stock|S|N|N|100|N|N
 WVVIP|Willamette Valley Vineyards, Inc. - Series A Redeemable Preferred Stock|S|N|N|100|N|N
 WW|WW International, Inc.  - Common Stock|Q|N|D|100|N|N
 WWD|Woodward, Inc. - Common Stock|Q|N|N|100|N|N
+WXM|WF International Limited - Ordinary Shares|S|N|N|100|N|N
 WYHG|Wing Yip Food Holdings Group Limited - American Depositary Shares|S|N|N|100|N|N
 WYNN|Wynn Resorts, Limited - Common Stock|Q|N|N|100|N|N
 XAGE|Longevity Health Holdings, Inc. - Common Stock|S|N|D|100|N|N
@@ -4821,4 +4824,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0401202507:00|||||||
+File Creation Time: 0402202507:00|||||||
