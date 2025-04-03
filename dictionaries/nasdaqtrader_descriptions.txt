@@ -162,9 +162,9 @@ AIRT|Air T, Inc. - Common Stock|S|N|N|100|N|N
 AIRTP|Air T, Inc. - Trust Preferred Securities|G|N|N|100|N|N
 AISP|Airship AI Holdings, Inc - Class A Common Stock|G|N|N|100|N|N
 AISPW|Airship AI Holdings, Inc - Warrants|S|N|N|100|N|N
-AITR|AI TRANSPORTATION ACQUISITION CORP - Ordinary shares|S|N|N|100|N|N
-AITRR|AI TRANSPORTATION ACQUISITION CORP - Right|S|N|N|100|N|N
-AITRU|AI TRANSPORTATION ACQUISITION CORP - Unit|S|N|N|100|N|N
+AITR|AI TRANSPORTATION ACQUISITION CORP - Ordinary shares|S|N|D|100|N|N
+AITRR|AI TRANSPORTATION ACQUISITION CORP - Right|S|N|D|100|N|N
+AITRU|AI TRANSPORTATION ACQUISITION CORP - Unit|S|N|D|100|N|N
 AIXI|XIAO-I Corporation - American Depositary Shares|G|N|N|100|N|N
 AKAM|Akamai Technologies, Inc. - Common Stock|Q|N|N|100|N|N
 AKAN|Akanda Corp. - Common Shares|S|N|N|100|N|N
@@ -459,7 +459,7 @@ BANF|BancFirst Corporation - Common Stock|Q|N|N|100|N|N
 BANFP|BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities|Q|N|N|100|N|N
 BANL|CBL International Limited - Ordinary Shares|S|N|N|100|N|N
 BANR|Banner Corporation - Common Stock|Q|N|N|100|N|N
-BANX|ArrowMark Financial Corp. - Closed End Fund|Q|N|N|100|N|N
+BANX|ArrowMark Financial Corp. - Closed End Fund|Q|N|D|100|N|N
 BAOS|Baosheng Media Group Holdings Limited - Ordinary shares|S|N|N|100|N|N
 BASE|Couchbase, Inc. - Common Stock|Q|N|N|100|N|N
 BATRA|Atlanta Braves Holdings, Inc. - Series A Common Stock|Q|N|N|100|N|N
@@ -1489,7 +1489,7 @@ FACTU|FACT II Acquisition Corp. - Unit|G|N|N|100|N|N
 FACTW|FACT II Acquisition Corp. - Warrant|G|N|N|100|N|N
 FAD|First Trust Multi Cap Growth AlphaDEX Fund|G|N|N|100|Y|N
 FALN|iShares Fallen Angels USD Bond ETF|G|N|N|100|Y|N
-FAMI|Farmmi, INC. - Ordinary Shares|S|N|D|100|N|N
+FAMI|Farmmi, INC. - Ordinary Shares|S|N|N|100|N|N
 FANG|Diamondback Energy, Inc. - Common Stock|Q|N|N|100|N|N
 FARM|Farmer Brothers Company - Common Stock|Q|N|N|100|N|N
 FARO|FARO Technologies, Inc. - Common Stock|Q|N|N|100|N|N
@@ -1812,9 +1812,9 @@ GINX|SGI Enhanced Global Income ETF|G|N|N|100|Y|N
 GIPR|Generation Income Properties Inc. - Common stock|S|N|N|100|N|N
 GIPRW|Generation Income Properties Inc. - Warrant|S|N|N|100|N|N
 GITS|Global Interactive Technologies, Inc. Common Stock - Common Stock|S|N|N|100|N|N
-GLAC|Global Lights Acquisition Corp - Ordinary Shares|G|N|N|100|N|N
-GLACR|Global Lights Acquisition Corp - Rights|G|N|N|100|N|N
-GLACU|Global Lights Acquisition Corp - Unit|G|N|N|100|N|N
+GLAC|Global Lights Acquisition Corp - Ordinary Shares|G|N|D|100|N|N
+GLACR|Global Lights Acquisition Corp - Rights|G|N|D|100|N|N
+GLACU|Global Lights Acquisition Corp - Unit|G|N|D|100|N|N
 GLAD|Gladstone Capital Corporation - Closed End Fund|Q|N|N|100|N|N
 GLADZ|Gladstone Capital Corporation - 7.75% Notes due 2028|Q|N|N|100|N|N
 GLBE|Global-E Online Ltd. - ordinary shares|Q|N|N|100|N|N
@@ -1823,6 +1823,7 @@ GLBZ|Glen Burnie Bancorp - Common Stock|S|N|N|100|N|N
 GLCR|GlacierShares Nasdaq Iceland ETF|G|N|N|100|Y|N
 GLDD|Great Lakes Dredge & Dock Corporation - Common Stock|Q|N|N|100|N|N
 GLDI|ETRACS Gold Shares Covered Call ETNs due February 2, 2033|G|N|N|100|N|N
+GLDY|Defiance Gold Enhanced Options Income ETF|G|N|N|100|Y|N
 GLE|Global Engine Group Holding Limited - Ordinary Shares|S|N|N|100|N|N
 GLMD|Galmed Pharmaceuticals Ltd. - Ordinary Shares|S|N|N|100|N|N
 GLNG|Golar LNG Limited - Common Shares|Q|N|N|100|N|N
@@ -1871,13 +1872,13 @@ GPIQ|Goldman Sachs Nasdaq-100 Core Premium Income ETF|G|N|N|100|Y|N
 GPIX|Goldman Sachs S&P 500 Core Premium Income ETF|G|N|N|100|Y|N
 GPRE|Green Plains, Inc. - Common Stock|Q|N|N|100|N|N
 GPRF|Goldman Sachs Access U.S. Preferred Stock and Hybrid Securities ETF|G|N|N|100|Y|N
-GPRO|GoPro, Inc. - Class A Common Stock|Q|N|N|100|N|N
+GPRO|GoPro, Inc. - Class A Common Stock|Q|N|D|100|N|N
 GQQQ|Astoria US Quality Growth Kings ETF|G|N|N|100|Y|N
 GRAB|Grab Holdings Limited - Class A Ordinary Shares|Q|N|N|100|N|N
 GRABW|Grab Holdings Limited - Warrant|Q|N|N|100|N|N
 GRAL|GRAIL, Inc. - Common Stock|Q|N|N|100|N|N
 GRCE|Grace Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
-GREE|Greenidge Generation Holdings Inc. - Class A Common Stock|Q|N|N|100|N|N
+GREE|Greenidge Generation Holdings Inc. - Class A Common Stock|Q|N|D|100|N|N
 GREEL|Greenidge Generation Holdings Inc. - 8.50% Senior Notes due 2026|Q|N|N|100|N|N
 GRFS|Grifols, S.A. - American Depositary Shares|Q|N|N|100|N|N
 GRI|GRI Bio, Inc. - Common Stock|S|N|N|100|N|N
@@ -2229,7 +2230,7 @@ INTZ|Intrusion Inc. - Common Stock|S|N|N|100|N|N
 INV|Innventure, Inc. - Common Stock|G|N|N|100|N|N
 INVA|Innoviva, Inc. - Common Stock|Q|N|N|100|N|N
 INVE|Identiv, Inc. - Common Stock|S|N|N|100|N|N
-INVZ|Innoviz Technologies Ltd. - Ordinary shares|S|N|N|100|N|N
+INVZ|Innoviz Technologies Ltd. - Ordinary shares|S|N|D|100|N|N
 INVZW|Innoviz Technologies Ltd. - Warrant|S|N|N|100|N|N
 INZY|Inozyme Pharma, Inc. - Common Stock|Q|N|N|100|N|N
 IOBT|IO Biotech, Inc. - Common Stock|Q|N|D|100|N|N
@@ -2279,7 +2280,6 @@ ISRLW|Israel Acquisitions Corp - Warrant|G|N|N|100|N|N
 ISSC|Innovative Solutions and Support, Inc. - Common Stock|Q|N|N|100|N|N
 ISTB|iShares Core 1-5 Year USD Bond ETF|G|N|N|100|Y|N
 ISTR|Investar Holding Corporation - Common Stock|G|N|N|100|N|N
-ITCI|Intra-Cellular Therapies Inc. - Common Stock|Q|N|N|100|N|N
 ITIC|Investors Title Company - Common Stock|Q|N|N|100|N|N
 ITOS|iTeos Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 ITRI|Itron, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3779,7 +3779,7 @@ SAGE|Sage Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 SAGT|SAGTEC GLOBAL LIMITED - Ordinary shares|S|N|N|100|N|N
 SAIA|Saia, Inc. - Common Stock|Q|N|N|100|N|N
 SAIC|Science Applications International Corporation - Common Stock|Q|N|N|100|N|N
-SAIH|SAIHEAT Limited - Class A Ordinary Shares|S|N|D|100|N|N
+SAIH|SAIHEAT Limited - Class A Ordinary Shares|S|N|N|100|N|N
 SAIHW|SAIHEAT Limited - Warrant|S|N|N|100|N|N
 SAIL|SailPoint, Inc. - Common Stock|Q|N|N|100|N|N
 SAMG|Silvercrest Asset Management Group Inc. - Common Stock|G|N|N|100|N|N
@@ -3877,7 +3877,6 @@ SHFSW|SHF Holdings, Inc. - Warrants|S|N|N|100|N|N
 SHIM|Shimmick Corporation - Common Stock|S|N|N|100|N|N
 SHIP|Seanergy Maritime Holdings Corp. - Common Stock|S|N|N|100|N|N
 SHLS|Shoals Technologies Group, Inc. - Class A Common Stock|G|N|N|100|N|N
-SHLT|SHL Telemedicine Ltd - American Depositary Shares|S|N|N|100|N|N
 SHMD|SCHMID Group N.V. - Class A Ordinary Shares|G|N|N|100|N|N
 SHMDW|SCHMID Group N.V. - Warrants|S|N|N|100|N|N
 SHOO|Steven Madden, Ltd. - Common Stock|Q|N|N|100|N|N
@@ -3945,7 +3944,7 @@ SLP|Simulations Plus, Inc. - Common Stock|Q|N|N|100|N|N
 SLQD|iShares 0-5 Year Investment Grade Corporate Bond ETF|G|N|N|100|Y|N
 SLRC|SLR Investment Corp. - Closed End Fund|Q|N|N|100|N|N
 SLRN|ACELYRIN, INC. - Common Stock|Q|N|N|100|N|N
-SLRX|Salarius Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
+SLRX|Salarius Pharmaceuticals, Inc. - Common Stock|S|N|D|100|N|N
 SLS|SELLAS Life Sciences Group, Inc.  - Common Stock|S|N|N|100|N|N
 SLVO|ETRACS Silver Shares Covered Call ETNs due April 21, 2033|G|N|N|100|N|N
 SLVR|Sprott Silver Miners & Physical Silver ETF|G|N|N|100|Y|N
@@ -4157,6 +4156,7 @@ SYRE|Spyre Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 SYT|SYLA Technologies Co., Ltd. - American Depositary Shares|S|N|N|100|N|N
 SYTA|Siyata Mobile, Inc. - Common Shares|S|N|N|100|N|N
 SYTAW|Siyata Mobile, Inc. - Warrant|S|N|N|100|N|N
+SZZLU|Sizzle Acquisition Corp. II - Unit|G|N|N|100|N|N
 TACT|TransAct Technologies Incorporated - Common Stock|G|N|N|100|N|N
 TAIT|Taitron Components Incorporated - Class A Common Stock|S|N|N|100|N|N
 TALK|Talkspace, Inc. - Common Stock|S|N|N|100|N|N
@@ -4183,7 +4183,6 @@ TBLAW|Taboola.com Ltd. - Warrant|Q|N|N|100|N|N
 TBLD|Thornburg Income Builder Opportunities Trust - Closed End Fund|Q|N|N|100|N|N
 TBMC|Trailblazer Merger Corporation I - Class A Common Stock|G|N|N|100|N|N
 TBMCR|Trailblazer Merger Corporation I - Rights|G|N|N|100|N|N
-TBNK|Territorial Bancorp Inc. - Common Stock|Q|N|N|100|N|N
 TBPH|Theravance Biopharma, Inc. - Ordinary Shares|G|N|N|100|N|N
 TBRG|TruBridge, Inc. - Common Stock|Q|N|N|100|N|N
 TC|Token Cat Limited - American Depositary Shares|S|N|D|100|N|N
@@ -4247,7 +4246,7 @@ TKNO|Alpha Teknova, Inc. - Common Stock|G|N|N|100|N|N
 TLF|Tandy Leather Factory, Inc. - common stock|S|N|N|100|N|N
 TLN|Talen Energy Corporation - Common Stock|Q|N|N|100|N|N
 TLPH|Talphera, Inc. - Common Stock|G|N|D|100|N|N
-TLRY|Tilray Brands, Inc. - Common Stock|Q|N|N|100|N|N
+TLRY|Tilray Brands, Inc. - Common Stock|Q|N|D|100|N|N
 TLS|Telos Corporation - Common Stock|G|N|N|100|N|N
 TLSA|Tiziana Life Sciences Ltd - Common Shares|S|N|N|100|N|N
 TLSI|TriSalus Life Sciences, Inc. - Common Stock|G|N|N|100|N|N
@@ -4273,6 +4272,7 @@ TOI|The Oncology Institute, Inc. - Common Stock|S|N|D|100|N|N
 TOIIW|The Oncology Institute, Inc. - Warrant|S|N|N|100|N|N
 TOMZ|TOMI Environmental Solutions, Inc. - Common Stock|S|N|N|100|N|N
 TOP|TOP Financial Group Limited - Class A Ordinary Shares|S|N|N|100|N|N
+TOPW|Top Win International Limited - Ordinary Shares|S|N|N|100|N|N
 TORO|Toro Corp. - Common stock|S|N|N|100|N|N
 TOUR|Tuniu Corporation - American Depositary Shares|G|N|N|100|N|N
 TOWN|Towne Bank - Common Stock|Q|N|N|100|N|N
@@ -4645,7 +4645,7 @@ WHLRL|Wheeler Real Estate Investment Trust, Inc. - 7.00% Senior Subordinated Con
 WHLRP|Wheeler Real Estate Investment Trust, Inc. - Series B Preferred Stock|S|N|N|100|N|N
 WHWK|Whitehawk Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 WILC|G. Willi-Food International,  Ltd. - Ordinary Shares|S|N|N|100|N|N
-WIMI|WiMi Hologram Cloud Inc. - American Depositary Share|G|N|N|100|N|N
+WIMI|WiMi Hologram Cloud Inc. - Class B Ordinary Shares|G|N|N|100|N|N
 WINA|Winmark Corporation - Common Stock|G|N|N|100|N|N
 WINC|Western Asset Short Duration Income ETF|G|N|N|100|Y|N
 WING|Wingstop Inc. - Common Stock|Q|N|N|100|N|N
@@ -4824,4 +4824,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0402202507:00|||||||
+File Creation Time: 0403202507:00|||||||
