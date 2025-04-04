@@ -46,7 +46,7 @@ class ParseMstarDescription:
 
                 if symbol[0] == ".":
                     symbol = symbol[1:]
-                print(symbol, description)
+
                 self.symbols[symbol] = description
             break
 
