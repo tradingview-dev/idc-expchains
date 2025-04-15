@@ -1,8 +1,8 @@
 import requests
+import pandas as pd
 
 
 class CmeProductsParser:
-
     headers = {
         "accept": "application/json, text/plain, */*",
         "accept-endcoding": "gzip, deflate, br, zstd",
@@ -32,24 +32,60 @@ class CmeProductsParser:
 
     def parse_symbols(self):
 
-        with open(f"{self.product_type}_products.csv", "w") as file:
+        if self.product_type == "Options":
 
-            file.write("prodCode;name;Group;Sub Group\n")
+            with open(f"{self.product_type}_products.csv", "w") as file:
 
-            total_pages = self.get_total_pages()
+                file.write("prodCode;name\n")
 
-            for i in range(1, total_pages+1):
-                page = requests.get(f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber={i}&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected", headers=self.headers).json()
+                total_pages = self.get_total_pages()
 
-                products = page['products']
+                for i in range(1, total_pages + 1):
+                    page = requests.get(
+                        f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber={i}&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected",
+                        headers=self.headers).json()
 
-                for product in products:
-                    root = product['prodCode']
-                    description = product['name']
-                    group = product['group']
-                    subGroup = product['subGroup']
+                    products = page['products']
 
-                    file.write(f"{root};{description};{group};{subGroup}\n")
+                    for product in products:
+                        root = product['prodCode']
+                        description = product['name']
+
+                        file.write(f"{root};{description}\n")
+
+                response = requests.get("https://www.cftc.gov/strike-price-xls?col=ExchId%2CContractName&dir=ASC%2CASC")
+
+                xlsx_filename = "strike-price-report.xlsx"
+                with open(xlsx_filename, "wb") as xls:
+                    xls.write(response.content)
+
+                excel_data = pd.read_excel(xlsx_filename)
+                roots = excel_data.groupby('Comm. Code')
+
+                for root_id, root in roots:
+                    if root['OptionClass'].unique()[0] == "ONE DAY":
+                        file.write(f"{root_id};{root['ContractName'].unique()[0]}\n")
+        else:
+
+            with open(f"{self.product_type}_products.csv", "w") as file:
+
+                file.write("prodCode;name;Group;Sub Group\n")
+
+                total_pages = self.get_total_pages()
+
+                for i in range(1, total_pages + 1):
+                    page = requests.get(
+                        f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber={i}&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected", headers=self.headers).json()
+
+                    products = page['products']
+
+                    for product in products:
+                        root = product['prodCode']
+                        description = product['name']
+                        group = product['group']
+                        subGroup = product['subGroup']
+
+                        file.write(f"{root};{description};{group};{subGroup}\n")
 
 
 def cme_handler(product):
