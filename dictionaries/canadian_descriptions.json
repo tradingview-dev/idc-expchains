@@ -1,9 +1,64 @@
 {
-    "date": "2025-04-14",
+    "date": "2025-04-15",
     "deletions": [
-        "AGE"
+        "SEAG"
     ],
     "adds_and_changes": [
+        {
+            "listing_market": "CSE",
+            "symbol": "SEAG.X",
+            "listing_date": "2011-02-28",
+            "trading_date": "2016-05-05",
+            "status": "Active",
+            "security_name": "Seahawk Ventures Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 36587416,
+            "reserved_shares": 0,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-04-15",
+                "text": "formerly was SEAG/Seahawk Gold Corp. until 2025-04-14",
+                "until": "2025-04-14",
+                "symbol_was": "SEAG",
+                "name_was": "Seahawk Gold Corp.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024899.json",
+            "tier": 2,
+            "company_website_url": "http://www.seahawkgoldcorp.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SPTZ",
+            "listing_date": "2019-03-18",
+            "trading_date": "2019-03-18",
+            "status": "Active",
+            "security_name": "Spetz Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 30607768,
+            "reserved_shares": 1497880,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000011635.json",
+            "tier": 2,
+            "company_website_url": "https://www.spetz.app"
+        },
         {
             "listing_market": "CSE",
             "symbol": "FNT.U",
@@ -39,41 +94,41 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "BIOV",
-            "listing_date": "2018-11-21",
-            "trading_date": "2020-10-06",
+            "symbol": "SKUR",
+            "listing_date": "2019-07-22",
+            "trading_date": "2019-07-23",
             "status": "Active",
-            "security_name": "BioVaxys Technology Corp.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 293425203,
-            "reserved_shares": 139701394,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045617.json",
-            "tier": 2,
-            "company_website_url": "https://biovaxys.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TRUE",
-            "listing_date": "2021-04-19",
-            "trading_date": "2021-04-19",
-            "status": "Active",
-            "security_name": "Treatment.com AI Inc.",
+            "security_name": "Sekur Private Data Ltd.",
             "security_type": "Equity",
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 75002398,
-            "reserved_shares": 19207527,
+            "outstanding_shares": 170120807,
+            "reserved_shares": 59582710,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045108.json",
+            "tier": 2,
+            "company_website_url": "http://www.sekurprivatedata.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "KUYA",
+            "listing_date": "2017-03-27",
+            "trading_date": "2020-10-07",
+            "status": "Active",
+            "security_name": "Kuya Silver Corporation",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 121381090,
+            "reserved_shares": 43581886,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -81,33 +136,9 @@
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051333.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000040073.json",
             "tier": 2,
-            "company_website_url": "http://www.treatment.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SUPR",
-            "listing_date": "2021-05-21",
-            "trading_date": "2021-05-21",
-            "status": "Active",
-            "security_name": "Supernova Metals Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 31973994,
-            "reserved_shares": 4004545,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000015891.json",
-            "tier": 2,
-            "company_website_url": "https://www.supernovametals.com"
+            "company_website_url": "http://www.kuyasilver.com"
         },
         {
             "listing_market": "CSE",
@@ -121,7 +152,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 99183528,
-            "reserved_shares": 84525038,
+            "reserved_shares": 84402546,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -165,33 +196,33 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "SCPE",
-            "listing_date": "2022-09-01",
-            "trading_date": "2022-09-06",
+            "symbol": "CLDV",
+            "listing_date": "2023-09-11",
+            "trading_date": "2023-09-11",
             "status": "Active",
-            "security_name": "Scope Technologies Corp.",
+            "security_name": "Cloud3 Ventures Inc.",
             "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
+            "sector": "Diversified Industries",
+            "sector_tags": [
+                "Blockchain"
+            ],
             "currency": "CAD",
-            "outstanding_shares": 54731376,
-            "reserved_shares": 3525000,
+            "outstanding_shares": 10909221,
+            "reserved_shares": 9194204,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {
-                "effective_on": "2024-09-09",
-                "text": "formerly was SCPE/Scope AI Corp. until 2024-09-06",
-                "until": "2024-09-06",
-                "name_was": "Scope AI Corp.",
-                "type": "name and CUSIP"
+                "effective_on": "2024-12-05",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055206.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000005432.json",
             "tier": 2,
-            "company_website_url": "https://www.scopetech.ai/"
+            "company_website_url": "https://cloud3.ventures/"
         },
         {
             "listing_market": "CSE",
@@ -219,54 +250,6 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "BOOM",
-            "listing_date": "2024-03-01",
-            "trading_date": "2024-03-01",
-            "status": "Active",
-            "security_name": "Galloper Gold Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 45409052,
-            "reserved_shares": 12783680,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055036.json",
-            "tier": 2,
-            "company_website_url": "https://www.gallopergold.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "FOMO",
-            "listing_date": "2024-10-18",
-            "trading_date": "2024-10-18",
-            "status": "Active",
-            "security_name": "Formation Metals Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 45565474,
-            "reserved_shares": 26250000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056874.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
             "symbol": "RGR",
             "listing_date": "2025-02-07",
             "trading_date": "2025-02-07",
@@ -276,8 +259,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 26045767,
-            "reserved_shares": 12670104,
+            "outstanding_shares": 26076823,
+            "reserved_shares": 12412632,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -288,30 +271,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000107495.json",
             "tier": 2,
             "company_website_url": "https://www.riogranderesources.ca/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SNDL",
-            "listing_date": "2025-04-11",
-            "trading_date": "2025-04-11",
-            "status": "Active",
-            "security_name": "SNDL Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 257285765,
-            "reserved_shares": 10115802,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": null,
-            "tier": 1,
-            "company_website_url": "http://www.sndl.com"
         }
     ],
     "full_list": [
@@ -2799,11 +2758,11 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "SEAG",
+            "symbol": "SEAG.X",
             "listing_date": "2011-02-28",
             "trading_date": "2016-05-05",
             "status": "Active",
-            "security_name": "Seahawk Gold Corp.",
+            "security_name": "Seahawk Ventures Inc.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
@@ -2815,8 +2774,15 @@
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "CSE Composite",
-            "recent_change": {},
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-04-15",
+                "text": "formerly was SEAG/Seahawk Gold Corp. until 2025-04-14",
+                "until": "2025-04-14",
+                "symbol_was": "SEAG",
+                "name_was": "Seahawk Gold Corp.",
+                "type": "symbol, name and CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024899.json",
             "tier": 2,
             "company_website_url": "http://www.seahawkgoldcorp.com"
@@ -6431,8 +6397,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 30075418,
-            "reserved_shares": 1231705,
+            "outstanding_shares": 30607768,
+            "reserved_shares": 1497880,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -7148,8 +7114,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 148123057,
-            "reserved_shares": 39456388,
+            "outstanding_shares": 170120807,
+            "reserved_shares": 59582710,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -9541,7 +9507,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 120678736,
+            "outstanding_shares": 121381090,
             "reserved_shares": 43581886,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -13027,7 +12993,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 99183528,
-            "reserved_shares": 84525038,
+            "reserved_shares": 84402546,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -17433,8 +17399,8 @@
                 "Blockchain"
             ],
             "currency": "CAD",
-            "outstanding_shares": 11909221,
-            "reserved_shares": 8194204,
+            "outstanding_shares": 10909221,
+            "reserved_shares": 9194204,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -19297,7 +19263,7 @@
                 "name_was": "Viridian Metals Corp.",
                 "type": "name"
             },
-            "sedar_filings": null,
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056064.json",
             "tier": 2,
             "company_website_url": "https://viridianmetals.com"
         },
@@ -19336,8 +19302,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 26045767,
-            "reserved_shares": 12670104,
+            "outstanding_shares": 26076823,
+            "reserved_shares": 12412632,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -19441,7 +19407,7 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": null,
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000038746.json",
             "tier": 1,
             "company_website_url": "http://www.sndl.com"
         }
