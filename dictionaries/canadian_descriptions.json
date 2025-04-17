@@ -1,63 +1,30 @@
 {
-    "date": "2025-04-15",
-    "deletions": [
-        "SEAG"
-    ],
+    "date": "2025-04-16",
+    "deletions": [],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "SEAG.X",
-            "listing_date": "2011-02-28",
-            "trading_date": "2016-05-05",
+            "symbol": "LUX",
+            "listing_date": "2012-10-17",
+            "trading_date": "2015-09-02",
             "status": "Active",
-            "security_name": "Seahawk Ventures Inc.",
+            "security_name": "Newlox Gold Ventures Corp.",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "CleanTech",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 36587416,
-            "reserved_shares": 0,
+            "outstanding_shares": 156149620,
+            "reserved_shares": 54398857,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {
-                "effective_on": "2025-04-15",
-                "text": "formerly was SEAG/Seahawk Gold Corp. until 2025-04-14",
-                "until": "2025-04-14",
-                "symbol_was": "SEAG",
-                "name_was": "Seahawk Gold Corp.",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024899.json",
-            "tier": 2,
-            "company_website_url": "http://www.seahawkgoldcorp.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SPTZ",
-            "listing_date": "2019-03-18",
-            "trading_date": "2019-03-18",
-            "status": "Active",
-            "security_name": "Spetz Inc.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 30607768,
-            "reserved_shares": 1497880,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
+                "dealer name": "Virtu Canada Corp.",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000011635.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032095.json",
             "tier": 2,
-            "company_website_url": "https://www.spetz.app"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
@@ -94,41 +61,41 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "SKUR",
-            "listing_date": "2019-07-22",
-            "trading_date": "2019-07-23",
+            "symbol": "WEST",
+            "listing_date": "2020-12-07",
+            "trading_date": "2020-12-07",
             "status": "Active",
-            "security_name": "Sekur Private Data Ltd.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 170120807,
-            "reserved_shares": 59582710,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045108.json",
-            "tier": 2,
-            "company_website_url": "http://www.sekurprivatedata.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "KUYA",
-            "listing_date": "2017-03-27",
-            "trading_date": "2020-10-07",
-            "status": "Active",
-            "security_name": "Kuya Silver Corporation",
+            "security_name": "West Mining Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 121381090,
-            "reserved_shares": 43581886,
+            "outstanding_shares": 23010030,
+            "reserved_shares": 11917463,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044213.json",
+            "tier": 2,
+            "company_website_url": "http://westminingcorp.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "TRUE",
+            "listing_date": "2021-04-19",
+            "trading_date": "2021-04-19",
+            "status": "Active",
+            "security_name": "Treatment.com AI Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 75502398,
+            "reserved_shares": 18707527,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -136,9 +103,9 @@
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000040073.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051333.json",
             "tier": 2,
-            "company_website_url": "http://www.kuyasilver.com"
+            "company_website_url": "http://www.treatment.com"
         },
         {
             "listing_market": "CSE",
@@ -163,6 +130,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053151.json",
             "tier": 2,
             "company_website_url": "https://tugainnovations.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "ASHL",
+            "listing_date": "2022-04-28",
+            "trading_date": "2022-05-02",
+            "status": "Active",
+            "security_name": "Ashley Gold Corp",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 44988581,
+            "reserved_shares": 23501997,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "National Bank Financial Inc.",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053521.json",
+            "tier": 2,
+            "company_website_url": "https://www.ashleygoldcorp.com"
         },
         {
             "listing_market": "CSE",
@@ -196,36 +187,6 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "CLDV",
-            "listing_date": "2023-09-11",
-            "trading_date": "2023-09-11",
-            "status": "Active",
-            "security_name": "Cloud3 Ventures Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [
-                "Blockchain"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 10909221,
-            "reserved_shares": 9194204,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {
-                "effective_on": "2024-12-05",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000005432.json",
-            "tier": 2,
-            "company_website_url": "https://cloud3.ventures/"
-        },
-        {
-            "listing_market": "CSE",
             "symbol": "NT",
             "listing_date": "2023-12-14",
             "trading_date": "2023-12-18",
@@ -247,30 +208,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000057152.json",
             "tier": 2,
             "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "RGR",
-            "listing_date": "2025-02-07",
-            "trading_date": "2025-02-07",
-            "status": "Active",
-            "security_name": "Rio Grande Resources Ltd.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 26076823,
-            "reserved_shares": 12412632,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000107495.json",
-            "tier": 2,
-            "company_website_url": "https://www.riogranderesources.ca/"
         }
     ],
     "full_list": [
@@ -1340,7 +1277,7 @@
             "symbol": "LUX",
             "listing_date": "2012-10-17",
             "trading_date": "2015-09-02",
-            "status": "Suspended",
+            "status": "Active",
             "security_name": "Newlox Gold Ventures Corp.",
             "security_type": "Equity",
             "sector": "CleanTech",
@@ -2774,7 +2711,7 @@
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "No",
+            "index": "CSE Composite",
             "recent_change": {
                 "effective_on": "2025-04-15",
                 "text": "formerly was SEAG/Seahawk Gold Corp. until 2025-04-14",
@@ -9212,7 +9149,7 @@
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000035562.json",
             "tier": 2,
-            "company_website_url": "http://www.goldnfuturesmineralcorp.com"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
@@ -9725,8 +9662,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 22700030,
-            "reserved_shares": 12227463,
+            "outstanding_shares": 23010030,
+            "reserved_shares": 11917463,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -10435,8 +10372,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 75002398,
-            "reserved_shares": 19207527,
+            "outstanding_shares": 75502398,
+            "reserved_shares": 18707527,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -14259,7 +14196,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 44688581,
+            "outstanding_shares": 44988581,
             "reserved_shares": 23501997,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
