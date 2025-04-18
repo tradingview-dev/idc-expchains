@@ -1,30 +1,80 @@
 {
-    "date": "2025-04-16",
+    "date": "2025-04-17",
     "deletions": [],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "LUX",
-            "listing_date": "2012-10-17",
-            "trading_date": "2015-09-02",
-            "status": "Active",
-            "security_name": "Newlox Gold Ventures Corp.",
+            "symbol": "GHG",
+            "listing_date": "2010-08-19",
+            "trading_date": "2015-09-01",
+            "status": "Suspended",
+            "security_name": "Global Hemp Group Inc.",
             "security_type": "Equity",
-            "sector": "CleanTech",
-            "sector_tags": [],
+            "sector": "Diversified Industries",
+            "sector_tags": [
+                "US Cannabis"
+            ],
             "currency": "CAD",
-            "outstanding_shares": 156149620,
-            "reserved_shares": 54398857,
-            "total_equity_shares_as_if_converted": null,
+            "outstanding_shares": 34883787,
+            "reserved_shares": 12897329,
+            "total_equity_shares_as_if_converted": "47781116",
             "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032095.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029659.json",
             "tier": 2,
-            "company_website_url": null
+            "company_website_url": "http://www.globalhempgroup.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "HBFG",
+            "listing_date": "2018-07-03",
+            "trading_date": "2018-07-03",
+            "status": "Active",
+            "security_name": "Happy Belly Food Group Inc.",
+            "security_type": "Equity",
+            "sector": "Life Sciences",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 129464226,
+            "reserved_shares": 33501978,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "CSE25",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044276.json",
+            "tier": 2,
+            "company_website_url": "https://happybellyfg.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SPTZ",
+            "listing_date": "2019-03-18",
+            "trading_date": "2019-03-18",
+            "status": "Active",
+            "security_name": "Spetz Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 30858823,
+            "reserved_shares": 1623408,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000011635.json",
+            "tier": 2,
+            "company_website_url": "https://www.spetz.app"
         },
         {
             "listing_market": "CSE",
@@ -61,17 +111,17 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "WEST",
-            "listing_date": "2020-12-07",
-            "trading_date": "2020-12-07",
+            "symbol": "FUTR",
+            "listing_date": "2020-08-21",
+            "trading_date": "2020-08-21",
             "status": "Active",
-            "security_name": "West Mining Corp.",
+            "security_name": "Gold'Futures Mineral Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 23010030,
-            "reserved_shares": 11917463,
+            "outstanding_shares": 224500209,
+            "reserved_shares": 23705000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -79,33 +129,109 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044213.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000035562.json",
             "tier": 2,
-            "company_website_url": "http://westminingcorp.com"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
-            "symbol": "TRUE",
-            "listing_date": "2021-04-19",
-            "trading_date": "2021-04-19",
+            "symbol": "MEDA",
+            "listing_date": "2021-04-07",
+            "trading_date": "2021-04-07",
             "status": "Active",
-            "security_name": "Treatment.com AI Inc.",
+            "security_name": "Medaro Mining Corp.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 75502398,
-            "reserved_shares": 18707527,
+            "outstanding_shares": 18239295,
+            "reserved_shares": 922875,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Independent Trading Group",
+                "dealer name": "Virtu Canada Corp.",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050833.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SUPR",
+            "listing_date": "2021-05-21",
+            "trading_date": "2021-05-21",
+            "status": "Active",
+            "security_name": "Supernova Metals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 31973994,
+            "reserved_shares": 4604545,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051333.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000015891.json",
             "tier": 2,
-            "company_website_url": "http://www.treatment.com"
+            "company_website_url": "https://www.supernovametals.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "ASEP",
+            "listing_date": "2021-11-22",
+            "trading_date": "2021-11-22",
+            "status": "Active",
+            "security_name": "ASEP Medical Holdings Inc.",
+            "security_type": "Equity",
+            "sector": "Life Sciences",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 11127327,
+            "reserved_shares": 1289196,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2025-04-17",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053132.json",
+            "tier": 2,
+            "company_website_url": "https://www.asepmedical.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "READ",
+            "listing_date": "2021-12-01",
+            "trading_date": "2021-12-01",
+            "status": "Active",
+            "security_name": "Legible Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 141101803,
+            "reserved_shares": 68128977,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000005138.json",
+            "tier": 2,
+            "company_website_url": "https://www.legible.com"
         },
         {
             "listing_market": "CSE",
@@ -133,6 +259,30 @@
         },
         {
             "listing_market": "CSE",
+            "symbol": "QIM",
+            "listing_date": "2022-02-28",
+            "trading_date": "2022-02-28",
+            "status": "Active",
+            "security_name": "Quimbaya Gold Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 46120989,
+            "reserved_shares": 18546773,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Integral Wealth Securities Limited",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053164.json",
+            "tier": 2,
+            "company_website_url": "https://www.quimbayagold.com"
+        },
+        {
+            "listing_market": "CSE",
             "symbol": "ASHL",
             "listing_date": "2022-04-28",
             "trading_date": "2022-05-02",
@@ -142,7 +292,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 44988581,
+            "outstanding_shares": 45488581,
             "reserved_shares": 23501997,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -154,6 +304,58 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053521.json",
             "tier": 2,
             "company_website_url": "https://www.ashleygoldcorp.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "PNGA",
+            "listing_date": "2022-07-04",
+            "trading_date": "2022-07-04",
+            "status": "Active",
+            "security_name": "Pangea Natural Foods Inc.",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 28172007,
+            "reserved_shares": 1616042,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-02-18",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054525.json",
+            "tier": 2,
+            "company_website_url": "https://www.pangeafood.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "CCI",
+            "listing_date": "2022-07-26",
+            "trading_date": "2022-07-26",
+            "status": "Active",
+            "security_name": "Canadian Copper Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 104981836,
+            "reserved_shares": 25751624,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053244.json",
+            "tier": 2,
+            "company_website_url": "https://www.canadiancopper.com"
         },
         {
             "listing_market": "CSE",
@@ -184,6 +386,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000047908.json",
             "tier": 2,
             "company_website_url": "https://www.twohandsgroup.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "DMED",
+            "listing_date": "2022-11-08",
+            "trading_date": "2022-11-08",
+            "status": "Active",
+            "security_name": "Diagnamed Holdings Corp.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 96658973,
+            "reserved_shares": 20500333,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052359.json",
+            "tier": 2,
+            "company_website_url": "https://www.diagnamed.com"
         },
         {
             "listing_market": "CSE",
@@ -539,7 +765,7 @@
             "symbol": "GHG",
             "listing_date": "2010-08-19",
             "trading_date": "2015-09-01",
-            "status": "Active",
+            "status": "Suspended",
             "security_name": "Global Hemp Group Inc.",
             "security_type": "Equity",
             "sector": "Diversified Industries",
@@ -4700,7 +4926,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 129464226,
-            "reserved_shares": 32501978,
+            "reserved_shares": 33501978,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -6334,8 +6560,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 30607768,
-            "reserved_shares": 1497880,
+            "outstanding_shares": 30858823,
+            "reserved_shares": 1623408,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -9139,7 +9365,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 224500209,
-            "reserved_shares": 45820644,
+            "reserved_shares": 23705000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -10278,11 +10504,7 @@
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-04-18",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050833.json",
             "tier": 2,
             "company_website_url": null
@@ -10693,7 +10915,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 31973994,
-            "reserved_shares": 4004545,
+            "reserved_shares": 4604545,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -12709,15 +12931,19 @@
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 74180828,
-            "reserved_shares": 18770930,
+            "outstanding_shares": 11127327,
+            "reserved_shares": 1289196,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-04-17",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053132.json",
             "tier": 2,
             "company_website_url": "https://www.asepmedical.com"
@@ -12858,7 +13084,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 141101803,
-            "reserved_shares": 68503977,
+            "reserved_shares": 68128977,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -13730,7 +13956,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 45550739,
+            "outstanding_shares": 46120989,
             "reserved_shares": 18546773,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -14196,7 +14422,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 44988581,
+            "outstanding_shares": 45488581,
             "reserved_shares": 23501997,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -14661,7 +14887,7 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 14372007,
+            "outstanding_shares": 28172007,
             "reserved_shares": 1616042,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -14879,7 +15105,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 102271319,
+            "outstanding_shares": 104981836,
             "reserved_shares": 25751624,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -15643,8 +15869,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 81408640,
-            "reserved_shares": 6250000,
+            "outstanding_shares": 96658973,
+            "reserved_shares": 20500333,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
