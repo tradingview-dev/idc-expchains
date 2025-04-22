@@ -4,7 +4,6 @@ import shutil
 import difflib
 import time
 import subprocess
-from fileinput import filename
 
 import requests
 from deepdiff.serialization import json_dumps
@@ -20,6 +19,7 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
 ]
+
 
 def get_headers() -> dict:
     """
@@ -37,6 +37,7 @@ def get_headers() -> dict:
         "x-requested-with": "XMLHttpRequest"
     }
     return headers
+
 
 def request_with_retries(url: str, post_data: dict = None, additional_headers: dict = {}, max_retries: int = 5, delay: int = 5) -> requests.Response:
     """
@@ -69,6 +70,7 @@ def request_with_retries(url: str, post_data: dict = None, additional_headers: d
             time.sleep(delay)
     return requests.Response()
 
+
 def file_writer(output: str, path: str):
     """
     Writes output to path file
@@ -76,10 +78,12 @@ def file_writer(output: str, path: str):
     with open(path, "w", encoding="utf-8") as f:
         f.write(output)
 
+
 def default_request_handler(url: str, path: str, post_data: dict = None):
     response = request_with_retries(url, post_data=post_data)
     if response != requests.Response():
         file_writer(response.text, path)
+
 
 def json_request_handler(url: str, path: str, post_data: dict = None):
     response = request_with_retries(url, post_data=post_data)
@@ -87,43 +91,42 @@ def json_request_handler(url: str, path: str, post_data: dict = None):
         file_writer(json_dumps(response.json(), indent=4, ensure_ascii=False), path)
 
 
-def compare_and_overwrite_files(file_names, dir1, dir2, check_diff):
+def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
     """
-    Compares files with the same names in two directories and overwrites the files in dir1 if they are different,
-    and the new file's size does not exceed twice the size of the old file.
+    Compares files with the same names in two directories and overwrites the files in prev_dif if they are different,
+    and the new file's size does not twice less the size of the old file.
 
     :param file_names: List of filenames to compare.
-    :param dir1: Path to the first directory (where the original files are).
-    :param dir2: Path to the second directory (where the new files are).
+    :param new_dir: Path to the directory where the new files are.
+    :param prev_dir: Path to the directory where the existing files are.
+    :param check_diff: Verify size changes.
     :return: array of changed files names
     """
     res = []
     for file_name in file_names:
-        file1_path = os.path.join(dir1, file_name)
-        file2_path = os.path.join(dir2, file_name)
-        if os.path.exists(file1_path) and os.path.exists(file2_path):
-            size1 = os.path.getsize(file1_path)
-            size2 = os.path.getsize(file2_path)
-            print(size1)
-            print(size2)
-            print(file1_path)
-            print(file2_path)
-            show_diff(file1_path, file2_path)
+        new_file_path = os.path.join(new_dir, file_name)
+        prev_file_path = os.path.join(prev_dir, file_name)
+        if os.path.exists(new_file_path) and os.path.exists(prev_file_path):
+            new_size = os.path.getsize(new_file_path)
+            prev_size = os.path.getsize(prev_file_path)
+            print(f"New file {new_file_path} has size {new_size}")
+            print(f"Prev file {prev_file_path} has size {prev_size}")
+            show_diff(str(new_file_path), str(prev_file_path))
 
-            if files_are_different(file1_path, file2_path):
-                with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
-                    if check_diff and size1 * 2 < size2:
-                        print(f"Skipping {filename}: New file size less twice the size of the old file.")
-                    else:
-                        print(f"File {filename} have diff")
-                        shutil.copy(str(file1_path), str(file2_path))
-                        res.append(file2_path)
+            if files_are_different(new_file_path, prev_file_path):
+                if check_diff and new_size < prev_size / 2:
+                    print(f"Skipping {file_name}: New file size less twice the size of the old file.")
+                else:
+                    print(f"File {file_name} have diff")
+                    shutil.copy(str(new_file_path), str(prev_file_path))
+                    res.append(prev_file_path)
         else:
-            if os.path.exists(file1_path):
-                print(f"Skipping {filename}: File not found in both directories. {file1_path} Not found")
-            if os.path.exists(file2_path):
-                print(f"Skipping {filename}: File not found in both directories. {file2_path} Not found")
+            if os.path.exists(new_file_path):
+                print(f"Skipping {file_name}: File not found in both directories. {prev_file_path} Not found")
+            if os.path.exists(prev_file_path):
+                print(f"Skipping {file_name}: File not found in both directories. {new_file_path} Not found")
     return res
+
 
 def show_diff(file1_path: str, file2_path: str):
     with open(file1_path, 'r', encoding='utf-8') as f1, open(file2_path, 'r', encoding='utf-8') as f2:
@@ -134,6 +137,7 @@ def show_diff(file1_path: str, file2_path: str):
 
     for line in diff:
         print(line, end="")
+
 
 def files_are_different(file1_path, file2_path):
     # Open both files in binary mode and compare chunk by chunk
