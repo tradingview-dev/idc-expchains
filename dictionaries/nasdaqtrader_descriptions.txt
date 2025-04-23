@@ -701,7 +701,7 @@ BTM|Bitcoin Depot Inc. - Class A Common Stock|S|N|N|100|N|N
 BTMD|Biote Corp. - Class A common stock|G|N|N|100|N|N
 BTMWW|Bitcoin Depot Inc. - Warrant|S|N|N|100|N|N
 BTOC|Armlogi Holding Corp. - common stock|G|N|N|100|N|N
-BTOG|Bit Origin Limited - Ordinary Shares|S|N|D|100|N|N
+BTOG|Bit Origin Limited - Class A Ordinary Shares|S|N|D|100|N|N
 BTSG|BrightSpring Health Services, Inc. - Common Stock|Q|N|N|100|N|N
 BTSGU|BrightSpring Health Services, Inc. - Tangible Equity Unit|Q|N|N|100|N|N
 BUFC|AB Conservative Buffer ETF|G|N|N|100|Y|N
@@ -769,7 +769,7 @@ CARY|Angel Oak Income ETF|G|N|N|100|Y|N
 CARZ|First Trust S-Network Electric & Future Vehicle Ecosystem ETF|G|N|N|100|Y|N
 CASH|Pathward Financial, Inc. - Common Stock|Q|N|N|100|N|N
 CASI|CASI Pharmaceuticals, Inc. - Ordinary Shares|S|N|N|100|N|N
-CASK|Heritage Distilling Holding Company, Inc. - Common Stock|S|N|N|100|N|N
+CASK|Heritage Distilling Holding Company, Inc. - Common Stock|S|N|D|100|N|N
 CASS|Cass Information Systems, Inc - Common Stock|Q|N|N|100|N|N
 CASY|Caseys General Stores, Inc. - Common Stock|Q|N|N|100|N|N
 CATH|Global X S&P 500 Catholic Values ETF|G|N|N|100|Y|N
@@ -904,6 +904,7 @@ CIBR|First Trust NASDAQ Cybersecurity ETF|G|N|N|100|Y|N
 CIFR|Cipher Mining Inc. - Common Stock|Q|N|N|100|N|N
 CIFRW|Cipher Mining Inc. - Warrant|Q|N|N|100|N|N
 CIGI|Colliers International Group Inc.  - Subordinate Voting Shares|Q|N|N|100|N|N
+CIGL|Concorde International Group Ltd - Class A Ordinary Shares|S|N|N|100|N|N
 CIIT|Tianci International, Inc. - Common Stock|S|N|N|100|N|N
 CIL|VictoryShares International Volatility Wtd ETF|G|N|N|100|Y|N
 CINF|Cincinnati Financial Corporation - Common Stock|Q|N|N|100|N|N
@@ -1702,7 +1703,7 @@ FTFT|Future FinTech Group Inc. - Common Stock|S|N|D|100|N|N
 FTGC|First Trust Global Tactical Commodity Strategy Fund|G|N|N|100|Y|N
 FTGS|First Trust Growth Strength ETF|G|N|N|100|Y|N
 FTHI|First Trust BuyWrite Income ETF|G|N|N|100|Y|N
-FTHM|Fathom Holdings Inc. - Common Stock|S|N|N|100|N|N
+FTHM|Fathom Holdings Inc. - Common Stock|S|N|D|100|N|N
 FTLF|FitLife Brands, Inc. - Common Stock|S|N|N|100|N|N
 FTNT|Fortinet, Inc. - Common Stock|Q|N|N|100|N|N
 FTQI|First Trust Nasdaq BuyWrite Income ETF|G|N|N|100|Y|N
@@ -2465,6 +2466,7 @@ LBRDP|Liberty Broadband Corporation - Series A Cumulative Redeemable Preferred S
 LBTYA|Liberty Global Ltd. - Class A Common Shares|Q|N|N|100|N|N
 LBTYB|Liberty Global Ltd. - Class B Common Shares|Q|N|N|100|N|N
 LBTYK|Liberty Global Ltd. - Class C Common Shares|Q|N|N|100|N|N
+LCDL|GraniteShares 2x Long LCID Daily ETF|G|N|N|100|Y|N
 LCDS|JPMorgan Fundamental Data Science Large Core ETF|G|N|N|100|Y|N
 LCFY|Locafy Limited - Ordinary Share|S|N|N|100|N|N
 LCFYW|Locafy Limited - Warrant|S|N|N|100|N|N
@@ -2652,6 +2654,7 @@ MBAV|M3-Brigade Acquisition V Corp. - Class A Ordinary shares|G|N|N|100|N|N
 MBAVU|M3-Brigade Acquisition V Corp. - Units|G|N|N|100|N|N
 MBAVW|M3-Brigade Acquisition V Corp. - Warrant|G|N|N|100|N|N
 MBB|iShares MBS ETF|G|N|N|100|Y|N
+MBBC|Marathon Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 MBCN|Middlefield Banc Corp. - Common Stock|S|N|N|100|N|N
 MBIN|Merchants Bancorp - Common Stock|S|N|N|100|N|N
 MBINL|Merchants Bancorp - Depositary Shares, Each Representing a 1/40th Interest in a Share of 7.625% Fixed Rate Series E Non-Cumulative Perpetual Preferred Stock, without par value|S|N|N|100|N|N
@@ -2919,7 +2922,7 @@ NDLS|Noodles & Company - Common Stock|Q|N|N|100|N|N
 NDRA|ENDRA Life Sciences Inc. - Common Stock|S|N|N|100|N|N
 NDSN|Nordson Corporation - Common Stock|Q|N|N|100|N|N
 NECB|NorthEast Community Bancorp, Inc. - Common Stock|S|N|N|100|N|N
-NEGG|Newegg Commerce, Inc. - Common Shares|S|N|D|100|N|N
+NEGG|Newegg Commerce, Inc. - Common Shares|S|N|N|100|N|N
 NEHC|New Era Helium Inc - Common Stock|G|N|D|100|N|N
 NEHCW|New Era Helium Inc - Warrants|S|N|N|100|N|N
 NEO|NeoGenomics, Inc. - Common Stock|S|N|N|100|N|N
@@ -3054,8 +3057,8 @@ NVEC|NVE Corporation - Common Stock|S|N|N|100|N|N
 NVEE|NV5 Global, Inc. - Common Stock|Q|N|N|100|N|N
 NVFY|Nova Lifestyle, Inc - Common Stock|S|N|D|100|N|N
 NVMI|Nova Ltd. - Ordinary Shares|Q|N|N|100|N|N
-NVNI|Nvni Group Limited - Ordinary Shares|S|N|N|100|N|N
-NVNIW|Nvni Group Limited - Warrants|S|N|N|100|N|N
+NVNI|Nvni Group Limited - Ordinary Shares|S|N|D|100|N|N
+NVNIW|Nvni Group Limited - Warrants|S|N|D|100|N|N
 NVNO|enVVeno Medical Corporation - Common Stock|S|N|N|100|N|N
 NVTS|Navitas Semiconductor Corporation - Common Stock|G|N|N|100|N|N
 NVVE|Nuvve Holding Corp. - Common Stock|S|N|D|100|N|N
@@ -3069,7 +3072,7 @@ NWL|Newell Brands Inc. - Common Stock|Q|N|N|100|N|N
 NWPX|Northwest Pipe Company - Common Stock|Q|N|N|100|N|N
 NWS|News Corporation - Class B Common Stock|Q|N|N|100|N|N
 NWSA|News Corporation - Class A Common Stock|Q|N|N|100|N|N
-NWTG|Newton Golf Company, Inc. - Common Stock|S|N|N|100|N|N
+NWTG|Newton Golf Company, Inc. - Common Stock|S|N|D|100|N|N
 NWTN|NWTN Inc. - Class B Ordinary Shares|S|N|H|100|N|N
 NWTNW|NWTN Inc. - Warrant|S|N|H|100|N|N
 NXGL|NexGel, Inc - Common Stock|S|N|N|100|N|N
@@ -3315,6 +3318,7 @@ PETWW|Wag! Group Co. - Warrant|G|N|D|100|N|N
 PETZ|TDH Holdings, Inc. - Common Shares|S|N|N|100|N|N
 PEY|Invesco High Yield Equity Dividend Achievers ETF|G|N|N|100|Y|N
 PEZ|Invesco Dorsey Wright Consumer Cyclicals Momentum ETF|G|N|N|100|Y|N
+PFAI|Pinnacle Food Group Limited - Class A Common Shares|S|N|N|100|N|N
 PFBC|Preferred Bank - Common Stock|Q|N|N|100|N|N
 PFF|iShares Preferred and Income Securities ETF|G|N|N|100|Y|N
 PFG|Principal Financial Group Inc - Common Stock|Q|N|N|100|N|N
@@ -3647,7 +3651,7 @@ RELI|Reliance Global Group, Inc. - Common Stock|S|N|N|100|N|N
 RELIW|Reliance Global Group, Inc. - Series A Warrants|S|N|N|100|N|N
 RELL|Richardson Electronics, Ltd. - Common Stock|Q|N|N|100|N|N
 RELY|Remitly Global, Inc. - Common stock|Q|N|N|100|N|N
-RENB|Renovaro Inc. - Common Stock|S|N|N|100|N|N
+RENB|Renovaro Inc. - Common Stock|S|N|D|100|N|N
 RENE|Cartesian Growth Corporation II - Class A Ordinary Shares|G|N|N|100|N|N
 RENEU|Cartesian Growth Corporation II - Unit|G|N|N|100|N|N
 RENEW|Cartesian Growth Corporation II - Warrant|G|N|N|100|N|N
@@ -3754,6 +3758,7 @@ RUSHA|Rush Enterprises, Inc. - Class A Common Stock|Q|N|N|100|N|N
 RUSHB|Rush Enterprises, Inc. - Class B Common Stock|Q|N|N|100|N|N
 RVMD|Revolution Medicines, Inc. - Common Stock|Q|N|N|100|N|N
 RVMDW|Revolution Medicines, Inc. - Warrant|Q|N|N|100|N|N
+RVNL|GraniteShares 2x Long RIVN Daily ETF|G|N|N|100|Y|N
 RVPH|Reviva Pharmaceuticals Holdings, Inc. - Common Stock|S|N|N|100|N|N
 RVPHW|Reviva Pharmaceuticals Holdings, Inc. - Warrants|S|N|N|100|N|N
 RVSB|Riverview Bancorp Inc - Common Stock|Q|N|N|100|N|N
@@ -3915,7 +3920,7 @@ SJLD|SanJac Alpha Low Duration ETF|G|N|N|100|Y|N
 SJW|SJW Group - Common Stock|Q|N|N|100|N|N
 SKBL|Skyline Builders Group Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 SKIN|The Beauty Health Company - Class A Common Stock|S|N|N|100|N|N
-SKK|SKK Holdings Limited - Ordinary Shares|S|N|N|100|N|N
+SKK|SKK Holdings Limited - Ordinary Shares|S|N|D|100|N|N
 SKOR|FlexShares Credit-Scored US Corporate Bond Index Fund|G|N|N|100|Y|N
 SKRE|Tuttle Capital Daily 2X Inverse Regional Banks ETF|G|N|N|100|Y|N
 SKWD|Skyward Specialty Insurance Group, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4224,7 +4229,7 @@ TERN|Terns Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 TFIN|Triumph Financial, Inc. - Common Stock|Q|N|N|100|N|N
 TFINP|Triumph Financial, Inc. - Depositary Shares, Each Representing a 1/40th Interest in a Share of Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock|Q|N|N|100|N|N
 TFSL|TFS Financial Corporation - Common Stock|Q|N|N|100|N|N
-TGL|Treasure Global Inc. - Common Stock|S|N|D|100|N|N
+TGL|Treasure Global Inc. - Common Stock|S|N|N|100|N|N
 TGTX|TG Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TH|Target Hospitality Corp. - Common Stock|S|N|N|100|N|N
 THAR|Tharimmune, Inc. - Common Stock|S|N|D|100|N|N
@@ -4520,7 +4525,6 @@ VIAV|Viavi Solutions Inc. - Common Stock|Q|N|N|100|N|N
 VICR|Vicor Corporation - Common Stock|Q|N|N|100|N|N
 VIGI|Vanguard International Dividend Appreciation ETF|G|N|N|100|Y|N
 VIGL|Vigil Neuroscience, Inc. - Common Stock|Q|N|N|100|N|N
-VINC|Vincerx Pharma, Inc. - Common Stock|S|N|N|100|N|N
 VINP|Vinci Partners Investments Ltd. - Class A Common Shares|Q|N|N|100|N|N
 VIOT|Viomi Technology Co., Ltd - American Depositary Shares|Q|N|N|100|N|N
 VIR|Vir Biotechnology, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4832,4 +4836,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0422202507:00|||||||
+File Creation Time: 0423202507:00|||||||
