@@ -75,8 +75,8 @@ ADGM|Adagio Medical Holdings, Inc - Common Stock|S|N|D|100|N|N
 ADI|Analog Devices, Inc. - Common Stock|Q|N|N|100|N|N
 ADIL|Adial Pharmaceuticals, Inc - Common Stock|S|N|D|100|N|N
 ADMA|ADMA Biologics Inc - Common Stock|G|N|N|100|N|N
-ADN|Advent Technologies Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
-ADNWW|Advent Technologies Holdings, Inc. - Warrant|S|N|N|100|N|N
+ADN|Advent Technologies Holdings, Inc. - Class A Common Stock|S|N|E|100|N|N
+ADNWW|Advent Technologies Holdings, Inc. - Warrant|S|N|E|100|N|N
 ADP|Automatic Data Processing, Inc. - Common Stock|Q|N|N|100|N|N
 ADPT|Adaptive Biotechnologies Corporation - Common Stock|Q|N|N|100|N|N
 ADSE|ADS-TEC ENERGY PLC - Ordinary Shares|S|N|N|100|N|N
@@ -336,7 +336,7 @@ ARTW|Art's-Way Manufacturing Co., Inc. - Common Stock|S|N|N|100|N|N
 ARVN|Arvinas, Inc. - Common Stock|Q|N|N|100|N|N
 ARVR|First Trust Indxx Metaverse ETF|G|N|N|100|Y|N
 ARWR|Arrowhead Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
-ASBP|Aspire Biopharma Holdings, Inc.  - Common Stock|G|N|N|100|N|N
+ASBP|Aspire Biopharma Holdings, Inc.  - Common Stock|G|N|D|100|N|N
 ASBPW|Aspire Biopharma Holdings, Inc.  - Warrant|S|N|N|100|N|N
 ASET|FlexShares Real Assets Allocation Index Fund|G|N|N|100|Y|N
 ASLE|AerSale Corporation - Common Stock|S|N|N|100|N|N
@@ -834,8 +834,8 @@ CEFA|Global X S&P Catholic Values Developed ex-U.S. ETF|G|N|N|100|Y|N
 CEG|Constellation Energy Corporation - Common Stock|Q|N|N|100|N|N
 CELC|Celcuity Inc. - Common Stock|S|N|N|100|N|N
 CELH|Celsius Holdings, Inc. - Common Stock|S|N|N|100|N|N
-CELU|Celularity Inc. - Class A Common Stock|S|N|N|100|N|N
-CELUW|Celularity Inc. - Warrant|S|N|N|100|N|N
+CELU|Celularity Inc. - Class A Common Stock|S|N|E|100|N|N
+CELUW|Celularity Inc. - Warrant|S|N|E|100|N|N
 CELZ|Creative Medical Technology Holdings, Inc. - Common Stock|S|N|N|100|N|N
 CENN|Cenntro Inc. - Common Stock|S|N|N|100|N|N
 CENT|Central Garden & Pet Company - Common Stock|Q|N|N|100|N|N
@@ -948,7 +948,7 @@ CLSM|Cabana Target Leading Sector Moderate ETF|G|N|N|100|Y|N
 CLST|Catalyst Bancorp, Inc. - common stock|S|N|N|100|N|N
 CLWT|Euro Tech Holdings Company Limited - Ordinary Shares|S|N|N|100|N|N
 CLYM|Climb Bio, Inc. - Common Stock|G|N|N|100|N|N
-CMBM|Cambium Networks Corporation - Ordinary Shares|G|N|D|100|N|N
+CMBM|Cambium Networks Corporation - Ordinary Shares|G|N|H|100|N|N
 CMCO|Columbus McKinnon Corporation - Common Stock|Q|N|N|100|N|N
 CMCSA|Comcast Corporation - Class A Common Stock|Q|N|N|100|N|N
 CMCT|Creative Media  - Common Stock|S|N|D|100|N|N
@@ -1089,7 +1089,6 @@ CSX|CSX Corporation - Common Stock|Q|N|N|100|N|N
 CTAS|Cintas Corporation - Common Stock|Q|N|N|100|N|N
 CTBI|Community Trust Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 CTEC|Global X CleanTech ETF|G|N|N|100|Y|N
-CTHR|Charles & Colvard Ltd. - Common Stock|S|N|E|100|N|N
 CTKB|Cytek Biosciences, Inc. - Common Stock|Q|N|N|100|N|N
 CTLP|Cantaloupe, Inc. - Common Stock|Q|N|N|100|N|N
 CTMX|CytomX Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
@@ -2119,7 +2118,7 @@ IBTQ|iShares iBonds Dec 2035 Term Treasury ETF|G|N|N|100|Y|N
 ICAD|icad inc. - Common Stock|S|N|N|100|N|N
 ICCC|ImmuCell Corporation - Common Stock|S|N|N|100|N|N
 ICCM|IceCure Medical Ltd. - Ordinary Shares|S|N|N|100|N|N
-ICCT|iCoreConnect Inc. - Common stock|S|N|D|100|N|N
+ICCT|iCoreConnect Inc. - Common stock|S|N|H|100|N|N
 ICFI|ICF International, Inc. - Common Stock|Q|N|N|100|N|N
 ICG|Intchains Group Limited - American Depositary Shares|S|N|N|100|N|N
 ICHR|Ichor Holdings - Ordinary Shares|Q|N|N|100|N|N
@@ -2454,7 +2453,7 @@ LANDM|Gladstone Land Corporation - 5.00% Series D Cumulative Term Preferred Stoc
 LANDO|Gladstone Land Corporation - 6.00% Series B Cumulative Redeemable Preferred Stock|G|N|N|100|N|N
 LANDP|Gladstone Land Corporation - 6.00% Series C Cumulative Redeemable Preferred Stock|G|N|N|100|N|N
 LARK|Landmark Bancorp Inc. - Common Stock|G|N|N|100|N|N
-LASE|Laser Photonics Corporation - Common Stock|S|N|N|100|N|N
+LASE|Laser Photonics Corporation - Common Stock|S|N|E|100|N|N
 LASR|nLIGHT, Inc. - Common Stock|Q|N|N|100|N|N
 LAUR|Laureate Education, Inc. - Common Stock|Q|N|N|100|N|N
 LAYS|STKd 100% NVDA & 100% AMD ETF|G|N|N|100|Y|N
@@ -2806,7 +2805,7 @@ MRBK|Meridian Corporation - Common Stock|Q|N|N|100|N|N
 MRCC|Monroe Capital Corporation - Closed End Fund|Q|N|N|100|N|N
 MRCY|Mercury Systems Inc - Common Stock|Q|N|N|100|N|N
 MREO|Mereo BioPharma Group plc - American Depositary Shares|S|N|N|100|N|N
-MRIN|Marin Software Incorporated - Common Stock|S|N|N|100|N|N
+MRIN|Marin Software Incorporated - Common Stock|S|N|E|100|N|N
 MRKR|Marker Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 MRM|MEDIROM Healthcare Technologies Inc. - American Depositary Share|S|N|D|100|N|N
 MRNA|Moderna, Inc. - Common Stock|Q|N|N|100|N|N
@@ -2894,7 +2893,7 @@ NATO|Themes Transatlantic Defense ETF|G|N|N|100|Y|N
 NATR|Nature's Sunshine Products, Inc. - Common Stock|S|N|N|100|N|N
 NAUT|Nautilus Biotechnology, Inc. - Common Stock|Q|N|N|100|N|N
 NAVI|Navient Corporation - Common Stock|Q|N|N|100|N|N
-NAYA|NAYA Biosciences, Inc.  - Common Stock|S|N|N|100|N|N
+NAYA|NAYA Biosciences, Inc.  - Common Stock|S|N|E|100|N|N
 NB|NioCorp Developments Ltd. - Common Stock|G|N|N|100|N|N
 NBBK|NB Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 NBIS|Nebius Group N.V. - Class A Ordinary Shares|Q|N|N|100|N|N
@@ -2996,6 +2995,7 @@ NOEMU|CO2 Energy Transition Corp. - Unit|G|N|N|100|N|N
 NOEMW|CO2 Energy Transition Corp. - Warrant|G|N|N|100|N|N
 NOTV|Inotiv, Inc. - Common Stock|S|N|N|100|N|N
 NOVT|Novanta Inc. - Common Shares|Q|N|N|100|N|N
+NPACU|New Providence Acquisition Corp. III - Units|G|N|N|100|N|N
 NPCE|Neuropace, Inc. - Common Stock|G|N|N|100|N|N
 NPFI|Nuveen Preferred and Income ETF|G|N|N|100|Y|N
 NRC|National Research Corporation - Common Stock|Q|N|N|100|N|N
@@ -3185,8 +3185,8 @@ OPRT|Oportun Financial Corporation - common stock|Q|N|N|100|N|N
 OPRX|OptimizeRx Corporation - Common Stock|S|N|N|100|N|N
 OPT|Opthea Limited - American Depositary Shares|Q|N|N|100|N|N
 OPTN|OptiNose, Inc. - Common Stock|Q|N|N|100|N|N
-OPTX|Syntec Optics Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
-OPTXW|Syntec Optics Holdings, Inc. - Warrant|S|N|N|100|N|N
+OPTX|Syntec Optics Holdings, Inc. - Class A Common Stock|S|N|E|100|N|N
+OPTXW|Syntec Optics Holdings, Inc. - Warrant|S|N|E|100|N|N
 OPTZ|Optimize Strategy Index ETF|G|N|N|100|Y|N
 OPXS|Optex Systems Holdings, Inc. - Common Stock|S|N|N|100|N|N
 ORCX|Defiance Daily Target 2X Long ORCL ETF|G|N|N|100|Y|N
@@ -3267,7 +3267,7 @@ PAYX|Paychex, Inc. - Common Stock|Q|N|N|100|N|N
 PBBK|PB Bankshares, Inc. - Common Stock|S|N|N|100|N|N
 PBFS|Pioneer Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 PBHC|Pathfinder Bancorp, Inc. - Common Stock|S|N|N|100|N|N
-PBM|Psyence Biomedical Ltd. - Ordinary Shares|S|N|N|100|N|N
+PBM|Psyence Biomedical Ltd. - Ordinary Shares|S|N|D|100|N|N
 PBMWW|Psyence Biomedical Ltd. - Warrant|S|N|N|100|N|N
 PBPB|Potbelly Corporation - Common Stock|Q|N|N|100|N|N
 PBQQ|PGIM Laddered Nasdaq-100 Buffer 12 ETF|G|N|N|100|Y|N
@@ -4285,7 +4285,7 @@ TPG|TPG Inc. - Class A Common Stock|Q|N|N|100|N|N
 TPGXL|TPG Inc. - 6.950% Fixed-Rate Junior Subordinated Notes due 2064|G|N|N|100|N|N
 TPIC|TPI Composites, Inc. - Common Stock|G|N|N|100|N|N
 TPLS|Thornburg Core Plus Bond ETF|G|N|N|100|Y|N
-TPST|Tempest Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
+TPST|Tempest Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TQQQ|ProShares UltraPro QQQ|G|N|N|100|Y|N
 TQQY|GraniteShares YieldBOOST QQQ ETF|G|N|N|100|Y|N
 TRAW|Traws Pharma, Inc. - Common Stock|S|N|N|100|N|N
@@ -4398,7 +4398,7 @@ UFO|Procure Space ETF|G|N|N|100|Y|N
 UFPI|UFP Industries, Inc. - Common Stock|Q|N|N|100|N|N
 UFPT|UFP Technologies, Inc. - Common Stock|S|N|N|100|N|N
 UG|United-Guardian, Inc. - Common Stock|G|N|N|100|N|N
-UGRO|urban-gro, Inc. - Common Stock|S|N|D|100|N|N
+UGRO|urban-gro, Inc. - Common Stock|S|N|H|100|N|N
 UHG|United Homes Group, Inc - Class A Common Stock|G|N|N|100|N|N
 UHGWW|United Homes Group, Inc - Warrant|S|N|N|100|N|N
 UITB|VictoryShares Core Intermediate Bond ETF|G|N|N|100|Y|N
@@ -4836,4 +4836,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0424202507:00|||||||
+File Creation Time: 0425202507:00|||||||
