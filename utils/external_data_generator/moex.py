@@ -218,7 +218,7 @@ def update_moex_data(logger: ConsoleOutput) -> int:
     moex_stock_rates = {
         "morning": morning_moex_stock_rates['rates'],
         "evening": evening_moex_stock_rates['rates'],
-        "weekend": weekend_moex_stock_rates,
+        "weekend": weekend_moex_stock_rates['rates'],
         "all": all_moex_stock_rates['rates']
     }
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["stock_rates"], moex_stock_rates)
