@@ -212,8 +212,15 @@ def update_moex_data(logger: ConsoleOutput) -> int:
     morning_moex_stock_rates = paginated_request(logger, rates_base_url, headers, morning_rates_url_params, 0, 100)
     evening_rates_url_params = rates_base_url_params | {"evening": 1}
     evening_moex_stock_rates = paginated_request(logger, rates_base_url, headers, evening_rates_url_params, 0, 100)
+    weekend_rates_url_params = rates_base_url_params | {"weekend": 1}
+    weekend_moex_stock_rates = paginated_request(logger, rates_base_url, headers, weekend_rates_url_params, 0, 100)
     all_moex_stock_rates = paginated_request(logger, rates_base_url, headers, rates_base_url_params, 0, 100)
-    moex_stock_rates = {"morning": morning_moex_stock_rates['rates'], "evening": evening_moex_stock_rates['rates'], "all": all_moex_stock_rates['rates']}
+    moex_stock_rates = {
+        "morning": morning_moex_stock_rates['rates'],
+        "evening": evening_moex_stock_rates['rates'],
+        "weekend": weekend_moex_stock_rates,
+        "all": all_moex_stock_rates['rates']
+    }
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["stock_rates"], moex_stock_rates)
     if not os.path.getsize(dictionaries_paths["stock_rates"]):
         logger.error("Requested data are empty")
