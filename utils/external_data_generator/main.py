@@ -118,8 +118,8 @@ def main():
             "moex_stock_rates.json"], "moex")
     elif args.data_cluster == "korea":
         korea_handler()
-        delivery(["korea_local_descriptions.csv"], args.branch)
-        run_s3_process_snapshot(args.branch, ["korea_local_descriptions.csv"], "korea")
+        delivery(["korea_local_descriptions.csv", "krx_derivatives_local_descriptions.csv"], args.branch)
+        run_s3_process_snapshot(args.branch, ["korea_local_descriptions.csv", "krx_derivatives_local_descriptions.csv"], "korea")
     elif args.data_cluster == "cftc":
         cftc_handler()
         run_s3_process_snapshot(args.branch, ["cftc_CBOT.csv",
