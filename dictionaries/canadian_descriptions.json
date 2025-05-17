@@ -1,20 +1,22 @@
 {
-    "date": "2025-05-15",
-    "deletions": [],
+    "date": "2025-05-16",
+    "deletions": [
+        "GDIG"
+    ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "PKK",
-            "listing_date": "2015-10-23",
-            "trading_date": "2015-11-02",
-            "status": "Suspended",
-            "security_name": "Tenet Fintech Group Inc",
+            "symbol": "BDR",
+            "listing_date": "2006-03-16",
+            "trading_date": "2015-10-09",
+            "status": "Active",
+            "security_name": "Bird River Resources Inc.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Oil and Gas",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 325140867,
-            "reserved_shares": 252716440,
+            "outstanding_shares": 31590742,
+            "reserved_shares": 1500000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -22,9 +24,9 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000027164.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000021598.json",
             "tier": 2,
-            "company_website_url": "https://www.tenetfintech.com/"
+            "company_website_url": "http://www.birdriver.net"
         },
         {
             "listing_market": "CSE",
@@ -61,129 +63,58 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "FFNT",
-            "listing_date": "2018-03-14",
-            "trading_date": "2019-08-06",
-            "status": "Suspended",
-            "security_name": "4Front Ventures Corp.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "US Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 916382522,
-            "reserved_shares": 281301750,
-            "total_equity_shares_as_if_converted": "1197684272",
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048061.json",
-            "tier": 2,
-            "company_website_url": "http://www.4frontventures.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TCF",
-            "listing_date": "2020-02-11",
-            "trading_date": "2020-02-11",
+            "symbol": "WHIP",
+            "listing_date": "2020-08-11",
+            "trading_date": "2020-08-13",
             "status": "Active",
-            "security_name": "Trillion Energy International Inc.",
+            "security_name": "Credissential Inc.",
             "security_type": "Equity",
-            "sector": "Oil and Gas",
+            "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 194586919,
-            "reserved_shares": 62217267,
+            "outstanding_shares": 92539053,
+            "reserved_shares": 24845771,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045319.json",
-            "tier": 2,
-            "company_website_url": "http://www.trillionenergy.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "MUSL",
-            "listing_date": "2021-05-26",
-            "trading_date": "2021-05-26",
-            "status": "Suspended",
-            "security_name": "Promino Nutritional Sciences Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 136307170,
-            "reserved_shares": 53512729,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
-                "type": "full"
+            "recent_change": {
+                "effective_on": "2024-09-18",
+                "text": "formerly was PACT/Impact Analytics Inc. until 2024-09-17",
+                "until": "2024-09-17",
+                "symbol_was": "PACT",
+                "name_was": "Impact Analytics Inc.",
+                "type": "symbol, name and CUSIP"
             },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050157.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049675.json",
             "tier": 2,
-            "company_website_url": "http://www.drinkpromino.com"
+            "company_website_url": "https://www.credissential.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "ESAU",
-            "listing_date": "2021-10-06",
-            "trading_date": "2021-10-06",
+            "symbol": "AITT",
+            "listing_date": "2020-08-28",
+            "trading_date": "2020-08-28",
             "status": "Active",
-            "security_name": "ESGold Corp.",
+            "security_name": "Trenchant Technologies Capital Corp.",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 74318387,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000022576.json",
-            "tier": 2,
-            "company_website_url": "https://www.esgold.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "ASEP",
-            "listing_date": "2021-11-22",
-            "trading_date": "2021-11-22",
-            "status": "Suspended",
-            "security_name": "ASEP Medical Holdings Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 11127327,
-            "reserved_shares": 1289196,
+            "outstanding_shares": 71761286,
+            "reserved_shares": 20300000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "No",
-            "recent_change": {
-                "effective_on": "2025-04-17",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053132.json",
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029867.json",
             "tier": 2,
-            "company_website_url": "https://www.asepmedical.com"
+            "company_website_url": "https://www.trenchanttechcap.com"
         },
         {
             "listing_market": "CSE",
@@ -211,29 +142,80 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "ISP",
-            "listing_date": "2022-04-05",
-            "trading_date": "2022-04-07",
+            "symbol": "TERA",
+            "listing_date": "2022-06-20",
+            "trading_date": "2022-06-20",
             "status": "Active",
-            "security_name": "Inspiration Energy Corp.",
+            "security_name": "Terra Balcanica Resources Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 30097729,
-            "reserved_shares": 20377690,
+            "outstanding_shares": 52465807,
+            "reserved_shares": 25824198,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-06-28",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053179.json",
+            "tier": 2,
+            "company_website_url": "https://terrabresources.com/en/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "HML",
+            "listing_date": "2022-08-24",
+            "trading_date": "2022-08-26",
+            "status": "Active",
+            "security_name": "Heritage Mining Ltd.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 142912890,
+            "reserved_shares": 26071497,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053275.json",
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050892.json",
+            "tier": 2,
+            "company_website_url": "https://www.heritagemining.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "NUKV",
+            "listing_date": "2022-11-01",
+            "trading_date": "2022-11-03",
+            "status": "Active",
+            "security_name": "Nuclear Vision Limited",
+            "security_type": "Equity",
+            "sector": null,
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 35232078,
+            "reserved_shares": 2059124,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2025-05-16",
+                "text": "formerly was GDIG/Gold Digger Resources Inc. until 2025-05-15",
+                "until": "2025-05-15",
+                "symbol_was": "GDIG",
+                "name_was": "Gold Digger Resources Inc.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055043.json",
             "tier": 2,
             "company_website_url": null
         },
@@ -263,51 +245,27 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "FOMO",
-            "listing_date": "2024-10-18",
-            "trading_date": "2024-10-18",
+            "symbol": "MLM",
+            "listing_date": "2025-05-08",
+            "trading_date": "2025-05-08",
             "status": "Active",
-            "security_name": "Formation Metals Inc.",
+            "security_name": "MCFARLANE LAKE MINING LIMITED",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 47151474,
-            "reserved_shares": 25264000,
+            "outstanding_shares": 270558654,
+            "reserved_shares": 109862917,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056874.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052046.json",
             "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "INTG",
-            "listing_date": "2024-10-31",
-            "trading_date": "2024-10-31",
-            "status": "Active",
-            "security_name": "Integral Metals Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 34975334,
-            "reserved_shares": 19448334,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103117.json",
-            "tier": 2,
-            "company_website_url": "https://www.integralmetals.com"
+            "company_website_url": "https://mcfarlanelakemining.com"
         }
     ],
     "full_list": [
@@ -2159,9 +2117,9 @@
             "sector": "Oil and Gas",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 18191861,
+            "outstanding_shares": 31590742,
             "reserved_shares": 1500000,
-            "total_equity_shares_as_if_converted": "19691861",
+            "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
@@ -9060,8 +9018,8 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 72539053,
-            "reserved_shares": 24345771,
+            "outstanding_shares": 92539053,
+            "reserved_shares": 24845771,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -9230,14 +9188,7 @@
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-05-17",
-                "text": "formerly was TCC/Trenchant Capital Corp. until 2024-05-16",
-                "until": "2024-05-16",
-                "symbol_was": "TCC",
-                "name_was": "Trenchant Capital Corp.",
-                "type": "symbol, name and CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029867.json",
             "tier": 2,
             "company_website_url": "https://www.trenchanttechcap.com"
@@ -14448,11 +14399,7 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-05-17",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053179.json",
             "tier": 2,
             "company_website_url": "https://terrabresources.com/en/"
@@ -15125,7 +15072,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 139912890,
+            "outstanding_shares": 142912890,
             "reserved_shares": 26071497,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -15630,13 +15577,13 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "GDIG",
+            "symbol": "NUKV",
             "listing_date": "2022-11-01",
             "trading_date": "2022-11-03",
             "status": "Active",
-            "security_name": "Gold Digger Resources Inc.",
+            "security_name": "Nuclear Vision Limited",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": null,
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 35232078,
@@ -15647,7 +15594,14 @@
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-05-16",
+                "text": "formerly was GDIG/Gold Digger Resources Inc. until 2025-05-15",
+                "until": "2025-05-15",
+                "symbol_was": "GDIG",
+                "name_was": "Gold Digger Resources Inc.",
+                "type": "symbol, name and CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055043.json",
             "tier": 2,
             "company_website_url": null
@@ -19403,7 +19357,7 @@
             "index": "No",
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052046.json",
-            "tier": 1,
+            "tier": 2,
             "company_website_url": "https://mcfarlanelakemining.com"
         },
         {
