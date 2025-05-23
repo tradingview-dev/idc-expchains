@@ -1,31 +1,9 @@
 {
-    "date": "2025-05-21",
-    "deletions": [],
+    "date": "2025-05-22",
+    "deletions": [
+        "ONCO"
+    ],
     "adds_and_changes": [
-        {
-            "listing_market": "CSE",
-            "symbol": "DOCT",
-            "listing_date": "2011-09-26",
-            "trading_date": "2017-10-26",
-            "status": "Active",
-            "security_name": "Beyond Medical Technologies Inc",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 32493960,
-            "reserved_shares": 7680000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000025707.json",
-            "tier": 2,
-            "company_website_url": "https://beyond-md.co/"
-        },
         {
             "listing_market": "CSE",
             "symbol": "FNT.U",
@@ -61,19 +39,45 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "NVG",
-            "listing_date": "2007-03-09",
-            "trading_date": "2019-03-29",
-            "status": "Delisted",
-            "security_name": "Nass Valley Gateway Ltd.",
+            "symbol": "NWAI",
+            "listing_date": "2019-10-28",
+            "trading_date": "2019-10-28",
+            "status": "Active",
+            "security_name": "New Wave Holdings Corp.",
             "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "US Cannabis"
-            ],
+            "sector": "Technology",
+            "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 312143477,
-            "reserved_shares": 17026542,
+            "outstanding_shares": 14145946,
+            "reserved_shares": 173996,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-04-25",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024711.json",
+            "tier": 2,
+            "company_website_url": "https://newwavecorp.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "METL",
+            "listing_date": "2020-04-09",
+            "trading_date": "2020-04-14",
+            "status": "Active",
+            "security_name": "Metalite Resources Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 31035100,
+            "reserved_shares": 6157460,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -81,23 +85,23 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024451.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048359.json",
             "tier": 2,
-            "company_website_url": "http://www.nassvalleygateway.com"
+            "company_website_url": "https://www.metaliteresources.com/"
         },
         {
             "listing_market": "CSE",
-            "symbol": "SUPR",
-            "listing_date": "2021-05-21",
-            "trading_date": "2021-05-21",
-            "status": "Halted Pending Fundamental Change",
-            "security_name": "Supernova Metals Corp.",
+            "symbol": "EATS",
+            "listing_date": "2020-11-17",
+            "trading_date": "2020-11-17",
+            "status": "Active",
+            "security_name": "Eat & Beyond Global Holdings Inc",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 32513994,
-            "reserved_shares": 4264545,
+            "outstanding_shares": 59192347,
+            "reserved_shares": 36906375,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -105,33 +109,57 @@
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000015891.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049633.json",
             "tier": 2,
-            "company_website_url": "https://www.supernovametals.com"
+            "company_website_url": "https://www.eatbeyondglobal.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "VTI",
-            "listing_date": "2021-06-25",
-            "trading_date": "2021-06-25",
+            "symbol": "ALMA",
+            "listing_date": "2021-10-07",
+            "trading_date": "2021-10-07",
             "status": "Active",
-            "security_name": "Valdor Technology International Inc.",
+            "security_name": "Alma Gold Inc.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 139536228,
-            "reserved_shares": 143162162,
+            "outstanding_shares": 28484910,
+            "reserved_shares": 11500000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050686.json",
+            "tier": 2,
+            "company_website_url": "https://www.almagoldinc.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "RMES",
+            "listing_date": "2021-11-25",
+            "trading_date": "2021-11-25",
+            "status": "Active",
+            "security_name": "Red Metal Resources Ltd.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 32770726,
+            "reserved_shares": 440000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000005679.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000028104.json",
             "tier": 2,
-            "company_website_url": null
+            "company_website_url": "https://www.redmetalresources.com"
         },
         {
             "listing_market": "CSE",
@@ -159,58 +187,58 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "HYPE",
-            "listing_date": "2019-11-21",
-            "trading_date": "2022-06-20",
+            "symbol": "SRAN",
+            "listing_date": "2022-09-27",
+            "trading_date": "2022-09-29",
             "status": "Active",
-            "security_name": "Hyper Bit Technologies Ltd.",
+            "security_name": "Sranan Gold Corp",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 21505888,
-            "reserved_shares": 9000000,
+            "outstanding_shares": 38828501,
+            "reserved_shares": 3754300,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
+                "dealer name": "National Bank Financial Inc.",
                 "type": "odd lot only"
             },
-            "index": "No",
+            "index": "CSE Composite",
             "recent_change": {
                 "effective_on": "2025-04-08",
-                "text": "formerly was SPS/Sweet Poison Spirits Inc. until 2025-04-07",
+                "text": "formerly was PEK/Peak Minerals Ltd. until 2025-04-07",
                 "until": "2025-04-07",
-                "symbol_was": "SPS",
-                "name_was": "Sweet Poison Spirits Inc.",
+                "symbol_was": "PEK",
+                "name_was": "Peak Minerals Ltd.",
                 "type": "symbol, name and CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000047938.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054968.json",
             "tier": 2,
-            "company_website_url": "http://www.hyperbit.ca"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
-            "symbol": "MBIO",
-            "listing_date": "2023-05-05",
-            "trading_date": "2023-05-05",
+            "symbol": "QQQ",
+            "listing_date": "2023-12-11",
+            "trading_date": "2023-12-13",
             "status": "Active",
-            "security_name": "MindBio Therapeutics Corp.",
+            "security_name": "Questcorp Mining Inc.",
             "security_type": "Equity",
-            "sector": "Life Sciences",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 546197769,
-            "reserved_shares": 57783301,
+            "outstanding_shares": 62952138,
+            "reserved_shares": 59099745,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+                "dealer name": "Independent Trading Group",
+                "type": "full"
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056809.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056461.json",
             "tier": 2,
-            "company_website_url": "https://www.mindbiotherapeutics.com"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
@@ -238,27 +266,58 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "YORK",
-            "listing_date": "2024-12-09",
-            "trading_date": "2024-12-09",
+            "symbol": "PRCG",
+            "listing_date": "2024-07-31",
+            "trading_date": "2024-08-02",
             "status": "Active",
-            "security_name": "York Harbour Metals Inc.",
+            "security_name": "Precore Gold Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 74529041,
-            "reserved_shares": 6000000,
+            "outstanding_shares": 22323890,
+            "reserved_shares": 4289889,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032494.json",
+            "recent_change": {
+                "effective_on": "2025-03-20",
+                "text": "formerly was DD/Double Deuce Exploration Corp. until 2025-03-19",
+                "until": "2025-03-19",
+                "symbol_was": "DD",
+                "name_was": "Double Deuce Exploration Corp.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103739.json",
             "tier": 2,
-            "company_website_url": "http://www.yorkharbourmetals.com"
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "BFG.WT.B",
+            "listing_date": "2025-05-22",
+            "trading_date": "2025-05-22",
+            "status": "Active",
+            "security_name": "Giant Mining Corp. 14JAN2026 Warrants",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 6375000,
+            "reserved_shares": 0,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": null,
+            "sedar_filings": null,
+            "tier": 2,
+            "company_website_url": null
         }
     ],
     "full_list": [
@@ -7447,8 +7506,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 35865801,
-            "reserved_shares": 870000,
+            "outstanding_shares": 14145946,
+            "reserved_shares": 173996,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -8207,7 +8266,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 25285524,
+            "outstanding_shares": 31035100,
             "reserved_shares": 6157460,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -9536,7 +9595,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 59192347,
-            "reserved_shares": 26149840,
+            "reserved_shares": 36906375,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -12165,8 +12224,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 24734910,
-            "reserved_shares": 12905200,
+            "outstanding_shares": 28484910,
+            "reserved_shares": 11500000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -12705,11 +12764,7 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-05-23",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000028104.json",
             "tier": 2,
             "company_website_url": "https://www.redmetalresources.com"
@@ -15365,8 +15420,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 32175001,
-            "reserved_shares": 840000,
+            "outstanding_shares": 38828501,
+            "reserved_shares": 3754300,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
@@ -17718,11 +17773,7 @@
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-05-23",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056461.json",
             "tier": 2,
             "company_website_url": null
@@ -18386,7 +18437,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 19923890,
+            "outstanding_shares": 22323890,
             "reserved_shares": 4289889,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -18858,30 +18909,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103357.json",
             "tier": 2,
             "company_website_url": "https://www.canarygold.ca"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "ONCO",
-            "listing_date": "2024-11-26",
-            "trading_date": "2024-11-27",
-            "status": "Active",
-            "security_name": "Onco-Innovations Limited",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 50707310,
-            "reserved_shares": 5294083,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE25",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000104162.json",
-            "tier": 2,
-            "company_website_url": "https://www.oncoinnovations.com"
         },
         {
             "listing_market": "CSE",
@@ -19396,6 +19423,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054537.json",
             "tier": 2,
             "company_website_url": "http://www.wisr.ai"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "BFG.WT.B",
+            "listing_date": "2025-05-22",
+            "trading_date": "2025-05-22",
+            "status": "Active",
+            "security_name": "Giant Mining Corp. 14JAN2026 Warrants",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 6375000,
+            "reserved_shares": 0,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": null,
+            "sedar_filings": null,
+            "tier": 2,
+            "company_website_url": null
         }
     ],
     "legal": {
