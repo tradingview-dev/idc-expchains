@@ -1,84 +1,39 @@
 {
-    "date": "2025-05-26",
+    "date": "2025-05-27",
     "deletions": [
-        "RIZE"
+        "TELE"
     ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "HEAL",
-            "listing_date": "2015-02-10",
-            "trading_date": "2016-10-21",
+            "symbol": "QNTM",
+            "listing_date": "2018-05-29",
+            "trading_date": "2018-05-29",
             "status": "Active",
-            "security_name": "Restart Life Sciences Corp.",
+            "security_name": "Quantum BioPharma Ltd. Class B Subordinate Voting Shares",
             "security_type": "Equity",
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 33730355,
-            "reserved_shares": 20028397,
+            "outstanding_shares": 3044994,
+            "reserved_shares": 172825,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "No",
+            "index": "CSE Composite",
             "recent_change": {
-                "effective_on": "2025-01-24",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
+                "effective_on": "2024-08-15",
+                "text": "formerly was HUGE/FSD Pharma Inc. Subordinate Voting Shares until 2024-08-14",
+                "until": "2024-08-14",
+                "symbol_was": "HUGE",
+                "name_was": "FSD Pharma Inc. Subordinate Voting Shares",
+                "type": "symbol, name and CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000023830.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000000184.json",
             "tier": 2,
-            "company_website_url": "https://www.restartlife.co"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PREV",
-            "listing_date": "2016-12-21",
-            "trading_date": "2016-12-30",
-            "status": "Active",
-            "security_name": "PreveCeutical Medical Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 570649459,
-            "reserved_shares": 17326738,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000039795.json",
-            "tier": 2,
-            "company_website_url": "http://preveceutical.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SPMT",
-            "listing_date": "2018-10-01",
-            "trading_date": "2018-10-01",
-            "status": "Active",
-            "security_name": "Spearmint Resources Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 287828583,
-            "reserved_shares": 21313318,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029285.json",
-            "tier": 2,
-            "company_website_url": "https://www.spearmintresources.ca"
+            "company_website_url": "http://www.quantumbiopharma.com"
         },
         {
             "listing_market": "CSE",
@@ -141,6 +96,56 @@
         },
         {
             "listing_market": "CSE",
+            "symbol": "TAAT",
+            "listing_date": "2020-06-22",
+            "trading_date": "2020-06-22",
+            "status": "Suspended",
+            "security_name": "TAAT Global Alternatives Inc.",
+            "security_type": "Equity",
+            "sector": "Life Sciences",
+            "sector_tags": [
+                "Cannabis"
+            ],
+            "currency": "CAD",
+            "outstanding_shares": 33992034,
+            "reserved_shares": 1562166,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024587.json",
+            "tier": 2,
+            "company_website_url": "https://taatusa.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SUPR",
+            "listing_date": "2021-05-21",
+            "trading_date": "2021-05-21",
+            "status": "Halted Pending Fundamental Change",
+            "security_name": "Supernova Metals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 32513994,
+            "reserved_shares": 4264545,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000015891.json",
+            "tier": 2,
+            "company_website_url": "https://www.supernovametals.com"
+        },
+        {
+            "listing_market": "CSE",
             "symbol": "TUGA",
             "listing_date": "2021-12-09",
             "trading_date": "2021-12-09",
@@ -165,73 +170,81 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "CRC",
-            "listing_date": "2021-12-20",
-            "trading_date": "2021-12-20",
+            "symbol": "NBRK",
+            "listing_date": "2022-09-07",
+            "trading_date": "2022-09-07",
             "status": "Active",
-            "security_name": "Canter Resources Corp",
+            "security_name": "New Break Resources Ltd.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 54998401,
-            "reserved_shares": 6637620,
+            "outstanding_shares": 57428600,
+            "reserved_shares": 13820850,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
+                "dealer name": "National Bank Financial Inc.",
                 "type": "odd lot only"
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053286.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052788.json",
             "tier": 2,
-            "company_website_url": "http://www.canterresources.com"
+            "company_website_url": "https://www.newbreakresources.ca"
         },
         {
             "listing_market": "CSE",
-            "symbol": "ASHL",
-            "listing_date": "2022-04-28",
-            "trading_date": "2022-05-02",
+            "symbol": "TEX",
+            "listing_date": "2022-09-27",
+            "trading_date": "2022-09-27",
             "status": "Active",
-            "security_name": "Ashley Gold Corp",
+            "security_name": "Targa Exploration Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 55108581,
-            "reserved_shares": 28841997,
+            "outstanding_shares": 20683865,
+            "reserved_shares": 10575451,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053521.json",
+            "recent_change": {
+                "effective_on": "2025-05-27",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055493.json",
             "tier": 2,
-            "company_website_url": "https://www.ashleygoldcorp.com"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
-            "symbol": "RSH",
-            "listing_date": "2023-01-24",
-            "trading_date": "2023-01-26",
+            "symbol": "VRTX",
+            "listing_date": "2022-12-28",
+            "trading_date": "2022-12-28",
             "status": "Active",
-            "security_name": "Rush Rare Metals Corp.",
+            "security_name": "Vortex Energy Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 41598687,
-            "reserved_shares": 8856661,
+            "outstanding_shares": 12299803,
+            "reserved_shares": 2267262,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Integral Wealth Securities Limited",
+                "dealer name": "National Bank Financial Inc.",
                 "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055724.json",
+            "recent_change": {
+                "effective_on": "2025-04-01",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055532.json",
             "tier": 2,
             "company_website_url": null
         },
@@ -261,51 +274,75 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "KING",
-            "listing_date": "2024-07-16",
-            "trading_date": "2024-07-16",
+            "symbol": "MEC",
+            "listing_date": "2017-08-30",
+            "trading_date": "2024-06-10",
             "status": "Active",
-            "security_name": "King Global Ventures Inc.",
+            "security_name": "Mustang Energy Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 42273149,
-            "reserved_shares": 38855315,
+            "outstanding_shares": 78173557,
+            "reserved_shares": 9641910,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000020880.json",
-            "tier": 2,
-            "company_website_url": "https://www.kingglobal.gold"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "LABZ",
-            "listing_date": "2024-09-04",
-            "trading_date": "2024-09-04",
-            "status": "Active",
-            "security_name": "Metasphere Labs Inc.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 42886659,
-            "reserved_shares": 8464071,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
+                "dealer name": "Virtu Canada Corp.",
                 "type": "full"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000037841.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000042455.json",
             "tier": 2,
-            "company_website_url": "https://www.metasphere.earth"
+            "company_website_url": "https://www.mustangenergy.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "FOMO",
+            "listing_date": "2024-10-18",
+            "trading_date": "2024-10-18",
+            "status": "Active",
+            "security_name": "Formation Metals Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 47501474,
+            "reserved_shares": 24914000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056874.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "INTG",
+            "listing_date": "2024-10-31",
+            "trading_date": "2024-10-31",
+            "status": "Active",
+            "security_name": "Integral Metals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 35175334,
+            "reserved_shares": 19248334,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103117.json",
+            "tier": 2,
+            "company_website_url": "https://www.integralmetals.com"
         },
         {
             "listing_market": "CSE",
@@ -326,10 +363,34 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": null,
+            "recent_change": {},
             "sedar_filings": null,
             "tier": 2,
             "company_website_url": "http://www.shelfietech.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "HLND",
+            "listing_date": "2025-05-27",
+            "trading_date": "2025-05-27",
+            "status": "Active",
+            "security_name": "Highland Critical Minerals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 18685832,
+            "reserved_shares": 12135000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": null,
+            "sedar_filings": null,
+            "tier": 2,
+            "company_website_url": "https://www.highlandcritical.com/"
         }
     ],
     "full_list": [
@@ -4471,7 +4532,7 @@
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 2931249,
+            "outstanding_shares": 3044994,
             "reserved_shares": 172825,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -8760,7 +8821,7 @@
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000024587.json",
             "tier": 2,
@@ -10726,7 +10787,7 @@
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000015891.json",
             "tier": 2,
@@ -11799,30 +11860,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048057.json",
             "tier": 2,
             "company_website_url": "https://apartmentlove.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TELE",
-            "listing_date": "2021-08-31",
-            "trading_date": "2021-08-31",
-            "status": "Suspended",
-            "security_name": "Telecure Technologies Inc.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 84320299,
-            "reserved_shares": 16615992,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000047511.json",
-            "tier": 2,
-            "company_website_url": "http://telecuretech.com/"
         },
         {
             "listing_market": "CSE",
@@ -15234,7 +15271,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 57428600,
-            "reserved_shares": 14470850,
+            "reserved_shares": 13820850,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
@@ -15377,15 +15414,19 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 103419328,
-            "reserved_shares": 53277259,
+            "outstanding_shares": 20683865,
+            "reserved_shares": 10575451,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-05-27",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055493.json",
             "tier": 2,
             "company_website_url": null
@@ -15841,7 +15882,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 8299803,
+            "outstanding_shares": 12299803,
             "reserved_shares": 2267262,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -18292,7 +18333,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 77573557,
+            "outstanding_shares": 78173557,
             "reserved_shares": 9641910,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -18758,8 +18799,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 47401474,
-            "reserved_shares": 25014000,
+            "outstanding_shares": 47501474,
+            "reserved_shares": 24914000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -18806,8 +18847,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 34975334,
-            "reserved_shares": 19448334,
+            "outstanding_shares": 35175334,
+            "reserved_shares": 19248334,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -19424,10 +19465,34 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": null,
+            "recent_change": {},
             "sedar_filings": null,
             "tier": 2,
             "company_website_url": "http://www.shelfietech.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "HLND",
+            "listing_date": "2025-05-27",
+            "trading_date": "2025-05-27",
+            "status": "Active",
+            "security_name": "Highland Critical Minerals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 18685832,
+            "reserved_shares": 12135000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": null,
+            "sedar_filings": null,
+            "tier": 2,
+            "company_website_url": "https://www.highlandcritical.com/"
         }
     ],
     "legal": {
