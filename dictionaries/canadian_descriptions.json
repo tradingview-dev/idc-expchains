@@ -1,91 +1,36 @@
 {
-    "date": "2025-05-28",
+    "date": "2025-05-29",
     "deletions": [
-        "PLNT.X",
-        "AWKN"
+        "GAIA"
     ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "FAT",
-            "listing_date": "2011-12-12",
-            "trading_date": "2015-09-02",
+            "symbol": "SCV",
+            "listing_date": "2018-12-28",
+            "trading_date": "2019-01-02",
             "status": "Active",
-            "security_name": "Foremost Clean Energy Ltd.",
+            "security_name": "Scotch Creek Ventures Inc.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 10736718,
-            "reserved_shares": 5301072,
+            "outstanding_shares": 26046091,
+            "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2025-01-30",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032046.json",
-            "tier": 2,
-            "company_website_url": "https://foremostcleanenergy.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PREV",
-            "listing_date": "2016-12-21",
-            "trading_date": "2016-12-30",
-            "status": "Active",
-            "security_name": "PreveCeutical Medical Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 570649459,
-            "reserved_shares": 46526738,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000039795.json",
-            "tier": 2,
-            "company_website_url": "http://preveceutical.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "LOAN",
-            "listing_date": "2009-07-16",
-            "trading_date": "2018-08-14",
-            "status": "Active",
-            "security_name": "Pegasus Mercantile Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 11631411,
-            "reserved_shares": 85000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
             },
             "index": "No",
             "recent_change": {
-                "effective_on": "2025-01-31",
+                "effective_on": "2024-11-27",
                 "text": "CUSIP changed",
                 "type": "CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000011372.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045864.json",
             "tier": 2,
-            "company_website_url": "https://pegasusmercantile.com"
+            "company_website_url": "https://www.scotch-creek.com"
         },
         {
             "listing_market": "CSE",
@@ -148,27 +93,117 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "NVRO",
-            "listing_date": "2011-11-17",
-            "trading_date": "2021-07-16",
+            "symbol": "M",
+            "listing_date": "2019-11-05",
+            "trading_date": "2019-11-05",
             "status": "Active",
-            "security_name": "EnviroGold Global Limited",
+            "security_name": "Myriad Uranium Corp.",
             "security_type": "Equity",
-            "sector": "CleanTech",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 315576095,
-            "reserved_shares": 167352398,
+            "outstanding_shares": 70706363,
+            "reserved_shares": 25810371,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000047317.json",
+            "tier": 2,
+            "company_website_url": "http://www.myriaduranium.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "WHIP",
+            "listing_date": "2020-08-11",
+            "trading_date": "2020-08-13",
+            "status": "Active",
+            "security_name": "Credissential Inc.",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 116638703,
+            "reserved_shares": 24995771,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2024-09-18",
+                "text": "formerly was PACT/Impact Analytics Inc. until 2024-09-17",
+                "until": "2024-09-17",
+                "symbol_was": "PACT",
+                "name_was": "Impact Analytics Inc.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049675.json",
+            "tier": 2,
+            "company_website_url": "https://www.credissential.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SUR",
+            "listing_date": "2021-04-28",
+            "trading_date": "2021-04-28",
+            "status": "Active",
+            "security_name": "Surface Metals Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 43592576,
+            "reserved_shares": 19174485,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000022452.json",
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-04-28",
+                "text": "formerly was ACME/ACME Lithium Inc. until 2025-04-25",
+                "until": "2025-04-25",
+                "symbol_was": "ACME",
+                "name_was": "ACME Lithium Inc.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044017.json",
             "tier": 2,
-            "company_website_url": "http://www.envirogoldglobal.com"
+            "company_website_url": "http://www.surfacemetals.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "TRAC",
+            "listing_date": "2021-09-01",
+            "trading_date": "2021-09-01",
+            "status": "Active",
+            "security_name": "Traction Uranium Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 9260912,
+            "reserved_shares": 799042,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2024-09-26",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051792.json",
+            "tier": 2,
+            "company_website_url": "https://tractionuranium.com/"
         },
         {
             "listing_market": "CSE",
@@ -205,8 +240,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 38720477,
-            "reserved_shares": 17509726,
+            "outstanding_shares": 4840060,
+            "reserved_shares": 1869966,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -221,6 +256,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052953.json",
             "tier": 2,
             "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "MYTC",
+            "listing_date": "2022-02-24",
+            "trading_date": "2022-02-24",
+            "status": "Active",
+            "security_name": "MyndTec Inc.",
+            "security_type": "Equity",
+            "sector": "Life Sciences",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 26925493,
+            "reserved_shares": 1595049,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052756.json",
+            "tier": 2,
+            "company_website_url": "https://www.myndtec.com"
         },
         {
             "listing_market": "CSE",
@@ -245,54 +304,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000057152.json",
             "tier": 2,
             "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "RGR",
-            "listing_date": "2025-02-07",
-            "trading_date": "2025-02-07",
-            "status": "Active",
-            "security_name": "Rio Grande Resources Ltd.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 26657839,
-            "reserved_shares": 12412632,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000107495.json",
-            "tier": 2,
-            "company_website_url": "https://www.riogranderesources.ca/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "HLND",
-            "listing_date": "2025-05-27",
-            "trading_date": "2025-05-27",
-            "status": "Active",
-            "security_name": "Highland Critical Minerals Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 18685832,
-            "reserved_shares": 12135000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": null,
-            "tier": 2,
-            "company_website_url": "https://www.highlandcritical.com/"
         }
     ],
     "full_list": [
@@ -5860,7 +5871,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 17857091,
+            "outstanding_shares": 26046091,
             "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -7567,8 +7578,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 70636363,
-            "reserved_shares": 25880371,
+            "outstanding_shares": 70706363,
+            "reserved_shares": 25810371,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -8229,32 +8240,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048359.json",
             "tier": 2,
             "company_website_url": "https://www.metaliteresources.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "GAIA",
-            "listing_date": "2020-04-16",
-            "trading_date": "2020-04-16",
-            "status": "Suspended",
-            "security_name": "Gaia Grow Corp.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 23003411,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033003.json",
-            "tier": 2,
-            "company_website_url": "http://www.gaiagrow.com"
         },
         {
             "listing_market": "CSE",
@@ -9017,8 +9002,8 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 92539053,
-            "reserved_shares": 24845771,
+            "outstanding_shares": 116638703,
+            "reserved_shares": 24995771,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -10404,7 +10389,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 43592576,
-            "reserved_shares": 16924485,
+            "reserved_shares": 19174485,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -11775,7 +11760,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 9260912,
-            "reserved_shares": 1275433,
+            "reserved_shares": 799042,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -13283,8 +13268,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 38720477,
-            "reserved_shares": 17509726,
+            "outstanding_shares": 4840060,
+            "reserved_shares": 1869966,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -13612,8 +13597,8 @@
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 26228470,
-            "reserved_shares": 1525347,
+            "outstanding_shares": 26925493,
+            "reserved_shares": 1595049,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -19348,7 +19333,7 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": null,
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000107294.json",
             "tier": 2,
             "company_website_url": "https://www.highlandcritical.com/"
         }
