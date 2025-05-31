@@ -526,6 +526,7 @@ CPSO;Calamos S&P 500 Structured Alt Protection ETF - October;ARCX
 CPSP;Calamos S&P 500 Structured Alt Protection ETF - April;ARCX
 CPSR;Calamos S&P 500 Structured Alt Protection ETF - March;ARCX
 CPST;Calamos S&P 500 Structured Alt Protection ETF - September;ARCX
+CPSU;Calamos S&P 500 Structured Alt Protection ETF - June;ARCX
 CPSY;Calamos S&P 500 Structured Alt Protection ETF - January;ARCX
 CPXR;USCF Daily Target 2X Copper Index ETF;ARCX
 CQQQ;Invesco China Technology ETF;ARCX
@@ -922,7 +923,6 @@ EUO;ProShares UltraShort Euro;ARCX
 EURL;Direxion Daily FTSE Europe Bull 3x Shares;ARCX
 EUSA;iShares MSCI USA Equal Weighted ETF;ARCX
 EUSB;iShares ESG Advanced Total USD Bond Market ETF;ARCX
-EUSC;WisdomTree Europe Hedged SmallCap Equity Fund;ARCX
 EUSM;Eventide US Market ETF;ARCX
 EVAV;Direxion Daily Electric and Autonomous Vehicles Bull 2X Shares;ARCX
 EVHY;Eaton Vance High Yield ETF;ARCX
@@ -1472,7 +1472,7 @@ HYIN;WisdomTree Alternative Income Fund;BATS
 HYKE;Vest 2 Year Interest Rate Hedge ETF;BATS
 HYLB;Xtrackers USD High Yield Corporate Bond ETF;ARCX
 HYLN;Hyliion Holdings Corp.;XASE
-HYMB;SPDR Nuveen Bloomberg High Yield Municipal Bond ETF;ARCX
+HYMB;SPDR Nuveen ICE High Yield Municipal Bond ETF;ARCX
 HYRM;Xtrackers Risk Managed USD High Yield Strategy ETF;ARCX
 HYS;PIMCO 0-5 Year High Yield Corporate Bond Index Exchange-Traded Fund;ARCX
 HYSA;BondBloxx USD High Yield Bond Sector Rotation ETF;ARCX
@@ -2298,13 +2298,13 @@ NVBT;AllianzIM U.S. Large Cap Buffer10 Nov ETF;ARCX
 NVBU;AllianzIM U.S. Equity Buffer15 Uncapped Nov ETF;BATS
 NVBW;AllianzIM U.S. Large Cap Buffer20 Nov ETF;ARCX
 NVDQ;T-Rex 2X Inverse NVIDIA Daily Target ETF;BATS
+NVDW;Roundhill NVDA WeeklyPay ETF;BATS
 NVDX;T-Rex 2X Long NVIDIA Daily Target ETF;BATS
 NVDY;YieldMax NVDA Option Income Strategy ETF;ARCX
 NVII;REX NVDA Growth & Income ETF;BATS
 NVIR;Horizon Kinetics Energy and Remediation ETF;ARCX
 NVOH;Novo Nordisk A/S (B Shares) ADRhedged;ARCX
 NVOX;Defiance Daily Target 2x Long NVO ETF;ARCX
-NVW;Roundhill NVDA WeeklyPay ETF;BATS
 NWLG;Nuveen Winslow Large-Cap Growth ESG ETF;ARCX
 NXTE;AXS Green Alpha ETF;ARCX
 NXTI;Simplify Next Intangible Core Index ETF;BATS
@@ -2358,6 +2358,7 @@ OOTO;Direxion Daily Travel & Vacation Bull 2X Shares;ARCX
 OPER;ClearShares Ultra-Short Maturity ETF;ARCX
 OPHC;OptimumBank Holdings Inc.;XASE
 OPP/PC;RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share);XASE
+OPPE;WisdomTree European Opportunities Fund;ARCX
 OPTT;Ocean Power Technologies Inc.;XASE
 ORLA;Orla Mining Ltd.;XASE
 OSCV;Opus Small Cap Value ETF;BATS
@@ -2489,6 +2490,7 @@ PMAY;Innovator U.S. Equity Power Buffer ETF - May;BATS
 PMFB;PGIM S&P 500 Max Buffer ETF - February;BATS
 PMIO;PGIM Municipal Income Opportunities ETF;ARCX
 PMJA;PGIM S&P 500 Max Buffer ETF - January;BATS
+PMJN;PGIM S&P 500 Max Buffer ETF - June;BATS
 PMMF;iShares Prime Money Market ETF;ARCX
 PMMR;PGIM S&P 500 Max Buffer ETF - March;BATS
 PMMY;PGIM S&P 500 Max Buffer ETF - May;BATS
@@ -2884,7 +2886,7 @@ SHDG;Soundwatch Hedged Equity ETF;BATS
 SHE;SPDR MSCI USA Gender Diversity ETF;ARCX
 SHEH;Shell plc ADRhedged;ARCX
 SHLD;Global X Defense Tech ETF;ARCX
-SHM;SPDR Nuveen Bloomberg Short Term Municipal Bond ETF;ARCX
+SHM;SPDR Nuveen ICE Short Term Municipal Bond ETF;ARCX
 SHNY;MicroSectors Gold 3x Leveraged ETN;ARCX
 SHPP;Pacer Industrials and Logistics ETF;ARCX
 SHRT;Gotham Short Strategies ETF;ARCX
@@ -3064,7 +3066,7 @@ SUB;iShares Short-Term National Muni Bond ETF;ARCX
 SUPL;ProShares Supply Chain Logistics ETF;ARCX
 SURE;AdvisorShares Insider Advantage ETF;ARCX
 SURI;Simplify Propel Opportunities ETF;ARCX
-SUSA;iShares MSCI USA ESG Select ETF;ARCX
+SUSA;iShares ESG Optimized MSCI USA ETF;ARCX
 SVAL;iShares US Small Cap Value Factor ETF;BATS
 SVIX;-1x Short VIX Futures ETF;BATS
 SVM;Silvercorp Metals Inc. Common Shares;XASE
@@ -3121,7 +3123,7 @@ TEMT;Tradr 2X Long TEM Daily ETF;BATS
 TEMX;Touchstone Sands Capital Emerging Markets ex-China Growth ETF;BATS
 TEQI;T. Rowe Price Equity Income ETF;ARCX
 TESL;Simplify Volt TSLA Revolution ETF;ARCX
-TFI;SPDR Nuveen Bloomberg Municipal Bond ETF;ARCX
+TFI;SPDR Nuveen ICE Municipal Bond ETF;ARCX
 TFJL;Innovator 20+ Year Treasury Bond 5 Floor ETF - July;BATS
 TFLO;iShares Treasury Floating Rate Bond ETF;ARCX
 TFLR;T. Rowe Price Floating Rate ETF;ARCX
@@ -3212,13 +3214,13 @@ TSEC;Touchstone Securitized Income ETF;ARCX
 TSEP;FT Vest Emerging Market Buffer ETF - September;BATS
 TSLP;Kurv Yield Premium Strategy Tesla (TSLA) ETF;BATS
 TSLT;T-REX 2X Long Tesla Daily Target ETF;BATS
+TSLW;Roundhill TSLA WeeklyPay ETF;BATS
 TSLY;YieldMax TSLA Option Income Strategy ETF;ARCX
 TSLZ;T-Rex 2X Inverse Tesla Daily Target ETF;BATS
 TSME;Thrivent Small-Mid Cap Equity ETF;ARCX
 TSMY;YieldMax TSM Option Income Strategy ETF;ARCX
 TSPA;T. Rowe Price U.S. Equity Research ETF;ARCX
 TSPX;Twin Oak Active Opportunities ETF;BATS
-TSW;Roundhill TSLA WeeklyPay ETF;BATS
 TTT;ProShares UltraPro Short 20+ Year Treasury;ARCX
 TUA;Simplify Short Term Treasury Futures Strategy ETF;ARCX
 TUSB;Thrivent Ultra Short Bond ETF;ARCX
@@ -3609,6 +3611,7 @@ ZHDG;Zega Buy & Hedge ETF;ARCX
 ZIG;The Acquirers Fund;ARCX
 ZJAN;Innovator Equity Defined Protection ETF - 1 Yr January;BATS
 ZJUL;Innovtor Equity Defined Protection ETF - 1 Yr July;BATS
+ZJUN;Innovator Equity Defined Protection ETF - 1 Yr June;BATS
 ZMAR;Innovator Equity Defined Protection ETF - 1 Yr March;BATS
 ZMAY;Innovator Equity Defined Protection ETF - 1 Yr May;BATS
 ZNOV;Innovator Equity Defined Protection ETF - 1 Yr November;BATS
