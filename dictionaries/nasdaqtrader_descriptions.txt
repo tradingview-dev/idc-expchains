@@ -170,7 +170,7 @@ AKTX|Akari Therapeutics Plc - American Depositary Shares|S|N|N|100|N|N
 AKYA|Akoya BioSciences, Inc. - Common Stock|Q|N|N|100|N|N
 ALAB|Astera Labs, Inc. - Common Stock|Q|N|N|100|N|N
 ALAR|Alarum Technologies Ltd. - American Depositary Shares|S|N|N|100|N|N
-ALBT|Avalon GloboCare Corp. - Common Stock|S|N|N|100|N|N
+ALBT|Avalon GloboCare Corp. - Common Stock|S|N|D|100|N|N
 ALCO|Alico, Inc. - Common Stock|Q|N|N|100|N|N
 ALCY|Alchemy Investments Acquisition Corp 1 - Class A Ordinary Shares|S|N|N|100|N|N
 ALCYU|Alchemy Investments Acquisition Corp 1 - Units|S|N|N|100|N|N
@@ -292,7 +292,7 @@ APPN|Appian Corporation - Class A Common Stock|G|N|N|100|N|N
 APPS|Digital Turbine, Inc. - Common Stock|S|N|N|100|N|N
 APPX|Tradr 2X Long APP Daily ETF|G|N|N|100|Y|N
 APRE|Aprea Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
-APVO|Aptevo Therapeutics Inc. - Common Stock|S|N|N|100|N|N
+APVO|Aptevo Therapeutics Inc. - Common Stock|S|N|D|100|N|N
 APWC|Asia Pacific Wire & Cable Corporation Limited  - Common shares, Par value .01 per share|S|N|N|100|N|N
 APYX|Apyx Medical Corporation - Common Stock|Q|N|N|100|N|N
 AQB|AquaBounty Technologies, Inc. - Common Stock|S|N|D|100|N|N
@@ -312,7 +312,7 @@ ARCT|Arcturus Therapeutics Holdings Inc. - Common Stock|G|N|N|100|N|N
 ARDX|Ardelyx, Inc. - Common Stock|G|N|N|100|N|N
 AREB|American Rebel Holdings, Inc. - Common Stock|S|N|D|100|N|N
 AREBW|American Rebel Holdings, Inc. - warrants|S|N|D|100|N|N
-AREC|American Resources Corporation - Class A Common Stock|S|N|H|100|N|N
+AREC|American Resources Corporation - Class A Common Stock|S|N|D|100|N|N
 ARGX|argenx SE - American Depositary Shares|Q|N|N|100|N|N
 ARHS|Arhaus, Inc. - Class A Common Stock|Q|N|N|100|N|N
 ARKO|ARKO Corp. - Common Stock|S|N|N|100|N|N
@@ -755,8 +755,8 @@ CAPNR|Cayson Acquisition Corp - Right|G|N|N|100|N|N
 CAPNU|Cayson Acquisition Corp - Units|G|N|N|100|N|N
 CAPR|Capricor Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 CAPS|Capstone Holding Corp. - Common Stock|S|N|N|100|N|N
-CAPT|Captivision Inc. - Ordinary Shares|G|N|D|100|N|N
-CAPTW|Captivision Inc. - Warrant|S|N|N|100|N|N
+CAPT|Captivision Inc. - Ordinary Shares|G|N|H|100|N|N
+CAPTW|Captivision Inc. - Warrant|S|N|E|100|N|N
 CAR|Avis Budget Group, Inc. - Common Stock|Q|N|N|100|N|N
 CARE|Carter Bankshares, Inc. - Common Stock|Q|N|N|100|N|N
 CARG|CarGurus, Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -765,7 +765,7 @@ CART|Maplebear Inc. - Common Stock|Q|N|N|100|N|N
 CARV|Carver Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 CARY|Angel Oak Income ETF|G|N|N|100|Y|N
 CARZ|First Trust S-Network Electric & Future Vehicle Ecosystem ETF|G|N|N|100|Y|N
-CASH|Pathward Financial, Inc. - Common Stock|Q|N|N|100|N|N
+CASH|Pathward Financial, Inc. - Common Stock|Q|N|E|100|N|N
 CASI|CASI Pharmaceuticals, Inc. - Ordinary Shares|S|N|D|100|N|N
 CASK|Heritage Distilling Holding Company, Inc. - Common Stock|S|N|D|100|N|N
 CASS|Cass Information Systems, Inc - Common Stock|Q|N|N|100|N|N
@@ -1133,8 +1133,8 @@ CYBR|CyberArk Software Ltd. - Ordinary Shares|Q|N|N|100|N|N
 CYCC|Cyclacel Pharmaceuticals, Inc. - Common Stock|S|N|D|100|N|N
 CYCCP|Cyclacel Pharmaceuticals, Inc. - 6% Convertible Preferred Stock|S|N|N|100|N|N
 CYCN|Cyclerion Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
-CYCU|Cycurion, Inc. - Common Stock|G|N|D|100|N|N
-CYCUW|Cycurion, Inc. - Warrants|S|N|N|100|N|N
+CYCU|Cycurion, Inc. - Common Stock|G|N|H|100|N|N
+CYCUW|Cycurion, Inc. - Warrants|S|N|E|100|N|N
 CYN|Cyngn Inc. - Common stock|S|N|N|100|N|N
 CYRX|CryoPort, Inc. - Common Stock|S|N|N|100|N|N
 CYTK|Cytokinetics, Incorporated - Common Stock|Q|N|N|100|N|N
@@ -1709,7 +1709,7 @@ FTFT|Future FinTech Group Inc. - Common Stock|S|N|N|100|N|N
 FTGC|First Trust Global Tactical Commodity Strategy Fund|G|N|N|100|Y|N
 FTGS|First Trust Growth Strength ETF|G|N|N|100|Y|N
 FTHI|First Trust BuyWrite Income ETF|G|N|N|100|Y|N
-FTHM|Fathom Holdings Inc. - Common Stock|S|N|D|100|N|N
+FTHM|Fathom Holdings Inc. - Common Stock|S|N|N|100|N|N
 FTLF|FitLife Brands, Inc. - Common Stock|S|N|N|100|N|N
 FTNT|Fortinet, Inc. - Common Stock|Q|N|N|100|N|N
 FTQI|First Trust Nasdaq BuyWrite Income ETF|G|N|N|100|Y|N
@@ -2416,6 +2416,7 @@ KLTO|Klotho Neurosciences, Inc. - Common Stock|G|N|D|100|N|N
 KLTOW|Klotho Neurosciences, Inc. - Warrants|S|N|N|100|N|N
 KLTR|Kaltura, Inc. - Common Stock|Q|N|N|100|N|N
 KLXE|KLX Energy Services Holdings, Inc.  - Common Stock|Q|N|N|100|N|N
+KMB|Kimberly-Clark Corporation - Common Stock|Q|N|N|100|N|N
 KMDA|Kamada Ltd. - Ordinary Shares|Q|N|N|100|N|N
 KMTS|Kestra Medical Technologies, Ltd. - Common Stock|Q|N|N|100|N|N
 KNDI|Kandi Technologies Group, Inc. - Ordinary Shares|Q|N|N|100|N|N
@@ -2524,7 +2525,7 @@ LGCL|Lucas GC Limited - Ordinary Shares|S|N|D|100|N|N
 LGHL|Lion Group Holding Ltd. - American Depositary Share|S|N|N|100|N|N
 LGHLW|Lion Group Holding Ltd. - Warrant|S|N|N|100|N|N
 LGIH|LGI Homes, Inc. - Common Stock|Q|N|N|100|N|N
-LGMK|LogicMark, Inc. - Common Stock|S|N|D|100|N|N
+LGMK|LogicMark, Inc. - Common Stock|S|N|N|100|N|N
 LGND|Ligand Pharmaceuticals Incorporated - Common Stock|G|N|N|100|N|N
 LGO|Largo Inc. - Common Shares|Q|N|N|100|N|N
 LGRO|Level Four Large Cap Growth Active ETF|G|N|N|100|Y|N
@@ -2604,7 +2605,7 @@ LRCX|Lam Research Corporation - Common Stock|Q|N|N|100|N|N
 LRE|Lead Real Estate Co., Ltd - American Depositary Shares|S|N|N|100|N|N
 LRFC|Logan Ridge Finance Corporation - Common Stock|Q|N|N|100|N|N
 LRGE|ClearBridge Large Cap Growth ESG ETF|G|N|N|100|Y|N
-LRHC|La Rosa Holdings Corp. - Common Stock|S|N|H|100|N|N
+LRHC|La Rosa Holdings Corp. - Common Stock|S|N|D|100|N|N
 LRMR|Larimar Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 LRND|NYLI U.S. Large Cap R&D Leaders ETF|G|N|N|100|Y|N
 LSAK|Lesaka Technologies, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3301,7 +3302,7 @@ PBYI|Puma Biotechnology Inc - Common Stock|Q|N|N|100|N|N
 PC|Premium Catering (Holdings) Limited - Ordinary Shares|S|N|D|100|N|N
 PCAPU|ProCap Acquisition Corp - Unit|G|N|N|100|N|N
 PCAR|PACCAR Inc. - Common Stock|Q|N|N|100|N|N
-PCB|PCB Bancorp - Common Stock|Q|N|N|100|N|N
+PCB|PCB Bancorp - Common Stock|Q|N|E|100|N|N
 PCH|PotlatchDeltic Corporation - Common Stock|Q|N|N|100|N|N
 PCLA|PicoCELA Inc. - American Depositary Shares|S|N|D|100|N|N
 PCMM|BondBloxx Private Credit CLO ETF|G|N|N|100|Y|N
@@ -3511,6 +3512,7 @@ PTIXW|Protagenic Therapeutics, Inc. - Warrant|S|N|D|100|N|N
 PTLE|PTL LTD - Ordinary Shares|S|N|N|100|N|N
 PTLO|Portillo's Inc. - Class A Common Stock|Q|N|N|100|N|N
 PTMN|Portman Ridge Finance Corporation - Closed End Fund|Q|N|N|100|N|N
+PTNM|Pitanium Limited - Class A Ordinary Shares|S|N|N|100|N|N
 PTNQ|Pacer Trendpilot 100 ETF|G|N|N|100|Y|N
 PTON|Peloton Interactive, Inc. - Common Stock|Q|N|N|100|N|N
 PUBM|PubMatic, Inc. - Class A Common Stock|G|N|N|100|N|N
@@ -3679,6 +3681,7 @@ RELI|Reliance Global Group, Inc. - Common Stock|S|N|N|100|N|N
 RELIW|Reliance Global Group, Inc. - Series A Warrants|S|N|N|100|N|N
 RELL|Richardson Electronics, Ltd. - Common Stock|Q|N|N|100|N|N
 RELY|Remitly Global, Inc. - Common stock|Q|N|N|100|N|N
+REMG|Emerging Markets Active ETF|G|N|N|100|Y|N
 RENB|Renovaro Inc. - Common Stock|S|N|D|100|N|N
 RENT|Rent the Runway, Inc. - Class A Common Stock|G|N|N|100|N|N
 REPL|Replimune Group, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3697,6 +3700,7 @@ RGC|Regencell Bioscience Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 RGCO|RGC Resources Inc. - Common Stock|G|N|N|100|N|N
 RGEN|Repligen Corporation - Common Stock|Q|N|N|100|N|N
 RGLD|Royal Gold, Inc. - Common Stock|Q|N|N|100|N|N
+RGLO|Global Equity Active ETF|G|N|N|100|Y|N
 RGLS|Regulus Therapeutics Inc. - Common Stock|S|N|N|100|N|N
 RGNX|REGENXBIO Inc. - Common Stock|Q|N|N|100|N|N
 RGP|Resources Connection, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3903,7 +3907,7 @@ SGMA|SigmaTron International, Inc. - Common Stock|S|N|N|100|N|N
 SGML|Sigma Lithium Corporation - common shares|S|N|N|100|N|N
 SGMO|Sangamo Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 SGMT|Sagimet Biosciences Inc. - Series A Common Stock|G|N|N|100|N|N
-SGRP|SPAR Group, Inc. - Common Stock|S|N|D|100|N|N
+SGRP|SPAR Group, Inc. - Common Stock|S|N|H|100|N|N
 SGRY|Surgery Partners, Inc. - Common Stock|Q|N|N|100|N|N
 SHBI|Shore Bancshares, Inc. - Common Stock|Q|N|N|100|N|N
 SHC|Sotera Health Company - Common Stock|Q|N|N|100|N|N
@@ -3991,7 +3995,7 @@ SMCX|Defiance Daily Target 2X Long SMCI ETF|G|N|N|100|Y|N
 SMCZ|Defiance Daily Target 2X Short SMCI ETF|G|N|N|100|Y|N
 SMH|VanEck Semiconductor ETF|G|N|N|100|Y|N
 SMHX|VanEck Fabless Semiconductor ETF|G|N|N|100|Y|N
-SMID|Smith-Midland Corporation - Common Stock|S|N|E|100|N|N
+SMID|Smith-Midland Corporation - Common Stock|S|N|N|100|N|N
 SMLR|Semler Scientific, Inc. - Common Stock|S|N|N|100|N|N
 SMMT|Summit Therapeutics Inc.  - Common Stock|G|N|N|100|N|N
 SMPL|The Simply Good Foods Company - Common Stock|S|N|N|100|N|N
@@ -4109,7 +4113,7 @@ SSSSL|SuRo Capital Corp. - 6.00% Notes due 2026|G|N|N|100|N|N
 SSTI|SoundThinking, Inc. - Common Stock|S|N|N|100|N|N
 SSYS|Stratasys, Ltd. - Common Stock|Q|N|N|100|N|N
 STAA|STAAR Surgical Company - Common Stock|G|N|N|100|N|N
-STAI|ScanTech AI Systems Inc. - Common stock|G|N|N|100|N|N
+STAI|ScanTech AI Systems Inc. - Common stock|G|N|E|100|N|N
 STAK|STAK Inc. - Ordinary Shares|S|N|N|100|N|N
 STBA|S&T Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 STEC|Santech Holdings Limited - American Depositary Shares|S|N|N|100|N|N
@@ -4372,7 +4376,7 @@ TTD|The Trade Desk, Inc. - Class A Common Stock|G|N|N|100|N|N
 TTEC|TTEC Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 TTEK|Tetra Tech, Inc. - Common Stock|Q|N|N|100|N|N
 TTEQ|T. Rowe Price Technology ETF|G|N|N|100|Y|N
-TTGT|TechTarget, Inc. - Common Stock|Q|N|E|100|N|N
+TTGT|TechTarget, Inc. - Common Stock|Q|N|N|100|N|N
 TTMI|TTM Technologies, Inc. - Common Stock|Q|N|N|100|N|N
 TTNP|Titan Pharmaceuticals, Inc. - Common Stock|S|N|D|100|N|N
 TTSH|Tile Shop Holdings, Inc. - Common Stock|S|N|N|100|N|N
@@ -4868,4 +4872,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|E|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0530202507:00|||||||
+File Creation Time: 0530202521:31|||||||
