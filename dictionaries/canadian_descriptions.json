@@ -1,33 +1,10 @@
 {
-    "date": "2025-05-30",
+    "date": "2025-06-02",
     "deletions": [
-        "CGN"
+        "MMAX",
+        "HMPS"
     ],
     "adds_and_changes": [
-        {
-            "listing_market": "CSE",
-            "symbol": "AXCP",
-            "listing_date": "2014-12-31",
-            "trading_date": "2018-03-14",
-            "status": "Active",
-            "security_name": "Axcap Ventures Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 298742198,
-            "reserved_shares": 172473213,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000004744.json",
-            "tier": 2,
-            "company_website_url": "https://axcapventures.ca"
-        },
         {
             "listing_market": "CSE",
             "symbol": "CVGR",
@@ -89,99 +66,30 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "M",
-            "listing_date": "2019-11-05",
-            "trading_date": "2019-11-05",
+            "symbol": "VIBE",
+            "listing_date": "2019-04-03",
+            "trading_date": "2019-04-03",
             "status": "Active",
-            "security_name": "Myriad Uranium Corp.",
+            "security_name": "Vibe Growth Corporation",
             "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
+            "sector": "Life Sciences",
+            "sector_tags": [
+                "Cannabis",
+                "US Cannabis"
+            ],
             "currency": "CAD",
-            "outstanding_shares": 70856363,
-            "reserved_shares": 25660371,
+            "outstanding_shares": 10796989,
+            "reserved_shares": 434250,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
                 "type": "full"
             },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000047317.json",
-            "tier": 2,
-            "company_website_url": "http://www.myriaduranium.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "HAMR",
-            "listing_date": "2021-04-29",
-            "trading_date": "2021-05-03",
-            "status": "Active",
-            "security_name": "Silver Hammer Mining Corp",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 65795887,
-            "reserved_shares": 6976516,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050950.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032150.json",
             "tier": 2,
-            "company_website_url": "https://silverhammermining.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "GLAB",
-            "listing_date": "2021-08-10",
-            "trading_date": "2021-08-10",
-            "status": "Active",
-            "security_name": "Gemina Laboratories Ltd",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 76570907,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044738.json",
-            "tier": 2,
-            "company_website_url": "https://www.geminalabs.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "ESAU",
-            "listing_date": "2021-10-06",
-            "trading_date": "2021-10-06",
-            "status": "Active",
-            "security_name": "ESGold Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 73798387,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000022576.json",
-            "tier": 2,
-            "company_website_url": "https://www.esgold.com"
+            "company_website_url": "http://www.vibebycalifornia.com"
         },
         {
             "listing_market": "CSE",
@@ -233,49 +141,25 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "BOOM",
-            "listing_date": "2024-03-01",
-            "trading_date": "2024-03-01",
+            "symbol": "NEXX",
+            "listing_date": "2025-06-02",
+            "trading_date": "2025-06-02",
             "status": "Active",
-            "security_name": "Galloper Gold Corp.",
+            "security_name": "Nexcel Metals Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 48891076,
-            "reserved_shares": 14588132,
+            "outstanding_shares": 12385400,
+            "reserved_shares": 9385400,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055036.json",
-            "tier": 2,
-            "company_website_url": "https://www.gallopergold.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "FOMO",
-            "listing_date": "2024-10-18",
-            "trading_date": "2024-10-18",
-            "status": "Active",
-            "security_name": "Formation Metals Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 47751474,
-            "reserved_shares": 24664000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056874.json",
+            "recent_change": null,
+            "sedar_filings": null,
             "tier": 2,
             "company_website_url": null
         }
@@ -6463,11 +6347,7 @@
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-06-03",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032150.json",
             "tier": 2,
             "company_website_url": "http://www.vibebycalifornia.com"
@@ -11107,30 +10987,6 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "MMAX",
-            "listing_date": "2020-03-09",
-            "trading_date": "2021-06-29",
-            "status": "Suspended",
-            "security_name": "Metamaterial Exchangeco Inc",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 368118,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052726.json",
-            "tier": 2,
-            "company_website_url": "http://www.metamaterial.com"
-        },
-        {
-            "listing_market": "CSE",
             "symbol": "PLNK",
             "listing_date": "2021-07-02",
             "trading_date": "2021-07-02",
@@ -11272,32 +11128,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000034290.json",
             "tier": 2,
             "company_website_url": "https://p2earn.io"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "HMPS",
-            "listing_date": "2021-07-15",
-            "trading_date": "2021-07-15",
-            "status": "Suspended",
-            "security_name": "Hempsana Holdings Ltd.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 59129323,
-            "reserved_shares": 2412345,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000008029.json",
-            "tier": 2,
-            "company_website_url": "https://www.hempsana.ca/"
         },
         {
             "listing_market": "CSE",
@@ -19286,6 +19116,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000107294.json",
             "tier": 2,
             "company_website_url": "https://www.highlandcritical.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "NEXX",
+            "listing_date": "2025-06-02",
+            "trading_date": "2025-06-02",
+            "status": "Active",
+            "security_name": "Nexcel Metals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 12385400,
+            "reserved_shares": 9385400,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": null,
+            "sedar_filings": null,
+            "tier": 2,
+            "company_website_url": null
         }
     ],
     "legal": {
