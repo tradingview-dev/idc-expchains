@@ -5,16 +5,36 @@ import enum
 import json
 import os
 import sys
+from abc import ABC
 from collections import deque
 from json import JSONDecodeError
-from typing import Mapping, Generic, TypeVar
+from typing import Mapping, Generic, TypeVar, Callable
 
+import requests
 from requests import request, RequestException
 
 from lib.ConsoleOutput import ConsoleOutput
 
-T = TypeVar('T')
-class LoggedRequest(Generic[T]):
+
+T1 = TypeVar('T1')
+class Retryer(Generic[T1]):
+    def __init__(self, logger: ConsoleOutput = None, attempts: int = 3):
+        super().__init__()
+        self._attempts = attempts
+        self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
+
+    def apply(self, func: Callable, *args) -> T1:
+        for i in range(self._attempts):
+            try:
+                return func(*args)
+            except Exception:
+                if i < self._attempts:
+                    self._logger.info(f"Applying {i}/{self._attempts} attempt... ", False)
+        raise RuntimeError("Attempts are left")
+
+
+T2 = TypeVar('T2')
+class LoggedRequest(Generic[T2]):
 
     def __init__(self, logger: ConsoleOutput = None):
         super().__init__()
@@ -32,40 +52,38 @@ class LoggedRequest(Generic[T]):
 
     __TIMEOUT = (5, 20) # (connect, read) in sec
 
-    def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str], attempts: int = 1) -> T:
+    def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T2:
         """
 
         :param method:
         :param url:
         :param headers:
         :param data:
-        :param attempts:
         :return:
         :raise RequestException:
         :raise JSONDecodeError:
         """
-        payload = {
-            "data": data if method is LoggedRequest.Methods.POST else None,
-            "params": data if method is LoggedRequest.Methods.GET else None
-        }
-        try:
-            resp = request(method.value, url, timeout=self.__TIMEOUT, headers=headers, data=payload['data'], params=payload['params'])
-            resp.raise_for_status()
-            if not resp:
-                raise RequestException("Response is empty")
-            return resp.json()
-        except RequestException as e:
-            self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-            if attempts > 0:
-                self._logger.info(f"Retrying, left: {attempts}... ", False)
-                return self.request(method, url, headers, data, attempts-1)
-            self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method:")
-            self._logger.error(e)
-            raise e
-        except JSONDecodeError as e:
-            self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-            self._logger.error(f"Failed to decode response: {e.msg}\nStart index of doc where parsing failed {e.pos}, line {e.lineno}, column {e.colno}")
-            raise e
+        def __request():
+            payload = {
+                "data": data if method is LoggedRequest.Methods.POST else None,
+                "params": data if method is LoggedRequest.Methods.GET else None
+            }
+            try:
+                resp = request(method.value, url, timeout=self.__TIMEOUT, headers=headers, data=payload['data'], params=payload['params'])
+                resp.raise_for_status()
+                if not resp:
+                    raise RequestException("Response is empty")
+                return resp.json()
+            except RequestException as e:
+                self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+                self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method:")
+                raise e
+            except JSONDecodeError as e:
+                self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+                self._logger.error(f"Failed to decode response: {e.msg}\nStart index of doc where parsing failed {e.pos}, line {e.lineno}, column {e.colno}")
+                raise e
+
+        return Retryer[T2](self._logger).apply(__request())
 
 
 def write_to_file(filename, content):
