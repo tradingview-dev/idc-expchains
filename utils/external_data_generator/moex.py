@@ -25,7 +25,7 @@ class LoggedRequest(Generic[T]):
         GET = enum.auto()
         POST = enum.auto()
 
-    __TIMEOUT = 15 # sec
+    __TIMEOUT = 20 # sec
 
     def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T:
         """
