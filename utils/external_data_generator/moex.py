@@ -3,6 +3,7 @@
 
 import enum
 import json
+import math
 import os
 import sys
 from collections import deque
@@ -21,12 +22,12 @@ class Retryer(Generic[T1]):
         self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
 
     def apply(self, func: Callable, *args) -> T1:
-        for i in range(1, self._attempts):
+        for i in range(self._attempts + 1):
             try:
                 return func(*args)
             except Exception:
                 if i < self._attempts:
-                    self._logger.info(f"Applying {i}/{self._attempts} attempt... ", False)
+                    self._logger.info(f"Applying {i+1}/{self._attempts} attempt... ", False)
         raise RuntimeError("Attempts are left")
 
 
@@ -42,7 +43,7 @@ class LoggedRequest(Generic[T2]):
         GET = "GET"
         POST = "POST"
 
-    __TIMEOUT = (10, 20) # (connect, read) in sec
+    __TIMEOUT = (5, 15) # (connect, read) in sec
 
     def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T2:
         """
@@ -68,7 +69,7 @@ class LoggedRequest(Generic[T2]):
                 return resp.json()
             except RequestException as e:
                 self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-                self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method:")
+                self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method: {str(e)}")
                 raise e
             except JSONDecodeError as e:
                 self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
@@ -167,7 +168,7 @@ def paginated_request(logger: ConsoleOutput, base_url, headers: dict[str, str], 
     requester = LoggedRequest[dict](logger)
     processed, total, counter = start, start, 1
     while processed <= total:
-        logger.info(f"Requesting page {counter}/{'undefined' if start == total else total/page_size}... ", False)
+        logger.info(f"Requesting page {counter}/{'undefined' if start == total else math.ceil(total/page_size)}... ", False)
         n_resp, page_size, total = request_page(requester, base_url, headers, params, processed, page_size)
         logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
         processed += page_size
