@@ -5,16 +5,13 @@ import enum
 import json
 import os
 import sys
-from abc import ABC
 from collections import deque
 from json import JSONDecodeError
 from typing import Mapping, Generic, TypeVar, Callable
 
-import requests
 from requests import request, RequestException
 
 from lib.ConsoleOutput import ConsoleOutput
-
 
 T1 = TypeVar('T1')
 class Retryer(Generic[T1]):
@@ -24,7 +21,7 @@ class Retryer(Generic[T1]):
         self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
 
     def apply(self, func: Callable, *args) -> T1:
-        for i in range(self._attempts):
+        for i in range(1, self._attempts):
             try:
                 return func(*args)
             except Exception:
@@ -41,16 +38,11 @@ class LoggedRequest(Generic[T2]):
         # protected non-static variables
         self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
 
-    class AutoStrEnum(enum.StrEnum):
-        @staticmethod
-        def _generate_next_value_(name, start, count, last_values):
-            return name
+    class Methods(enum.StrEnum):
+        GET = "GET"
+        POST = "POST"
 
-    class Methods(AutoStrEnum, enum.Enum):
-        GET = enum.auto()
-        POST = enum.auto()
-
-    __TIMEOUT = (5, 20) # (connect, read) in sec
+    __TIMEOUT = (10, 20) # (connect, read) in sec
 
     def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T2:
         """
@@ -83,7 +75,7 @@ class LoggedRequest(Generic[T2]):
                 self._logger.error(f"Failed to decode response: {e.msg}\nStart index of doc where parsing failed {e.pos}, line {e.lineno}, column {e.colno}")
                 raise e
 
-        return Retryer[T2](self._logger).apply(__request())
+        return Retryer[T2](self._logger).apply(__request)
 
 
 def write_to_file(filename, content):
