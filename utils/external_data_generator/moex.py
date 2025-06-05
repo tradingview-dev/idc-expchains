@@ -21,19 +21,25 @@ class LoggedRequest(Generic[T]):
         # protected non-static variables
         self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
 
-    class Methods(enum.StrEnum):
+    class AutoStrEnum(enum.StrEnum):
+        @staticmethod
+        def _generate_next_value_(name, start, count, last_values):
+            return name
+
+    class Methods(AutoStrEnum, enum.Enum):
         GET = enum.auto()
         POST = enum.auto()
 
-    __TIMEOUT = 20 # sec
+    __TIMEOUT = (5, 20) # (connect, read) in sec
 
-    def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T:
+    def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str], attempts: int = 1) -> T:
         """
 
         :param method:
         :param url:
         :param headers:
         :param data:
+        :param attempts:
         :return:
         :raise RequestException:
         :raise JSONDecodeError:
@@ -50,6 +56,9 @@ class LoggedRequest(Generic[T]):
             return resp.json()
         except RequestException as e:
             self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+            if attempts > 0:
+                self._logger.info(f"Retrying, left: {attempts}... ", False)
+                return self.request(method, url, headers, data, attempts-1)
             self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method:")
             self._logger.error(e)
             raise e
@@ -126,7 +135,6 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
                     resp = LoggedRequest[dict](logger).request(LoggedRequest.Methods.GET, req_url, headers, req_data)
                     logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
                 except (RequestException, JSONDecodeError) as e:
-                    logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
                     raise e
 
                 securities = resp['securities']
@@ -146,7 +154,7 @@ def paginated_request(logger: ConsoleOutput, base_url, headers: dict[str, str], 
             "data": []
         }
     }
-    requester = LoggedRequest[dict]()
+    requester = LoggedRequest[dict](logger)
     processed, total, counter = start, start, 1
     while processed <= total:
         logger.info(f"Requesting page {counter}/{'undefined' if start == total else total/page_size}... ", False)
@@ -195,7 +203,7 @@ def update_moex_data(logger: ConsoleOutput) -> int:
     index_boards_securities_url = "https://iss.moex.com/iss/engines/stock/markets/index/securities.json"
     logger.info(f"Requesting index boards securities... ", False)
     try:
-        index_boards_securities = LoggedRequest[dict]().request(LoggedRequest.Methods.GET, index_boards_securities_url, headers, {"lang": "ru"})
+        index_boards_securities = LoggedRequest[dict](logger).request(LoggedRequest.Methods.GET, index_boards_securities_url, headers, {"lang": "ru"})
         logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
     except Exception as e:
         logger.error(e)
