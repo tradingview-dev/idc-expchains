@@ -7,7 +7,7 @@ from typing import Callable, overload
 
 class ConsoleOutput(ABC):
 
-    class Foreground(enum.Enum):
+    class Foreground(enum.StrEnum):
 
         def __add__(self, other: str):
             return self.value + other
@@ -15,30 +15,30 @@ class ConsoleOutput(ABC):
         def __radd__(self, other: str):
             return other + self.value
 
-        REGULAR_RED: str = '\033[0;31m'
-        REGULAR_GREEN: str = '\033[0;32m'
-        REGULAR_YELLOW: str = '\033[0;33m'
-        REGULAR_BLUE: str = '\033[0;34m'
+        REGULAR_RED = '\033[0;31m'
+        REGULAR_GREEN = '\033[0;32m'
+        REGULAR_YELLOW = '\033[0;33m'
+        REGULAR_BLUE = '\033[0;34m'
 
-        BOLD_RED: str = '\033[1;31m'
-        BOLD_GREEN: str = '\033[1;32m'
-        BOLD_YELLOW: str = '\033[1;33m'
-        BOLD_BLUE: str = '\033[1;34m'
+        BOLD_RED = '\033[1;31m'
+        BOLD_GREEN = '\033[1;32m'
+        BOLD_YELLOW = '\033[1;33m'
+        BOLD_BLUE = '\033[1;34m'
 
-        REGULAR_BRIGHT_RED: str = '\033[0;91m'
-        REGULAR_BRIGHT_GREEN: str = '\033[0;92m'
-        REGULAR_BRIGHT_YELLOW: str = '\033[0;93m'
-        REGULAR_BRIGHT_BLUE: str = '\033[0;94m'
+        REGULAR_BRIGHT_RED = '\033[0;91m'
+        REGULAR_BRIGHT_GREEN = '\033[0;92m'
+        REGULAR_BRIGHT_YELLOW = '\033[0;93m'
+        REGULAR_BRIGHT_BLUE = '\033[0;94m'
 
-        BOLD_BRIGHT_RED: str = '\033[1;91m'
-        BOLD_BRIGHT_GREEN: str = '\033[1;92m'
-        BOLD_BRIGHT_YELLOW: str = '\033[1;93m'
-        BOLD_BRIGHT_BLUE: str = '\033[1;94m'
+        BOLD_BRIGHT_RED = '\033[1;91m'
+        BOLD_BRIGHT_GREEN = '\033[1;92m'
+        BOLD_BRIGHT_YELLOW = '\033[1;93m'
+        BOLD_BRIGHT_BLUE = '\033[1;94m'
 
-        DEFAULT: str = '\033[39m'
+        DEFAULT = '\033[39m'
 
-        BOLD: str = '\033[1m'
-        RESET: str = '\033[0m'
+        BOLD = '\033[1m'
+        RESET = '\033[0m'
 
     # private static consts
     __BACKGROUND_BLACK = '\033[40m'

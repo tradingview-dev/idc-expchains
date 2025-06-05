@@ -16,14 +16,14 @@ from lib.ConsoleOutput import ConsoleOutput
 T = TypeVar('T')
 class LoggedRequest(Generic[T]):
 
-    def __init__(self):
+    def __init__(self, logger: ConsoleOutput = None):
         super().__init__()
         # protected non-static variables
-        self._logger = ConsoleOutput(type(self).__name__)
+        self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
 
     class Methods(enum.StrEnum):
-        GET: str = enum.auto()
-        POST: str = enum.auto()
+        GET = enum.auto()
+        POST = enum.auto()
 
     __TIMEOUT = 15 # sec
 
@@ -123,7 +123,7 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
                     req_data["lang"] = boards["lang"]
                 logger.info(f"[{curr_req_num}/{num_of_names}] Requesting {board} board securities... ", False)
                 try:
-                    resp = LoggedRequest[dict]().request(LoggedRequest.Methods.GET, req_url, headers, req_data)
+                    resp = LoggedRequest[dict](logger).request(LoggedRequest.Methods.GET, req_url, headers, req_data)
                     logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
                 except (RequestException, JSONDecodeError) as e:
                     logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)

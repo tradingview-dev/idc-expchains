@@ -107,15 +107,17 @@ def main():
         delivery(["twse_descriptions.csv"], args.branch)
         run_s3_process_snapshot(args.branch, ["twse_descriptions.csv"], "twse")
     elif args.data_cluster == "rus":
-        moex_handler()
-        delivery([
-            "moex_boards_securities.json",
-            "moex_index_boards_securities.json",
-            "moex_stock_rates.json"], args.branch)
-        run_s3_process_snapshot(args.branch, [
-            "moex_boards_securities.json",
-            "moex_index_boards_securities.json",
-            "moex_stock_rates.json"], "moex")
+        if moex_handler() == 0:
+            delivery([
+                "moex_boards_securities.json",
+                "moex_index_boards_securities.json",
+                "moex_stock_rates.json"], args.branch)
+            run_s3_process_snapshot(args.branch, [
+                "moex_boards_securities.json",
+                "moex_index_boards_securities.json",
+                "moex_stock_rates.json"], "moex")
+        else:
+            print("\033[1;91mSomething went wrong... Uploading has been skipped.\033[0m", flush=True)
     elif args.data_cluster == "korea":
         korea_handler()
         delivery(["korea_local_descriptions.csv", "krx_derivatives_local_descriptions.csv"], args.branch)
