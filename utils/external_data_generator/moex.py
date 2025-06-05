@@ -43,7 +43,7 @@ class LoggedRequest(Generic[T2]):
         GET = "GET"
         POST = "POST"
 
-    __TIMEOUT = (5, 15) # (connect, read) in sec
+    __TIMEOUT = 15 # sec
 
     def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T2:
         """
