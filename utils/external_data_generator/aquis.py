@@ -42,12 +42,12 @@ def get_secondary_listing_url_file()-> str:
     html = requests.get("https://www.aquis.eu/stock-exchange/statistics").content
 
     soup = BeautifulSoup(html, "html.parser")
-    href = soup.find_all("a", class_="chakra-link css-fhzrj1")
+    files = soup.find_all("a", class_="chakra-link css-fhzrj1")
+    for file in files:
+        if file.find("p").text.startswith("Secondary"):
+            return file['href']
 
-    secondary = href[1]
-
-    return secondary['href']
-
+    return None
 
 def download_file(url: str, destination: str) -> None:
     """
