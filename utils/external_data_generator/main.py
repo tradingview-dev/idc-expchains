@@ -2,6 +2,7 @@
 # coding=utf-8
 
 import argparse
+import sys
 
 from utils import default_request_handler, json_request_handler, delivery, load_from_repo
 from aquis import aquis_handler
@@ -120,6 +121,7 @@ def main():
                 "moex_stock_rates.json"], "moex")
         else:
             print("\033[1;91mSomething went wrong... Uploading has been skipped.\033[0m", flush=True)
+            return 1
     elif args.data_cluster == "korea":
         korea_handler()
         delivery(["korea_local_descriptions.csv", "krx_derivatives_local_descriptions.csv"], args.branch)
@@ -157,6 +159,8 @@ def main():
     else:
         print("No data-cluster found!")
 
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
