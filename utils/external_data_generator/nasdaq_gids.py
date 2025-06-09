@@ -85,5 +85,3 @@ def nasdaq_gids_handler():
     write_to_csv(gids_indices)
 
     os.remove(DESTINATION)
-
-nasdaq_gids_handler()
