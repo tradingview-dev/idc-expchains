@@ -5,7 +5,7 @@ RUN apt-get update && \
     gem install ffi -v 1.16.3 && \
     gem install typhoeus && \
     cd /bin && \
-    wget -O jq "https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux64" && \
+    wget -q -O jq "https://github.com/jqlang/jq/releases/download/jq-1.5/jq-linux64" && \
     chmod 755 jq
 
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
