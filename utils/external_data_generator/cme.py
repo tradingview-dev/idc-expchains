@@ -1,8 +1,15 @@
+import os
+
 import requests
 import pandas as pd
 
+from lib.ConsoleOutput import ConsoleOutput
+
 
 class CmeProductsParser:
+    # private static variables
+    __logger = ConsoleOutput(os.path.splitext(os.path.basename(__file__))[0])
+
     headers = {
         "accept": "application/json, text/plain, */*",
         "accept-endcoding": "gzip, deflate, br, zstd",
@@ -22,12 +29,20 @@ class CmeProductsParser:
     def __init__(self, product_type):
         self.product_type = product_type
 
+    def request(__logger, url):
+        try:
+            resp = requests.get(url)
+            if not resp:
+                raise requests.RequestException("No response from requested service")
+            resp.raise_for_status()  # checks the response status code and raises an exception for HTTP errors (4xx or 5xx)
+            return resp
+        except requests.RequestException as e:
+            __logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method: {str(e)}")
+            raise e
+
     def get_total_pages(self):
-
         first_page = requests.get(f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber=1&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected", headers=self.headers).json()
-
         total_pages = first_page['props']['pageTotal']
-
         return total_pages
 
     def parse_symbols(self):
