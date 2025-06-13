@@ -791,7 +791,8 @@ CCCXU|Churchill Capital Corp X - Unit|G|N|N|100|N|N
 CCD|Calamos Dynamic Convertible & Income Fund - Closed End Fund|Q|N|N|100|N|N
 CCEC|Capital Clean Energy Carriers Corp. - Common Share|Q|N|N|100|N|N
 CCEP|Coca-Cola Europacific Partners plc - Ordinary Shares|Q|N|N|100|N|N
-CCG|Cheche Group Inc. - Class A Ordinary Shares|S|N|N|100|N|N
+CCFE|Concourse Capital Focused Equity ETF|G|N|N|100|Y|N
+CCG|Cheche Group Inc. - Class A Ordinary Shares|S|N|D|100|N|N
 CCGWW|Cheche Group Inc. - Warrant|S|N|N|100|N|N
 CCIR|Cohen Circle Acquisition Corp. I - Class A Ordinary Shares|G|N|N|100|N|N
 CCIRU|Cohen Circle Acquisition Corp. I - Unit|G|N|N|100|N|N
@@ -827,8 +828,6 @@ CDW|CDW Corporation - Common Stock|Q|N|N|100|N|N
 CDXS|Codexis, Inc. - Common Stock|Q|N|N|100|N|N
 CDZI|Cadiz, Inc. - Common Stock|G|N|N|100|N|N
 CDZIP|Cadiz, Inc. - Depositary Shares|G|N|N|100|N|N
-CEAD|CEA Industries Inc. - Common Stock|S|N|N|100|N|N
-CEADW|CEA Industries Inc. - Warrant|S|N|N|100|N|N
 CECO|CECO Environmental Corp. - Common Stock|Q|N|N|100|N|N
 CEFA|Global X S&P Catholic Values Developed ex-U.S. ETF|G|N|N|100|Y|N
 CEG|Constellation Energy Corporation - Common Stock|Q|N|N|100|N|N
@@ -908,6 +907,7 @@ CHTR|Charter Communications, Inc. - Class A Common Stock|Q|N|N|100|N|N
 CHW|Calamos Global Dynamic Income Fund - Closed End Fund|Q|N|N|100|N|N
 CHX|ChampionX Corporation - Common Stock|Q|N|N|100|N|N
 CHY|Calamos Convertible and High Income Fund - Closed End Fund|Q|N|N|100|N|N
+CHYM|Chime Financial, Inc. - Class A Common Stock|Q|N|N|100|N|N
 CIBR|First Trust NASDAQ Cybersecurity ETF|G|N|N|100|Y|N
 CIFR|Cipher Mining Inc. - Common Stock|Q|N|N|100|N|N
 CIFRW|Cipher Mining Inc. - Warrant|Q|N|N|100|N|N
@@ -2262,7 +2262,9 @@ IPGP|IPG Photonics Corporation - Common Stock|Q|N|N|100|N|N
 IPHA|Innate Pharma S.A. - American Depositary Shares|Q|N|N|100|N|N
 IPKW|Invesco International BuyBack Achievers ETF|G|N|N|100|Y|N
 IPM|Intelligent Protection Management Corp.  - Common Stock|S|N|N|100|N|N
+IPOD|Dune Acquisition Corporation II - Class A ordinary shares|G|N|N|100|N|N
 IPODU|Dune Acquisition Corporation II - Units|G|N|N|100|N|N
+IPODW|Dune Acquisition Corporation II - Warrants|G|N|N|100|N|N
 IPSC|Century Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
 IPW|iPower Inc. - Common Stock|S|N|D|100|N|N
 IPWR|Ideal Power Inc. - Common Stock|S|N|N|100|N|N
@@ -2419,6 +2421,7 @@ KLTR|Kaltura, Inc. - Common Stock|Q|N|N|100|N|N
 KLXE|KLX Energy Services Holdings, Inc.  - Common Stock|Q|N|N|100|N|N
 KMB|Kimberly-Clark Corporation - Common Stock|Q|N|N|100|N|N
 KMDA|Kamada Ltd. - Ordinary Shares|Q|N|N|100|N|N
+KMLI|KraneShares 2x Long MELI Daily ETF|G|N|N|100|Y|N
 KMTS|Kestra Medical Technologies, Ltd. - Common Stock|Q|N|N|100|N|N
 KNDI|Kandi Technologies Group, Inc. - Ordinary Shares|Q|N|N|100|N|N
 KNGZ|First Trust S&P 500 Diversified Dividend Aristocrats ETF|G|N|N|100|Y|N
@@ -3334,6 +3337,8 @@ PEBK|Peoples Bancorp of North Carolina, Inc. - Common Stock|G|N|N|100|N|N
 PEBO|Peoples Bancorp Inc. - Common Stock|Q|N|N|100|N|N
 PECO|Phillips Edison & Company, Inc. - Common Stock|Q|N|N|100|N|N
 PEGA|Pegasystems Inc. - Common Stock|Q|N|N|100|N|N
+PELI|Pelican Acquisition Corporation - Ordinary Shares|G|N|N|100|N|N
+PELIR|Pelican Acquisition Corporation - Right|G|N|N|100|N|N
 PELIU|Pelican Acquisition Corporation - Unit|G|N|N|100|N|N
 PENG|Penguin Solutions, Inc. - Ordinary Shares|Q|N|N|100|N|N
 PENN|PENN Entertainment, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3571,6 +3576,7 @@ QNTM|Quantum Biopharma Ltd. - Class B Subordinate Voting Shares|S|N|N|100|N|N
 QNXT|iShares Nasdaq-100 ex Top 30 ETF|G|N|N|100|Y|N
 QOWZ|Invesco Nasdaq Free Cash Flow Achievers ETF|G|N|N|100|Y|N
 QQA|Invesco QQQ Income Advantage ETF|G|N|N|100|Y|N
+QQDN|ProShares UltraShort Top QQQ|G|N|N|100|Y|N
 QQEW|First Trust NASDAQ-100 Equal Weighted Index Fund|G|N|N|100|Y|N
 QQHG|Invesco QQQ Hedged Advantage ETF|G|N|N|100|Y|N
 QQJG|Invesco ESG NASDAQ Next Gen 100 ETF|G|N|N|100|Y|N
@@ -3589,6 +3595,7 @@ QQQS|Invesco NASDAQ Future Gen 200 ETF|G|N|N|100|Y|N
 QQQT|Defiance Nasdaq 100 Income Target ETF|G|N|N|100|Y|N
 QQQX|Nuveen NASDAQ 100 Dynamic Overwrite Fund - Closed End Fund|Q|N|N|100|N|N
 QQQY|Defiance Nasdaq 100 Enhanced Options & 0DTE Income ETF|G|N|N|100|Y|N
+QQUP|ProShares Ultra Top QQQ|G|N|N|100|Y|N
 QQWZ|Pacer Cash COWZ 100-Nasdaq 100 Rotator ETF|G|N|N|100|Y|N
 QQXT|First Trust NASDAQ-100 Ex-Technology Sector Index Fund|G|N|N|100|Y|N
 QRHC|Quest Resource Holding Corporation - Common Stock|S|N|N|100|N|N
@@ -3945,7 +3952,7 @@ SHYF|The Shyft Group, Inc. - Common Stock|Q|N|N|100|N|N
 SIBN|SI-BONE, Inc. - Common Stock|G|N|N|100|N|N
 SIDU|Sidus Space, Inc. - Class A Common Stock|S|N|N|100|N|N
 SIEB|Siebert Financial Corp. - Common Stock|S|N|N|100|N|N
-SIFY|Sify Technologies Limited - American Depository Shares, each represented by one Equity Share|S|N|N|100|N|N
+SIFY|Sify Technologies Limited - American Depository Shares, each represented by one Equity Share|S|N|D|100|N|N
 SIGA|SIGA Technologies Inc. - Common Stock|G|N|N|100|N|N
 SIGI|Selective Insurance Group, Inc. - Common Stock|Q|N|N|100|N|N
 SIGIP|Selective Insurance Group, Inc. - Depositary Shares, each representing a 1/1,000th interest in a share of 4.60% Non-Cumulative Preferred Stock, Series B|Q|N|N|100|N|N
@@ -4089,7 +4096,7 @@ SPNS|Sapiens International Corporation N.V. - Common Shares|Q|N|N|100|N|N
 SPOK|Spok Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 SPPL|SIMPPLE LTD. - Ordinary Shares|S|N|D|100|N|N
 SPRC|SciSparc Ltd. - Ordinary Shares|S|N|D|100|N|N
-SPRO|Spero Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
+SPRO|Spero Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 SPRX|Spear Alpha ETF|G|N|N|100|Y|N
 SPRY|ARS Pharmaceuticals, Inc. - Common Stock|G|N|N|100|N|N
 SPSC|SPS Commerce, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4282,6 +4289,7 @@ TER|Teradyne, Inc. - Common Stock|Q|N|N|100|N|N
 TERN|Terns Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 TFIN|Triumph Financial, Inc. - Common Stock|Q|N|N|100|N|N
 TFINP|Triumph Financial, Inc. - Depositary Shares, Each Representing a 1/40th Interest in a Share of Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock|Q|N|N|100|N|N
+TFNS|T. Rowe Price Financials ETF|G|N|N|100|Y|N
 TFSL|TFS Financial Corporation - Common Stock|Q|N|N|100|N|N
 TGL|Treasure Global Inc. - Common Stock|S|N|N|100|N|N
 TGTX|TG Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
@@ -4319,6 +4327,7 @@ TMC|TMC the metals company Inc. - Common Stock|Q|N|N|100|N|N
 TMCI|Treace Medical Concepts, Inc. - Common Stock|Q|N|N|100|N|N
 TMCWW|TMC the metals company Inc. - Warrant|Q|N|N|100|N|N
 TMDX|TransMedics Group, Inc. - Common Stock|G|N|N|100|N|N
+TMED|T. Rowe Price Health Care ETF|G|N|N|100|Y|N
 TMET|iShares Transition-Enabling Metals ETF|G|N|N|100|Y|N
 TMUS|T-Mobile US, Inc. - Common Stock|Q|N|N|100|N|N
 TNDM|Tandem Diabetes Care, Inc. - Common Stock|G|N|N|100|N|N
@@ -4406,6 +4415,7 @@ TUG|STF Tactical Growth ETF|G|N|N|100|Y|N
 TUGN|STF Tactical Growth & Income ETF|G|N|N|100|Y|N
 TUR|iShares MSCI Turkey ETF|G|N|N|100|Y|N
 TURB|Turbo Energy, S.A. - American Depositary Shares|S|N|N|100|N|N
+TURF|T. Rowe Price Natural Resources ETF|G|N|N|100|Y|N
 TURN|180 Degree Capital Corp. - Closed End Fund|G|N|N|100|N|N
 TUSK|Mammoth Energy Services, Inc. - Common Stock|Q|N|N|100|N|N
 TVA|Texas Ventures Acquisition III Corp - Class A Ordinary Share|G|N|N|100|N|N
@@ -4539,6 +4549,8 @@ VACHW|Voyager Acquisition Corp - Warrants|G|N|N|100|N|N
 VALN|Valneva SE - American Depositary Shares|Q|N|N|100|N|N
 VALU|Value Line, Inc. - Common Stock|S|N|N|100|N|N
 VANI|Vivani Medical, Inc.  - Common Stock|S|N|N|100|N|N
+VAPE|CEA Industries Inc. - Common Stock|S|N|N|100|N|N
+VAPEW|CEA Industries Inc. - Warrant|S|N|N|100|N|N
 VBIL|Vanguard 0-3 Month Treasury Bill ETF|G|N|N|100|Y|N
 VBIX|Viewbix Inc. - Common Stock |S|N|N|100|N|N
 VBNK|VersaBank - Common Shares|Q|N|N|100|N|N
@@ -4894,4 +4906,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|E|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0612202507:00|||||||
+File Creation Time: 0613202507:00|||||||
