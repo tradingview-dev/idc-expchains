@@ -2346,8 +2346,8 @@
     "industry": "Coal and other minerals and ores",
     "isCaveatEmptor": false,
     "symbol": "ADYRF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Adyen N.V.",
@@ -9858,6 +9858,7 @@
   },
   {
     "companyName": "Ascopiave SPA Treviso",
+    "country": "Italy",
     "isCaveatEmptor": false,
     "symbol": "ASCOF",
     "tierCode": "PL",
@@ -31995,6 +31996,14 @@
     "companyName": "Colibri Resource Corp.",
     "country": "Canada",
     "isCaveatEmptor": false,
+    "symbol": "CRUCD",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Colibri Resource Corp.",
+    "country": "Canada",
+    "isCaveatEmptor": false,
     "symbol": "CRUCF",
     "tierCode": "PC",
     "tierName": "Pink Current"
@@ -36633,6 +36642,14 @@
     "companyName": "DOMAIN HLDGS AUSTRALIA LTD.",
     "isCaveatEmptor": false,
     "symbol": "DHGAF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Global Strategic Group Ltd",
+    "country": "Hong Kong",
+    "isCaveatEmptor": false,
+    "symbol": "DHKCD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -53049,7 +53066,7 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "Renu Energy Ltd.",
+    "companyName": "JANUS ELEC HLDGS LTD.",
     "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "GDYMF",
@@ -72866,8 +72883,8 @@
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "JUPGF",
-    "tierCode": "PC",
-    "tierName": "Pink Current"
+    "tierCode": "QB",
+    "tierName": "OTCQB"
   },
   {
     "companyName": "JPMORGAN US SMALLER COMPANIES INVESTMENT TRUST PLC",
@@ -90663,6 +90680,13 @@
   {
     "companyName": "North Atlantic Smaller Companies Investment Trust Plc.",
     "isCaveatEmptor": false,
+    "symbol": "NAJSD",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "North Atlantic Smaller Companies Investment Trust Plc.",
+    "isCaveatEmptor": false,
     "symbol": "NAJSF",
     "tierCode": "PC",
     "tierName": "Pink Current"
@@ -94736,6 +94760,7 @@
   },
   {
     "companyName": "Neoenergia SA",
+    "country": "Brazil",
     "isCaveatEmptor": false,
     "symbol": "NRGIY",
     "tierCode": "PL",
@@ -95895,6 +95920,15 @@
     "industry": "Management consulting services",
     "isCaveatEmptor": false,
     "symbol": "NUKK",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "NuLegacy Gold Corporation",
+    "country": "Canada",
+    "industry": "Metal Mining",
+    "isCaveatEmptor": false,
+    "symbol": "NULGD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -97161,6 +97195,7 @@
   },
   {
     "companyName": "NEW ZEALAND COASTAL SEAFOODS LTD.",
+    "country": "Australia",
     "isCaveatEmptor": false,
     "symbol": "NZSCF",
     "tierCode": "PC",
@@ -97352,6 +97387,7 @@
   },
   {
     "companyName": "Obrascon Huarte Lain Brasil S.A.",
+    "country": "Spain",
     "isCaveatEmptor": false,
     "symbol": "OBSJF",
     "tierCode": "PL",
@@ -110029,6 +110065,13 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "INSTITUTE FOR Q SHU PIONEERS OF SPACE INC.",
+    "isCaveatEmptor": false,
+    "symbol": "QSHUF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Tancheng Group Co., Ltd.",
     "country": "Czech Republic",
     "industry": "Services-Computer Programming, Data Processing, Etc.",
@@ -114621,6 +114664,13 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "REMIXPOINT INC.",
+    "isCaveatEmptor": false,
+    "symbol": "RPCDF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Rapid Line Inc.",
     "country": "China",
     "industry": "Services-Educational Services",
@@ -117785,6 +117835,13 @@
     "companyName": "Seria Co., Ltd.",
     "isCaveatEmptor": false,
     "symbol": "SAOGF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "SAPPE PUB CO LTD",
+    "isCaveatEmptor": false,
+    "symbol": "SAPEF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
   },
@@ -129131,7 +129188,7 @@
   },
   {
     "companyName": "STMicroelectronics N.V.",
-    "country": "United States",
+    "country": "Netherlands",
     "industry": "Semiconductors and related devices",
     "isCaveatEmptor": false,
     "symbol": "STMEF",
@@ -129627,7 +129684,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Radio and TV communications equipment",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -137400,7 +137457,7 @@
     "tierName": "OTCQB"
   },
   {
-    "companyName": "Trucept, Inc.",
+    "companyName": "AFINIDA INC",
     "country": "United States",
     "industry": "Services-Advertising",
     "isCaveatEmptor": false,
