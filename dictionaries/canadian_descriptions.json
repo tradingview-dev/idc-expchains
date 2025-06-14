@@ -1,31 +1,7 @@
 {
-    "date": "2025-06-12",
+    "date": "2025-06-13",
     "deletions": [],
     "adds_and_changes": [
-        {
-            "listing_market": "CSE",
-            "symbol": "IRV",
-            "listing_date": "2015-12-23",
-            "trading_date": "2015-12-23",
-            "status": "Active",
-            "security_name": "Irving Resources Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 83355640,
-            "reserved_shares": 12327270,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000037915.json",
-            "tier": 2,
-            "company_website_url": "http://www.irvresources.com"
-        },
         {
             "listing_market": "CSE",
             "symbol": "CVGR",
@@ -51,6 +27,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000031657.json",
             "tier": 2,
             "company_website_url": "http://www.cityviewgreen.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SPTZ",
+            "listing_date": "2019-03-18",
+            "trading_date": "2019-03-18",
+            "status": "Active",
+            "security_name": "Spetz Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 46424025,
+            "reserved_shares": 13204061,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000011635.json",
+            "tier": 2,
+            "company_website_url": "https://www.sonicstrategy.io/"
         },
         {
             "listing_market": "CSE",
@@ -87,27 +87,55 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "M",
-            "listing_date": "2019-11-05",
-            "trading_date": "2019-11-05",
+            "symbol": "TCF",
+            "listing_date": "2020-02-11",
+            "trading_date": "2020-02-11",
             "status": "Active",
-            "security_name": "Myriad Uranium Corp.",
+            "security_name": "Trillion Energy International Inc.",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Oil and Gas",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 72052265,
-            "reserved_shares": 24773049,
+            "outstanding_shares": 196824001,
+            "reserved_shares": 62217267,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Independent Trading Group",
+                "dealer name": "Virtu Canada Corp.",
                 "type": "full"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000047317.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045319.json",
             "tier": 2,
-            "company_website_url": "http://www.myriaduranium.com"
+            "company_website_url": "http://www.trillionenergy.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "ACT",
+            "listing_date": "2019-02-12",
+            "trading_date": "2021-04-29",
+            "status": "Active",
+            "security_name": "Aduro Clean Technologies Inc.",
+            "security_type": "Equity",
+            "sector": "CleanTech",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 30631255,
+            "reserved_shares": 4101914,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "CSE25",
+            "recent_change": {
+                "effective_on": "2024-08-20",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045602.json",
+            "tier": 2,
+            "company_website_url": "http://www.adurocleantech.com"
         },
         {
             "listing_market": "CSE",
@@ -156,30 +184,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000057152.json",
             "tier": 2,
             "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "BGLD",
-            "listing_date": "2024-12-17",
-            "trading_date": "2024-12-17",
-            "status": "Active",
-            "security_name": "Boreal Gold Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 16750748,
-            "reserved_shares": 295000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055686.json",
-            "tier": 2,
-            "company_website_url": "https://www.borealgold.ca"
         }
     ],
     "full_list": [
@@ -6109,7 +6113,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 46424025,
-            "reserved_shares": 10062053,
+            "reserved_shares": 13204061,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -7665,7 +7669,7 @@
             "sector": "Oil and Gas",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 194586919,
+            "outstanding_shares": 196824001,
             "reserved_shares": 62217267,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -10162,8 +10166,8 @@
             "sector": "CleanTech",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 28437984,
-            "reserved_shares": 4823823,
+            "outstanding_shares": 30631255,
+            "reserved_shares": 4101914,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
