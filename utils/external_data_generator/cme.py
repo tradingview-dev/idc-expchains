@@ -1,9 +1,18 @@
-import requests
+import os
+from abc import abstractmethod, ABC
+
 import pandas as pd
 
+from DataGenerator import DataGenerator
+from lib.ConsoleOutput import ConsoleOutput
+from lib.LoggableRequester import LoggableRequester
 
-class CmeProductsParser:
-    headers = {
+
+class CmeProductsParser(ABC):
+
+    # protected static variables
+    _BASE_URL = "https://www.cmegroup.com/services/product-slate"
+    _HEADERS = {
         "accept": "application/json, text/plain, */*",
         "accept-endcoding": "gzip, deflate, br, zstd",
         "accept-language": "en-US,en;q=0.5",
@@ -17,79 +26,158 @@ class CmeProductsParser:
         "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0",
     }
 
-    base_url = "https://www.cmegroup.com/services/product-slate"
+    def __init__(self):
+        super().__init__()
+        self._logger = ConsoleOutput(type(self).__name__)
 
-    def __init__(self, product_type):
-        self.product_type = product_type
+    @property
+    @abstractmethod
+    def _get_product(self):
+        pass
+
+    @property
+    @abstractmethod
+    def get_filename(self):
+        pass
+
+    @abstractmethod
+    def parse_symbols(self):
+        pass
 
     def get_total_pages(self):
+        """
 
-        first_page = requests.get(f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber=1&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected", headers=self.headers).json()
-
-        total_pages = first_page['props']['pageTotal']
-
-        return total_pages
-
-    def parse_symbols(self):
-
-        if self.product_type == "Options":
-
-            with open(f"{self.product_type}_products.csv", "w") as file:
-
-                file.write("prodCode;name\n")
-
-                total_pages = self.get_total_pages()
-
-                for i in range(1, total_pages + 1):
-                    page = requests.get(
-                        f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber={i}&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected",
-                        headers=self.headers).json()
-
-                    products = page['products']
-
-                    for product in products:
-                        root = product['prodCode']
-                        description = product['name']
-
-                        file.write(f"{root};{description}\n")
-
-                response = requests.get("https://www.cftc.gov/strike-price-xls?col=ExchId%2CContractName&dir=ASC%2CASC")
-
-                xlsx_filename = "strike-price-report.xlsx"
-                with open(xlsx_filename, "wb") as xls:
-                    xls.write(response.content)
-
-                excel_data = pd.read_excel(xlsx_filename)
-                roots = excel_data.groupby('Comm. Code')
-
-                for root_id, root in roots:
-                    if root['OptionClass'].unique()[0] == "ONE DAY":
-                        file.write(f"{root_id};{root['ContractName'].unique()[0]}\n")
-        else:
-
-            with open(f"{self.product_type}_products.csv", "w") as file:
-
-                file.write("prodCode;name;Group;Sub Group\n")
-
-                total_pages = self.get_total_pages()
-
-                for i in range(1, total_pages + 1):
-                    page = requests.get(
-                        f"{self.base_url}?sortAsc=false&sortField=oi&pageNumber={i}&pageSize=500&group=&subGroup=&venues=&exch=&cleared={self.product_type}&isProtected", headers=self.headers).json()
-
-                    products = page['products']
-
-                    for product in products:
-                        root = product['prodCode']
-                        description = product['name']
-                        group = product['group']
-                        subGroup = product['subGroup']
-
-                        file.write(f"{root};{description};{group};{subGroup}\n")
+        :return:
+        :raise RequestException:
+        :raise KeyError:
+        """
+        req_params = [
+            f"sortAsc=false",
+            f"sortField=oi",
+            f"pageNumber=1",
+            f"pageSize=500",
+            f"group=",
+            f"subGroup=",
+            f"venues=",
+            f"exch=",
+            f"cleared={self._get_product}",
+            f"isProtected"
+        ]
+        resp = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, f"{self._BASE_URL}?{'&'.join(req_params)}", headers=self._HEADERS)
+        first_page = resp.json()
+        return first_page['props']['pageTotal']
 
 
-def cme_handler(product):
+class CmeOptionsParser(CmeProductsParser):
 
-    a = CmeProductsParser(product)
+    @property
+    def _get_product(self):
+        return "Options"
 
-    a.parse_symbols()
+    @property
+    def get_filename(self):
+        return f"{self._get_product}_products.csv"
+
+    def parse_symbols(self) -> None:
+        with open(self.get_filename, "w", encoding="utf-8") as file:
+            file.write("prodCode;name\n")
+            total_pages = self.get_total_pages()
+            requester = LoggableRequester(self._logger)
+            for i in range(1, total_pages + 1):
+                req_params = [
+                    f"sortAsc=false",
+                    f"sortField=oi",
+                    f"pageNumber={i}",
+                    f"pageSize=500",
+                    f"group=",
+                    f"subGroup=",
+                    f"venues=",
+                    f"exch=",
+                    f"cleared={self._get_product}",
+                    f"isProtected"
+                ]
+                page = requester.request(LoggableRequester.Methods.GET, f"{self._BASE_URL}?{'&'.join(req_params)}", headers=self._HEADERS).json()
+
+                products = page['products']
+                for product in products:
+                    root = product['prodCode']
+                    description = product['name']
+
+                    file.write(f"{root};{description}\n")
+
+            response = requester.request(LoggableRequester.Methods.GET, "https://www.cftc.gov/strike-price-xls?col=ExchId%2CContractName&dir=ASC%2CASC")
+            xlsx_filename = "strike-price-report.xlsx"
+            with open(xlsx_filename, "wb") as xls:
+                xls.write(response.content)
+
+            excel_data = pd.read_excel(xlsx_filename)
+            roots = excel_data.groupby('Comm. Code')
+
+            for root_id, root in roots:
+                if root['OptionClass'].unique()[0] == "ONE DAY":
+                    file.write(f"{root_id};{root['ContractName'].unique()[0]}\n")
+
+            os.remove(xlsx_filename)
+
+
+class CmeFuturesParser(CmeProductsParser):
+
+    @property
+    def _get_product(self):
+        return "Futures"
+
+    @property
+    def get_filename(self):
+        return f"{self._get_product}_products.csv"
+
+    def parse_symbols(self) -> None:
+        with open(self.get_filename, "w", encoding="utf-8") as file:
+            file.write("prodCode;name;Group;Sub Group\n")
+            total_pages = self.get_total_pages()
+            requester = LoggableRequester(self._logger)
+            for i in range(1, total_pages + 1):
+                req_params = [
+                    f"sortAsc=false",
+                    f"sortField=oi",
+                    f"pageNumber={i}",
+                    f"pageSize=500",
+                    f"group=",
+                    f"subGroup=",
+                    f"venues=",
+                    f"exch=",
+                    f"cleared={self._get_product}",
+                    f"isProtected"
+                ]
+                page = requester.request(LoggableRequester.Methods.GET, f"{self._BASE_URL}?{'&'.join(req_params)}", headers=self._HEADERS).json()
+
+                products = page['products']
+                for product in products:
+                    root = product['prodCode']
+                    description = product['name']
+                    group = product['group']
+                    subGroup = product['subGroup']
+
+                    file.write(f"{root};{description};{group};{subGroup}\n")
+
+
+class CMEDataGenerator(DataGenerator):
+
+    def generate(self) -> list[str]:
+        output = []
+        parsers = [CmeOptionsParser(), CmeFuturesParser()]
+        for parser in parsers:
+            try:
+                parser.parse_symbols()
+            except OSError as e:
+                self._logger.error(e)
+                raise e
+            output.append(parser.get_filename)
+        return output
+
+
+if __name__ == "__main__":
+    try:
+        CMEDataGenerator().generate()
+        exit(0)
+    except OSError:
+        exit(1)

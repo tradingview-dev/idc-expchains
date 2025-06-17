@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Output
+out/
+
+# Pipenv
+Pipfile.lock
