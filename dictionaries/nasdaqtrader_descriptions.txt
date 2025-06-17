@@ -464,6 +464,8 @@ BANR|Banner Corporation - Common Stock|Q|N|N|100|N|N
 BANX|ArrowMark Financial Corp. - Closed End Fund|Q|N|D|100|N|N
 BAOS|Baosheng Media Group Holdings Limited - Ordinary shares|S|N|N|100|N|N
 BASE|Couchbase, Inc. - Common Stock|Q|N|N|100|N|N
+BASG|Brown Advisory Sustainable Growth ETF|G|N|N|100|Y|N
+BASV|Brown Advisory Sustainable Value ETF|G|N|N|100|Y|N
 BATRA|Atlanta Braves Holdings, Inc. - Series A Common Stock|Q|N|N|100|N|N
 BATRK|Atlanta Braves Holdings, Inc. - Series C Common Stock|Q|N|N|100|N|N
 BAYA|Bayview Acquisition Corp - Ordinary Share|G|N|N|100|N|N
@@ -511,7 +513,7 @@ BEEX|The Beehive ETF|G|N|N|100|Y|N
 BEEZ|Honeytree U.S. Equity ETF|G|N|N|100|Y|N
 BELFA|Bel Fuse Inc. - Class A Common Stock|Q|N|N|100|N|N
 BELFB|Bel Fuse Inc. - Class B Common Stock|Q|N|N|100|N|N
-BELT|iShares Long-Term U.S. Equity Active ETF|G|N|N|100|Y|N
+BELT|iShares U.S. Select Equity Active ETF|G|N|N|100|Y|N
 BENF|Beneficient - Class A Common Stock|S|N|D|100|N|N
 BENFW|Beneficient - Warrant|S|N|N|100|N|N
 BETR|Better Home & Finance Holding Company - Class A Common Stock|G|N|N|100|N|N
@@ -1150,7 +1152,6 @@ CZWI|Citizens Community Bancorp, Inc. - Common Stock|G|N|N|100|N|N
 DAAQ|Digital Asset Acquisition Corp. - Class A Ordinary shares|G|N|N|100|N|N
 DAAQU|Digital Asset Acquisition Corp. - Units|G|N|N|100|N|N
 DAAQW|Digital Asset Acquisition Corp. - Warrant|G|N|N|100|N|N
-DADA|Dada Nexus Limited - American Depositary Shares|Q|N|N|100|N|N
 DAIO|Data I/O Corporation - Common Stock|S|N|N|100|N|N
 DAKT|Daktronics, Inc. - Common Stock|Q|N|N|100|N|N
 DALI|First Trust Dorsey Wright DALI Equity ETF|G|N|N|100|Y|N
@@ -2116,7 +2117,7 @@ IBGB|iShares iBonds Dec 2045 Term Treasury ETF|G|N|N|100|Y|N
 IBGK|iShares iBonds Dec 2054 Term Treasury ETF|G|N|N|100|Y|N
 IBGL|iShares iBonds Dec 2055 Term Treasury ETF|G|N|N|100|Y|N
 IBIO|iBio, Inc. - Common Stock|S|N|N|100|N|N
-IBIT|iShares Bitcoin Trust ETF|G|N|N|100|Y|N
+IBIT|iShares Bitcoin Trust ETF - iShares Bitcoin Trust ETF|G|N|N|100|N|N
 IBKR|Interactive Brokers Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
 IBOC|International Bancshares Corporation - Common Stock|Q|N|N|100|N|N
 IBOT|VanEck Robotics ETF|G|N|N|100|Y|N
@@ -2259,6 +2260,8 @@ IOTR|iOThree Limited - Ordinary Shares|S|N|D|100|N|N
 IOVA|Iovance Biotherapeutics, Inc. - Common Stock|G|N|N|100|N|N
 IPA|ImmunoPrecise Antibodies Ltd. - Common Stock|S|N|D|100|N|N
 IPAR|Interparfums, Inc. - Common Stock|Q|N|N|100|N|N
+IPCX|Inflection Point Acquisition Corp. III - Class A ordinary shares|G|N|N|100|N|N
+IPCXR|Inflection Point Acquisition Corp. III - Rights|G|N|N|100|N|N
 IPCXU|Inflection Point Acquisition Corp. III - Units|G|N|N|100|N|N
 IPDN|Professional Diversity Network, Inc. - Common Stock|S|N|N|100|N|N
 IPGP|IPG Photonics Corporation - Common Stock|Q|N|N|100|N|N
@@ -2531,7 +2534,6 @@ LGCB|Linkage Global Inc - Class A Ordinary Shares|S|N|N|100|N|N
 LGCF|Themes US Cash Flow Champions ETF|G|N|N|100|Y|N
 LGCL|Lucas GC Limited - Ordinary Shares|S|N|D|100|N|N
 LGHL|Lion Group Holding Ltd. - American Depositary Share|S|N|N|100|N|N
-LGHLW|Lion Group Holding Ltd. - Warrant|S|N|N|100|N|N
 LGIH|LGI Homes, Inc. - Common Stock|Q|N|N|100|N|N
 LGND|Ligand Pharmaceuticals Incorporated - Common Stock|G|N|N|100|N|N
 LGO|Largo Inc. - Common Shares|Q|N|N|100|N|N
@@ -2648,7 +2650,7 @@ LX|LexinFintech Holdings Ltd. - American Depositary Shares|Q|N|N|100|N|N
 LXEH|Lixiang Education Holding Co., Ltd. - American Depositary Shares|G|N|N|100|N|N
 LXEO|Lexeo Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 LXRX|Lexicon Pharmaceuticals, Inc. - Common Stock|Q|N|D|100|N|N
-LYEL|Lyell Immunopharma, Inc. - Common Stock|Q|N|D|100|N|N
+LYEL|Lyell Immunopharma, Inc. - Common Stock|Q|N|N|100|N|N
 LYFT|Lyft, Inc. - Class A Common Stock|Q|N|N|100|N|N
 LYRA|Lyra Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 LYTS|LSI Industries Inc. - Common Stock|Q|N|N|100|N|N
@@ -2746,7 +2748,7 @@ METCZ|Ramaco Resources, Inc. - 8.375% Senior Notes due 2029|Q|N|N|100|N|N
 METD|Direxion Daily META Bear 1X Shares|G|N|N|100|Y|N
 METU|Direxion Daily META Bull 2X Shares|G|N|N|100|Y|N
 MFH|Mercurity Fintech Holding Inc. - American Ordinary Shares|S|N|N|100|N|N
-MFI|mF International Limited - Class A Ordinary Shares|S|N|D|100|N|N
+MFI|mF International Limited - Class A Ordinary Shares|S|N|N|100|N|N
 MFIC|MidCap Financial Investment Corporation - Closed End Fund|Q|N|N|100|N|N
 MFICL|MidCap Financial Investment Corporation - 8.00% Notes due 2028|Q|N|N|100|N|N
 MFIN|Medallion Financial Corp. - Common Stock|Q|N|N|100|N|N
@@ -3033,7 +3035,9 @@ NOEMU|CO2 Energy Transition Corp. - Unit|G|N|N|100|N|N
 NOEMW|CO2 Energy Transition Corp. - Warrant|G|N|N|100|N|N
 NOTV|Inotiv, Inc. - Common Stock|S|N|N|100|N|N
 NOVT|Novanta Inc. - Common Shares|Q|N|N|100|N|N
+NPAC|New Providence Acquisition Corp. III - Ordinary Shares|G|N|N|100|N|N
 NPACU|New Providence Acquisition Corp. III - Units|G|N|N|100|N|N
+NPACW|New Providence Acquisition Corp. III - Warrants|G|N|N|100|N|N
 NPCE|Neuropace, Inc. - Common Stock|G|N|N|100|N|N
 NPFI|Nuveen Preferred and Income ETF|G|N|N|100|Y|N
 NRC|National Research Corporation - Common Stock|Q|N|N|100|N|N
@@ -3305,7 +3309,7 @@ PAYX|Paychex, Inc. - Common Stock|Q|N|N|100|N|N
 PBBK|PB Bankshares, Inc. - Common Stock|S|N|N|100|N|N
 PBFS|Pioneer Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 PBHC|Pathfinder Bancorp, Inc. - Common Stock|S|N|N|100|N|N
-PBM|Psyence Biomedical Ltd. - Ordinary Shares|S|N|D|100|N|N
+PBM|Psyence Biomedical Ltd. - Ordinary Shares|S|N|N|100|N|N
 PBMWW|Psyence Biomedical Ltd. - Warrant|S|N|N|100|N|N
 PBPB|Potbelly Corporation - Common Stock|Q|N|N|100|N|N
 PBQQ|PGIM Laddered Nasdaq-100 Buffer 12 ETF|G|N|N|100|Y|N
@@ -4602,7 +4606,6 @@ VINP|Vinci Partners Investments Ltd. - Class A Common Shares|Q|N|N|100|N|N
 VIOT|Viomi Technology Co., Ltd - American Depositary Shares|Q|N|E|100|N|N
 VIR|Vir Biotechnology, Inc. - Common Stock|Q|N|N|100|N|N
 VIRC|Virco Manufacturing Corporation - Common Stock|G|N|N|100|N|N
-VIRT|Virtu Financial, Inc. - Class A Common Stock|Q|N|N|100|N|N
 VITL|Vital Farms, Inc. - Common Stock|G|N|N|100|N|N
 VIVK|Vivakor, Inc. - Common Stock|S|N|D|100|N|N
 VIVS|VivoSim Labs, Inc. - Common Stock|S|N|D|100|N|N
@@ -4909,4 +4912,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|E|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0616202507:00|||||||
+File Creation Time: 0617202507:00|||||||
