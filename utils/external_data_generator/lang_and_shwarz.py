@@ -1,15 +1,27 @@
-from bs4 import BeautifulSoup
-from collections import deque
-import argparse
-import random
-import requests
-import sys
 import time
+from collections import deque
 
-from httplib2.auth import tchar
+import requests
+from bs4 import BeautifulSoup
+
+from Handler import Handler
+from utils import get_headers
 
 
-class LangAndSchwarzParser:
+class Lang(Handler):
+
+    def handle(self, data_cluster: str = None) -> int:
+        symbols_parser = LangAndSchwarzHandler()
+        symbols_parser.parse_symbols("LSX")
+
+class Schwarz(Lang):
+
+    def handle(self, data_cluster: str = None) -> int:
+        symbols_parser = LangAndSchwarzHandler()
+        symbols_parser.parse_symbols("LS")
+
+
+class LangAndSchwarzHandler(Handler):
 
     DELAY: int = 5
     MAX_RETRIES: int = 5
@@ -42,23 +54,6 @@ class LangAndSchwarzParser:
 
     retries_symbols: deque = deque()
 
-    def get_headers(self) -> dict:
-        """
-        :return: headers with random user-agent
-        """
-        random_number = random.randint(0, len(self.USER_AGENTS)-1)
-        headers = {
-            "accept": "*/*",
-            "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
-            "priority": "u=1, i",
-            "sec-fetch-dest": "empty",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-site": "same-origin",
-            "user-agent": self.USER_AGENTS[random_number],
-            "x-requested-with": "XMLHttpRequest"
-        }
-        return headers
-
     def si_to_csv(self, exchange: str):
         """
         :param exchange: Site identifier
@@ -87,7 +82,7 @@ class LangAndSchwarzParser:
         self.current_url = url
         while retries < self.MAX_RETRIES:
             try:
-                response = requests.get(url, headers=self.get_headers())
+                response = requests.get(url, headers=get_headers())
                 if response.status_code == 200:
                     return func(response, exchange)
                 elif response.status_code != 200:
@@ -220,6 +215,10 @@ class LangAndSchwarzParser:
                 self.request_with_retries(symbol, "", self.si_to_tv_dict)
 
 
-def lang_and_shwarz_handler(exchange):
-    symbols_parser = LangAndSchwarzParser()
-    symbols_parser.parse_symbols(exchange)
+    def handle(self, exchange = None):
+        symbols_parser = LangAndSchwarzHandler()
+        symbols_parser.parse_symbols(exchange)
+
+
+if __name__ == "__main__":
+    exit(LangAndSchwarzHandler().handle())

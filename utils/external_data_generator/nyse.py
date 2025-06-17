@@ -126,7 +126,7 @@ def get_symbolinfo_lists(my_csv: str) -> tuple:
     return nyse_symbol_list, amex_symbol_list
 
 
-def nyse_handler():
+def handle():
 
     download_file(URL, DESTINATION)
     xlsx_to_csv(DESTINATION)

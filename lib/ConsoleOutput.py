@@ -1,11 +1,13 @@
 import enum
 import os
 import sys
-from abc import ABC
 from typing import Callable, overload
 
 
-class ConsoleOutput(ABC):
+class ConsoleOutput:
+    """
+    A Simple Logger
+    """
 
     class Foreground(enum.StrEnum):
 
@@ -82,8 +84,8 @@ class ConsoleOutput(ABC):
     def error(self, exception: Exception | str) -> None:
         caused_in = self._find_cause_issuer(sys.exc_info(), self._name)
         reason = str(exception)
-        if isinstance(exception, Exception):
-            reason = f"<{type(exception).__name__}> {reason}"
+        if isinstance(exception, Exception) and len(exception.args) > 1 and isinstance(exception.args[1], Exception):
+            reason = f"<{type(exception).__name__}> {' '.join(ConsoleOutput.unwind_exception(exception))}"
         msg = '\n' if self._waiting_eol else '' + f"[ERROR] {caused_in} - {reason}"
         self._waiting_eol = False
         print(ConsoleOutput.Foreground.BOLD_BRIGHT_RED + msg + ConsoleOutput.Foreground.RESET, flush=True)
@@ -111,6 +113,14 @@ class ConsoleOutput(ABC):
             raise e
         else:
             self.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
+
+    @staticmethod
+    def unwind_exception(e: Exception) -> list[str]:
+        messages = []
+        if len(e.args) > 1 and isinstance(e.args[1], Exception):
+            messages += ConsoleOutput.unwind_exception(e.args[1])
+        messages.append(e.args[0])
+        return messages
 
     @staticmethod
     def _find_cause_issuer(exc_info, default: str):

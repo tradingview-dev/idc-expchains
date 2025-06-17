@@ -1,7 +1,11 @@
+import os
+
 import aiohttp
 import asyncio
 import json
 import requests
+
+from lib.ConsoleOutput import ConsoleOutput
 
 SIC_URL = "https://www.biva.mx/emisoras/sic?size=10000&page=0"
 RI_URL = "https://www.biva.mx/emisoras/empresas?size=10000&page=0"
@@ -113,9 +117,16 @@ def get_urls_symbols() -> tuple:
 
 
 def biva_handler():
+    logger = ConsoleOutput(os.path.splitext(os.path.basename(__file__))[0])
 
-    urls, symbols = get_urls_symbols()
+    try:
+        urls, symbols = get_urls_symbols()
+        isins = asyncio.run(get_isins(urls))
+        write_result(symbols, isins)
+        return 0
+    except Exception as e:
+        logger.error(e)
+        return 1
 
-    isins = asyncio.run(get_isins(urls))
-
-    write_result(symbols, isins)
+if __name__ == "__main__":
+    exit(biva_handler())

@@ -1,82 +1,13 @@
 #!/usr/bin/env python3
 # coding=utf-8
 
-import enum
 import json
 import math
 import os
-import sys
 from collections import deque
-from json import JSONDecodeError
-from typing import Mapping, Generic, TypeVar, Callable
-
-from requests import request, RequestException
 
 from lib.ConsoleOutput import ConsoleOutput
-
-T1 = TypeVar('T1')
-class Retryer(Generic[T1]):
-    def __init__(self, logger: ConsoleOutput = None, attempts: int = 3):
-        super().__init__()
-        self._attempts = attempts
-        self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
-
-    def apply(self, func: Callable, *args) -> T1:
-        for i in range(self._attempts + 1):
-            try:
-                return func(*args)
-            except Exception:
-                if i < self._attempts:
-                    self._logger.info(f"Applying {i+1}/{self._attempts} attempt... ", False)
-        raise RuntimeError("Attempts are left")
-
-
-T2 = TypeVar('T2')
-class LoggedRequest(Generic[T2]):
-
-    def __init__(self, logger: ConsoleOutput = None):
-        super().__init__()
-        # protected non-static variables
-        self._logger = ConsoleOutput(type(self).__name__) if logger is None else logger
-
-    class Methods(enum.StrEnum):
-        GET = "GET"
-        POST = "POST"
-
-    __TIMEOUT = 15 # sec
-
-    def request(self, method: Methods, url: str, headers: Mapping[str, str | bytes | None] | None, data: dict[str, str]) -> T2:
-        """
-
-        :param method:
-        :param url:
-        :param headers:
-        :param data:
-        :return:
-        :raise RequestException:
-        :raise JSONDecodeError:
-        """
-        def __request():
-            payload = {
-                "data": data if method is LoggedRequest.Methods.POST else None,
-                "params": data if method is LoggedRequest.Methods.GET else None
-            }
-            try:
-                resp = request(method.value, url, timeout=self.__TIMEOUT, headers=headers, data=payload['data'], params=payload['params'])
-                resp.raise_for_status()
-                if not resp:
-                    raise RequestException("Response is empty")
-                return resp.json()
-            except RequestException as e:
-                self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-                self._logger.error(f"Failed to get data from {e.request.url} by {e.request.method} method: {str(e)}")
-                raise e
-            except JSONDecodeError as e:
-                self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
-                self._logger.error(f"Failed to decode response: {e.msg}\nStart index of doc where parsing failed {e.pos}, line {e.lineno}, column {e.colno}")
-                raise e
-
-        return Retryer[T2](self._logger).apply(__request)
+from lib.LoggableRequester import LoggableRequester
 
 
 def write_to_file(filename, content):
@@ -134,6 +65,7 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
     boards_securities = {}
     num_of_names = count_names(boards)
     curr_req_num = 1
+    requester = LoggableRequester(logger)
     for instr_t, instr_subtypes in boards.items():
         for instr_subtype, boards in instr_subtypes.items():
             for board in boards["names"]:
@@ -141,12 +73,9 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
                 req_data = {"iss.only": "securities"}
                 if "lang" in boards:
                     req_data["lang"] = boards["lang"]
-                logger.info(f"[{curr_req_num}/{num_of_names}] Requesting {board} board securities... ", False)
-                try:
-                    resp = LoggedRequest[dict](logger).request(LoggedRequest.Methods.GET, req_url, headers, req_data)
-                    logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
-                except (RequestException, JSONDecodeError) as e:
-                    raise e
+
+                resp = (requester.message(f"[{curr_req_num}/{num_of_names}] Requesting {board} board securities... ")
+                        .request(LoggableRequester.Methods.GET, req_url, headers, req_data)).json()
 
                 securities = resp['securities']
                 boards_securities[board] = {
@@ -165,12 +94,11 @@ def paginated_request(logger: ConsoleOutput, base_url, headers: dict[str, str], 
             "data": []
         }
     }
-    requester = LoggedRequest[dict](logger)
+    requester = LoggableRequester(logger)
     processed, total, counter = start, start, 1
     while processed <= total:
-        logger.info(f"Requesting page {counter}/{'undefined' if start == total else math.ceil(total/page_size)}... ", False)
+        requester.message(f"Requesting page {counter}/{'undefined' if start == total else math.ceil(total/page_size)}... ")
         n_resp, page_size, total = request_page(requester, base_url, headers, params, processed, page_size)
-        logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
         processed += page_size
         counter += 1
         resp['rates']['columns'] = n_resp['rates']['columns']
@@ -179,10 +107,10 @@ def paginated_request(logger: ConsoleOutput, base_url, headers: dict[str, str], 
     return resp
 
 
-def request_page(requester: LoggedRequest, base_url: str, headers: dict[str, str], params: dict, start: int, page_size: int):
+def request_page(requester: LoggableRequester, base_url: str, headers: dict[str, str], params: dict, start: int, page_size: int):
     params['start'] = start
     params['page_size'] = page_size
-    response = requester.request(LoggedRequest.Methods.GET, base_url, headers, params)
+    response = requester.request(LoggableRequester.Methods.GET, base_url, headers, params).json()
 
     cursor = {}
     for col, index in zip(response['rates.cursor']['columns'], range(len(response['rates.cursor']['data'][0]))):
@@ -212,13 +140,8 @@ def update_moex_data(logger: ConsoleOutput) -> int:
         return 1
 
     index_boards_securities_url = "https://iss.moex.com/iss/engines/stock/markets/index/securities.json"
-    logger.info(f"Requesting index boards securities... ", False)
-    try:
-        index_boards_securities = LoggedRequest[dict](logger).request(LoggedRequest.Methods.GET, index_boards_securities_url, headers, {"lang": "ru"})
-        logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
-    except Exception as e:
-        logger.error(e)
-        return 1
+    index_boards_securities = (LoggableRequester(logger).message("Requesting index boards securities... ")
+                               .request(LoggableRequester.Methods.GET, index_boards_securities_url, headers, {"lang": "ru"}).json())
 
     logger.log("Writing to file... ", write_to_file, dictionaries_paths["index_boards_securities"], index_boards_securities)
     if not os.path.getsize(dictionaries_paths["index_boards_securities"]):
@@ -256,4 +179,4 @@ def moex_handler():
 
 
 if __name__ == "__main__":
-    sys.exit(moex_handler())
+    exit(moex_handler())

@@ -1,9 +1,17 @@
 from abc import ABC, abstractmethod
-from utils import execute_to_file
+
+from requests import RequestException
+
+from lib.LoggableRequester import LoggableRequester
+from utils import execute_to_file, file_writer
 import requests
+import urllib.parse
+
+from Handler import Handler
+from utils.external_data_generator.utils import get_headers
 
 
-class Korea(ABC):
+class Korea(Handler):
 
     headers = {
         "accept": "application/json, text/plain, */*",
@@ -26,9 +34,20 @@ class Korea(ABC):
         with open("krx_derivatives_local_descriptions.csv", "w") as file:
             file.write("key;local-description\n")
 
-    @abstractmethod
-    def get_local_description(self):
-        pass
+    def handle(self, data_cluster = None):
+        url = "http://data.krx.co.kr/comm/fileDn/download_csv/download.cmd"
+        payload = {
+            "code": "gRY0jP6rQnfIF4FBiKhU6zCBs%2Fh%2FA%2BJ7QlF9gsIMcSoRtSksuLS7Bnxpl86F7dAOvXfGx9S2U5wgvoxsacATRRtmGtORI4WrGDmruVe6oXtCqUypoW0Lp6SAPP0PhVkgThCTcjIZNPI5lCTubZnhjio6AHXdxc45YVEhz4JdugHPMxvIwHadpQpCGE1HxZAXvTCprTIXuXT9XxFb88awpQ%3D%3D"
+        }
+        payload["code"] = urllib.parse.unquote(payload["code"])
+        try:
+            resp = LoggableRequester(self._logger, retries=5, delay=5).request(LoggableRequester.Methods.GET, url, get_headers(), payload)
+            resp.encoding = 'euc-kr'
+            file_writer(resp.text, "korea_local_descriptions.csv")
+            return 0
+        except (RequestException, KeyError, OSError) as e:
+            self._logger.error(e)
+            return 1
 
     def to_csv(self):
         """
@@ -41,21 +60,19 @@ class Korea(ABC):
 
 class Commodity(Korea):
 
-    def get_local_description(self):
-
+    def handle(self, data_cluster = None):
+        requester = LoggableRequester(self._logger, 5, delay=5)
         blds = ["dbms/MDC/STAT/standard/MDCSTAT15101", "dbms/MDC/STAT/standard/MDCSTAT15801"]
-
+        data = {
+            'locale': 'en',
+            'prodId': 'KRDRVFUEQU',
+            'subProdId': '',
+            'csvxls_isNo': 'false'
+        }
         for bld in blds:
-
-            data = {
-                'locale': 'en',
-                'prodId': 'KRDRVFUEQU',
-                'subProdId': '',
-                'csvxls_isNo': 'false',
-                'bld': bld
-            }
-
-            spots = requests.post("http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd", data=data, headers=self.headers).json()["output"]
+            data['bld'] = bld
+            resp = requester.request(LoggableRequester.Methods.POST, "http://data.krx.co.kr/comm/bldAttendant/getJsonData.cmd", get_headers(), data)
+            spots = resp.json()["output"]
             for spot in spots:
                 self.result[spot["ISU_ENG_NM"]] = spot["ISU_NM"]
 
@@ -91,6 +108,11 @@ class Derivatives(Korea):
 
 
 def korea_handler():
+    url = "http://data.krx.co.kr/comm/fileDn/download_csv/download.cmd"
+    payload = {
+        "code": "gRY0jP6rQnfIF4FBiKhU6zCBs%2Fh%2FA%2BJ7QlF9gsIMcSoRtSksuLS7Bnxpl86F7dAOvXfGx9S2U5wgvoxsacATRRtmGtORI4WrGDmruVe6oXtCqUypoW0Lp6SAPP0PhVkgThCTcjIZNPI5lCTubZnhjio6AHXdxc45YVEhz4JdugHPMxvIwHadpQpCGE1HxZAXvTCprTIXuXT9XxFb88awpQ%3D%3D"
+    }
+
     cmd_line = ["bash", "-c", "curl -s 'http://data.krx.co.kr/comm/fileDn/download_csv/download.cmd'"
                 " --data-raw 'code=gRY0jP6rQnfIF4FBiKhU6zCBs%2Fh%2FA%2BJ7QlF9gsIMcSoRtSksuLS7Bnxpl86F7dAOvXfGx9S2U5wgvoxsacATRRtmGtORI4WrGDmruVe6oXtCqUypoW0Lp6SAPP0PhVkgThCTcjIZNPI5lCTubZnhjio6AHXdxc45YVEhz4JdugHPMxvIwHadpQpCGE1HxZAXvTCprTIXuXT9XxFb88awpQ%3D%3D' "
                 " | iconv -f EUC-KR"]
