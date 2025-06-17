@@ -28,6 +28,7 @@ done <<< "$SI_TVC_GROUPS"
 
 echo "Getting manual groups"
 SI_OTHER_GROUPS=(
+  "abaxx_futures"
   "alor_rest_futures"
   "six_cme_globex_futures"
   "six_cme_globex_mini_futures"
