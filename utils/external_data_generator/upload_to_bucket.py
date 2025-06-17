@@ -3,18 +3,17 @@ import tarfile
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-def run_s3_process_snapshot(environment, files, snapshot_name):
-    ENVIRONMENT = os.environ['ENVIRONMENT']
+def run_s3_process_snapshot(files, snapshot_name):
+    environment = os.environ['ENVIRONMENT']
 
-    if ENVIRONMENT == "production":
+    if environment == "production":
         baseurl = 's3://tradingview-sourcedata-storage'
-    elif ENVIRONMENT == "stable":
+    elif environment == "stable":
         baseurl = 's3://tradingview-sourcedata-storage-stable'
-    elif ENVIRONMENT == "staging":
+    elif environment == "staging":
         baseurl = 's3://tradingview-sourcedata-storage-staging'
     else:
-        print(f"Unexpected param {ENVIRONMENT}")
-        return  # Exit if environment is not valid
+        raise EnvironmentError(f"Unknown ENVIRONMENT value: {environment}")
 
     s3 = boto3.client(
         's3',
@@ -52,13 +51,13 @@ def run_s3_process_snapshot(environment, files, snapshot_name):
         try:
             s3.upload_file(archive_name, bucket_name, object_key)
             print(f"Successfully uploaded {archive_name} to s3://{bucket_name}/{object_key}.")
-        except NoCredentialsError:
-            print("Credentials not available.")
+        except NoCredentialsError as e:
+            raise RuntimeError("Credentials not available", e) from e
         except Exception as e:
-            print(f"An error occurred while uploading to S3: {e}")
+            raise RuntimeError(f"An error occurred while uploading to S3", e) from e
 
     except Exception as e:
-        print(f"Error while creating tar.gz file: {e}")
+        raise RuntimeError(f"Error while creating tar.gz file", e) from e
 
     if os.path.exists(archive_name):
         os.remove(archive_name)
