@@ -19,6 +19,17 @@ import requests
 # Путь к существующему файлу мэппинга символов с cik для обновления (в случае если символ поменялся для cik) и добавления новых символов
 EXISTING_SYMBOL_MAPPING_PATH = "cik_codes.json"
 
+EQUIVALENT_PREFIXES = {"NASDAQ", "NYSE", "AMEX", "CBOE"}
+
+def normalize_symbol(symbol_fullname: str) -> str:
+    """Normalize a symbol by removing equivalent prefix."""
+    try:
+        prefix, ticker = symbol_fullname.split(":", 1)
+    except ValueError:
+        return symbol_fullname  # fallback, malformed symbol
+    if prefix.upper() in EQUIVALENT_PREFIXES:
+        return ticker.upper()
+    return symbol_fullname.upper()
 
 @dataclass
 class TVSymbol:
@@ -71,7 +82,8 @@ class SECSymbol:
 
     @property
     def sec_symbol(self) -> str:
-        return f"{self.exchange}:{self.ticker}".upper()
+        raw = f"{self.exchange}:{self.ticker}".upper()
+        return normalize_symbol(raw)
 
 
 @dataclass
@@ -250,7 +262,9 @@ def read_tv_symbols(filepath) -> Dict[str, TVSymbol]:
     with open(filepath, mode="r") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            tv_symbols[row["symbol-fullname"]] = TVSymbol.from_dict(row)
+            tv_symbol = TVSymbol.from_dict(row)
+            key = normalize_symbol(tv_symbol.symbol_fullname)
+            tv_symbols[key] = tv_symbol
     return tv_symbols
 
 
