@@ -2223,6 +2223,7 @@
   {
     "companyName": "ANDEAN SILVER LTD",
     "country": "Australia",
+    "industry": "Metal Mining",
     "isCaveatEmptor": false,
     "symbol": "ADSLF",
     "tierCode": "PC",
@@ -8406,8 +8407,8 @@
     "industry": "Management consulting services",
     "isCaveatEmptor": false,
     "symbol": "APTY",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "APPULSE CORP.",
@@ -9649,6 +9650,15 @@
     "symbol": "ARYMF",
     "tierCode": "PC",
     "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Aryt Industries, Ltd.",
+    "country": "Israel",
+    "industry": "Optical instruments and lenses",
+    "isCaveatEmptor": false,
+    "symbol": "ARYTF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
   },
   {
     "companyName": "Assicurazioni Generali Spa",
@@ -18000,6 +18010,13 @@
     "symbol": "BMUSY",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "BLUEBIRD MINING VENTURES LTD.",
+    "isCaveatEmptor": false,
+    "symbol": "BMVLF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Bathurst Metals Corp.",
@@ -28452,7 +28469,8 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "ISHARES III PLC",
+    "companyName": "Ishares III Plc",
+    "country": "United Kingdom",
     "isCaveatEmptor": false,
     "symbol": "CMJIF",
     "tierCode": "PC",
@@ -46523,6 +46541,13 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "FAIRCHILD GOLD CORP.",
+    "isCaveatEmptor": false,
+    "symbol": "FCHDF",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
     "companyName": "GEORG FISCHER AG",
     "country": "Switzerland",
     "isCaveatEmptor": false,
@@ -48356,8 +48381,8 @@
     "industry": "Gold and Silver Ores",
     "isCaveatEmptor": false,
     "symbol": "FLOD",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Flower One Holdings Inc.",
@@ -61267,6 +61292,13 @@
     "tierName": "Pink Limited"
   },
   {
+    "companyName": "Hikari Business Form Co., Ltd.",
+    "isCaveatEmptor": false,
+    "symbol": "HKRBF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "HONG KONG RESOURCES HOLDINGS CO LTD",
     "country": "China",
     "isCaveatEmptor": false,
@@ -62659,6 +62691,24 @@
     "symbol": "HOFJF",
     "tierCode": "PL",
     "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "Hall of Fame Resort & Entertainment Company",
+    "country": "United States",
+    "industry": "Services-Miscellaneous Amusement & Recreation",
+    "isCaveatEmptor": false,
+    "symbol": "HOFV",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Hall of Fame Resort & Entertainment Company",
+    "country": "United States",
+    "industry": "Services-Miscellaneous Amusement & Recreation",
+    "isCaveatEmptor": false,
+    "symbol": "HOFVW",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "HIGH ARCTIC OVERSEAS HLDGS CORP.",
@@ -65512,6 +65562,14 @@
     "industry": "State commercial banks",
     "isCaveatEmptor": false,
     "symbol": "IDFB",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "Invesco Markets II plc",
+    "country": "Ireland",
+    "isCaveatEmptor": false,
+    "symbol": "IDFSF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -68840,6 +68898,13 @@
   {
     "companyName": "IRC Ltd",
     "isCaveatEmptor": false,
+    "symbol": "IRCWD",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "IRC Ltd",
+    "isCaveatEmptor": false,
     "symbol": "IRCWF",
     "tierCode": "PC",
     "tierName": "Pink Current"
@@ -69828,7 +69893,8 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "IShares IV PLC",
+    "companyName": "ISHARES IV PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISVBF",
     "tierCode": "PC",
@@ -69874,7 +69940,8 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "IShares IV PLC",
+    "companyName": "ISHARES IV PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "ISVTF",
     "tierCode": "PC",
@@ -70920,7 +70987,8 @@
     "tierName": "Pink Limited"
   },
   {
-    "companyName": "IShares IV PLC",
+    "companyName": "ISHARES IV PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "IWVUF",
     "tierCode": "PC",
@@ -70931,8 +70999,8 @@
     "industry": "Communication services, misc",
     "isCaveatEmptor": false,
     "symbol": "IXAQF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Indigo Exploration, Inc.",
@@ -70971,8 +71039,8 @@
     "industry": "Communication services, misc",
     "isCaveatEmptor": false,
     "symbol": "IXQWF",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Ionic Rare Earth Ltd.",
@@ -77133,6 +77201,22 @@
     "tierName": "Pink Current"
   },
   {
+    "companyName": "KIOXIA HLDGS CORP",
+    "country": "Japan",
+    "isCaveatEmptor": false,
+    "symbol": "KXHCF",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
+    "companyName": "KIOXIA HLDGS CORP",
+    "country": "Japan",
+    "isCaveatEmptor": false,
+    "symbol": "KXIAY",
+    "tierCode": "PL",
+    "tierName": "Pink Limited"
+  },
+  {
     "companyName": "Kaixin Holdings",
     "country": "China",
     "industry": "Retail-Auto Dealers & Gasoline Stations",
@@ -78837,6 +78921,13 @@
     "industry": "Management consulting services",
     "isCaveatEmptor": false,
     "symbol": "LHIL",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "LITU HLDGS LTD.",
+    "isCaveatEmptor": false,
+    "symbol": "LHLDF",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -81726,8 +81817,8 @@
     "country": "United States",
     "isCaveatEmptor": false,
     "symbol": "LWCL",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Longwen Group Corp.",
@@ -105021,8 +105112,8 @@
     "industry": "Eating places",
     "isCaveatEmptor": false,
     "symbol": "PLPL",
-    "tierCode": "PL",
-    "tierName": "Pink Limited"
+    "tierCode": "PC",
+    "tierName": "Pink Current"
   },
   {
     "companyName": "Plains Acquisition Corp.",
@@ -109542,6 +109633,15 @@
     "industry": "Construction - Special Trade Contractors",
     "isCaveatEmptor": false,
     "symbol": "PXPC",
+    "tierCode": "PC",
+    "tierName": "Pink Current"
+  },
+  {
+    "companyName": "PHOENIX PLUS CORP.",
+    "country": "Malaysia",
+    "industry": "Construction - Special Trade Contractors",
+    "isCaveatEmptor": false,
+    "symbol": "PXPCD",
     "tierCode": "PC",
     "tierName": "Pink Current"
   },
@@ -119956,7 +120056,8 @@
     "tierName": "Pink Current"
   },
   {
-    "companyName": "IShares IV PLC",
+    "companyName": "ISHARES IV PLC",
+    "country": "Ireland",
     "isCaveatEmptor": false,
     "symbol": "SDUSF",
     "tierCode": "PC",
@@ -123117,6 +123218,7 @@
   },
   {
     "companyName": "Stabilus SE",
+    "country": "Germany",
     "isCaveatEmptor": false,
     "symbol": "SIUAF",
     "tierCode": "PL",
@@ -130141,7 +130243,7 @@
   {
     "companyName": "SatixFy Communications Ltd.",
     "country": "United States",
-    "industry": "Radio and TV communications equipment",
+    "industry": "Blank Checks",
     "isCaveatEmptor": false,
     "symbol": "STXYF",
     "tierCode": "PC",
@@ -131563,6 +131665,7 @@
   {
     "companyName": "Sayona Mining Ltd.",
     "country": "Australia",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
     "isCaveatEmptor": false,
     "symbol": "SYAXF",
     "tierCode": "QB",
@@ -136530,6 +136633,7 @@
   },
   {
     "companyName": "TONIES SE",
+    "country": "Luxembourg",
     "isCaveatEmptor": false,
     "symbol": "TNIEF",
     "tierCode": "PL",
