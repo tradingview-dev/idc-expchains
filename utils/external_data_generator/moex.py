@@ -111,7 +111,7 @@ def request_boards_securities(logger: ConsoleOutput, headers: dict[str, str]):
                 "lang": "en"
             },
             "bonds": {
-                "names": ["TQCB", "TQOB", "TQIR"]
+                "names": ["TQCB", "TQOB", "TQIR", "TQOY", "TQRD", "TQOD"]
             }
         },
         "otc": {
