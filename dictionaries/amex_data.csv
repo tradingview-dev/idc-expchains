@@ -30,6 +30,7 @@ ADME;Aptus Behavioral Momentum ETF;BATS
 ADPV;Adaptiv Select ETF;ARCX
 ADVE;Matthews Asia Dividend Active ETF;ARCX
 AEF;abrdn Emerging Markets ex-China Fund Inc.;XASE
+AEMS;Anfield Enhanced Market ETF;BATS
 AEON;AEON Biopharma Inc.;XASE
 AESR;Anfield U.S. Equity Sector Rotation ETF;BATS
 AETH;Bitwise Trendwise Ether and Treasuries Rotation Strategy ETF;ARCX
@@ -57,6 +58,7 @@ AIBU;Direxion Daily AI and Big Data Bull 2X Shares;ARCX
 AIEQ;Amplify AI Powered Equity ETF;ARCX
 AIM;AIM ImmunoTech Inc.;XASE
 AINP;Allspring Income Plus ETF;ARCX
+AIOO;AllianzIM U.S. Equity Buffer100 Protection ETF;BATS
 AIRI;Air Industries Group;XASE
 AIS;VistaShares Artificial Intelligence Supercycle ETF;ARCX
 AIVC;Amplify Bloomberg AI Value Chain ETF;ARCX
@@ -264,6 +266,7 @@ BETZ;Roundhill Sports Betting & iGaming ETF;ARCX
 BFAP;FT Vest Bitcoin Strategy Floor15 ETF - April;ARCX
 BFEB;Innovator U.S. Equity Buffer ETF - February;BATS
 BFIX;Build Bond Innovation ETF;ARCX
+BFJL;FT Vest Bitcoin Strategy Floor15 ETF - July;ARCX
 BFOR;Barron's 400 ETF;ARCX
 BFRE;Westwood LBRTY Global Equity ETF;ARCX
 BFRZ;Innovator Equity Managed 100 Buffer ETF;ARCX
@@ -629,8 +632,10 @@ DCOR;Dimensional US Core Equity 1 ETF;ARCX
 DCRE;DoubleLine Commercial Real Estate ETF;ARCX
 DDC;DDC Enterprise Limited;XASE
 DDEC;FT Vest U.S. Equity Deep Buffer ETF - December;BATS
+DDFL;Innovator Equity Dual Directional 15 Buffer ETF - July;BATS
 DDLS;WisdomTree Dynamic International SmallCap Equity Fund;BATS
 DDM;ProShares Ultra Dow30;ARCX
+DDTL;Innovator Equity Dual Directional 10 Buffer ETF - July;BATS
 DDWM;WisdomTree Dynamic International Equity Fund;BATS
 DECM;FT Vest U.S. Equity Max Buffer ETF - December;BATS
 DECP;PGIM S&P 500 Buffer 12 ETF - December;BATS
@@ -1352,7 +1357,7 @@ GMOI;GMO International Value ETF;ARCX
 GMOM;Cambria Global Momentum ETF;BATS
 GMOV;GMO US Value ETF;ARCX
 GMUB;Goldman Sachs Municipal Income ETF;ARCX
-GMUN;Goldman Sachs Community Municipal Bond ETF;ARCX
+GMUN;Goldman Sachs Access Municipal Bond ETF;ARCX
 GNOV;FT Vest U.S. Equity Moderate Buffer ETF - November;BATS
 GNR;SPDR S&P Global Natural Resources ETF;ARCX
 GNS;Genius Group Limited;XASE
@@ -1448,6 +1453,7 @@ HDMV;First Trust Horizon Managed Volatility Developed International ETF;ARCX
 HDUS;Hartford Disciplined US Equity ETF;ARCX
 HDV;iShares Core High Dividend ETF;ARCX
 HEAT;Touchstone Climate Transition ETF;BATS
+HECA;Hedgeye Capital Allocation ETF;ARCX
 HEDJ;WisdomTree Europe Hedged Equity Fund;ARCX
 HEEM;iShares Currency Hedged MSCI Emerging Markets;BATS
 HEFA;iShares Currency Hedged MSCI EAFE ETF;BATS
@@ -2536,6 +2542,7 @@ PMAY;Innovator U.S. Equity Power Buffer ETF - May;BATS
 PMFB;PGIM S&P 500 Max Buffer ETF - February;BATS
 PMIO;PGIM Municipal Income Opportunities ETF;ARCX
 PMJA;PGIM S&P 500 Max Buffer ETF - January;BATS
+PMJL;PGIM S&P 500 Max Buffer ETF - July;BATS
 PMJN;PGIM S&P 500 Max Buffer ETF - June;BATS
 PMMF;iShares Prime Money Market ETF;ARCX
 PMMR;PGIM S&P 500 Max Buffer ETF - March;BATS
@@ -2628,6 +2635,7 @@ QAI;NYLI Hedge Multi-Strategy Tracker ETF;ARCX
 QARP;Xtrackers Russell 1000 US Quality at a Reasonable Price ETF;ARCX
 QBER;TrueShares Quarterly Bear Hedge ETF;BATS
 QBF;Innovator Uncapped Bitcoin 20 Floor ETF - Quarterly;BATS
+QBSF;AllianzIM U.S. Equity Buffer15 ETF;BATS
 QBTX;Tradr 2X Long QBTS Daily ETF;BATS
 QBUL;TrueShares Quarterly Bull Hedge ETF;BATS
 QCAP;FT Vest Nasdaq-100 Conservative Buffer ETF - April;BATS
@@ -2944,7 +2952,7 @@ SHUS;Stratified LargeCap Hedged ETF;ARCX
 SHYD;VanEck Short High Yield Muni ETF;BATS
 SHYG;iShares 0-5 Year High Yield Corporate Bond ETF;ARCX
 SHYL;Xtrackers Short Duration High Yield Bond ETF;ARCX
-SHYM;iShares High Yield Muni Income Active ETF;BATS
+SHYM;iShares Short Duration High Yield Muni Active ETF;BATS
 SIF;SIFCO Industries Inc.;XASE
 SIFI;Harbor Scientific Alpha Income ETF;ARCX
 SIHY;Harbor Scientific Alpha High-Yield ETF;ARCX
@@ -3205,7 +3213,7 @@ TIP;iShares TIPS Bond ETF;ARCX
 TIPX;SPDR Bloomberg 1-10 Year TIPS ETF;ARCX
 TIPZ;PIMCO Broad U.S. TIPS Index Exchange-Traded Fund;ARCX
 TJAN;Innovator Equity Defined Protection ETF - 2 Yr to January 2027;BATS
-TJUL;Innovator Equity Defined Protection ETF - 2 Yr to July 2025;BATS
+TJUL;Innovator Equity Defined Protection ETF - 2 Yr to July 2027;BATS
 TJUN;FT Vest Emerging Markets Buffer ETF - June;BATS
 TLCI;Touchstone International Equity ETF;ARCX
 TLH;iShares 10-20 Year Treasury Bond ETF;ARCX
