@@ -3,7 +3,7 @@ import json
 from json import JSONDecodeError
 from typing import Mapping
 
-from requests import Session, Request, Response, RequestException
+from requests import Session, Request, Response, RequestException, ReadTimeout
 
 from lib.ConsoleOutput import ConsoleOutput
 from lib.Retryer import Retryer
@@ -68,6 +68,9 @@ class LoggableRequester:
                 raise RequestException(request=request, response=response)
             self._logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
             return response
+        except ReadTimeout as e:
+            self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
+            self._logger.error(e)
         except RequestException as e:
             self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
             msg = f"{e.response.status_code} - {e.response.reason}"
