@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 from DataGenerator import DataGenerator
 from lib.LoggableRequester import LoggableRequester
+from utils import get_headers
 
 
 class AquisDataGenerator(DataGenerator):
@@ -20,7 +21,7 @@ class AquisDataGenerator(DataGenerator):
         :return slice with symbols
         """
         symbols_info = []
-        companies = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, f"{self.__BASE_URI}/companies").content
+        companies = LoggableRequester(self._logger, timeout=15).request(LoggableRequester.Methods.GET, f"{self.__BASE_URI}/companies", get_headers()).content
         soup = BeautifulSoup(companies, "html.parser")
         symbols = soup.find_all("a", class_="chakra-link css-pz0aee")
         for symbol in symbols:
@@ -32,7 +33,7 @@ class AquisDataGenerator(DataGenerator):
         :param symbol: symbol string
         :return: array with symbols params
         """
-        symbol_page = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, f"{self.__BASE_URI}/companies/{symbol}").content
+        symbol_page = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, f"{self.__BASE_URI}/companies/{symbol}", get_headers()).content
         soup = BeautifulSoup(symbol_page, "html.parser")
         isin = soup.find("p", class_="chakra-text css-4vttjp").text
         description = soup.find("h1", class_="chakra-heading css-135d5ex").text
@@ -40,7 +41,7 @@ class AquisDataGenerator(DataGenerator):
         return [description, symbol, isin, currency]
 
     def _get_secondary_listing_url_file(self) -> str | None:
-        html = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, "https://www.aquis.eu/stock-exchange/statistics").content
+        html = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, "https://www.aquis.eu/stock-exchange/statistics", get_headers()).content
 
         soup = BeautifulSoup(html, "html.parser")
         files = soup.find_all("a", class_="chakra-link css-fhzrj1")
