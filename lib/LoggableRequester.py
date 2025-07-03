@@ -71,6 +71,7 @@ class LoggableRequester:
         except ReadTimeout as e:
             self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
             self._logger.error(e)
+            raise e
         except RequestException as e:
             self._logger.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
             msg = f"{e.response.status_code} - {e.response.reason}"
