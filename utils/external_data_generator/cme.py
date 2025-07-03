@@ -63,7 +63,7 @@ class CmeProductsParser(ABC):
             f"cleared={self._get_product}",
             f"isProtected"
         ]
-        resp = LoggableRequester(self._logger).request(LoggableRequester.Methods.GET, f"{self._BASE_URL}?{'&'.join(req_params)}", headers=self._HEADERS)
+        resp = LoggableRequester(self._logger, timeout=10).request(LoggableRequester.Methods.GET, f"{self._BASE_URL}?{'&'.join(req_params)}", headers=self._HEADERS)
         first_page = resp.json()
         return first_page['props']['pageTotal']
 
@@ -82,7 +82,7 @@ class CmeOptionsParser(CmeProductsParser):
         with open(self.get_filename, "w", encoding="utf-8") as file:
             file.write("prodCode;name\n")
             total_pages = self.get_total_pages()
-            requester = LoggableRequester(self._logger)
+            requester = LoggableRequester(self._logger, timeout=10)
             for i in range(1, total_pages + 1):
                 req_params = [
                     f"sortAsc=false",
@@ -134,7 +134,7 @@ class CmeFuturesParser(CmeProductsParser):
         with open(self.get_filename, "w", encoding="utf-8") as file:
             file.write("prodCode;name;Group;Sub Group\n")
             total_pages = self.get_total_pages()
-            requester = LoggableRequester(self._logger)
+            requester = LoggableRequester(self._logger, timeout=10)
             for i in range(1, total_pages + 1):
                 req_params = [
                     f"sortAsc=false",

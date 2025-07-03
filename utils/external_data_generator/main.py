@@ -43,7 +43,7 @@ def main(args, logger):
         "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
         "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "bucket": "cse"}]},
-        "finra": {"handlers": [{"generator": [FinraDataGenerator().generate]}]},
+        "finra": {"handlers": [{"generator": FinraDataGenerator().generate}]},
         "LSX": {"handlers": [{"generator": Lang().generate, "bucket": "lsx"}]},
         "LS": {"handlers": [{"generator": Schwarz().generate, "bucket": "ls"}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "bucket": "gids"}]},
@@ -71,8 +71,8 @@ def main(args, logger):
     for handler in data_cluster['handlers']:
         try:
             files = handler['generator']()
-        except Exception:
-            logger.error(f"Failed to generate files for '{args.data_cluster}' data cluster")
+        except Exception as e:
+            logger.error(f"Failed to generate files for '{args.data_cluster}' data cluster CAUSED BY: {e}")
             return Codes.ERROR
         files_to_commit.extend(files)
         try:
