@@ -50,7 +50,7 @@ empty_products = symbols[["symbol", "group", "description"]]
 
 
 if not empty_products.empty:
-    empty_products.to_csv("empty_products", index=False)
+    empty_products.save_to_result_csv("empty_products", index=False)
 
 idc_symbols = symbols[symbols["provider-id"].isin(["ice", "tvc", "six", "moex", "alor"])]
 not_idc_symbols = symbols[~symbols["provider-id"].isin(["ice", "tvc", "six", "moex", "alor"])]

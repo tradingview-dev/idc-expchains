@@ -1,12 +1,9 @@
+import difflib
 import os
 import random
 import shutil
-import difflib
-import time
 import subprocess
 
-import requests
-from deepdiff.serialization import json_dumps
 from git import Repo
 
 USER_AGENTS = [
@@ -15,15 +12,16 @@ USER_AGENTS = [
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 ",
-    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 YaBrowser/20.12.1.178 Yowser/2.5 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 YaBrowser/25.6.0.0 Safari/537.36",
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0",
 ]
 
 
 def get_headers() -> dict:
     """
-    Returns headers with a random user-agent
+    Returns HEADERS with a random user-agent
     """
     random_number = random.randint(0, len(USER_AGENTS) - 1)
     headers = {
@@ -39,56 +37,12 @@ def get_headers() -> dict:
     return headers
 
 
-def request_with_retries(url: str, post_data: dict = None, additional_headers: dict = {}, max_retries: int = 5, delay: int = 5) -> requests.Response:
-    """
-    Makes a request with retry logic.
-    :param additional_headers: additional headers
-    :param url: URL for the request
-    :param post_data: Data for a POST request (optional)
-    :param max_retries: Maximum number of retry attempts
-    :param delay: Delay between retries in seconds
-    :return: Response object from the request
-    """
-    retries = 0
-    while retries < max_retries:
-        try:
-            # If post_data is provided, make a POST request
-            if post_data:
-                response = requests.post(url, headers=(get_headers() | additional_headers), data=post_data)
-            else:
-                response = requests.get(url, headers=(get_headers() | additional_headers))
-
-            if response.status_code == 200:
-                return response
-            else:
-                retries += 1
-                print(f"{response.status_code} fail. Attempt {retries}/{max_retries}. Repeat after {delay} seconds...")
-                time.sleep(delay)
-        except requests.exceptions.RequestException as e:
-            print(f"Fail request: {e}")
-            retries += 1
-            time.sleep(delay)
-    return requests.Response()
-
-
 def file_writer(output: str, path: str):
     """
-    Writes output to path file
+    Writes output to a path file
     """
     with open(path, "w", encoding="utf-8") as f:
         f.write(output)
-
-
-def default_request_handler(url: str, path: str, post_data: dict = None):
-    response = request_with_retries(url, post_data=post_data)
-    if response != requests.Response():
-        file_writer(response.text, path)
-
-
-def json_request_handler(url: str, path: str, post_data: dict = None):
-    response = request_with_retries(url, post_data=post_data)
-    if response != requests.Response():
-        file_writer(json_dumps(response.json(), indent=4, ensure_ascii=False), path)
 
 
 def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
@@ -100,7 +54,7 @@ def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
     :param new_dir: Path to the directory where the new files are.
     :param prev_dir: Path to the directory where the existing files are.
     :param check_diff: Verify size changes.
-    :return: array of changed files names
+    :return: Array of changed files names
     """
     res = []
     for file_name in file_names:
@@ -151,27 +105,26 @@ def files_are_different(file1_path, file2_path):
                 return False
 
 
-def delivery(file_names: list[str], branch, check_diff=True):
+def git_commit(file_names: list[str], branch, check_diff=True):
     if branch == "":
-        print("Branch is not specified")
-        return
+        raise ValueError("Branch is not specified")
 
-    EXPCHAINS_REPO = "git@git.xtools.tv:idc/idc-expchains.git"
-    EXPCHAINS_DIR = "./idc-expchains"
-    DICTIONARY_DIR = os.path.join(EXPCHAINS_DIR, 'dictionaries')
-    NEW_FILES_DIR = "/var/tmp"
-    NEW_FILES_DIR = os.path.join(NEW_FILES_DIR, "external_data_generator")
+    expchains_repo = "git@git.xtools.tv:idc/idc-expchains.git"
+    expchains_dir = "./idc-expchains"
+    dictionary_dir = os.path.join(expchains_dir, 'dictionaries')
+    new_files_dir = os.path.join("/var/tmp", "external_data_generator")
 
-    if not os.path.exists(EXPCHAINS_DIR):
+    if not os.path.exists(expchains_dir):
+        print("Cloning a git repo... ")
         try:
-            repo = Repo.clone_from(EXPCHAINS_REPO, EXPCHAINS_DIR, branch=branch, depth=1, single_branch=True)
+            repo = Repo.clone_from(expchains_repo, expchains_dir, branch=branch, depth=1, single_branch=True)
         except Exception as e:
             print("Fail to clone git repo")
             raise e
         print("Successful clone")
     else:
-        repo = Repo(EXPCHAINS_DIR)
-        print(f"Updating branch {branch} from repo {EXPCHAINS_REPO}... ", False)
+        repo = Repo(expchains_dir)
+        print(f"Updating branch {branch} from repo {expchains_repo}... ")
         try:
             origin = repo.remotes.origin
             origin.fetch()
@@ -180,12 +133,12 @@ def delivery(file_names: list[str], branch, check_diff=True):
         except Exception as e:
             print("Fail to update repo")
             raise e
-        print("Successful update repo")
+        print("Successful updated repo")
 
     index = repo.index
-    changed_files = compare_and_overwrite_files(file_names, NEW_FILES_DIR, DICTIONARY_DIR, check_diff)
-    ENVIRONMENT = os.environ['ENVIRONMENT']
-    if changed_files and ENVIRONMENT != "stable":
+    changed_files = compare_and_overwrite_files(file_names, new_files_dir, dictionary_dir, check_diff)
+    environment = os.environ['ENVIRONMENT']
+    if changed_files and environment != "stable":
         index.add(['/'.join(p.split('/')[2:]) for p in changed_files])
         print(f"Updating expchains in {branch}... ")
         index.commit(f"Autocommit {', '.join([os.path.basename(p) for p in changed_files])} data")
