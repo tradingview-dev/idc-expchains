@@ -125,7 +125,10 @@ class LangAndSchwarzDataGenerator(DataGenerator):
         try:
             max_offset = soup.find('li', class_="last").text
         except AttributeError:
-            max_offset = soup.find_all('li', class_="")[-1].text
+            try:
+                max_offset = soup.find_all('li', class_="")[-1].text
+            except IndexError:
+                return "1"
         return max_offset
 
     def handle_exchange(self, exchange: str) -> list[str]:
