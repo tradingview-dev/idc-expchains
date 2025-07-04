@@ -13,7 +13,6 @@ from canada import CanadaDataGenerator
 from cboe import CBOEDataGenerator
 from cftc_code import CFTCDataGenerator
 from cme import CMEDataGenerator
-from finra import FinraDataGenerator
 from korea import KoreaDataGenerator
 from lang_and_shwarz import Lang, Schwarz
 from lib.ConsoleOutput import ConsoleOutput
@@ -43,7 +42,6 @@ def main(args, logger):
         "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
         "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "bucket": "cse"}]},
-        "finra": {"handlers": [{"generator": FinraDataGenerator().generate}]},
         "LSX": {"handlers": [{"generator": Lang().generate, "bucket": "lsx"}]},
         "LS": {"handlers": [{"generator": Schwarz().generate, "bucket": "ls"}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "bucket": "gids"}]},
