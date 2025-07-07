@@ -102,7 +102,7 @@ class BivaDataGenerator(DataGenerator):
         urls = []
         symbols = []
 
-        requester = LoggableRequester(self._logger, timeout=10)
+        requester = LoggableRequester(self._logger, timeout=15, delay=5)
 
         sic = requester.request(LoggableRequester.Methods.GET, self.__SIC_URL).json()["content"]
         self._logger.info("Parse SIC data... ", False)
