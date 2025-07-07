@@ -139,7 +139,7 @@ class LangAndSchwarzDataGenerator(DataGenerator):
             "LSX": "x"
         }
 
-        symbols_info = [{}]
+        symbols_info: list[dict] = []
         for k, v in self.__TYPES[exchange_paths[exchange]].items():
             try:
                 endpoint, configid = v.split(",")
@@ -157,7 +157,7 @@ class LangAndSchwarzDataGenerator(DataGenerator):
                 for wkn in symbols:
                     self._logger.info(f"{wkn}: ", False)
                     try:
-                        symbols_info.extend(self.__request_symbol_info(wkn, exchange_paths[exchange]))
+                        symbols_info.append(self.__request_symbol_info(wkn, exchange_paths[exchange]))
                     except Exception as e:
                         self._logger.error(e)
                         raise e
@@ -190,5 +190,5 @@ if __name__ == "__main__":
         Lang().generate()
         Schwarz().generate()
         exit(0)
-    except OSError:
+    except (OSError, KeyError, TypeError):
         exit(1)

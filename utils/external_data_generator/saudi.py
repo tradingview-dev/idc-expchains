@@ -1,3 +1,5 @@
+import time
+
 from deepdiff.serialization import json_dumps
 
 from DataGenerator import DataGenerator
@@ -18,10 +20,12 @@ class SAUDIDataGenerator(DataGenerator):
         saudi_main_market = "saudi_main_market.json"
         saudi_nomu_parallel_market = "saudi_nomu_parallel_market.json"
 
-        requester = LoggableRequester(self._logger, retries=5, delay=5)
+        requester = LoggableRequester(self._logger, retries=5, delay=10)
         try:
             resp = requester.request(LoggableRequester.Methods.POST, url, get_headers(), {**post_data, 'marketType': 'M'})
             file_writer(json_dumps(resp.json(), indent=4, ensure_ascii=False), saudi_main_market)
+
+            time.sleep(20) # try to avoid a bot protection
 
             resp = requester.request(LoggableRequester.Methods.POST, url, get_headers(), {**post_data, 'marketType': 'S'})
             file_writer(json_dumps(resp.json(), indent=4, ensure_ascii=False), saudi_nomu_parallel_market)
