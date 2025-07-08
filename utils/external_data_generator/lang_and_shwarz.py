@@ -143,13 +143,18 @@ class LangAndSchwarzDataGenerator(DataGenerator):
         for k, v in self.__TYPES[exchange_paths[exchange]].items():
             try:
                 endpoint, configid = v.split(",")
-                max_offset = self.get_max_offset(self.__request_page(endpoint, configid, exchange_paths[exchange]))
-            except Exception as e:
+                content = self.__request_page(endpoint, configid, exchange_paths[exchange])
+                if len(content) == 0:
+                    raise ValueError("No data: page is empty")
+                max_offset = self.get_max_offset(content)
+            except (OSError, ValueError, KeyError) as e:
                 self._logger.error(e)
                 raise e
             for offset in range(0, int(max_offset) * 100, 100):
                 try:
                     content = self.__request_page(endpoint, configid, exchange_paths[exchange], offset)
+                    if len(content) == 0:
+                        raise ValueError("No data: page is empty")
                 except OSError as e:
                     self._logger.error(e)
                     raise e
