@@ -35,48 +35,16 @@ class LangAndSchwarzDataGenerator(DataGenerator):
         self.__postponed_request_queue: deque = deque()
 
     @staticmethod
-    def __save_to_csv(symbols: list[dict], exchange: str) -> None:
+    def __save_to_csv(symbols: list, exchange: str) -> None:
         """
-        :param symbols: symbol info
+        :param symbols: symbol list
         :param exchange: site identifier
         :return:
         """
-        sorted_symbols = sorted(symbols, key=lambda v: None if v is None else v["tv-symbol"])
+        sorted_symbols = sorted(symbols)
         with open(f"{exchange}.csv", "w", encoding="utf-8") as file:
-            file.write("tv-symbol;isin;description\n")
-            for stock in sorted_symbols:
-                if stock is None:
-                    continue
-                file.write(f'{stock["tv-symbol"]};{stock["isin"]};{stock["description"]}\n')
-
-    @staticmethod
-    def __remove_extra_spaces(string: str) -> str:
-        """
-        :param string: string to remove extra spaces
-        :return: result string without extra spaces
-        """
-        return ' '.join(string.split())
-
-    def __parse_symbol(self, src_symbol_info) -> dict:
-        """
-        :param src_symbol_info: response to request data
-        :return: dict with tv-symbol
-        """
-        symbol = src_symbol_info.json()[0]
-        symbol_info = {'tv-symbol': str(symbol['wkn']), 'isin': symbol['isin'],
-                       'description': self.__remove_extra_spaces(symbol['displayname'])}
-        return symbol_info
-
-    def __request_symbol_info(self, wkn: str, exchange: str) -> dict:
-        """
-        :param wkn: exchange symbol identifier
-        :param exchange: exchange identifier
-        :return: symbol info
-        :raise RequestException:
-        """
-        url = f'https://www.ls-{exchange}.de/_rpc/json/.lstc/instrument/search/main?q={wkn}&localeId={2 if exchange == "x" else 1}'
-        resp = LoggableRequester(self._logger, retries=self.__MAX_RETRIES, delay=self.__DELAY).request(LoggableRequester.Methods.GET, url, get_headers())
-        return self.__parse_symbol(resp)
+            file.write("tv-symbol\n")
+            file.write("\n".join(sorted_symbols))
 
     @staticmethod
     def __get_symbols(content: bytes, exchange: str) -> list:
@@ -139,7 +107,7 @@ class LangAndSchwarzDataGenerator(DataGenerator):
             "LSX": "x"
         }
 
-        symbols_info: list[dict] = []
+        symbols = []
         for k, v in self.__TYPES[exchange_paths[exchange]].items():
             try:
                 endpoint, configid = v.split(",")
@@ -158,17 +126,11 @@ class LangAndSchwarzDataGenerator(DataGenerator):
                 except OSError as e:
                     self._logger.error(e)
                     raise e
-                symbols = self.__get_symbols(content, exchange_paths[exchange])
-                for wkn in symbols:
-                    self._logger.info(f"{wkn}: ", False)
-                    try:
-                        symbols_info.append(self.__request_symbol_info(wkn, exchange_paths[exchange]))
-                    except Exception as e:
-                        self._logger.error(e)
-                        raise e
-
+                if len(content) == 0:
+                    continue
+                symbols.extend(self.__get_symbols(content, exchange_paths[exchange]))
         try:
-            self.__save_to_csv(symbols_info, exchange)
+            self.__save_to_csv(symbols, exchange)
         except OSError as e:
             self._logger.error(e)
             raise e
