@@ -6,7 +6,6 @@ import enum
 import os
 
 from adx import ADXDataGenerator
-from aquis import AquisDataGenerator
 from asx import ASXDataGenerator
 from biva import BivaDataGenerator
 from canada import CanadaDataGenerator
@@ -55,7 +54,6 @@ def main(args, logger):
         "rus": {"handlers": [{"generator": MOEXDataGenerator().generate, "bucket": "moex"}]},
         "korea": {"handlers": [{"generator": KoreaDataGenerator().generate}]},
         "cftc": {"handlers": [{"generator": CFTCDataGenerator().generate}]},
-        "aquis": {"handlers": [{"generator": AquisDataGenerator().generate}]},
         "mstar": {"handlers": [{"generator": MstarDataGenerator().generate}]},
         "cme": {"handlers": [{"generator": CMEDataGenerator().generate}]},
         "cboe": {"handlers": [{"generator": CBOEDataGenerator().generate}]}
