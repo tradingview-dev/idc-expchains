@@ -964,7 +964,7 @@ CLOU|Global X Cloud Computing ETF|G|N|N|100|Y|N
 CLOV|Clover Health Investments, Corp.  - Class A Common stock|Q|N|N|100|N|N
 CLPS|CLPS Incorporation - Common Stock|G|N|N|100|N|N
 CLPT|ClearPoint Neuro Inc. - Common Stock|S|N|N|100|N|N
-CLRB|Cellectar Biosciences, Inc. - Common Stock|S|N|D|100|N|N
+CLRB|Cellectar Biosciences, Inc. - Common Stock|S|N|N|100|N|N
 CLRO|ClearOne, Inc. - Common Stock|S|N|N|100|N|N
 CLSD|Clearside Biomedical, Inc. - Common Stock|G|N|D|100|N|N
 CLSK|CleanSpark, Inc. - Common Stock|S|N|N|100|N|N
@@ -1228,9 +1228,6 @@ DHCNL|Diversified Healthcare Trust  - 6.25% Senior Notes Due 2046|Q|N|N|100|N|N
 DHIL|Diamond Hill Investment Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
 DIBS|1stdibs.com, Inc. - Common Stock|G|N|N|100|N|N
 DIOD|Diodes Incorporated - Common Stock|Q|N|N|100|N|N
-DIST|Distoken Acquisition Corporation - Ordinary Shares|G|N|D|100|N|N
-DISTR|Distoken Acquisition Corporation - Right|G|N|D|100|N|N
-DISTW|Distoken Acquisition Corporation - Warrant|G|N|D|100|N|N
 DIVD|Altrius Global Dividend ETF|G|N|N|100|Y|N
 DJCO|Daily Journal Corp. (S.C.) - Common Stock|S|N|N|100|N|N
 DJT|Trump Media & Technology Group Corp. - Common Stock|G|N|N|100|N|N
@@ -1242,6 +1239,7 @@ DLO|DLocal Limited - Class A Common Shares|Q|N|N|100|N|N
 DLPN|Dolphin Entertainment, Inc. - Common Stock|S|N|N|100|N|N
 DLTH|Duluth Holdings Inc. - Class B Common Stock|Q|N|N|100|N|N
 DLTR|Dollar Tree, Inc. - Common Stock|Q|N|N|100|N|N
+DLXY|Delixy Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 DMAA|Drugs Made In America Acquisition Corp. - Ordinary Shares|G|N|N|100|N|N
 DMAAR|Drugs Made In America Acquisition Corp. - Rights|G|N|N|100|N|N
 DMAAU|Drugs Made In America Acquisition Corp. - Units|G|N|N|100|N|N
@@ -1542,7 +1540,7 @@ FBIOP|Fortress Biotech, Inc. - 9.375% Series A Cumulative Redeemable Perpetual P
 FBIZ|First Business Financial Services, Inc. - Common Stock|Q|N|N|100|N|N
 FBL|GraniteShares 2x Long META Daily ETF|G|N|N|100|Y|N
 FBLA|FB Bancorp, Inc. - Common Stock|S|N|N|100|N|N
-FBLG|FibroBiologics, Inc. - Common Stock|S|N|N|100|N|N
+FBLG|FibroBiologics, Inc. - Common Stock|S|N|D|100|N|N
 FBNC|First Bancorp - Common Stock|Q|N|N|100|N|N
 FBOT|Fidelity Disruptive Automation ETF|G|N|N|100|Y|N
 FBRX|Forte Biosciences, Inc.  - Common Stock|S|N|N|100|N|N
@@ -1619,6 +1617,7 @@ FHTX|Foghorn Therapeutics Inc. - Common Stock|G|N|N|100|N|N
 FIBK|First Interstate BancSystem, Inc. - Common Stock|Q|N|N|100|N|N
 FICS|First Trust International Developed Capital Strength ETF|G|N|N|100|Y|N
 FID|First Trust S&P International Dividend Aristocrats ETF|G|N|N|100|Y|N
+FIEE|FiEE, Inc - Common Stock|S|N|N|100|N|N
 FIGXU|FIGX Capital Acquisition Corp. - Units|G|N|N|100|N|N
 FINE|Themes European Luxury ETF|G|N|N|100|Y|N
 FINW|FinWise Bancorp - Common Stock|G|N|N|100|N|N
@@ -1953,6 +1952,7 @@ GTEC|Greenland Technologies Holding Corporation - Ordinary Shares|S|N|N|100|N|N
 GTEN|Gores Holdings X, Inc. - Class A ordinary shares|G|N|N|100|N|N
 GTENU|Gores Holdings X, Inc. - Units|G|N|N|100|N|N
 GTENW|Gores Holdings X, Inc. - Warrants|G|N|N|100|N|N
+GTERU|Globa Terra Acquisition Corporation - Units|G|N|N|100|N|N
 GTI|Graphjet Technology - Class A Ordinary Shares|G|N|H|100|N|N
 GTIM|Good Times Restaurants Inc. - Common Stock|S|N|N|100|N|N
 GTLB|GitLab Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -2356,7 +2356,7 @@ IVF|INVO Fertility, Inc. - Common Stock|S|N|N|100|N|N
 IVP|Inspire Veterinary Partners, Inc. - Class A Common Stock|S|N|D|100|N|N
 IVVD|Invivyd, Inc. - Common Stock|G|N|D|100|N|N
 IWTR|iShares MSCI Water Management Multisector ETF|G|N|N|100|Y|N
-IXHL|Incannex Healthcare Inc. - Common Stock|G|N|D|100|N|N
+IXHL|Incannex Healthcare Inc. - Common Stock|S|N|D|100|N|N
 IXUS|iShares Core MSCI Total International Stock ETF|G|N|N|100|Y|N
 IZEA|IZEA Worldwide, Inc. - Common Stock|S|N|N|100|N|N
 IZM|ICZOOM Group Inc. - Class A Ordinary Shares|S|N|N|100|N|N
@@ -2407,7 +2407,7 @@ JSPR|Jasper Therapeutics, Inc. - Class A Common Stock|S|N|N|100|N|N
 JSPRW|Jasper Therapeutics, Inc. - Warrant|S|N|N|100|N|N
 JTAI|Jet.AI Inc. - Common Stock|S|N|N|100|N|N
 JTEK|JPMorgan U.S. Tech Leaders ETF|G|N|N|100|Y|N
-JUNS|Jupiter Neurosciences, Inc. - Common Stock|S|N|D|100|N|N
+JUNS|Jupiter Neurosciences, Inc. - Common Stock|S|N|N|100|N|N
 JVA|Coffee Holding Co., Inc. - Common Stock|S|N|N|100|N|N
 JWEL|Jowell Global Ltd. - Ordinary Shares|S|N|N|100|N|N
 JXG|JX Luxventure Group Inc. - Common Stock|S|N|N|100|N|N
@@ -2528,8 +2528,8 @@ LCCCR|Lakeshore Acquisition III Corp. - Rights|G|N|N|100|N|N
 LCCCU|Lakeshore Acquisition III Corp. - Unit|G|N|N|100|N|N
 LCDL|GraniteShares 2x Long LCID Daily ETF|G|N|N|100|Y|N
 LCDS|JPMorgan Fundamental Data Science Large Core ETF|G|N|N|100|Y|N
-LCFY|Locafy Limited - Ordinary Share|S|N|N|100|N|N
-LCFYW|Locafy Limited - Warrant|S|N|N|100|N|N
+LCFY|Locafy Limited - Ordinary Share|S|N|E|100|N|N
+LCFYW|Locafy Limited - Warrant|S|N|E|100|N|N
 LCID|Lucid Group, Inc. - Common Stock|Q|N|N|100|N|N
 LCNB|LCNB Corporation - Common Stock|S|N|N|100|N|N
 LCUT|Lifetime Brands, Inc. - Common Stock|Q|N|N|100|N|N
@@ -2796,7 +2796,6 @@ MIGI|Mawson Infrastructure Group Inc. - Common Stock|S|N|D|100|N|N
 MILN|Global X Millennial Consumer ETF|G|N|N|100|Y|N
 MIMI|Mint Incorporation Limited - Class A Ordinary Shares|S|N|N|100|N|N
 MIND|MIND Technology, Inc. - Common Stock|S|N|N|100|N|N
-MINM|Minim, Inc. - Common Stock|S|N|N|100|N|N
 MIRA|MIRA Pharmaceuticals, Inc. - Common Stock|S|N|D|100|N|N
 MIRM|Mirum Pharmaceuticals, Inc. - common stock|G|N|N|100|N|N
 MIST|Milestone Pharmaceuticals Inc. - Common Shares|Q|N|N|100|N|N
@@ -3159,6 +3158,7 @@ NXXT|NextNRG, Inc. - Common Stock|S|N|N|100|N|N
 NYAX|Nayax Ltd. - Ordinary Shares|Q|N|N|100|N|N
 NYMT|New York Mortgage Trust, Inc. - Common Stock|Q|N|N|100|N|N
 NYMTG|New York Mortgage Trust, Inc. - 9.125% Senior Notes Due 2030|Q|N|N|100|N|N
+NYMTH|New York Mortgage Trust, Inc. - 9.875% Senior Notes Due 2030|G|N|N|100|N|N
 NYMTI|New York Mortgage Trust, Inc. - 9.125% Senior Notes Due 2029|Q|N|N|100|N|N
 NYMTL|New York Mortgage Trust, Inc. - 6.875% Series F Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock, $0.01 par value per share|Q|N|N|100|N|N
 NYMTM|New York Mortgage Trust, Inc. - 7.875% Series E Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock|Q|N|N|100|N|N
@@ -3728,7 +3728,7 @@ REAL|The RealReal, Inc. - Common Stock|Q|N|N|100|N|N
 REAX|The Real Brokerage, Inc. - Common Shares|S|N|N|100|N|N
 REBN|Reborn Coffee, Inc. - Common Stock|S|N|D|100|N|N
 RECT|Rectitude Holdings Ltd - Ordinary Shares|S|N|N|100|N|N
-REE|REE Automotive Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
+REE|REE Automotive Ltd. - Class A Ordinary Shares|S|N|D|100|N|N
 REFI|Chicago Atlantic Real Estate Finance, Inc. - Common Stock|G|N|N|100|N|N
 REFR|Research Frontiers Incorporated - Common Stock|S|N|N|100|N|N
 REG|Regency Centers Corporation - Common Stock|Q|N|N|100|N|N
@@ -4871,7 +4871,7 @@ XOSWW|Xos, Inc. - Warrants|S|N|N|100|N|N
 XOVR|ERShares Private-Public Crossover ETF|G|N|N|100|Y|N
 XP|XP Inc. - Class A Common Stock|Q|N|N|100|N|N
 XPEL|XPEL, Inc. - Common Stock|S|N|N|100|N|N
-XPON|Expion360 Inc. - Common Stock|S|N|N|100|N|N
+XPON|Expion360 Inc. - Common Stock|S|N|D|100|N|N
 XRAY|DENTSPLY SIRONA Inc. - Common Stock|Q|N|N|100|N|N
 XRPI|Volatility Shares Trust XRP ETF|G|N|N|100|Y|N
 XRPT|Volatility Shares Trust XRP 2X ETF|G|N|N|100|Y|N
@@ -4960,4 +4960,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0709202507:00|||||||
+File Creation Time: 0710202507:00|||||||
