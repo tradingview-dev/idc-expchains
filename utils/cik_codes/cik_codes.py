@@ -382,10 +382,10 @@ def main():
     start_time = time.time()
     filtered_tv_symbols_path = "/tmp/filtered_tv_symbols.csv"
     symbol_types = {"stock", "fund", "dr", "structured", "warrant"}
-    symbol_url = "https://s3.amazonaws.com/tradingview-symbology/symbols.json"
+    symbols_url = "https://tradingview-symbology.tradingview.com/symbols.json"
     if args.env == "staging":
-        symbol_url = "http://s3.amazonaws.com/tradingview-symbology-staging/symbols.json"
-    load_tv_symbols(url=symbol_url, filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
+        symbols_url = "http://tradingview-symbology-staging.xstaging.tv/symbols.json"
+    load_tv_symbols(url=symbols_url, filtered_tv_symbols_path=filtered_tv_symbols_path, symbol_types=symbol_types)
     print(f"Time spent loading TV-symbols: {time.time() - start_time:.2f} seconds")
 
     # Load SEC-symbols and save local
