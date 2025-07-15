@@ -37,9 +37,9 @@ args = parser.parse_args()
 
 symbols = {}
 if args.env == 'staging':
-    symbols = pd.read_json("https://s3.amazonaws.com/tradingview-symbology-staging/symbols.json")
+    symbols = pd.read_json("https://tradingview-symbology-staging.xstaging.tv/symbols.json")
 else:
-    symbols = pd.read_json("https://s3.amazonaws.com/tradingview-symbology/symbols.json")
+    symbols = pd.read_json("https://tradingview-symbology.tradingview.com/symbols.json")
 
 
 symbols = symbols.query('`symbol-type`== "commodity" or `symbol-type`=="futures"')
