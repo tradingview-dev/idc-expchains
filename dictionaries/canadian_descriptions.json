@@ -1,67 +1,88 @@
 {
-    "date": "2025-07-21",
-    "deletions": [
-        "RBTO"
-    ],
+    "date": "2025-07-22",
+    "deletions": [],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "HEAL",
-            "listing_date": "2015-02-10",
-            "trading_date": "2016-10-21",
+            "symbol": "BLO",
+            "listing_date": "2014-06-24",
+            "trading_date": "2015-09-01",
             "status": "Active",
-            "security_name": "Restart Life Sciences Corp.",
+            "security_name": "Cannabix Technologies Inc.",
             "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
+            "sector": "Technology",
+            "sector_tags": [
+                "Cannabis"
+            ],
             "currency": "CAD",
-            "outstanding_shares": 36050355,
-            "reserved_shares": 17708397,
+            "outstanding_shares": 121074104,
+            "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "No",
-            "recent_change": {
-                "effective_on": "2025-01-24",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000023830.json",
+            "index": "CSE25",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000034382.json",
             "tier": 2,
-            "company_website_url": "https://www.restartlife.co"
+            "company_website_url": "http://www.cannabixtechnologies.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "KAS",
-            "listing_date": "2015-05-14",
-            "trading_date": "2018-04-09",
+            "symbol": "API",
+            "listing_date": "2014-06-19",
+            "trading_date": "2015-09-14",
             "status": "Active",
-            "security_name": "Dynamite Blockchain Corp.",
+            "security_name": "Appia Rare Earths & Uranium Corp",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 241639600,
-            "reserved_shares": 5000000,
+            "outstanding_shares": 168410250,
+            "reserved_shares": 8160000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
+                "dealer name": "Independent Trading Group",
                 "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-12-06",
-                "text": "formerly was BLOX/Cryptoblox Technologies Inc. until 2024-12-05",
-                "until": "2024-12-05",
-                "symbol_was": "BLOX",
-                "name_was": "Cryptoblox Technologies Inc.",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000036968.json",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033663.json",
             "tier": 2,
-            "company_website_url": "https://dynamiteblock.com"
+            "company_website_url": "http://www.appiareu.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "CK",
+            "listing_date": "2013-09-12",
+            "trading_date": "2018-09-10",
+            "status": "Active",
+            "security_name": "World Blockchain Corp.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [
+                "Blockchain"
+            ],
+            "currency": "CAD",
+            "outstanding_shares": 95043359,
+            "reserved_shares": 0,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-07-22",
+                "text": "formerly was CK/Cascadia Blockchain Group Corp. until 2025-07-21",
+                "until": "2025-07-21",
+                "name_was": "Cascadia Blockchain Group Corp.",
+                "type": "name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032894.json",
+            "tier": 2,
+            "company_website_url": "http://www.cascadiacorp.com"
         },
         {
             "listing_market": "CSE",
@@ -98,27 +119,27 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "HUNT",
-            "listing_date": "2021-02-10",
-            "trading_date": "2021-02-12",
+            "symbol": "AUCU",
+            "listing_date": "2020-07-16",
+            "trading_date": "2020-07-21",
             "status": "Active",
-            "security_name": "Gold Hunter Resources Inc",
+            "security_name": "Inflection Resources Ltd.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 137048736,
-            "reserved_shares": 28170755,
-            "total_equity_shares_as_if_converted": "151356786",
+            "outstanding_shares": 113908569,
+            "reserved_shares": 6625000,
+            "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+                "type": "full"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050809.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048940.json",
             "tier": 2,
-            "company_website_url": "http://www.goldhunterresources.com"
+            "company_website_url": "http://www.inflectionresources.com"
         },
         {
             "listing_market": "CSE",
@@ -153,159 +174,25 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "NATB",
-            "listing_date": "2022-06-13",
-            "trading_date": "2022-06-13",
+            "symbol": "FNDX",
+            "listing_date": "2023-03-20",
+            "trading_date": "2023-03-20",
             "status": "Active",
-            "security_name": "NatBridge Resources Ltd.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 59634155,
-            "reserved_shares": 15134051,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2025-06-23",
-                "text": "formerly was GEGC/Great Eagle Gold Corp. until 2025-06-20",
-                "until": "2025-06-20",
-                "symbol_was": "GEGC",
-                "name_was": "Great Eagle Gold Corp.",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054603.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PHOS",
-            "listing_date": "2023-02-22",
-            "trading_date": "2023-02-22",
-            "status": "Active",
-            "security_name": "First Phosphate Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 114770411,
-            "reserved_shares": 30773036,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000027739.json",
-            "tier": 2,
-            "company_website_url": "https://www.firstphosphate.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SPLY",
-            "listing_date": "2022-06-06",
-            "trading_date": "2023-10-03",
-            "status": "Active",
-            "security_name": "Safe Supply Streaming Co Ltd.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 182381390,
-            "reserved_shares": 31955330,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052516.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PSIL",
-            "listing_date": "2024-09-03",
-            "trading_date": "2024-09-05",
-            "status": "Active",
-            "security_name": "Pacifica Silver Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 30710001,
-            "reserved_shares": 12250000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2025-07-21",
-                "text": "formerly was RBTO/Roberto Resources Inc. until 2025-07-18",
-                "until": "2025-07-18",
-                "symbol_was": "RBTO",
-                "name_was": "Roberto Resources Inc.",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000105260.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "ALEN.U",
-            "listing_date": "2025-06-06",
-            "trading_date": "2025-06-06",
-            "status": "Active",
-            "security_name": "Aleen Inc.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "USD",
-            "outstanding_shares": 12643300,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055227.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "QBTQ",
-            "listing_date": "2022-10-24",
-            "trading_date": "2025-07-10",
-            "status": "Active",
-            "security_name": "SuperQ Quantum Computing Inc.",
+            "security_name": "FendX Technologies Inc.",
             "security_type": "Equity",
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 26485584,
-            "reserved_shares": 4367584,
+            "outstanding_shares": 90019646,
+            "reserved_shares": 38522116,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "No",
+            "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054802.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054005.json",
             "tier": 2,
             "company_website_url": null
         }
@@ -793,7 +680,7 @@
                 "Cannabis"
             ],
             "currency": "CAD",
-            "outstanding_shares": 119074104,
+            "outstanding_shares": 121074104,
             "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -1811,7 +1698,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 167910458,
+            "outstanding_shares": 168410250,
             "reserved_shares": 8160000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -5014,7 +4901,7 @@
             "listing_date": "2013-09-12",
             "trading_date": "2018-09-10",
             "status": "Active",
-            "security_name": "Cascadia Blockchain Group Corp.",
+            "security_name": "World Blockchain Corp.",
             "security_type": "Equity",
             "sector": "Technology",
             "sector_tags": [
@@ -5029,7 +4916,13 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-07-22",
+                "text": "formerly was CK/Cascadia Blockchain Group Corp. until 2025-07-21",
+                "until": "2025-07-21",
+                "name_was": "Cascadia Blockchain Group Corp.",
+                "type": "name and CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032894.json",
             "tier": 2,
             "company_website_url": "http://www.cascadiacorp.com"
@@ -8679,7 +8572,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 112658569,
+            "outstanding_shares": 113908569,
             "reserved_shares": 6625000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -16158,8 +16051,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 79988653,
-            "reserved_shares": 34020234,
+            "outstanding_shares": 90019646,
+            "reserved_shares": 38522116,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
