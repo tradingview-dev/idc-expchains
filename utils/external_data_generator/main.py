@@ -25,6 +25,7 @@ from shanghai import ShanghaiDataGenerator
 from taipei import TaipeiDataGenerator
 from tokyo import TokyoDataGenerator
 from twse import TwseDataGenerator
+from otc import OtcDataGenerator
 from upload_to_bucket import run_s3_process_snapshot
 from utils import git_commit
 
@@ -56,7 +57,8 @@ def main(args, logger):
         "cftc": {"handlers": [{"generator": CFTCDataGenerator().generate}]},
         "mstar": {"handlers": [{"generator": MstarDataGenerator().generate}]},
         "cme": {"handlers": [{"generator": CMEDataGenerator().generate}]},
-        "cboe": {"handlers": [{"generator": CBOEDataGenerator().generate}]}
+        "cboe": {"handlers": [{"generator": CBOEDataGenerator().generate}]},
+        "otc": {"handlers": [{"generator": OtcDataGenerator(args.branch).generate}]},
     }
     data_cluster = data_clusters.get(args.data_cluster)
     if not data_cluster:
