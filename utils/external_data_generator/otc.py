@@ -28,7 +28,7 @@ class OtcDataGenerator(DataGenerator):
         return headers
 
     async def __request_all_records(self) -> list:
-        semaphore = asyncio.Semaphore(2)
+        semaphore = asyncio.Semaphore(1)
 
         async def limit_wrap(url, session):
             async with semaphore:
