@@ -18,6 +18,7 @@ AAPG|Ascentage Pharma Group International - American Depository Shares|G|N|N|100
 AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N
 AAPU|Direxion Daily AAPL Bull 2X Shares|G|N|N|100|Y|N
 AARD|Aardvark Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
+AAUS|Alpha Architect US Equity ETF|G|N|N|100|Y|N
 AAVM|Alpha Architect Global Factor Equity ETF|G|N|N|100|Y|N
 AAXJ|iShares MSCI All Country Asia ex Japan ETF|G|N|N|100|Y|N
 ABAT|American Battery Technology Company - Common Stock|S|N|N|100|N|N
@@ -520,8 +521,8 @@ BEEZ|Honeytree U.S. Equity ETF|G|N|N|100|Y|N
 BELFA|Bel Fuse Inc. - Class A Common Stock|Q|N|N|100|N|N
 BELFB|Bel Fuse Inc. - Class B Common Stock|Q|N|N|100|N|N
 BELT|iShares U.S. Select Equity Active ETF|G|N|N|100|Y|N
-BENF|Beneficient - Class A Common Stock|S|N|D|100|N|N
-BENFW|Beneficient - Warrant|S|N|N|100|N|N
+BENF|Beneficient - Class A Common Stock|S|N|H|100|N|N
+BENFW|Beneficient - Warrant|S|N|H|100|N|N
 BETR|Better Home & Finance Holding Company - Class A Common Stock|G|N|N|100|N|N
 BETRW|Better Home & Finance Holding Company - Warrant|G|N|N|100|N|N
 BFC|Bank First Corporation - Common Stock|S|N|N|100|N|N
@@ -774,6 +775,7 @@ CAPTW|Captivision Inc. - Warrant|S|N|E|100|N|N
 CAR|Avis Budget Group, Inc. - Common Stock|Q|N|N|100|N|N
 CARE|Carter Bankshares, Inc. - Common Stock|Q|N|N|100|N|N
 CARG|CarGurus, Inc. - Class A Common Stock|Q|N|N|100|N|N
+CARL|Carlsmed, Inc. - Common Stock|Q|N|N|100|N|N
 CARM|Carisma Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 CART|Maplebear Inc. - Common Stock|Q|N|N|100|N|N
 CARV|Carver Bancorp, Inc. - Common Stock|S|N|N|100|N|N
@@ -1062,6 +1064,7 @@ CRCT|Cricut, Inc. - Class A common stock|Q|N|N|100|N|N
 CRDF|Cardiff Oncology, Inc. - Common Stock|S|N|N|100|N|N
 CRDL|Cardiol Therapeutics Inc. - Class A Common Shares|S|N|N|100|N|N
 CRDO|Credo Technology Group Holding Ltd - Ordinary Shares|Q|N|N|100|N|N
+CRE|Cre8 Enterprise Limited - Class A Ordinary Shares|S|N|N|100|N|N
 CREG|Smart Powerr Corp. - Common Stock|S|N|D|100|N|N
 CRESW|Cresud S.A.C.I.F. y A. - Warrant|S|N|N|100|N|N
 CRESY|Cresud S.A.C.I.F. y A. - American Depositary Shares, each representing ten shares of Common Stock|Q|N|N|100|N|N
@@ -1297,11 +1300,22 @@ DUOL|Duolingo, Inc. - Class A Common Stock|Q|N|N|100|N|N
 DUOT|Duos Technologies Group, Inc. - Common Stock|S|N|N|100|N|N
 DVAL|BrandywineGLOBAL-Dynamic US Large Cap Value ETF|G|N|N|100|Y|N
 DVAX|Dynavax Technologies Corporation - Common Stock|Q|N|N|100|N|N
+DVIN|WEBs Defined Volatility XLI ETF|G|N|N|100|Y|N
 DVLT|Datavault AI Inc. - Common Stock|S|N|D|100|N|N
 DVLU|First Trust Dorsey Wright Momentum & Value ETF|G|N|N|100|Y|N
 DVOL|First Trust Dorsey Wright Momentum & Low Volatility ETF|G|N|N|100|Y|N
 DVQQ|WEBs Defined Volatility QQQ ETF|G|N|N|100|Y|N
+DVRE|WEBs Defined Volatility XLRE ETF|G|N|N|100|Y|N
 DVSP|WEBs Defined Volatility SPY ETF|G|N|N|100|Y|N
+DVUT|WEBS Defined Volatility XLU ETF|G|N|N|100|Y|N
+DVXB|WEBs Defined Volatility XLB ETF|G|N|N|100|Y|N
+DVXC|WEBs Defined Volatility XLC ETF|G|N|N|100|Y|N
+DVXE|WEBs Defined Volatility XLE ETF|G|N|N|100|Y|N
+DVXF|WEBs Defined Volatility XLF ETF|G|N|N|100|Y|N
+DVXK|WEBs Defined Volatility XLK ETF|G|N|N|100|Y|N
+DVXP|WEBs Defined Volatility XLP ETF|G|N|N|100|Y|N
+DVXV|WEBs Defined Volatility XLV ETF|G|N|N|100|Y|N
+DVXY|WEBs Defined Volatility XLY ETF|G|N|N|100|Y|N
 DVY|iShares Select Dividend ETF|G|N|N|100|Y|N
 DWAS|Invesco Dorsey Wright SmallCap Momentum ETF|G|N|N|100|Y|N
 DWAW|AdvisorShares Dorsey Wright FSM All Cap World ETF|G|N|N|100|Y|N
@@ -1375,7 +1389,6 @@ EKSO|Ekso Bionics Holdings, Inc. - Common Stock|S|N|N|100|N|N
 ELAB|PMGC Holdings Inc. - Common Stock|S|N|N|100|N|N
 ELBM|Electra Battery Materials Corporation - Common Stock|S|N|N|100|N|N
 ELDN|Eledon Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
-ELEV|Elevation Oncology, Inc. - Common stock|S|N|D|100|N|N
 ELFY|ALPS Electrification Infrastructure ETF|G|N|N|100|Y|N
 ELIL|Direxion Daily LLY Bull 2X Shares|G|N|N|100|Y|N
 ELIS|Direxion Daily LLY Bear 1X Shares|G|N|N|100|Y|N
@@ -1644,7 +1657,7 @@ FLUX|Flux Power Holdings, Inc. - Common Stock|S|N|D|100|N|N
 FLWS|1-800-FLOWERS.COM, Inc. - Class A Common Stock|Q|N|N|100|N|N
 FLX|BingEx Limited - American Depositary Shares|Q|N|N|100|N|N
 FLXS|Flexsteel Industries, Inc. - Common Stock|Q|N|N|100|N|N
-FLYE|Fly-E Group, Inc. - Common Stock|S|N|D|100|N|N
+FLYE|Fly-E Group, Inc. - Common Stock|S|N|N|100|N|N
 FLYW|Flywire Corporation - Voting Common Stock|Q|N|N|100|N|N
 FMAO|Farmers & Merchants Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 FMB|First Trust Managed Municipal ETF|G|N|N|100|Y|N
@@ -1691,6 +1704,8 @@ FPXI|First Trust International Equity Opportunities ETF|G|N|N|100|Y|N
 FRAF|Franklin Financial Services Corporation - Common Stock|S|N|N|100|N|N
 FRBA|First Bank  - Common Stock|G|N|N|100|N|N
 FRD|Friedman Industries Inc. - Common Stock|Q|N|N|100|N|N
+FRDD|Direxion Daily F Bear 1X ETF|G|N|N|100|Y|N
+FRDU|Direxion Daily F Bull 2X ETF|G|N|N|100|Y|N
 FRGT|Freight Technologies, Inc. - Ordinary Shares|S|N|N|100|N|N
 FRHC|Freedom Holding Corp. - Common Stock|S|N|N|100|N|N
 FRME|First Merchants Corporation - Common Stock|Q|N|N|100|N|N
@@ -2671,7 +2686,7 @@ LWLG|Lightwave Logic, Inc. - Common Stock|S|N|N|100|N|N
 LX|LexinFintech Holdings Ltd. - American Depositary Shares|Q|N|N|100|N|N
 LXEH|Lixiang Education Holding Co., Ltd. - American Depositary Shares|G|N|N|100|N|N
 LXEO|Lexeo Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
-LXRX|Lexicon Pharmaceuticals, Inc. - Common Stock|S|N|D|100|N|N
+LXRX|Lexicon Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
 LYEL|Lyell Immunopharma, Inc. - Common Stock|Q|N|N|100|N|N
 LYFT|Lyft, Inc. - Class A Common Stock|Q|N|N|100|N|N
 LYRA|Lyra Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
@@ -3044,7 +3059,7 @@ NMFC|New Mountain Finance Corporation - Common Stock|Q|N|N|100|N|N
 NMFCZ|New Mountain Finance Corporation - 8.250% Notes due 2028|G|N|N|100|N|N
 NMIH|NMI Holdings Inc - Common Stock|G|N|N|100|N|N
 NMPAU|NMP Acquisition Corp. - Units|G|N|N|100|N|N
-NMRA|Neumora Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
+NMRA|Neumora Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 NMRK|Newmark Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
 NMTC|NeuroOne Medical Technologies Corporation - Common Stock|S|N|D|100|N|N
 NN|NextNav Inc. - Common stock|S|N|N|100|N|N
@@ -3800,12 +3815,12 @@ RKDA|Arcadia Biosciences, Inc. - Common Stock|S|N|N|100|N|N
 RKLB|Rocket Lab Corporation - Common Stock|S|N|N|100|N|N
 RKLX|Defiance Daily Target 2X Long RKLB ETF|G|N|N|100|Y|N
 RLAY|Relay Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
-RLMD|Relmada Therapeutics, Inc. - Common Stock|Q|N|D|100|N|N
+RLMD|Relmada Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 RLYB|Rallybio Corporation - Common Stock|Q|N|D|100|N|N
 RMBI|Richmond Mutual Bancorporation, Inc. - Common Stock|S|N|N|100|N|N
 RMBL|RumbleOn, Inc. - Class B Common Stock|S|N|N|100|N|N
 RMBS|Rambus, Inc. - Common Stock|Q|N|N|100|N|N
-RMCF|Rocky Mountain Chocolate Factory, Inc. - Common Stock|G|N|D|100|N|N
+RMCF|Rocky Mountain Chocolate Factory, Inc. - Common Stock|S|N|D|100|N|N
 RMCO|Royalty Management Holding Corporation - Class A Common Stock|S|N|N|100|N|N
 RMCOW|Royalty Management Holding Corporation - Warrant|S|N|N|100|N|N
 RMNI|Rimini Street, Inc. - Common Stock|G|N|N|100|N|N
@@ -4323,6 +4338,7 @@ TDAC|Translational Development Acquisition Corp. - Ordinary Shares|G|N|N|100|N|N
 TDACU|Translational Development Acquisition Corp. - Units|G|N|N|100|N|N
 TDACW|Translational Development Acquisition Corp. - Warrants|G|N|N|100|N|N
 TDI|Touchstone Dynamic International ETF|G|N|N|100|Y|N
+TDIC|Dreamland Limited - Class A Ordinary Shares|S|N|N|100|N|N
 TDIV|First Trust NASDAQ Technology Dividend Index Fund|G|N|N|100|Y|N
 TDSB|ETC Cabana Target Beta ETF|G|N|N|100|Y|N
 TDSC|ETC Cabana Target Drawdown 10 ETF|G|N|N|100|Y|N
@@ -4974,4 +4990,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0723202507:00|||||||
+File Creation Time: 0724202507:00|||||||
