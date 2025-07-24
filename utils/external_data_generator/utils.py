@@ -65,7 +65,7 @@ def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
             prev_size = os.path.getsize(prev_file_path)
             print(f"New file {new_file_path} has size {new_size}")
             print(f"Prev file {prev_file_path} has size {prev_size}")
-            show_diff(str(new_file_path), str(prev_file_path))
+            show_diff(str(prev_file_path), str(new_file_path))
 
             if files_are_different(new_file_path, prev_file_path):
                 if check_diff and new_size * 2 < prev_size:
@@ -145,6 +145,12 @@ def git_commit(file_names: list[str], branch, check_diff=True):
         repo.remotes.origin.push()
     else:
         print(f"No changes in {branch}")
+
+
+def remove_repo():
+    EXPCHAINS_DIR = "./idc-expchains"
+    if os.path.exists(EXPCHAINS_DIR):
+        shutil.rmtree(EXPCHAINS_DIR)
 
 
 def load_from_repo(file_names: list[str], branch):

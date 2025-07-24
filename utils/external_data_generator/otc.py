@@ -4,7 +4,7 @@ import json
 import aiohttp
 
 from DataGenerator import DataGenerator
-from utils import get_headers, load_from_repo
+from utils import get_headers, load_from_repo, remove_repo
 
 
 class OtcDataGenerator(DataGenerator):
@@ -28,7 +28,7 @@ class OtcDataGenerator(DataGenerator):
         return headers
 
     async def __request_all_records(self) -> list:
-        semaphore = asyncio.Semaphore(2)
+        semaphore = asyncio.Semaphore(1)
 
         async def limit_wrap(url, session):
             async with semaphore:
@@ -90,13 +90,14 @@ class OtcDataGenerator(DataGenerator):
         out_file = "otc_data.json"
 
         load_from_repo([out_file], "staging")
+        remove_repo()
         with open(out_file, "r") as f:
             prev_data = json.load(f)
             self._logger.info(f"Previous data contains {len(prev_data)} records")
         merged_data = self.__merge(prev_data, records, "symbol")
         self._logger.info(f"Merged data contains {len(merged_data)} records")
         with open(out_file, "w") as f:
-            json.dump(merged_data, f)
+            json.dump(merged_data, f, indent=4)
 
         return [out_file]
 
