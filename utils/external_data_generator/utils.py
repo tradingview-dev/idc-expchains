@@ -65,7 +65,7 @@ def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
             prev_size = os.path.getsize(prev_file_path)
             print(f"New file {new_file_path} has size {new_size}")
             print(f"Prev file {prev_file_path} has size {prev_size}")
-            show_diff(str(new_file_path), str(prev_file_path))
+            show_diff(str(prev_file_path), str(new_file_path))
 
             if files_are_different(new_file_path, prev_file_path):
                 if check_diff and new_size * 2 < prev_size:
