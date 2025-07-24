@@ -147,6 +147,12 @@ def git_commit(file_names: list[str], branch, check_diff=True):
         print(f"No changes in {branch}")
 
 
+def remove_repo():
+    EXPCHAINS_DIR = "./idc-expchains"
+    if os.path.exists(EXPCHAINS_DIR):
+        shutil.rmtree(EXPCHAINS_DIR)
+
+
 def load_from_repo(file_names: list[str], branch):
     if branch == "":
         return
