@@ -96,7 +96,7 @@ class OtcDataGenerator(DataGenerator):
         merged_data = self.__merge(prev_data, records, "symbol")
         self._logger.info(f"Merged data contains {len(merged_data)} records")
         with open(out_file, "w") as f:
-            json.dump(merged_data, f)
+            json.dump(merged_data, f, indent=4)
 
         return [out_file]
 
