@@ -47,6 +47,7 @@ ACAD|ACADIA Pharmaceuticals Inc. - Common Stock|Q|N|N|100|N|N
 ACB|Aurora Cannabis Inc. - Common Shares|S|N|N|100|N|N
 ACDC|ProFrac Holding Corp. - Class A Common Stock|Q|N|N|100|N|N
 ACET|Adicet Bio, Inc. - Common Stock|G|N|D|100|N|N
+ACFN|Acorn Energy, Inc. - Common Stock|S|N|N|100|N|N
 ACGL|Arch Capital Group Ltd. - Common Stock|Q|N|N|100|N|N
 ACGLN|Arch Capital Group Ltd. - Depositary Shares, each Representing a 1/1,000th Interest in a 4.550% Non-Cumulative Preferred Share, Series G|Q|N|N|100|N|N
 ACGLO|Arch Capital Group Ltd. - Depositary Shares Each Representing 1/1,000th Interest in a Share of5.45% Non-Cumulative Preferred Shares, Series F|Q|N|N|100|N|N
@@ -630,7 +631,7 @@ BON|Bon Natural Life Limited - Class A Ordinary Shares|S|N|D|100|N|N
 BOOM|DMC Global Inc. - Common Stock|Q|N|N|100|N|N
 BOSC|B.O.S. Better Online Solutions - Ordinary Shares|S|N|N|100|N|N
 BOTJ|Bank of the James Financial Group, Inc. - Common Stock|S|N|N|100|N|N
-BOTT|Themes Robotics & Automation ETF|G|N|N|100|Y|N
+BOTT|Themes Humanoid Robotics ETF|G|N|N|100|Y|N
 BOTZ|Global X Robotics & Artificial Intelligence ETF|G|N|N|100|Y|N
 BOWN|Bowen Acquisition Corp - Ordinary Shares|G|N|H|100|N|N
 BOWNR|Bowen Acquisition Corp - Rights|G|N|H|100|N|N
@@ -1178,7 +1179,7 @@ DAKT|Daktronics, Inc. - Common Stock|Q|N|N|100|N|N
 DALI|First Trust Dorsey Wright DALI Equity ETF|G|N|N|100|Y|N
 DALN|DallasNews Corporation - Series A Common Stock|S|N|N|100|N|N
 DAPP|VanEck Digital Transformation ETF|G|N|N|100|Y|N
-DARE|Dare Bioscience, Inc. - Common Stock|S|N|D|100|N|N
+DARE|Dare Bioscience, Inc. - Common Stock|S|N|N|100|N|N
 DASH|DoorDash, Inc. - Common Stock|Q|N|N|100|N|N
 DATS|DatChat, Inc. - Common Stock|S|N|N|100|N|N
 DATSW|DatChat, Inc. - Series A Warrant|S|N|N|100|N|N
@@ -1468,7 +1469,6 @@ ESOA|Energy Services of America Corporation - Common Stock|S|N|N|100|N|N
 ESPO|VanEck Video Gaming and eSports ETF|G|N|N|100|Y|N
 ESPR|Esperion Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 ESQ|Esquire Financial Holdings, Inc. - Common Stock|S|N|N|100|N|N
-ESSA|ESSA Bancorp, Inc. - common stock|Q|N|N|100|N|N
 ESTA|Establishment Labs Holdings Inc. - Common Shares|S|N|N|100|N|N
 ETEC|iShares Breakthrough Environmental Solutions ETF|G|N|N|100|Y|N
 ETHA|iShares Ethereum Trust - iShares Ethereum Trust ETF|G|N|N|100|N|N
@@ -2027,7 +2027,7 @@ HIHO|Highway Holdings Limited - Common Stock|S|N|N|100|N|N
 HIMX|Himax Technologies, Inc. - American depositary shares, each of which represents two ordinary shares.|Q|N|N|100|N|N
 HIMZ|Defiance Daily Target 2X Long HIMS ETF|G|N|N|100|Y|N
 HISF|First Trust High Income Strategic Focus ETF|G|N|N|100|Y|N
-HIT|Health In Tech, Inc. - Class A Common Stock|S|N|D|100|N|N
+HIT|Health In Tech, Inc. - Class A Common Stock|S|N|N|100|N|N
 HITI|High Tide Inc. - Common Shares|S|N|N|100|N|N
 HIVE|HIVE Digital Technologies Ltd - Common Shares|S|N|N|100|N|N
 HKIT|Hitek Global Inc. - Class A Ordinary Share|S|N|N|100|N|N
@@ -2407,6 +2407,7 @@ JMSB|John Marshall Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 JOUT|Johnson Outdoors Inc. - Class A Common Stock|Q|N|N|100|N|N
 JOYY|JOYY Inc. - American Depositary Shares|Q|N|N|100|N|N
 JPEF|JPMorgan Equity Focus ETF|G|N|N|100|Y|N
+JPX|Defiance Daily Target 2X Long JPM ETF|G|N|N|100|Y|N
 JPY|Lazard Japanese Equity ETF|G|N|N|100|Y|N
 JRSH|Jerash Holdings (US), Inc. - Common Stock|S|N|N|100|N|N
 JRVR|James River Group Holdings, Ltd. - Common Shares|Q|N|N|100|N|N
@@ -2580,6 +2581,7 @@ LGND|Ligand Pharmaceuticals Incorporated - Common Stock|G|N|N|100|N|N
 LGO|Largo Inc. - Common Shares|Q|N|N|100|N|N
 LGRO|Level Four Large Cap Growth Active ETF|G|N|N|100|Y|N
 LGVN|Longeveron Inc. - Class A Common stock|S|N|N|100|N|N
+LHAI|Linkhome Holdings Inc. - Common stock|S|N|N|100|N|N
 LHSW|Lianhe Sowell International Group Ltd - Ordinary Shares|S|N|N|100|N|N
 LI|Li Auto Inc. - American Depositary Shares|Q|N|N|100|N|N
 LICN|Lichen International Limited - Class A Ordinary Shares|S|N|N|100|N|N
@@ -2661,7 +2663,7 @@ LSBK|Lake Shore Bancorp, Inc. - Common Stock|G|N|N|100|N|N
 LSBPW|LakeShore Biopharma Co., Ltd - Warrants|S|N|N|100|N|N
 LSCC|Lattice Semiconductor Corporation - Common Stock|Q|N|N|100|N|N
 LSE|Leishen Energy Holding Co., Ltd. - Ordinary Shares|S|N|N|100|N|N
-LSH|Lakeside Holding Limited - Common Stock|S|N|D|100|N|N
+LSH|Lakeside Holding Limited - Common Stock|S|N|N|100|N|N
 LSTA|Lisata Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 LSTR|Landstar System, Inc. - Common Stock|Q|N|N|100|N|N
 LTBR|Lightbridge Corporation - Common Stock|S|N|N|100|N|N
@@ -3222,6 +3224,7 @@ OFIX|Orthofix Medical Inc.  - Common Stock|Q|N|N|100|N|N
 OFLX|Omega Flex, Inc. - Common Stock|G|N|N|100|N|N
 OFS|OFS Capital Corporation - Closed End Fund|Q|N|N|100|N|N
 OFSSH|OFS Capital Corporation - 4.95% Notes due 2028|Q|N|N|100|N|N
+OFSSO|OFS Capital Corporation - 7.50% Notes due 2028|G|N|N|100|N|N
 OGI|Organigram Global Inc. - Common Shares|Q|N|N|100|N|N
 OKLL|Defiance Daily Target 2x Long OKLO ETF|G|N|N|100|Y|N
 OKTA|Okta, Inc. - Class A Common Stock|Q|N|N|100|N|N
@@ -3633,7 +3636,7 @@ QHDG|Innovator Hedged Nasdaq-100 ETF|G|N|N|100|Y|N
 QIPT|Quipt Home Medical Corp. - Common Shares|S|N|N|100|N|N
 QLGN|Qualigen Therapeutics, Inc. - Common Stock|S|N|E|100|N|N
 QLYS|Qualys, Inc. - Common Stock|Q|N|N|100|N|N
-QMCO|Quantum Corporation - Common Stock|G|N|N|100|N|N
+QMCO|Quantum Corporation - Common Stock|G|N|E|100|N|N
 QMID|WisdomTree U.S. MidCap Quality Growth Fund|G|N|N|100|Y|N
 QMMM|QMMM Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
 QMOM|Alpha Architect U.S. Quantitative Momentum ETF|G|N|N|100|Y|N
@@ -3820,7 +3823,7 @@ RLYB|Rallybio Corporation - Common Stock|Q|N|D|100|N|N
 RMBI|Richmond Mutual Bancorporation, Inc. - Common Stock|S|N|N|100|N|N
 RMBL|RumbleOn, Inc. - Class B Common Stock|S|N|N|100|N|N
 RMBS|Rambus, Inc. - Common Stock|Q|N|N|100|N|N
-RMCF|Rocky Mountain Chocolate Factory, Inc. - Common Stock|S|N|D|100|N|N
+RMCF|Rocky Mountain Chocolate Factory, Inc. - Common Stock|S|N|N|100|N|N
 RMCO|Royalty Management Holding Corporation - Class A Common Stock|S|N|N|100|N|N
 RMCOW|Royalty Management Holding Corporation - Warrant|S|N|N|100|N|N
 RMNI|Rimini Street, Inc. - Common Stock|G|N|N|100|N|N
@@ -4137,7 +4140,7 @@ SOLZ|Solana ETF|G|N|N|100|Y|N
 SOND|Sonder Holdings Inc. - Class A Common Stock|Q|N|E|100|N|N
 SONDW|Sonder Holdings Inc. - Warrants|Q|N|E|100|N|N
 SONM|Sonim Technologies, Inc. - Common Stock|S|N|N|100|N|N
-SONN|Sonnet BioTherapeutics Holdings, Inc. - Common Stock|S|N|D|100|N|N
+SONN|Sonnet BioTherapeutics Holdings, Inc. - Common Stock|S|N|N|100|N|N
 SONO|Sonos, Inc. - Common Stock|Q|N|N|100|N|N
 SOPA|Society Pass Incorporated - Common Stock|S|N|D|100|N|N
 SOPH|SOPHiA GENETICS SA - Ordinary Shares|Q|N|N|100|N|N
@@ -4176,6 +4179,7 @@ SPTN|SpartanNash Company - Common Stock|Q|N|N|100|N|N
 SPWH|Sportsman's Warehouse Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 SPWR|Complete Solaria, Inc. - Common Stock|G|N|N|100|N|N
 SPWRW|Complete Solaria, Inc. - Warrant|S|N|N|100|N|N
+SPXD|Xtrackers S&P 500 Diversified Sector Weight ETF|G|N|N|100|Y|N
 SPYQ|Tradr 2X Long SPY Quarterly ETF|G|N|N|100|Y|N
 SQFT|Presidio Property Trust, Inc. - Class A Common Stock|S|N|N|100|N|N
 SQFTP|Presidio Property Trust, Inc. - 9.375% Series D Cumulative Redeemable Perpetual Preferred Stock, $0.01 par value per share|S|N|N|100|N|N
@@ -4990,4 +4994,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0724202507:00|||||||
+File Creation Time: 0725202507:00|||||||
