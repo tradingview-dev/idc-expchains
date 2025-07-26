@@ -1,56 +1,32 @@
 {
-    "date": "2025-07-24",
+    "date": "2025-07-25",
     "deletions": [
-        "TO"
+        "TTT"
     ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "AGC",
-            "listing_date": "2015-08-24",
-            "trading_date": "2015-09-03",
+            "symbol": "PLUG",
+            "listing_date": "2015-07-02",
+            "trading_date": "2015-09-18",
             "status": "Active",
-            "security_name": "Avanti Gold Corp.",
+            "security_name": "Energy Plug Technologies Corp.",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 121520050,
-            "reserved_shares": 32912691,
+            "outstanding_shares": 109741063,
+            "reserved_shares": 40690902,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000036483.json",
-            "tier": 2,
-            "company_website_url": "https://www.avantigoldcorp.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PAU",
-            "listing_date": "2017-10-12",
-            "trading_date": "2017-10-12",
-            "status": "Active",
-            "security_name": "Provenance Gold Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 152436326,
-            "reserved_shares": 71358401,
-            "total_equity_shares_as_if_converted": "71358401",
-            "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000034608.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000030610.json",
             "tier": 2,
-            "company_website_url": "http://www.provenancegold.com"
+            "company_website_url": "http://www.energyplug.com"
         },
         {
             "listing_market": "CSE",
@@ -65,7 +41,7 @@
                 "US Cannabis"
             ],
             "currency": "USD",
-            "outstanding_shares": 449337321,
+            "outstanding_shares": 609259992,
             "reserved_shares": 193375230,
             "total_equity_shares_as_if_converted": "642712551",
             "market_maker": {
@@ -87,17 +63,19 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "DPRO",
-            "listing_date": "2019-11-05",
-            "trading_date": "2019-11-05",
+            "symbol": "FGH",
+            "listing_date": "2019-06-25",
+            "trading_date": "2019-07-02",
             "status": "Active",
-            "security_name": "Draganfly Inc.",
+            "security_name": "Forte Group Holdings Inc.",
             "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
+            "sector": "Life Sciences",
+            "sector_tags": [
+                "Cannabis"
+            ],
             "currency": "CAD",
-            "outstanding_shares": 21316868,
-            "reserved_shares": 12216214,
+            "outstanding_shares": 19183332,
+            "reserved_shares": 1154687,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -105,13 +83,92 @@
             },
             "index": "CSE Composite",
             "recent_change": {
-                "effective_on": "2024-09-05",
+                "effective_on": "2024-10-18",
+                "text": "formerly was BEV/BevCanna Enterprises Inc. until 2024-10-17",
+                "until": "2024-10-17",
+                "symbol_was": "BEV",
+                "name_was": "BevCanna Enterprises Inc.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000046097.json",
+            "tier": 2,
+            "company_website_url": "http://www.BevCanna.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "TCF",
+            "listing_date": "2020-02-11",
+            "trading_date": "2020-02-11",
+            "status": "Active",
+            "security_name": "Trillion Energy International Inc.",
+            "security_type": "Equity",
+            "sector": "Oil and Gas",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 204549909,
+            "reserved_shares": 49087389,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045319.json",
+            "tier": 2,
+            "company_website_url": "http://www.trillionenergy.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "LEXT",
+            "listing_date": "2021-06-25",
+            "trading_date": "2021-06-25",
+            "status": "Active",
+            "security_name": "Lexston Mining Corporation",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 14718304,
+            "reserved_shares": 4329415,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-01-28",
                 "text": "CUSIP changed",
                 "type": "CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048217.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050140.json",
             "tier": 2,
-            "company_website_url": "http://www.draganfly.com"
+            "company_website_url": "http://www.lexston.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "GOAT",
+            "listing_date": "2021-09-16",
+            "trading_date": "2021-09-16",
+            "status": "Active",
+            "security_name": "GOAT Industries Ltd",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 12223228,
+            "reserved_shares": 10179740,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051047.json",
+            "tier": 2,
+            "company_website_url": "https://www.goatindustries.co/"
         },
         {
             "listing_market": "CSE",
@@ -146,99 +203,58 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "CUAU",
-            "listing_date": "2022-01-21",
-            "trading_date": "2022-01-25",
+            "symbol": "NATB",
+            "listing_date": "2022-06-13",
+            "trading_date": "2022-06-13",
             "status": "Active",
-            "security_name": "Forte Minerals Corp",
+            "security_name": "NatBridge Resources Ltd.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 63323985,
-            "reserved_shares": 12836730,
+            "outstanding_shares": 60430328,
+            "reserved_shares": 14659051,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000043554.json",
-            "tier": 2,
-            "company_website_url": "https://www.forteminerals.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "VSBY.WT.B",
-            "listing_date": "2022-07-28",
-            "trading_date": "2022-07-28",
-            "status": "Delisted",
-            "security_name": "VSBLTY Groupe Technologies Corp. Warrants B",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 44039625,
-            "reserved_shares": 25671453,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+            "recent_change": {
+                "effective_on": "2025-06-23",
+                "text": "formerly was GEGC/Great Eagle Gold Corp. until 2025-06-20",
+                "until": "2025-06-20",
+                "symbol_was": "GEGC",
+                "name_was": "Great Eagle Gold Corp.",
+                "type": "symbol, name and CUSIP"
             },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000046223.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054603.json",
             "tier": 2,
-            "company_website_url": "http://www.vsblty.net"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
-            "symbol": "LFLR",
-            "listing_date": "2020-01-13",
-            "trading_date": "2024-04-09",
+            "symbol": "PPB",
+            "listing_date": "2022-09-01",
+            "trading_date": "2022-09-01",
             "status": "Active",
-            "security_name": "LaFleur Minerals Inc.",
+            "security_name": "P2P Group Ltd.",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 63760168,
-            "reserved_shares": 21079431,
+            "outstanding_shares": 110932458,
+            "reserved_shares": 9364900,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
+                "dealer name": "National Bank Financial Inc.",
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045595.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000036619.json",
             "tier": 2,
-            "company_website_url": "https://lafleurminerals.com/corporate/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SYAI",
-            "listing_date": "2024-10-02",
-            "trading_date": "2024-10-02",
-            "status": "Active",
-            "security_name": "Syntheia Corp.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 82043632,
-            "reserved_shares": 25226396,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000026723.json",
-            "tier": 2,
-            "company_website_url": "https://www.syntheia.ai"
+            "company_website_url": "https://www.p2p-group.com"
         }
     ],
     "full_list": [
@@ -1838,8 +1854,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 108656660,
-            "reserved_shares": 41775305,
+            "outstanding_shares": 109741063,
+            "reserved_shares": 40690902,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -6263,7 +6279,7 @@
                 "US Cannabis"
             ],
             "currency": "USD",
-            "outstanding_shares": 449337321,
+            "outstanding_shares": 609259992,
             "reserved_shares": 193375230,
             "total_equity_shares_as_if_converted": "642712551",
             "market_maker": {
@@ -6643,33 +6659,6 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "TTT",
-            "listing_date": "2019-06-14",
-            "trading_date": "2019-06-14",
-            "status": "Suspended",
-            "security_name": "TruTrace Technologies Inc.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [
-                "Cannabis",
-                "Blockchain"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 110061732,
-            "reserved_shares": 14450000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033244.json",
-            "tier": 2,
-            "company_website_url": "https://www.trutrace.co"
-        },
-        {
-            "listing_market": "CSE",
             "symbol": "LECR",
             "listing_date": "2019-06-19",
             "trading_date": "2019-06-21",
@@ -6711,7 +6700,7 @@
                 "Cannabis"
             ],
             "currency": "CAD",
-            "outstanding_shares": 17465064,
+            "outstanding_shares": 19183332,
             "reserved_shares": 1154687,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -7693,8 +7682,8 @@
             "sector": "Oil and Gas",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 196824001,
-            "reserved_shares": 62217267,
+            "outstanding_shares": 204549909,
+            "reserved_shares": 49087389,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -10892,7 +10881,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 7362600,
+            "outstanding_shares": 14718304,
             "reserved_shares": 4329415,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -11589,7 +11578,7 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 11723228,
+            "outstanding_shares": 12223228,
             "reserved_shares": 10179740,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -13987,8 +13976,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 59634155,
-            "reserved_shares": 15134051,
+            "outstanding_shares": 60430328,
+            "reserved_shares": 14659051,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -14752,13 +14741,7 @@
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-07-26",
-                "text": "formerly was PPB/Pure to Pure Beauty Inc. until 2024-07-25",
-                "until": "2024-07-25",
-                "name_was": "Pure to Pure Beauty Inc.",
-                "type": "name and CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000036619.json",
             "tier": 2,
             "company_website_url": "https://www.p2p-group.com"
