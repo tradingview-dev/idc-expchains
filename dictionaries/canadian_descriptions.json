@@ -1,20 +1,22 @@
 {
-    "date": "2025-07-28",
-    "deletions": [],
+    "date": "2025-07-29",
+    "deletions": [
+        "VSBY.WT.B"
+    ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "SCYB",
-            "listing_date": "2018-07-09",
-            "trading_date": "2015-09-01",
+            "symbol": "MRM",
+            "listing_date": "2009-01-21",
+            "trading_date": "2015-09-02",
             "status": "Active",
-            "security_name": "Scryb Inc.",
+            "security_name": "Micromem Technologies Inc.",
             "security_type": "Equity",
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 323187472,
-            "reserved_shares": 95457000,
+            "outstanding_shares": 607024014,
+            "reserved_shares": 35787931,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -22,33 +24,40 @@
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000007651.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000004447.json",
             "tier": 2,
-            "company_website_url": "http://scryb.ca"
+            "company_website_url": "http://www.micromeminc.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "MCL",
-            "listing_date": "2007-09-11",
-            "trading_date": "2015-11-20",
+            "symbol": "QNTM",
+            "listing_date": "2018-05-29",
+            "trading_date": "2018-05-29",
             "status": "Active",
-            "security_name": "McLaren Resources Inc.",
+            "security_name": "Quantum BioPharma Ltd. Class B Subordinate Voting Shares",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 91383511,
-            "reserved_shares": 9684500,
+            "outstanding_shares": 3812821,
+            "reserved_shares": 141184,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+                "type": "full"
             },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000013438.json",
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2024-08-15",
+                "text": "formerly was HUGE/FSD Pharma Inc. Subordinate Voting Shares until 2024-08-14",
+                "until": "2024-08-14",
+                "symbol_was": "HUGE",
+                "name_was": "FSD Pharma Inc. Subordinate Voting Shares",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000000184.json",
             "tier": 2,
-            "company_website_url": "http://www.mclarenresources.com"
+            "company_website_url": "http://www.quantumbiopharma.com"
         },
         {
             "listing_market": "CSE",
@@ -85,27 +94,34 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "NORD",
-            "listing_date": "2021-10-13",
-            "trading_date": "2021-10-13",
+            "symbol": "CUPA",
+            "listing_date": "2019-10-03",
+            "trading_date": "2019-10-03",
             "status": "Active",
-            "security_name": "Nordique Resources Inc.",
+            "security_name": "Cupani Metals Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 49817248,
-            "reserved_shares": 26520000,
+            "outstanding_shares": 142807973,
+            "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+                "dealer name": "Integral Wealth Securities Limited",
+                "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052228.json",
+            "recent_change": {
+                "effective_on": "2024-12-16",
+                "text": "formerly was IC/IC Capitalight Corp. until 2024-12-13",
+                "until": "2024-12-13",
+                "symbol_was": "IC",
+                "name_was": "IC Capitalight Corp.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029372.json",
             "tier": 2,
-            "company_website_url": "https://nordiqueresources.com"
+            "company_website_url": "https://cupanimetals.com"
         },
         {
             "listing_market": "CSE",
@@ -140,17 +156,17 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "TERA",
-            "listing_date": "2022-06-20",
-            "trading_date": "2022-06-20",
+            "symbol": "MOOD",
+            "listing_date": "2021-11-15",
+            "trading_date": "2021-11-15",
             "status": "Active",
-            "security_name": "Terra Balcanica Resources Corp.",
+            "security_name": "Doseology Sciences Inc",
             "security_type": "Equity",
-            "sector": "Mining",
+            "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 64419295,
-            "reserved_shares": 25824198,
+            "outstanding_shares": 7836621,
+            "reserved_shares": 3683018,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -158,85 +174,57 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053179.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051102.json",
             "tier": 2,
-            "company_website_url": "https://terrabresources.com/en/"
+            "company_website_url": "https://www.doseology.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "TRAI",
-            "listing_date": "2022-07-25",
-            "trading_date": "2022-07-25",
-            "status": "Halted Pending Fundamental Change",
-            "security_name": "Trilogy AI Corp.",
+            "symbol": "RB",
+            "listing_date": "2023-09-05",
+            "trading_date": "2023-09-05",
+            "status": "Active",
+            "security_name": "Rumble Resources Inc.",
             "security_type": "Equity",
-            "sector": "Diversified Industries",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 36133113,
-            "reserved_shares": 14311500,
+            "outstanding_shares": 17427000,
+            "reserved_shares": 13347500,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-12-06",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053256.json",
-            "tier": 2,
-            "company_website_url": "https://trilogyai.ca"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PXI",
-            "listing_date": "2024-02-01",
-            "trading_date": "2024-02-01",
-            "status": "Active",
-            "security_name": "Planet Ventures Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 204126672,
-            "reserved_shares": 6792000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000007451.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054900.json",
             "tier": 2,
-            "company_website_url": "https://www.planetventuresinc.com"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
-            "symbol": "BRAZ",
-            "listing_date": "2024-11-14",
-            "trading_date": "2024-11-18",
+            "symbol": "ACM",
+            "listing_date": "2018-11-14",
+            "trading_date": "2025-04-30",
             "status": "Active",
-            "security_name": "Canary Gold Corp.",
+            "security_name": "Allied Critical Metals Inc.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 46583733,
-            "reserved_shares": 17763759,
+            "outstanding_shares": 110110136,
+            "reserved_shares": 24199916,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103357.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000037081.json",
             "tier": 2,
-            "company_website_url": "https://www.canarygold.ca"
+            "company_website_url": "https://www.alliedcritical.com"
         }
     ],
     "full_list": [
@@ -1017,8 +1005,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 606840014,
-            "reserved_shares": 27042348,
+            "outstanding_shares": 607024014,
+            "reserved_shares": 35787931,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -4270,8 +4258,8 @@
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 3044994,
-            "reserved_shares": 172825,
+            "outstanding_shares": 3812821,
+            "reserved_shares": 141184,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -7148,7 +7136,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 119158124,
+            "outstanding_shares": 142807973,
             "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -12209,7 +12197,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 7836621,
-            "reserved_shares": 6436106,
+            "reserved_shares": 3683018,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -14449,30 +14437,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053244.json",
             "tier": 2,
             "company_website_url": "https://www.canadiancopper.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "VSBY.WT.B",
-            "listing_date": "2022-07-28",
-            "trading_date": "2022-07-28",
-            "status": "Delisted",
-            "security_name": "VSBLTY Groupe Technologies Corp. Warrants B",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 44039625,
-            "reserved_shares": 25671453,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000046223.json",
-            "tier": 2,
-            "company_website_url": "http://www.vsblty.net"
         },
         {
             "listing_market": "CSE",
@@ -16729,8 +16693,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 9427000,
-            "reserved_shares": 5347500,
+            "outstanding_shares": 17427000,
+            "reserved_shares": 13347500,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -18719,7 +18683,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 109846577,
+            "outstanding_shares": 110110136,
             "reserved_shares": 24199916,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
