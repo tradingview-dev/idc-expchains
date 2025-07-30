@@ -4,6 +4,7 @@
 import argparse
 import enum
 import os
+import tempfile
 
 from adx import ADXDataGenerator
 from asx import ASXDataGenerator
@@ -26,7 +27,7 @@ from taipei import TaipeiDataGenerator
 from tokyo import TokyoDataGenerator
 from twse import TwseDataGenerator
 from otc import OtcDataGenerator
-from upload_to_bucket import run_s3_process_snapshot
+from upload_to_bucket import run_s3_process_snapshot, run_storage_download, run_s3_upload
 from utils import git_commit
 
 
@@ -41,18 +42,21 @@ def main(args, logger):
         "adx": {"handlers": [{"generator": ADXDataGenerator().generate}]},
         "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
-        "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "bucket": "cse"}]},
-        "LSX": {"handlers": [{"generator": Lang().generate, "bucket": "lsx"}]},
-        "LS": {"handlers": [{"generator": Schwarz().generate, "bucket": "ls"}]},
-        "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "bucket": "gids"}]},
-        "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "bucket": "nasdaq"}]},
-        "nyse": {"handlers": [{"generator": NyseDataGenerator().generate, "bucket": "nyse"}, {"generator": NyseDataGenerator().generate, "bucket": "amex"}]},
+        "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "state": "cse"}]},
+        "LSX": {"handlers": [{"generator": Lang().generate, "state": "lsx"}]},
+        "LS": {"handlers": [{"generator": Schwarz().generate, "state": "ls"}]},
+        "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "state": "gids"}]},
+        "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "state": "nasdaq"}]},
+        "nyse": {"handlers": [
+            {"generator": NyseDataGenerator().generate, "state": "nyse"},
+            {"generator": NyseDataGenerator().generate, "state": "amex"}
+        ]},
         "saudi": {"handlers": [{"generator": SAUDIDataGenerator().generate}]},
         "shanghai": {"handlers": [{"generator": ShanghaiDataGenerator().generate}]},
         "taipei": {"handlers": [{"generator": TaipeiDataGenerator().generate}]},
         "tokyo": {"handlers": [{"generator": TokyoDataGenerator().generate}]},
         "twse": {"handlers": [{"generator": TwseDataGenerator().generate}]},
-        "rus": {"handlers": [{"generator": MOEXDataGenerator().generate, "bucket": "moex"}]},
+        "rus": {"handlers": [{"generator": MOEXDataGenerator().generate, "state": "moex"}]},
         "korea": {"handlers": [{"generator": KoreaDataGenerator().generate}]},
         "cftc": {"handlers": [{"generator": CFTCDataGenerator().generate}]},
         "mstar": {"handlers": [{"generator": MstarDataGenerator().generate}]},
@@ -60,31 +64,54 @@ def main(args, logger):
         "cboe": {"handlers": [{"generator": CBOEDataGenerator().generate}]},
         "otc": {"handlers": [{"generator": OtcDataGenerator(args.branch).generate}]},
     }
-    data_cluster = data_clusters.get(args.data_cluster)
+    cluster_name = args.data_cluster
+    data_cluster = data_clusters.get(cluster_name)
     if not data_cluster:
-        logger.error(f"Unknown data cluster: {args.data_cluster}")
+        logger.error(f"Unknown data cluster: {cluster_name}")
         return Codes.ERROR
 
+    if args.copy:
+        return download_and_upload(data_cluster, cluster_name)
+
+    return generate_and_upload(data_cluster, cluster_name, args.branch)
+
+
+def download_and_upload(data_cluster, cluster_name):
+    for handler in data_cluster['handlers']:
+        state_name = handler.get('state', cluster_name)
+        with tempfile.NamedTemporaryFile(delete_on_close=False) as tmp_file:
+            tmp_file.close()
+            try:
+                logger.info(f"Copying state {state_name}")
+                run_storage_download(state_name, tmp_file.name)
+                run_s3_upload(tmp_file.name, state_name)
+            except Exception as e:
+                logger.error(f"Failed to download and upload '{state_name}' data CAUSED BY: {e}")
+                return Codes.ERROR
+
+    return Codes.OK
+
+
+def generate_and_upload(data_cluster, cluster_name, git_branch):
     files_to_commit = []
     for handler in data_cluster['handlers']:
         try:
             files = handler['generator']()
         except Exception as e:
-            logger.error(f"Failed to generate files for '{args.data_cluster}' data cluster CAUSED BY: {e}")
+            logger.error(f"Failed to generate files for '{cluster_name}' data cluster CAUSED BY: {e}")
             return Codes.ERROR
         files_to_commit.extend(files)
+        state_name = handler.get('state', cluster_name)
         try:
-            run_s3_process_snapshot(files, handler.get('bucket', args.data_cluster))
+            run_s3_process_snapshot(files, state_name)
         except Exception as e:
-            logger.error(f"Failed to update {','.join(files)} files into {handler.get('bucket', args.data_cluster)} bucket for '{args.data_cluster}' data cluster")
-            logger.error(e)
+            logger.error(f"Failed to update {','.join(files)} files into '{state_name}' state for '{cluster_name}' data cluster CAUSED BY: {e}")
             return Codes.ERROR
 
     try:
-        git_commit(files_to_commit, args.branch)
+        git_commit(files_to_commit, git_branch)
     except Exception as e:
-        logger.error(f"Failed to commit [{','.join(files_to_commit)}] files generated by '{args.data_cluster}' data cluster handlers")
-        logger.error(e)
+        logger.error(f"Failed to commit [{','.join(files_to_commit)}] files generated by '{cluster_name}' data cluster handlers CAUSED BY {e}")
         return Codes.ERROR
 
     return Codes.OK
@@ -97,6 +124,7 @@ if __name__ == "__main__":
     parser.add_argument("--data_cluster", required=True, type=str, help="Name of the data cluster which must generates")
     parser.add_argument("--branch", type=str, default="", required=False,
                         help="Branch for delivery changed files (if empty then changed files will not delivers)")
+    parser.add_argument("--copy", action=argparse.BooleanOptionalAction, help="Download from prod and upload")
 
     try:
         exit(main(parser.parse_args(), logger))
