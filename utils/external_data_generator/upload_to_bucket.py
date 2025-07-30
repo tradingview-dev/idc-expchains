@@ -3,7 +3,20 @@ import tarfile
 import boto3
 from botocore.exceptions import NoCredentialsError
 
-def run_s3_process_snapshot(files, snapshot_name):
+from lib.LoggableRequester import LoggableRequester
+
+
+def run_storage_download(snapshot_name, file_path):
+    baseurl = "https://tradingview-sourcedata-storage.xtools.tv/external"
+
+    url = f"{baseurl}/{snapshot_name}.tar.gz"
+    resp = LoggableRequester().request(LoggableRequester.Methods.GET, url)
+
+    with open(file_path, "wb") as f:
+        f.write(resp.content)
+
+
+def run_s3_upload(file_path, snapshot_name):
     environment = os.environ['ENVIRONMENT']
 
     if environment == "production":
@@ -21,6 +34,24 @@ def run_s3_process_snapshot(files, snapshot_name):
         aws_secret_access_key=os.environ['SOURCEDATA_AWS_SECRET_ACCESS_KEY'],
     )
 
+    # Define the archive name with .tar.gz extension
+    archive_name = f"{snapshot_name}.tar.gz"
+
+    # Extract bucket name and object key from the baseurl
+    bucket_name = baseurl.split('/')[2]  # Extract the bucket name from the URL
+    object_key = '/'.join(baseurl.split('/')[3:]) + 'external/' + snapshot_name + '.tar.gz'  # Build the object key
+
+    # Upload the archive to the S3 bucket
+    try:
+        s3.upload_file(file_path, bucket_name, object_key)
+        print(f"Successfully uploaded {archive_name} to s3://{bucket_name}/{object_key}.")
+    except NoCredentialsError as e:
+        raise RuntimeError("Credentials not available", e) from e
+    except Exception as e:
+        raise RuntimeError(f"An error occurred while uploading to S3", e) from e
+
+
+def run_s3_process_snapshot(files, snapshot_name):
     # Define the archive name with .tar.gz extension
     archive_name = f"{snapshot_name}.tar.gz"
 
@@ -42,20 +73,7 @@ def run_s3_process_snapshot(files, snapshot_name):
                     print(f"Warning: {file} does not exist and will not be added to the archive.")
 
         print(f"Created archive {archive_name}")
-
-        # Extract bucket name and object key from the baseurl
-        bucket_name = baseurl.split('/')[2]  # Extract the bucket name from the URL
-        object_key = '/'.join(baseurl.split('/')[3:]) + 'external/' + snapshot_name + '.tar.gz'  # Build the object key
-
-        # Upload the archive to the S3 bucket
-        try:
-            s3.upload_file(archive_name, bucket_name, object_key)
-            print(f"Successfully uploaded {archive_name} to s3://{bucket_name}/{object_key}.")
-        except NoCredentialsError as e:
-            raise RuntimeError("Credentials not available", e) from e
-        except Exception as e:
-            raise RuntimeError(f"An error occurred while uploading to S3", e) from e
-
+        run_s3_upload(archive_name, snapshot_name)
     except Exception as e:
         raise RuntimeError(f"Error while creating tar.gz file", e) from e
 
