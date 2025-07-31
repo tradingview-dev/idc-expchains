@@ -1,22 +1,20 @@
 {
-    "date": "2025-07-29",
-    "deletions": [
-        "VSBY.WT.B"
-    ],
+    "date": "2025-07-30",
+    "deletions": [],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "MRM",
-            "listing_date": "2009-01-21",
-            "trading_date": "2015-09-02",
+            "symbol": "PLUG",
+            "listing_date": "2015-07-02",
+            "trading_date": "2015-09-18",
             "status": "Active",
-            "security_name": "Micromem Technologies Inc.",
+            "security_name": "Energy Plug Technologies Corp.",
             "security_type": "Equity",
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 607024014,
-            "reserved_shares": 35787931,
+            "outstanding_shares": 109841063,
+            "reserved_shares": 40590902,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -24,40 +22,63 @@
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000004447.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000030610.json",
             "tier": 2,
-            "company_website_url": "http://www.micromeminc.com"
+            "company_website_url": "http://www.energyplug.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "QNTM",
-            "listing_date": "2018-05-29",
-            "trading_date": "2018-05-29",
+            "symbol": "SOL",
+            "listing_date": "2018-08-15",
+            "trading_date": "2018-08-15",
             "status": "Active",
-            "security_name": "Quantum BioPharma Ltd. Class B Subordinate Voting Shares",
+            "security_name": "SOL Global Investments Corp.",
             "security_type": "Equity",
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 3812821,
-            "reserved_shares": 141184,
+            "outstanding_shares": 229647433,
+            "reserved_shares": 54775280,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-08-15",
-                "text": "formerly was HUGE/FSD Pharma Inc. Subordinate Voting Shares until 2024-08-14",
-                "until": "2024-08-14",
-                "symbol_was": "HUGE",
-                "name_was": "FSD Pharma Inc. Subordinate Voting Shares",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000000184.json",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033348.json",
             "tier": 2,
-            "company_website_url": "http://www.quantumbiopharma.com"
+            "company_website_url": "https://solglobal.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "CVGR",
+            "listing_date": "2019-03-05",
+            "trading_date": "2019-03-05",
+            "status": "Active",
+            "security_name": "City View Green Holdings Inc.",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [
+                "Cannabis"
+            ],
+            "currency": "CAD",
+            "outstanding_shares": 45681289,
+            "reserved_shares": 5390750,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-07-03",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000031657.json",
+            "tier": 2,
+            "company_website_url": "http://www.cityviewgreen.ca"
         },
         {
             "listing_market": "CSE",
@@ -94,34 +115,55 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "CUPA",
-            "listing_date": "2019-10-03",
-            "trading_date": "2019-10-03",
+            "symbol": "METL",
+            "listing_date": "2020-04-09",
+            "trading_date": "2020-04-14",
             "status": "Active",
-            "security_name": "Cupani Metals Corp.",
+            "security_name": "Metalite Resources Inc.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 142807973,
-            "reserved_shares": 0,
+            "outstanding_shares": 3103510,
+            "reserved_shares": 615746,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Integral Wealth Securities Limited",
-                "type": "full"
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-07-30",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048359.json",
+            "tier": 2,
+            "company_website_url": "https://www.metaliteresources.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "NVRO",
+            "listing_date": "2011-11-17",
+            "trading_date": "2021-07-16",
+            "status": "Active",
+            "security_name": "EnviroGold Global Limited",
+            "security_type": "Equity",
+            "sector": "CleanTech",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 317898883,
+            "reserved_shares": 222836398,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-12-16",
-                "text": "formerly was IC/IC Capitalight Corp. until 2024-12-13",
-                "until": "2024-12-13",
-                "symbol_was": "IC",
-                "name_was": "IC Capitalight Corp.",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029372.json",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000022452.json",
             "tier": 2,
-            "company_website_url": "https://cupanimetals.com"
+            "company_website_url": "http://www.envirogoldglobal.com"
         },
         {
             "listing_market": "CSE",
@@ -153,78 +195,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029438.json",
             "tier": 2,
             "company_website_url": "https://www.intellistake.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "MOOD",
-            "listing_date": "2021-11-15",
-            "trading_date": "2021-11-15",
-            "status": "Active",
-            "security_name": "Doseology Sciences Inc",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 7836621,
-            "reserved_shares": 3683018,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051102.json",
-            "tier": 2,
-            "company_website_url": "https://www.doseology.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "RB",
-            "listing_date": "2023-09-05",
-            "trading_date": "2023-09-05",
-            "status": "Active",
-            "security_name": "Rumble Resources Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 17427000,
-            "reserved_shares": 13347500,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054900.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "ACM",
-            "listing_date": "2018-11-14",
-            "trading_date": "2025-04-30",
-            "status": "Active",
-            "security_name": "Allied Critical Metals Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 110110136,
-            "reserved_shares": 24199916,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000037081.json",
-            "tier": 2,
-            "company_website_url": "https://www.alliedcritical.com"
         }
     ],
     "full_list": [
@@ -1824,8 +1794,8 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 109741063,
-            "reserved_shares": 40690902,
+            "outstanding_shares": 109841063,
+            "reserved_shares": 40590902,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -4807,8 +4777,8 @@
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 155144986,
-            "reserved_shares": 42943692,
+            "outstanding_shares": 229647433,
+            "reserved_shares": 54775280,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -6066,8 +6036,8 @@
                 "Cannabis"
             ],
             "currency": "CAD",
-            "outstanding_shares": 456813473,
-            "reserved_shares": 54407500,
+            "outstanding_shares": 45681289,
+            "reserved_shares": 5390750,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -7952,15 +7922,19 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 31035100,
-            "reserved_shares": 6157460,
+            "outstanding_shares": 3103510,
+            "reserved_shares": 615746,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-07-30",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048359.json",
             "tier": 2,
             "company_website_url": "https://www.metaliteresources.com/"
@@ -11023,8 +10997,8 @@
             "sector": "CleanTech",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 315576095,
-            "reserved_shares": 167352398,
+            "outstanding_shares": 317898883,
+            "reserved_shares": 222836398,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
