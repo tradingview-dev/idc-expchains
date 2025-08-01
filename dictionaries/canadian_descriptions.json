@@ -1,70 +1,23 @@
 {
-    "date": "2025-07-30",
-    "deletions": [],
+    "date": "2025-07-31",
+    "deletions": [
+        "ORI",
+        "GNEM"
+    ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "PLUG",
-            "listing_date": "2015-07-02",
-            "trading_date": "2015-09-18",
+            "symbol": "GMC",
+            "listing_date": "2018-06-28",
+            "trading_date": "2018-06-28",
             "status": "Active",
-            "security_name": "Energy Plug Technologies Corp.",
+            "security_name": "Germanium Mining Corp.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 109841063,
-            "reserved_shares": 40590902,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000030610.json",
-            "tier": 2,
-            "company_website_url": "http://www.energyplug.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "SOL",
-            "listing_date": "2018-08-15",
-            "trading_date": "2018-08-15",
-            "status": "Active",
-            "security_name": "SOL Global Investments Corp.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 229647433,
-            "reserved_shares": 54775280,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033348.json",
-            "tier": 2,
-            "company_website_url": "https://solglobal.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "CVGR",
-            "listing_date": "2019-03-05",
-            "trading_date": "2019-03-05",
-            "status": "Active",
-            "security_name": "City View Green Holdings Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 45681289,
-            "reserved_shares": 5390750,
+            "outstanding_shares": 11115858,
+            "reserved_shares": 2456906,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -72,13 +25,40 @@
             },
             "index": "No",
             "recent_change": {
-                "effective_on": "2025-07-03",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
+                "effective_on": "2025-06-10",
+                "text": "formerly was MUSK/Musk Metals Corp until 2025-06-09",
+                "until": "2025-06-09",
+                "symbol_was": "MUSK",
+                "name_was": "Musk Metals Corp",
+                "type": "symbol, name and CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000031657.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000037445.json",
             "tier": 2,
-            "company_website_url": "http://www.cityviewgreen.ca"
+            "company_website_url": "http://www.muskmetals.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SPTZ",
+            "listing_date": "2019-03-18",
+            "trading_date": "2019-03-18",
+            "status": "Active",
+            "security_name": "Spetz Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 48730691,
+            "reserved_shares": 14480234,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000011635.json",
+            "tier": 2,
+            "company_website_url": "https://www.sonicstrategy.io/"
         },
         {
             "listing_market": "CSE",
@@ -115,55 +95,75 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "METL",
-            "listing_date": "2020-04-09",
-            "trading_date": "2020-04-14",
+            "symbol": "PRME",
+            "listing_date": "2020-08-10",
+            "trading_date": "2020-08-10",
             "status": "Active",
-            "security_name": "Metalite Resources Inc.",
+            "security_name": "Prime Drink Group Corp.",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 363409892,
+            "reserved_shares": 2976680,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Integral Wealth Securities Limited",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048888.json",
+            "tier": 2,
+            "company_website_url": "http://www.prime-group.ca"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "PRIZ",
+            "listing_date": "2020-09-29",
+            "trading_date": "2020-10-01",
+            "status": "Active",
+            "security_name": "Prismo Metals Inc",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 3103510,
-            "reserved_shares": 615746,
+            "outstanding_shares": 71382686,
+            "reserved_shares": 10592833,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+                "dealer name": "Independent Trading Group",
+                "type": "full"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2025-07-30",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000048359.json",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049537.json",
             "tier": 2,
-            "company_website_url": "https://www.metaliteresources.com/"
+            "company_website_url": "http://prismometals.com/"
         },
         {
             "listing_market": "CSE",
-            "symbol": "NVRO",
-            "listing_date": "2011-11-17",
-            "trading_date": "2021-07-16",
+            "symbol": "PM",
+            "listing_date": "2020-12-14",
+            "trading_date": "2020-12-14",
             "status": "Active",
-            "security_name": "EnviroGold Global Limited",
+            "security_name": "Pampa Metals Corporation",
             "security_type": "Equity",
-            "sector": "CleanTech",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 317898883,
-            "reserved_shares": 222836398,
+            "outstanding_shares": 211000000,
+            "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
+                "type": "full"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000022452.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000022973.json",
             "tier": 2,
-            "company_website_url": "http://www.envirogoldglobal.com"
+            "company_website_url": "http://www.pampametals.com"
         },
         {
             "listing_market": "CSE",
@@ -195,6 +195,161 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029438.json",
             "tier": 2,
             "company_website_url": "https://www.intellistake.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "PMS",
+            "listing_date": "2022-01-17",
+            "trading_date": "2022-01-17",
+            "status": "Active",
+            "security_name": "Prisma Exploration Inc",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 7160901,
+            "reserved_shares": 3200000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051834.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "URM",
+            "listing_date": "2022-01-27",
+            "trading_date": "2022-01-31",
+            "status": "Active",
+            "security_name": "First American Uranium Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 12247181,
+            "reserved_shares": 200000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-04-04",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052274.json",
+            "tier": 2,
+            "company_website_url": "https://firstamericanuranium.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "ASHL",
+            "listing_date": "2022-04-28",
+            "trading_date": "2022-05-02",
+            "status": "Active",
+            "security_name": "Ashley Gold Corp",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 60755752,
+            "reserved_shares": 24851713,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "National Bank Financial Inc.",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053521.json",
+            "tier": 2,
+            "company_website_url": "https://www.ashleygoldcorp.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "VIK",
+            "listing_date": "2021-03-05",
+            "trading_date": "2022-06-30",
+            "status": "Suspended",
+            "security_name": "Avila Energy Corporation",
+            "security_type": "Equity",
+            "sector": "Oil and Gas",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 226490954,
+            "reserved_shares": 20238050,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029803.json",
+            "tier": 2,
+            "company_website_url": "http://www.avilaenergy.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "ERKA",
+            "listing_date": "2022-07-04",
+            "trading_date": "2022-07-04",
+            "status": "Active",
+            "security_name": "Eureka Lithium Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 22094396,
+            "reserved_shares": 1078035,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054609.json",
+            "tier": 2,
+            "company_website_url": "https://eurekalithiumcorp.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "NUKE",
+            "listing_date": "2025-01-22",
+            "trading_date": "2025-01-24",
+            "status": "Active",
+            "security_name": "American Atomics Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 46200879,
+            "reserved_shares": 1500000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2025-07-31",
+                "text": "formerly was GNEM/Great Northern Energy Metals Inc. until 2025-07-30",
+                "until": "2025-07-30",
+                "symbol_was": "GNEM",
+                "name_was": "Great Northern Energy Metals Inc.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000105149.json",
+            "tier": 2,
+            "company_website_url": null
         }
     ],
     "full_list": [
@@ -4516,8 +4671,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 5118315,
-            "reserved_shares": 706906,
+            "outstanding_shares": 11115858,
+            "reserved_shares": 2456906,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -5183,32 +5338,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000014941.json",
             "tier": 2,
             "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "ORI",
-            "listing_date": "2018-10-17",
-            "trading_date": "2018-10-17",
-            "status": "Halted Pending Fundamental Change",
-            "security_name": "Orion Nutraceuticals Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 29307965,
-            "reserved_shares": 0,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045431.json",
-            "tier": 2,
-            "company_website_url": "http://www.orionnutra.ca"
         },
         {
             "listing_market": "CSE",
@@ -6089,7 +6218,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 48730691,
-            "reserved_shares": 14347221,
+            "reserved_shares": 14480234,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -8627,8 +8756,8 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 353409892,
-            "reserved_shares": 23263480,
+            "outstanding_shares": 363409892,
+            "reserved_shares": 2976680,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Integral Wealth Securities Limited",
@@ -8966,7 +9095,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 59731962,
+            "outstanding_shares": 71382686,
             "reserved_shares": 10592833,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -9385,7 +9514,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 107473718,
+            "outstanding_shares": 211000000,
             "reserved_shares": 0,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -12801,7 +12930,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 7160901,
-            "reserved_shares": 2500000,
+            "reserved_shares": 3200000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -12948,8 +13077,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 12147181,
-            "reserved_shares": 1099771,
+            "outstanding_shares": 12247181,
+            "reserved_shares": 200000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -13741,8 +13870,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 57940419,
-            "reserved_shares": 23383546,
+            "outstanding_shares": 60755752,
+            "reserved_shares": 24851713,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
@@ -14161,8 +14290,8 @@
             "sector": "Oil and Gas",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 163681454,
-            "reserved_shares": 24288354,
+            "outstanding_shares": 226490954,
+            "reserved_shares": 20238050,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -14213,7 +14342,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 10108458,
+            "outstanding_shares": 22094396,
             "reserved_shares": 1078035,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -18422,11 +18551,11 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "GNEM",
+            "symbol": "NUKE",
             "listing_date": "2025-01-22",
             "trading_date": "2025-01-24",
             "status": "Active",
-            "security_name": "Great Northern Energy Metals Inc.",
+            "security_name": "American Atomics Inc.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
@@ -18439,7 +18568,14 @@
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-07-31",
+                "text": "formerly was GNEM/Great Northern Energy Metals Inc. until 2025-07-30",
+                "until": "2025-07-30",
+                "symbol_was": "GNEM",
+                "name_was": "Great Northern Energy Metals Inc.",
+                "type": "symbol, name and CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000105149.json",
             "tier": 2,
             "company_website_url": null
