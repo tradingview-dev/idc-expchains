@@ -76,11 +76,16 @@ class CorpactsDataGenerator(DataGenerator):
         try:
             file_writer(corpacts_data, corpacts_name)
         except IOError as e:
-            self._logger(e)
+            self._logger.error(e)
             raise e
 
         last_corpacts_name = "LastCorpActs.tab"
         last_corpacts = self._calc_last_corpact(corpacts_data)
+        if len(last_corpacts) < 100_000:
+            e = Exception(f"Too small resulting {last_corpacts_name}")
+            self._logger.error(e)
+            raise e
+
         self._write_last_corpacts(last_corpacts, last_corpacts_name)
 
         return [corpacts_name, last_corpacts_name]
