@@ -6,17 +6,17 @@ from botocore.exceptions import NoCredentialsError
 from lib.LoggableRequester import LoggableRequester
 
 
-def run_storage_download(snapshot_name, file_path):
-    baseurl = "https://tradingview-sourcedata-storage.xtools.tv/external"
+def run_storage_download(snapshot_dir, snapshot_name, file_path):
+    baseurl = "https://tradingview-sourcedata-storage.xtools.tv"
 
-    url = f"{baseurl}/{snapshot_name}.tar.gz"
+    url = f"{baseurl}/{snapshot_dir}/{snapshot_name}.tar.gz"
     resp = LoggableRequester().request(LoggableRequester.Methods.GET, url)
 
     with open(file_path, "wb") as f:
         f.write(resp.content)
 
 
-def run_s3_upload(file_path, snapshot_name):
+def run_s3_upload(file_path, state_dir, snapshot_name):
     environment = os.environ['ENVIRONMENT']
 
     if environment == "production":
@@ -39,7 +39,7 @@ def run_s3_upload(file_path, snapshot_name):
 
     # Extract bucket name and object key from the baseurl
     bucket_name = baseurl.split('/')[2]  # Extract the bucket name from the URL
-    object_key = '/'.join(baseurl.split('/')[3:]) + 'external/' + snapshot_name + '.tar.gz'  # Build the object key
+    object_key = '/'.join(baseurl.split('/')[3:]) + state_dir + '/' + snapshot_name + '.tar.gz'  # Build the object key
 
     # Upload the archive to the S3 bucket
     try:
@@ -51,7 +51,7 @@ def run_s3_upload(file_path, snapshot_name):
         raise RuntimeError(f"An error occurred while uploading to S3", e) from e
 
 
-def run_s3_process_snapshot(files, snapshot_name):
+def run_s3_process_snapshot(files, snapshot_dir, snapshot_name):
     # Define the archive name with .tar.gz extension
     archive_name = f"{snapshot_name}.tar.gz"
 
@@ -73,7 +73,7 @@ def run_s3_process_snapshot(files, snapshot_name):
                     print(f"Warning: {file} does not exist and will not be added to the archive.")
 
         print(f"Created archive {archive_name}")
-        run_s3_upload(archive_name, snapshot_name)
+        run_s3_upload(archive_name, snapshot_dir, snapshot_name)
     except Exception as e:
         raise RuntimeError(f"Error while creating tar.gz file", e) from e
 

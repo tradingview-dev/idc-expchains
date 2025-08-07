@@ -4,6 +4,8 @@
 import argparse
 import enum
 import os
+import shutil
+import tarfile
 import tempfile
 
 from adx import ADXDataGenerator
@@ -27,6 +29,7 @@ from taipei import TaipeiDataGenerator
 from tokyo import TokyoDataGenerator
 from twse import TwseDataGenerator
 from otc import OtcDataGenerator
+from corpacts import CorpactsDataGenerator
 from upload_to_bucket import run_s3_process_snapshot, run_storage_download, run_s3_upload
 from utils import git_commit
 
@@ -63,6 +66,7 @@ def main(args, logger):
         "cme": {"handlers": [{"generator": CMEDataGenerator().generate}]},
         "cboe": {"handlers": [{"generator": CBOEDataGenerator().generate}]},
         "otc": {"handlers": [{"generator": OtcDataGenerator(args.branch).generate}]},
+        "corpacts": {"handlers": [{"generator": CorpactsDataGenerator().generate, "state_dir": "tvc"}]},
     }
     cluster_name = args.data_cluster
     data_cluster = data_clusters.get(cluster_name)
@@ -71,22 +75,35 @@ def main(args, logger):
         return Codes.ERROR
 
     if args.copy:
-        return download_and_upload(data_cluster, cluster_name)
+        return download_and_upload(data_cluster, cluster_name, args.branch)
 
     return generate_and_upload(data_cluster, cluster_name, args.branch)
 
 
-def download_and_upload(data_cluster, cluster_name):
+def download_and_upload(data_cluster, cluster_name, git_branch):
     for handler in data_cluster['handlers']:
         state_name = handler.get('state', cluster_name)
+        state_dir = handler.get('state_dir', "external")
         with tempfile.NamedTemporaryFile(delete_on_close=False) as tmp_file:
             tmp_file.close()
             try:
-                logger.info(f"Copying state {state_name}")
-                run_storage_download(state_name, tmp_file.name)
-                run_s3_upload(tmp_file.name, state_name)
+                logger.info(f"Copying state {state_dir}/{state_name}")
+                run_storage_download(state_dir, state_name, tmp_file.name)
+                run_s3_upload(tmp_file.name, state_dir, state_name)
+
+                with tempfile.TemporaryDirectory() as tmp_dir:
+                    logger.info(f"Unpacking {tmp_file.name}.tar.gz")
+                    with tarfile.open(tmp_file.name, "r:gz") as tar:
+                        tar.extractall(path=tmp_dir.name)
+                        tar.close()
+                    files = os.listdir(tmp_dir)
+                    for fn in files:
+                        logger.info(f"Copying {fn} from archive to working directory")
+                        shutil.copy(os.path.join(tmp_dir, fn), os.path.join(".", fn))
+
+                git_commit(files, git_branch)
             except Exception as e:
-                logger.error(f"Failed to download and upload '{state_name}' data CAUSED BY: {e}")
+                logger.error(f"Failed to download and upload '{state_dir}/{state_name}' data CAUSED BY: {e}")
                 return Codes.ERROR
 
     return Codes.OK
@@ -102,10 +119,11 @@ def generate_and_upload(data_cluster, cluster_name, git_branch):
             return Codes.ERROR
         files_to_commit.extend(files)
         state_name = handler.get('state', cluster_name)
+        state_dir = handler.get('state_dir', "external")
         try:
-            run_s3_process_snapshot(files, state_name)
+            run_s3_process_snapshot(files, state_dir, state_name)
         except Exception as e:
-            logger.error(f"Failed to update {','.join(files)} files into '{state_name}' state for '{cluster_name}' data cluster CAUSED BY: {e}")
+            logger.error(f"Failed to update {','.join(files)} files into '{state_dir}/{state_name}' state for '{cluster_name}' data cluster CAUSED BY: {e}")
             return Codes.ERROR
 
     try:
