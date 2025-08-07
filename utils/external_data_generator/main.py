@@ -94,7 +94,7 @@ def download_and_upload(data_cluster, cluster_name, git_branch):
                 with tempfile.TemporaryDirectory() as tmp_dir:
                     logger.info(f"Unpacking {tmp_file.name}")
                     with tarfile.open(tmp_file.name, "r") as tar:
-                        tar.extractall(path=tmp_dir.name)
+                        tar.extractall(path=tmp_dir)
                         tar.close()
                     files = os.listdir(tmp_dir)
                     for fn in files:
