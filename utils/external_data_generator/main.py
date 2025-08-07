@@ -84,7 +84,7 @@ def download_and_upload(data_cluster, cluster_name, git_branch):
     for handler in data_cluster['handlers']:
         state_name = handler.get('state', cluster_name)
         state_dir = handler.get('state_dir', "external")
-        with tempfile.NamedTemporaryFile(delete_on_close=False) as tmp_file:
+        with tempfile.NamedTemporaryFile(suffix=".tar.gz", delete=False) as tmp_file:
             tmp_file.close()
             try:
                 logger.info(f"Copying state {state_dir}/{state_name}")
@@ -92,7 +92,7 @@ def download_and_upload(data_cluster, cluster_name, git_branch):
                 run_s3_upload(tmp_file.name, state_dir, state_name)
 
                 with tempfile.TemporaryDirectory() as tmp_dir:
-                    logger.info(f"Unpacking {tmp_file.name}.tar.gz")
+                    logger.info(f"Unpacking {tmp_file.name}")
                     with tarfile.open(tmp_file.name, "r:gz") as tar:
                         tar.extractall(path=tmp_dir.name)
                         tar.close()
