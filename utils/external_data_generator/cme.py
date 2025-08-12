@@ -156,6 +156,7 @@ class CmeFuturesParser(CmeProductsParser):
                     description = product['name']
                     group = product['group']
                     subGroup = product['subGroup']
+                    Clearing = product['Clearing']
 
                     file.write(f"{root};{description};{group};{subGroup}\n")
 
