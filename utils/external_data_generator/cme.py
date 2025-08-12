@@ -132,7 +132,7 @@ class CmeFuturesParser(CmeProductsParser):
 
     def parse_symbols(self) -> None:
         with open(self.get_filename, "w", encoding="utf-8") as file:
-            file.write("prodCode;name;Group;Sub Group\n")
+            file.write("Clearing;prodCode;name;Group;Sub Group\n")
             total_pages = self.get_total_pages()
             requester = LoggableRequester(self._logger, timeout=10)
             for i in range(1, total_pages + 1):
@@ -156,9 +156,9 @@ class CmeFuturesParser(CmeProductsParser):
                     description = product['name']
                     group = product['group']
                     subGroup = product['subGroup']
-                    Clearing = product['Clearing']
+                    Clearing = product['clearing']
 
-                    file.write(f"{root};{description};{group};{subGroup}\n")
+                    file.write(f"{Clearing};{root};{description};{group};{subGroup}\n")
 
 
 class CMEDataGenerator(DataGenerator):
