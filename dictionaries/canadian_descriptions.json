@@ -1,85 +1,7 @@
 {
-    "date": "2025-08-13",
-    "deletions": [
-        "PKG"
-    ],
+    "date": "2025-08-14",
+    "deletions": [],
     "adds_and_changes": [
-        {
-            "listing_market": "CSE",
-            "symbol": "SCYB",
-            "listing_date": "2018-07-09",
-            "trading_date": "2015-09-01",
-            "status": "Active",
-            "security_name": "Scryb Inc.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 32318731,
-            "reserved_shares": 12701100,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2025-08-13",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000007651.json",
-            "tier": 2,
-            "company_website_url": "http://scryb.ca"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "BLGV",
-            "listing_date": "2017-11-23",
-            "trading_date": "2017-11-23",
-            "status": "Active",
-            "security_name": "Belgravia Hartford Capital Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 133505837,
-            "reserved_shares": 26954825,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000021118.json",
-            "tier": 2,
-            "company_website_url": "http://www.belgraviahartford.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "GOCO",
-            "listing_date": "2017-12-08",
-            "trading_date": "2017-12-08",
-            "status": "Active",
-            "security_name": "Go Metals Corp",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 26660615,
-            "reserved_shares": 2550000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033312.json",
-            "tier": 2,
-            "company_website_url": "http://gometals.ca"
-        },
         {
             "listing_market": "CSE",
             "symbol": "QNTM",
@@ -99,45 +21,41 @@
                 "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-08-15",
-                "text": "formerly was HUGE/FSD Pharma Inc. Subordinate Voting Shares until 2024-08-14",
-                "until": "2024-08-14",
-                "symbol_was": "HUGE",
-                "name_was": "FSD Pharma Inc. Subordinate Voting Shares",
-                "type": "symbol, name and CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000000184.json",
             "tier": 2,
             "company_website_url": "http://www.quantumbiopharma.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "AETH",
-            "listing_date": "2016-03-10",
-            "trading_date": "2018-11-01",
+            "symbol": "ARMY",
+            "listing_date": "2018-08-22",
+            "trading_date": "2018-08-24",
             "status": "Active",
-            "security_name": "Aether Global Innovations Corp.",
+            "security_name": "Armory Mining Corp.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 12480456,
-            "reserved_shares": 5983086,
+            "outstanding_shares": 50836665,
+            "reserved_shares": 6991361,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
             },
             "index": "No",
             "recent_change": {
-                "effective_on": "2025-08-12",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
+                "effective_on": "2024-11-19",
+                "text": "formerly was SPEY/Spey Resources Corp. until 2024-11-18",
+                "until": "2024-11-18",
+                "symbol_was": "SPEY",
+                "name_was": "Spey Resources Corp.",
+                "type": "symbol, name and CUSIP"
             },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032718.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044983.json",
             "tier": 2,
-            "company_website_url": "https://aethergic.com/"
+            "company_website_url": "https://armorymining.com/"
         },
         {
             "listing_market": "CSE",
@@ -174,54 +92,31 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "RWB",
-            "listing_date": "2018-06-25",
-            "trading_date": "2020-06-05",
-            "status": "Suspended",
-            "security_name": "Red White & Bloom Brands Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "Cannabis",
-                "US Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 470221901,
-            "reserved_shares": 15015000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000004092.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "WISE",
-            "listing_date": "2021-04-15",
-            "trading_date": "2021-04-19",
+            "symbol": "SI",
+            "listing_date": "2021-08-11",
+            "trading_date": "2021-08-16",
             "status": "Active",
-            "security_name": "Earthwise Minerals Corp.",
+            "security_name": "Silicon Metals Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 29490615,
-            "reserved_shares": 3977500,
+            "outstanding_shares": 43093615,
+            "reserved_shares": 17940147,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050197.json",
+            "recent_change": {
+                "effective_on": "2025-03-03",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052341.json",
             "tier": 2,
-            "company_website_url": null
+            "company_website_url": "http://www.siliconmetalscorp.com"
         },
         {
             "listing_market": "CSE",
@@ -256,82 +151,27 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "UDOC",
-            "listing_date": "2021-12-13",
-            "trading_date": "2021-12-13",
+            "symbol": "AICO",
+            "listing_date": "2021-05-04",
+            "trading_date": "2023-04-19",
             "status": "Suspended",
-            "security_name": "UniDoc Health Corp.",
+            "security_name": "Generative AI Solutions Corp.",
             "security_type": "Equity",
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 76350090,
-            "reserved_shares": 4506600,
+            "outstanding_shares": 77393513,
+            "reserved_shares": 10735284,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Integral Wealth Securities Limited",
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052703.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051791.json",
             "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "STMN",
-            "listing_date": "2023-01-24",
-            "trading_date": "2023-01-24",
-            "status": "Active",
-            "security_name": "Stearman Resources Inc.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 22067000,
-            "reserved_shares": 9400000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055111.json",
-            "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "PRNC",
-            "listing_date": "2023-02-22",
-            "trading_date": "2023-02-24",
-            "status": "Active",
-            "security_name": "Prince Silver Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 46211440,
-            "reserved_shares": 19353650,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2025-07-11",
-                "text": "formerly was HWTN/Hawthorn Resources Corp. until 2025-07-10",
-                "until": "2025-07-10",
-                "symbol_was": "HWTN",
-                "name_was": "Hawthorn Resources Corp.",
-                "type": "symbol, name and CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055169.json",
-            "tier": 2,
-            "company_website_url": "https://princesilvercorp.com/"
+            "company_website_url": "https://www.genai-solutions.com"
         },
         {
             "listing_market": "CSE",
@@ -352,7 +192,7 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": null,
+            "recent_change": {},
             "sedar_filings": null,
             "tier": 2,
             "company_website_url": "https://www.goldcana.com"
@@ -4387,14 +4227,7 @@
                 "type": "full"
             },
             "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-08-15",
-                "text": "formerly was HUGE/FSD Pharma Inc. Subordinate Voting Shares until 2024-08-14",
-                "until": "2024-08-14",
-                "symbol_was": "HUGE",
-                "name_was": "FSD Pharma Inc. Subordinate Voting Shares",
-                "type": "symbol, name and CUSIP"
-            },
+            "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000000184.json",
             "tier": 2,
             "company_website_url": "http://www.quantumbiopharma.com"
@@ -4976,7 +4809,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 38196665,
+            "outstanding_shares": 50836665,
             "reserved_shares": 6991361,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -11355,8 +11188,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 19443615,
-            "reserved_shares": 8698146,
+            "outstanding_shares": 43093615,
+            "reserved_shares": 17940147,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -16189,7 +16022,7 @@
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051791.json",
             "tier": 2,
@@ -19192,7 +19025,7 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": null,
+            "recent_change": {},
             "sedar_filings": null,
             "tier": 2,
             "company_website_url": "https://www.goldcana.com"
