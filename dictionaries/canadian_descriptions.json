@@ -1,106 +1,32 @@
 {
-    "date": "2025-08-15",
-    "deletions": [],
+    "date": "2025-08-18",
+    "deletions": [
+        "VEJI.X"
+    ],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "BDR",
-            "listing_date": "2006-03-16",
-            "trading_date": "2015-10-09",
+            "symbol": "AGC",
+            "listing_date": "2015-08-24",
+            "trading_date": "2015-09-03",
             "status": "Active",
-            "security_name": "Bird River Resources Inc.",
-            "security_type": "Equity",
-            "sector": "Oil and Gas",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 45025939,
-            "reserved_shares": 1500000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000021598.json",
-            "tier": 2,
-            "company_website_url": "http://www.birdriver.net"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "QMET",
-            "listing_date": "2017-11-08",
-            "trading_date": "2017-11-10",
-            "status": "Active",
-            "security_name": "Q Precious & Battery Metals Corp.",
+            "security_name": "Avanti Gold Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 89690827,
-            "reserved_shares": 5529436,
+            "outstanding_shares": 123855050,
+            "reserved_shares": 59787765,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
+                "dealer name": "Virtu Canada Corp.",
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {
-                "effective_on": "2024-10-01",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000043142.json",
-            "tier": 2,
-            "company_website_url": "https://www.qmetalscorp.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "AXCP",
-            "listing_date": "2014-12-31",
-            "trading_date": "2018-03-14",
-            "status": "Active",
-            "security_name": "Axcap Ventures Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 304629698,
-            "reserved_shares": 267355566,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000004744.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000036483.json",
             "tier": 2,
-            "company_website_url": "https://axcapventures.ca"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TOC",
-            "listing_date": "2019-02-28",
-            "trading_date": "2019-03-01",
-            "status": "Active",
-            "security_name": "Tocvan Ventures Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 62125021,
-            "reserved_shares": 27247275,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000046469.json",
-            "tier": 2,
-            "company_website_url": null
+            "company_website_url": "https://www.avantigoldcorp.com"
         },
         {
             "listing_market": "CSE",
@@ -137,6 +63,78 @@
         },
         {
             "listing_market": "CSE",
+            "symbol": "PRIZ",
+            "listing_date": "2020-09-29",
+            "trading_date": "2020-10-01",
+            "status": "Active",
+            "security_name": "Prismo Metals Inc",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 83647686,
+            "reserved_shares": 10592833,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049537.json",
+            "tier": 2,
+            "company_website_url": "http://prismometals.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "GCP",
+            "listing_date": "2020-12-23",
+            "trading_date": "2020-12-23",
+            "status": "Active",
+            "security_name": "Golcap Resources Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 25092334,
+            "reserved_shares": 8378333,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050272.json",
+            "tier": 2,
+            "company_website_url": "https://www.golcapresources.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "GOAT",
+            "listing_date": "2021-09-16",
+            "trading_date": "2021-09-16",
+            "status": "Active",
+            "security_name": "GOAT Industries Ltd",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 14117080,
+            "reserved_shares": 7811888,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051047.json",
+            "tier": 2,
+            "company_website_url": "https://www.goatindustries.co/"
+        },
+        {
+            "listing_market": "CSE",
             "symbol": "ISTK",
             "listing_date": "2021-11-08",
             "trading_date": "2021-11-08",
@@ -168,13 +166,147 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "VEJI.X",
-            "listing_date": "2021-11-10",
-            "trading_date": "2021-11-10",
+            "symbol": "MYTC",
+            "listing_date": "2022-02-24",
+            "trading_date": "2022-02-24",
             "status": "Active",
-            "security_name": "Veji Holdings Ltd.",
+            "security_name": "MyndTec Inc.",
             "security_type": "Equity",
-            "sector": null,
+            "sector": "Life Sciences",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 28300676,
+            "reserved_shares": 1732568,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052756.json",
+            "tier": 2,
+            "company_website_url": "https://www.myndtec.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "BBRD",
+            "listing_date": "2022-04-11",
+            "trading_date": "2022-04-11",
+            "status": "Halted Pending Fundamental Change",
+            "security_name": "Blackbird Critical Metals Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 5950757,
+            "reserved_shares": 951217,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2024-12-20",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051937.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "FNDX",
+            "listing_date": "2023-03-20",
+            "trading_date": "2023-03-20",
+            "status": "Active",
+            "security_name": "FendX Technologies Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 9001965,
+            "reserved_shares": 3437212,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2025-08-18",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054005.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "GSTR",
+            "listing_date": "2024-07-24",
+            "trading_date": "2024-07-26",
+            "status": "Active",
+            "security_name": "Glenstar Minerals Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 32339828,
+            "reserved_shares": 7809284,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2025-04-07",
+                "text": "formerly was GSTR/Glenstar Ventures Inc. until 2025-04-04",
+                "until": "2025-04-04",
+                "name_was": "Glenstar Ventures Inc.",
+                "type": "name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103797.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "FOMO",
+            "listing_date": "2024-10-18",
+            "trading_date": "2024-10-18",
+            "status": "Active",
+            "security_name": "Formation Metals Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 61092279,
+            "reserved_shares": 34043985,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Virtu Canada Corp.",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056874.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "STIF",
+            "listing_date": "2021-11-10",
+            "trading_date": "2025-08-18",
+            "status": "Active",
+            "security_name": "Plaid Technologies Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 16549173,
@@ -185,88 +317,10 @@
                 "type": "odd lot only"
             },
             "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051700.json",
+            "recent_change": null,
+            "sedar_filings": null,
             "tier": 2,
-            "company_website_url": null
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TERA",
-            "listing_date": "2022-06-20",
-            "trading_date": "2022-06-20",
-            "status": "Active",
-            "security_name": "Terra Balcanica Resources Corp.",
-            "security_type": "Equity",
-            "sector": "Mining",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 67445104,
-            "reserved_shares": 28495906,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053179.json",
-            "tier": 2,
-            "company_website_url": "https://terrabresources.com/en/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TNJ",
-            "listing_date": "2021-01-18",
-            "trading_date": "2024-04-26",
-            "status": "Active",
-            "security_name": "Boba Mint Holdings Ltd.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 100530212,
-            "reserved_shares": 4106000,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2024-12-16",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049806.json",
-            "tier": 2,
-            "company_website_url": "https://www.bobamintco.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "NURL",
-            "listing_date": "2025-03-17",
-            "trading_date": "2025-03-17",
-            "status": "Active",
-            "security_name": "Neural Therapeutics Inc.",
-            "security_type": "Equity",
-            "sector": "Diversified Industries",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 168700484,
-            "reserved_shares": 31203436,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000056733.json",
-            "tier": 2,
-            "company_website_url": "http://www.neuraltherapeutics.ca"
+            "company_website_url": "https://www.plaidtechnologiesinc.com"
         }
     ],
     "full_list": [
@@ -1394,8 +1448,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 122895050,
-            "reserved_shares": 56287765,
+            "outstanding_shares": 123855050,
+            "reserved_shares": 59787765,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -8999,7 +9053,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 71382686,
+            "outstanding_shares": 83647686,
             "reserved_shares": 10592833,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -9450,7 +9504,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 25092334,
-            "reserved_shares": 6878324,
+            "reserved_shares": 8378333,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -11562,8 +11616,8 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 13887080,
-            "reserved_shares": 8011888,
+            "outstanding_shares": 14117080,
+            "reserved_shares": 7811888,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -12150,30 +12204,6 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029438.json",
             "tier": 2,
             "company_website_url": "https://www.intellistake.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "VEJI.X",
-            "listing_date": "2021-11-10",
-            "trading_date": "2021-11-10",
-            "status": "Active",
-            "security_name": "Veji Holdings Ltd.",
-            "security_type": "Equity",
-            "sector": null,
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 16549173,
-            "reserved_shares": 2458250,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "odd lot only"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051700.json",
-            "tier": 2,
-            "company_website_url": null
         },
         {
             "listing_market": "CSE",
@@ -13289,8 +13319,8 @@
             "sector": "Life Sciences",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 27612066,
-            "reserved_shares": 1663707,
+            "outstanding_shares": 28300676,
+            "reserved_shares": 1732568,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -13647,7 +13677,7 @@
             "symbol": "BBRD",
             "listing_date": "2022-04-11",
             "trading_date": "2022-04-11",
-            "status": "Active",
+            "status": "Halted Pending Fundamental Change",
             "security_name": "Blackbird Critical Metals Corp.",
             "security_type": "Equity",
             "sector": "Mining",
@@ -15986,15 +16016,19 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 90019646,
-            "reserved_shares": 38522116,
+            "outstanding_shares": 9001965,
+            "reserved_shares": 3437212,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
-            "recent_change": {},
+            "recent_change": {
+                "effective_on": "2025-08-18",
+                "text": "CUSIP changed",
+                "type": "CUSIP"
+            },
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054005.json",
             "tier": 2,
             "company_website_url": null
@@ -17793,8 +17827,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 27156879,
-            "reserved_shares": 12992233,
+            "outstanding_shares": 32339828,
+            "reserved_shares": 7809284,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -18183,8 +18217,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 60799279,
-            "reserved_shares": 34347975,
+            "outstanding_shares": 61092279,
+            "reserved_shares": 34043985,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
@@ -19102,6 +19136,30 @@
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103970.json",
             "tier": 2,
             "company_website_url": "https://www.goldcana.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "STIF",
+            "listing_date": "2021-11-10",
+            "trading_date": "2025-08-18",
+            "status": "Active",
+            "security_name": "Plaid Technologies Inc.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 16549173,
+            "reserved_shares": 2458250,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": null,
+            "sedar_filings": null,
+            "tier": 2,
+            "company_website_url": "https://www.plaidtechnologiesinc.com"
         }
     ],
     "legal": {
