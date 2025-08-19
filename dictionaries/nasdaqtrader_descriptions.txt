@@ -254,7 +254,7 @@ AMZZ|GraniteShares 2x Long AMZN Daily ETF|G|N|N|100|Y|N
 ANAB|AnaptysBio, Inc. - Common Stock|Q|N|N|100|N|N
 ANDE|The Andersons, Inc. - Common Stock|Q|N|N|100|N|N
 ANEB|Anebulo Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
-ANGH|Anghami Inc. - Ordinary Shares|S|N|D|100|N|N
+ANGH|Anghami Inc. - Ordinary Shares|S|N|N|100|N|N
 ANGHW|Anghami Inc. - Warrants|S|N|N|100|N|N
 ANGI|Angi Inc. - Class A Common Stock|Q|N|N|100|N|N
 ANGL|VanEck Fallen Angel High Yield Bond ETF|G|N|N|100|Y|N
@@ -270,7 +270,7 @@ ANPA|Rich Sparkle Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 ANSC|Agriculture & Natural Solutions Acquisition Corporation - Class A Ordinary Shares|G|N|N|100|N|N
 ANSCU|Agriculture & Natural Solutions Acquisition Corporation - Unit|G|N|N|100|N|N
 ANSCW|Agriculture & Natural Solutions Acquisition Corporation - Warrant|G|N|N|100|N|N
-ANTA|Antalpha Platform Holding Company - Ordinary Shares|G|N|N|100|N|N
+ANTA|Antalpha Platform Holding Company - Class A Ordinary Shares|G|N|N|100|N|N
 ANTE|AirNet Technology Inc. - Ordinary Share|S|N|N|100|N|N
 ANTX|AN2 Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 ANY|Sphere 3D Corp. - Common Shares|S|N|D|100|N|N
@@ -1647,7 +1647,9 @@ FIBK|First Interstate BancSystem, Inc. - Common Stock|Q|N|N|100|N|N
 FICS|First Trust International Developed Capital Strength ETF|G|N|N|100|Y|N
 FID|First Trust S&P International Dividend Aristocrats ETF|G|N|N|100|Y|N
 FIEE|FiEE, Inc - Common Stock|S|N|N|100|N|N
+FIGX|FIGX Capital Acquisition Corp. - Class A ordinary share|G|N|N|100|N|N
 FIGXU|FIGX Capital Acquisition Corp. - Units|G|N|N|100|N|N
+FIGXW|FIGX Capital Acquisition Corp. - one-half of one redeemable warrant.|G|N|N|100|N|N
 FINE|Themes European Luxury ETF|G|N|N|100|Y|N
 FINW|FinWise Bancorp - Common Stock|G|N|N|100|N|N
 FINX|Global X FinTech ETF|G|N|N|100|Y|N
@@ -1775,7 +1777,7 @@ FTNT|Fortinet, Inc. - Common Stock|Q|N|N|100|N|N
 FTQI|First Trust Nasdaq BuyWrite Income ETF|G|N|N|100|Y|N
 FTRE|Fortrea Holdings Inc. - Common Stock|Q|N|N|100|N|N
 FTRI|First Trust Indxx Global Natural Resources Income ETF|G|N|N|100|Y|N
-FTRK|FAST TRACK GROUP - Ordinary shares|S|N|N|100|N|N
+FTRK|FAST TRACK GROUP - Ordinary shares|S|N|D|100|N|N
 FTSL|First Trust Senior Loan Fund|G|N|N|100|Y|N
 FTSM|First Trust Enhanced Short Maturity ETF|G|N|N|100|Y|N
 FTXG|First Trust Nasdaq Food & Beverage ETF|G|N|N|100|Y|N
@@ -2390,11 +2392,9 @@ IVA|Inventiva S.A. - American Depository Shares|G|N|N|100|N|N
 IVAL|Alpha Architect International Quantitative Value ETF|G|N|N|100|Y|N
 IVDA|Iveda Solutions, Inc. - Common Stock|S|N|D|100|N|N
 IVDAW|Iveda Solutions, Inc. - Warrant|S|N|D|100|N|N
-IVEG|iShares Emergent Food and AgTech Multisector ETF|G|N|N|100|Y|N
 IVF|INVO Fertility, Inc. - Common Stock|S|N|N|100|N|N
 IVP|Inspire Veterinary Partners, Inc. - Class A Common Stock|S|N|D|100|N|N
 IVVD|Invivyd, Inc. - Common Stock|G|N|D|100|N|N
-IWTR|iShares MSCI Water Management Multisector ETF|G|N|N|100|Y|N
 IXHL|Incannex Healthcare Inc. - Common Stock|S|N|D|100|N|N
 IXUS|iShares Core MSCI Total International Stock ETF|G|N|N|100|Y|N
 IZEA|IZEA Worldwide, Inc. - Common Stock|S|N|N|100|N|N
@@ -3018,7 +3018,7 @@ NBIX|Neurocrine Biosciences, Inc. - Common Stock|Q|N|N|100|N|N
 NBN|Northeast Bank - Common Stock|G|N|N|100|N|N
 NBTB|NBT Bancorp Inc. - Common Stock|Q|N|N|100|N|N
 NBTX|Nanobiotix S.A. - ADSs|Q|N|N|100|N|N
-NCEW|New Century Logistics (BVI) Limited - Ordinary Shares|S|N|N|100|N|N
+NCEW|New Century Logistics (BVI) Limited - Ordinary Shares|S|N|D|100|N|N
 NCI|Neo-Concept International Group Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
 NCIQ|Hashdex Nasdaq Crypto Index US ETF - Hashdex Nasdaq Crypto Index US ETF|G|N|N|100|N|N
 NCMI|National CineMedia, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4407,8 +4407,6 @@ TENX|Tenax Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TER|Teradyne, Inc. - Common Stock|Q|N|N|100|N|N
 TERN|Terns Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 TEXN|iShares Texas Equity ETF|G|N|N|100|Y|N
-TFIN|Triumph Financial, Inc. - Common Stock|Q|N|N|100|N|N
-TFINP|Triumph Financial, Inc. - Depositary Shares, Each Representing a 1/40th Interest in a Share of Series C Fixed-Rate Non-Cumulative Perpetual Preferred Stock|Q|N|N|100|N|N
 TFNS|T. Rowe Price Financials ETF|G|N|N|100|Y|N
 TFSL|TFS Financial Corporation - Common Stock|Q|N|N|100|N|N
 TGL|Treasure Global Inc. - Common Stock|S|N|D|100|N|N
@@ -4472,7 +4470,6 @@ TOYO|TOYO Co., Ltd - Ordinary Shares|S|N|N|100|N|N
 TPCS|TechPrecision Corporation - Common stock|S|N|N|100|N|N
 TPG|TPG Inc. - Class A Common Stock|Q|N|N|100|N|N
 TPGXL|TPG Inc. - 6.950% Fixed-Rate Junior Subordinated Notes due 2064|G|N|N|100|N|N
-TPIC|TPI Composites, Inc. - Common Stock|G|N|D|100|N|N
 TPLS|Thornburg Core Plus Bond ETF|G|N|N|100|Y|N
 TPST|Tempest Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TQQQ|ProShares UltraPro QQQ|G|N|N|100|Y|N
@@ -5040,4 +5037,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0818202507:00|||||||
+File Creation Time: 0819202507:00|||||||
