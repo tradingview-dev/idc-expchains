@@ -468,7 +468,7 @@ BAFN|BayFirst Financial Corp. - Common Stock|S|N|N|100|N|N
 BAND|Bandwidth Inc. - Class A Common Stock|Q|N|N|100|N|N
 BANF|BancFirst Corporation - Common Stock|Q|N|N|100|N|N
 BANFP|BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities|Q|N|N|100|N|N
-BANL|CBL International Limited - Ordinary Shares|S|N|N|100|N|N
+BANL|CBL International Limited - Ordinary Shares|S|N|D|100|N|N
 BANR|Banner Corporation - Common Stock|Q|N|N|100|N|N
 BANX|ArrowMark Financial Corp. - Closed End Fund|Q|N|D|100|N|N
 BAOS|Baosheng Media Group Holdings Limited - Ordinary shares|S|N|N|100|N|N
@@ -795,7 +795,7 @@ CARM|Carisma Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 CART|Maplebear Inc. - Common Stock|Q|N|N|100|N|N
 CARV|Carver Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 CARY|Angel Oak Income ETF|G|N|N|100|Y|N
-CARZ|First Trust S-Network Electric & Future Vehicle Ecosystem ETF|G|N|N|100|Y|N
+CARZ|First Trust S-Network Future Vehicles & Technology ETF|G|N|N|100|Y|N
 CASH|Pathward Financial, Inc. - Common Stock|Q|N|E|100|N|N
 CASI|CASI Pharmaceuticals, Inc. - Ordinary Shares|S|N|D|100|N|N
 CASK|Heritage Distilling Holding Company, Inc. - Common Stock|S|N|D|100|N|N
@@ -1087,7 +1087,6 @@ CREVW|Carbon Revolution Public Limited Company - Warrant|S|N|E|100|N|N
 CREX|Creative Realities, Inc. - Common Stock|S|N|N|100|N|N
 CRGO|Freightos Limited - Ordinary shares|S|N|N|100|N|N
 CRGOW|Freightos Limited - Warrants|S|N|N|100|N|N
-CRGX|CARGO Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 CRIS|Curis, Inc. - Common Stock|S|N|D|100|N|N
 CRMD|CorMedix Inc. - Common Stock|G|N|N|100|N|N
 CRMG|Leverage Shares 2X Long CRM Daily ETF|G|N|N|100|Y|N
@@ -1671,7 +1670,7 @@ FLD|Fold Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
 FLDB|Fidelity Low Duration Bond ETF|G|N|N|100|Y|N
 FLDDW|Fold Holdings, Inc. - Warrant|S|N|N|100|N|N
 FLEX|Flex Ltd. - Ordinary Shares|Q|N|N|100|N|N
-FLGC|Flora Growth Corp. - Common Stock|S|N|D|100|N|N
+FLGC|Flora Growth Corp. - Common Stock|S|N|N|100|N|N
 FLGT|Fulgent Genetics, Inc. - Common Stock|G|N|N|100|N|N
 FLL|Full House Resorts, Inc. - Common Stock|S|N|N|100|N|N
 FLN|First Trust Latin America AlphaDEX Fund|G|N|N|100|Y|N
@@ -2054,6 +2053,7 @@ HIDE|Alpha Architect High Inflation and Deflation ETF|G|N|N|100|Y|N
 HIFS|Hingham Institution for Savings - Common Stock|G|N|N|100|N|N
 HIHO|Highway Holdings Limited - Common Stock|S|N|N|100|N|N
 HIMX|Himax Technologies, Inc. - American depositary shares, each of which represents two ordinary shares.|Q|N|N|100|N|N
+HIMY|Defiance Leveraged Long Income HIMS ETF|G|N|N|100|Y|N
 HIMZ|Defiance Daily Target 2X Long HIMS ETF|G|N|N|100|Y|N
 HIND|Vyome Holdings, Inc. - Common Stock|S|N|N|100|N|N
 HISF|First Trust High Income Strategic Focus ETF|G|N|N|100|Y|N
@@ -2087,6 +2087,7 @@ HONDW|HCM II Acquisition Corp. - Warrant|G|N|N|100|N|N
 HONE|HarborOne Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 HOOD|Robinhood Markets, Inc. - Class A Common Stock|Q|N|N|100|N|N
 HOOG|Leverage Shares 2X Long HOOD Daily ETF|G|N|N|100|Y|N
+HOOI|Defiance Leveraged Long Income HOOD ETF|G|N|N|100|Y|N
 HOOX|Defiance Daily Target 2X Long HOOD ETF|G|N|N|100|Y|N
 HOPE|Hope Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 HOTH|Hoth Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
@@ -3506,6 +3507,7 @@ PLPC|Preformed Line Products Company - Common Stock|Q|N|N|100|N|N
 PLRX|Pliant Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 PLRZ|Polyrizon Ltd. - Ordinary Shares|S|N|N|100|N|N
 PLSE|Pulse Biosciences, Inc - Common Stock|S|N|N|100|N|N
+PLT|Defiance Leveraged Long Income PLTR ETF|G|N|N|100|Y|N
 PLTD|Direxion Daily PLTR Bear 1X Shares|G|N|N|100|Y|N
 PLTG|Leverage Shares 2X Long PLTR Daily ETF|G|N|N|100|Y|N
 PLTK|Playtika Holding Corp. - Common Stock|Q|N|N|100|N|N
@@ -4356,6 +4358,9 @@ TAVIR|Tavia Acquisition Corp. - Right|G|N|N|100|N|N
 TAVIU|Tavia Acquisition Corp. - Unit|G|N|N|100|N|N
 TAX|Cambria Tax Aware ETF|G|N|N|100|Y|N
 TAXE|Intermediate Municipal Income ETF|G|N|N|100|Y|N
+TAXI|Northern Trust Intermediate Tax-Exempt Bond ETF|G|N|N|100|Y|N
+TAXS|Northern Trust Short-Term Tax-Exempt Bond ETF|G|N|N|100|Y|N
+TAXT|Northern Trust Tax-Exempt Bond ETF|G|N|N|100|Y|N
 TAYD|Taylor Devices, Inc. - Common Stock|S|N|N|100|N|N
 TBBK|The Bancorp, Inc. - Common Stock|Q|N|N|100|N|N
 TBCH|Turtle Beach Corporation - Common Stock|G|N|N|100|N|N
@@ -4379,7 +4384,7 @@ TCHI|iShares MSCI China Multisector Tech ETF|G|N|N|100|Y|N
 TCMD|Tactile Systems Technology, Inc. - Common Stock|G|N|N|100|N|N
 TCOM|Trip.com Group Limited - American Depositary Shares|Q|N|N|100|N|N
 TCPC|BlackRock TCP Capital Corp. - Closed End Fund|Q|N|N|100|N|N
-TCRT|Alaunos Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
+TCRT|Alaunos Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TCRX|TScan Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 TCX|Tucows Inc. - Common Stock|S|N|N|100|N|N
 TDAC|Translational Development Acquisition Corp. - Ordinary Shares|G|N|N|100|N|N
@@ -4691,6 +4696,7 @@ VECO|Veeco Instruments Inc. - Common Stock|Q|N|N|100|N|N
 VEEA|Veea Inc. - Common Stock|G|N|N|100|N|N
 VEEAW|Veea Inc. - Warrant|S|N|N|100|N|N
 VEEE|Twin Vee PowerCats Co. - Common Stock|S|N|N|100|N|N
+VELO|Velo3D, Inc. - Common stock|S|N|N|100|N|N
 VEON|VEON Ltd. - American Depositary Shares|S|N|N|100|N|N
 VERA|Vera Therapeutics, Inc. - Class A Common Stock|G|N|N|100|N|N
 VERB|Verb Technology Company, Inc. - Common Stock|S|N|N|100|N|N
@@ -4971,6 +4977,7 @@ YJ|Yunji Inc. - American Depository Shares|S|N|N|100|N|N
 YLDE|Franklin ClearBridge Enhanced Income ETF|G|N|N|100|Y|N
 YMAB|Y-mAbs Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 YMAT|J-Star Holding Co., Ltd. - Ordinary Shares|S|N|N|100|N|N
+YMT|Yimutian Inc. - American Depositary Shares; each representing 25 Class A ordinary shares|G|N|N|100|N|N
 YNOT|Horizon Digital Frontier ETF|G|N|N|100|Y|N
 YOKE|YOKE Core ETF|G|N|N|100|Y|N
 YORK|Yorkville Acquisition Corp. - Class A Ordinary Share|G|N|N|100|N|N
@@ -5037,4 +5044,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0819202507:00|||||||
+File Creation Time: 0820202507:00|||||||
