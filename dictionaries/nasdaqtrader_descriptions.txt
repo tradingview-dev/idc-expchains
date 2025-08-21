@@ -227,6 +227,7 @@ AMD|Advanced Micro Devices, Inc. - Common Stock|Q|N|N|100|N|N
 AMDD|Direxion Daily AMD Bear 1X Shares|G|N|N|100|Y|N
 AMDG|Leverage Shares 2X Long AMD Daily ETF|G|N|N|100|Y|N
 AMDL|GraniteShares 2x Long AMD Daily ETF|G|N|N|100|Y|N
+AMDU|Defiance Leveraged Long + Income AMD ETF|G|N|N|100|Y|N
 AMGN|Amgen Inc. - Common Stock|Q|N|N|100|N|N
 AMID|Argent Mid Cap ETF|G|N|N|100|Y|N
 AMIX|Autonomix Medical, Inc. - Common Stock|S|N|N|100|N|N
@@ -491,7 +492,9 @@ BBOT|BridgeBio Oncology Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 BBSI|Barrett Business Services, Inc. - Common Stock|Q|N|N|100|N|N
 BCAB|BioAtla, Inc. - Common Stock|G|N|D|100|N|N
 BCAL|California BanCorp - Common Stock|S|N|N|100|N|N
+BCAR|D. Boral ARC Acquisition I Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 BCARU|D. Boral ARC Acquisition I Corp. - Units|G|N|N|100|N|N
+BCARW|D. Boral ARC Acquisition I Corp. - Warrant|G|N|N|100|N|N
 BCAX|Bicara Therapeutics Inc. - Common Stock|G|N|N|100|N|N
 BCBP|BCB Bancorp, Inc. (NJ) - Common Stock|G|N|N|100|N|N
 BCDA|BioCardia, Inc. - Common Stock|S|N|D|100|N|N
@@ -1201,6 +1204,7 @@ DAVE|Dave Inc.  - Class A Common Stock|G|N|N|100|N|N
 DAVEW|Dave Inc.  - Warrants|G|N|N|100|N|N
 DAWN|Day One Biopharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 DAX|Global X DAX Germany ETF|G|N|N|100|Y|N
+DBGI|Digital Brands Group, Inc. - Common Stock|S|N|N|100|N|N
 DBVT|DBV Technologies S.A. - American Depositary Shares|S|N|N|100|N|N
 DBX|Dropbox, Inc. - Class A Common Stock|Q|N|N|100|N|N
 DCBO|Docebo Inc. - Common Shares|Q|N|N|100|N|N
@@ -1423,10 +1427,6 @@ EM|Smart Share Global Limited - American Depositary Shares|S|N|N|100|N|N
 EMB|iShares J.P. Morgan USD Emerging Markets Bond ETF|G|N|N|100|Y|N
 EMBC|Embecta Corp. - Common Stock|Q|N|N|100|N|N
 EMCB|WisdomTree Emerging Markets Corporate Bond Fund|G|N|N|100|Y|N
-EMCG|Embrace Change Acquisition Corp - Ordinary Shares|G|N|N|100|N|N
-EMCGR|Embrace Change Acquisition Corp - Rights|G|N|N|100|N|N
-EMCGU|Embrace Change Acquisition Corp - Units|G|N|N|100|N|N
-EMCGW|Embrace Change Acquisition Corp - Warrants|G|N|N|100|N|N
 EMEQ|Macquarie Focused Emerging Markets Equity ETF|G|N|N|100|Y|N
 EMIF|iShares Emerging Markets Infrastructure ETF|G|N|N|100|Y|N
 EML|Eastern Company (The) - Common Stock|G|N|N|100|N|N
@@ -1924,7 +1924,6 @@ GNTA|Genenta Science S.p.A. - American Depositary Shares|S|N|N|100|N|N
 GNTX|Gentex Corporation - Common Stock|Q|N|N|100|N|N
 GO|Grocery Outlet Holding Corp. - Common Stock|Q|N|N|100|N|N
 GOCO|GoHealth, Inc. - Class A Common Stock|S|N|N|100|N|N
-GOGL|Golden Ocean Group Limited - Common Stock|Q|N|N|100|N|N
 GOGO|Gogo Inc. - Common Stock|Q|N|N|100|N|N
 GOOD|Gladstone Commercial Corporation - Real Estate Investment Trust|Q|N|N|100|N|N
 GOODN|Gladstone Commercial Corporation - 6.625% Series E Cumulative Redeemable Preferred Stock|Q|N|N|100|N|N
@@ -2427,6 +2426,7 @@ JFIN|Jiayin Group Inc. - American Depositary Shares|G|N|N|100|N|N
 JFU|9F Inc. - American Depositary Shares|G|N|N|100|N|N
 JG|Aurora Mobile Limited - American Depositary Shares|S|N|N|100|N|N
 JGLO|JPMorgan Global Select Equity ETF|G|N|N|100|Y|N
+JHAI|Janus Henderson Global Artificial Intelligence ETF|G|N|N|100|Y|N
 JIVE|JPMorgan International Value ETF|G|N|N|100|Y|N
 JJSF|J & J Snack Foods Corp. - Common Stock|Q|N|N|100|N|N
 JKHY|Jack Henry & Associates, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4125,6 +4125,7 @@ SLVR|Sprott Silver Miners & Physical Silver ETF|G|N|N|100|Y|N
 SLXN|Silexion Therapeutics Corp - Ordinary Shares|S|N|D|100|N|N
 SLXNW|Silexion Therapeutics Corp - Warrant|S|N|N|100|N|N
 SMBC|Southern Missouri Bancorp, Inc. - Common Stock|G|N|N|100|N|N
+SMCC|Defiance Leveraged Long + Income SMCI ETF|G|N|N|100|Y|N
 SMCF|Themes US Small Cap Cash Flow Champions ETF|G|N|N|100|Y|N
 SMCI|Super Micro Computer, Inc. - Common Stock|Q|N|N|100|N|N
 SMCL|GraniteShares 2x Long SMCI Daily ETF|G|N|N|100|Y|N
@@ -4183,7 +4184,7 @@ SOLT|2x Solana ETF|G|N|N|100|Y|N
 SOLZ|Solana ETF|G|N|N|100|Y|N
 SOND|Sonder Holdings Inc. - Class A Common Stock|Q|N|E|100|N|N
 SONDW|Sonder Holdings Inc. - Warrants|Q|N|E|100|N|N
-SONM|Sonim Technologies, Inc. - Common Stock|S|N|N|100|N|N
+SONM|Sonim Technologies, Inc. - Common Stock|S|N|D|100|N|N
 SONN|Sonnet BioTherapeutics Holdings, Inc. - Common Stock|S|N|N|100|N|N
 SONO|Sonos, Inc. - Common Stock|Q|N|N|100|N|N
 SOPA|Society Pass Incorporated - Common Stock|S|N|D|100|N|N
@@ -4855,7 +4856,6 @@ WIMI|WiMi Hologram Cloud Inc. - Class B Ordinary Shares|G|N|N|100|N|N
 WINA|Winmark Corporation - Common Stock|G|N|N|100|N|N
 WINC|Western Asset Short Duration Income ETF|G|N|N|100|Y|N
 WING|Wingstop Inc. - Common Stock|Q|N|N|100|N|N
-WINT|Windtree Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
 WISE|Themes Generative Artificial Intelligence ETF|G|N|N|100|Y|N
 WIX|Wix.com Ltd. - Ordinary Shares|Q|N|N|100|N|N
 WKEY|WISeKey International Holding Ltd - American Depositary Shares|G|N|N|100|N|N
@@ -4963,7 +4963,7 @@ XWEL|XWELL, Inc. - Common Stock|S|N|N|100|N|N
 XXII|22nd Century Group, Inc - Common Stock|S|N|N|100|N|N
 XYLO|Xylo Technologies Ltd. - American Depositary Shares|S|N|N|100|N|N
 XYZG|Leverage Shares 2X Long XYZ Daily ETF|G|N|N|100|Y|N
-YAAS|Youxin Technology Ltd - Class A Ordinary shares|S|N|N|100|N|N
+YAAS|Youxin Technology Ltd - Class A Ordinary shares|S|N|D|100|N|N
 YB|Yuanbao Inc. - American Depositary Shares|G|N|N|100|N|N
 YGMZ|MingZhu Logistics Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 YHC|LQR House Inc. - Common Stock|S|N|N|100|N|N
@@ -5044,4 +5044,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0820202507:00|||||||
+File Creation Time: 0821202507:00|||||||
