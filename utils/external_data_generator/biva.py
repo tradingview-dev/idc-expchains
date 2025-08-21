@@ -6,6 +6,7 @@ import aiohttp
 from DataGenerator import DataGenerator
 from lib.ConsoleOutput import ConsoleOutput
 from lib.LoggableRequester import LoggableRequester
+from utils import get_headers
 
 
 class BivaDataGenerator(DataGenerator):
@@ -22,7 +23,7 @@ class BivaDataGenerator(DataGenerator):
         :param url: symbol's url
         :param isin_queue: queue for saving the results of async parsing
         """
-        async with session.get(url) as response:
+        async with session.get(url, headers=get_headers()) as response:
             try:
                 data = await response.json()
             except json.JSONDecodeError as e:
@@ -52,12 +53,14 @@ class BivaDataGenerator(DataGenerator):
 
         isin_queue = asyncio.Queue()
 
-        iterations_amount = 4
+        iterations_amount = 10
+        tasks_amount = int(len(urls) / iterations_amount)
         for iteration in range(iterations_amount):
-            tasks_amount = round(len(urls) / iterations_amount)
             start = iteration * tasks_amount
-            finish = start + tasks_amount - 1
-            self._logger.info(f"Requesting ISIN data [{start}..{finish}](from total {len(urls)})... ")
+            finish = start + tasks_amount
+            if iteration == iterations_amount - 1:
+                finish = len(urls)
+            self._logger.info(f"Requesting ISIN data [{start}..{finish})(from total {len(urls)})... ")
             async with aiohttp.ClientSession() as session:
                 tasks = [self.__fetch_isin(session, url, isin_queue) for url in urls[start:finish]]
                 await asyncio.gather(*tasks)
@@ -104,7 +107,7 @@ class BivaDataGenerator(DataGenerator):
 
         requester = LoggableRequester(self._logger, timeout=15, delay=5)
 
-        sic = requester.request(LoggableRequester.Methods.GET, self.__SIC_URL).json()["content"]
+        sic = requester.request(LoggableRequester.Methods.GET, self.__SIC_URL, headers=get_headers()).json()["content"]
         self._logger.info("Parse SIC data... ", False)
         for symbol in sic:
             try:
@@ -115,7 +118,7 @@ class BivaDataGenerator(DataGenerator):
                 raise e
         self._logger.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
 
-        ri = requester.request(LoggableRequester.Methods.GET, self.__RI_URL).json()["content"]
+        ri = requester.request(LoggableRequester.Methods.GET, self.__RI_URL, headers=get_headers()).json()["content"]
         self._logger.info("Parse RI data... ", False)
         for symbol in ri:
             try:
