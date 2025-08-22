@@ -75,7 +75,6 @@ ADAG|Adagene Inc. - ADS, each representing 1.25 ordinary shares|G|N|N|100|N|N
 ADAP|Adaptimmune Therapeutics plc - American Depositary Shares|S|N|D|100|N|N
 ADBE|Adobe Inc. - Common Stock|Q|N|N|100|N|N
 ADBG|Leverage Shares 2X Long ADBE Daily ETF|G|N|N|100|Y|N
-ADD|Color Star Technology Co., Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 ADEA|Adeia Inc.  - Common Stock|Q|N|N|100|N|N
 ADGM|Adagio Medical Holdings, Inc - Common Stock|S|N|D|100|N|N
 ADI|Analog Devices, Inc. - Common Stock|Q|N|N|100|N|N
@@ -222,7 +221,7 @@ AMAL|Amalgamated Financial Corp. - Common Stock|G|N|N|100|N|N
 AMAT|Applied Materials, Inc. - Common Stock|Q|N|N|100|N|N
 AMBA|Ambarella, Inc. - Ordinary Shares|Q|N|N|100|N|N
 AMBR|Amber International Holding Limited - American Depositary Shares|G|N|N|100|N|N
-AMCX|AMC Networks Inc. - Class A Common Stock|Q|N|N|100|N|N
+AMCX|AMC Networks Inc. - Class A Common Stock|Q|N|D|100|N|N
 AMD|Advanced Micro Devices, Inc. - Common Stock|Q|N|N|100|N|N
 AMDD|Direxion Daily AMD Bear 1X Shares|G|N|N|100|Y|N
 AMDG|Leverage Shares 2X Long AMD Daily ETF|G|N|N|100|Y|N
@@ -466,6 +465,7 @@ BAER|Bridger Aerospace Group Holdings, Inc. - Common Stock|G|N|N|100|N|N
 BAERW|Bridger Aerospace Group Holdings, Inc. - Warrant|G|N|N|100|N|N
 BAFE|Brown Advisory Flexible Equity ETF|G|N|N|100|Y|N
 BAFN|BayFirst Financial Corp. - Common Stock|S|N|N|100|N|N
+BAIG|Leverage Shares 2X Long BBAI Daily ETF|G|N|N|100|Y|N
 BAND|Bandwidth Inc. - Class A Common Stock|Q|N|N|100|N|N
 BANF|BancFirst Corporation - Common Stock|Q|N|N|100|N|N
 BANFP|BancFirst Corporation - 7.2% Cumulative Trust Preferred Securities|Q|N|N|100|N|N
@@ -873,6 +873,7 @@ CENT|Central Garden & Pet Company - Common Stock|Q|N|N|100|N|N
 CENTA|Central Garden & Pet Company - Class A Common Stock Nonvoting|Q|N|N|100|N|N
 CENX|Century Aluminum Company - Common Stock|Q|N|N|100|N|N
 CEP|Cantor Equity Partners, Inc. - Class A ordinary shares|G|N|N|100|N|N
+CEPF|Cantor Equity Partners IV, Inc. - Class A Ordinary Shares|G|N|N|100|N|N
 CEPI|REX Crypto Equity Premium Income ETF|G|N|N|100|Y|N
 CEPO|Cantor Equity Partners I, Inc. - Class A Ordinary Shares|G|N|N|100|N|N
 CEPT|Cantor Equity Partners II, Inc. - Class A ordinary share|G|N|N|100|N|N
@@ -1496,6 +1497,7 @@ ETHZW|ETHZilla Corporation - Warrant|S|N|N|100|N|N
 ETNB|89bio, Inc. - Common Stock|G|N|N|100|N|N
 ETON|Eton Pharmaceuticals, Inc. - Common Stock|G|N|N|100|N|N
 ETOR|eToro Group Ltd. - Class A Common Shares|Q|N|N|100|N|N
+ETS|Elite Express Holding Inc. - Class A Common Stock|S|N|N|100|N|N
 ETSY|Etsy, Inc. - Common Stock|Q|N|N|100|N|N
 EU|enCore Energy Corp. - Common Stock|S|N|N|100|N|N
 EUDA|Euda Health Holdings Limited - Ordinary Shares|S|N|N|100|N|N
@@ -1896,6 +1898,7 @@ GLDD|Great Lakes Dredge & Dock Corporation - Common Stock|Q|N|N|100|N|N
 GLDI|ETRACS Gold Shares Covered Call ETNs due February 2, 2033|G|N|N|100|N|N
 GLDY|Defiance Gold Enhanced Options Income ETF|G|N|N|100|Y|N
 GLE|Global Engine Group Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
+GLGG|Leverage Shares 2X Long GLXY Daily ETF|G|N|N|100|Y|N
 GLIBA|GCI Liberty, Inc. - Series A GCI Group Common Stock|Q|N|N|100|N|N
 GLIBK|GCI Liberty, Inc. - Series C GCI Group Common Stock|Q|N|N|100|N|N
 GLMD|Galmed Pharmaceuticals Ltd. - Ordinary Shares|S|N|N|100|N|N
@@ -2098,7 +2101,6 @@ HOWL|Werewolf Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 HPAI|Helport AI Limited - Ordinary Shares|S|N|N|100|N|N
 HPAIW|Helport AI Limited - Warrants|S|N|N|100|N|N
 HPK|HighPeak Energy, Inc. - Common Stock|G|N|N|100|N|N
-HPKEW|HighPeak Energy, Inc. - Warrant|G|N|N|100|N|N
 HQGO|Hartford US Quality Growth ETF|G|N|N|100|Y|N
 HQI|HireQuest, Inc. - Common Stock|S|N|N|100|N|N
 HQY|HealthEquity, Inc. - Common Stock|Q|N|N|100|N|N
@@ -2687,7 +2689,7 @@ LQDT|Liquidity Services, Inc. - Common Stock|Q|N|N|100|N|N
 LRCX|Lam Research Corporation - Common Stock|Q|N|N|100|N|N
 LRE|Lead Real Estate Co., Ltd - American Depositary Shares|S|N|N|100|N|N
 LRGE|ClearBridge Large Cap Growth Select ETF|G|N|N|100|Y|N
-LRHC|La Rosa Holdings Corp. - Common Stock|S|N|D|100|N|N
+LRHC|La Rosa Holdings Corp. - Common Stock|S|N|N|100|N|N
 LRMR|Larimar Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 LRND|NYLI U.S. Large Cap R&D Leaders ETF|G|N|N|100|Y|N
 LSAK|Lesaka Technologies, Inc. - Common Stock|Q|N|N|100|N|N
@@ -2860,7 +2862,7 @@ MKLYU|McKinley Acquisition Corporation - Units|G|N|N|100|N|N
 MKSI|MKS Inc. - Common Stock|Q|N|N|100|N|N
 MKTW|MarketWise, Inc. - Class A Common Stock|G|N|N|100|N|N
 MKTX|MarketAxess Holdings, Inc. - Common Stock|Q|N|N|100|N|N
-MKZR|MacKenzie Realty Capital, Inc. - Common Stock|S|N|D|100|N|N
+MKZR|MacKenzie Realty Capital, Inc. - Common Stock|S|N|N|100|N|N
 MLAB|Mesa Laboratories, Inc. - Common Stock|Q|N|N|100|N|N
 MLAC|Mountain Lake Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 MLACR|Mountain Lake Acquisition Corp. - Right|G|N|N|100|N|N
@@ -4189,7 +4191,7 @@ SONN|Sonnet BioTherapeutics Holdings, Inc. - Common Stock|S|N|N|100|N|N
 SONO|Sonos, Inc. - Common Stock|Q|N|N|100|N|N
 SOPA|Society Pass Incorporated - Common Stock|S|N|D|100|N|N
 SOPH|SOPHiA GENETICS SA - Ordinary Shares|Q|N|N|100|N|N
-SORA|Top Win International Limited - Ordinary Shares|S|N|N|100|N|N
+SORA|AsiaStrategy - Ordinary Shares|S|N|N|100|N|N
 SOTK|Sono-Tek Corporation - Common Stock|S|N|N|100|N|N
 SOUN|SoundHound AI, Inc. - Class A Common Stock|G|N|N|100|N|N
 SOUNW|SoundHound AI, Inc. - Warrant|G|N|N|100|N|N
@@ -4277,8 +4279,6 @@ STRF|Strategy Inc - 10.00% Series A Perpetual Strife Preferred Stock|Q|N|N|100|N
 STRK|Strategy Inc - 8.00% Series A Perpetual Strike Preferred Stock|Q|N|N|100|N|N
 STRL|Sterling Infrastructure, Inc. - Common Stock|Q|N|N|100|N|N
 STRO|Sutro Biopharma, Inc. - Common Stock|G|N|D|100|N|N
-STRR|Star Equity Holdings, Inc. - Common Stock|G|N|D|100|N|N
-STRRP|Star Equity Holdings, Inc. - Series A Cumulative Perpetual Preferred Stock|G|N|N|100|N|N
 STRS|Stratus Properties Inc. - Common Stock|Q|N|N|100|N|N
 STRT|STRATTEC SECURITY CORPORATION - Common Stock|G|N|N|100|N|N
 STRZ|Starz Entertainment Corp. - Common Shares|Q|N|N|100|N|N
@@ -4501,9 +4501,11 @@ TROW|T. Rowe Price Group, Inc. - Common Stock|Q|N|N|100|N|N
 TRS|TriMas Corporation - Common Stock|Q|N|N|100|N|N
 TRSG|Tungray Technologies Inc - Class A Ordinary Shares|S|N|N|100|N|N
 TRST|TrustCo Bank Corp NY - Common Stock|Q|N|N|100|N|N
+TRUD|VanEck Consumer Discretionary TruSector ETF|G|N|N|100|Y|N
 TRUE|TrueCar, Inc. - Common Stock|Q|N|N|100|N|N
 TRUG|TruGolf Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
 TRUP|Trupanion, Inc. - Common Stock|G|N|N|100|N|N
+TRUT|VanEck Technology TruSector ETF|G|N|N|100|Y|N
 TRVG|trivago N.V. - American Depositary Shares|Q|N|N|100|N|N
 TRVI|Trevi Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 TSAT|Telesat Corporation - Class A Common Shares and Class B Variable Voting Shares|Q|N|N|100|N|N
@@ -5023,6 +5025,7 @@ ZJZZT|NASDAQ TEST STOCK|Q|Y|N|100||N
 ZKIN|ZK International Group Co., Ltd - Ordinary Share|S|N|N|100|N|N
 ZLAB|Zai Lab Limited - American Depositary Shares|G|N|N|100|N|N
 ZM|Zoom Communications, Inc. - Class A Common Stock|Q|N|N|100|N|N
+ZNB|Zeta Network Group - Class A Ordinary Shares|S|N|N|100|N|N
 ZNTL|Zentalis Pharmaceuticals, Inc. - common stock|G|N|N|100|N|N
 ZOOZ|ZOOZ Power Ltd. - Ordinary Shares|S|N|N|100|N|N
 ZOOZW|ZOOZ Power Ltd. - Warrant|S|N|N|100|N|N
@@ -5044,4 +5047,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0821202507:00|||||||
+File Creation Time: 0822202507:00|||||||
