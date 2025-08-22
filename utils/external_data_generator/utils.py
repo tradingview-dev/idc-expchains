@@ -19,11 +19,14 @@ USER_AGENTS = [
 ]
 
 
+def get_useragent() -> str:
+    random_number = random.randint(0, len(USER_AGENTS) - 1)
+    return USER_AGENTS[random_number]
+
 def get_headers() -> dict:
     """
     Returns HEADERS with a random user-agent
     """
-    random_number = random.randint(0, len(USER_AGENTS) - 1)
     headers = {
         "accept": "*/*",
         "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
@@ -31,7 +34,7 @@ def get_headers() -> dict:
         "sec-fetch-dest": "empty",
         "sec-fetch-mode": "cors",
         "sec-fetch-site": "same-origin",
-        "user-agent": USER_AGENTS[random_number],
+        "user-agent": get_useragent(),
         "x-requested-with": "XMLHttpRequest"
     }
     return headers
