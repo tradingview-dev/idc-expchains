@@ -44,7 +44,7 @@ class CMCProperties
         CSV.open(@outFile, "w") do |csv|
             csv << ["currency-id", "typespecs"]
             defiCoinsIds.each do |id|
-                csv << [id, "+:defi"]
+                csv << [id, "\"${symbolinfo.typespecs},defi\""]
             end
         end
     end
