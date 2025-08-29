@@ -537,8 +537,8 @@ BETR|Better Home & Finance Holding Company - Class A Common Stock|G|N|N|100|N|N
 BETRW|Better Home & Finance Holding Company - Warrant|G|N|N|100|N|N
 BFC|Bank First Corporation - Common Stock|S|N|N|100|N|N
 BFIN|BankFinancial Corporation - Common Stock|Q|N|N|100|N|N
-BFRG|Bullfrog AI Holdings, Inc. - Common Stock|S|N|N|100|N|N
-BFRGW|Bullfrog AI Holdings, Inc. - Warrants|S|N|N|100|N|N
+BFRG|Bullfrog AI Holdings, Inc. - Common Stock|S|N|D|100|N|N
+BFRGW|Bullfrog AI Holdings, Inc. - Warrants|S|N|D|100|N|N
 BFRI|Biofrontera Inc. - Common Stock|S|N|D|100|N|N
 BFRIW|Biofrontera Inc. - Warrants|S|N|D|100|N|N
 BFST|Business First Bancshares, Inc. - Common Stock|Q|N|N|100|N|N
@@ -592,8 +592,6 @@ BLBD|Blue Bird Corporation - Common Stock|G|N|N|100|N|N
 BLBX|Blackboxstocks Inc. - Common Stock|S|N|N|100|N|N
 BLCN|Siren Nasdaq NexGen Economy ETF|G|N|N|100|Y|N
 BLCR|iShares Large Cap Core Active ETF|G|N|N|100|Y|N
-BLDE|Blade Air Mobility, Inc. - Class A Common Stock|S|N|N|100|N|N
-BLDEW|Blade Air Mobility, Inc. - Warrants|S|N|N|100|N|N
 BLDP|Ballard Power Systems, Inc. - Common Shares|G|N|N|100|N|N
 BLFS|BioLife Solutions, Inc. - Common Stock|S|N|N|100|N|N
 BLFY|Blue Foundry Bancorp - Common Stock|Q|N|N|100|N|N
@@ -620,8 +618,8 @@ BMR|Beamr Imaging Ltd. - Ordinary Share|S|N|N|100|N|N
 BMRA|Biomerica, Inc. - Common Stock|S|N|N|100|N|N
 BMRC|Bank of Marin Bancorp - Common Stock|S|N|N|100|N|N
 BMRN|BioMarin Pharmaceutical Inc. - Common Stock|Q|N|N|100|N|N
-BNAI|Brand Engagement Network Inc. - Common Stock|S|N|D|100|N|N
-BNAIW|Brand Engagement Network Inc. - Warrant|S|N|N|100|N|N
+BNAI|Brand Engagement Network Inc. - Common Stock|S|N|H|100|N|N
+BNAIW|Brand Engagement Network Inc. - Warrant|S|N|E|100|N|N
 BNC|CEA Industries Inc. - Common Stock|S|N|N|100|N|N
 BNCWW|CEA Industries Inc. - Warrant|S|N|N|100|N|N
 BND|Vanguard Total Bond Market ETF|G|N|N|100|Y|N
@@ -759,7 +757,7 @@ BWEN|Broadwind, Inc. - Common Stock|S|N|N|100|N|N
 BWFG|Bankwell Financial Group, Inc. - Common Stock|G|N|N|100|N|N
 BWIN|The Baldwin Insurance Group, Inc. - Class A Common Stock|Q|N|N|100|N|N
 BWMN|Bowman Consulting Group Ltd. - Common Stock|G|N|N|100|N|N
-BYFC|Broadway Financial Corporation - Class A Common Stock|S|N|N|100|N|N
+BYFC|Broadway Financial Corporation - Class A Common Stock|S|N|E|100|N|N
 BYND|Beyond Meat, Inc. - Common stock|Q|N|N|100|N|N
 BYRN|Byrna Technologies, Inc. - Common Stock|S|N|N|100|N|N
 BYSI|BeyondSpring, Inc. - Ordinary Shares|S|N|N|100|N|N
@@ -1420,6 +1418,7 @@ ELDN|Eledon Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
 ELFY|ALPS Electrification Infrastructure ETF|G|N|N|100|Y|N
 ELIL|Direxion Daily LLY Bull 2X Shares|G|N|N|100|Y|N
 ELIS|Direxion Daily LLY Bear 1X Shares|G|N|N|100|Y|N
+ELOG|Eastern International Ltd. - Ordinary Shares|S|N|N|100|N|N
 ELPW|Elong Power Holding Limited - Class A Ordinary Shares|G|N|E|100|N|N
 ELSE|Electro-Sensors, Inc. - Common Stock|S|N|N|100|N|N
 ELTK|Eltek Ltd. - Ordinary Shares|S|N|N|100|N|N
@@ -1717,9 +1716,9 @@ FOLD|Amicus Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 FONR|Fonar Corporation - Common Stock|S|N|N|100|N|N
 FORA|Forian Inc. - Common Stock|S|N|N|100|N|N
 FORD|Forward Industries, Inc. - Common Stock|S|N|N|100|N|N
-FORL|Four Leaf Acquisition Corporation - Class A Common Stock|S|N|D|100|N|N
-FORLU|Four Leaf Acquisition Corporation - Unit|S|N|D|100|N|N
-FORLW|Four Leaf Acquisition Corporation - Warrants|S|N|D|100|N|N
+FORL|Four Leaf Acquisition Corporation - Class A Common Stock|S|N|H|100|N|N
+FORLU|Four Leaf Acquisition Corporation - Unit|S|N|H|100|N|N
+FORLW|Four Leaf Acquisition Corporation - Warrants|S|N|H|100|N|N
 FORM|FormFactor, Inc. - Common Stock|Q|N|N|100|N|N
 FORR|Forrester Research, Inc. - Common Stock|Q|N|N|100|N|N
 FORTY|Formula Systems (1985) Ltd. - American Depositary Shares|Q|N|N|100|N|N
@@ -2974,6 +2973,7 @@ MTVA|MetaVia Inc.  - Common Stock|S|N|D|100|N|N
 MU|Micron Technology, Inc. - Common Stock|Q|N|N|100|N|N
 MUD|Direxion Daily MU Bear 1X Shares|G|N|N|100|Y|N
 MULL|GraniteShares 2x Long MU Daily ETF|G|N|N|100|Y|N
+MULT|Franklin Multisector Income ETF|G|N|N|100|Y|N
 MURA|Mural Oncology plc - Ordinary Shares|G|N|N|100|N|N
 MUU|Direxion Daily MU Bull 2X Shares|G|N|N|100|Y|N
 MVBF|MVB Financial Corp. - Common Stock|S|N|N|100|N|N
@@ -3191,7 +3191,7 @@ NVEC|NVE Corporation - Common Stock|S|N|N|100|N|N
 NVFY|Nova Lifestyle, Inc - Common Stock|S|N|N|100|N|N
 NVMI|Nova Ltd. - Ordinary Shares|Q|N|N|100|N|N
 NVNI|Nvni Group Limited - Ordinary Shares|S|N|D|100|N|N
-NVNIW|Nvni Group Limited - Warrants|S|N|D|100|N|N
+NVNIW|Nvni Group Limited - Warrants|S|N|N|100|N|N
 NVNO|enVVeno Medical Corporation - Common Stock|S|N|N|100|N|N
 NVTS|Navitas Semiconductor Corporation - Common Stock|G|N|N|100|N|N
 NVVE|Nuvve Holding Corp. - Common Stock|S|N|D|100|N|N
@@ -3874,7 +3874,7 @@ RKLB|Rocket Lab Corporation - Common Stock|S|N|N|100|N|N
 RKLX|Defiance Daily Target 2X Long RKLB ETF|G|N|N|100|Y|N
 RLAY|Relay Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 RLMD|Relmada Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
-RLYB|Rallybio Corporation - Common Stock|Q|N|D|100|N|N
+RLYB|Rallybio Corporation - Common Stock|S|N|D|100|N|N
 RMBI|Richmond Mutual Bancorporation, Inc. - Common Stock|S|N|N|100|N|N
 RMBS|Rambus, Inc. - Common Stock|Q|N|N|100|N|N
 RMCF|Rocky Mountain Chocolate Factory, Inc. - Common Stock|S|N|N|100|N|N
@@ -3956,7 +3956,7 @@ SABR|Sabre Corporation - Common Stock|Q|N|N|100|N|N
 SABS|SAB Biotherapeutics, Inc. - Common Stock|S|N|N|100|N|N
 SABSW|SAB Biotherapeutics, Inc. - Warrant|S|N|N|100|N|N
 SAFT|Safety Insurance Group, Inc. - Common Stock|Q|N|N|100|N|N
-SAFX|XCF Global, Inc. - Class A Common Stock|S|N|N|100|N|N
+SAFX|XCF Global, Inc. - Class A Common Stock|S|N|E|100|N|N
 SAGT|SAGTEC GLOBAL LIMITED - Ordinary shares|S|N|N|100|N|N
 SAIA|Saia, Inc. - Common Stock|Q|N|N|100|N|N
 SAIC|Science Applications International Corporation - Common Stock|Q|N|N|100|N|N
@@ -4248,6 +4248,8 @@ SRDX|Surmodics, Inc. - Common Stock|Q|N|N|100|N|N
 SRET|Global X SuperDividend REIT ETF|G|N|N|100|Y|N
 SRPT|Sarepta Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 SRRK|Scholar Rock Holding Corporation - Common Stock|Q|N|N|100|N|N
+SRTA|Strata Critical Medical, Inc. - Class A Common Stock|S|N|N|100|N|N
+SRTAW|Strata Critical Medical, Inc. - Warrants|S|N|N|100|N|N
 SRTS|Sensus Healthcare, Inc. - Common Stock|S|N|N|100|N|N
 SRZN|Surrozen, Inc. - Common Stock|S|N|N|100|N|N
 SRZNW|Surrozen, Inc. - Warrant|S|N|N|100|N|N
@@ -4424,12 +4426,14 @@ TERN|Terns Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 TEXN|iShares Texas Equity ETF|G|N|N|100|Y|N
 TFNS|T. Rowe Price Financials ETF|G|N|N|100|Y|N
 TFSL|TFS Financial Corporation - Common Stock|Q|N|N|100|N|N
+TGHL|The GrowHub Limited - Class A Ordinary Shares|S|N|N|100|N|N
 TGL|Treasure Global Inc. - Common Stock|S|N|D|100|N|N
 TGTX|TG Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TH|Target Hospitality Corp. - Common Stock|S|N|N|100|N|N
 THAR|Tharimmune, Inc. - Common Stock|S|N|D|100|N|N
 THCH|TH International Limited - Ordinary shares|S|N|N|100|N|N
 THFF|First Financial Corporation  - Common Stock|Q|N|N|100|N|N
+THH|TryHard Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 THMZ|Lazard Equity Megatrends ETF|G|N|N|100|Y|N
 THRM|Gentherm Inc - Common Stock|Q|N|N|100|N|N
 THRY|Thryv Holdings, Inc. - Common Stock|S|N|N|100|N|N
@@ -4829,7 +4833,6 @@ WATT|Energous Corporation - Common Stock|S|N|N|100|N|N
 WAVE|Eco Wave Power Global AB (publ) - American Depositary Shares|S|N|N|100|N|N
 WAY|Waystar Holding Corp. - Common Stock|Q|N|N|100|N|N
 WB|Weibo Corporation - American Depositary Shares|Q|N|N|100|N|N
-WBA|Walgreens Boots Alliance, Inc. - Common Stock|Q|N|N|100|N|N
 WBD|Warner Bros. Discovery, Inc. - Series A Common Stock|Q|N|N|100|N|N
 WBTN|WEBTOON Entertainment Inc. - Common stock|Q|N|N|100|N|N
 WBUY|WEBUY GLOBAL LTD. - Class A Ordinary Shares|S|N|N|100|N|N
@@ -5053,4 +5056,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
 ZZZ|Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF|G|N|N|100|Y|N
-File Creation Time: 0828202507:00|||||||
+File Creation Time: 0829202507:00|||||||
