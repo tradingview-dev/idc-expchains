@@ -1,50 +1,38 @@
-# TV Exchanges
+# IDC Expchains (Expired Chains)
 
-[![pipeline status](https://git.xtools.tv/idc/exchanges/badges/master/pipeline.svg)](https://git.xtools.tv/idc/exchanges/-/commits/master)
+[![pipeline status](https://git.xtools.tv/idc/idc-expchains/badges/master/pipeline.svg)](https://git.xtools.tv/idc/idc-expchains/-/commits/master)
 
-Centralized storage of the list of exchanges supported by TradingView and their properties and descriptions.
+Centralized storage of expired futures to build continuous core symbol-info and related scripts.
+See [Knowledge Base: ExpChains](https://kb.xtools.tv/spaces/XWIKI/pages/29299981/ExpChains) for more information.
 
 **Responsible team**: IDC Team (#team-idc)
 
 ## Overview
-- [Project Description](#project-description)
-- [Getting the Sources](#getting-the-sources)
 - [Requirements](#requirements)
-- [System-based prepare](#system-based-prepare)
+- [Environment prepare](#environment-prepare)
   - [Ubuntu](#ubuntu)
   - [Windows](#windows)
-  - [MacOS](#macos)
-- [Commonly prepare](#commonly-prepare)
+  - [macOS](#macos)
+- [Install an environment manager](#install-an-environment-manager)
 - [Prepare the project](#prepare-the-project)
 - [Run](#run)
-  - [Validations](#validations)
-  - [Generators](#generators)
-
-## Project Description
-To get more information about the project structure, please go to [Knowledge Base](./doc/structure.md).
-
-## Getting the Sources
-In your terminal, navigate to the directory that will contain the exchanges top-level repository 
-and use the git command line to make a clone:
-```
-git clone git@git.xtools.tv:idc/exchanges.git
-```
-Alternatively, if you're behind a firewall and want to use the https protocol:
-```
-git clone https://git.xtools.tv/idc/exchanges.git
-```
+  - [Scripts](#scripts)
 
 ## Requirements
 
-| Tool         | Supported Versions                                 |
-|--------------|----------------------------------------------------|
-| OS           | Ubuntu 22.04 and above / Windows 11 + WSL2 / macOS |
-| Git          | 1.6.x and above                                    |
-| Python       | 3.10 and above                                     |
+| Tool   | Supported Versions                                 |
+|--------|----------------------------------------------------|
+| OS     | Ubuntu 22.04 and above / Windows 11 + WSL2 / macOS |
+| Git    | 1.6.x and above                                    |
+| Python | 3.10 and above                                     |
+| Ruby   | 3.2 and above                                      |
+| Bash   | 5.2 and above                                      |
 
-## System-based prepare
-First, you need to install the `pipx` package. The `pipx` is a tool that allows you to 
+## Environment prepare
+First, you should install the `pipx` package. The `pipx` is a tool that allows you to 
 install Python programs in isolated environments without clogging up site-packages.
+
+> This step can be skipped.
 
 ### Ubuntu
 Run step by step in your terminal:
@@ -53,7 +41,7 @@ sudo apt update
 sudo apt install pipx
 pipx ensurepath
 ```
-After that, re-open your terminal and run:
+After that, re-open your terminal OR just run:
 ```
 source ~/.bashrc  # or ~/.zshrc, if you use Zsh
 pipx --version
@@ -70,7 +58,7 @@ After that, re-open a PowerShell and run:
 pipx --version
 ```
 
-### MacOS
+### macOS
 Run step by step in your terminal:
 ```
 brew install pipx
@@ -81,7 +69,7 @@ After that, re-open a PowerShell and run:
 pipx --version
 ```
 
-## Commonly prepare
+## Install an environment manager
 You can use any environment manager, but we recommend using the `pipenv`.
 In your terminal run:
 ```
@@ -94,11 +82,16 @@ To check run:
 pipenv --version
 ```
 
+In case of skipped [Environment prepare](#environment-prepare) step use:
+```
+pip install pipenv
+```
+
 ## Prepare the project
 Now you need to create a virtual environment and install required dependencies. 
 In your terminal run step by step:
 ```
-cd /path/to/exchanges
+cd /path/to/idc-expchains
 pipenv install
 ```
 
@@ -113,23 +106,9 @@ remember to exit from the virtual environment:
 exit
 ```
 
-### Validations
+### Scripts
 ```shell
-python -m bin.checkers.SIFieldsChecker -s ./symbolinfo-fields.yaml
-python -m bin.checkers.ExchangesChecker -p providers.yaml -e exchanges/ -s true
-python -m bin.checkers.NewsProviderChecker -n news/
-python -m bin.checkers.FinIndicatorsChecker -i financial-indicators/indicators.yaml -c economic-categories.yaml
-```
-
-### Generators
-```shell
-python -m bin.generators.build_exchange_info --exchanges-path exchanges/ --out ./out/exchange-info.json
-python -m bin.generators.build_news_providers -n ./news/ -N ./out/news-providers.json
-python -m bin.generators.build_economic_sources --sources ./economic-sources.yaml --out ./out/economic-sources.json
-python -m bin.generators.build_fields_permissions --symbolinfo-fields ./symbolinfo-fields.yaml --out ./out/fields-permissions.json
-python -m bin.generators.build_restrictions --exchanges-path ./exchanges --out ./out/restrictions.json
-python -m bin.generators.build_economic_categories --categories-path ./economic-categories.yaml --out ./out/economic-categories.json
-python -m bin.generators.build_exchange_sources2 --exchanges-path ./exchanges --economic-sources-path ./economic-sources.yaml --out ./out/exchange-sources2.json
-python -m bin.generators.build_world_economy_indicators --indicators-path ./financial-indicators --categories-path ./economic-categories.yaml --out ./out/world-economy-indicators.json
-python -m bin.generators.build_financial_indicators2 --indicators-path ./financial-indicators --out ./out/financial-indicators2.json
+./utils/store_expchains/store_expchains.sh "idc-staging.tradingview.com:8071" "hub0-tvc.xstaging.tv:8071 staging"; ./store_expchains_to_sourcedata.sh "staging"
+python -m utils.external_data_generator.main --data_cluster=adx --branch=staging
+python -m bin.expchains_generator -r .*-DBC -o ../expchains/group.csv
 ```
