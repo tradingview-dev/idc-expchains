@@ -1,8 +1,9 @@
-# TV Exchanges
+# IDC Expchains (Expired Chains)
 
-[![pipeline status](https://git.xtools.tv/idc/exchanges/badges/master/pipeline.svg)](https://git.xtools.tv/idc/exchanges/-/commits/master)
+[![pipeline status](https://git.xtools.tv/idc/idc-expchains/badges/master/pipeline.svg)](https://git.xtools.tv/idc/idc-expchains/-/commits/master)
 
-Centralized storage of the list of exchanges supported by TradingView and their properties and descriptions.
+Centralized storage of expired futures to build continuous symbol-info and related scripts.
+The expchains are chains of expired futures.
 
 **Responsible team**: IDC Team (#team-idc)
 
@@ -10,11 +11,11 @@ Centralized storage of the list of exchanges supported by TradingView and their 
 - [Project Description](#project-description)
 - [Getting the Sources](#getting-the-sources)
 - [Requirements](#requirements)
-- [System-based prepare](#system-based-prepare)
+- [Environment prepare](#environment-prepare)
   - [Ubuntu](#ubuntu)
   - [Windows](#windows)
   - [MacOS](#macos)
-- [Commonly prepare](#commonly-prepare)
+- [Install an environment manager](#install-an-environment-manager)
 - [Prepare the project](#prepare-the-project)
 - [Run](#run)
   - [Validations](#validations)
@@ -27,11 +28,11 @@ To get more information about the project structure, please go to [Knowledge Bas
 In your terminal, navigate to the directory that will contain the exchanges top-level repository 
 and use the git command line to make a clone:
 ```
-git clone git@git.xtools.tv:idc/exchanges.git
+git clone git@git.xtools.tv:idc/idc-expchains.git
 ```
 Alternatively, if you're behind a firewall and want to use the https protocol:
 ```
-git clone https://git.xtools.tv/idc/exchanges.git
+git clone https://git.xtools.tv/idc/idc-expchains.git
 ```
 
 ## Requirements
@@ -42,9 +43,11 @@ git clone https://git.xtools.tv/idc/exchanges.git
 | Git          | 1.6.x and above                                    |
 | Python       | 3.10 and above                                     |
 
-## System-based prepare
-First, you need to install the `pipx` package. The `pipx` is a tool that allows you to 
+## Environment prepare
+First, you should install the `pipx` package. The `pipx` is a tool that allows you to 
 install Python programs in isolated environments without clogging up site-packages.
+
+> This step can be skipped.
 
 ### Ubuntu
 Run step by step in your terminal:
@@ -53,7 +56,7 @@ sudo apt update
 sudo apt install pipx
 pipx ensurepath
 ```
-After that, re-open your terminal and run:
+After that, re-open your terminal OR just run:
 ```
 source ~/.bashrc  # or ~/.zshrc, if you use Zsh
 pipx --version
@@ -81,7 +84,7 @@ After that, re-open a PowerShell and run:
 pipx --version
 ```
 
-## Commonly prepare
+## Install an environment manager
 You can use any environment manager, but we recommend using the `pipenv`.
 In your terminal run:
 ```
@@ -92,6 +95,11 @@ and it will be available in the terminal as pipenv.
 To check run:
 ```
 pipenv --version
+```
+
+In case of skipped [Environment prepare](#environment-prepare) step use:
+```
+pip install pipenv
 ```
 
 ## Prepare the project
