@@ -5,6 +5,7 @@ __pycache__/
 # Virtual env
 .env/
 .venv/
+venv/
 
 # IDE
 .idea/
@@ -12,6 +13,3 @@ __pycache__/
 
 # Output
 out/
-
-# Pipenv
-Pipfile.lock
