@@ -893,8 +893,8 @@ CEPF|Cantor Equity Partners IV, Inc. - Class A Ordinary Shares|G|N|N|100|N|N
 CEPI|REX Crypto Equity Premium Income ETF|G|N|N|100|Y|N
 CEPO|Cantor Equity Partners I, Inc. - Class A Ordinary Shares|G|N|N|100|N|N
 CEPT|Cantor Equity Partners II, Inc. - Class A ordinary share|G|N|N|100|N|N
-CERO|CERo Therapeutics Holdings, Inc. - Common Stock|S|N|N|100|N|N
-CEROW|CERo Therapeutics Holdings, Inc. - Warrants|S|N|N|100|N|N
+CERO|CERo Therapeutics Holdings, Inc. - Common Stock|S|N|D|100|N|N
+CEROW|CERo Therapeutics Holdings, Inc. - Warrants|S|N|D|100|N|N
 CERS|Cerus Corporation - Common Stock|G|N|N|100|N|N
 CERT|Certara, Inc. - Common Stock|Q|N|N|100|N|N
 CETX|Cemtrex Inc. - Common Stock|S|N|N|100|N|N
@@ -946,7 +946,7 @@ CHPGU|ChampionsGate Acquisition Corporation - Unit|G|N|N|100|N|N
 CHPS|Xtrackers Semiconductor Select Equity ETF|G|N|N|100|Y|N
 CHR|Cheer Holding, Inc.  - Class A Ordinary Share|S|N|N|100|N|N
 CHRD|Chord Energy Corporation - Common Stock|Q|N|N|100|N|N
-CHRS|Coherus Oncology, Inc. - Common Stock|G|N|D|100|N|N
+CHRS|Coherus Oncology, Inc. - Common Stock|G|N|N|100|N|N
 CHRW|C.H. Robinson Worldwide, Inc. - Common Stock|Q|N|N|100|N|N
 CHSCL|CHS Inc - Class B Cumulative Redeemable Preferred Stock, Series 4|Q|N|N|100|N|N
 CHSCM|CHS Inc - Class B Reset Rate Cumulative Redeemable Preferred Stock, Series 3|Q|N|N|100|N|N
@@ -1081,7 +1081,7 @@ CPHC|Canterbury Park Holding Corporation - Common Stock|G|N|N|100|N|N
 CPHY|F/m Compoundr High Yield Bond ETF|G|N|N|100|Y|N
 CPIX|Cumberland Pharmaceuticals Inc. - Common Stock|Q|N|N|100|N|N
 CPLS|AB Core Plus Bond ETF|G|N|N|100|Y|N
-CPOP|Pop Culture Group Co., Ltd - Class A Ordinary Shares|S|N|D|100|N|N
+CPOP|Pop Culture Group Co., Ltd - Class A Ordinary Shares|S|N|N|100|N|N
 CPRT|Copart, Inc. - Common Stock|Q|N|N|100|N|N
 CPRX|Catalyst Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
 CPSH|CPS Technologies Corp. - Common Stock|S|N|N|100|N|N
@@ -1302,9 +1302,9 @@ DOYU|DouYu International Holdings Limited - American Depositary Shares|Q|N|N|100
 DPRO|Draganfly Inc. - Common Shares|S|N|N|100|N|N
 DPZ|Domino's Pizza Inc - Common Stock|Q|N|N|100|N|N
 DRCT|Direct Digital Holdings, Inc. - Class A Common Stock|S|N|D|100|N|N
-DRDB|Roman DBDR Acquisition Corp. II - Ordinary shares|G|N|N|100|N|N
-DRDBU|Roman DBDR Acquisition Corp. II - Unit|G|N|N|100|N|N
-DRDBW|Roman DBDR Acquisition Corp. II - Warrants|G|N|N|100|N|N
+DRDB|Roman DBDR Acquisition Corp. II - Ordinary shares|G|N|E|100|N|N
+DRDBU|Roman DBDR Acquisition Corp. II - Unit|G|N|E|100|N|N
+DRDBW|Roman DBDR Acquisition Corp. II - Warrants|G|N|E|100|N|N
 DRIO|DarioHealth Corp. - Common Stock|S|N|D|100|N|N
 DRIV|Global X Autonomous & Electric Vehicles ETF|G|N|N|100|Y|N
 DRMA|Dermata Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
@@ -3181,7 +3181,7 @@ NTWOU|Newbury Street II Acquisition Corp - Unit|G|N|N|100|N|N
 NTWOW|Newbury Street II Acquisition Corp - Warrant|G|N|N|100|N|N
 NUAI|New Era Energy & Digital, Inc. - Common Stock|G|N|D|100|N|N
 NUAIW|New Era Energy & Digital, Inc. - Warrants|S|N|N|100|N|N
-NUKK|Nukkleus Inc. - Ordinary Shares|G|N|N|100|N|N
+NUKK|Nukkleus Inc. - Ordinary Shares|G|N|D|100|N|N
 NUKKW|Nukkleus Inc. - Warrants|S|N|N|100|N|N
 NUSB|Nuveen Ultra Short Income ETF|G|N|N|100|Y|N
 NUTR|Nusatrip Incorporated - Common Stock|S|N|N|100|N|N
@@ -4182,7 +4182,9 @@ SNWV|SANUWAVE Health, Inc. - Common Stock|G|N|N|100|N|N
 SNY|Sanofi - American Depositary Shares|Q|N|N|100|N|N
 SNYR|Synergy CHC Corp. - Common Stock|S|N|N|100|N|N
 SOBR|SOBR Safe, Inc. - Common Stock|S|N|N|100|N|N
+SOCA|Solarius Capital Acquisition Corp. - Class A Ordinary Share|G|N|N|100|N|N
 SOCAU|Solarius Capital Acquisition Corp. - Units|G|N|N|100|N|N
+SOCAW|Solarius Capital Acquisition Corp. - Warrant|G|N|N|100|N|N
 SOCL|Global X Social Media ETF|G|N|N|100|Y|N
 SOFI|SoFi Technologies, Inc.  - Common Stock|Q|N|N|100|N|N
 SOFX|Defiance Daily Target 2X Long SOFI ETF|G|N|N|100|Y|N
@@ -4259,6 +4261,7 @@ SSBI|Summit State Bank - Common Stock|G|N|N|100|N|N
 SSEAU|Starry Sea Acquisition Corp - Unit|S|N|N|100|N|N
 SSII|SS Innovations International Inc. - Common Stock|S|N|N|100|N|N
 SSKN|Strata Skin Sciences, Inc. - Common Stock|S|N|D|100|N|N
+SSM|Sono Group N.V. - Ordinary Shares|S|N|N|100|N|N
 SSNC|SS&C Technologies Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 SSP|E.W. Scripps Company (The) - Class A Common Stock|Q|N|N|100|N|N
 SSRM|SSR Mining Inc. - Common Stock|Q|N|N|100|N|N
@@ -4435,7 +4438,7 @@ TGHL|The GrowHub Limited - Class A Ordinary Shares|S|N|N|100|N|N
 TGL|Treasure Global Inc. - Common Stock|S|N|D|100|N|N
 TGTX|TG Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 TH|Target Hospitality Corp. - Common Stock|S|N|N|100|N|N
-THAR|Tharimmune, Inc. - Common Stock|S|N|D|100|N|N
+THAR|Tharimmune, Inc. - Common Stock|S|N|N|100|N|N
 THCH|TH International Limited - Ordinary shares|S|N|N|100|N|N
 THFF|First Financial Corporation  - Common Stock|Q|N|N|100|N|N
 THH|TryHard Holdings Limited - Ordinary Shares|S|N|N|100|N|N
@@ -5063,4 +5066,4 @@ ZYBT|Zhengye Biotechnology Holding Limited - Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYN|Defiance Daily Target 2x Long PM ETF|G|N|N|100|Y|N
 ZYXI|Zynex, Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 0905202507:00|||||||
+File Creation Time: 0905202521:31|||||||
