@@ -3,7 +3,8 @@
 [![pipeline status](https://git.xtools.tv/idc/idc-expchains/badges/master/pipeline.svg)](https://git.xtools.tv/idc/idc-expchains/-/commits/master)
 
 Centralized storage of expired futures to build continuous core symbol-info and related scripts.
-See [Knowledge Base: ExpChains](https://kb.xtools.tv/spaces/XWIKI/pages/29299981/ExpChains) for more information.
+See [Knowledge Base: ExpChains](https://kb.xtools.tv/spaces/XWIKI/pages/29299981/ExpChains) 
+and [Knowledge Base: External Data Generator](https://kb.xtools.tv/spaces/XWIKI/pages/169840982/External+Data+Generator) for more information.
 
 **Responsible team**: IDC Team (#team-idc)
 
