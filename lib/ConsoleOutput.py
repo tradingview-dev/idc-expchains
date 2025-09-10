@@ -1,7 +1,7 @@
 import enum
 import os
 import sys
-from typing import Callable, overload
+from typing import Callable, overload, Any
 
 
 class ConsoleOutput:
@@ -96,23 +96,24 @@ class ConsoleOutput:
         print(ConsoleOutput.__BACKGROUND_RED + ConsoleOutput.Foreground.BOLD + msg +
               ConsoleOutput.__BACKGROUND_DEFAULT + ConsoleOutput.Foreground.RESET, flush=True)
 
-    def log(self, msg: str, func: Callable, *args) -> None:
+    def log(self, msg: str, func: Callable, *args) -> Any:
         """
 
         :param msg:
         :param func:
         :param args:
-        :return:
+        :return: any
         :raise Exception:
         """
         self.info(msg, False)
         try:
-            func(*args)
+            res = func(*args)
+            self.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
+            return res
         except Exception as e:
             self.info("FAIL", True, ConsoleOutput.Foreground.REGULAR_RED)
             raise e
-        else:
-            self.info("OK", True, ConsoleOutput.Foreground.REGULAR_GREEN)
+
 
     @staticmethod
     def unwind_exception(e: Exception) -> list[str]:

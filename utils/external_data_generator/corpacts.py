@@ -63,7 +63,8 @@ class CorpactsDataGenerator(DataGenerator):
             last_corpacts[symbol] = (last_date, factor)
         return last_corpacts
 
-    def _write_last_corpacts(self, last_corpacts: dict[str, tuple[str, str]], path: str) -> None:
+    @staticmethod
+    def _write_last_corpacts(last_corpacts: dict[str, tuple[str, str]], path: str) -> None:
         with open(path, "w") as f:
             f.write("symbol;split-date;split-factor\n")
             for symbol, (date, factor) in last_corpacts.items():
