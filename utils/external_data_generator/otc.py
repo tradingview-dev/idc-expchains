@@ -13,11 +13,13 @@ class OtcDataGenerator(DataGenerator):
         super().__init__()
         self._branch = branch
 
-    def __get_directory_url(self, page):
+    @staticmethod
+    def __get_directory_url(page):
         pageSize = 25
         return f"https://backend.otcmarkets.com/otcapi/company-directory?page={page}&pageSize={pageSize}"
 
-    def __get_headers(self):
+    @staticmethod
+    def __get_headers():
         headers = get_headers()
         headers.update({
             "Origin": "https://www.otcmarkets.com",
@@ -71,7 +73,8 @@ class OtcDataGenerator(DataGenerator):
                 self._logger.info(f"No data {url}")
                 return None, None
 
-    def __merge(self, prev_records, new_records, field):
+    @staticmethod
+    def __merge(prev_records, new_records, field):
         prev_dict = {r[field]: r for r in prev_records}
         new_dict = {r[field]: r for r in new_records}
 

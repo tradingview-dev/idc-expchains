@@ -1,8 +1,11 @@
 import difflib
+import gzip
 import os
 import random
 import shutil
 import subprocess
+import tarfile
+from io import BytesIO
 
 from git import Repo
 
@@ -22,6 +25,7 @@ USER_AGENTS = [
 def get_useragent() -> str:
     random_number = random.randint(0, len(USER_AGENTS) - 1)
     return USER_AGENTS[random_number]
+
 
 def get_headers() -> dict:
     """
@@ -68,9 +72,9 @@ def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
             prev_size = os.path.getsize(prev_file_path)
             print(f"New file {new_file_path} has size {new_size}")
             print(f"Prev file {prev_file_path} has size {prev_size}")
-            show_diff(str(prev_file_path), str(new_file_path))
+            print_diff(str(prev_file_path), str(new_file_path))
 
-            if files_are_different(new_file_path, prev_file_path):
+            if have_differs(new_file_path, prev_file_path):
                 if check_diff and new_size * 2 < prev_size:
                     print(f"Skipping {file_name}: New file size less twice the size of the old file.")
                 else:
@@ -85,7 +89,7 @@ def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
     return res
 
 
-def show_diff(file1_path: str, file2_path: str):
+def print_diff(file1_path: str, file2_path: str):
     with open(file1_path, 'r', encoding='utf-8') as f1, open(file2_path, 'r', encoding='utf-8') as f2:
         file1_lines = f1.readlines()
         file2_lines = f2.readlines()
@@ -96,7 +100,32 @@ def show_diff(file1_path: str, file2_path: str):
         print(line, end="")
 
 
-def files_are_different(file1_path, file2_path):
+def print_colored_diff(file1, file2):
+    RED = '\033[1;31m'
+    GREEN = '\033[1;32m'
+    YELLOW = '\033[1;33m'
+    NC = '\033[0m'
+
+    with open(file1) as f1, open(file2) as f2:
+        diff = difflib.unified_diff(
+            f1.readlines(), f2.readlines(),
+            fromfile=file1, tofile=file2
+        )
+        colored_diff = []
+        for line in diff:
+            if line.startswith('+') and not line.startswith('+++'):
+                colored_diff.append(f"{GREEN}{line}{NC}")
+            elif line.startswith('-') and not line.startswith('---'):
+                colored_diff.append(f"{RED}{line}{NC}")
+            elif line.startswith('@'):
+                colored_diff.append(f"{YELLOW}{line}{NC}")
+            else:
+                colored_diff.append(line)
+
+        return ''.join(colored_diff)
+
+
+def have_differs(file1_path, file2_path):
     # Open both files in binary mode and compare chunk by chunk
     with open(file1_path, 'rb') as f1, open(file2_path, 'rb') as f2:
         while True:
@@ -199,3 +228,23 @@ def execute_to_file(cmd_line: list, out_file: str):
             raise RuntimeError(f"External command {cmd_line} finished with non zero code: " + str(cmd_result.returncode))
         else:
             print(f"External command {cmd_line} finished successfully")
+
+
+def archive_files(files: list[str], archive_name: str) -> str:
+    with tarfile.open(archive_name, 'w:gz') as tarf:
+        for file in files:
+            # Ensure the file exists before adding it to the tar archive
+            if os.path.exists(file):
+                # Add file to archive with only the file name (no directory structure)
+                tarf.add(file, arcname=os.path.basename(file))
+            else:
+                raise FileExistsError(f"{file} does not exist")
+
+    return archive_name
+
+
+def unpack_data(compressed_data: bytes | None) -> str:
+    buffer = BytesIO(compressed_data)
+    with gzip.GzipFile(fileobj=buffer, mode='rb') as decompressed:
+        uncompressed_data = decompressed.read()
+    return uncompressed_data.decode('utf-8')
