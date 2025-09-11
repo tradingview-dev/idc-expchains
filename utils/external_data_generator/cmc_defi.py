@@ -73,7 +73,7 @@ class CMCDataGenerator(DataGenerator):
         for record in defi_coins:
             cid = self.map_currency_id(record["symbol"])
             if cid not in currency_ids:
-                self._logger.warn(f"Unknown currency-id {cid}")
+                self._logger.weak_warn(f"Unknown currency-id {cid}")
             defi_coins_ids.append(cid)
 
         defi_coins_ids.sort()
