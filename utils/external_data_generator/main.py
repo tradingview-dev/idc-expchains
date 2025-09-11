@@ -127,7 +127,7 @@ def get_clusters(args):
         "cboe": {"handlers": [{"generator": CBOEDataGenerator().generate}]},
         "otc": {"handlers": [{"generator": OtcDataGenerator(args.branch).generate}]},
         "corpacts": {"handlers": [{"generator": CorpactsDataGenerator().generate, "state_dir": "tvc"}]},
-        "cmc_defi": {"handlers": [{"generator": CMCDataGenerator(args.branch, "TeamIDCAdmin-staging").generate, "state_dir": "tvc", "state": "defi"}]},
+        "cmc_defi": {"handlers": [{"generator": CMCDataGenerator(args.branch).generate, "state_dir": "tvc", "state": "defi"}]},
     }
 
 
