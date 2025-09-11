@@ -79,9 +79,9 @@ def compare_with_remote(files_to_compare: list[str], remote_archive_name: str):
         try:
             with tarfile.open(remote_archive_name, "r") as tar:
                 tar.extractall(path=tmp_dir)
-            remote_files = {
-                entry.name: str(os.path.join(tmp_dir, entry.name)) for entry in tar.getmembers()
-            }
+                remote_files = {
+                    entry.name: str(os.path.join(tmp_dir, entry.name)) for entry in tar.getmembers()
+                }
             for filename in files_to_compare:
                 if filename in remote_files:
                     diffs.append(print_colored_diff(remote_files[filename], filename))
