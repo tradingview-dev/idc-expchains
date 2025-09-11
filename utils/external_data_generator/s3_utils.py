@@ -12,7 +12,7 @@ from utils import print_colored_diff
 
 
 def download_state(object_key: str) -> str:
-    tmp_file = tempfile.NamedTemporaryFile(suffix=".".join(Path(object_key).suffixes), delete=False)
+    tmp_file = tempfile.NamedTemporaryFile(suffix="".join(Path(object_key).suffixes), delete=False)
     baseurl = "https://tradingview-sourcedata-storage.xtools.tv"
     url = f"{baseurl}/{object_key}"
     try:
