@@ -1,57 +1,7 @@
 {
-    "date": "2025-09-11",
+    "date": "2025-09-12",
     "deletions": [],
     "adds_and_changes": [
-        {
-            "listing_market": "CSE",
-            "symbol": "UAV",
-            "listing_date": "2014-09-11",
-            "trading_date": "2015-09-09",
-            "status": "Active",
-            "security_name": "Global UAV Technologies Ltd.",
-            "security_type": "Equity",
-            "sector": "Technology",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 2474500,
-            "reserved_shares": 1036667,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "Independent Trading Group",
-                "type": "full"
-            },
-            "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000007734.json",
-            "tier": 2,
-            "company_website_url": "http://www.globaluavtech.com"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "CL",
-            "listing_date": "2018-12-03",
-            "trading_date": "2018-12-03",
-            "status": "Active",
-            "security_name": "Cresco Labs Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "US Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 339408660,
-            "reserved_shares": 149786947,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE25",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000007812.json",
-            "tier": 2,
-            "company_website_url": "http://www.crescolabs.com"
-        },
         {
             "listing_market": "CSE",
             "symbol": "FNT.U",
@@ -87,59 +37,51 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "BIOV",
-            "listing_date": "2018-11-21",
-            "trading_date": "2020-10-06",
+            "symbol": "TMAS",
+            "listing_date": "2020-05-19",
+            "trading_date": "2020-05-19",
             "status": "Active",
-            "security_name": "BioVaxys Technology Corp.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [],
-            "currency": "CAD",
-            "outstanding_shares": 29342496,
-            "reserved_shares": 13867806,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {
-                "effective_on": "2025-09-11",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000045617.json",
-            "tier": 2,
-            "company_website_url": "https://biovaxys.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "TRAC",
-            "listing_date": "2021-09-01",
-            "trading_date": "2021-09-01",
-            "status": "Active",
-            "security_name": "Traction Uranium Corp.",
+            "security_name": "Temas Resources Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 10949093,
-            "reserved_shares": 2074723,
+            "outstanding_shares": 37651257,
+            "reserved_shares": 18028531,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Independent Trading Group",
+                "dealer name": "W.D. Latimer Co. Limited",
                 "type": "full"
             },
-            "index": "No",
-            "recent_change": {
-                "effective_on": "2024-09-26",
-                "text": "CUSIP changed",
-                "type": "CUSIP"
-            },
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000051792.json",
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000049522.json",
             "tier": 2,
-            "company_website_url": "https://tractionuranium.com/"
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "NPRA",
+            "listing_date": "2021-09-16",
+            "trading_date": "2021-09-20",
+            "status": "Active",
+            "security_name": "Nepra Foods Inc.",
+            "security_type": "Equity",
+            "sector": "Diversified Industries",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 112476539,
+            "reserved_shares": 3713649,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052160.json",
+            "tier": 2,
+            "company_website_url": "http://www.neprafoods.com"
         },
         {
             "listing_market": "CSE",
@@ -174,41 +116,95 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "SCPE",
-            "listing_date": "2022-09-01",
-            "trading_date": "2022-09-06",
+            "symbol": "PBF",
+            "listing_date": "2022-01-11",
+            "trading_date": "2022-01-11",
             "status": "Active",
-            "security_name": "Scope Technologies Corp.",
+            "security_name": "Planet Based Foods Global Inc.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 59891376,
-            "reserved_shares": 6190041,
-            "total_equity_shares_as_if_converted": null,
+            "outstanding_shares": 35585232,
+            "reserved_shares": 4702886,
+            "total_equity_shares_as_if_converted": "40288118",
             "market_maker": {
-                "dealer name": "National Bank Financial Inc.",
+                "dealer name": "Virtu Canada Corp.",
                 "type": "full"
             },
-            "index": "CSE Composite",
+            "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055206.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000046471.json",
             "tier": 2,
-            "company_website_url": "https://www.scopetech.ai/"
+            "company_website_url": "https://www.pbfglobal.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "BATT",
-            "listing_date": "2023-03-07",
-            "trading_date": "2023-03-07",
+            "symbol": "BRCO",
+            "listing_date": "2022-03-15",
+            "trading_date": "2022-03-15",
             "status": "Active",
-            "security_name": "Dark Star Minerals Inc.",
+            "security_name": "Buscando Resources Corp.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 79168102,
-            "reserved_shares": 1165000,
+            "outstanding_shares": 29521002,
+            "reserved_shares": 6903500,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {
+                "effective_on": "2025-04-25",
+                "text": "formerly was BRCO.X/Buscando Resources Corp. until 2025-04-24",
+                "until": "2025-04-24",
+                "symbol_was": "BRCO.X",
+                "type": "symbol"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053849.json",
+            "tier": 2,
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "OMND",
+            "listing_date": "2022-08-04",
+            "trading_date": "2022-08-04",
+            "status": "Halted Pending Fundamental Change",
+            "security_name": "Optimind Pharma Corp.",
+            "security_type": "Equity",
+            "sector": "Life Sciences",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 109788491,
+            "reserved_shares": 9956000,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "National Bank Financial Inc.",
+                "type": "odd lot only"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000027957.json",
+            "tier": 2,
+            "company_website_url": "https://www.optimindpharma.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "STMN",
+            "listing_date": "2023-01-24",
+            "trading_date": "2023-01-24",
+            "status": "Active",
+            "security_name": "Stearman Resources Inc.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 29667000,
+            "reserved_shares": 9400000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -216,9 +212,33 @@
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000054466.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055111.json",
             "tier": 2,
-            "company_website_url": "https://www.darkstarminerals.com"
+            "company_website_url": null
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "BRAZ",
+            "listing_date": "2024-11-14",
+            "trading_date": "2024-11-18",
+            "status": "Active",
+            "security_name": "Canary Gold Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 59822233,
+            "reserved_shares": 22354259,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000103357.json",
+            "tier": 2,
+            "company_website_url": "https://www.canarygold.ca"
         }
     ],
     "full_list": [
@@ -7998,8 +8018,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 36916269,
-            "reserved_shares": 19263392,
+            "outstanding_shares": 37651257,
+            "reserved_shares": 18028531,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -9360,7 +9380,7 @@
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050272.json",
             "tier": 2,
-            "company_website_url": "https://www.golcapresources.com"
+            "company_website_url": null
         },
         {
             "listing_market": "CSE",
@@ -11465,7 +11485,7 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 104193181,
+            "outstanding_shares": 112476539,
             "reserved_shares": 3713649,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -12651,9 +12671,9 @@
             "sector": "Diversified Industries",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 20347138,
+            "outstanding_shares": 35585232,
             "reserved_shares": 4702886,
-            "total_equity_shares_as_if_converted": "25050024",
+            "total_equity_shares_as_if_converted": "40288118",
             "market_maker": {
                 "dealer name": "Virtu Canada Corp.",
                 "type": "full"
@@ -13323,8 +13343,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 26470669,
-            "reserved_shares": 5330333,
+            "outstanding_shares": 29521002,
+            "reserved_shares": 6903500,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -14325,7 +14345,7 @@
             "symbol": "OMND",
             "listing_date": "2022-08-04",
             "trading_date": "2022-08-04",
-            "status": "Active",
+            "status": "Halted Pending Fundamental Change",
             "security_name": "Optimind Pharma Corp.",
             "security_type": "Equity",
             "sector": "Life Sciences",
@@ -15405,7 +15425,7 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 22067000,
+            "outstanding_shares": 29667000,
             "reserved_shares": 9400000,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
@@ -18125,8 +18145,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 51683733,
-            "reserved_shares": 17763759,
+            "outstanding_shares": 59822233,
+            "reserved_shares": 22354259,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
