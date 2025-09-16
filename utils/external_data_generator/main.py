@@ -9,7 +9,6 @@ import tarfile
 import tempfile
 
 from adx import ADXDataGenerator
-from asx import ASXDataGenerator
 from biva import BivaDataGenerator
 from canada import CanadaDataGenerator
 from cboe import CBOEDataGenerator
@@ -43,7 +42,6 @@ class Codes(enum.IntEnum):
 def main(args, logger):
     data_clusters = {
         "adx": {"handlers": [{"generator": ADXDataGenerator().generate}]},
-        "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
         "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "state": "cse"}]},
         "LSX": {"handlers": [{"generator": Lang().generate, "state": "lsx"}]},
