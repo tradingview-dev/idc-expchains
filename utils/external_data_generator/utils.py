@@ -73,6 +73,7 @@ def compare_and_overwrite_files(file_names, new_dir, prev_dir, check_diff):
             if files_are_different(new_file_path, prev_file_path):
                 if check_diff and new_size * 2 < prev_size:
                     print(f"Skipping {file_name}: New file size less twice the size of the old file.")
+                    raise Exception(f"{file_name} new size less twice the size of the old one")
                 else:
                     print(f"File {file_name} have diff")
                     shutil.copy(str(new_file_path), str(prev_file_path))
