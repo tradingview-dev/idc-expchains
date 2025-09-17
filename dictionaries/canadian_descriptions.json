@@ -1,82 +1,61 @@
 {
-    "date": "2025-09-15",
+    "date": "2025-09-16",
     "deletions": [],
     "adds_and_changes": [
         {
             "listing_market": "CSE",
-            "symbol": "AGC",
-            "listing_date": "2015-08-24",
-            "trading_date": "2015-09-03",
+            "symbol": "ASE",
+            "listing_date": "2015-05-28",
+            "trading_date": "2015-09-04",
             "status": "Active",
-            "security_name": "Avanti Gold Corp.",
+            "security_name": "Asante Gold Corporation",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 127321716,
-            "reserved_shares": 67803098,
+            "outstanding_shares": 712734491,
+            "reserved_shares": 51911864,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Virtu Canada Corp.",
+                "dealer name": "Integral Wealth Securities Limited",
                 "type": "full"
             },
-            "index": "No",
+            "index": "CSE25",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000036483.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000032388.json",
             "tier": 2,
-            "company_website_url": "https://www.avantigoldcorp.com"
+            "company_website_url": "http://www.asantegold.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "SOL",
-            "listing_date": "2018-08-15",
-            "trading_date": "2018-08-15",
+            "symbol": "ADDY",
+            "listing_date": "2018-10-01",
+            "trading_date": "2018-10-01",
             "status": "Active",
-            "security_name": "SOL Global Investments Corp.",
+            "security_name": "Adelayde Exploration Inc.",
             "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "Blockchain"
-            ],
+            "sector": "Mining",
+            "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 229997433,
-            "reserved_shares": 54775280,
+            "outstanding_shares": 28782858,
+            "reserved_shares": 7478600,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
-                "type": "full"
-            },
-            "index": "CSE Composite",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000033348.json",
-            "tier": 2,
-            "company_website_url": "https://solglobal.com/"
-        },
-        {
-            "listing_market": "CSE",
-            "symbol": "AION",
-            "listing_date": "2019-02-21",
-            "trading_date": "2019-02-21",
-            "status": "Suspended",
-            "security_name": "Aion Therapeutic Inc.",
-            "security_type": "Equity",
-            "sector": "Life Sciences",
-            "sector_tags": [
-                "Cannabis"
-            ],
-            "currency": "CAD",
-            "outstanding_shares": 475149269,
-            "reserved_shares": 111273682,
-            "total_equity_shares_as_if_converted": null,
-            "market_maker": {
-                "dealer name": "W.D. Latimer Co. Limited",
+                "dealer name": "Independent Trading Group",
                 "type": "full"
             },
             "index": "No",
-            "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000031787.json",
+            "recent_change": {
+                "effective_on": "2025-06-30",
+                "text": "formerly was SPMT/Spearmint Resources Inc. until 2025-06-27",
+                "until": "2025-06-27",
+                "symbol_was": "SPMT",
+                "name_was": "Spearmint Resources Inc.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000029285.json",
             "tier": 2,
-            "company_website_url": null
+            "company_website_url": "https://www.adelaydeexp.com"
         },
         {
             "listing_market": "CSE",
@@ -113,6 +92,54 @@
         },
         {
             "listing_market": "CSE",
+            "symbol": "KUYA",
+            "listing_date": "2017-03-27",
+            "trading_date": "2020-10-07",
+            "status": "Active",
+            "security_name": "Kuya Silver Corporation",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 142395136,
+            "reserved_shares": 57430783,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000040073.json",
+            "tier": 2,
+            "company_website_url": "http://www.kuyasilver.com"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "HAMR",
+            "listing_date": "2021-04-29",
+            "trading_date": "2021-05-03",
+            "status": "Active",
+            "security_name": "Silver Hammer Mining Corp",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 71822305,
+            "reserved_shares": 88478239,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "W.D. Latimer Co. Limited",
+                "type": "full"
+            },
+            "index": "No",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000050950.json",
+            "tier": 2,
+            "company_website_url": "https://silverhammermining.com"
+        },
+        {
+            "listing_market": "CSE",
             "symbol": "ISTK",
             "listing_date": "2021-11-08",
             "trading_date": "2021-11-08",
@@ -144,51 +171,106 @@
         },
         {
             "listing_market": "CSE",
-            "symbol": "ASHL",
-            "listing_date": "2022-04-28",
-            "trading_date": "2022-05-02",
+            "symbol": "MLKM",
+            "listing_date": "2022-05-05",
+            "trading_date": "2022-05-05",
             "status": "Active",
-            "security_name": "Ashley Gold Corp",
+            "security_name": "Mayo Lake Minerals Inc.",
             "security_type": "Equity",
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 64375752,
-            "reserved_shares": 26651713,
+            "outstanding_shares": 112301370,
+            "reserved_shares": 28486924,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
-                "type": "full"
+                "type": "odd lot only"
             },
             "index": "No",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053521.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000052782.json",
             "tier": 2,
-            "company_website_url": "https://www.ashleygoldcorp.com"
+            "company_website_url": "https://www.maylolakeminerals.com"
         },
         {
             "listing_market": "CSE",
-            "symbol": "NXT",
-            "listing_date": "2024-08-07",
-            "trading_date": "2024-08-07",
+            "symbol": "MSM",
+            "listing_date": "2022-09-12",
+            "trading_date": "2022-09-14",
             "status": "Active",
-            "security_name": "NextGen Digital Platforms Inc.",
+            "security_name": "Metalsource Mining Inc.",
             "security_type": "Equity",
-            "sector": "Technology",
+            "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 28889450,
-            "reserved_shares": 0,
+            "outstanding_shares": 35353500,
+            "reserved_shares": 3701750,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
-                "dealer name": "Independent Trading Group",
+                "dealer name": "National Bank Financial Inc.",
                 "type": "odd lot only"
             },
             "index": "CSE Composite",
             "recent_change": {},
-            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000101754.json",
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000053138.json",
             "tier": 2,
-            "company_website_url": "https://nextgendigital.ca/"
+            "company_website_url": "https://www.metalsourcemining.com/home"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "PRNC",
+            "listing_date": "2023-02-22",
+            "trading_date": "2023-02-24",
+            "status": "Active",
+            "security_name": "Prince Silver Corp.",
+            "security_type": "Equity",
+            "sector": "Mining",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 49336440,
+            "reserved_shares": 20916150,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "National Bank Financial Inc.",
+                "type": "odd lot only"
+            },
+            "index": "CSE Composite",
+            "recent_change": {
+                "effective_on": "2025-07-11",
+                "text": "formerly was HWTN/Hawthorn Resources Corp. until 2025-07-10",
+                "until": "2025-07-10",
+                "symbol_was": "HWTN",
+                "name_was": "Hawthorn Resources Corp.",
+                "type": "symbol, name and CUSIP"
+            },
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000055169.json",
+            "tier": 2,
+            "company_website_url": "https://princesilvercorp.com/"
+        },
+        {
+            "listing_market": "CSE",
+            "symbol": "SYAI",
+            "listing_date": "2024-10-02",
+            "trading_date": "2024-10-02",
+            "status": "Active",
+            "security_name": "Syntheia Corp.",
+            "security_type": "Equity",
+            "sector": "Technology",
+            "sector_tags": [],
+            "currency": "CAD",
+            "outstanding_shares": 100162610,
+            "reserved_shares": 29482851,
+            "total_equity_shares_as_if_converted": null,
+            "market_maker": {
+                "dealer name": "Independent Trading Group",
+                "type": "full"
+            },
+            "index": "CSE Composite",
+            "recent_change": {},
+            "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000026723.json",
+            "tier": 2,
+            "company_website_url": "https://www.syntheia.ai"
         }
     ],
     "full_list": [
@@ -1388,8 +1470,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 501493413,
-            "reserved_shares": 37259600,
+            "outstanding_shares": 712734491,
+            "reserved_shares": 51911864,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Integral Wealth Securities Limited",
@@ -3948,7 +4030,7 @@
             "recent_change": {},
             "sedar_filings": "https://webapi.thecse.com/trading/listed/sedar_filings/000044160.json",
             "tier": 2,
-            "company_website_url": null
+            "company_website_url": "https://americanpacificmining.com"
         },
         {
             "listing_market": "CSE",
@@ -4942,7 +5024,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 28782858,
-            "reserved_shares": 2131332,
+            "reserved_shares": 7478600,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -8969,8 +9051,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 141453136,
-            "reserved_shares": 58572783,
+            "outstanding_shares": 142395136,
+            "reserved_shares": 57430783,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "Independent Trading Group",
@@ -10050,7 +10132,7 @@
             "sector_tags": [],
             "currency": "CAD",
             "outstanding_shares": 71822305,
-            "reserved_shares": 87728239,
+            "reserved_shares": 88478239,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "W.D. Latimer Co. Limited",
@@ -13632,8 +13714,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 110101370,
-            "reserved_shares": 29714930,
+            "outstanding_shares": 112301370,
+            "reserved_shares": 28486924,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
@@ -14605,8 +14687,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 34778500,
-            "reserved_shares": 4276750,
+            "outstanding_shares": 35353500,
+            "reserved_shares": 3701750,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
@@ -14785,7 +14867,7 @@
             "symbol": "SHOE",
             "listing_date": "2022-10-05",
             "trading_date": "2022-10-05",
-            "status": "Suspended",
+            "status": "Active",
             "security_name": "Grounded People Apparel Inc.",
             "security_type": "Equity",
             "sector": "Diversified Industries",
@@ -15625,8 +15707,8 @@
             "sector": "Mining",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 46211440,
-            "reserved_shares": 19353650,
+            "outstanding_shares": 49336440,
+            "reserved_shares": 20916150,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
                 "dealer name": "National Bank Financial Inc.",
@@ -17953,7 +18035,7 @@
             "sector": "Technology",
             "sector_tags": [],
             "currency": "CAD",
-            "outstanding_shares": 94248631,
+            "outstanding_shares": 100162610,
             "reserved_shares": 29482851,
             "total_equity_shares_as_if_converted": null,
             "market_maker": {
