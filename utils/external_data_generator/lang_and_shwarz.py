@@ -16,9 +16,9 @@ class LangAndSchwarzDataGenerator(DataGenerator):
     __TYPES: dict = {
         "LSX": {
             'stock': ('base', 'db61b74d98c0231d3f763734d4024967a7dec93018004b8e54bf76aac8f05311', False),
-            'funds': ('funds', 'db61b74d98c0231d3f763734d40249676d071aafe753a3d4187f9bff52b984b2', True),
-            'etf': ('base', 'db61b74d98c0231d3f763734d4024967a4936f9404f19de7d94a2d6d78a6a923', True),
-            'bonds': ('base', 'db61b74d98c0231d3f763734d4024967f76522185ef4cddfb2badef9903d4577', True)
+            'funds': ('funds', 'db61b74d98c0231d3f763734d40249676d071aafe753a3d4187f9bff52b984b2', False),
+            'etf': ('base', 'db61b74d98c0231d3f763734d4024967a4936f9404f19de7d94a2d6d78a6a923', False),
+            'bonds': ('base', 'db61b74d98c0231d3f763734d4024967f76522185ef4cddfb2badef9903d4577', False)
         },
         "LS": {
             'stock': ('base', 'db61b74d98c0231d3f763734d4024967d77d9e99392bb3d6963f8af4deb84132', False),
