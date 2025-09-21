@@ -6,16 +6,16 @@ from typing import Callable, overload, Any
 
 class ConsoleOutput:
     """
-    A Simple Logger
+    A Simple Console Logger
     """
 
     class Foreground(enum.StrEnum):
 
         def __add__(self, other: str):
-            return self.value + other
+            return self._value_ + other
 
         def __radd__(self, other: str):
-            return other + self.value
+            return other + self._value_
 
         REGULAR_RED = '\033[0;31m'
         REGULAR_GREEN = '\033[0;32m'
