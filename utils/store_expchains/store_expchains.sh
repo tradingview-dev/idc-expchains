@@ -31,6 +31,7 @@ SI_OTHER_GROUPS=(
   "moex_iss_futures"
   "alor_futures"
   "russia_futures"
+  "abaxx_futures"
   "alor_rest_futures"
   "six_istanbul_futures"
   )
