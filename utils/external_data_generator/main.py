@@ -16,7 +16,6 @@ from cmc_defi import CMCDataGenerator
 from cme import CMEDataGenerator
 from corpacts import CorpactsDataGenerator
 from korea import KoreaDataGenerator
-from lang_and_shwarz import Lang, Schwarz
 from lib.ConsoleOutput import ConsoleOutput
 from moex import MOEXDataGenerator
 from mstar import MstarDataGenerator
@@ -106,8 +105,6 @@ def get_clusters(args):
         "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
         "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "state": "cse"}]},
-        "LSX": {"handlers": [{"generator": Lang().generate, "state": "lsx"}]},
-        "LS": {"handlers": [{"generator": Schwarz().generate, "state": "ls"}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "state": "gids"}]},
         "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "state": "nasdaq"}]},
         "nyse": {"handlers": [
