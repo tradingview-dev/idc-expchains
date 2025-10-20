@@ -48,14 +48,8 @@ fi
 
 mv "${FILE1}" "${EXP_CHAINS_DIR}/dictionaries/"
 
-pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/cik_codes.json"
-if [ "$(git status -s)" = "" ]; then
-    echo "No changes in $EXPCHAINS_BRANCH"
-else
-    echo "Update expchains in $EXPCHAINS_BRANCH"
-    git --no-pager -c color.ui=always diff --staged
-    git commit -m "Autocommit cik codes"
-    git push origin "$EXPCHAINS_BRANCH"
-fi
-popd
+
+SYMLIST_ENVIRONMENT="$1"
+
+cp "${EXP_CHAINS_DIR}/dictionaries/cik_codes.json" "$SCRIPTPATH/cik_codes.json"
+python3 "$SCRIPTPATH/symlistfeed_cik_delivery.py" --provider "dataops" --filename "cik_codes.json" --ruleset-filename "cik_codes_v1.json" --environment "$SYMLIST_ENVIRONMENT"
