@@ -9,7 +9,6 @@ RUN pip3 install requests
 
 COPY cik_codes.py /cik_codes/
 COPY update_cik_codes.sh /cik_codes/
-COPY symlistfeed_cik_delivery.sh /cik_codes/
 COPY symlistfeed_cik_delivery.py /cik_codes/
 
 WORKDIR /cik_codes
@@ -17,5 +16,4 @@ WORKDIR /cik_codes
 RUN chmod +x /cik_codes/cik_codes.py && \
     chmod +x /cik_codes/update_cik_codes.sh
 
-RUN chmod +x /cik_codes/symlistfeed_cik_delivery.py && \
-    chmod +x /cik_codes/symlistfeed_cik_delivery.sh
+RUN chmod +x /cik_codes/symlistfeed_cik_delivery.py
