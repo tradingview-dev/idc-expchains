@@ -69,18 +69,18 @@ mv "${tmpfile}" "${FILE}"
 #    	exit 1
 #fi
 
-pushd "$EXP_CHAINS_DIR"
-git add "dictionaries/defi_typespec.csv"
-if [ "$(git status -s)" = "" ]; then
-    echo "No changes in $EXPCHAINS_BRANCH"
-elif [ "$2" -eq 1 ]; then
-      echo "Update expchains in $EXPCHAINS_BRANCH"
-      git --no-pager -c color.ui=always diff --staged
-      git commit -m "Autocommit defi_typespec.csv"
-      git push origin "$EXPCHAINS_BRANCH"
-else
-  echo "Disabled by $2 param"
-fi
+#pushd "$EXP_CHAINS_DIR"
+#git add "dictionaries/defi_typespec.csv"
+#if [ "$(git status -s)" = "" ]; then
+#    echo "No changes in $EXPCHAINS_BRANCH"
+#elif [ "$2" -eq 1 ]; then
+#      echo "Update expchains in $EXPCHAINS_BRANCH"
+#      git --no-pager -c color.ui=always diff --staged
+#      git commit -m "Autocommit defi_typespec.csv"
+#      git push origin "$EXPCHAINS_BRANCH"
+#else
+#  echo "Disabled by $2 param"
+#fi
 
 
 # UPLOAD TO BUCKET
