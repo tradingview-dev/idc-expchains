@@ -69,7 +69,7 @@ mv "${tmpfile}" "${FILE}"
 #    	exit 1
 #fi
 
-#pushd "$EXP_CHAINS_DIR"
+pushd "$EXP_CHAINS_DIR"
 #git add "dictionaries/defi_typespec.csv"
 #if [ "$(git status -s)" = "" ]; then
 #    echo "No changes in $EXPCHAINS_BRANCH"
