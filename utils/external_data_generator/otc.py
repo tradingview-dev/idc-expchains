@@ -6,7 +6,6 @@ import aiohttp
 from DataGenerator import DataGenerator
 from utils import get_headers, unpack_data
 from s3_utils import read_state
-from utils.external_data_generator.downloader import bucket_name
 
 
 class OtcDataGenerator(DataGenerator):
@@ -97,7 +96,7 @@ class OtcDataGenerator(DataGenerator):
         # load_from_repo([out_file], "staging")
         # remove_repo()
 
-        compressed_data = read_state(bucket_name, "otc_data.json")
+        compressed_data = read_state("tradingview-sourcedata-storage-staging", "otc_data.json")
         content = unpack_data(compressed_data)
         with open(out_file, "w") as f:
             f.write(json.loads(content))
