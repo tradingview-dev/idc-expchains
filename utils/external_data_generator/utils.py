@@ -1,5 +1,6 @@
 import difflib
 import gzip
+import json
 import os
 import random
 import shutil
@@ -248,3 +249,13 @@ def unpack_data(compressed_data: bytes | None) -> str:
     with gzip.GzipFile(fileobj=buffer, mode='rb') as decompressed:
         uncompressed_data = decompressed.read()
     return uncompressed_data.decode('utf-8')
+
+def unpack_tar_gz_to_json(compressed_data: bytes) -> str:
+    buffer = BytesIO(compressed_data)
+    with tarfile.open(fileobj=buffer, mode='r:gz') as tar:
+        member = tar.getmembers()[0]
+        f = tar.extractfile(member)
+        if f is None:
+            raise ValueError("Файл внутри архива не найден")
+        content = f.read()
+    return content.decode('utf-8')
