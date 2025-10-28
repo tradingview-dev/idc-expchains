@@ -4,7 +4,8 @@ import json
 import aiohttp
 
 from DataGenerator import DataGenerator
-from utils import get_headers, load_from_repo, remove_repo
+from utils import get_headers, unpack_tar_gz_to_json, get_bucket_by_branch
+from s3_utils import read_state
 
 
 class OtcDataGenerator(DataGenerator):
@@ -84,19 +85,25 @@ class OtcDataGenerator(DataGenerator):
         return result
 
     def generate(self) -> list[str]:
+        out_file = "otc_data.json"
+
+        bucket = get_bucket_by_branch(self._branch)
+        compressed_data = read_state(bucket, "external/otc.tar.gz", None)
+
+        content = unpack_tar_gz_to_json(compressed_data)
+        data = json.loads(content)
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        with open(out_file, "r") as f:
+            prev_data = json.load(f)
+            self._logger.info(f"Previous data contains {len(prev_data)} records")
 
         records = asyncio.run(self.__request_all_records())
         for r in records:
             r.pop("joined", None)
             r.pop("marketCap", None)
 
-        out_file = "otc_data.json"
-
-        load_from_repo([out_file], "staging")
-        remove_repo()
-        with open(out_file, "r") as f:
-            prev_data = json.load(f)
-            self._logger.info(f"Previous data contains {len(prev_data)} records")
         merged_data = self.__merge(prev_data, records, "symbol")
         self._logger.info(f"Merged data contains {len(merged_data)} records")
         with open(out_file, "w") as f:
