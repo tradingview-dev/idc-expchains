@@ -262,8 +262,8 @@ def unpack_tar_gz_to_json(compressed_data: bytes) -> str:
 
 def get_bucket_by_branch(branch: str) -> str:
     buckets = {
-        "staging": "tradingview-currencies-staging",
-        "stable": "tradingview-currencies",
-        "master": "tradingview-currencies"
+        "staging": "tradingview-sourcedata-storage-staging",
+        "stable": "tradingview-sourcedata-storage-stable",
+        "master": "tradingview-sourcedata-storage"
     }
     return buckets[branch]
