@@ -88,9 +88,11 @@ class OtcDataGenerator(DataGenerator):
         out_file = "otc_data.json"
 
         compressed_data = read_state("tradingview-sourcedata-storage-staging", "external/otc.tar.gz", None)
+
         content = unpack_tar_gz_to_json(compressed_data)
-        with open(out_file, "w") as f:
-            f.write(json.loads(content))
+        data = json.loads(content)
+        with open(out_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
 
         with open(out_file, "r") as f:
             prev_data = json.load(f)
