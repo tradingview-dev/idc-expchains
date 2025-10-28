@@ -85,24 +85,22 @@ class OtcDataGenerator(DataGenerator):
         return result
 
     def generate(self) -> list[str]:
+        out_file = "otc_data.json"
+
+        compressed_data = read_state("tradingview-sourcedata-storage-staging", "otc_data.json", "TeamIDCAdmin")
+        content = unpack_data(compressed_data)
+        with open(out_file, "w") as f:
+            f.write(json.loads(content))
+
+        with open(out_file, "r") as f:
+            prev_data = json.load(f)
+            self._logger.info(f"Previous data contains {len(prev_data)} records")
 
         records = asyncio.run(self.__request_all_records())
         for r in records:
             r.pop("joined", None)
             r.pop("marketCap", None)
 
-        out_file = "otc_data.json"
-
-        # load_from_repo([out_file], "staging")
-        # remove_repo()
-
-        compressed_data = read_state("tradingview-sourcedata-storage-staging", "otc_data.json", "TeamIDCAdmin-staging")
-        content = unpack_data(compressed_data)
-        with open(out_file, "w") as f:
-            f.write(json.loads(content))
-        with open(out_file, "r") as f:
-            prev_data = json.load(f)
-            self._logger.info(f"Previous data contains {len(prev_data)} records")
         merged_data = self.__merge(prev_data, records, "symbol")
         self._logger.info(f"Merged data contains {len(merged_data)} records")
         with open(out_file, "w") as f:
