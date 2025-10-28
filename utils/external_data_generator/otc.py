@@ -96,7 +96,7 @@ class OtcDataGenerator(DataGenerator):
         # load_from_repo([out_file], "staging")
         # remove_repo()
 
-        compressed_data = read_state("tradingview-sourcedata-storage-staging", "otc_data.json")
+        compressed_data = read_state("tradingview-sourcedata-storage-staging", "otc_data.json", "TeamIDCAdmin-staging")
         content = unpack_data(compressed_data)
         with open(out_file, "w") as f:
             f.write(json.loads(content))
