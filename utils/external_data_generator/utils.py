@@ -259,3 +259,11 @@ def unpack_tar_gz_to_json(compressed_data: bytes) -> str:
             raise ValueError("Файл внутри архива не найден")
         content = f.read()
     return content.decode('utf-8')
+
+def get_bucket_by_branch(branch: str) -> str:
+    buckets = {
+        "staging": "tradingview-currencies-staging",
+        "stable": "tradingview-currencies",
+        "prod": "tradingview-currencies"
+    }
+    return buckets[branch]

@@ -4,7 +4,7 @@ import json
 import aiohttp
 
 from DataGenerator import DataGenerator
-from utils import get_headers, unpack_tar_gz_to_json
+from utils import get_headers, unpack_tar_gz_to_json, get_bucket_by_branch
 from s3_utils import read_state
 
 
@@ -87,7 +87,8 @@ class OtcDataGenerator(DataGenerator):
     def generate(self) -> list[str]:
         out_file = "otc_data.json"
 
-        compressed_data = read_state("tradingview-sourcedata-storage-staging", "external/otc.tar.gz", None)
+        bucket = get_bucket_by_branch(self._branch)
+        compressed_data = read_state(bucket, "external/otc.tar.gz", None)
 
         content = unpack_tar_gz_to_json(compressed_data)
         data = json.loads(content)
