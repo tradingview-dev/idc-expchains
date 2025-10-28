@@ -264,6 +264,6 @@ def get_bucket_by_branch(branch: str) -> str:
     buckets = {
         "staging": "tradingview-currencies-staging",
         "stable": "tradingview-currencies",
-        "prod": "tradingview-currencies"
+        "master": "tradingview-currencies"
     }
     return buckets[branch]
