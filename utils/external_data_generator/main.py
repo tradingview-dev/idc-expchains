@@ -15,6 +15,7 @@ from cftc_code import CFTCDataGenerator
 from cmc_defi import CMCDataGenerator
 from cme import CMEDataGenerator
 from corpacts import CorpactsDataGenerator
+from euronextmilan import EURONEXTUnderlyingGenerator
 from korea import KoreaDataGenerator
 from lib.ConsoleOutput import ConsoleOutput
 from moex import MOEXDataGenerator
@@ -105,6 +106,7 @@ def get_clusters(args):
         "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
         "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "state": "cse"}]},
+        "euronext_milan": {"handlers": [{"generator": EURONEXTUnderlyingGenerator().generate}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "state": "gids"}]},
         "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "state": "nasdaq"}]},
         "nyse": {"handlers": [
