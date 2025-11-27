@@ -49,7 +49,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
 
         return result
     
-    def generate(self) -> str:
+    def generate(self) -> list[str]:
 
         result = "EuronextUnderlying.csv"
 
@@ -58,7 +58,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
             for root, underlying in self.generate_underlying_csv().items():
                 file.write(f"{root};{underlying}\n")
 
-        return result
+        return [result]
 
 
 if __name__ == "__main__":
