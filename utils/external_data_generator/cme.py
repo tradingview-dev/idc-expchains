@@ -1,4 +1,5 @@
 import os
+import requests
 from abc import abstractmethod, ABC
 
 import pandas as pd
@@ -6,6 +7,7 @@ import pandas as pd
 from DataGenerator import DataGenerator
 from lib.ConsoleOutput import ConsoleOutput
 from lib.LoggableRequester import LoggableRequester
+from pathlib import Path
 
 
 class CmeProductsParser(ABC):
@@ -161,11 +163,58 @@ class CmeFuturesParser(CmeProductsParser):
                     file.write(f"{Clearing};{root};{description};{group};{subGroup}\n")
 
 
+class CmeRootsGenerator(DataGenerator):
+
+    @property
+    def _get_product(self):
+        return "cme_roots"
+
+    @property
+    def get_filename(self):
+        return f"{self._get_product}.csv"
+
+    @staticmethod
+    def get_env():
+        environment = os.environ.get('ENVIRONMENT', None)
+
+        if environment == "production":
+            return ("3", "4")
+        else:
+            return ("0", "2")
+
+    def get_si(self, group: str):
+        res = {}
+        hub, port = self.get_env()
+        si = requests.get(f"http://hub{hub}.xstaging.tv:809{port}/symbol_info?group={group}").json()
+        roots = si.get("root")
+        if roots is not None:
+            for n in range(len(roots)):
+                res[roots[n]] = si["pointvalue"][n]
+        return res
+    
+    def parse_symbols(self) -> None:
+        groups = ["comex_2_continuous", 
+          "nymex_2_a_continuous", 
+          "nymex_2_b_continuous", 
+          "nymex_2_mini_continuous", 
+          "nymex_2_nohistory_continuous", 
+          "cbot_2_mini_continuous", 
+          "cbot_2_globex_continuous", 
+          "cme_2_mini_continuous", 
+          "cme_2_globex_continuous"]
+        with open(self.get_filename, "w") as file:
+            file.write("root;pointvalue\n")
+            for group in groups:
+                res = self.get_si(group)
+                for k, v in res.items():
+                    file.write(f"{k};{v}\n")
+
+
 class CMEDataGenerator(DataGenerator):
 
     def generate(self) -> list[str]:
         output = []
-        parsers = [CmeOptionsParser(), CmeFuturesParser()]
+        parsers = [CmeOptionsParser(), CmeFuturesParser(), CmeRootsGenerator()]
         for parser in parsers:
             try:
                 parser.parse_symbols()
