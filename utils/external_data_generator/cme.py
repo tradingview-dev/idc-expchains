@@ -163,7 +163,7 @@ class CmeFuturesParser(CmeProductsParser):
                     file.write(f"{Clearing};{root};{description};{group};{subGroup}\n")
 
 
-class CmeRootsGenerator(DataGenerator):
+class CmeRootsGenerator(CmeProductsParser):
 
     @property
     def _get_product(self):
@@ -214,7 +214,7 @@ class CMEDataGenerator(DataGenerator):
 
     def generate(self) -> list[str]:
         output = []
-        parsers = [CmeOptionsParser(), CmeFuturesParser(), CmeRootsGenerator()]
+        parsers = [CmeRootsGenerator(), CmeOptionsParser(), CmeFuturesParser()]
         for parser in parsers:
             try:
                 parser.parse_symbols()
