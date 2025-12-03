@@ -12,7 +12,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
     def __init__(self, branch):
         super().__init__()
         self._branch = branch
-        self.inner_filename = "snapshots.json"
+        self.inner_filename = "./snapshots.json"
 
     @staticmethod
     def get_bucket_by_branch(branch: str) -> str:
