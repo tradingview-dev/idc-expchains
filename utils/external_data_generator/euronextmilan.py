@@ -2,6 +2,7 @@ import json
 import tarfile
 
 from DataGenerator import DataGenerator
+from io import BytesIO
 from s3_utils import read_state
 from utils import get_bucket_by_branch
 
@@ -12,14 +13,23 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
         super().__init__()
         self._branch = branch
         self.inner_filename = "snapshots.json"
+
+    @staticmethod
+    def get_bucket_by_branch(branch: str) -> str:
+        buckets = {
+            "staging": "tradingview-sourcedata-storage-staging",
+            "stable": "tradingview-sourcedata-storage-stable",
+            "prod": "tradingview-sourcedata-storage"
+        }
+        return buckets[branch]
     
     def generate_underlying_csv(self) -> dict[str, str]:
 
         result = {}
-        bucket = get_bucket_by_branch(self._branch)
+        bucket = self.get_bucket_by_branch(self._branch)
         state = read_state(bucket, "ice/903.tar.gz", None)
 
-        with tarfile.open(fileobj=io.BytesIO(state), mode="r:gz") as tar:
+        with tarfile.open(fileobj=BytesIO(state), mode="r:gz") as tar:
             member = tar.getmember(self.inner_filename)
             file_obj = tar.extractfile(member)
             if file_obj is None:
