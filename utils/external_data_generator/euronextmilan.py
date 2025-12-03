@@ -1,40 +1,32 @@
 import json
-import shutil
 import tarfile
-import tempfile
 
 from DataGenerator import DataGenerator
-from lib.LoggableRequester import LoggableRequester
-from pathlib import Path
+from s3_utils import read_state
+from utils import get_bucket_by_branch
+
 
 class EURONEXTUnderlyingGenerator(DataGenerator):
 
-    def __init__(self):
+    def __init__(self, branch):
         super().__init__()
-
-    @staticmethod
-    def get_state(object_key: str)  -> tuple[str, str]:
-        tmp_file = tempfile.NamedTemporaryFile(suffix="".join(Path(object_key).suffixes), delete=False)
-        baseurl = "https://tradingview-sourcedata-storage.xtools.tv"
-        url = f"{baseurl}/{object_key}"
-        try:
-            resp = LoggableRequester().request(LoggableRequester.Methods.GET, url)
-            with open(tmp_file.name, "wb") as f:
-                f.write(resp.content)
-        except OSError as e:
-            raise e
-        with tarfile.open(tmp_file.name, "r:gz") as tar:
-            tar.extractall(f"{tmp_file.name}_output")
-        return (tmp_file.name, f"{tmp_file.name}_output")
+        self._branch = branch
+        self.inner_filename = "snapshots.json"
     
     def generate_underlying_csv(self) -> dict[str, str]:
 
         result = {}
-        archive, unzip = self.get_state("ice/903.tar.gz")
+        bucket = get_bucket_by_branch(self._branch)
+        state = read_state(bucket, "ice/903.tar.gz", None)
 
-        with open(f"{unzip}/snapshots.json", "r") as snapshots:
-            for snapshot in snapshots:
-                snap = json.loads(snapshot)
+        with tarfile.open(fileobj=io.BytesIO(state), mode="r:gz") as tar:
+            member = tar.getmember(self.inner_filename)
+            file_obj = tar.extractfile(member)
+            if file_obj is None:
+                raise FileNotFoundError(f"Файл {self.inner_filename} не найден в архиве")
+            
+            for line in file_obj:
+                snap = json.loads(line.decode("utf-8"))
                 ticker = snap.get("SYMBOL.TICKER")
                 if ticker is not None:
                     root = ticker.split("\\")[0].split(":")[1]
@@ -47,13 +39,8 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
                 if underlying_prefix is not None and underlying_symbol is not None:
                     underlying = f"{underlying_prefix}:{underlying_symbol}"
                 else:
-                    if root[-1] == "8":
-                        result[root] = result[f"{root[:-1]}7"]
                     continue
                 result[root] = underlying
-
-        shutil.rmtree(archive, ignore_errors=True)
-        shutil.rmtree(unzip, ignore_errors=True)
 
         return result
     
