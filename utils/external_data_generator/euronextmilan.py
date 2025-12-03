@@ -30,6 +30,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
         state = read_state(bucket, "ice/903.tar.gz", None)
 
         with tarfile.open(fileobj=BytesIO(state), mode="r:gz") as tar:
+            print(tar.getnames())
             member = tar.getmember(self.inner_filename)
             file_obj = tar.extractfile(member)
             if file_obj is None:
