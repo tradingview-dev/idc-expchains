@@ -15,7 +15,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
     @staticmethod
     def get_state(object_key: str)  -> tuple[str, str]:
         tmp_file = tempfile.NamedTemporaryFile(suffix="".join(Path(object_key).suffixes), delete=False)
-        baseurl = "https://tradingview-sourcedata-storage.xstaging.tv"
+        baseurl = "https://tradingview-sourcedata-storage.xtools.tv"
         url = f"{baseurl}/{object_key}"
         try:
             resp = LoggableRequester().request(LoggableRequester.Methods.GET, url)
@@ -38,10 +38,18 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
                 ticker = snap.get("SYMBOL.TICKER")
                 if ticker is not None:
                     root = ticker.split("\\")[0].split(":")[1]
+                    if root[-1].isdigit():
+                        root = root[:-1]
+                else:
+                    continue
                 underlying_prefix = snap.get("ENUM.SRC.UNDERLYING.ID")
                 underlying_symbol = snap.get("SYMBOL.UNDERLYING.TICKER")
                 if underlying_prefix is not None and underlying_symbol is not None:
                     underlying = f"{underlying_prefix}:{underlying_symbol}"
+                else:
+                    if root[-1] == "8":
+                        result[root] = result[f"{root[:-1]}7"]
+                    continue
                 result[root] = underlying
 
         shutil.rmtree(archive, ignore_errors=True)
