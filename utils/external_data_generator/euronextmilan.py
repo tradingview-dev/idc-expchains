@@ -58,7 +58,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
 
 if __name__ == "__main__":
     try:
-        EURONEXTUnderlyingGenerator().generate()
+        EURONEXTUnderlyingGenerator("staging").generate()
         exit(0)
     except OSError:
         exit(1)
