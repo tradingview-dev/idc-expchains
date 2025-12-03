@@ -106,7 +106,7 @@ def get_clusters(args):
         "asx": {"handlers": [{"generator": ASXDataGenerator().generate}]},
         "biva": {"handlers": [{"generator": BivaDataGenerator().generate}]},
         "canada": {"handlers": [{"generator": CanadaDataGenerator().generate, "state": "cse"}]},
-        "euronext_milan": {"handlers": [{"generator": EURONEXTUnderlyingGenerator().generate}]},
+        "euronext_milan": {"handlers": [{"generator": EURONEXTUnderlyingGenerator(args.branch).generate}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "state": "gids"}]},
         "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "state": "nasdaq"}]},
         "nyse": {"handlers": [
