@@ -14,17 +14,17 @@ class CmeProductsParser(ABC):
     # protected static variables
     _BASE_URL = "https://www.cmegroup.com/services/product-slate"
     _HEADERS = {
-        "accept": "application/json, text/plain, */*",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "accept-endcoding": "gzip, deflate, br, zstd",
         "accept-language": "en-US,en;q=0.5",
         "connection": "keep-alive",
         "host": "www.cmegroup.com",
         "referer": "https://www.cmegroup.com/markets/products.html",
-        "priority": "u=1, i",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-origin",
-        "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0",
+        "priority": "u=0, i",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0",
     }
 
     def __init__(self):
