@@ -1,4 +1,5 @@
 import os
+import requests
 from abc import abstractmethod, ABC
 
 import pandas as pd
@@ -13,17 +14,17 @@ class CmeProductsParser(ABC):
     # protected static variables
     _BASE_URL = "https://www.cmegroup.com/services/product-slate"
     _HEADERS = {
-        "accept": "application/json, text/plain, */*",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "accept-endcoding": "gzip, deflate, br, zstd",
         "accept-language": "en-US,en;q=0.5",
         "connection": "keep-alive",
         "host": "www.cmegroup.com",
         "referer": "https://www.cmegroup.com/markets/products.html",
-        "priority": "u=1, i",
-        "sec-fetch-dest": "empty",
-        "sec-fetch-mode": "cors",
-        "sec-fetch-site": "same-origin",
-        "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0",
+        "priority": "u=0, i",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:145.0) Gecko/20100101 Firefox/145.0",
     }
 
     def __init__(self):
@@ -161,11 +162,58 @@ class CmeFuturesParser(CmeProductsParser):
                     file.write(f"{Clearing};{root};{description};{group};{subGroup}\n")
 
 
+class CmeRootsGenerator(CmeProductsParser):
+
+    @property
+    def _get_product(self):
+        return "cme_roots"
+
+    @property
+    def get_filename(self):
+        return f"{self._get_product}.csv"
+
+    @staticmethod
+    def get_env():
+        environment = os.environ.get('ENVIRONMENT', None)
+
+        if environment == "production":
+            return ("3", "4")
+        else:
+            return ("0", "2")
+
+    def get_si(self, group: str):
+        res = {}
+        hub, port = self.get_env()
+        si = LoggableRequester(self._logger, timeout=30).request(LoggableRequester.Methods.GET, f"http://hub{hub}.xtools.tv:809{port}/symbol_info?group={group}").json()
+        roots = si.get("root")
+        if roots is not None:
+            for n in range(len(roots)):
+                res[roots[n]] = si["pointvalue"][n]
+        return res
+    
+    def parse_symbols(self) -> None:
+        groups = ["comex_2_continuous", 
+          "nymex_2_a_continuous", 
+          "nymex_2_b_continuous", 
+          "nymex_2_mini_continuous", 
+          "nymex_2_nohistory_continuous", 
+          "cbot_2_mini_continuous", 
+          "cbot_2_globex_continuous", 
+          "cme_2_mini_continuous", 
+          "cme_2_globex_continuous"]
+        with open(self.get_filename, "w") as file:
+            file.write("root;pointvalue\n")
+            for group in groups:
+                res = self.get_si(group)
+                for k, v in res.items():
+                    file.write(f"{k};{v}\n")
+
+
 class CMEDataGenerator(DataGenerator):
 
     def generate(self) -> list[str]:
         output = []
-        parsers = [CmeOptionsParser(), CmeFuturesParser()]
+        parsers = [CmeRootsGenerator(), CmeOptionsParser(), CmeFuturesParser()]
         for parser in parsers:
             try:
                 parser.parse_symbols()
