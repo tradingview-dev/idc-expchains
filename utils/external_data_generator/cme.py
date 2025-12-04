@@ -185,7 +185,7 @@ class CmeRootsGenerator(CmeProductsParser):
     def get_si(self, group: str):
         res = {}
         hub, port = self.get_env()
-        si = requests.get(f"http://hub{hub}.xstaging.tv:809{port}/symbol_info?group={group}").json()
+        si = requests.get(f"http://hub{hub}.xtools.tv:809{port}/symbol_info?group={group}").json()
         roots = si.get("root")
         if roots is not None:
             for n in range(len(roots)):
