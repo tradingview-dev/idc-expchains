@@ -7,7 +7,6 @@ import pandas as pd
 from DataGenerator import DataGenerator
 from lib.ConsoleOutput import ConsoleOutput
 from lib.LoggableRequester import LoggableRequester
-from pathlib import Path
 
 
 class CmeProductsParser(ABC):
@@ -185,7 +184,7 @@ class CmeRootsGenerator(CmeProductsParser):
     def get_si(self, group: str):
         res = {}
         hub, port = self.get_env()
-        si = requests.get(f"http://hub{hub}.xtools.tv:809{port}/symbol_info?group={group}").json()
+        si = LoggableRequester(self._logger, timeout=30).request(LoggableRequester.Methods.GET, f"http://hub{hub}.xtools.tv:809{port}/symbol_info?group={group}").json()
         roots = si.get("root")
         if roots is not None:
             for n in range(len(roots)):
