@@ -188,7 +188,7 @@ class CmeRootsGenerator(CmeProductsParser):
         roots = si.get("root")
         if roots is not None:
             for n in range(len(roots)):
-                res[roots[n]] = si["pointvalue"][n]
+                res[roots[n]] = f'{si["pointvalue"][n]};{si["exchange-listed"]}'
         return res
     
     def parse_symbols(self) -> None:
@@ -202,7 +202,7 @@ class CmeRootsGenerator(CmeProductsParser):
           "cme_2_mini_continuous", 
           "cme_2_globex_continuous"]
         with open(self.get_filename, "w") as file:
-            file.write("root;pointvalue\n")
+            file.write("root;pointvalue;underlying-prefix\n")
             for group in groups:
                 res = self.get_si(group)
                 for k, v in res.items():
