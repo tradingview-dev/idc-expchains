@@ -188,7 +188,7 @@ class CmeRootsGenerator(CmeProductsParser):
         roots = si.get("root")
         if roots is not None:
             for n in range(len(roots)):
-                res[roots[n]] = f'{si["pointvalue"][n]};{si["exchange-listed"][n]}'
+                res[roots[n]] = f'{si["pointvalue"][n]};{si["exchange-listed"]}'
         return res
     
     def parse_symbols(self) -> None:
