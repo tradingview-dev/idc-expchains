@@ -19,7 +19,7 @@ class EURONEXTUnderlyingGenerator(DataGenerator):
         buckets = {
             "staging": "tradingview-sourcedata-storage-staging",
             "stable": "tradingview-sourcedata-storage-stable",
-            "prod": "tradingview-sourcedata-storage"
+            "master": "tradingview-sourcedata-storage"
         }
         return buckets[branch]
     
