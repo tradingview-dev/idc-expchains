@@ -21,6 +21,7 @@ from moex import MOEXDataGenerator
 from mstar import MstarDataGenerator
 from nasdaq_gids import NASDAQGIDSDataGenerator
 from nasdaqtrader import NASDAQTraderDataGenerator
+from nasdaqomx import NASDAQOMXUnderlyingGenerator
 from nyse import NyseDataGenerator
 from otc import OtcDataGenerator
 from s3_utils import download_state, upload_state, compare_with_remote
@@ -107,6 +108,7 @@ def get_clusters(args):
         "euronext_milan": {"handlers": [{"generator": EURONEXTUnderlyingGenerator(args.branch).generate}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "state": "gids"}]},
         "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "state": "nasdaq"}]},
+        "nasdaqomx": {"handlers": [{"generator": NASDAQOMXUnderlyingGenerator(args.branch).generate}]},
         "nyse": {"handlers": [
             {"generator": NyseDataGenerator().generate, "state": "nyse"},
             {"generator": NyseDataGenerator().generate, "state": "amex"}
