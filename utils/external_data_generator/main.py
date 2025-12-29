@@ -109,6 +109,7 @@ def get_clusters(args):
         "euronext_milan": {"handlers": [{"generator": EURONEXTUnderlyingGenerator(args.branch).generate}]},
         "nasdaq_gids": {"handlers": [{"generator": NASDAQGIDSDataGenerator().generate, "state": "gids"}]},
         "nasdaqtrader": {"handlers": [{"generator": NASDAQTraderDataGenerator().generate, "state": "nasdaq"}]},
+        "nasdaqomx": {"handlers": [{"generator": NASDAQOMXUnderlyingGenerator(args.branch).generate}]},
         "nyse": {"handlers": [
             {"generator": NyseDataGenerator().generate, "state": "nyse"},
             {"generator": NyseDataGenerator().generate, "state": "amex"}
