@@ -39,7 +39,7 @@ class NASDAQOMXUnderlyingGenerator(DataGenerator):
                 snap = json.loads(line.decode("utf-8"))
                 ticker = snap.get("SYMBOL.TICKER")
                 if ticker is not None:
-                    underlying_mic = snap.get("MIC.CODE_REF.MKT")
+                    underlying_mic = snap.get("MIC.CODE")
                     if underlying_mic is not None:
                         result[ticker] = underlying_mic
                     else:
