@@ -281,6 +281,34 @@ function s3_process_snapshot() {
   log_success "Processing $snapshot_fullname snapshot is DONE"
 }
 
+EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
+EXPCHAINS_BRANCH="$1"
+
+if [ -z "$EXPCHAINS_BRANCH" ]; then
+    EXPCHAINS_BRANCH=staging
+	echo "EXPCHAINS_BRANCH not defined, use staging"
+fi
+
+if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
+	echo "Upload files to staging"
+else
+	echo "WARNING: Files will be uploaded to production storage"
+fi
+
+EXP_CHAINS_DIR="./idc-expchains"
+
+if [ ! -d "$EXP_CHAINS_DIR" ]; then
+    echo "Clone branch ${EXPCHAINS_BRANCH} from repo ${EXPCHAINS_REPO}"
+    git clone --depth 1 --single-branch -b $EXPCHAINS_BRANCH "$EXPCHAINS_REPO" "$EXP_CHAINS_DIR"
+else
+    pushd "$EXP_CHAINS_DIR"
+    echo "Update branch ${EXPCHAINS_BRANCH} from repo ${EXPCHAINS_REPO}"
+    git fetch
+    git checkout $EXPCHAINS_BRANCH
+    git pull origin $EXPCHAINS_BRANCH
+    popd
+fi
+
 cd ./idc-expchains
 # shellcheck disable=SC2046
 # shellcheck disable=SC2005
