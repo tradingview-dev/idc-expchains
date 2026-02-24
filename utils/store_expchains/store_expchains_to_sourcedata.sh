@@ -282,17 +282,12 @@ function s3_process_snapshot() {
 }
 
 EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
-EXPCHAINS_BRANCH="$1"
-
-if [ -z "$EXPCHAINS_BRANCH" ]; then
-    EXPCHAINS_BRANCH=staging
-	echo "EXPCHAINS_BRANCH not defined, use staging"
-fi
-
-if [ "$EXPCHAINS_BRANCH" == "staging" ]; then
-	echo "Upload files to staging"
+if [ "$ENVIRONMENT" == "production" ]; then
+  EXPCHAINS_BRANCH="master"
+elif [ "$ENVIRONMENT" == "stable" ]; then
+  EXPCHAINS_BRANCH="master"
 else
-	echo "WARNING: Files will be uploaded to production storage"
+  EXPCHAINS_BRANCH="staging"
 fi
 
 EXP_CHAINS_DIR="./idc-expchains"
