@@ -285,7 +285,7 @@ EXPCHAINS_REPO="git@git.xtools.tv:idc/idc-expchains.git"
 if [ "$ENVIRONMENT" == "production" ]; then
   EXPCHAINS_BRANCH="master"
 elif [ "$ENVIRONMENT" == "stable" ]; then
-  EXPCHAINS_BRANCH="stable"
+  EXPCHAINS_BRANCH="master"
 else
   EXPCHAINS_BRANCH="staging"
 fi
