@@ -15,7 +15,6 @@ from cmc_defi import CMCDataGenerator
 from cme import CMEDataGenerator
 from corpacts import CorpactsDataGenerator
 from euronextmilan import EURONEXTUnderlyingGenerator
-from korea import KoreaDataGenerator
 from lib.ConsoleOutput import ConsoleOutput
 from moex import MOEXDataGenerator
 from mstar import MstarDataGenerator
@@ -119,7 +118,6 @@ def get_clusters(args):
         "tokyo": {"handlers": [{"generator": TokyoDataGenerator().generate}]},
         "twse": {"handlers": [{"generator": TwseDataGenerator().generate}]},
         "rus": {"handlers": [{"generator": MOEXDataGenerator().generate, "state": "moex"}]},
-        "korea": {"handlers": [{"generator": KoreaDataGenerator().generate}]},
         "cftc": {"handlers": [{"generator": CFTCDataGenerator().generate}]},
         "mstar": {"handlers": [{"generator": MstarDataGenerator().generate}]},
         "cme": {"handlers": [{"generator": CMEDataGenerator().generate}]},
