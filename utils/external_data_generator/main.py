@@ -11,6 +11,7 @@ from asx import ASXDataGenerator
 from biva import BivaDataGenerator
 from canada import CanadaDataGenerator
 from cboe import CBOEDataGenerator
+from cfi_uploader import CFIUploader
 from cftc_code import CFTCDataGenerator
 from cmc_defi import CMCDataGenerator
 from cme import CMEDataGenerator
@@ -60,6 +61,8 @@ def main(args, logger):
 
         try:
             files = handler['generator']()
+            if len(files) == 0:
+                return Codes.WARN
         except Exception as e:
             logger.error(f"Failed to generate files for '{cluster_name}' data cluster CAUSED BY: {e}")
             return Codes.ERROR
@@ -127,6 +130,7 @@ def get_clusters(args):
         "otc": {"handlers": [{"generator": OtcDataGenerator(args.branch).generate}]},
         "corpacts": {"handlers": [{"generator": CorpactsDataGenerator().generate, "state_dir": "tvc"}]},
         "cmc_defi": {"handlers": [{"generator": CMCDataGenerator(args.branch).generate, "state_dir": "tvc", "state": "defi"}]},
+        "cfi": {"handlers": [{"generator": CFIUploader(args.branch).generate}]},
     }
 
 
