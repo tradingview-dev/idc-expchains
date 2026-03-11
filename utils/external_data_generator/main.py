@@ -31,6 +31,7 @@ from taipei import TaipeiDataGenerator
 from tokyo import TokyoDataGenerator
 from twse import TwseDataGenerator
 from utils import archive_files
+from blockchain_addresses import BlockchainAddressesGenerator
 
 
 class Codes(enum.IntEnum):
@@ -130,6 +131,8 @@ def get_clusters(args):
         "cmc_defi": {"handlers": [{"generator": CMCDataGenerator(args.branch).generate, "state_dir": "tvc", "state": "defi"}]},
         "cfi": {"handlers": [{"generator": CFIUploader(args.branch).generate}]},
         "cfi_dict_upload": {"handlers": [{"generator": CFIUploader(args.branch, args.data_cluster).generate}]},
+        "blockchain-addresses": {"handlers": [{"generator": BlockchainAddressesGenerator(args.branch).generate,
+                                               "state_dir": "currencies", "state": "blockchain-addresses"}]},
     }
 
 
