@@ -14,10 +14,9 @@ class CFIUploader(DataGenerator):
 
     @staticmethod
     def get_bourse_codes()-> list[str]:
-        return ["109", "185", "216",
-                "321", "365", "537",
-                "879", "1065", "1135",
-                "1330", "1640", "2913",
+        return ["21", "66", "80",
+                "185", "216", "326",
+                "544", "1330", "2913",
                 "6184", "6362"]
 
 
@@ -26,7 +25,7 @@ class CFIUploader(DataGenerator):
         environment = os.environ.get('ENVIRONMENT', None)
 
         if environment == "production":
-            return "hub3.tradingview.com:8094"
+            return "hub4.tradingview.com:8094"
         elif environment == "stable":
             return "udf-nyc.xstaging.tv/hub01-stable"
         else:
