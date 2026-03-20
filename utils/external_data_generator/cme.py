@@ -1,5 +1,4 @@
 import os
-import requests
 from abc import abstractmethod, ABC
 
 import pandas as pd
