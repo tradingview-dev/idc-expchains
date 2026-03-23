@@ -79,7 +79,14 @@ class CMCDataGenerator(DataGenerator):
                 continue
 
             currency = currency_ids[cid]
-            if str(record.get("id", "***")) == currency["cmc-id"]:
+
+            if "id" in record:
+                if str(record["id"]) != currency["cmc-id"]:
+                    self._logger.weak_warn(f"{cid} is skipped due to the difference between its cmc-id="
+                                           f"{record['id']} and cmc-id={currency['cmc-id']} from currencies.json"
+                                           f"('{record["name"]}' vs '{currency["description"]}')")
+                    continue
+
                 defi_coins_ids.append(cid)
 
         defi_coins_ids.sort()
