@@ -61,7 +61,8 @@ class CMCDataGenerator(DataGenerator):
     def read_currency_ids(currencies) -> dict:
         result = {}
         for record in currencies:
-            result[record["id"]] = record
+            if "cmc-id" in record:
+                result[record["id"]] = record
         return result
 
     def run(self, coinmarketcap_snapshot, currencies, out_file) -> None:
@@ -72,9 +73,14 @@ class CMCDataGenerator(DataGenerator):
         defi_coins_ids = []
         for record in defi_coins:
             cid = self.map_currency_id(record["symbol"])
+
             if cid not in currency_ids:
                 self._logger.weak_warn(f"Unknown currency-id {cid}")
-            defi_coins_ids.append(cid)
+                continue
+
+            currency = currency_ids[cid]
+            if str(record.get("id", "***")) == currency["cmc-id"]:
+                defi_coins_ids.append(cid)
 
         defi_coins_ids.sort()
 
