@@ -1,0 +1,1682 @@
+{
+  "meta": {
+    "standard": "ISO 10962",
+    "description": "Classification of Financial Instruments (CFI) code decoder",
+    "code_length": 6,
+    "positions": [
+      "Category",
+      "Group",
+      "Attribute 1",
+      "Attribute 2",
+      "Attribute 3",
+      "Attribute 4"
+    ]
+  },
+  "categories": {
+    "E": {
+      "name": "Aktien",
+      "short": "Aktieninstrumente",
+      "long": "Aktieninstrumente stellen einen Eigentumsanteil an einem Unternehmen oder einer wirtschaftlichen Entität dar",
+      "groups": {
+        "S": {
+          "name": "Aktien (Stammaktien)",
+          "short": "Stammaktien",
+          "long": "Stammaktien stellen eine Basiseinheit des Eigentumsanteils an einem Unternehmen mit einem Standardaktionärsrecht dar",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Stimmrecht der Aktie",
+            "long": "Definiert die Stimmrechte für Stammaktien bei Aktionärsversammlungen",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Die Aktie enthält ein Standardstimmrecht bei Aktionärsversammlungen" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Die Aktien enthalten kein Stimmrecht" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Die Aktien enthalten ein beschränktes Stimmrecht" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Die Aktien enthalten ein erweitertes oder mehrfaches Stimmrecht je Aktie" }
+            }
+          },
+          "attribute2": {
+            "label": "Eigentum",
+            "short": "Eigentumsbeschränkungen",
+            "long": "Definiert, ob es Beschränkungen gibt, wer diese Stammaktien besitzen kann",
+            "values": {
+              "T": { "name": "Beschränkungen", "short": "Eigentum beschränkt", "long": "Es gibt Beschränkungen, wer diese Aktie halten oder übertragen kann" },
+              "U": { "name": "Frei", "short": "Ohne Beschränkungen", "long": "Die Aktie ist frei übertragbar ohne Eigentumsbeschränkungen" }
+            }
+          },
+          "attribute3": {
+            "label": "Zahlungsstatus",
+            "short": "Wie viel von dem Aktienpreis gezahlt wurde",
+            "long": "Dies zeigt den Zahlungsstatus der Stammaktie an - ob sie vollständig, teilweise oder nicht gezahlt wurde",
+            "values": {
+              "F": { "name": "Vollständig gezahlt", "short": "Vollständig gezahlt", "long": "Der vollständige Ausgabepreis der Aktie wurde gezahlt" },
+              "O": { "name": "Ohne Bezahlung", "short": "Nichts gezahlt", "long": "Bisher wurde kein Teil des Ausgabepreises gezahlt" },
+              "P": { "name": "Teilweise gezahlt", "short": "Teilweise gezahlt", "long": "Nur ein Teil des Ausgabepreises wurde gezahlt; weitere Zahlungsaufrufe können folgen" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die physische oder rechtliche Form, in welcher diese Stammaktie ausgegeben und gehalten wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Das Eigentum wird mit dem Besitz des physischen Zertifikats bestimmt" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Das Eigentum wird in einem Register aufgezeichnet, verwaltet von dem Herausgeber oder einem Registerführer" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Die Aktie kann in einer Inhaber- oder registrierten Form bestehen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen, die nicht in den Standardkategorien erfasst sind" }
+            }
+          }
+        },
+        "P": {
+          "name": "Vorzugsaktien",
+          "short": "Vorzugsaktien",
+          "long": "Vorzugsaktien, die üblicherweise eine Priorität vor Stammaktien für Dividenden und/oder bei Liquidierungsverfahren erhalten",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Die Stimmrechte von Vorzugsaktien",
+            "long": "Definiert die Stimmrechte dieser Vorzugsaktien bei Aktionärsversammlungen",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Die Vorzugsaktie verfügt über Stimmrechte bei Aktionärsversammlungen" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Die Vorzugsaktie verfügt über keine Stimmrechte bei Aktionärsversammlungen" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Die Vorzugsaktie verfügt über beschränkte Stimmrechte bei Aktionärsversammlungen" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Die Vorzugsaktie verfügt über erweiterte oder ein mehrfaches Stimmrecht bei Aktionärsversammlungen" }
+            }
+          },
+          "attribute2": {
+            "label": "Rückkauf",
+            "short": "Rückkauf/Verlängerungsmerkmale",
+            "long": "Dies definiert, ob und wie diese Vorzugsaktie zurückgekauft, verlängert oder umgetauscht werden kann",
+            "values": {
+              "R": { "name": "Rückkaufbar", "short": "Sie kann zurückgekauft werden", "long": "Der Herausgeber oder Inhaber kann die Vorzugsaktie zu den angeführten Bedingungen zurückkaufen" },
+              "E": { "name": "Verlängerbar", "short": "Sie kann verlängert werden", "long": "Die Endfälligkeit oder das Rückkaufdatum können verlängert werden" },
+              "T": { "name": "Rückkaufbar/verlängerbar", "short": "Rückkaufbar und verlängerbar", "long": "Diese Vorzugsaktie kann sowohl zurückgekauft und verlängert werden" },
+              "G": { "name": "Umtauschbar", "short": "Sie kann umgetauscht werden", "long": "Die Vorzugsaktie kann gegen ein anderes Instrument umgetauscht werden" },
+              "A": { "name": "Rückkaufbar/umtauschbar/verlängerbar", "short": "Alle drei Optionen", "long": "Die Vorzugsaktie kann zurückgekauft, umgetauscht oder verlängert werden" },
+              "C": { "name": "Rückkaufbar/umtauschbar", "short": "Rückkaufbar und umtauschbar", "long": "Die Vorzugsaktie kann zurückgekauft oder umgetauscht werden" },
+              "N": { "name": "Unbefristet", "short": "Ohne Endfälligkeit", "long": "Die Vorzugsaktie verfügt über keine Endfälligkeit und ist unbefristet" }
+            }
+          },
+          "attribute3": {
+            "label": "Einkommen",
+            "short": "Einkommen/Dividendentyp",
+            "long": "Definiert die Einkommensart oder Dividendenzahlungsstruktur dieser Vorzugsaktie",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Sie zahlt einen festen Dividendensatz aus" },
+              "C": { "name": "Kumulativ, Festzins", "short": "Kumulativ festgesetzt", "long": "Sie zahlt einen festen Dividendensatz aus; nicht gezahlte Dividenden werden akkumuliert und müssen vor den Dividenden für Stammaktien ausgeschüttet werden" },
+              "P": { "name": "Beteiligt", "short": "Beteiligt", "long": "Der Inhaber nimmt an zusätzlichen Gewinnen teil, über die angeführten Dividenden hinaus" },
+              "Q": { "name": "Kumulativ, beteiligt", "short": "Kumulativ & beteiligt", "long": "Die Dividenden werden akkumuliert, falls sie nicht ausgeschüttet werden. Der Inhaber nimmt des Weiteren an zusätzlichen Gewinnen teil" },
+              "A": { "name": "Flexibel/variabler Zinssatz", "short": "Variabler Zinssatz", "long": "Der Dividendensatz wird gemäß einem Referenzsatz oder einer Formel eingestellt" },
+              "N": { "name": "Normalsatz", "short": "Normalsatz", "long": "Der Standarddividendensatz, von dem Herausgeber ermittelt" },
+              "U": { "name": "Auktionssatz", "short": "Auktionssatz", "long": "Der Dividendensatz wird periodisch in einem Auktionsverfahren ermittelt" },
+              "D": { "name": "Dividenden", "short": "Dividenden", "long": "Allgemeine Dividendenzahlungen" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die physische oder rechtliche Form, in welcher diese Vorzugsaktie ausgegeben und gehalten wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Das Eigentum wird mit dem Besitz des physischen Zertifikats bestimmt" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Das Eigentum ist in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Kann in einer Inhaber- oder registrierten Form bestehen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "C": {
+          "name": "Wandelaktien",
+          "short": "Wandelbare Stammaktien",
+          "long": "Stammaktien, die in ein anderes Wertpapier umgewandelt werden können",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Stimmrechte",
+            "long": "Definiert die Stimmrechte dieser Wandelaktien bei Aktionärsversammlungen",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Enthält Stimmrechte" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Enthält keine Stimmrechte" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Enthält begrenzte Stimmrechte" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Enthält erweiterte oder mehrfache Stimmrechte" }
+            }
+          },
+          "attribute2": {
+            "label": "Eigentum",
+            "short": "Eigentumsbeschränkungen",
+            "long": "Definiert, ob Beschränkungen bezüglich des Besitzes dieser Wandelaktie vorhanden sind",
+            "values": {
+              "T": { "name": "Beschränkungen", "short": "Eigentum beschränkt", "long": "Diese Beschränkungen beziehen sich auf den Besitz oder Übertragungen" },
+              "U": { "name": "Frei", "short": "Ohne Beschränkungen", "long": "Frei übertragbar" }
+            }
+          },
+          "attribute3": {
+            "label": "Zahlungsstatus",
+            "short": "Wie viel gezahlt wurde",
+            "long": "Der Zahlungsstatus dieser Wandelaktie",
+            "values": {
+              "F": { "name": "Vollständig gezahlt", "short": "Vollständig gezahlt", "long": "Voller Ausgabepreis gezahlt" },
+              "O": { "name": "Ohne Bezahlung", "short": "Nichts gezahlt", "long": "Bisher keine Zahlung" },
+              "P": { "name": "Teilweise gezahlt", "short": "Teilweise gezahlt", "long": "Teilweise Zahlung" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese Wandelaktie ausgegeben ist",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "F": {
+          "name": "Vorzugsaktien (wandelbar)",
+          "short": "Vorzugsaktien, die umgewandelt werden können",
+          "long": "Vorzugsaktien, die in ein anderes Wertpapier umgewandelt werden können. Eine Kombination der Vorzugsrechte mit Wandlungsmerkmalen",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Stimmrechte",
+            "long": "Definiert die Stimmrechte dieser wandelbaren Vorzugsaktie",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Enthält Stimmrechte" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Enthält keine Stimmrechte" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Enthält begrenzte Stimmrechte" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Enthält erweiterte Stimmrechte" }
+            }
+          },
+          "attribute2": {
+            "label": "Rückkauf",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Rückkauf-, Verlängerungs- oder Umtauschmerkmale dieser wandelbaren Vorzugsaktie",
+            "values": {
+              "R": { "name": "Rückkaufbar", "short": "Sie kann zurückgekauft werden", "long": "Kann zu den angeführten Bedingungen zurückgekauft werden" },
+              "E": { "name": "Verlängerbar", "short": "Sie kann verlängert werden", "long": "Die Endfälligkeit kann verlängert werden" },
+              "T": { "name": "Rückkaufbar/verlängerbar", "short": "Rückkaufbar und verlängerbar", "long": "Ist sowohl rückkauf- und verlängerbar" },
+              "G": { "name": "Umtauschbar", "short": "Sie kann umgetauscht werden", "long": "Kann gegen ein anderes Instrument umgetauscht werden" },
+              "A": { "name": "Rückkaufbar/umtauschbar/verlängerbar", "short": "Alle drei Optionen", "long": "Kann zurückgekauft, umgetauscht oder verlängert werden" },
+              "C": { "name": "Rückkaufbar/umtauschbar", "short": "Rückkaufbar und umtauschbar", "long": "Kann zurückgekauft oder umgetauscht werden" },
+              "N": { "name": "Unbefristet", "short": "Ohne Endfälligkeit", "long": "Unbefristete Dauer" }
+            }
+          },
+          "attribute3": {
+            "label": "Einkommen",
+            "short": "Einkommen/Dividendentyp",
+            "long": "Definiert die Einkommens- oder Dividendenzahlungsstruktur dieser wandelbaren Vorzugsaktie",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Sie zahlt einen festen Dividendensatz aus" },
+              "C": { "name": "Kumulativ, Festzins", "short": "Kumulativ festgesetzt", "long": "Festzins; nicht gezahlte Dividenden werden akkumuliert" },
+              "P": { "name": "Beteiligt", "short": "Beteiligt", "long": "Nimmt an zusätzlichen Gewinnen teil" },
+              "Q": { "name": "Kumulativ, beteiligt", "short": "Kumulativ & beteiligt", "long": "Kumulativ und Gewinnteilnahme" },
+              "A": { "name": "Flexibel/variabler Zinssatz", "short": "Variabler Zinssatz", "long": "Satzanpassung nach Referenz" },
+              "N": { "name": "Normalsatz", "short": "Normalsatz", "long": "Standarddividendensatz" },
+              "U": { "name": "Auktionssatz", "short": "Auktionssatz", "long": "Auktionssatz" },
+              "D": { "name": "Dividenden", "short": "Dividenden", "long": "Allgemeine Dividendenzahlungen" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese wandelbare Vorzugsaktie ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "L": {
+          "name": "Kommanditgesellschaftseinheiten",
+          "short": "KG-Einheiten",
+          "long": "Einheiten, welche Kommanditgesellschaftsanteile mit begrenzter Haftung darstellen",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Stimmrechte",
+            "long": "Definiert die Stimmrechte für diese Kommanditgesellschaftseinheiten",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Enthält Stimmrechte" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Enthält keine Stimmrechte" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Enthält begrenzte Stimmrechte" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Enthält erweiterte Stimmrechte" }
+            }
+          },
+          "attribute2": {
+            "label": "Eigentum",
+            "short": "Eigentumsbeschränkungen",
+            "long": "Definiert, ob es Besitzbeschränkungen für diese KG-Einheiten gibt",
+            "values": {
+              "T": { "name": "Beschränkungen", "short": "Eigentum beschränkt", "long": "Beschränkungen werden angewandt" },
+              "U": { "name": "Frei", "short": "Ohne Beschränkungen", "long": "Frei übertragbar" }
+            }
+          },
+          "attribute3": {
+            "label": "Zahlungsstatus",
+            "short": "Wie viel gezahlt wurde",
+            "long": "Der Zahlungsstatus dieser KG-Einheit",
+            "values": {
+              "F": { "name": "Vollständig gezahlt", "short": "Vollständig gezahlt", "long": "Voller Ausgabepreis gezahlt" },
+              "O": { "name": "Ohne Bezahlung", "short": "Nichts gezahlt", "long": "Bisher keine Zahlung" },
+              "P": { "name": "Teilweise gezahlt", "short": "Teilweise gezahlt", "long": "Teilweise Zahlung" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Ausgabeform dieser KG-Einheit",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "D": {
+          "name": "Hinterlegungsscheine für Aktien",
+          "short": "Hinterlegungsscheine für Aktien",
+          "long": "Hinterlegungsscheine, welche das Eigentum an einem Aktieninstrument darstellen, welches von einer Depotbank gehalten wird",
+          "attribute1": {
+            "label": "Instrumentenabhängig",
+            "short": "Art der grundlegenden Aktie",
+            "long": "Identifiziert die Art des grundlegenden Aktieninstruments für diesen Hinterlegungsschein",
+            "values": {
+              "S": { "name": "Stammaktie", "short": "Stammaktien", "long": "Stellt eine Stammaktie dar" },
+              "P": { "name": "Vorzugsaktien", "short": "Vorzugsaktien", "long": "Stellt eine Vorzugsaktie dar" },
+              "C": { "name": "Wandelbare Stammaktie", "short": "Wandelbare Stammaktie", "long": "Stellt eine wandelbare Stammaktie dar" },
+              "F": { "name": "Wandelbare Vorzugsaktie", "short": "Wandelbare Vorzugsaktie", "long": "Stellt eine wandelbare Vorzugsaktie dar" },
+              "L": { "name": "Kommanditgesellschaftseinheiten", "short": "KG-Einheiten", "long": "Stellt KG-Einheiten dar" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Stellt sonstige Aktieninstrumente dar" }
+            }
+          },
+          "attribute2": {
+            "label": "Rückkauf/Wandlung",
+            "short": "Die Rückkauf- oder Wandelmerkmale der grundlegenden Aktie",
+            "long": "Definiert, ob der Basiswert des Hinterlegungsscheins rückkaufbar, umtauschbar oder unbefristet ist",
+            "values": {
+              "R": { "name": "Rückkaufbar", "short": "Rückkaufbar", "long": "Der Basiswert kann zurückgekauft werden" },
+              "N": { "name": "Unbefristet", "short": "Unbefristet", "long": "Der Basiswert hat keine Endfälligkeit" },
+              "B": { "name": "Wandelbar", "short": "Wandelbar", "long": "Der Basiswert ist wandelbar" },
+              "D": { "name": "Wandelbar/rückkaufbar", "short": "Wandelbar & rückkaufbar", "long": "Der Basiswert ist sowohl wandelbar und rückkaufbar" },
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar oder definiert" }
+            }
+          },
+          "attribute3": {
+            "label": "Einkommen",
+            "short": "Einkommenstyp",
+            "long": "Definiert das Einkommen oder die Art der Dividendenzahlung für diesen Aktien-Hinterlegungsschein",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen Festzins aus" },
+              "C": { "name": "Kumulativ, Festzins", "short": "Kumulativ festgesetzt", "long": "Festzins; nicht gezahlte Beträge werden akkumuliert" },
+              "P": { "name": "Beteiligt", "short": "Beteiligt", "long": "Nimmt an zusätzlichen Gewinnen teil" },
+              "Q": { "name": "Kumulativ, beteiligt", "short": "Kumulativ & beteiligt", "long": "Kumulativ und beteiligt" },
+              "A": { "name": "Flexibel/variabler Zinssatz", "short": "Variabler Zinssatz", "long": "Satz wird angepasst" },
+              "N": { "name": "Normalsatz", "short": "Normalsatz", "long": "Standardsatz" },
+              "U": { "name": "Auktionssatz", "short": "Auktionssatz", "long": "Auktionssatz" },
+              "D": { "name": "Dividenden", "short": "Dividenden", "long": "Allgemeine Dividendenzahlungen" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher dieser Hinterlegungsschein ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "Y": {
+          "name": "Strukturierte Instrumente (Beteiligung)",
+          "short": "Strukturierte Produkte mit Beteiligung",
+          "long": "Strukturierte Instrumente mit einer Perfomance-Beteiligung an dem Basiswert",
+          "attribute1": {
+            "label": "Typ",
+            "short": "Typ des Beteiligungszertifikats",
+            "long": "Definiert den spezifischen Typ des strukturierten Instruments mit Beteiligung",
+            "values": {
+              "A": { "name": "Tracker-Zertifikat", "short": "Tracker", "long": "Verfolgt die Perfomance des Basiswerts 1:1 mit" },
+              "B": { "name": "Outperforming-Zertifikat", "short": "Outperformance", "long": "Enthält eine Beteiligung mit Leverage an der positiven Performance des Basiswerts" },
+              "C": { "name": "Bonus-Zertifikat", "short": "Bonus", "long": "Enthält eine Bonuszahlung, wenn der Basiswert über einem Grenzwert bleibt" },
+              "D": { "name": "Outperformance-Bonus-Zertifikat", "short": "Outperformance-Bonus", "long": "Eine Kombination der Outperformance- und Bonusmerkmale" },
+              "E": { "name": "Twin-Win-Zertifikat", "short": "Twin-Win", "long": "Profitiert von sowohl positiven und negativen Bewegungen des Basiswerts (innerhalb von Schwellenwerten)" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige strukturierte Instrumente mit Beteiligung" }
+            }
+          },
+          "attribute2": {
+            "label": "Ausschüttung",
+            "short": "Ausschüttungs-/Zahlungstyp",
+            "long": "Definiert, wie die Ausschüttungen für strukturierte Instrumente mit Beteiligung gezahlt werden",
+            "values": {
+              "D": { "name": "Dividendenzahlungen", "short": "Dividenden", "long": "Zahlung mit einer Dividendenausschüttung" },
+              "Y": { "name": "Keine Zahlungen", "short": "Keine Zahlungen", "long": "Es gibt keine Ausschüttung" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Ausschüttungsmethoden" }
+            }
+          },
+          "attribute3": {
+            "label": "Rückzahlung",
+            "short": "Rückzahlungsmethode",
+            "long": "Definiert, wie das Kapital zu der Endfälligkeit des strukturierten Instruments zurückgezahlt wird",
+            "values": {
+              "F": { "name": "Barrückzahlung", "short": "Bar", "long": "Rückzahlung in Bargeld" },
+              "V": { "name": "Physische Rückzahlung", "short": "Physische Lieferung", "long": "Eine Rückzahlung mit der Lieferung des Basiswerts" },
+              "E": { "name": "Wählbar bei Abwicklung", "short": "Eine Auswahl bei der Abwicklung", "long": "Der Inhaber oder Herausgeber entscheiden sich bei der Abwicklung für eine Barzahlung oder physische Lieferung" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Rückzahlungsmethoden" }
+            }
+          },
+          "attribute4": {
+            "label": "Basiswert",
+            "short": "Typ des Basiswerts",
+            "long": "Identifiziert den Typ des Basiswerts für das strukturierte Instrument mit Beteiligung",
+            "values": {
+              "B": { "name": "Baskets", "short": "Baskets", "long": "Basieren auf einem Asset-Basket (Korb)" },
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Basieren auf Aktieninstrumenten" },
+              "D": { "name": "Schuldverschreibungen", "short": "Schuld", "long": "Basieren auf Schuldverschreibungen" },
+              "G": { "name": "Derivate", "short": "Derivate", "long": "Basieren auf Derivatinstrumenten" },
+              "T": { "name": "Rohstoffe", "short": "Rohstoffe", "long": "Basieren auf Rohstoffen" },
+              "C": { "name": "Währungen", "short": "Währungen", "long": "Basieren auf Währungen" },
+              "I": { "name": "Indizes", "short": "Indizes", "long": "Basieren auf Indizes" },
+              "N": { "name": "Zinssätze", "short": "Zinssätze", "long": "Basieren auf Zinssätzen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Basieren auf sonstigen Assets" }
+            }
+          }
+        },
+        "R": {
+          "name": "Vorzugsaktien",
+          "short": "Vorzugsaktien",
+          "long": "Vorzugsaktien mit Prioritätsrechten, in bestimmten Gerichtsbarkeiten von den Standardvorzugsaktien abgegrenzt",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Stimmrechte",
+            "long": "Definiert die Stimmrechte für diese Vorzugsaktie",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Enthält Stimmrechte" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Enthält keine Stimmrechte" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Enthält begrenzte Stimmrechte" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Enthält erweiterte Stimmrechte" }
+            }
+          },
+          "attribute2": {
+            "label": "Rückkauf",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Rückkauf-, Verlängerungs- oder Umtauschmerkmale dieser Vorzugsaktie",
+            "values": {
+              "R": { "name": "Rückkaufbar", "short": "Sie kann zurückgekauft werden", "long": "Kann zu den angeführten Bedingungen zurückgekauft werden" },
+              "E": { "name": "Verlängerbar", "short": "Sie kann verlängert werden", "long": "Die Endfälligkeit kann verlängert werden" },
+              "T": { "name": "Rückkaufbar/verlängerbar", "short": "Rückkaufbar und verlängerbar", "long": "Ist sowohl rückkauf- und verlängerbar" },
+              "G": { "name": "Umtauschbar", "short": "Sie kann umgetauscht werden", "long": "Kann gegen ein anderes Instrument umgetauscht werden" },
+              "A": { "name": "Rückkaufbar/umtauschbar/verlängerbar", "short": "Alle drei Optionen", "long": "Kann zurückgekauft, umgetauscht oder verlängert werden" },
+              "C": { "name": "Rückkaufbar/umtauschbar", "short": "Rückkaufbar und umtauschbar", "long": "Kann zurückgekauft oder umgetauscht werden" },
+              "N": { "name": "Unbefristet", "short": "Ohne Endfälligkeit", "long": "Unbefristete Dauer" }
+            }
+          },
+          "attribute3": {
+            "label": "Einkommen",
+            "short": "Einkommen/Dividendentyp",
+            "long": "Definiert die Einkommens- oder Dividendenzahlungsstruktur dieser Vorzugsaktie",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Sie zahlt einen festen Dividendensatz aus" },
+              "C": { "name": "Kumulativ, Festzins", "short": "Kumulativ festgesetzt", "long": "Festzins; nicht gezahlte Dividenden werden akkumuliert" },
+              "P": { "name": "Beteiligt", "short": "Beteiligt", "long": "Nimmt an zusätzlichen Gewinnen teil" },
+              "Q": { "name": "Kumulativ, beteiligt", "short": "Kumulativ & beteiligt", "long": "Kumulativ und beteiligt" },
+              "A": { "name": "Flexibel/variabler Zinssatz", "short": "Variabler Zinssatz", "long": "Satz wird angepasst" },
+              "N": { "name": "Normalsatz", "short": "Normalsatz", "long": "Standardsatz" },
+              "U": { "name": "Auktionssatz", "short": "Auktionssatz", "long": "Auktionssatz" },
+              "D": { "name": "Dividenden", "short": "Dividenden", "long": "Allgemeine Dividendenzahlungen" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese Vorzugsaktie ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "V": {
+          "name": "Wandelbare Vorzugsaktien",
+          "short": "Wandelbare Vorzugsaktien",
+          "long": "Vorzugsaktien, welche in andere Wertpapiere umgetauscht werden können",
+          "attribute1": {
+            "label": "Stimmrecht",
+            "short": "Stimmrechte",
+            "long": "Definiert die Stimmrechte dieser wandelbaren Vorzugsaktie",
+            "values": {
+              "V": { "name": "Stimmabgabe", "short": "Verfügt über Stimmrechte", "long": "Enthält Stimmrechte" },
+              "N": { "name": "Ohne Stimmabgabe", "short": "Kein Stimmrecht", "long": "Enthält keine Stimmrechte" },
+              "R": { "name": "Beschränkt", "short": "Beschränkte Stimmabgabe", "long": "Enthält begrenzte Stimmrechte" },
+              "E": { "name": "Erweiterte Stimmabgabe", "short": "Erweiterte Stimmabgabe", "long": "Enthält erweiterte Stimmrechte" }
+            }
+          },
+          "attribute2": {
+            "label": "Rückkauf",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Rückkauf-, Verlängerungs- oder Umtauschmerkmale dieser wandelbaren Vorzugsaktie",
+            "values": {
+              "R": { "name": "Rückkaufbar", "short": "Sie kann zurückgekauft werden", "long": "Sie kann zurückgekauft werden" },
+              "E": { "name": "Verlängerbar", "short": "Sie kann verlängert werden", "long": "Die Endfälligkeit kann verlängert werden" },
+              "T": { "name": "Rückkaufbar/verlängerbar", "short": "Rückkaufbar und verlängerbar", "long": "Ist sowohl rückkauf- und verlängerbar" },
+              "G": { "name": "Umtauschbar", "short": "Sie kann umgetauscht werden", "long": "Sie kann umgetauscht werden" },
+              "A": { "name": "Rückkaufbar/umtauschbar/verlängerbar", "short": "Alle drei Optionen", "long": "Kann zurückgekauft, umgetauscht oder verlängert werden" },
+              "C": { "name": "Rückkaufbar/umtauschbar", "short": "Rückkaufbar und umtauschbar", "long": "Kann zurückgekauft oder umgetauscht werden" },
+              "N": { "name": "Unbefristet", "short": "Ohne Endfälligkeit", "long": "Unbefristete Dauer" }
+            }
+          },
+          "attribute3": {
+            "label": "Einkommen",
+            "short": "Einkommen/Dividendentyp",
+            "long": "Definiert die Einkommens- oder Dividendenzahlungsstruktur",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Sie zahlt einen festen Dividendensatz aus" },
+              "C": { "name": "Kumulativ, Festzins", "short": "Kumulativ festgesetzt", "long": "Festzins; nicht gezahlte Dividenden werden akkumuliert" },
+              "P": { "name": "Beteiligt", "short": "Beteiligt", "long": "Nimmt an zusätzlichen Gewinnen teil" },
+              "Q": { "name": "Kumulativ, beteiligt", "short": "Kumulativ & beteiligt", "long": "Kumulativ und beteiligt" },
+              "A": { "name": "Flexibel/variabler Zinssatz", "short": "Variabler Zinssatz", "long": "Satz wird angepasst" },
+              "N": { "name": "Normalsatz", "short": "Normalsatz", "long": "Standardsatz" },
+              "U": { "name": "Auktionssatz", "short": "Auktionssatz", "long": "Auktionssatz" },
+              "D": { "name": "Dividenden", "short": "Dividenden", "long": "Allgemeine Dividendenzahlungen" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese wandelbare Vorzugsaktie ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "U": {
+          "name": "Anteile (Unit Trusts, Mutual Funds, OPCVM/OICVM)",
+          "short": "Investmentfondsanteile",
+          "long": "Anteile an Unit Trusts, Investmentfonds oder ähnlichen kollektiven Investmentvehikeln (OPCVM/OICVM)",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob diese Fondsanteile aus einem geschlossenen oder offenen Fonds stammen",
+            "values": {
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Festgesetzte Anteilsanzahl; auf einer Börse gehandelt" },
+              "O": { "name": "Offen", "short": "Offen", "long": "Anteile können auf Anfrage erstellt oder gekauft werden" }
+            }
+          },
+          "attribute2": {
+            "label": "Distributionspolitik",
+            "short": "Distributionspolitik",
+            "long": "Definiert, wie der Fonds das Einkommen an die Anteilsbesitzer ausschüttet",
+            "values": {
+              "I": { "name": "Einkommensfonds", "short": "Einkommen", "long": "Das Einkommen wird an die Anteilsbesitzer ausgeschüttet" },
+              "G": { "name": "Wachstumsfonds", "short": "Wachstum/Akkumulierung", "long": "Das Einkommen wird in ein Wachstum investiert" },
+              "M": { "name": "Gemischte Fonds", "short": "Gemischt", "long": "Eine Kombination von Einkommensausschüttung und Akkumulierung" }
+            }
+          },
+          "attribute3": {
+            "label": "Assets",
+            "short": "Assetkategorie",
+            "long": "Die primäre Assetkategorie, die in dem Fonds gehalten wird",
+            "values": {
+              "R": { "name": "Immobilien", "short": "Immobilien", "long": "Hauptsächlich in Immobilien investiert" },
+              "S": { "name": "Wertpapiere", "short": "Wertpapiere", "long": "In Wertpapiere investiert" },
+              "M": { "name": "Gemischt/allgemein", "short": "Gemischt", "long": "In verschiedene Assetkategorien investiert" },
+              "C": { "name": "Rohstoffe", "short": "Rohstoffe", "long": "In Rohstoffe investiert" },
+              "D": { "name": "Derivate", "short": "Derivate", "long": "In Derivate investiert" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Anteilsform",
+            "long": "Die Form, in welcher die Fondsanteile emittiert werden",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "Z": { "name": "Inhaber-Hinterlegungsschein", "short": "Inhaber HS", "long": "Form: Inhaber-Hinterlegungsschein" },
+              "A": { "name": "Eingetragener Hinterlegungsschein", "short": "Eingetragener HS", "long": "Form: eingetragener Hinterlegungsschein" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "M": {
+          "name": "Sonstige",
+          "short": "Sonstige Aktieninstrumente",
+          "long": "Sonstige Aktieninstrumente, nicht anderweitig kategorisiert",
+          "attribute1": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für sonstige Aktieninstrumente",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar oder definiert" }
+            }
+          },
+          "attribute2": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für sonstige Aktieninstrumente",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar oder definiert" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für sonstige Aktieninstrumente",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar oder definiert" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Ausgabeform des Instruments",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        }
+      }
+    },
+    "D": {
+      "name": "Schuldverschreibungen",
+      "short": "Schuldtitel/festverzinslich",
+      "long": "Schuldtitel stellen eine Darlehensvereinbarung dar, bei welcher der Emittent dem Inhaber eine Schuldverpflichtung schuldig ist",
+      "groups": {
+        "B": {
+          "name": "Anleihen",
+          "short": "Anleihen",
+          "long": "Standard-Anleiheinstrumente für eine festverzinsliche Schuldverschreibung",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Verzinsung oder die Kuponzahlung dieser Anleihe",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen festen Zinssatz aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Zu einem Rabatt ausgegeben, ohne periodische Zinszahlungen" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Ein variabler Zinssatz, basierend auf einem Referenzzinssatz" },
+              "C": { "name": "Barzahlung", "short": "Barzahlung", "long": "Kupontyp Barzahlung" },
+              "K": { "name": "Sachleistung", "short": "SL", "long": "Zinsen, die in zusätzlichen Wertpapieren und nicht bar gezahlt werden" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder das Senioritätsniveau dieser Anleihe",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Bürgschaft einer Regierung oder staatlichen Behörde" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Eine gemeinsame Bürgschaft mehrerer Parteien" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit oder Assets abgesichert" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit oder Bürgschaft gesichert" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Der Emittent stimmt zu, dass er keine Assets an andere Gläubiger verpfänden wird" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Erstrangigkeit in der Kapitalstruktur" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Unter Senior-, jedoch über Junior-Schuldtitel" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Nachrangigkeit in der Kapitalstruktur" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Der niedrigste Rang in der Subordinate-Schuldverschreibung" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Ausgegeben von einer länderübergreifenden Organisation" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Endfälligkeit- und Rückerstattungsmerkmale dieser Anleihe",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit; Emittent kann sie vor der Endfälligkeit kaufen" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit; Inhaber kann sie vor der Endfälligkeit verkaufen" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit sowohl Verkaufs- und Kaufoptionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Das Kapital wird schrittweise zurückgezahlt" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend, mit einer Kaufoption für den Emittenten" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend, mit einer Verkaufsoption für den Inhaber" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend, mit einer Kauf- und Verkaufsoption" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne feste Laufzeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Kaufoption für den Emittenten" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Verkaufsoption für den Inhaber" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Die Endfälligkeit kann verlängert werden" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher die Anleihe emittiert wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "C": {
+          "name": "Wandelanleihen",
+          "short": "Wandelanleihen",
+          "long": "Anleihen, die in Aktien oder andere Wertpapiere umgewandelt werden können (als Option für den Inhaber)",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zins- oder Kuponzahlung für diese Wandelanleihe",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen festen Zinssatz aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Zu einem Rabatt ausgegeben, ohne periodische Zinszahlungen" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Ein variabler Zinssatz, basierend auf einem Referenzzinssatz" },
+              "C": { "name": "Barzahlung", "short": "Barzahlung", "long": "Kupontyp Barzahlung" },
+              "K": { "name": "Sachleistung", "short": "SL", "long": "Zinsen, die in zusätzlichen Wertpapieren und nicht bar gezahlt werden" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder das Senioritätsniveau dieser Wandelanleihe",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Bürgschaft einer Regierung oder staatlichen Behörde" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Eine gemeinsame Bürgschaft mehrerer Parteien" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit oder Assets abgesichert" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit oder Bürgschaft gesichert" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Der Emittent stimmt zu, dass er keine Assets an andere Gläubiger verpfänden wird" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Erstrangigkeit in der Kapitalstruktur" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Unter Senior-, jedoch über Junior-Schuldtitel" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Nachrangigkeit in der Kapitalstruktur" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Der niedrigste Rang in der Subordinate-Schuldverschreibung" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Ausgegeben von einer länderübergreifenden Organisation" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Tilgungsmerkmale dieser Wandelanleihe",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit; Emittent kann sie vor der Endfälligkeit kaufen" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit; Inhaber kann sie vor der Endfälligkeit verkaufen" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit sowohl Verkaufs- und Kaufoptionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Das Kapital wird schrittweise zurückgezahlt" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend, mit einer Kaufoption für den Emittenten" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend, mit einer Verkaufsoption für den Inhaber" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend, mit einer Kauf- und Verkaufsoption" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne feste Laufzeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Kaufoption für den Emittenten" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Verkaufsoption für den Inhaber" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Die Endfälligkeit kann verlängert werden" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese Wandelanleihe emittiert wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "W": {
+          "name": "Anleihen mit Bezugsrecht",
+          "short": "Anleihen mit Bezugsrecht",
+          "long": "Anleihen, die mit einem Bezugsrecht emittiert werden, hierbei verfügt der Inhaber über das Recht, weitere Wertpapiere zu erwerben",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zins- oder Kuponzahlung für diese Anleihe mit Bezugsrecht",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen festen Zinssatz aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Zu einem Rabatt ausgegeben, ohne periodische Zinszahlungen" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Ein variabler Zinssatz, basierend auf einem Referenzzinssatz" },
+              "C": { "name": "Barzahlung", "short": "Barzahlung", "long": "Kupontyp Barzahlung" },
+              "K": { "name": "Sachleistung", "short": "SL", "long": "Zinsen, die in zusätzlichen Wertpapieren und nicht bar gezahlt werden" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder das Senioritätsniveau dieser Anleihe mit Bezugsrecht",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Bürgschaft einer Regierung oder staatlichen Behörde" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Eine gemeinsame Bürgschaft mehrerer Parteien" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit oder Assets abgesichert" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit oder Bürgschaft gesichert" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Der Emittent stimmt zu, dass er keine Assets an andere Gläubiger verpfänden wird" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Erstrangigkeit in der Kapitalstruktur" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Unter Senior-, jedoch über Junior-Schuldtitel" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Nachrangigkeit in der Kapitalstruktur" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Der niedrigste Rang in der Subordinate-Schuldverschreibung" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Ausgegeben von einer länderübergreifenden Organisation" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Tilgungsmerkmale dieser Anleihe mit Bezugsrecht",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit; Emittent kann sie vor der Endfälligkeit kaufen" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit; Inhaber kann sie vor der Endfälligkeit verkaufen" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit sowohl Verkaufs- und Kaufoptionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Das Kapital wird schrittweise zurückgezahlt" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend, mit einer Kaufoption für den Emittenten" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend, mit einer Verkaufsoption für den Inhaber" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend, mit einer Kauf- und Verkaufsoption" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne feste Laufzeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Kaufoption für den Emittenten" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Verkaufsoption für den Inhaber" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Die Endfälligkeit kann verlängert werden" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese Anleihe mit Bezugsrecht emittiert wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "T": {
+          "name": "Medium-Term Notes (mittelfristige Schuldtitel)",
+          "short": "MTNs",
+          "long": "Medium-Term Notes — eine Schuldverschreibung, die üblicherweise auf einer kontinuierlichen Basis mit unterschiedlichen Laufzeiten emittiert werden",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zins- oder Kuponzahlung für diese Medium-Term Note",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen festen Zinssatz aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Zu einem Rabatt ausgegeben, ohne periodische Zinszahlungen" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Ein variabler Zinssatz, basierend auf einem Referenzzinssatz" },
+              "C": { "name": "Barzahlung", "short": "Barzahlung", "long": "Kupontyp Barzahlung" },
+              "K": { "name": "Sachleistung", "short": "SL", "long": "Zinsen, die in zusätzlichen Wertpapieren und nicht bar gezahlt werden" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder das Senioritätsniveau dieser Medium-Term Note",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Bürgschaft einer Regierung oder staatlichen Behörde" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Eine gemeinsame Bürgschaft mehrerer Parteien" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit oder Assets abgesichert" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit oder Bürgschaft gesichert" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Der Emittent stimmt zu, dass er keine Assets an andere Gläubiger verpfänden wird" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Erstrangigkeit in der Kapitalstruktur" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Unter Senior-, jedoch über Junior-Schuldtitel" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Nachrangigkeit in der Kapitalstruktur" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Der niedrigste Rang in der Subordinate-Schuldverschreibung" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Ausgegeben von einer länderübergreifenden Organisation" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Tilgungsmerkmale dieser Medium-Term Note",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit; Emittent kann sie vor der Endfälligkeit kaufen" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit; Inhaber kann sie vor der Endfälligkeit verkaufen" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit sowohl Verkaufs- und Kaufoptionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Das Kapital wird schrittweise zurückgezahlt" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend, mit einer Kaufoption für den Emittenten" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend, mit einer Verkaufsoption für den Inhaber" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend, mit einer Kauf- und Verkaufsoption" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne feste Laufzeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Kaufoption für den Emittenten" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Verkaufsoption für den Inhaber" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Die Endfälligkeit kann verlängert werden" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese Medium-Term Note emittiert wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "S": {
+          "name": "Strukturierte Produkte (Kapitalschutz)",
+          "short": "Kapitalgeschützte strukturierte Produkte",
+          "long": "Strukturierte Produkte mit Kapitalschutz, eine garantierte Rückgabe von mindestens einem Teil des Investmentkapitals",
+          "attribute1": {
+            "label": "Typ",
+            "short": "Art des kapitalgeschützten Produkts",
+            "long": "Definiert die spezifische Art des kapitalgeschützten strukturierten Produkts",
+            "values": {
+              "A": { "name": "Kapitalschutzzertifikat mit Beteiligung", "short": "Schutz + Beteiligung", "long": "Kapitalschutz mit Beteiligung an der grundlegenden Performance" },
+              "B": { "name": "Kapitalschutz wandelbares Zertifikat", "short": "Schutz + wandelbar", "long": "Kapitalschutz mit Umwandlungsmerkmalen" },
+              "C": { "name": "Kapitalschutzzertifikat mit Barriere", "short": "Barriereschutz", "long": "Kapitalschutz mit Barrierenbedingungen" },
+              "D": { "name": "Kapitalschutzzertifikat mit Kupons", "short": "Schutz + Kupons", "long": "Kapitalschutz mit Kuponzahlungen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige kapitalgeschützte strukturierte Produkte" }
+            }
+          },
+          "attribute2": {
+            "label": "Ausschüttung",
+            "short": "Art der Distribution",
+            "long": "Definiert, wie die Distribution für dieses kapitalgeschütztes strukturiertes Produkt ausgeschüttet wird",
+            "values": {
+              "F": { "name": "Festzinszahlungen", "short": "Festverzinslich", "long": "Zahlt einen Festzins aus" },
+              "D": { "name": "Dividendenzahlungen", "short": "Dividenden", "long": "Zahlt Dividenden aus" },
+              "V": { "name": "Variable Zinszahlungen", "short": "Variabel verzinst", "long": "Zahlt einen variablen Zinssatz aus" },
+              "Y": { "name": "Keine Zahlungen", "short": "Keine Zahlungen", "long": "Keine Distributionen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Ausschüttungsmethoden" }
+            }
+          },
+          "attribute3": {
+            "label": "Rückzahlung",
+            "short": "Rückzahlungsmethode",
+            "long": "Definiert die Rückzahlungsmethode bei der Endfälligkeit für dieses kapitalgeschütztes strukturiertes Produkt",
+            "values": {
+              "F": { "name": "Festgesetzte Barauszahlung (nur für das geschützte Kapitalniveau)", "short": "Festgesetzte Barauszahlung (geschütztes Niveau)", "long": "Rückzahlung in bar zu dem geschützten Kapitalniveau" },
+              "V": { "name": "Variable Barzahlung", "short": "Variabel in bar", "long": "Der Rückzahlungsbetrag in bar ist abhängig von der grundlegenden Performance" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Rückzahlungsmethoden" }
+            }
+          },
+          "attribute4": {
+            "label": "Basiswert",
+            "short": "Typ des Basiswerts",
+            "long": "Identifiziert die Assetkategorie des Basiswerts für dieses kapitalgeschütztes strukturiertes Produkt",
+            "values": {
+              "B": { "name": "Baskets", "short": "Baskets", "long": "Basieren auf einem Asset-Basket (Korb)" },
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Basieren auf Aktieninstrumenten" },
+              "D": { "name": "Schuldtitel/Zinssätze", "short": "Schuld/Zinsen", "long": "Basiert auf Schuldverschreibungen oder Zinssätzen" },
+              "T": { "name": "Rohstoffe", "short": "Rohstoffe", "long": "Basieren auf Rohstoffen" },
+              "C": { "name": "Währungen", "short": "Währungen", "long": "Basieren auf Währungen" },
+              "I": { "name": "Indizes", "short": "Indizes", "long": "Basieren auf Indizes" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Basieren auf sonstigen Assets" }
+            }
+          }
+        },
+        "E": {
+          "name": "Strukturierte Produkte (ohne Kapitalschutz)",
+          "short": "Nicht geschützte strukturierte Produkte",
+          "long": "Strukturierte Produkte ohne Kapitalschutz - das vollständige Anlagekapital wird riskiert",
+          "attribute1": {
+            "label": "Typ",
+            "short": "Art des nicht geschützten Produkts",
+            "long": "Definiert die spezifische Art des strukturierten Produkts ohne Kapitalschutz",
+            "values": {
+              "A": { "name": "Discountzertifikat", "short": "Discount", "long": "Erworben zu einem Rabatt für den grundlegenden Gewinn (mit Obergrenze)" },
+              "B": { "name": "Discountzertifikat mit Barriere", "short": "Discount mit Barriere", "long": "Discountzertifikat mit Barriere" },
+              "C": { "name": "Reverse Convertible", "short": "Reverse Convertible", "long": "Kuponzahlung, kann jedoch mit Aktien ausgezahlt werden, wenn der Basiswert unter einen Ausübungspreis fällt" },
+              "D": { "name": "Barrier Reverse Convertible", "short": "Barrier Reverse Convertible", "long": "Eine Reverse Convertible mit Barriere" },
+              "E": { "name": "Express-Zertifikat", "short": "Express/automatischer Kauf", "long": "Kann früh gekauft werden, wenn der Basiswert ein bestimmtes Niveau erreicht" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige nicht geschützte strukturierte Produkte" }
+            }
+          },
+          "attribute2": {
+            "label": "Rückzahlung",
+            "short": "Rückzahlungsmethode",
+            "long": "Definiert die Rückzahlungsmethode bei der Endfälligkeit für dieses nicht geschütztes strukturiertes Produkt",
+            "values": {
+              "R": { "name": "Rückzahlung in bar", "short": "Bar", "long": "Rückzahlung in Bargeld" },
+              "S": { "name": "Rückzahlung in Assets", "short": "Physische Lieferung", "long": "Rückzahlung mit Assetzustellung" },
+              "C": { "name": "Rückzahlung in Assets und Bargeld", "short": "Assets + Bargeld", "long": "Eine Rückzahlung bestehend aus einer Kombination von Assets und Bargeld" },
+              "T": { "name": "Rückzahlung in Assets oder Bargeld", "short": "Assets oder Bargeld", "long": "Rückzahlung in Assets oder Bargeld" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Rückzahlungsmethoden" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für diesen Instrumententyp",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für diesen Instrumententyp",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          }
+        },
+        "G": {
+          "name": "Mortgage-Backed Securities (MBS)",
+          "short": "MBS",
+          "long": "Hypothekarisch gesichertes Wertpapier - Schuldtitel gesichert mit Hypotheken",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zinszahlung für dieses MBS",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen festen Zinssatz aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Ausgegeben zu einem Rabatt ohne periodische Zinsen" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Variabler Zinssatz" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder Seniorität dieses MBS",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Staatlich garantiert" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Gemeinschaftlich gebürgt" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit geschützt" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit geschützt" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Vereinbarung mit Negativerklärung" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Senior-Rang" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Senior Subordinate" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Junior-Rang" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Junior Subordinate" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Supranationaler Emittent" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Rückkaufmerkmale dieser MBS",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit mit Call-Option" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit mit Put-Option" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit beiden Optionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Amortisierendes Kapital" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend mit Call-Option" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend mit Put-Option" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend mit beiden Optionen" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne Endfälligkeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Call-Option" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Put-Option" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Laufzeit verlängerbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher dieses MBS ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "A": {
+          "name": "Asset-Backed Securities (ABS)",
+          "short": "ABS",
+          "long": "Forderungsbesicherte Wertpapiere - Schuldtitel besichert mit nicht hypothekarischen Assets",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zinszahlungen für dieses ABS",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen Festzins aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Ausgegeben zu einem Rabatt" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Variabler Zinssatz" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder Seniorität dieses ABS",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Staatlich garantiert" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Gemeinschaftlich gebürgt" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit geschützt" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit geschützt" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Vereinbarung mit Negativerklärung" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Senior-Rang" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Senior Subordinate" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Junior-Rang" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Junior Subordinate" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Supranationaler Emittent" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Rückkaufmerkmale dieses ABS",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit mit Call-Option" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit mit Put-Option" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit beiden Optionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Amortisierendes Kapital" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend mit Call-Option" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend mit Put-Option" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend mit beiden Optionen" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne Endfälligkeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Call-Option" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Put-Option" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Laufzeit verlängerbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher dieses ABS ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "N": {
+          "name": "Kommunalanleihen",
+          "short": "Kommunalanleihen",
+          "long": "Kommunalanleihen - Schuldtitel ausgegeben von einer Lokalverwaltung oder einer Behörde",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zinszahlung für diese Kommunalanleihe",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Zahlt einen Festzins aus" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Ausgegeben zu einem Rabatt" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Variabler Zinssatz" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder Seniorität dieser Kommunalanleihe",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Staatlich garantiert" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Gemeinschaftlich gebürgt" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit geschützt" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht mit einer Sicherheit geschützt" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Vereinbarung mit Negativerklärung" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Senior-Rang" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Senior Subordinate" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Junior-Rang" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Junior Subordinate" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Supranationaler Emittent" }
+            }
+          },
+          "attribute3": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Tilgungsmerkmale dieser Kommunalanleihe",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Endfälligkeit zu einem festgesetzten Datum" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Feste Laufzeit mit Call-Option" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Feste Laufzeit mit Put-Option" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Feste Laufzeit mit beiden Optionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Amortisierendes Kapital" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend mit Call-Option" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend mit Put-Option" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend mit beiden Optionen" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne Endfälligkeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Call-Option" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Put-Option" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Laufzeit verlängerbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher diese Kommunalanleihe ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Eigentum in einem Register aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "D": {
+          "name": "Hinterlegungsscheine für Schuldtitel",
+          "short": "Hinterlegungsscheine",
+          "long": "Hinterlegungsscheine, welche das Eigentum an einem Schuldtitel darstellen, welches von einer Depotbank gehalten wird",
+          "attribute1": {
+            "label": "Instrumentenabhängig",
+            "short": "Art der grundlegenden Schuld",
+            "long": "Identifiziert die Art des grundlegenden Schuldtitels, welchen der Hinterlegungsschein repräsentiert",
+            "values": {
+              "B": { "name": "Anleihen", "short": "Anleihen", "long": "Repräsentiert Anleihen" },
+              "C": { "name": "Wandelanleihen", "short": "Wandelanleihen", "long": "Repräsentiert Wandelanleihen" },
+              "W": { "name": "Anleihen mit Bezugsrecht", "short": "Anleihen mit Bezugsrecht", "long": "Repräsentiert Wandelschuldverschreibungen" },
+              "T": { "name": "Medium-Term Notes (mittelfristige Schuldtitel)", "short": "MTNs", "long": "Repräsentiert mittelfristige Schuldtitel" },
+              "Y": { "name": "Geldmarktpapiere", "short": "Geldmarkt", "long": "Repräsentiert Geldmarktinstrumente" },
+              "G": { "name": "Mortgage-Backed Securities", "short": "MBS", "long": "Repräsentiert MBS" },
+              "Q": { "name": "Asset-Backed Securities", "short": "ABS", "long": "Repräsentiert ABS" },
+              "N": { "name": "Kommunalanleihen", "short": "Kommunalanleihen", "long": "Repräsentiert Kommunalanleihen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Repräsentiert sonstige Schuldtitel" }
+            }
+          },
+          "attribute2": {
+            "label": "Art der Zins-/Barzahlungen",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zinsen oder des Kupons für den grundlegenden Schuldtitel",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Festzinssatz" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Nullsatz oder diskontiert" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Variabler Zinssatz" },
+              "C": { "name": "Barzahlung", "short": "Barzahlung", "long": "Art der Barzahlung" }
+            }
+          },
+          "attribute3": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder Seniorität des grundlegenden Schuldtitels",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Staatlich garantiert" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Gemeinschaftlich gebürgt" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Mit einer Sicherheit geschützt" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht gesichert" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Negativerklärung" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Senior-Rang" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Senior Subordinate" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Junior-Rang" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Junior Subordinate" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Supranational" }
+            }
+          },
+          "attribute4": {
+            "label": "Tilgung/Rückerstattung",
+            "short": "Rückkaufmerkmale",
+            "long": "Definiert die Laufzeit- und Tilgungsmerkmale des grundlegenden Schuldtitels",
+            "values": {
+              "F": { "name": "Feste Laufzeit", "short": "Feste Laufzeit", "long": "Feste Laufzeit" },
+              "G": { "name": "Feste Laufzeit mit Call-Option", "short": "Festgesetzt + Kaufoption", "long": "Festgesetzt mit Call-Option" },
+              "C": { "name": "Feste Laufzeit mit Put-Option", "short": "Festgesetzt + Verkaufsoption", "long": "Festgesetzt mit Put-Option" },
+              "D": { "name": "Feste Laufzeit mit Put- und Call-Option", "short": "Festgesetzt + Kauf- & Verkaufsoption", "long": "Festgesetzt mit beiden Optionen" },
+              "A": { "name": "Amortisationsplan", "short": "Amortisierend", "long": "Amortisierend" },
+              "B": { "name": "Amortisationsplan mit Call-Option", "short": "Amortisierend + Kaufoption", "long": "Amortisierend mit Call-Option" },
+              "T": { "name": "Amortisationsplan mit Put-Option", "short": "Amortisierend + Verkaufsoption", "long": "Amortisierend mit Put-Option" },
+              "L": { "name": "Amortisationsplan mit Call- und Put-Option", "short": "Amortisierend + Kauf- & Verkaufsoption", "long": "Amortisierend mit beiden Optionen" },
+              "P": { "name": "Unbefristet", "short": "Unbefristet", "long": "Ohne Endfälligkeit" },
+              "Q": { "name": "Unbefristet mit Call-Option", "short": "Unbefristet + Kaufoption", "long": "Unbefristet mit Call-Option" },
+              "R": { "name": "Unbefristet mit Put-Option", "short": "Unbefristet + Verkaufsoption", "long": "Unbefristet mit Put-Option" },
+              "E": { "name": "Verlängerbar", "short": "Verlängerbar", "long": "Laufzeit verlängerbar" }
+            }
+          }
+        },
+        "Y": {
+          "name": "Geldmarktpapiere",
+          "short": "Geldmarkt",
+          "long": "Kurzfristige Schuldtitel, mit denen auf Geldmärkten gehandelt wird",
+          "attribute1": {
+            "label": "Art der Verzinsung",
+            "short": "Art der Verzinsung",
+            "long": "Definiert die Art der Zinsen für dieses Geldmarktinstrument",
+            "values": {
+              "F": { "name": "Festzins", "short": "Festzins", "long": "Festzins" },
+              "Z": { "name": "Nullsatz/diskontiert", "short": "Nullkupon", "long": "Diskontiert" },
+              "V": { "name": "Variabel", "short": "Variabler Zinssatz", "long": "Variabler Zinssatz" },
+              "K": { "name": "Sachleistung", "short": "SL", "long": "Zinszahlung in Sachleistung" }
+            }
+          },
+          "attribute2": {
+            "label": "Bürgschaft",
+            "short": "Bürgschaft/Seniorität",
+            "long": "Definiert die Bürgschaft oder Seniorität dieses Geldmarktinstruments",
+            "values": {
+              "T": { "name": "Staat/staatlich gebürgt", "short": "Staatlich gebürgt", "long": "Staatlich gebürgt" },
+              "G": { "name": "Gemeinsame Bürgschaft", "short": "Gemeinschaftlich gebürgt", "long": "Gemeinschaftlich gebürgt" },
+              "S": { "name": "Abgesichert", "short": "Abgesichert", "long": "Abgesichert" },
+              "U": { "name": "Nicht gesichert/ohne Bürgschaft", "short": "Nicht gesichert", "long": "Nicht gesichert" },
+              "P": { "name": "Negativerklärung", "short": "Negativerklärung", "long": "Negativerklärung" },
+              "N": { "name": "Senior", "short": "Senior", "long": "Senior" },
+              "O": { "name": "Senior Subordinate", "short": "Senior Subordinate", "long": "Senior Subordinate" },
+              "Q": { "name": "Junior", "short": "Junior", "long": "Junior" },
+              "J": { "name": "Junior Subordinate", "short": "Junior Subordinate", "long": "Junior Subordinate" },
+              "C": { "name": "Supranational", "short": "Supranational", "long": "Supranational" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für Geldmarktinstrumente",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Form, in welcher dieses Geldmarktinstrument ausgegeben wird",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Besitz aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        },
+        "M": {
+          "name": "Sonstige",
+          "short": "Sonstige Schuldtitel",
+          "long": "Sonstige Schuldtitel nicht anderweitig kategorisiert",
+          "attribute1": {
+            "label": "Typ",
+            "short": "Instrumententyp",
+            "long": "Der spezifische Typ des sonstigen Schuldtitels",
+            "values": {
+              "B": { "name": "Bankdarlehen", "short": "Bankdarlehen", "long": "Bankkreditinstrument" },
+              "P": { "name": "Schuldschein", "short": "Schuldschein", "long": "Ein Schuldschein" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Typen" }
+            }
+          },
+          "attribute2": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Form",
+            "short": "Die Form des Instruments",
+            "long": "Die Ausgabeform des Instruments",
+            "values": {
+              "B": { "name": "Inhaber", "short": "Inhaberform", "long": "Eigentum nach Besitz" },
+              "R": { "name": "Registriert", "short": "Registrierte Form", "long": "Besitz aufgezeichnet" },
+              "N": { "name": "Inhaber/registriert", "short": "Inhaber oder registriert", "long": "Beide Formen" },
+              "M": { "name": "Sonstige", "short": "Sonstige Formen", "long": "Sonstige Formen" }
+            }
+          }
+        }
+      }
+    },
+    "C": {
+      "name": "Collective Investment Vehicles (Gemeinsame Investmentvehikel)",
+      "short": "Fonds/CIVs",
+      "long": "Gemeinsame Investmentvehikel, einschließlich Fonds, ETFs, REITs und weitere Anlagestrukturen",
+      "groups": {
+        "I": {
+          "name": "Standard-Investmentfonds",
+          "short": "Investmentfonds",
+          "long": "Standard-Investmentfonds mit Kapital von mehreren Anlegern",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob dieser Fonds geschlossen, offen oder anderweitig ist",
+            "values": {
+              "O": { "name": "Offen", "short": "Offen", "long": "Anteile können auf Anfrage zu dem NIW erstellt und gekauft werden" },
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Festgesetzte Anteilsanzahl; gehandelt auf einer Börse" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Fondsstrukturen" }
+            }
+          },
+          "attribute2": {
+            "label": "Distributionspolitik",
+            "short": "Distributionspolitik",
+            "long": "Definiert, wie der Fonds das Einkommen ausschüttet oder reinvestiert",
+            "values": {
+              "I": { "name": "Einkommensfonds", "short": "Einkommen/ausgeschüttet", "long": "Das Einkommen wird an die Anteilsbesitzer ausgeschüttet" },
+              "G": { "name": "Akkumulierungsfonds", "short": "Akkumulierung", "long": "Einkommen reinvestiert (akkumuliert)" },
+              "J": { "name": "Gemischte Fonds", "short": "Gemischt", "long": "Eine Kombination von Ausschüttung und Akkumulierung" }
+            }
+          },
+          "attribute3": {
+            "label": "Asset",
+            "short": "Assetkategorie",
+            "long": "Die primäre Assetkategorie, in welche dieser Fonds investiert ist",
+            "values": {
+              "R": { "name": "Immobilien", "short": "Immobilien", "long": "Investiert in Immobilien" },
+              "B": { "name": "Schuldverschreibungen", "short": "Anleihen/Schuldtitel", "long": "Investiert in Schuldtitel" },
+              "E": { "name": "Aktien", "short": "Aktien", "long": "Investiert in Aktien" },
+              "V": { "name": "Wandelbare Wertpapiere", "short": "Wandelobligationen", "long": "Investiert in wandelbare Wertpapiere" },
+              "L": { "name": "Gemischt", "short": "Gemischt/ausgewogen", "long": "Investiert in verschiedene Assetkategorien" },
+              "C": { "name": "Rohstoffe", "short": "Rohstoffe", "long": "In Rohstoffe investiert" },
+              "D": { "name": "Derivate", "short": "Derivate", "long": "In Derivate investiert" },
+              "F": { "name": "Referenzielle Instrumente", "short": "Referenziell", "long": "Investiert in referenzielle Instrumente (z. B. einen Index)" },
+              "K": { "name": "Kredite", "short": "Kredite", "long": "Investiert in Kreditinstrumente" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Investiert in sonstige Assetkategorien" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp & Anlegerzugang",
+            "long": "Definiert die Art des ausgegebenen Wertpapiers und mögliche Anlegervoraussetzungen",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben, für alle Anleger verfügbar" },
+              "Q": { "name": "Anteile für QA", "short": "Aktien (qualifizierte Anleger)", "long": "Als Aktien ausgegeben, für qualifizierte Anleger verfügbar" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben, für alle Anleger verfügbar" },
+              "Y": { "name": "Anteile für QA", "short": "Anteile (qualifizierte Anleger)", "long": "Als Anteile ausgegeben, für qualifizierte Anleger verfügbar" }
+            }
+          }
+        },
+        "H": {
+          "name": "Hedgefonds",
+          "short": "Hedgefonds",
+          "long": "Hedgefonds mit alternativen Anlagestrategien",
+          "attribute1": {
+            "label": "Anlagestrategie",
+            "short": "Kernstrategie",
+            "long": "Die grundsätzliche Anlagestrategie für den Hedgefonds",
+            "values": {
+              "D": { "name": "Gerichtet", "short": "Gerichtet", "long": "Unternimmt richtungsorientierte Wetten auf Marktbewegungen" },
+              "R": { "name": "Relativwert", "short": "Relativwert", "long": "Verwertet Preisdifferenzen zwischen ähnlichen Instrumenten" },
+              "S": { "name": "Wertpapierauswahl", "short": "Wertpapierauswahl", "long": "Wählt individuelle Wertpapiere basierend auf einer Analyse aus" },
+              "E": { "name": "Ereignisgesteuert", "short": "Ereignisgesteuert", "long": "Investitionen auf der Grundlage von Unternehmensereignissen (Fusionen, Restrukturierungen usw.)" },
+              "A": { "name": "Arbitrage", "short": "Arbitrage", "long": "Sucht einen Gewinn in Preisdifferenzen" },
+              "N": { "name": "Multi-Strategien", "short": "Multi-Strategien", "long": "Verwendet mehrere Strategien" },
+              "L": { "name": "Asset-basierte Kreditgeschäfte", "short": "Asset-basierte Kreditgeschäfte", "long": "Bietet Darlehen an, die mit Assets gesichert sind" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Hedgefondsstrategien" }
+            }
+          },
+          "attribute2": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für Hedgefonds",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für Hedgefonds",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für Hedgefonds",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          }
+        },
+        "B": {
+          "name": "Real Estate Investment Trusts (REITs)",
+          "short": "REITs",
+          "long": "Immobilienfonds, die in Bestandsimmobilien investiert sind",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob dieses REIT geschlossen oder offen ist",
+            "values": {
+              "O": { "name": "Offen", "short": "Offen", "long": "Offene Struktur" },
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Geschlossene Struktur" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Strukturen" }
+            }
+          },
+          "attribute2": {
+            "label": "Distributionspolitik",
+            "short": "Distributionspolitik",
+            "long": "Definiert, wie das REIT sein Einkommen ausschüttet",
+            "values": {
+              "I": { "name": "Einkommensfonds", "short": "Einkommen", "long": "Einkommen wird ausgeschüttet" },
+              "G": { "name": "Akkumulierungsfonds", "short": "Akkumulierung", "long": "Einkommen wird reinvestiert" },
+              "J": { "name": "Gemischte Fonds", "short": "Gemischt", "long": "Gemischte Ausschüttung" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar für REITs",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp & Anlegerzugang",
+            "long": "Definiert die Art des ausgegebenen Wertpapiers und mögliche Anlegervoraussetzungen für dieses REIT",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben" },
+              "Q": { "name": "Anteile für QA", "short": "Aktien (qualifizierte Anleger)", "long": "Aktien für qualifizierte Anleger" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben" },
+              "Y": { "name": "Anteile für QA", "short": "Anteile (qualifizierte Anleger)", "long": "Anteile für qualifizierte Anleger" }
+            }
+          }
+        },
+        "E": {
+          "name": "Börsengehandelte Fonds (ETFs)",
+          "short": "ETFs",
+          "long": "Börsengehandelte Fonds, mit denen auf Börsen gehandelt wird und einen Index, Rohstoff oder Basket mitverfolgen",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob das ETF offen oder geschlossen ist",
+            "values": {
+              "O": { "name": "Offen", "short": "Offen", "long": "Offen (üblich für ETFs)" },
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Geschlossene Struktur" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Strukturen" }
+            }
+          },
+          "attribute2": {
+            "label": "Distributionspolitik",
+            "short": "Distributionspolitik",
+            "long": "Definiert, wie das ETF sein Einkommen ausschüttet",
+            "values": {
+              "I": { "name": "Einkommensfonds", "short": "Einkommen/ausgeschüttet", "long": "Einkommen wird ausgeschüttet" },
+              "G": { "name": "Akkumulierungsfonds", "short": "Akkumulierung", "long": "Einkommen wird reinvestiert" },
+              "J": { "name": "Gemischte Fonds", "short": "Gemischt", "long": "Gemischte Ausschüttung" }
+            }
+          },
+          "attribute3": {
+            "label": "Asset",
+            "short": "Assetkategorie",
+            "long": "Die primäre Assetkategorie, in welche dieses ETF investiert ist oder es mitverfolgt",
+            "values": {
+              "R": { "name": "Immobilien", "short": "Immobilien", "long": "Immobilien" },
+              "B": { "name": "Schuldverschreibungen", "short": "Anleihen/Schuldtitel", "long": "Schuldverschreibungen" },
+              "E": { "name": "Aktien", "short": "Aktien", "long": "Aktien" },
+              "V": { "name": "Wandelbare Wertpapiere", "short": "Wandelobligationen", "long": "Wandelbare Wertpapiere" },
+              "L": { "name": "Gemischt", "short": "Gemischt", "long": "Gemischte Assets" },
+              "C": { "name": "Rohstoffe", "short": "Rohstoffe", "long": "Rohstoffe" },
+              "D": { "name": "Derivate", "short": "Derivate", "long": "Derivate" },
+              "F": { "name": "Referenzielle Instrumente", "short": "Referenziell", "long": "Referenzielle Instrumente" },
+              "K": { "name": "Kredite", "short": "Kredite", "long": "Kredite" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Assets" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp & Anlegerzugang",
+            "long": "Definiert die Art des ausgegebenen Wertpapiers für dieses ETF",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben" }
+            }
+          }
+        },
+        "S": {
+          "name": "Pensionsfonds",
+          "short": "Pensionsfonds",
+          "long": "Pensionsfonds mit Altersversorgung für Mitglieder",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob dieser Pensionsfonds offen oder geschlossen ist",
+            "values": {
+              "O": { "name": "Offen", "short": "Offen", "long": "Offen für neue Mitglieder" },
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Nicht für neue Mitglieder geöffnet" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Strukturen" }
+            }
+          },
+          "attribute2": {
+            "label": "Strategie/Stil",
+            "short": "Anlagestrategie",
+            "long": "Die Investmentstrategie oder verfolgter Stil für diesen Pensionsfonds",
+            "values": {
+              "B": { "name": "Ausgeglichen/konservativ", "short": "Ausgeglichen", "long": "Ein ausgeglichener oder konservativer Investmentansatz" },
+              "G": { "name": "Wachstum", "short": "Wachstum", "long": "Ein wachstumsorientierter Investmentansatz" },
+              "L": { "name": "Lebensstil", "short": "Lebenszyklus", "long": "Die Strategie wird basierend auf der Altersgruppe der Mitglieder verändert" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige Strategien" }
+            }
+          },
+          "attribute3": {
+            "label": "Typ",
+            "short": "Pensionstyp",
+            "long": "Definiert, ob die Pension als Leistungszusage oder beitragsorientiert ist",
+            "values": {
+              "R": { "name": "Leistungszusage", "short": "Leistungszusage", "long": "Die Leistungen sind basierend auf dem Lohn/Dienst vordefiniert" },
+              "B": { "name": "Beitragsorientiert", "short": "Beitragsorientiert", "long": "Beiträge sind definiert; Leistungen sind abhängig von den Anlagerenditen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstiger Pensionstyp" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp",
+            "long": "Definiert den Wertpapiertyp, der für diesen Pensionsfonds ausgegeben wird",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben" }
+            }
+          }
+        },
+        "F": {
+          "name": "Dachfonds",
+          "short": "Dachfonds",
+          "long": "Fonds, die in andere Fonds und nicht direkt in Wertpapiere investiert sind",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob dieser Dachfonds offen oder geschlossen ist",
+            "values": {
+              "O": { "name": "Offen", "short": "Offen", "long": "Offen" },
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Geschlossen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige" }
+            }
+          },
+          "attribute2": {
+            "label": "Distributionspolitik",
+            "short": "Distributionspolitik",
+            "long": "Definiert, wie dieser Dachfonds sein Einkommen ausschüttet",
+            "values": {
+              "I": { "name": "Einkommensfonds", "short": "Einkommen", "long": "Einkommen wird ausgeschüttet" },
+              "G": { "name": "Akkumulierungsfonds", "short": "Akkumulierung", "long": "Einkommen wird reinvestiert" },
+              "J": { "name": "Gemischte Fonds", "short": "Gemischt", "long": "Gemischte Ausschüttung" }
+            }
+          },
+          "attribute3": {
+            "label": "Fondstyp",
+            "short": "Grundlegende Fondstypen",
+            "long": "Definiert den Typ des grundlegenden Fonds, in welchen dieser Dachfonds investiert ist",
+            "values": {
+              "I": { "name": "Standard-Investmentfonds", "short": "Investmentfonds", "long": "Investiert in Standard-Investmentfonds" },
+              "H": { "name": "Hedgefonds", "short": "Hedgefonds", "long": "Investiert in Hedgefonds" },
+              "B": { "name": "REITs", "short": "REITs", "long": "Investiert in REITs" },
+              "E": { "name": "ETFs", "short": "ETFs", "long": "Investiert in ETFs" },
+              "P": { "name": "Kapitalbeteiligungsfonds", "short": "KB-Fonds", "long": "Investiert in Kapitalbeteiligungsfonds" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Investiert in sonstige Fondstypen" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp & Anlegerzugang",
+            "long": "Definiert den Wertpapiertyp und die Anlegervoraussetzungen für diesen Dachfonds",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben" },
+              "Q": { "name": "Anteile für QA", "short": "Aktien (qualifizierte Anleger)", "long": "Aktien für qualifizierte Anleger" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben" },
+              "Y": { "name": "Anteile für QA", "short": "Anteile (qualifizierte Anleger)", "long": "Anteile für qualifizierte Anleger" }
+            }
+          }
+        },
+        "P": {
+          "name": "Kapitalbeteiligungsfonds",
+          "short": "KB-Fonds",
+          "long": "Kapitalbeteiligungsfonds, welche in nicht börsengehandelte Unternehmen investiert sind",
+          "attribute1": {
+            "label": "Geschlossen/offen",
+            "short": "Fondsstruktur",
+            "long": "Ob dieser KB-Fonds offen oder geschlossen ist",
+            "values": {
+              "O": { "name": "Offen", "short": "Offen", "long": "Offen" },
+              "C": { "name": "Geschlossen", "short": "Geschlossen", "long": "Geschlossen" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige" }
+            }
+          },
+          "attribute2": {
+            "label": "Distributionspolitik",
+            "short": "Distributionspolitik",
+            "long": "Definiert, wie dieser KB-Fonds sein Einkommen ausschüttet",
+            "values": {
+              "I": { "name": "Einkommensfonds", "short": "Einkommen", "long": "Einkommen wird ausgeschüttet" },
+              "G": { "name": "Akkumulierungsfonds", "short": "Akkumulierung", "long": "Reinvestiert" },
+              "J": { "name": "Gemischte Fonds", "short": "Gemischt", "long": "Gemischt" }
+            }
+          },
+          "attribute3": {
+            "label": "Asset",
+            "short": "Assetkategorie",
+            "long": "Die primäre Assetkategorie, in welche dieser KB-Fonds investiert ist",
+            "values": {
+              "R": { "name": "Immobilien", "short": "Immobilien", "long": "Immobilien" },
+              "B": { "name": "Schuldverschreibungen", "short": "Schuld", "long": "Schuldverschreibungen" },
+              "E": { "name": "Aktien", "short": "Aktien", "long": "Aktien" },
+              "V": { "name": "Wandelbare Wertpapiere", "short": "Wandelobligationen", "long": "Wandelobligationen" },
+              "L": { "name": "Gemischt", "short": "Gemischt", "long": "Gemischte Assets" },
+              "C": { "name": "Rohstoffe", "short": "Rohstoffe", "long": "Rohstoffe" },
+              "D": { "name": "Derivate", "short": "Derivate", "long": "Derivate" },
+              "F": { "name": "Referenzielle Instrumente", "short": "Referenziell", "long": "Referenziell" },
+              "K": { "name": "Kredite", "short": "Kredite", "long": "Kredite" },
+              "M": { "name": "Sonstige", "short": "Sonstige", "long": "Sonstige" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp & Anlegerzugang",
+            "long": "Definiert den Wertpapiertyp und die Anlegervoraussetzungen für diesen KB-Fonds",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben" },
+              "Q": { "name": "Anteile für QA", "short": "Aktien (qualifizierte Anleger)", "long": "Aktien für qualifizierte Anleger" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben" },
+              "Y": { "name": "Anteile für QA", "short": "Anteile (qualifizierte Anleger)", "long": "Anteile für qualifizierte Anleger" }
+            }
+          }
+        },
+        "M": {
+          "name": "Sonstige",
+          "short": "Sonstige CIVs",
+          "long": "Sonstige gemeinsame Investmentvehikel",
+          "attribute1": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute2": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute3": {
+            "label": "Nicht anwendbar",
+            "short": "N/A",
+            "long": "Nicht anwendbar",
+            "values": {
+              "X": { "name": "Nicht anwendbar/nicht definiert", "short": "N/A", "long": "Nicht anwendbar" }
+            }
+          },
+          "attribute4": {
+            "label": "Wertpapiertyp und Anlegerbeschränkungen",
+            "short": "Wertpapiertyp & Anlegerzugang",
+            "long": "Definiert den Wertpapiertyp und Anlegervoraussetzungen",
+            "values": {
+              "S": { "name": "Aktien", "short": "Aktien", "long": "Als Aktien ausgegeben" },
+              "Q": { "name": "Anteile für QA", "short": "Aktien (qualifizierte Anleger)", "long": "Aktien für qualifizierte Anleger" },
+              "U": { "name": "Anteile", "short": "Anteile", "long": "Als Anteile ausgegeben" },
+              "Y": { "name": "Anteile für QA", "short": "Anteile (qualifizierte Anleger)", "long": "Anteile für qualifizierte Anleger" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

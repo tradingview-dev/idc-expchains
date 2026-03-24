@@ -7,9 +7,10 @@ from s3_utils import upload_state
 
 class CFIUploader(DataGenerator):
 
-    def __init__(self, branch):
+    def __init__(self, branch, mode="cfi"):
         super().__init__()
         self._branch = branch
+        self._mode = mode
 
 
     @staticmethod
@@ -49,6 +50,11 @@ class CFIUploader(DataGenerator):
 
     def generate(self) -> list[str]:
 
+        if self._mode == "cfi_dict_upload":
+
+            upload_cfi(self._branch)
+            return []
+
         result = "CfiFromSix.csv"
 
         with open(result, "w") as file:
@@ -60,7 +66,8 @@ class CFIUploader(DataGenerator):
 
 
 def upload_cfi(branch: str):
-    upload_state("cfi_dict/cfi-dict-en.json", get_bucket(branch), "cfi/cfi-dict-en.json")
+    for filename in os.listdir("cfi_dict"):
+        upload_state(f"cfi_dict/{filename}", get_bucket(branch), f"cfi/{filename}")
 
 
 def get_bucket(branch: str) -> str:
