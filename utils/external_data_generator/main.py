@@ -129,6 +129,7 @@ def get_clusters(args):
         "corpacts": {"handlers": [{"generator": CorpactsDataGenerator().generate, "state_dir": "tvc"}]},
         "cmc_defi": {"handlers": [{"generator": CMCDataGenerator(args.branch).generate, "state_dir": "tvc", "state": "defi"}]},
         "cfi": {"handlers": [{"generator": CFIUploader(args.branch).generate}]},
+        "cfi_dict_upload": {"handlers": [{"generator": CFIUploader(args.branch, args.data_cluster).generate}]},
     }
 
 
