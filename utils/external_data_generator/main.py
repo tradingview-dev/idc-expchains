@@ -134,6 +134,7 @@ def get_clusters(args):
         "cfi": {"handlers": [{"generator": CFIUploader(args.branch).generate}]},
         "blockchain-addresses": {"handlers": [{"generator": BlockchainAddressesGenerator(args.branch).generate,
                                                "state_dir": "currencies", "state": "blockchain-addresses"}]},
+        "cfi_dict_upload": {"handlers": [{"generator": CFIUploader(args.branch, args.data_cluster).generate}]},
     }
 
 
