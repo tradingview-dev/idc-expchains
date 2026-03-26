@@ -67,13 +67,13 @@ class CFIUploader(DataGenerator):
 
 def upload_cfi(branch: str):
     for filename in os.listdir("cfi_dict"):
-        upload_state(f"cfi_dict/{filename}", get_bucket(branch), f"cfi/{filename}")
+        upload_state(f"cfi_dict/{filename}", get_bucket(branch), f"{filename}")
 
 
 def get_bucket(branch: str) -> str:
     buckets = {
-        "staging": "tradingview-pub-staging",
-        "master": "tradingview-pub"
+        "staging": "tradingview-currencies-staging",
+        "master": "tradingview-currencies"
     }
     return buckets[branch]
 
