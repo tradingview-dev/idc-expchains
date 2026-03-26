@@ -72,8 +72,8 @@ def upload_cfi(branch: str):
 
 def get_bucket(branch: str) -> str:
     buckets = {
-        "staging": "tradingview-pub-staging",
-        "master": "tradingview-pub"
+        "staging": "tradingview-currencies-staging",
+        "master": "tradingview-currencies"
     }
     return buckets[branch]
 
