@@ -63,7 +63,7 @@ def main(args, logger):
         try:
             files = handler['generator']()
             if len(files) == 0:
-                logger.log(f"No file in generator result for '{cluster_name}'")
+                logger.error(f"No file in generator result for '{cluster_name}'")
                 return Codes.OK
         except Exception as e:
             logger.error(f"Failed to generate files for '{cluster_name}' data cluster CAUSED BY: {e}")
