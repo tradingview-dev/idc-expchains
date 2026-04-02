@@ -1,0 +1,1015 @@
+{
+  "categories": {
+    "E": {
+      "en": "Equities",
+      "local": "Hisseler",
+      "groups": {
+        "S": {
+          "en": "Shares (Common/Ordinary)",
+          "local": "Hisseler (Adi/Normal)",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "T": { "en": "Restrictions", "local": "Kısıtlamalar" },
+            "U": { "en": "Free", "local": "Serbest" }
+          },
+          "attribute3": {
+            "F": { "en": "Fully Paid", "local": "Tamamı Ödenmiş" },
+            "O": { "en": "Nil Paid", "local": "Hiç Ödenmemiş" },
+            "P": { "en": "Partly Paid", "local": "Kısmen Ödenmiş" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "P": {
+          "en": "Preferred Shares",
+          "local": "İmtiyazlı Hisseler",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "İtfa Edilebilir" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" },
+            "T": { "en": "Redeemable/Extendible", "local": "İtfa Edilebilir/Vadesi Uzatılabilir" },
+            "G": { "en": "Exchangeable", "local": "Değiştirilebilir" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "İtfa Edilebilir/Değiştirilebilir/Vadesi Uzatılabilir" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "İtfa Edilebilir/Değiştirilebilir" },
+            "N": { "en": "Perpetual", "local": "Vadesiz" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "Birikimli, Sabit Oranlı" },
+            "P": { "en": "Participating", "local": "Kâra İştirakli" },
+            "Q": { "en": "Cumulative, Participating", "local": "Birikimli, Kâra İştirakli" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "Değişken Oranlı" },
+            "N": { "en": "Normal Rate", "local": "Normal Oranlı" },
+            "U": { "en": "Auction Rate", "local": "İhale Oranlı" },
+            "D": { "en": "Dividends", "local": "Temettüler" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "C": {
+          "en": "Convertible Shares",
+          "local": "Dönüştürülebilir Hisseler",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "T": { "en": "Restrictions", "local": "Kısıtlamalar" },
+            "U": { "en": "Free", "local": "Serbest" }
+          },
+          "attribute3": {
+            "F": { "en": "Fully Paid", "local": "Tamamı Ödenmiş" },
+            "O": { "en": "Nil Paid", "local": "Hiç Ödenmemiş" },
+            "P": { "en": "Partly Paid", "local": "Kısmen Ödenmiş" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "F": {
+          "en": "Preferred Convertible Shares",
+          "local": "Dönüştürülebilir Hisseler (İmtiyazlı/Öncelikli)",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "İtfa Edilebilir" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" },
+            "T": { "en": "Redeemable/Extendible", "local": "İtfa Edilebilir/Vadesi Uzatılabilir" },
+            "G": { "en": "Exchangeable", "local": "Değiştirilebilir" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "İtfa Edilebilir/Değiştirilebilir/Vadesi Uzatılabilir" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "İtfa Edilebilir/Değiştirilebilir" },
+            "N": { "en": "Perpetual", "local": "Vadesiz" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "Birikimli, Sabit Oranlı" },
+            "P": { "en": "Participating", "local": "Kâra İştirakli" },
+            "Q": { "en": "Cumulative, Participating", "local": "Birikimli, Kâra İştirakli" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "Değişken Oranlı" },
+            "N": { "en": "Normal Rate", "local": "Normal Oranlı" },
+            "U": { "en": "Auction Rate", "local": "İhale Oranlı" },
+            "D": { "en": "Dividends", "local": "Temettüler" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "L": {
+          "en": "Limited Partnership Units",
+          "local": "Komandit Şirket Payları",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "T": { "en": "Restrictions", "local": "Kısıtlamalar" },
+            "U": { "en": "Free", "local": "Serbest" }
+          },
+          "attribute3": {
+            "F": { "en": "Fully Paid", "local": "Tamamı Ödenmiş" },
+            "O": { "en": "Nil Paid", "local": "Hiç Ödenmemiş" },
+            "P": { "en": "Partly Paid", "local": "Kısmen Ödenmiş" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "D": {
+          "en": "Depository Receipts on Equities",
+          "local": "Paya Dayalı Depo Sertifikaları",
+          "attribute1": {
+            "S": { "en": "Common/Ordinary Shares", "local": "Hisseler (Adi/Normal)" },
+            "P": { "en": "Preferred/Preference Shares", "local": "İmtiyazlı/öncelikli hisseler" },
+            "C": { "en": "Common/Ordinary Convertible Shares", "local": "Dönüştürülebilir Hisseler (Adi/Normal)" },
+            "F": { "en": "Preferred/Preference Convertible Shares", "local": "Dönüştürülebilir Hisseler (İmtiyazlı/Öncelikli)" },
+            "L": { "en": "Limited Partnership Units", "local": "Komandit Şirket Payları" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "İtfa Edilebilir" },
+            "N": { "en": "Perpetual", "local": "Vadesiz" },
+            "B": { "en": "Convertible", "local": "Dönüştürülebilir" },
+            "D": { "en": "Convertible/Redeemable", "local": "Dönüştürülebilir/İtfa Edilebilir" },
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "Birikimli, Sabit Oranlı" },
+            "P": { "en": "Participating", "local": "Kâra İştirakli" },
+            "Q": { "en": "Cumulative, Participating", "local": "Birikimli, Kâra İştirakli" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "Değişken Oranlı" },
+            "N": { "en": "Normal Rate", "local": "Normal Oranlı" },
+            "U": { "en": "Auction Rate", "local": "İhale Oranlı" },
+            "D": { "en": "Dividends", "local": "Temettüler" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "Y": {
+          "en": "Structured Instruments (Participation)",
+          "local": "Yapılandırılmış Finansal Araçlar (Katılımlı)",
+          "attribute1": {
+            "A": { "en": "Tracker Certificate", "local": "İzleyici Sertifika" },
+            "B": { "en": "Outperforming Certificate", "local": "Üstün Performans Sertifikası" },
+            "C": { "en": "Bonus Certificate", "local": "Bonus Sertifikası" },
+            "D": { "en": "Outperformance Bonus Certificate", "local": "Üstün Performans Bonus Sertifikası" },
+            "E": { "en": "Twin-Win Certificate", "local": "Twin-Win Sertifikası" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "D": { "en": "Dividend Payments", "local": "Temettü Ödemeleri" },
+            "Y": { "en": "No Payments", "local": "Ödeme Yok" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute3": {
+            "F": { "en": "Cash Repayment", "local": "Nakdi Uzlaşı" },
+            "V": { "en": "Physical Repayment", "local": "Fiziki Teslimat" },
+            "E": { "en": "Elect at Settlement", "local": "Uzlaşıda Seçim" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "B": { "en": "Baskets", "local": "Sepetler" },
+            "S": { "en": "Equities", "local": "Hisseler" },
+            "D": { "en": "Debt Instruments", "local": "Borçlanma Araçları" },
+            "G": { "en": "Derivatives", "local": "Türev Araçlar" },
+            "T": { "en": "Commodities", "local": "Emtialar" },
+            "C": { "en": "Currencies", "local": "Dövizler" },
+            "I": { "en": "Indices", "local": "Endeksler" },
+            "N": { "en": "Interest Rates", "local": "Faiz Oranları" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "R": {
+          "en": "Preference Shares",
+          "local": "İmtiyazlı Hisseler",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "İtfa Edilebilir" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" },
+            "T": { "en": "Redeemable/Extendible", "local": "İtfa Edilebilir/Vadesi Uzatılabilir" },
+            "G": { "en": "Exchangeable", "local": "Değiştirilebilir" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "İtfa Edilebilir/Değiştirilebilir/Vadesi Uzatılabilir" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "İtfa Edilebilir/Değiştirilebilir" },
+            "N": { "en": "Perpetual", "local": "Vadesiz" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "Birikimli, Sabit Oranlı" },
+            "P": { "en": "Participating", "local": "Kâra İştirakli" },
+            "Q": { "en": "Cumulative, Participating", "local": "Birikimli, Kâra İştirakli" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "Değişken Oranlı" },
+            "N": { "en": "Normal Rate", "local": "Normal Oranlı" },
+            "U": { "en": "Auction Rate", "local": "İhale Oranlı" },
+            "D": { "en": "Dividends", "local": "Temettüler" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "V": {
+          "en": "Preference Convertible Shares",
+          "local": "Dönüştürülebilir Hisseler (İmtiyazlı/Öncelikli)",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "Oy Hakkı Olan" },
+            "N": { "en": "Non-Voting", "local": "Oy Hakkı Olmayan" },
+            "R": { "en": "Restricted", "local": "Kısıtlı" },
+            "E": { "en": "Enhanced Voting", "local": "Artırılmış Oy Hakkı" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "İtfa Edilebilir" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" },
+            "T": { "en": "Redeemable/Extendible", "local": "İtfa Edilebilir/Vadesi Uzatılabilir" },
+            "G": { "en": "Exchangeable", "local": "Değiştirilebilir" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "İtfa Edilebilir/Değiştirilebilir/Vadesi Uzatılabilir" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "İtfa Edilebilir/Değiştirilebilir" },
+            "N": { "en": "Perpetual", "local": "Vadesiz" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "Birikimli, Sabit Oranlı" },
+            "P": { "en": "Participating", "local": "Kâra İştirakli" },
+            "Q": { "en": "Cumulative, Participating", "local": "Birikimli, Kâra İştirakli" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "Değişken Oranlı" },
+            "N": { "en": "Normal Rate", "local": "Normal Oranlı" },
+            "U": { "en": "Auction Rate", "local": "İhale Oranlı" },
+            "D": { "en": "Dividends", "local": "Temettüler" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "U": {
+          "en": "Units (Unit Trusts, Mutual Funds, OPCVM/OICVM)",
+          "local": "Fon Payları (Yatırım Ortaklıkları, Yatırım Fonları, OPCVM/OICVM)",
+          "attribute1": {
+            "C": { "en": "Closed-end", "local": "Kapalı uçlu" },
+            "O": { "en": "Open-end", "local": "Açık uçlu" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "Gelir Fonları" },
+            "G": { "en": "Growth Funds", "local": "Büyüme Fonları" },
+            "M": { "en": "Mixed Funds", "local": "Karma Fonlar" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "Gayrimenkul" },
+            "S": { "en": "Securities", "local": "Menkul Kıymetler" },
+            "M": { "en": "Mixed-General", "local": "Karma-Genel" },
+            "C": { "en": "Commodities", "local": "Emtialar" },
+            "D": { "en": "Derivatives", "local": "Türev Araçlar" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "Z": { "en": "Bearer Depository Receipt", "local": "Hamiline Yazılı Depo Sertifikası" },
+            "A": { "en": "Registered Depository Receipt", "local": "Nama Yazılı Depo Sertifikası" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "M": {
+          "en": "Others (Misc.)",
+          "local": "Diğer (Çeşitli)",
+          "attribute1": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        }
+      }
+    },
+    "D": {
+      "en": "Debt Instruments",
+      "local": "Borçlanma Araçları",
+      "groups": {
+        "B": {
+          "en": "Bonds",
+          "local": "Tahviller",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" },
+            "C": { "en": "Cash Payment", "local": "Nakdi Ödeme" },
+            "K": { "en": "Payment in Kind", "local": "Ayni Ödeme" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "C": {
+          "en": "Convertible Bonds",
+          "local": "Dönüştürülebilir Tahviller",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" },
+            "C": { "en": "Cash Payment", "local": "Nakdi Ödeme" },
+            "K": { "en": "Payment in Kind", "local": "Ayni Ödeme" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "W": {
+          "en": "Bonds with Warrants Attached",
+          "local": "Varantlı Tahviller",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" },
+            "C": { "en": "Cash Payment", "local": "Nakdi Ödeme" },
+            "K": { "en": "Payment in Kind", "local": "Ayni Ödeme" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "T": {
+          "en": "Medium-Term Notes",
+          "local": "Orta Vadeli Tahviller",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" },
+            "C": { "en": "Cash Payment", "local": "Nakdi Ödeme" },
+            "K": { "en": "Payment in Kind", "local": "Ayni Ödeme" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "S": {
+          "en": "Structured Products (Capital Protection)",
+          "local": "Yapılandırılmış Finansal Araçlar (Anapara Korumalı)",
+          "attribute1": {
+            "A": { "en": "Capital Protection Certificate with Participation", "local": "Katılımlı Anapara Korumalı Sertifika" },
+            "B": { "en": "Capital Protection Convertible Certificate", "local": "Dönüştürülebilir Anapara Korumalı Sertifika" },
+            "C": { "en": "Barrier Capital Protection Certificate", "local": "Bariyerli Anapara Korumalı Sertifika" },
+            "D": { "en": "Capital Protection Certificate with Coupons", "local": "Kuponlu Anapara Korumalı Sertifika" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "F": { "en": "Fixed Interest Payments", "local": "Sabit Faiz Ödemeleri" },
+            "D": { "en": "Dividend Payments", "local": "Temettü Ödemeleri" },
+            "V": { "en": "Variable Interest Payments", "local": "Değişken Faiz Ödemeleri" },
+            "Y": { "en": "No Payments", "local": "Ödeme Yok" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Cash Repayment (Only Protected Capital Level)", "local": "Sabit Nakdi Uzlaşı (Yalnızca Korunan Anapara Seviyesinde)" },
+            "V": { "en": "Variable Cash Repayment", "local": "Değişken Nakdi Uzlaşı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "B": { "en": "Baskets", "local": "Sepetler" },
+            "S": { "en": "Equities", "local": "Hisseler" },
+            "D": { "en": "Debt Instruments/Interest Rates", "local": "Borçlanma Araçları/Faiz Oranları" },
+            "T": { "en": "Commodities", "local": "Emtialar" },
+            "C": { "en": "Currencies", "local": "Dövizler" },
+            "I": { "en": "Indices", "local": "Endeksler" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "E": {
+          "en": "Structured Products (Without Capital Protection)",
+          "local": "Yapılandırılmış Finansal Araçlar (Anapara Korumasız)",
+          "attribute1": {
+            "A": { "en": "Discount Certificate", "local": "İskonto Sertifikası" },
+            "B": { "en": "Barrier Discount Certificate", "local": "Bariyerli İskonto Sertifikası" },
+            "C": { "en": "Reverse Convertible", "local": "Ters Dönüştürülebilir" },
+            "D": { "en": "Barrier Reverse Convertible", "local": "Bariyerli Ters Dönüştürülebilir" },
+            "E": { "en": "Express Certificate", "local": "Ekspres Sertifika" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "R": { "en": "Repayment in Cash", "local": "Nakdi Uzlaşı" },
+            "S": { "en": "Repayment in Assets", "local": "Fiziki Teslimat" },
+            "C": { "en": "Repayment in Assets and Cash", "local": "Fiziki ve Nakdi Uzlaşı" },
+            "T": { "en": "Repayment in Assets or Cash", "local": "Fiziki veya Nakdi Uzlaşı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          }
+        },
+        "G": {
+          "en": "Mortgage-Backed Securities (MBS)",
+          "local": "İpoteğe Dayalı Menkul Kıymetler (İDMK)",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "A": {
+          "en": "Asset-Backed Securities (ABS)",
+          "local": "Varlığa Dayalı Menkul Kıymetler (VDMK)",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "N": {
+          "en": "Municipal Bonds",
+          "local": "Belediye Tahvilleri",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "D": {
+          "en": "Depository Receipts on Debt Instruments",
+          "local": "Borçlanma Araçlarına Dayalı Depo Sertifikaları",
+          "attribute1": {
+            "B": { "en": "Bonds", "local": "Tahviller" },
+            "C": { "en": "Convertible Bonds", "local": "Dönüştürülebilir Tahviller" },
+            "W": { "en": "Bonds with Warrants Attached", "local": "Varantlı Tahviller" },
+            "T": { "en": "Medium-Term Notes", "local": "Orta Vadeli Tahviller" },
+            "Y": { "en": "Money Market Instruments", "local": "Para Piyasası Araçları" },
+            "G": { "en": "Mortgage-Backed Securities", "local": "İpoteğe Dayalı Menkul Kıymetler" },
+            "Q": { "en": "Asset-Backed Securities", "local": "Varlığa Dayalı Menkul Kıymetler" },
+            "N": { "en": "Municipal Bonds", "local": "Belediye Tahvilleri" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" },
+            "C": { "en": "Cash Payment", "local": "Nakdi Ödeme" }
+          },
+          "attribute3": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute4": {
+            "F": { "en": "Fixed Maturity", "local": "Sabit Vade" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "Alım Opsiyonlu (Call) Sabit Vade" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "Satım Opsiyonlu (Put) Sabit Vade" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "Satım ve Alım Opsiyonlu Sabit Vade" },
+            "A": { "en": "Amortization Plan", "local": "Taksitli İtfa Planı" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "Alım Opsiyonlu Taksitli İtfa Planı" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "Satım Opsiyonlu Taksitli İtfa Planı" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "Satım ve Alım Opsiyonlu Taksitli İtfa Planı" },
+            "P": { "en": "Perpetual", "local": "Vadesiz" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "Alım Opsiyonlu Vadesiz" },
+            "R": { "en": "Perpetual with Put Feature", "local": "Satım Opsiyonlu Vadesiz" },
+            "E": { "en": "Extendible", "local": "Vadesi Uzatılabilir" }
+          }
+        },
+        "Y": {
+          "en": "Money Market Instruments",
+          "local": "Para Piyasası Araçları",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "Sabit Oranlı" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "Sıfır Oranlı/İskontolu" },
+            "V": { "en": "Variable", "local": "Değişken" },
+            "K": { "en": "Payment in Kind", "local": "Ayni Ödeme" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "Hükümet/Devlet Garantisi" },
+            "G": { "en": "Joint Guarantee", "local": "Müşterek Garanti" },
+            "S": { "en": "Secured", "local": "Teminatlı" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "Teminatsız/Garantisiz" },
+            "P": { "en": "Negative Pledge", "local": "Rehin Yasağı" },
+            "N": { "en": "Senior", "local": "Kıdemli" },
+            "O": { "en": "Senior Subordinated", "local": "Kıdemli İkincil" },
+            "Q": { "en": "Junior", "local": "İkincil" },
+            "J": { "en": "Junior Subordinated", "local": "En Alt İkincil" },
+            "C": { "en": "Supranational", "local": "Uluslarüstü" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        },
+        "M": {
+          "en": "Others (Misc.)",
+          "local": "Diğer (Çeşitli)",
+          "attribute1": {
+            "B": { "en": "Bank Loan", "local": "Banka Kredisi" },
+            "P": { "en": "Promissory Note", "local": "Emre Yazılı Senet" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "Hamiline Yazılı" },
+            "R": { "en": "Registered", "local": "Nama Yazılı" },
+            "N": { "en": "Bearer/Registered", "local": "Hamiline/Nama Yazılı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          }
+        }
+      }
+    },
+    "C": {
+      "en": "Collective Investment Vehicles",
+      "local": "Kolektif Yatırım Kuruluşları",
+      "groups": {
+        "I": {
+          "en": "Standard (Vanilla) Investment Funds/Mutual Funds",
+          "local": "Standart Yatırım Fonları/Yatırım Fonları",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "Açık uçlu" },
+            "C": { "en": "Closed-End", "local": "Kapalı uçlu" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "Gelir Fonları" },
+            "G": { "en": "Accumulation Funds", "local": "Birikimli Fonlar" },
+            "J": { "en": "Mixed Funds", "local": "Karma Fonlar" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "Gayrimenkul" },
+            "B": { "en": "Debt Instruments", "local": "Borçlanma Araçları" },
+            "E": { "en": "Equities", "local": "Hisseler" },
+            "V": { "en": "Convertible Securities", "local": "Dönüştürülebilir Menkul Kıymetler" },
+            "L": { "en": "Mixed", "local": "Karma" },
+            "C": { "en": "Commodities", "local": "Emtialar" },
+            "D": { "en": "Derivatives", "local": "Türev Araçlar" },
+            "F": { "en": "Referential Instruments", "local": "Referans Finansal Araçlar" },
+            "K": { "en": "Credits", "local": "Krediler" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "Q": { "en": "Shares for QI", "local": "Nitelikli Yatırımcılar (NY) İçin Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" },
+            "Y": { "en": "Units for QI", "local": "NY İçin Katılma Payları" }
+          }
+        },
+        "H": {
+          "en": "Hedge Funds",
+          "local": "Serbest Fonlar",
+          "attribute1": {
+            "D": { "en": "Directional", "local": "Yönlü" },
+            "R": { "en": "Relative Value", "local": "Göreceli Değer" },
+            "S": { "en": "Security Selection", "local": "Menkul Kıymet Seçimi" },
+            "E": { "en": "Event-Driven", "local": "Olaya Dayalı" },
+            "A": { "en": "Arbitrage", "local": "Arbitraj" },
+            "N": { "en": "Multi-Strategy", "local": "Çoklu Strateji" },
+            "L": { "en": "Asset-Based Lending", "local": "Varlığa Dayalı Kredilendirme" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          }
+        },
+        "B": {
+          "en": "Real Estate Investment Trusts (REITs)",
+          "local": "Gayrimenkul Yatırım Ortaklıkları (GYO)",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "Açık uçlu" },
+            "C": { "en": "Closed-End", "local": "Kapalı uçlu" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "Gelir Fonları" },
+            "G": { "en": "Accumulation Funds", "local": "Birikimli Fonlar" },
+            "J": { "en": "Mixed Funds", "local": "Karma Fonlar" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "Q": { "en": "Shares for QI", "local": "Nitelikli Yatırımcılar (NY) İçin Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" },
+            "Y": { "en": "Units for QI", "local": "NY İçin Katılma Payları" }
+          }
+        },
+        "E": {
+          "en": "Exchange-Traded Funds (ETFs)",
+          "local": "Borsa Yatırım Fonları (BYF)",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "Açık uçlu" },
+            "C": { "en": "Closed-End", "local": "Kapalı uçlu" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "Gelir Fonları" },
+            "G": { "en": "Accumulation Funds", "local": "Birikimli Fonlar" },
+            "J": { "en": "Mixed Funds", "local": "Karma Fonlar" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "Gayrimenkul" },
+            "B": { "en": "Debt Instruments", "local": "Borçlanma Araçları" },
+            "E": { "en": "Equities", "local": "Hisseler" },
+            "V": { "en": "Convertible Securities", "local": "Dönüştürülebilir Menkul Kıymetler" },
+            "L": { "en": "Mixed", "local": "Karma" },
+            "C": { "en": "Commodities", "local": "Emtialar" },
+            "D": { "en": "Derivatives", "local": "Türev Araçlar" },
+            "F": { "en": "Referential Instruments", "local": "Referans Finansal Araçlar" },
+            "K": { "en": "Credits", "local": "Krediler" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" }
+          }
+        },
+        "S": {
+          "en": "Pension Funds",
+          "local": "Emeklilik Fonları",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "Açık uçlu" },
+            "C": { "en": "Closed-End", "local": "Kapalı uçlu" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "B": { "en": "Balanced/Conservative", "local": "Dengeli/Muhafazakar" },
+            "G": { "en": "Growth", "local": "Büyüme" },
+            "L": { "en": "Life Style", "local": "Yaşam Tarzı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute3": {
+            "R": { "en": "Defined Benefit", "local": "Tanımlanmış Fayda Esaslı" },
+            "B": { "en": "Defined Contribution", "local": "Tanımlanmış Katkı Esaslı" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" }
+          }
+        },
+        "F": {
+          "en": "Funds of Funds",
+          "local": "Fon Sepeti Fonları",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "Açık uçlu" },
+            "C": { "en": "Closed-End", "local": "Kapalı uçlu" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "Gelir Fonları" },
+            "G": { "en": "Accumulation Funds", "local": "Birikimli Fonlar" },
+            "J": { "en": "Mixed Funds", "local": "Karma Fonlar" }
+          },
+          "attribute3": {
+            "I": { "en": "Standard (Vanilla) Investment Funds/Mutual Funds", "local": "Standart Yatırım Fonları/Yatırım Fonları" },
+            "H": { "en": "Hedge Funds", "local": "Serbest Fonlar" },
+            "B": { "en": "REITs", "local": "GYO'lar" },
+            "E": { "en": "ETFs", "local": "BYF'ler" },
+            "P": { "en": "Private Equity Funds", "local": "Girişim Sermayesi Fonları" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "Q": { "en": "Shares for QI", "local": "Nitelikli Yatırımcılar (NY) İçin Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" },
+            "Y": { "en": "Units for QI", "local": "NY İçin Katılma Payları" }
+          }
+        },
+        "P": {
+          "en": "Private Equity Funds",
+          "local": "Girişim Sermayesi Fonları",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "Açık uçlu" },
+            "C": { "en": "Closed-End", "local": "Kapalı uçlu" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "Gelir Fonları" },
+            "G": { "en": "Accumulation Funds", "local": "Birikimli Fonlar" },
+            "J": { "en": "Mixed Funds", "local": "Karma Fonlar" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "Gayrimenkul" },
+            "B": { "en": "Debt Instruments", "local": "Borçlanma Araçları" },
+            "E": { "en": "Equities", "local": "Hisseler" },
+            "V": { "en": "Convertible Securities", "local": "Dönüştürülebilir Menkul Kıymetler" },
+            "L": { "en": "Mixed", "local": "Karma" },
+            "C": { "en": "Commodities", "local": "Emtialar" },
+            "D": { "en": "Derivatives", "local": "Türev Araçlar" },
+            "F": { "en": "Referential Instruments", "local": "Referans Finansal Araçlar" },
+            "K": { "en": "Credits", "local": "Krediler" },
+            "M": { "en": "Others (Misc.)", "local": "Diğer (Çeşitli)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "Q": { "en": "Shares for QI", "local": "Nitelikli Yatırımcılar (NY) İçin Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" },
+            "Y": { "en": "Units for QI", "local": "NY İçin Katılma Payları" }
+          }
+        },
+        "M": {
+          "en": "Others (Misc.)",
+          "local": "Diğer (Çeşitli)",
+          "attribute1": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "Uygulanamaz/Tanımsız" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "Paylar" },
+            "Q": { "en": "Shares for QI", "local": "Nitelikli Yatırımcılar (NY) İçin Paylar" },
+            "U": { "en": "Units", "local": "Katılma Payları" },
+            "Y": { "en": "Units for QI", "local": "NY İçin Katılma Payları" }
+          }
+        }
+      }
+    }
+  }
+}
