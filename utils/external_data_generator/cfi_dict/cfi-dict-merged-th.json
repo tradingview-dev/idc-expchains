@@ -1,0 +1,1015 @@
+{
+  "categories": {
+    "E": {
+      "en": "Equities",
+      "local": "หุ้น",
+      "groups": {
+        "S": {
+          "en": "Shares (Common/Ordinary)",
+          "local": "หุ้น (หุ้นสามัญ)",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "T": { "en": "Restrictions", "local": "ข้อจำกัด" },
+            "U": { "en": "Free", "local": "ฟรี" }
+          },
+          "attribute3": {
+            "F": { "en": "Fully Paid", "local": "ชำระเงินเรียบร้อยแล้ว" },
+            "O": { "en": "Nil Paid", "local": "สิทธิในการจองซื้อหุ้นเพิ่มทุน" },
+            "P": { "en": "Partly Paid", "local": "ชำระบางส่วนแล้ว" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "P": {
+          "en": "Preferred Shares",
+          "local": "หุ้นบุริมสิทธิ",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "ไถ่ถอนได้" },
+            "E": { "en": "Extendible", "local": "ขยายได้" },
+            "T": { "en": "Redeemable/Extendible", "local": "ไถ่ถอนได้/ขยายเวลาได้" },
+            "G": { "en": "Exchangeable", "local": "แปลงสภาพได้" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "ไถ่ถอนได้/แปลงสภาพได้/ขยายเวลาได้" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "ไถ่ถอนได้/แปลงสภาพได้" },
+            "N": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "อัตราคงที่แบบสะสม" },
+            "P": { "en": "Participating", "local": "มีส่วนร่วม" },
+            "Q": { "en": "Cumulative, Participating", "local": "สะสม, มีส่วนร่วม" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "อัตราปรับได้/แปรผัน" },
+            "N": { "en": "Normal Rate", "local": "อัตราปกติ" },
+            "U": { "en": "Auction Rate", "local": "อัตราการประมูล" },
+            "D": { "en": "Dividends", "local": "เงินปันผล" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "C": {
+          "en": "Convertible Shares",
+          "local": "หุ้นแปลงสภาพ",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "T": { "en": "Restrictions", "local": "ข้อจำกัด" },
+            "U": { "en": "Free", "local": "ฟรี" }
+          },
+          "attribute3": {
+            "F": { "en": "Fully Paid", "local": "ชำระเงินเรียบร้อยแล้ว" },
+            "O": { "en": "Nil Paid", "local": "สิทธิในการจองซื้อหุ้นเพิ่มทุน" },
+            "P": { "en": "Partly Paid", "local": "ชำระบางส่วนแล้ว" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "F": {
+          "en": "Preferred Convertible Shares",
+          "local": "หุ้นบุริมสิทธิแปลงสภาพ",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "ไถ่ถอนได้" },
+            "E": { "en": "Extendible", "local": "ขยายได้" },
+            "T": { "en": "Redeemable/Extendible", "local": "ไถ่ถอนได้/ขยายเวลาได้" },
+            "G": { "en": "Exchangeable", "local": "แปลงสภาพได้" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "ไถ่ถอนได้/แปลงสภาพได้/ขยายเวลาได้" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "ไถ่ถอนได้/แปลงสภาพได้" },
+            "N": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "อัตราคงที่แบบสะสม" },
+            "P": { "en": "Participating", "local": "มีส่วนร่วม" },
+            "Q": { "en": "Cumulative, Participating", "local": "สะสม, มีส่วนร่วม" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "อัตราปรับได้/แปรผัน" },
+            "N": { "en": "Normal Rate", "local": "อัตราปกติ" },
+            "U": { "en": "Auction Rate", "local": "อัตราการประมูล" },
+            "D": { "en": "Dividends", "local": "เงินปันผล" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "L": {
+          "en": "Limited Partnership Units",
+          "local": "หน่วยห้างหุ้นส่วนจำกัด",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "T": { "en": "Restrictions", "local": "ข้อจำกัด" },
+            "U": { "en": "Free", "local": "ฟรี" }
+          },
+          "attribute3": {
+            "F": { "en": "Fully Paid", "local": "ชำระเงินเรียบร้อยแล้ว" },
+            "O": { "en": "Nil Paid", "local": "สิทธิในการจองซื้อหุ้นเพิ่มทุน" },
+            "P": { "en": "Partly Paid", "local": "ชำระบางส่วนแล้ว" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "D": {
+          "en": "Depository Receipts on Equities",
+          "local": "ใบรับฝากหลักทรัพย์ต่างประเทศในตราสารทุน",
+          "attribute1": {
+            "S": { "en": "Common/Ordinary Shares", "local": "หุ้นสามัญ" },
+            "P": { "en": "Preferred/Preference Shares", "local": "หุ้นบุริมสิทธิ" },
+            "C": { "en": "Common/Ordinary Convertible Shares", "local": "หุ้นสามัญแปลงสภาพ" },
+            "F": { "en": "Preferred/Preference Convertible Shares", "local": "หุ้นบุริมสิทธิ/หุ้นแปลงสภาพ" },
+            "L": { "en": "Limited Partnership Units", "local": "หน่วยห้างหุ้นส่วนจำกัด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "ไถ่ถอนได้" },
+            "N": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "B": { "en": "Convertible", "local": "แปลงสภาพได้" },
+            "D": { "en": "Convertible/Redeemable", "local": "แปลงสภาพได้/ไถ่ถอนได้" },
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "อัตราคงที่แบบสะสม" },
+            "P": { "en": "Participating", "local": "มีส่วนร่วม" },
+            "Q": { "en": "Cumulative, Participating", "local": "สะสม, มีส่วนร่วม" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "อัตราปรับได้/แปรผัน" },
+            "N": { "en": "Normal Rate", "local": "อัตราปกติ" },
+            "U": { "en": "Auction Rate", "local": "อัตราการประมูล" },
+            "D": { "en": "Dividends", "local": "เงินปันผล" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "Y": {
+          "en": "Structured Instruments (Participation)",
+          "local": "ตราสารที่มีโครงสร้าง (การมีส่วนร่วม)",
+          "attribute1": {
+            "A": { "en": "Tracker Certificate", "local": "ตราสารอนุพันธ์ที่ทำหน้าที่จำลองผลตอบแทน" },
+            "B": { "en": "Outperforming Certificate", "local": "ผลิตภัณฑ์ที่ให้ผลตอบแทนเกินกว่าปกติ" },
+            "C": { "en": "Bonus Certificate", "local": "ใบรับรองโบนัส" },
+            "D": { "en": "Outperformance Bonus Certificate", "local": "ผลิตภัณฑ์ที่ให้ผลตอบแทนเกินกว่าปกติ" },
+            "E": { "en": "Twin-Win Certificate", "local": "หุ้นกู้ที่มีอนุพันธ์แฝง" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "D": { "en": "Dividend Payments", "local": "การจ่ายเงินปันผล" },
+            "Y": { "en": "No Payments", "local": "ไม่มีการชำระเงิน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute3": {
+            "F": { "en": "Cash Repayment", "local": "การคืนเป็นเงินสด" },
+            "V": { "en": "Physical Repayment", "local": "การชำระคืนแบบกายภาพ" },
+            "E": { "en": "Elect at Settlement", "local": "เลือก ณ การชำระเงิน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "B": { "en": "Baskets", "local": "ตะกร้า" },
+            "S": { "en": "Equities", "local": "หุ้น" },
+            "D": { "en": "Debt Instruments", "local": "ตราสารหนี้" },
+            "G": { "en": "Derivatives", "local": "อนุพันธ์" },
+            "T": { "en": "Commodities", "local": "สินค้าโภคภัณฑ์" },
+            "C": { "en": "Currencies", "local": "สกุลเงิน" },
+            "I": { "en": "Indices", "local": "ดัชนี" },
+            "N": { "en": "Interest Rates", "local": "อัตราดอกเบี้ย" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "R": {
+          "en": "Preference Shares",
+          "local": "หุ้นบุริมสิทธิ",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "ไถ่ถอนได้" },
+            "E": { "en": "Extendible", "local": "ขยายได้" },
+            "T": { "en": "Redeemable/Extendible", "local": "ไถ่ถอนได้/ขยายเวลาได้" },
+            "G": { "en": "Exchangeable", "local": "แปลงสภาพได้" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "ไถ่ถอนได้/แปลงสภาพได้/ขยายเวลาได้" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "ไถ่ถอนได้/แปลงสภาพได้" },
+            "N": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "อัตราคงที่แบบสะสม" },
+            "P": { "en": "Participating", "local": "มีส่วนร่วม" },
+            "Q": { "en": "Cumulative, Participating", "local": "สะสม, มีส่วนร่วม" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "อัตราปรับได้/แปรผัน" },
+            "N": { "en": "Normal Rate", "local": "อัตราปกติ" },
+            "U": { "en": "Auction Rate", "local": "อัตราการประมูล" },
+            "D": { "en": "Dividends", "local": "เงินปันผล" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "V": {
+          "en": "Preference Convertible Shares",
+          "local": "หุ้นบุริมสิทธิแปลงสภาพ",
+          "attribute1": {
+            "V": { "en": "Voting", "local": "การลงคะแนนเสียง" },
+            "N": { "en": "Non-Voting", "local": "ไม่มีสิทธิออกเสียง" },
+            "R": { "en": "Restricted", "local": "ถูกจำกัด" },
+            "E": { "en": "Enhanced Voting", "local": "การลงคะแนนเสียงแบบปรับปรุงใหม่" }
+          },
+          "attribute2": {
+            "R": { "en": "Redeemable", "local": "ไถ่ถอนได้" },
+            "E": { "en": "Extendible", "local": "ขยายได้" },
+            "T": { "en": "Redeemable/Extendible", "local": "ไถ่ถอนได้/ขยายเวลาได้" },
+            "G": { "en": "Exchangeable", "local": "แปลงสภาพได้" },
+            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "ไถ่ถอนได้/แปลงสภาพได้/ขยายเวลาได้" },
+            "C": { "en": "Redeemable/Exchangeable", "local": "ไถ่ถอนได้/แปลงสภาพได้" },
+            "N": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "C": { "en": "Cumulative, Fixed Rate", "local": "อัตราคงที่แบบสะสม" },
+            "P": { "en": "Participating", "local": "มีส่วนร่วม" },
+            "Q": { "en": "Cumulative, Participating", "local": "สะสม, มีส่วนร่วม" },
+            "A": { "en": "Adjustable/Variable Rate", "local": "อัตราปรับได้/แปรผัน" },
+            "N": { "en": "Normal Rate", "local": "อัตราปกติ" },
+            "U": { "en": "Auction Rate", "local": "อัตราการประมูล" },
+            "D": { "en": "Dividends", "local": "เงินปันผล" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "U": {
+          "en": "Units (Unit Trusts, Mutual Funds, OPCVM/OICVM)",
+          "local": "หน่วยลงทุน (กองทุนรวม, กองทุนรวม, OPCVM/OICVM)",
+          "attribute1": {
+            "C": { "en": "Closed-end", "local": "ปลายปิด" },
+            "O": { "en": "Open-end", "local": "ปลายเปิด" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "กองทุนรวมเพื่อรายได้" },
+            "G": { "en": "Growth Funds", "local": "กองทุนรวมหุ้นเติบโตสูง" },
+            "M": { "en": "Mixed Funds", "local": "กองทุนรวม" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "อสังหาริมทรัพย์" },
+            "S": { "en": "Securities", "local": "หลักทรัพย์" },
+            "M": { "en": "Mixed-General", "local": "ผสมทั่วไป" },
+            "C": { "en": "Commodities", "local": "สินค้าโภคภัณฑ์" },
+            "D": { "en": "Derivatives", "local": "อนุพันธ์" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "Z": { "en": "Bearer Depository Receipt", "local": "ใบรับฝากหลักทรัพย์แบบผู้ถือ" },
+            "A": { "en": "Registered Depository Receipt", "local": "ใบรับฝากหลักทรัพย์ต่างประเทศที่จดทะเบียนแล้ว" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "M": {
+          "en": "Others (Misc.)",
+          "local": "อื่นๆ (เบ็ดเตล็ด)",
+          "attribute1": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        }
+      }
+    },
+    "D": {
+      "en": "Debt Instruments",
+      "local": "ตราสารหนี้",
+      "groups": {
+        "B": {
+          "en": "Bonds",
+          "local": "ตราสารหนี้",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" },
+            "C": { "en": "Cash Payment", "local": "การชำระเงินสด" },
+            "K": { "en": "Payment in Kind", "local": "การชำระเงินเป็นสิ่งของ" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "C": {
+          "en": "Convertible Bonds",
+          "local": "ตราสารหนี้แปลงสภาพ",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" },
+            "C": { "en": "Cash Payment", "local": "การชำระเงินสด" },
+            "K": { "en": "Payment in Kind", "local": "การชำระเงินเป็นสิ่งของ" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "W": {
+          "en": "Bonds with Warrants Attached",
+          "local": "ตราสารหนี้พร้อมใบสำคัญแสดงสิทธิ",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" },
+            "C": { "en": "Cash Payment", "local": "การชำระเงินสด" },
+            "K": { "en": "Payment in Kind", "local": "การชำระเงินเป็นสิ่งของ" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "T": {
+          "en": "Medium-Term Notes",
+          "local": "ตราสารหนี้ระยะปานกลาง",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" },
+            "C": { "en": "Cash Payment", "local": "การชำระเงินสด" },
+            "K": { "en": "Payment in Kind", "local": "การชำระเงินเป็นสิ่งของ" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "S": {
+          "en": "Structured Products (Capital Protection)",
+          "local": "ผลิตภัณฑ์ที่มีโครงสร้าง (การคุ้มครองเงินต้น)",
+          "attribute1": {
+            "A": { "en": "Capital Protection Certificate with Participation", "local": "ใบรับรองการคุ้มครองเงินต้นพร้อมการมีส่วนร่วม" },
+            "B": { "en": "Capital Protection Convertible Certificate", "local": "ใบรับรองการแปลงสภาพเพื่อคุ้มครองเงินต้น" },
+            "C": { "en": "Barrier Capital Protection Certificate", "local": "ใบสำคัญแสดงสิทธิคุ้มครองเงินต้นแบบมีเงื่อนไข" },
+            "D": { "en": "Capital Protection Certificate with Coupons", "local": "ใบรับรองคุ้มครองเงินต้นพร้อมดอกเบี้ย" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "F": { "en": "Fixed Interest Payments", "local": "การจ่ายดอกเบี้ยคงที่" },
+            "D": { "en": "Dividend Payments", "local": "การจ่ายเงินปันผล" },
+            "V": { "en": "Variable Interest Payments", "local": "การชำระดอกเบี้ยแบบผันแปร" },
+            "Y": { "en": "No Payments", "local": "ไม่มีการชำระเงิน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Cash Repayment (Only Protected Capital Level)", "local": "การชำระคืนเป็นเงินสดแบบคงที่ (เฉพาะระดับเงินต้นที่ได้รับการคุ้มครอง)" },
+            "V": { "en": "Variable Cash Repayment", "local": "การชำระคืนเงินสดแบบแปรผัน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "B": { "en": "Baskets", "local": "ตะกร้า" },
+            "S": { "en": "Equities", "local": "หุ้น" },
+            "D": { "en": "Debt Instruments/Interest Rates", "local": "ตราสารหนี้/อัตราดอกเบี้ย" },
+            "T": { "en": "Commodities", "local": "สินค้าโภคภัณฑ์" },
+            "C": { "en": "Currencies", "local": "สกุลเงิน" },
+            "I": { "en": "Indices", "local": "ดัชนี" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "E": {
+          "en": "Structured Products (Without Capital Protection)",
+          "local": "ผลิตภัณฑ์ที่มีโครงสร้าง (โดยไม่มีการคุ้มครองเงินต้น)",
+          "attribute1": {
+            "A": { "en": "Discount Certificate", "local": "ตราสารที่ให้สิทธิ์ในการซื้อราคาที่ต่ำกว่าราคาตลาด" },
+            "B": { "en": "Barrier Discount Certificate", "local": "ตราสารที่มีการป้องกันความเสี่ยงราคาที่ต่ำกว่าตลาด" },
+            "C": { "en": "Reverse Convertible", "local": "การแปลงสภาพกลับ" },
+            "D": { "en": "Barrier Reverse Convertible", "local": "การแปลงสภาพกลับโดยมีการป้องกันความเสี่ยง" },
+            "E": { "en": "Express Certificate", "local": "ตราสารที่มีการจ่ายผลตอบแทนแบบเร่งด่วน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "R": { "en": "Repayment in Cash", "local": "การชำระคืนเป็นเงินสด" },
+            "S": { "en": "Repayment in Assets", "local": "การชำระคืนเป็นสินทรัพย์" },
+            "C": { "en": "Repayment in Assets and Cash", "local": "การชำระคืนเป็นสินทรัพย์และเงินสด" },
+            "T": { "en": "Repayment in Assets or Cash", "local": "การชำระคืนเป็นสินทรัพย์หรือเงินสด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          }
+        },
+        "G": {
+          "en": "Mortgage-Backed Securities (MBS)",
+          "local": "ตราสารหนี้ที่มีสินเชื่อที่อยู่อาศัยเป็นหลักประกัน (MBS)",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "A": {
+          "en": "Asset-Backed Securities (ABS)",
+          "local": "หลักทรัพย์ที่มีสินทรัพย์ค้ำประกัน (ABS)",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "N": {
+          "en": "Municipal Bonds",
+          "local": "พันธบัตรเทศบาล",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "D": {
+          "en": "Depository Receipts on Debt Instruments",
+          "local": "ใบรับฝากหลักทรัพย์ต่างประเทศในตราสารหนี้",
+          "attribute1": {
+            "B": { "en": "Bonds", "local": "ตราสารหนี้" },
+            "C": { "en": "Convertible Bonds", "local": "ตราสารหนี้แปลงสภาพ" },
+            "W": { "en": "Bonds with Warrants Attached", "local": "ตราสารหนี้พร้อมใบสำคัญแสดงสิทธิ" },
+            "T": { "en": "Medium-Term Notes", "local": "ตราสารหนี้ระยะปานกลาง" },
+            "Y": { "en": "Money Market Instruments", "local": "ตราสารตลาดเงิน" },
+            "G": { "en": "Mortgage-Backed Securities", "local": "ตราสารหนี้ที่มีสินเชื่อที่อยู่อาศัยเป็นหลักประกัน" },
+            "Q": { "en": "Asset-Backed Securities", "local": "หลักทรัพย์ที่มีสินทรัพย์ค้ำประกัน" },
+            "N": { "en": "Municipal Bonds", "local": "พันธบัตรเทศบาล" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" },
+            "C": { "en": "Cash Payment", "local": "การชำระเงินสด" }
+          },
+          "attribute3": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute4": {
+            "F": { "en": "Fixed Maturity", "local": "วันครบกำหนดอายุคงที่" },
+            "G": { "en": "Fixed Maturity with Call Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการซื้อคืน" },
+            "C": { "en": "Fixed Maturity with Put Feature", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืน" },
+            "D": { "en": "Fixed Maturity with Put and Call", "local": "วันครบกำหนดอายุแน่นอนพร้อมสิทธิในการขายคืนและซื้อคืน" },
+            "A": { "en": "Amortization Plan", "local": "แผนการตัดจำหน่าย" },
+            "B": { "en": "Amortization Plan with Call Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิการซื้อคืน" },
+            "T": { "en": "Amortization Plan with Put Feature", "local": "แผนการตัดจำหน่ายพร้อมสิทธิขายคืน" },
+            "L": { "en": "Amortization Plan with Put and Call", "local": "แผนการตัดจำหน่ายพร้อมสิทธิซื้อคืนและขายคืน" },
+            "P": { "en": "Perpetual", "local": "ไม่มีกำหนดระยะเวลา" },
+            "Q": { "en": "Perpetual with Call Feature", "local": "ไม่มีกำหนดระยะเวลารพร้อมคุณสมบัติการซื้อคืน" },
+            "R": { "en": "Perpetual with Put Feature", "local": "ไม่มีกำหนดระยะเวลาพร้อมคุณสมบัติการขายคืน" },
+            "E": { "en": "Extendible", "local": "ขยายได้" }
+          }
+        },
+        "Y": {
+          "en": "Money Market Instruments",
+          "local": "ตราสารตลาดเงิน",
+          "attribute1": {
+            "F": { "en": "Fixed Rate", "local": "อัตราคงที่" },
+            "Z": { "en": "Zero Rate/Discounted", "local": "อัตราดอกเบี้ยเป็นศูนย์/มีส่วนลด" },
+            "V": { "en": "Variable", "local": "ผันแปร" },
+            "K": { "en": "Payment in Kind", "local": "การชำระเงินเป็นสิ่งของ" }
+          },
+          "attribute2": {
+            "T": { "en": "Government/State Guarantee", "local": "การรับประกันโดยรัฐบาล/รัฐ" },
+            "G": { "en": "Joint Guarantee", "local": "การค้ำประกันร่วม" },
+            "S": { "en": "Secured", "local": "มีหลักประกัน" },
+            "U": { "en": "Unsecured/Unguaranteed", "local": "ไม่มีหลักประกัน/ไม่รับประกัน" },
+            "P": { "en": "Negative Pledge", "local": "ไม่ก่อภาระเพิ่มเติม" },
+            "N": { "en": "Senior", "local": "ชั้นต้น" },
+            "O": { "en": "Senior Subordinated", "local": "ตราสารหนี้ไม่ด้อยสิทธิ" },
+            "Q": { "en": "Junior", "local": "ชั้นรอง" },
+            "J": { "en": "Junior Subordinated", "local": "ตราสารหนี้ด้อยสิทธิ" },
+            "C": { "en": "Supranational", "local": "ระดับนานาชาติ" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        },
+        "M": {
+          "en": "Others (Misc.)",
+          "local": "อื่นๆ (เบ็ดเตล็ด)",
+          "attribute1": {
+            "B": { "en": "Bank Loan", "local": "สินเชื่อธนาคาร" },
+            "P": { "en": "Promissory Note", "local": "ตั๋วสัญญาใช้เงิน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "B": { "en": "Bearer", "local": "ผู้ถือ" },
+            "R": { "en": "Registered", "local": "จดทะเบียนแล้ว" },
+            "N": { "en": "Bearer/Registered", "local": "ผู้ถือ/ลงทะเบียน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          }
+        }
+      }
+    },
+    "C": {
+      "en": "Collective Investment Vehicles",
+      "local": "กองทุนรวมเพื่อการลงทุนในกองทุนรวม",
+      "groups": {
+        "I": {
+          "en": "Standard (Vanilla) Investment Funds/Mutual Funds",
+          "local": "กองทุนรวม/กองทุนลงทุนใน Vanilla Option",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "ปลายเปิด" },
+            "C": { "en": "Closed-End", "local": "ปลายปิด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "กองทุนรวมเพื่อรายได้" },
+            "G": { "en": "Accumulation Funds", "local": "กองทุนสะสม" },
+            "J": { "en": "Mixed Funds", "local": "กองทุนรวม" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "อสังหาริมทรัพย์" },
+            "B": { "en": "Debt Instruments", "local": "ตราสารหนี้" },
+            "E": { "en": "Equities", "local": "หุ้น" },
+            "V": { "en": "Convertible Securities", "local": "หลักทรัพย์แปลงสภาพ" },
+            "L": { "en": "Mixed", "local": "ผสม" },
+            "C": { "en": "Commodities", "local": "สินค้าโภคภัณฑ์" },
+            "D": { "en": "Derivatives", "local": "อนุพันธ์" },
+            "F": { "en": "Referential Instruments", "local": "ตราสารอ้างอิง" },
+            "K": { "en": "Credits", "local": "เครดิต" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "Q": { "en": "Shares for QI", "local": "หุ้นสำหรับ QI" },
+            "U": { "en": "Units", "local": "หน่วย" },
+            "Y": { "en": "Units for QI", "local": "หน่วยสำหรับ QI" }
+          }
+        },
+        "H": {
+          "en": "Hedge Funds",
+          "local": "Hedge Fund",
+          "attribute1": {
+            "D": { "en": "Directional", "local": "ทิศทาง" },
+            "R": { "en": "Relative Value", "local": "ค่าสัมพัทธ์" },
+            "S": { "en": "Security Selection", "local": "การเลือกหลักทรัพย์" },
+            "E": { "en": "Event-Driven", "local": "ขับเคลื่อนด้วยเหตุการณ์" },
+            "A": { "en": "Arbitrage", "local": "การเก็งกำไร" },
+            "N": { "en": "Multi-Strategy", "local": "กลยุทธ์หลากหลาย" },
+            "L": { "en": "Asset-Based Lending", "local": "การให้สินเชื่อโดยใช้สินทรัพย์ค้ำประกัน" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          }
+        },
+        "B": {
+          "en": "Real Estate Investment Trusts (REITs)",
+          "local": "กองทุนรวมอสังหาริมทรัพย์ (REIT)",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "ปลายเปิด" },
+            "C": { "en": "Closed-End", "local": "ปลายปิด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "กองทุนรวมเพื่อรายได้" },
+            "G": { "en": "Accumulation Funds", "local": "กองทุนสะสม" },
+            "J": { "en": "Mixed Funds", "local": "กองทุนรวม" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "Q": { "en": "Shares for QI", "local": "หุ้นสำหรับ QI" },
+            "U": { "en": "Units", "local": "หน่วย" },
+            "Y": { "en": "Units for QI", "local": "หน่วยสำหรับ QI" }
+          }
+        },
+        "E": {
+          "en": "Exchange-Traded Funds (ETFs)",
+          "local": "กองทุนรวมอ้างอิงดัชนีที่ซื้อขายในตลาดหลักทรัพย์ (ETFs)",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "ปลายเปิด" },
+            "C": { "en": "Closed-End", "local": "ปลายปิด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "กองทุนรวมเพื่อรายได้" },
+            "G": { "en": "Accumulation Funds", "local": "กองทุนสะสม" },
+            "J": { "en": "Mixed Funds", "local": "กองทุนรวม" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "อสังหาริมทรัพย์" },
+            "B": { "en": "Debt Instruments", "local": "ตราสารหนี้" },
+            "E": { "en": "Equities", "local": "หุ้น" },
+            "V": { "en": "Convertible Securities", "local": "หลักทรัพย์แปลงสภาพ" },
+            "L": { "en": "Mixed", "local": "ผสม" },
+            "C": { "en": "Commodities", "local": "สินค้าโภคภัณฑ์" },
+            "D": { "en": "Derivatives", "local": "อนุพันธ์" },
+            "F": { "en": "Referential Instruments", "local": "ตราสารอ้างอิง" },
+            "K": { "en": "Credits", "local": "เครดิต" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "U": { "en": "Units", "local": "หน่วย" }
+          }
+        },
+        "S": {
+          "en": "Pension Funds",
+          "local": "กองทุนบำเหน็จบำนาญ",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "ปลายเปิด" },
+            "C": { "en": "Closed-End", "local": "ปลายปิด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "B": { "en": "Balanced/Conservative", "local": "สมดุล/อนุรักษ์นิยม" },
+            "G": { "en": "Growth", "local": "การเติบโต" },
+            "L": { "en": "Life Style", "local": "วิถีชีวิต" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute3": {
+            "R": { "en": "Defined Benefit", "local": "ผลประโยชน์ที่กำหนดไว้" },
+            "B": { "en": "Defined Contribution", "local": "เงินสมทบที่กำหนดไว้" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "U": { "en": "Units", "local": "หน่วย" }
+          }
+        },
+        "F": {
+          "en": "Funds of Funds",
+          "local": "กองทุนรวมหน่วยลงทุน",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "ปลายเปิด" },
+            "C": { "en": "Closed-End", "local": "ปลายปิด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "กองทุนรวมเพื่อรายได้" },
+            "G": { "en": "Accumulation Funds", "local": "กองทุนสะสม" },
+            "J": { "en": "Mixed Funds", "local": "กองทุนรวม" }
+          },
+          "attribute3": {
+            "I": { "en": "Standard (Vanilla) Investment Funds/Mutual Funds", "local": "กองทุนรวม/กองทุนลงทุนใน Vanilla Option" },
+            "H": { "en": "Hedge Funds", "local": "Hedge Fund" },
+            "B": { "en": "REITs", "local": "กองทุนอสังหาริมทรัพย์ (REITs)" },
+            "E": { "en": "ETFs", "local": "กองทุน ETF" },
+            "P": { "en": "Private Equity Funds", "local": "Private Equity Fund" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "Q": { "en": "Shares for QI", "local": "หุ้นสำหรับ QI" },
+            "U": { "en": "Units", "local": "หน่วย" },
+            "Y": { "en": "Units for QI", "local": "หน่วยสำหรับ QI" }
+          }
+        },
+        "P": {
+          "en": "Private Equity Funds",
+          "local": "Private Equity Fund",
+          "attribute1": {
+            "O": { "en": "Open-End", "local": "ปลายเปิด" },
+            "C": { "en": "Closed-End", "local": "ปลายปิด" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute2": {
+            "I": { "en": "Income Funds", "local": "กองทุนรวมเพื่อรายได้" },
+            "G": { "en": "Accumulation Funds", "local": "กองทุนสะสม" },
+            "J": { "en": "Mixed Funds", "local": "กองทุนรวม" }
+          },
+          "attribute3": {
+            "R": { "en": "Real Estate", "local": "อสังหาริมทรัพย์" },
+            "B": { "en": "Debt Instruments", "local": "ตราสารหนี้" },
+            "E": { "en": "Equities", "local": "หุ้น" },
+            "V": { "en": "Convertible Securities", "local": "หลักทรัพย์แปลงสภาพ" },
+            "L": { "en": "Mixed", "local": "ผสม" },
+            "C": { "en": "Commodities", "local": "สินค้าโภคภัณฑ์" },
+            "D": { "en": "Derivatives", "local": "อนุพันธ์" },
+            "F": { "en": "Referential Instruments", "local": "ตราสารอ้างอิง" },
+            "K": { "en": "Credits", "local": "เครดิต" },
+            "M": { "en": "Others (Misc.)", "local": "อื่นๆ (เบ็ดเตล็ด)" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "Q": { "en": "Shares for QI", "local": "หุ้นสำหรับ QI" },
+            "U": { "en": "Units", "local": "หน่วย" },
+            "Y": { "en": "Units for QI", "local": "หน่วยสำหรับ QI" }
+          }
+        },
+        "M": {
+          "en": "Others (Misc.)",
+          "local": "อื่นๆ (เบ็ดเตล็ด)",
+          "attribute1": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute2": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute3": {
+            "X": { "en": "Not Applicable/Undefined", "local": "ไม่เกี่ยวข้อง/ไม่ระบุ" }
+          },
+          "attribute4": {
+            "S": { "en": "Shares", "local": "หุ้น" },
+            "Q": { "en": "Shares for QI", "local": "หุ้นสำหรับ QI" },
+            "U": { "en": "Units", "local": "หน่วย" },
+            "Y": { "en": "Units for QI", "local": "หน่วยสำหรับ QI" }
+          }
+        }
+      }
+    }
+  }
+}
