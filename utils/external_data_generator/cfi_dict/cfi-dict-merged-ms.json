@@ -5,823 +5,823 @@
       "local": "Ekuiti",
       "groups": {
         "S": {
-          "en": "Shares (Common/Ordinary)",
-          "local": "Saham (Biasa)",
+          "en": "Shares (common/ordinary)",
+          "local": "Saham (biasa)",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "T": { "en": "Restrictions", "local": "Sekatan" },
             "U": { "en": "Free", "local": "Percuma" }
           },
           "attribute3": {
-            "F": { "en": "Fully Paid", "local": "Dibayar sepenuhnya" },
-            "O": { "en": "Nil Paid", "local": "Pembayaran Sifar" },
-            "P": { "en": "Partly Paid", "local": "Separuh Bayaran" }
+            "F": { "en": "Fully paid", "local": "Dibayar sepenuhnya" },
+            "O": { "en": "Nil paid", "local": "Pembayaran sifar" },
+            "P": { "en": "Partly paid", "local": "Separuh bayaran" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "P": {
-          "en": "Preferred Shares",
-          "local": "Saham Keutamaan",
+          "en": "Preferred shares",
+          "local": "Saham keutamaan",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "Boleh ditebus" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" },
-            "T": { "en": "Redeemable/Extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
+            "T": { "en": "Redeemable/extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
             "G": { "en": "Exchangeable", "local": "Boleh ditukar" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "Boleh ditebus/Boleh ditukar/Boleh dilanjutkan" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "Boleh ditebus/Boleh ditukar" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Boleh ditebus/boleh ditukar/boleh dilanjutkan" },
+            "C": { "en": "Redeemable/exchangeable", "local": "Boleh ditebus/boleh ditukar" },
             "N": { "en": "Perpetual", "local": "Perpetual" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "Kumulatif, Kadar Tetap" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "C": { "en": "Cumulative, fixed rate", "local": "Kumulatif, kadar tetap" },
             "P": { "en": "Participating", "local": "Penyertaan" },
-            "Q": { "en": "Cumulative, Participating", "local": "Kumulatif, Mengambil Bahagian" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "Kadar boleh dilaraskan/Pemboleh ubah" },
-            "N": { "en": "Normal Rate", "local": "Kadar Normal" },
-            "U": { "en": "Auction Rate", "local": "Kadar Lelongan" },
+            "Q": { "en": "Cumulative, participating", "local": "Kumulatif, mengambil bahagian" },
+            "A": { "en": "Adjustable/variable rate", "local": "Kadar boleh dilaraskan/pemboleh ubah" },
+            "N": { "en": "Normal rate", "local": "Kadar normal" },
+            "U": { "en": "Auction rate", "local": "Kadar lelongan" },
             "D": { "en": "Dividends", "local": "Dividen" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "C": {
-          "en": "Convertible Shares",
-          "local": "Saham Boleh Tukar",
+          "en": "Convertible shares",
+          "local": "Saham boleh tukar",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "T": { "en": "Restrictions", "local": "Sekatan" },
             "U": { "en": "Free", "local": "Percuma" }
           },
           "attribute3": {
-            "F": { "en": "Fully Paid", "local": "Dibayar sepenuhnya" },
-            "O": { "en": "Nil Paid", "local": "Pembayaran Sifar" },
-            "P": { "en": "Partly Paid", "local": "Separuh Bayaran" }
+            "F": { "en": "Fully paid", "local": "Dibayar sepenuhnya" },
+            "O": { "en": "Nil paid", "local": "Pembayaran sifar" },
+            "P": { "en": "Partly paid", "local": "Separuh bayaran" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "F": {
-          "en": "Preferred Convertible Shares",
-          "local": "Saham Boleh Tukar Keutamaan",
+          "en": "Preferred convertible shares",
+          "local": "Saham boleh tukar keutamaan",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "Boleh ditebus" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" },
-            "T": { "en": "Redeemable/Extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
+            "T": { "en": "Redeemable/extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
             "G": { "en": "Exchangeable", "local": "Boleh ditukar" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "Boleh ditebus/Boleh ditukar/Boleh dilanjutkan" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "Boleh ditebus/Boleh ditukar" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Boleh ditebus/boleh ditukar/boleh dilanjutkan" },
+            "C": { "en": "Redeemable/exchangeable", "local": "Boleh ditebus/boleh ditukar" },
             "N": { "en": "Perpetual", "local": "Perpetual" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "Kumulatif, Kadar Tetap" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "C": { "en": "Cumulative, fixed rate", "local": "Kumulatif, kadar tetap" },
             "P": { "en": "Participating", "local": "Penyertaan" },
-            "Q": { "en": "Cumulative, Participating", "local": "Kumulatif, Mengambil Bahagian" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "Kadar boleh dilaraskan/Pemboleh ubah" },
-            "N": { "en": "Normal Rate", "local": "Kadar Normal" },
-            "U": { "en": "Auction Rate", "local": "Kadar Lelongan" },
+            "Q": { "en": "Cumulative, participating", "local": "Kumulatif, mengambil bahagian" },
+            "A": { "en": "Adjustable/variable rate", "local": "Kadar boleh dilaraskan/pemboleh ubah" },
+            "N": { "en": "Normal rate", "local": "Kadar normal" },
+            "U": { "en": "Auction rate", "local": "Kadar lelongan" },
             "D": { "en": "Dividends", "local": "Dividen" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "L": {
-          "en": "Limited Partnership Units",
-          "local": "Unit Perkongsian Terhad",
+          "en": "Limited partnership units",
+          "local": "Unit perkongsian terhad",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "T": { "en": "Restrictions", "local": "Sekatan" },
             "U": { "en": "Free", "local": "Percuma" }
           },
           "attribute3": {
-            "F": { "en": "Fully Paid", "local": "Dibayar sepenuhnya" },
-            "O": { "en": "Nil Paid", "local": "Pembayaran Sifar" },
-            "P": { "en": "Partly Paid", "local": "Separuh Bayaran" }
+            "F": { "en": "Fully paid", "local": "Dibayar sepenuhnya" },
+            "O": { "en": "Nil paid", "local": "Pembayaran sifar" },
+            "P": { "en": "Partly paid", "local": "Separuh bayaran" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "D": {
-          "en": "Depository Receipts on Equities",
-          "local": "Resit Depositori pada Ekuiti",
+          "en": "Depository receipts on equities",
+          "local": "Resit depositori pada ekuiti",
           "attribute1": {
-            "S": { "en": "Common/Ordinary Shares", "local": "Saham Biasa" },
-            "P": { "en": "Preferred/Preference Shares", "local": "Saham keutamaan" },
-            "C": { "en": "Common/Ordinary Convertible Shares", "local": "Saham Boleh Tukar Biasa" },
-            "F": { "en": "Preferred/Preference Convertible Shares", "local": "Saham Boleh Tukar Keutamaan" },
-            "L": { "en": "Limited Partnership Units", "local": "Unit Perkongsian Terhad" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "S": { "en": "Common/ordinary shares", "local": "Saham biasa" },
+            "P": { "en": "Preferred/preference shares", "local": "Saham keutamaan" },
+            "C": { "en": "Common/ordinary convertible shares", "local": "Saham boleh tukar biasa" },
+            "F": { "en": "Preferred/preference convertible shares", "local": "Saham boleh tukar keutamaan" },
+            "L": { "en": "Limited partnership units", "local": "Unit perkongsian terhad" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "Boleh ditebus" },
             "N": { "en": "Perpetual", "local": "Perpetual" },
             "B": { "en": "Convertible", "local": "Boleh tukar" },
-            "D": { "en": "Convertible/Redeemable", "local": "Boleh ditukar/Boleh ditebus" },
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "D": { "en": "Convertible/redeemable", "local": "Boleh ditukar/boleh ditebus" },
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "Kumulatif, Kadar Tetap" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "C": { "en": "Cumulative, fixed rate", "local": "Kumulatif, kadar tetap" },
             "P": { "en": "Participating", "local": "Penyertaan" },
-            "Q": { "en": "Cumulative, Participating", "local": "Kumulatif, Mengambil Bahagian" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "Kadar boleh dilaraskan/Pemboleh ubah" },
-            "N": { "en": "Normal Rate", "local": "Kadar Normal" },
-            "U": { "en": "Auction Rate", "local": "Kadar Lelongan" },
+            "Q": { "en": "Cumulative, participating", "local": "Kumulatif, mengambil bahagian" },
+            "A": { "en": "Adjustable/variable rate", "local": "Kadar boleh dilaraskan/pemboleh ubah" },
+            "N": { "en": "Normal rate", "local": "Kadar normal" },
+            "U": { "en": "Auction rate", "local": "Kadar lelongan" },
             "D": { "en": "Dividends", "local": "Dividen" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "Y": {
-          "en": "Structured Instruments (Participation)",
-          "local": "Instrumen Berstruktur (Penyertaan)",
+          "en": "Structured instruments (participation)",
+          "local": "Instrumen berstruktur (penyertaan)",
           "attribute1": {
-            "A": { "en": "Tracker Certificate", "local": "Sijil Penjejak" },
-            "B": { "en": "Outperforming Certificate", "local": "Sijil Berprestasi" },
-            "C": { "en": "Bonus Certificate", "local": "Sijil Bonus" },
-            "D": { "en": "Outperformance Bonus Certificate", "local": "Sijil Bonus Berprestasi" },
-            "E": { "en": "Twin-Win Certificate", "local": "Sijil Menang Berkembar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "A": { "en": "Tracker certificate", "local": "Sijil penjejak" },
+            "B": { "en": "Outperforming certificate", "local": "Sijil berprestasi" },
+            "C": { "en": "Bonus certificate", "local": "Sijil bonus" },
+            "D": { "en": "Outperformance bonus certificate", "local": "Sijil bonus berprestasi" },
+            "E": { "en": "Twin-win certificate", "local": "Sijil menang berkembar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "D": { "en": "Dividend Payments", "local": "Pembayaran Dividen" },
-            "Y": { "en": "No Payments", "local": "Tiada Pembayaran" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "D": { "en": "Dividend payments", "local": "Pembayaran dividen" },
+            "Y": { "en": "No payments", "local": "Tiada pembayaran" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute3": {
-            "F": { "en": "Cash Repayment", "local": "Pembayaran semula tunai" },
-            "V": { "en": "Physical Repayment", "local": "Pembayaran semula fizikal" },
-            "E": { "en": "Elect at Settlement", "local": "Pilih di Penyelesaian" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "F": { "en": "Cash repayment", "local": "Pembayaran semula tunai" },
+            "V": { "en": "Physical repayment", "local": "Pembayaran semula fizikal" },
+            "E": { "en": "Elect at settlement", "local": "Pilih di penyelesaian" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "B": { "en": "Baskets", "local": "Bakul" },
             "S": { "en": "Equities", "local": "Ekuiti" },
-            "D": { "en": "Debt Instruments", "local": "Instrumen Hutang" },
+            "D": { "en": "Debt instruments", "local": "Instrumen hutang" },
             "G": { "en": "Derivatives", "local": "Derivatif" },
             "T": { "en": "Commodities", "local": "Komoditi" },
             "C": { "en": "Currencies", "local": "Mata wang" },
             "I": { "en": "Indices", "local": "Indeks" },
-            "N": { "en": "Interest Rates", "local": "Kadar Faedah" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Interest rates", "local": "Kadar faedah" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "R": {
-          "en": "Preference Shares",
-          "local": "Saham Keutamaan",
+          "en": "Preference shares",
+          "local": "Saham keutamaan",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "Boleh ditebus" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" },
-            "T": { "en": "Redeemable/Extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
+            "T": { "en": "Redeemable/extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
             "G": { "en": "Exchangeable", "local": "Boleh ditukar" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "Boleh ditebus/Boleh ditukar/Boleh dilanjutkan" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "Boleh ditebus/Boleh ditukar" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Boleh ditebus/boleh ditukar/boleh dilanjutkan" },
+            "C": { "en": "Redeemable/exchangeable", "local": "Boleh ditebus/boleh ditukar" },
             "N": { "en": "Perpetual", "local": "Perpetual" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "Kumulatif, Kadar Tetap" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "C": { "en": "Cumulative, fixed rate", "local": "Kumulatif, kadar tetap" },
             "P": { "en": "Participating", "local": "Penyertaan" },
-            "Q": { "en": "Cumulative, Participating", "local": "Kumulatif, Mengambil Bahagian" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "Kadar boleh dilaraskan/Pemboleh ubah" },
-            "N": { "en": "Normal Rate", "local": "Kadar Normal" },
-            "U": { "en": "Auction Rate", "local": "Kadar Lelongan" },
+            "Q": { "en": "Cumulative, participating", "local": "Kumulatif, mengambil bahagian" },
+            "A": { "en": "Adjustable/variable rate", "local": "Kadar boleh dilaraskan/pemboleh ubah" },
+            "N": { "en": "Normal rate", "local": "Kadar normal" },
+            "U": { "en": "Auction rate", "local": "Kadar lelongan" },
             "D": { "en": "Dividends", "local": "Dividen" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "V": {
-          "en": "Preference Convertible Shares",
-          "local": "Saham Boleh Tukar Keutamaan",
+          "en": "Preference convertible shares",
+          "local": "Saham boleh tukar keutamaan",
           "attribute1": {
             "V": { "en": "Voting", "local": "Mengundi" },
-            "N": { "en": "Non-Voting", "local": "Tanpa Pengundian" },
+            "N": { "en": "Non-voting", "local": "Tanpa pengundian" },
             "R": { "en": "Restricted", "local": "Terbatas" },
-            "E": { "en": "Enhanced Voting", "local": "Pengundian dipertingkatkan" }
+            "E": { "en": "Enhanced voting", "local": "Pengundian dipertingkatkan" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "Boleh ditebus" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" },
-            "T": { "en": "Redeemable/Extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
+            "T": { "en": "Redeemable/extendible", "local": "Boleh ditebus/boleh dilanjutkan" },
             "G": { "en": "Exchangeable", "local": "Boleh ditukar" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "Boleh ditebus/Boleh ditukar/Boleh dilanjutkan" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "Boleh ditebus/Boleh ditukar" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Boleh ditebus/boleh ditukar/boleh dilanjutkan" },
+            "C": { "en": "Redeemable/exchangeable", "local": "Boleh ditebus/boleh ditukar" },
             "N": { "en": "Perpetual", "local": "Perpetual" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "Kumulatif, Kadar Tetap" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "C": { "en": "Cumulative, fixed rate", "local": "Kumulatif, kadar tetap" },
             "P": { "en": "Participating", "local": "Penyertaan" },
-            "Q": { "en": "Cumulative, Participating", "local": "Kumulatif, Mengambil Bahagian" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "Kadar boleh dilaraskan/Pemboleh ubah" },
-            "N": { "en": "Normal Rate", "local": "Kadar Normal" },
-            "U": { "en": "Auction Rate", "local": "Kadar Lelongan" },
+            "Q": { "en": "Cumulative, participating", "local": "Kumulatif, mengambil bahagian" },
+            "A": { "en": "Adjustable/variable rate", "local": "Kadar boleh dilaraskan/pemboleh ubah" },
+            "N": { "en": "Normal rate", "local": "Kadar normal" },
+            "U": { "en": "Auction rate", "local": "Kadar lelongan" },
             "D": { "en": "Dividends", "local": "Dividen" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "U": {
-          "en": "Units (Unit Trusts, Mutual Funds, OPCVM/OICVM)",
-          "local": "Unit (Unit Amanah, Dana Bersama, OPCVM/OICVM)",
+          "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
+          "local": "Unit (unit amanah, dana bersama, OPCVM/OICVM)",
           "attribute1": {
             "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
             "O": { "en": "Open-end", "local": "Pengakhiran terbuka" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "Dana Pendapatan" },
-            "G": { "en": "Growth Funds", "local": "Dana Pertumbuhan" },
-            "M": { "en": "Mixed Funds", "local": "Dana bercampur" }
+            "I": { "en": "Income funds", "local": "Dana pendapatan" },
+            "G": { "en": "Growth funds", "local": "Dana pertumbuhan" },
+            "M": { "en": "Mixed funds", "local": "Dana bercampur" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "Hartanah" },
+            "R": { "en": "Real estate", "local": "Hartanah" },
             "S": { "en": "Securities", "local": "Sekuriti" },
-            "M": { "en": "Mixed-General", "local": "Campuran Umum" },
+            "M": { "en": "Mixed-general", "local": "Campuran umum" },
             "C": { "en": "Commodities", "local": "Komoditi" },
             "D": { "en": "Derivatives", "local": "Derivatif" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "Z": { "en": "Bearer Depository Receipt", "local": "Resit Depositori Pembawa" },
-            "A": { "en": "Registered Depository Receipt", "local": "Resit Depositori Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "Z": { "en": "Bearer depository receipt", "local": "Resit depositori pembawa" },
+            "A": { "en": "Registered depository receipt", "local": "Resit depositori berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "M": {
-          "en": "Others (Misc.)",
+          "en": "Others (misc.)",
           "local": "Lain-lain",
           "attribute1": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         }
       }
     },
     "D": {
-      "en": "Debt Instruments",
-      "local": "Instrumen Hutang",
+      "en": "Debt instruments",
+      "local": "Instrumen hutang",
       "groups": {
         "B": {
           "en": "Bonds",
           "local": "Bon",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" },
-            "C": { "en": "Cash Payment", "local": "Pembayaran Tunai" },
-            "K": { "en": "Payment in Kind", "local": "Bayaran Bukan Wang" }
+            "C": { "en": "Cash payment", "local": "Pembayaran tunai" },
+            "K": { "en": "Payment in kind", "local": "Bayaran bukan wang" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "C": {
-          "en": "Convertible Bonds",
-          "local": "Bon Boleh Tukar",
+          "en": "Convertible bonds",
+          "local": "Bon boleh tukar",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" },
-            "C": { "en": "Cash Payment", "local": "Pembayaran Tunai" },
-            "K": { "en": "Payment in Kind", "local": "Bayaran Bukan Wang" }
+            "C": { "en": "Cash payment", "local": "Pembayaran tunai" },
+            "K": { "en": "Payment in kind", "local": "Bayaran bukan wang" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "W": {
-          "en": "Bonds with Warrants Attached",
-          "local": "Bon dengan Waran Dilampirkan",
+          "en": "Bonds with warrants attached",
+          "local": "Bon dengan waran dilampirkan",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" },
-            "C": { "en": "Cash Payment", "local": "Pembayaran Tunai" },
-            "K": { "en": "Payment in Kind", "local": "Bayaran Bukan Wang" }
+            "C": { "en": "Cash payment", "local": "Pembayaran tunai" },
+            "K": { "en": "Payment in kind", "local": "Bayaran bukan wang" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "T": {
-          "en": "Medium-Term Notes",
-          "local": "Nota Jangka Sederhana",
+          "en": "Medium-term notes",
+          "local": "Nota jangka sederhana",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" },
-            "C": { "en": "Cash Payment", "local": "Pembayaran Tunai" },
-            "K": { "en": "Payment in Kind", "local": "Bayaran Bukan Wang" }
+            "C": { "en": "Cash payment", "local": "Pembayaran tunai" },
+            "K": { "en": "Payment in kind", "local": "Bayaran bukan wang" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "S": {
-          "en": "Structured Products (Capital Protection)",
-          "local": "Produk Berstruktur (Perlindungan Modal)",
+          "en": "Structured products (capital protection)",
+          "local": "Produk berstruktur (perlindungan modal)",
           "attribute1": {
-            "A": { "en": "Capital Protection Certificate with Participation", "local": "Sijil Perlindungan Modal dengan Penyertaan" },
-            "B": { "en": "Capital Protection Convertible Certificate", "local": "Sijil Boleh Tukar Perlindungan Modal" },
-            "C": { "en": "Barrier Capital Protection Certificate", "local": "Sijil Perlindungan Modal Halangan" },
-            "D": { "en": "Capital Protection Certificate with Coupons", "local": "Sijil Perlindungan Modal dengan Kupon" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "A": { "en": "Capital protection certificate with participation", "local": "Sijil perlindungan modal dengan penyertaan" },
+            "B": { "en": "Capital protection convertible certificate", "local": "Sijil boleh tukar perlindungan modal" },
+            "C": { "en": "Barrier capital protection certificate", "local": "Sijil perlindungan modal halangan" },
+            "D": { "en": "Capital protection certificate with coupons", "local": "Sijil perlindungan modal dengan kupon" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "F": { "en": "Fixed Interest Payments", "local": "Pembayaran Faedah Tetap" },
-            "D": { "en": "Dividend Payments", "local": "Pembayaran Dividen" },
-            "V": { "en": "Variable Interest Payments", "local": "Pembayaran Faedah Berubah" },
-            "Y": { "en": "No Payments", "local": "Tiada Pembayaran" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "F": { "en": "Fixed interest payments", "local": "Pembayaran faedah tetap" },
+            "D": { "en": "Dividend payments", "local": "Pembayaran dividen" },
+            "V": { "en": "Variable interest payments", "local": "Pembayaran faedah berubah" },
+            "Y": { "en": "No payments", "local": "Tiada pembayaran" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Cash Repayment (Only Protected Capital Level)", "local": "Pembayaran Semula Tunai Tetap (Tahap Modal Dilindungi Sahaja)" },
-            "V": { "en": "Variable Cash Repayment", "local": "Pembayaran Semula Tunai Berubah" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "Pembayaran semula tunai tetap (tahap modal dilindungi sahaja)" },
+            "V": { "en": "Variable cash repayment", "local": "Pembayaran semula tunai berubah" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "B": { "en": "Baskets", "local": "Bakul" },
             "S": { "en": "Equities", "local": "Ekuiti" },
-            "D": { "en": "Debt Instruments/Interest Rates", "local": "Instrumen Hutang/Kadar Faedah" },
+            "D": { "en": "Debt instruments/interest rates", "local": "Instrumen hutang/kadar faedah" },
             "T": { "en": "Commodities", "local": "Komoditi" },
             "C": { "en": "Currencies", "local": "Mata wang" },
             "I": { "en": "Indices", "local": "Indeks" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "E": {
-          "en": "Structured Products (Without Capital Protection)",
-          "local": "Produk Berstruktur (Tanpa Perlindungan Modal)",
+          "en": "Structured products (without capital protection)",
+          "local": "Produk berstruktur (tanpa perlindungan modal)",
           "attribute1": {
-            "A": { "en": "Discount Certificate", "local": "Sijil Diskaun" },
-            "B": { "en": "Barrier Discount Certificate", "local": "Sijil Diskaun Halangan" },
-            "C": { "en": "Reverse Convertible", "local": "Boleh Tukar Songsang" },
-            "D": { "en": "Barrier Reverse Convertible", "local": "Boleh Tukar Songsang Halangan" },
-            "E": { "en": "Express Certificate", "local": "Sijil Ekspress" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "A": { "en": "Discount certificate", "local": "Sijil diskaun" },
+            "B": { "en": "Barrier discount certificate", "local": "Sijil diskaun halangan" },
+            "C": { "en": "Reverse convertible", "local": "Boleh tukar songsang" },
+            "D": { "en": "Barrier reverse convertible", "local": "Boleh tukar songsang halangan" },
+            "E": { "en": "Express certificate", "local": "Sijil ekspress" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "R": { "en": "Repayment in Cash", "local": "Pembayaran Semula dalam Tunai" },
-            "S": { "en": "Repayment in Assets", "local": "Pembayaran Semula dalam Aset" },
-            "C": { "en": "Repayment in Assets and Cash", "local": "Pembayaran Semula dalam Aset dan Tunai" },
-            "T": { "en": "Repayment in Assets or Cash", "local": "Pembayaran Semula dalam Aset atau Tunai" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "R": { "en": "Repayment in cash", "local": "Pembayaran semula dalam tunai" },
+            "S": { "en": "Repayment in assets", "local": "Pembayaran semula dalam aset" },
+            "C": { "en": "Repayment in assets and cash", "local": "Pembayaran semula dalam aset dan tunai" },
+            "T": { "en": "Repayment in assets or cash", "local": "Pembayaran semula dalam aset atau tunai" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           }
         },
         "G": {
-          "en": "Mortgage-Backed Securities (MBS)",
-          "local": "Mortgage-Backed Securities (MBS)",
+          "en": "Mortgage-backed securities (MBS)",
+          "local": "Mortgage-backed securities (MBS)",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "A": {
-          "en": "Asset-Backed Securities (ABS)",
-          "local": "Asset-Backed Securities (ABS)",
+          "en": "Asset-backed securities (ABS)",
+          "local": "Asset-backed securities (ABS)",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "N": {
-          "en": "Municipal Bonds",
-          "local": "Bon Perbandaran",
+          "en": "Municipal bonds",
+          "local": "Bon perbandaran",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "D": {
-          "en": "Depository Receipts on Debt Instruments",
-          "local": "Resit Depositori pada Instrumen Hutang",
+          "en": "Depository receipts on debt instruments",
+          "local": "Resit depositori pada instrumen hutang",
           "attribute1": {
             "B": { "en": "Bonds", "local": "Bon" },
-            "C": { "en": "Convertible Bonds", "local": "Bon Boleh Tukar" },
-            "W": { "en": "Bonds with Warrants Attached", "local": "Bon dengan Waran Dilampirkan" },
-            "T": { "en": "Medium-Term Notes", "local": "Nota Jangka Sederhana" },
-            "Y": { "en": "Money Market Instruments", "local": "Instrumen Pasaran Wang" },
-            "G": { "en": "Mortgage-Backed Securities", "local": "Sekuriti Bersandarkan Gadai Janji" },
-            "Q": { "en": "Asset-Backed Securities", "local": "Sekuriti Bersandarkan Aset" },
-            "N": { "en": "Municipal Bonds", "local": "Bon Perbandaran" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "C": { "en": "Convertible bonds", "local": "Bon boleh tukar" },
+            "W": { "en": "Bonds with warrants attached", "local": "Bon dengan waran dilampirkan" },
+            "T": { "en": "Medium-term notes", "local": "Nota jangka sederhana" },
+            "Y": { "en": "Money market instruments", "local": "Instrumen pasaran wang" },
+            "G": { "en": "Mortgage-backed securities", "local": "Sekuriti bersandarkan gadai janji" },
+            "Q": { "en": "Asset-backed securities", "local": "Sekuriti bersandarkan aset" },
+            "N": { "en": "Municipal bonds", "local": "Bon perbandaran" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" },
-            "C": { "en": "Cash Payment", "local": "Pembayaran Tunai" }
+            "C": { "en": "Cash payment", "local": "Pembayaran tunai" }
           },
           "attribute3": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute4": {
-            "F": { "en": "Fixed Maturity", "local": "Kematangan Tetap" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "Kematangan Tetap dengan Ciri Beli (Call)" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "Kematangan Tetap dengan Ciri Jual (Put)" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "Kematangan Tetap dengan Jual dan Beli (Put dan Call)" },
-            "A": { "en": "Amortization Plan", "local": "Pelan Pelunasan" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "Pelan Pelunasan dengan Ciri Beli (Call)" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "Pelan Pelunasan dengan Ciri Jual (Put)" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "Pelan Pelunasan dengan Jual dan Beli (Put dan Call)" },
+            "F": { "en": "Fixed maturity", "local": "Kematangan tetap" },
+            "G": { "en": "Fixed maturity with call feature", "local": "Kematangan tetap dengan ciri beli (call)" },
+            "C": { "en": "Fixed maturity with put feature", "local": "Kematangan tetap dengan ciri jual (put)" },
+            "D": { "en": "Fixed maturity with put and call", "local": "Kematangan tetap dengan jual dan beli (put dan call)" },
+            "A": { "en": "Amortization plan", "local": "Pelan pelunasan" },
+            "B": { "en": "Amortization plan with call feature", "local": "Pelan pelunasan dengan ciri beli (call)" },
+            "T": { "en": "Amortization plan with put feature", "local": "Pelan pelunasan dengan ciri jual (put)" },
+            "L": { "en": "Amortization plan with put and call", "local": "Pelan pelunasan dengan jual dan beli (put dan call)" },
             "P": { "en": "Perpetual", "local": "Perpetual" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "Perpetual dengan Ciri Beli (Call)" },
-            "R": { "en": "Perpetual with Put Feature", "local": "Perpetual dengan Ciri Jual (Put)" },
+            "Q": { "en": "Perpetual with call feature", "local": "Perpetual dengan ciri beli (call)" },
+            "R": { "en": "Perpetual with put feature", "local": "Perpetual dengan ciri jual (put)" },
             "E": { "en": "Extendible", "local": "Boleh dilanjutkan" }
           }
         },
         "Y": {
-          "en": "Money Market Instruments",
-          "local": "Instrumen Pasaran Wang",
+          "en": "Money market instruments",
+          "local": "Instrumen pasaran wang",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "Kadar Tetap" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "Kadar Sifar/Diskaun" },
+            "F": { "en": "Fixed rate", "local": "Kadar tetap" },
+            "Z": { "en": "Zero rate/discounted", "local": "Kadar sifar/diskaun" },
             "V": { "en": "Variable", "local": "Pemboleh ubah" },
-            "K": { "en": "Payment in Kind", "local": "Bayaran Bukan Wang" }
+            "K": { "en": "Payment in kind", "local": "Bayaran bukan wang" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "Jaminan Kerajaan/Negeri" },
-            "G": { "en": "Joint Guarantee", "local": "Jaminan Bersama" },
+            "T": { "en": "Government/state guarantee", "local": "Jaminan kerajaan/negeri" },
+            "G": { "en": "Joint guarantee", "local": "Jaminan bersama" },
             "S": { "en": "Secured", "local": "Terjamin" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "Tidak terjamin" },
-            "P": { "en": "Negative Pledge", "local": "Ikrar Negatif" },
-            "N": { "en": "Senior", "local": "Kedudukan Kanan" },
-            "O": { "en": "Senior Subordinated", "local": "Subordinat Kanan" },
-            "Q": { "en": "Junior", "local": "Kedudukan Bawah" },
-            "J": { "en": "Junior Subordinated", "local": "Subordinat Muda" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "Tidak terjamin" },
+            "P": { "en": "Negative pledge", "local": "Ikrar negatif" },
+            "N": { "en": "Senior", "local": "Kedudukan kanan" },
+            "O": { "en": "Senior subordinated", "local": "Subordinat kanan" },
+            "Q": { "en": "Junior", "local": "Kedudukan bawah" },
+            "J": { "en": "Junior subordinated", "local": "Subordinat muda" },
             "C": { "en": "Supranational", "local": "Supranational" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         },
         "M": {
-          "en": "Others (Misc.)",
+          "en": "Others (misc.)",
           "local": "Lain-lain",
           "attribute1": {
-            "B": { "en": "Bank Loan", "local": "Pinjaman Bank" },
-            "P": { "en": "Promissory Note", "local": "Nota Janji Hutang" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "B": { "en": "Bank loan", "local": "Pinjaman bank" },
+            "P": { "en": "Promissory note", "local": "Nota janji hutang" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "Pembawa" },
             "R": { "en": "Registered", "local": "Didaftarkan" },
-            "N": { "en": "Bearer/Registered", "local": "Pembawa/Berdaftar" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Bearer/registered", "local": "Pembawa/berdaftar" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           }
         }
       }
     },
     "C": {
-      "en": "Collective Investment Vehicles",
-      "local": "Kenderaan Pelaburan Kolektif",
+      "en": "Collective investment vehicles",
+      "local": "Kenderaan pelaburan kolektif",
       "groups": {
         "I": {
-          "en": "Standard (Vanilla) Investment Funds/Mutual Funds",
-          "local": "Dana Pelaburan (Vanilla) Standard/Dana Bersama",
+          "en": "Standard (vanilla) investment funds/mutual funds",
+          "local": "Dana pelaburan (vanilla) standard/dana bersama",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "Pengakhiran terbuka" },
-            "C": { "en": "Closed-End", "local": "Pengakhiran tertutup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "O": { "en": "Open-end", "local": "Pengakhiran terbuka" },
+            "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "Dana Pendapatan" },
-            "G": { "en": "Accumulation Funds", "local": "Dana Pengumpulan" },
-            "J": { "en": "Mixed Funds", "local": "Dana bercampur" }
+            "I": { "en": "Income funds", "local": "Dana pendapatan" },
+            "G": { "en": "Accumulation funds", "local": "Dana pengumpulan" },
+            "J": { "en": "Mixed funds", "local": "Dana bercampur" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "Hartanah" },
-            "B": { "en": "Debt Instruments", "local": "Instrumen Hutang" },
+            "R": { "en": "Real estate", "local": "Hartanah" },
+            "B": { "en": "Debt instruments", "local": "Instrumen hutang" },
             "E": { "en": "Equities", "local": "Ekuiti" },
-            "V": { "en": "Convertible Securities", "local": "Sekuriti Boleh Tukar" },
+            "V": { "en": "Convertible securities", "local": "Sekuriti boleh tukar" },
             "L": { "en": "Mixed", "local": "Bercampur" },
             "C": { "en": "Commodities", "local": "Komoditi" },
             "D": { "en": "Derivatives", "local": "Derivatif" },
-            "F": { "en": "Referential Instruments", "local": "Instrumen Rujukan" },
+            "F": { "en": "Referential instruments", "local": "Instrumen rujukan" },
             "K": { "en": "Credits", "local": "Kredit" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
@@ -831,43 +831,43 @@
           }
         },
         "H": {
-          "en": "Hedge Funds",
-          "local": "Dana Lindung Nilai",
+          "en": "Hedge funds",
+          "local": "Dana lindung nilai",
           "attribute1": {
             "D": { "en": "Directional", "local": "Berarah" },
-            "R": { "en": "Relative Value", "local": "Nilai Relatif" },
-            "S": { "en": "Security Selection", "local": "Pemilihan Sekuriti" },
-            "E": { "en": "Event-Driven", "local": "Dipacu Peristiwa" },
+            "R": { "en": "Relative value", "local": "Nilai relatif" },
+            "S": { "en": "Security selection", "local": "Pemilihan sekuriti" },
+            "E": { "en": "Event-driven", "local": "Dipacu peristiwa" },
             "A": { "en": "Arbitrage", "local": "Arbitraj" },
-            "N": { "en": "Multi-Strategy", "local": "Berbilang Strategi" },
-            "L": { "en": "Asset-Based Lending", "local": "Pinjaman Berasaskan Aset" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "N": { "en": "Multi-strategy", "local": "Berbilang strategi" },
+            "L": { "en": "Asset-based lending", "local": "Pinjaman berasaskan aset" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           }
         },
         "B": {
-          "en": "Real Estate Investment Trusts (REITs)",
-          "local": "Real Estate Investment Trusts (REITs)",
+          "en": "Real estate investment trusts (REITs)",
+          "local": "Real estate investment trusts (REITs)",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "Pengakhiran terbuka" },
-            "C": { "en": "Closed-End", "local": "Pengakhiran tertutup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "O": { "en": "Open-end", "local": "Pengakhiran terbuka" },
+            "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "Dana Pendapatan" },
-            "G": { "en": "Accumulation Funds", "local": "Dana Pengumpulan" },
-            "J": { "en": "Mixed Funds", "local": "Dana bercampur" }
+            "I": { "en": "Income funds", "local": "Dana pendapatan" },
+            "G": { "en": "Accumulation funds", "local": "Dana pengumpulan" },
+            "J": { "en": "Mixed funds", "local": "Dana bercampur" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
@@ -877,29 +877,29 @@
           }
         },
         "E": {
-          "en": "Exchange-Traded Funds (ETFs)",
-          "local": "Exchange-Traded Funds (ETFs)",
+          "en": "Exchange-traded funds (ETFs)",
+          "local": "Exchange-traded funds (ETFs)",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "Pengakhiran terbuka" },
-            "C": { "en": "Closed-End", "local": "Pengakhiran tertutup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "O": { "en": "Open-end", "local": "Pengakhiran terbuka" },
+            "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "Dana Pendapatan" },
-            "G": { "en": "Accumulation Funds", "local": "Dana Pengumpulan" },
-            "J": { "en": "Mixed Funds", "local": "Dana bercampur" }
+            "I": { "en": "Income funds", "local": "Dana pendapatan" },
+            "G": { "en": "Accumulation funds", "local": "Dana pengumpulan" },
+            "J": { "en": "Mixed funds", "local": "Dana bercampur" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "Hartanah" },
-            "B": { "en": "Debt Instruments", "local": "Instrumen Hutang" },
+            "R": { "en": "Real estate", "local": "Hartanah" },
+            "B": { "en": "Debt instruments", "local": "Instrumen hutang" },
             "E": { "en": "Equities", "local": "Ekuiti" },
-            "V": { "en": "Convertible Securities", "local": "Sekuriti Boleh Tukar" },
+            "V": { "en": "Convertible securities", "local": "Sekuriti boleh tukar" },
             "L": { "en": "Mixed", "local": "Bercampur" },
             "C": { "en": "Commodities", "local": "Komoditi" },
             "D": { "en": "Derivatives", "local": "Derivatif" },
-            "F": { "en": "Referential Instruments", "local": "Instrumen Rujukan" },
+            "F": { "en": "Referential instruments", "local": "Instrumen rujukan" },
             "K": { "en": "Credits", "local": "Kredit" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
@@ -907,23 +907,23 @@
           }
         },
         "S": {
-          "en": "Pension Funds",
-          "local": "Dana Pencen",
+          "en": "Pension funds",
+          "local": "Dana pencen",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "Pengakhiran terbuka" },
-            "C": { "en": "Closed-End", "local": "Pengakhiran tertutup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "O": { "en": "Open-end", "local": "Pengakhiran terbuka" },
+            "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "B": { "en": "Balanced/Conservative", "local": "Seimbang/Konservatif" },
+            "B": { "en": "Balanced/conservative", "local": "Seimbang/konservatif" },
             "G": { "en": "Growth", "local": "Pertumbuhan" },
-            "L": { "en": "Life Style", "local": "Gaya Hidup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "L": { "en": "Life style", "local": "Gaya hidup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute3": {
-            "R": { "en": "Defined Benefit", "local": "Manfaat Tertakrif" },
-            "B": { "en": "Defined Contribution", "local": "Caruman Wajib" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "R": { "en": "Defined benefit", "local": "Manfaat tertakrif" },
+            "B": { "en": "Defined contribution", "local": "Caruman wajib" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
@@ -931,25 +931,25 @@
           }
         },
         "F": {
-          "en": "Funds of Funds",
-          "local": "Dana dalam Dana",
+          "en": "Funds of funds",
+          "local": "Dana dalam dana",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "Pengakhiran terbuka" },
-            "C": { "en": "Closed-End", "local": "Pengakhiran tertutup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "O": { "en": "Open-end", "local": "Pengakhiran terbuka" },
+            "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "Dana Pendapatan" },
-            "G": { "en": "Accumulation Funds", "local": "Dana Pengumpulan" },
-            "J": { "en": "Mixed Funds", "local": "Dana bercampur" }
+            "I": { "en": "Income funds", "local": "Dana pendapatan" },
+            "G": { "en": "Accumulation funds", "local": "Dana pengumpulan" },
+            "J": { "en": "Mixed funds", "local": "Dana bercampur" }
           },
           "attribute3": {
-            "I": { "en": "Standard (Vanilla) Investment Funds/Mutual Funds", "local": "Dana Pelaburan (Vanilla) Standard/Dana Bersama" },
-            "H": { "en": "Hedge Funds", "local": "Dana Lindung Nilai" },
+            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "Dana pelaburan (vanilla) standard/dana bersama" },
+            "H": { "en": "Hedge funds", "local": "Dana lindung nilai" },
             "B": { "en": "REITs", "local": "REIT" },
             "E": { "en": "ETFs", "local": "ETF" },
-            "P": { "en": "Private Equity Funds", "local": "Dana Ekuiti Swasta" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "P": { "en": "Private equity funds", "local": "Dana ekuiti swasta" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
@@ -959,29 +959,29 @@
           }
         },
         "P": {
-          "en": "Private Equity Funds",
-          "local": "Dana Ekuiti Swasta",
+          "en": "Private equity funds",
+          "local": "Dana ekuiti swasta",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "Pengakhiran terbuka" },
-            "C": { "en": "Closed-End", "local": "Pengakhiran tertutup" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "O": { "en": "Open-end", "local": "Pengakhiran terbuka" },
+            "C": { "en": "Closed-end", "local": "Pengakhiran tertutup" },
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "Dana Pendapatan" },
-            "G": { "en": "Accumulation Funds", "local": "Dana Pengumpulan" },
-            "J": { "en": "Mixed Funds", "local": "Dana bercampur" }
+            "I": { "en": "Income funds", "local": "Dana pendapatan" },
+            "G": { "en": "Accumulation funds", "local": "Dana pengumpulan" },
+            "J": { "en": "Mixed funds", "local": "Dana bercampur" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "Hartanah" },
-            "B": { "en": "Debt Instruments", "local": "Instrumen Hutang" },
+            "R": { "en": "Real estate", "local": "Hartanah" },
+            "B": { "en": "Debt instruments", "local": "Instrumen hutang" },
             "E": { "en": "Equities", "local": "Ekuiti" },
-            "V": { "en": "Convertible Securities", "local": "Sekuriti Boleh Tukar" },
+            "V": { "en": "Convertible securities", "local": "Sekuriti boleh tukar" },
             "L": { "en": "Mixed", "local": "Bercampur" },
             "C": { "en": "Commodities", "local": "Komoditi" },
             "D": { "en": "Derivatives", "local": "Derivatif" },
-            "F": { "en": "Referential Instruments", "local": "Instrumen Rujukan" },
+            "F": { "en": "Referential instruments", "local": "Instrumen rujukan" },
             "K": { "en": "Credits", "local": "Kredit" },
-            "M": { "en": "Others (Misc.)", "local": "Lain-lain" }
+            "M": { "en": "Others (misc.)", "local": "Lain-lain" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
@@ -991,16 +991,16 @@
           }
         },
         "M": {
-          "en": "Others (Misc.)",
+          "en": "Others (misc.)",
           "local": "Lain-lain",
           "attribute1": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "Tidak Terpakai/Tidak Ditakrifkan" }
+            "X": { "en": "Not applicable/undefined", "local": "Tidak terpakai/tidak ditakrifkan" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "Saham" },
