@@ -186,8 +186,15 @@ class CmeRootsGenerator(CmeProductsParser):
         si = LoggableRequester(self._logger, timeout=30).request(LoggableRequester.Methods.GET, f"http://hub{hub}.xtools.tv:809{port}/symbol_info?group={group}").json()
         roots = si.get("root")
         if roots is not None:
-            for n in range(len(roots)):
-                res[roots[n]] = f'{si["pointvalue"][n]};{si["exchange-listed"]}'
+            if isinstance(roots, list):
+                if isinstance(si["pointvalue"], list):
+                    for n in range(len(roots)):
+                        res[roots[n]] = f'{si["pointvalue"][n]};{si["exchange-listed"]}'
+                else:
+                    for n in range(len(roots)):
+                        res[roots[n]] = f'{si["pointvalue"]};{si["exchange-listed"]}'
+            else:
+                res[roots] = f'{si["pointvalue"]};{si["exchange-listed"]}'
         return res
     
     def parse_symbols(self) -> None:
