@@ -5,823 +5,823 @@
       "local": "주식",
       "groups": {
         "S": {
-          "en": "Shares (Common/Ordinary)",
+          "en": "Shares (common/ordinary)",
           "local": "주식(보통주)",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "T": { "en": "Restrictions", "local": "제한 사항" },
             "U": { "en": "Free", "local": "제한 없음" }
           },
           "attribute3": {
-            "F": { "en": "Fully Paid", "local": "전액 납입" },
-            "O": { "en": "Nil Paid", "local": "미납입" },
-            "P": { "en": "Partly Paid", "local": "부분 납입" }
+            "F": { "en": "Fully paid", "local": "전액 납입" },
+            "O": { "en": "Nil paid", "local": "미납입" },
+            "P": { "en": "Partly paid", "local": "부분 납입" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "P": {
-          "en": "Preferred Shares",
+          "en": "Preferred shares",
           "local": "우선주",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "상환 가능" },
             "E": { "en": "Extendible", "local": "연장 가능" },
-            "T": { "en": "Redeemable/Extendible", "local": "상환 가능/연장 가능" },
+            "T": { "en": "Redeemable/extendible", "local": "상환 가능/연장 가능" },
             "G": { "en": "Exchangeable", "local": "교환 가능" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "상환 가능/교환 가능/연장 가능" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "상환 가능/교환 가능" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "상환 가능/교환 가능/연장 가능" },
+            "C": { "en": "Redeemable/exchangeable", "local": "상환 가능/교환 가능" },
             "N": { "en": "Perpetual", "local": "영구" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "누적형, 고정 배당률" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "C": { "en": "Cumulative, fixed rate", "local": "누적형, 고정 배당률" },
             "P": { "en": "Participating", "local": "참여형" },
-            "Q": { "en": "Cumulative, Participating", "local": "누적형, 참여형" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "조정/변동 금리형" },
-            "N": { "en": "Normal Rate", "local": "정상 금리형" },
-            "U": { "en": "Auction Rate", "local": "경매 금리형" },
+            "Q": { "en": "Cumulative, participating", "local": "누적형, 참여형" },
+            "A": { "en": "Adjustable/variable rate", "local": "조정/변동 금리형" },
+            "N": { "en": "Normal rate", "local": "정상 금리형" },
+            "U": { "en": "Auction rate", "local": "경매 금리형" },
             "D": { "en": "Dividends", "local": "배당금" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "C": {
-          "en": "Convertible Shares",
+          "en": "Convertible shares",
           "local": "전환주",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "T": { "en": "Restrictions", "local": "제한 사항" },
             "U": { "en": "Free", "local": "제한 없음" }
           },
           "attribute3": {
-            "F": { "en": "Fully Paid", "local": "전액 납입" },
-            "O": { "en": "Nil Paid", "local": "미납입" },
-            "P": { "en": "Partly Paid", "local": "부분 납입" }
+            "F": { "en": "Fully paid", "local": "전액 납입" },
+            "O": { "en": "Nil paid", "local": "미납입" },
+            "P": { "en": "Partly paid", "local": "부분 납입" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "F": {
-          "en": "Preferred Convertible Shares",
+          "en": "Preferred convertible shares",
           "local": "우선전환주식",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "상환 가능" },
             "E": { "en": "Extendible", "local": "연장 가능" },
-            "T": { "en": "Redeemable/Extendible", "local": "상환 가능/연장 가능" },
+            "T": { "en": "Redeemable/extendible", "local": "상환 가능/연장 가능" },
             "G": { "en": "Exchangeable", "local": "교환 가능" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "상환 가능/교환 가능/연장 가능" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "상환 가능/교환 가능" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "상환 가능/교환 가능/연장 가능" },
+            "C": { "en": "Redeemable/exchangeable", "local": "상환 가능/교환 가능" },
             "N": { "en": "Perpetual", "local": "영구" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "누적형, 고정 배당률" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "C": { "en": "Cumulative, fixed rate", "local": "누적형, 고정 배당률" },
             "P": { "en": "Participating", "local": "참여형" },
-            "Q": { "en": "Cumulative, Participating", "local": "누적형, 참여형" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "조정/변동 금리형" },
-            "N": { "en": "Normal Rate", "local": "정상 금리형" },
-            "U": { "en": "Auction Rate", "local": "경매 금리형" },
+            "Q": { "en": "Cumulative, participating", "local": "누적형, 참여형" },
+            "A": { "en": "Adjustable/variable rate", "local": "조정/변동 금리형" },
+            "N": { "en": "Normal rate", "local": "정상 금리형" },
+            "U": { "en": "Auction rate", "local": "경매 금리형" },
             "D": { "en": "Dividends", "local": "배당금" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "L": {
-          "en": "Limited Partnership Units",
+          "en": "Limited partnership units",
           "local": "유한책임 파트너십 지분 단위",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "T": { "en": "Restrictions", "local": "제한 사항" },
             "U": { "en": "Free", "local": "제한 없음" }
           },
           "attribute3": {
-            "F": { "en": "Fully Paid", "local": "전액 납입" },
-            "O": { "en": "Nil Paid", "local": "미납입" },
-            "P": { "en": "Partly Paid", "local": "부분 납입" }
+            "F": { "en": "Fully paid", "local": "전액 납입" },
+            "O": { "en": "Nil paid", "local": "미납입" },
+            "P": { "en": "Partly paid", "local": "부분 납입" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "D": {
-          "en": "Depository Receipts on Equities",
+          "en": "Depository receipts on equities",
           "local": "주식 예탁증서",
           "attribute1": {
-            "S": { "en": "Common/Ordinary Shares", "local": "보통주/일반주" },
-            "P": { "en": "Preferred/Preference Shares", "local": "우선주" },
-            "C": { "en": "Common/Ordinary Convertible Shares", "local": "보통주/일반주 전환주" },
-            "F": { "en": "Preferred/Preference Convertible Shares", "local": "전환 가능 우선주" },
-            "L": { "en": "Limited Partnership Units", "local": "유한책임 파트너십 지분 단위" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "S": { "en": "Common/ordinary shares", "local": "보통주/일반주" },
+            "P": { "en": "Preferred/preference shares", "local": "우선주" },
+            "C": { "en": "Common/ordinary convertible shares", "local": "보통주/일반주 전환주" },
+            "F": { "en": "Preferred/preference convertible shares", "local": "전환 가능 우선주" },
+            "L": { "en": "Limited partnership units", "local": "유한책임 파트너십 지분 단위" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "상환 가능" },
             "N": { "en": "Perpetual", "local": "영구" },
             "B": { "en": "Convertible", "local": "전환 가능" },
-            "D": { "en": "Convertible/Redeemable", "local": "전환 및 상환 가능" },
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "D": { "en": "Convertible/redeemable", "local": "전환 및 상환 가능" },
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "누적형, 고정 배당률" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "C": { "en": "Cumulative, fixed rate", "local": "누적형, 고정 배당률" },
             "P": { "en": "Participating", "local": "참여형" },
-            "Q": { "en": "Cumulative, Participating", "local": "누적형, 참여형" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "조정/변동 금리형" },
-            "N": { "en": "Normal Rate", "local": "정상 금리형" },
-            "U": { "en": "Auction Rate", "local": "경매 금리형" },
+            "Q": { "en": "Cumulative, participating", "local": "누적형, 참여형" },
+            "A": { "en": "Adjustable/variable rate", "local": "조정/변동 금리형" },
+            "N": { "en": "Normal rate", "local": "정상 금리형" },
+            "U": { "en": "Auction rate", "local": "경매 금리형" },
             "D": { "en": "Dividends", "local": "배당금" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "Y": {
-          "en": "Structured Instruments (Participation)",
+          "en": "Structured instruments (participation)",
           "local": "구조화 상품 (참여형)",
           "attribute1": {
-            "A": { "en": "Tracker Certificate", "local": "트래커 증서" },
-            "B": { "en": "Outperforming Certificate", "local": "초과수익 증서" },
-            "C": { "en": "Bonus Certificate", "local": "보너스 증서" },
-            "D": { "en": "Outperformance Bonus Certificate", "local": "초과수익 보너스 증서" },
-            "E": { "en": "Twin-Win Certificate", "local": "트윈-윈 증서" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "A": { "en": "Tracker certificate", "local": "트래커 증서" },
+            "B": { "en": "Outperforming certificate", "local": "초과수익 증서" },
+            "C": { "en": "Bonus certificate", "local": "보너스 증서" },
+            "D": { "en": "Outperformance bonus certificate", "local": "초과수익 보너스 증서" },
+            "E": { "en": "Twin-win certificate", "local": "트윈-윈 증서" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "D": { "en": "Dividend Payments", "local": "배당금 지급" },
-            "Y": { "en": "No Payments", "local": "지급 없음" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "D": { "en": "Dividend payments", "local": "배당금 지급" },
+            "Y": { "en": "No payments", "local": "지급 없음" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute3": {
-            "F": { "en": "Cash Repayment", "local": "현금 상환" },
-            "V": { "en": "Physical Repayment", "local": "실물 상환" },
-            "E": { "en": "Elect at Settlement", "local": "결제 시 선택" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "F": { "en": "Cash repayment", "local": "현금 상환" },
+            "V": { "en": "Physical repayment", "local": "실물 상환" },
+            "E": { "en": "Elect at settlement", "local": "결제 시 선택" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "B": { "en": "Baskets", "local": "바스켓" },
             "S": { "en": "Equities", "local": "주식" },
-            "D": { "en": "Debt Instruments", "local": "채무증권" },
+            "D": { "en": "Debt instruments", "local": "채무증권" },
             "G": { "en": "Derivatives", "local": "파생상품" },
             "T": { "en": "Commodities", "local": "원자재" },
             "C": { "en": "Currencies", "local": "통화" },
             "I": { "en": "Indices", "local": "지수" },
-            "N": { "en": "Interest Rates", "local": "금리" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Interest rates", "local": "금리" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "R": {
-          "en": "Preference Shares",
+          "en": "Preference shares",
           "local": "우선주",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "상환 가능" },
             "E": { "en": "Extendible", "local": "연장 가능" },
-            "T": { "en": "Redeemable/Extendible", "local": "상환 가능/연장 가능" },
+            "T": { "en": "Redeemable/extendible", "local": "상환 가능/연장 가능" },
             "G": { "en": "Exchangeable", "local": "교환 가능" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "상환 가능/교환 가능/연장 가능" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "상환 가능/교환 가능" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "상환 가능/교환 가능/연장 가능" },
+            "C": { "en": "Redeemable/exchangeable", "local": "상환 가능/교환 가능" },
             "N": { "en": "Perpetual", "local": "영구" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "누적형, 고정 배당률" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "C": { "en": "Cumulative, fixed rate", "local": "누적형, 고정 배당률" },
             "P": { "en": "Participating", "local": "참여형" },
-            "Q": { "en": "Cumulative, Participating", "local": "누적형, 참여형" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "조정/변동 금리형" },
-            "N": { "en": "Normal Rate", "local": "정상 금리형" },
-            "U": { "en": "Auction Rate", "local": "경매 금리형" },
+            "Q": { "en": "Cumulative, participating", "local": "누적형, 참여형" },
+            "A": { "en": "Adjustable/variable rate", "local": "조정/변동 금리형" },
+            "N": { "en": "Normal rate", "local": "정상 금리형" },
+            "U": { "en": "Auction rate", "local": "경매 금리형" },
             "D": { "en": "Dividends", "local": "배당금" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "V": {
-          "en": "Preference Convertible Shares",
+          "en": "Preference convertible shares",
           "local": "우선 전환주",
           "attribute1": {
             "V": { "en": "Voting", "local": "의결권 있음" },
-            "N": { "en": "Non-Voting", "local": "의결권 없음" },
+            "N": { "en": "Non-voting", "local": "의결권 없음" },
             "R": { "en": "Restricted", "local": "제한됨" },
-            "E": { "en": "Enhanced Voting", "local": "확대 의결권" }
+            "E": { "en": "Enhanced voting", "local": "확대 의결권" }
           },
           "attribute2": {
             "R": { "en": "Redeemable", "local": "상환 가능" },
             "E": { "en": "Extendible", "local": "연장 가능" },
-            "T": { "en": "Redeemable/Extendible", "local": "상환 가능/연장 가능" },
+            "T": { "en": "Redeemable/extendible", "local": "상환 가능/연장 가능" },
             "G": { "en": "Exchangeable", "local": "교환 가능" },
-            "A": { "en": "Redeemable/Exchangeable/Extendible", "local": "상환 가능/교환 가능/연장 가능" },
-            "C": { "en": "Redeemable/Exchangeable", "local": "상환 가능/교환 가능" },
+            "A": { "en": "Redeemable/exchangeable/extendible", "local": "상환 가능/교환 가능/연장 가능" },
+            "C": { "en": "Redeemable/exchangeable", "local": "상환 가능/교환 가능" },
             "N": { "en": "Perpetual", "local": "영구" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "C": { "en": "Cumulative, Fixed Rate", "local": "누적형, 고정 배당률" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "C": { "en": "Cumulative, fixed rate", "local": "누적형, 고정 배당률" },
             "P": { "en": "Participating", "local": "참여형" },
-            "Q": { "en": "Cumulative, Participating", "local": "누적형, 참여형" },
-            "A": { "en": "Adjustable/Variable Rate", "local": "조정/변동 금리형" },
-            "N": { "en": "Normal Rate", "local": "정상 금리형" },
-            "U": { "en": "Auction Rate", "local": "경매 금리형" },
+            "Q": { "en": "Cumulative, participating", "local": "누적형, 참여형" },
+            "A": { "en": "Adjustable/variable rate", "local": "조정/변동 금리형" },
+            "N": { "en": "Normal rate", "local": "정상 금리형" },
+            "U": { "en": "Auction rate", "local": "경매 금리형" },
             "D": { "en": "Dividends", "local": "배당금" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "U": {
-          "en": "Units (Unit Trusts, Mutual Funds, OPCVM/OICVM)",
+          "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "투자신탁, 뮤추얼 펀드, OPCVM/OICVM의 투자 단위",
           "attribute1": {
             "C": { "en": "Closed-end", "local": "폐쇄형" },
             "O": { "en": "Open-end", "local": "개방형" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "수익형 펀드" },
-            "G": { "en": "Growth Funds", "local": "성장형 펀드" },
-            "M": { "en": "Mixed Funds", "local": "혼합형 펀드" }
+            "I": { "en": "Income funds", "local": "수익형 펀드" },
+            "G": { "en": "Growth funds", "local": "성장형 펀드" },
+            "M": { "en": "Mixed funds", "local": "혼합형 펀드" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "부동산" },
+            "R": { "en": "Real estate", "local": "부동산" },
             "S": { "en": "Securities", "local": "증권" },
-            "M": { "en": "Mixed-General", "local": "혼합-일반" },
+            "M": { "en": "Mixed-general", "local": "혼합-일반" },
             "C": { "en": "Commodities", "local": "원자재" },
             "D": { "en": "Derivatives", "local": "파생상품" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "Z": { "en": "Bearer Depository Receipt", "local": "무기명 예탁증서" },
-            "A": { "en": "Registered Depository Receipt", "local": "기명 예탁증서" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "Z": { "en": "Bearer depository receipt", "local": "무기명 예탁증서" },
+            "A": { "en": "Registered depository receipt", "local": "기명 예탁증서" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "M": {
-          "en": "Others (Misc.)",
+          "en": "Others (misc.)",
           "local": "기타",
           "attribute1": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         }
       }
     },
     "D": {
-      "en": "Debt Instruments",
+      "en": "Debt instruments",
       "local": "채무증권",
       "groups": {
         "B": {
           "en": "Bonds",
           "local": "채권",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" },
-            "C": { "en": "Cash Payment", "local": "현금 지급" },
-            "K": { "en": "Payment in Kind", "local": "현물 지급 (PIK)" }
+            "C": { "en": "Cash payment", "local": "현금 지급" },
+            "K": { "en": "Payment in kind", "local": "현물 지급 (PIK)" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "C": {
-          "en": "Convertible Bonds",
+          "en": "Convertible bonds",
           "local": "전환사채",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" },
-            "C": { "en": "Cash Payment", "local": "현금 지급" },
-            "K": { "en": "Payment in Kind", "local": "현물 지급 (PIK)" }
+            "C": { "en": "Cash payment", "local": "현금 지급" },
+            "K": { "en": "Payment in kind", "local": "현물 지급 (PIK)" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "W": {
-          "en": "Bonds with Warrants Attached",
+          "en": "Bonds with warrants attached",
           "local": "워런트 부착 채권",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" },
-            "C": { "en": "Cash Payment", "local": "현금 지급" },
-            "K": { "en": "Payment in Kind", "local": "현물 지급 (PIK)" }
+            "C": { "en": "Cash payment", "local": "현금 지급" },
+            "K": { "en": "Payment in kind", "local": "현물 지급 (PIK)" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "T": {
-          "en": "Medium-Term Notes",
+          "en": "Medium-term notes",
           "local": "중기채권",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" },
-            "C": { "en": "Cash Payment", "local": "현금 지급" },
-            "K": { "en": "Payment in Kind", "local": "현물 지급 (PIK)" }
+            "C": { "en": "Cash payment", "local": "현금 지급" },
+            "K": { "en": "Payment in kind", "local": "현물 지급 (PIK)" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "S": {
-          "en": "Structured Products (Capital Protection)",
+          "en": "Structured products (capital protection)",
           "local": "구조화 상품 (원금 보호)",
           "attribute1": {
-            "A": { "en": "Capital Protection Certificate with Participation", "local": "참여형 원금 보호 증서" },
-            "B": { "en": "Capital Protection Convertible Certificate", "local": "원금 보호형 전환 증서" },
-            "C": { "en": "Barrier Capital Protection Certificate", "local": "배리어 원금 보호 증서" },
-            "D": { "en": "Capital Protection Certificate with Coupons", "local": "이자 지급형 원금 보장 증서" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "A": { "en": "Capital protection certificate with participation", "local": "참여형 원금 보호 증서" },
+            "B": { "en": "Capital protection convertible certificate", "local": "원금 보호형 전환 증서" },
+            "C": { "en": "Barrier capital protection certificate", "local": "배리어 원금 보호 증서" },
+            "D": { "en": "Capital protection certificate with coupons", "local": "이자 지급형 원금 보장 증서" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "F": { "en": "Fixed Interest Payments", "local": "고정 이자 지급" },
-            "D": { "en": "Dividend Payments", "local": "배당금 지급" },
-            "V": { "en": "Variable Interest Payments", "local": "변동 이자 지급" },
-            "Y": { "en": "No Payments", "local": "지급 없음" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "F": { "en": "Fixed interest payments", "local": "고정 이자 지급" },
+            "D": { "en": "Dividend payments", "local": "배당금 지급" },
+            "V": { "en": "Variable interest payments", "local": "변동 이자 지급" },
+            "Y": { "en": "No payments", "local": "지급 없음" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Cash Repayment (Only Protected Capital Level)", "local": "고정 현금 상환 (원금 보장 수준 한정)" },
-            "V": { "en": "Variable Cash Repayment", "local": "변동 현금 상환" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "고정 현금 상환 (원금 보장 수준 한정)" },
+            "V": { "en": "Variable cash repayment", "local": "변동 현금 상환" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "B": { "en": "Baskets", "local": "바스켓" },
             "S": { "en": "Equities", "local": "주식" },
-            "D": { "en": "Debt Instruments/Interest Rates", "local": "채무 증권/금리" },
+            "D": { "en": "Debt instruments/interest rates", "local": "채무 증권/금리" },
             "T": { "en": "Commodities", "local": "원자재" },
             "C": { "en": "Currencies", "local": "통화" },
             "I": { "en": "Indices", "local": "지수" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "E": {
-          "en": "Structured Products (Without Capital Protection)",
+          "en": "Structured products (without capital protection)",
           "local": "구조화 상품 (원금 보호 없음)",
           "attribute1": {
-            "A": { "en": "Discount Certificate", "local": "할인 증서" },
-            "B": { "en": "Barrier Discount Certificate", "local": "배리어 할인증서" },
-            "C": { "en": "Reverse Convertible", "local": "리버스 컨버터블" },
-            "D": { "en": "Barrier Reverse Convertible", "local": "배리어 리버스 컨버터블" },
-            "E": { "en": "Express Certificate", "local": "익스프레스 증서" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "A": { "en": "Discount certificate", "local": "할인 증서" },
+            "B": { "en": "Barrier discount certificate", "local": "배리어 할인증서" },
+            "C": { "en": "Reverse convertible", "local": "리버스 컨버터블" },
+            "D": { "en": "Barrier reverse convertible", "local": "배리어 리버스 컨버터블" },
+            "E": { "en": "Express certificate", "local": "익스프레스 증서" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "R": { "en": "Repayment in Cash", "local": "현금 상환" },
-            "S": { "en": "Repayment in Assets", "local": "자산 상환" },
-            "C": { "en": "Repayment in Assets and Cash", "local": "자산 및 현금 상환" },
-            "T": { "en": "Repayment in Assets or Cash", "local": "자산 또는 현금 상환" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "R": { "en": "Repayment in cash", "local": "현금 상환" },
+            "S": { "en": "Repayment in assets", "local": "자산 상환" },
+            "C": { "en": "Repayment in assets and cash", "local": "자산 및 현금 상환" },
+            "T": { "en": "Repayment in assets or cash", "local": "자산 또는 현금 상환" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           }
         },
         "G": {
-          "en": "Mortgage-Backed Securities (MBS)",
+          "en": "Mortgage-backed securities (MBS)",
           "local": "모기지 담보 증권(MBS)",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "A": {
-          "en": "Asset-Backed Securities (ABS)",
+          "en": "Asset-backed securities (ABS)",
           "local": "자산담보증권(ABS)",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "N": {
-          "en": "Municipal Bonds",
+          "en": "Municipal bonds",
           "local": "지방채",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "D": {
-          "en": "Depository Receipts on Debt Instruments",
+          "en": "Depository receipts on debt instruments",
           "local": "채무증권 예탁증서",
           "attribute1": {
             "B": { "en": "Bonds", "local": "채권" },
-            "C": { "en": "Convertible Bonds", "local": "전환사채" },
-            "W": { "en": "Bonds with Warrants Attached", "local": "워런트 부착 채권" },
-            "T": { "en": "Medium-Term Notes", "local": "중기채권" },
-            "Y": { "en": "Money Market Instruments", "local": "머니마켓 상품" },
-            "G": { "en": "Mortgage-Backed Securities", "local": "모기지 담보 증권" },
-            "Q": { "en": "Asset-Backed Securities", "local": "자산 담보 증권" },
-            "N": { "en": "Municipal Bonds", "local": "지방채" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "C": { "en": "Convertible bonds", "local": "전환사채" },
+            "W": { "en": "Bonds with warrants attached", "local": "워런트 부착 채권" },
+            "T": { "en": "Medium-term notes", "local": "중기채권" },
+            "Y": { "en": "Money market instruments", "local": "머니마켓 상품" },
+            "G": { "en": "Mortgage-backed securities", "local": "모기지 담보 증권" },
+            "Q": { "en": "Asset-backed securities", "local": "자산 담보 증권" },
+            "N": { "en": "Municipal bonds", "local": "지방채" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" },
-            "C": { "en": "Cash Payment", "local": "현금 지급" }
+            "C": { "en": "Cash payment", "local": "현금 지급" }
           },
           "attribute3": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute4": {
-            "F": { "en": "Fixed Maturity", "local": "고정 만기" },
-            "G": { "en": "Fixed Maturity with Call Feature", "local": "콜 옵션이 있는 고정 만기 채권" },
-            "C": { "en": "Fixed Maturity with Put Feature", "local": "풋 옵션이 있는 고정 만기 채권" },
-            "D": { "en": "Fixed Maturity with Put and Call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
-            "A": { "en": "Amortization Plan", "local": "상환 계획" },
-            "B": { "en": "Amortization Plan with Call Feature", "local": "매수 옵션이 있는 상환 계획" },
-            "T": { "en": "Amortization Plan with Put Feature", "local": "매도 옵션이 있는 상환 계획" },
-            "L": { "en": "Amortization Plan with Put and Call", "local": "매도권 및 매수권이 있는 상환 계획" },
+            "F": { "en": "Fixed maturity", "local": "고정 만기" },
+            "G": { "en": "Fixed maturity with call feature", "local": "콜 옵션이 있는 고정 만기 채권" },
+            "C": { "en": "Fixed maturity with put feature", "local": "풋 옵션이 있는 고정 만기 채권" },
+            "D": { "en": "Fixed maturity with put and call", "local": "매도 및 매수 옵션이 있는 고정 만기" },
+            "A": { "en": "Amortization plan", "local": "상환 계획" },
+            "B": { "en": "Amortization plan with call feature", "local": "매수 옵션이 있는 상환 계획" },
+            "T": { "en": "Amortization plan with put feature", "local": "매도 옵션이 있는 상환 계획" },
+            "L": { "en": "Amortization plan with put and call", "local": "매도권 및 매수권이 있는 상환 계획" },
             "P": { "en": "Perpetual", "local": "영구" },
-            "Q": { "en": "Perpetual with Call Feature", "local": "매수권 기능이 있는 영구채" },
-            "R": { "en": "Perpetual with Put Feature", "local": "매도권 기능이 있는 영구채" },
+            "Q": { "en": "Perpetual with call feature", "local": "매수권 기능이 있는 영구채" },
+            "R": { "en": "Perpetual with put feature", "local": "매도권 기능이 있는 영구채" },
             "E": { "en": "Extendible", "local": "연장 가능" }
           }
         },
         "Y": {
-          "en": "Money Market Instruments",
+          "en": "Money market instruments",
           "local": "머니마켓 상품",
           "attribute1": {
-            "F": { "en": "Fixed Rate", "local": "고정 배당률" },
-            "Z": { "en": "Zero Rate/Discounted", "local": "제로 금리/할인형" },
+            "F": { "en": "Fixed rate", "local": "고정 배당률" },
+            "Z": { "en": "Zero rate/discounted", "local": "제로 금리/할인형" },
             "V": { "en": "Variable", "local": "변동형" },
-            "K": { "en": "Payment in Kind", "local": "현물 지급 (PIK)" }
+            "K": { "en": "Payment in kind", "local": "현물 지급 (PIK)" }
           },
           "attribute2": {
-            "T": { "en": "Government/State Guarantee", "local": "정부/주 정부 보증" },
-            "G": { "en": "Joint Guarantee", "local": "공동 보증" },
+            "T": { "en": "Government/state guarantee", "local": "정부/주 정부 보증" },
+            "G": { "en": "Joint guarantee", "local": "공동 보증" },
             "S": { "en": "Secured", "local": "담보부" },
-            "U": { "en": "Unsecured/Unguaranteed", "local": "무담보/무보증" },
-            "P": { "en": "Negative Pledge", "local": "부정적 담보 제공 금지" },
+            "U": { "en": "Unsecured/unguaranteed", "local": "무담보/무보증" },
+            "P": { "en": "Negative pledge", "local": "부정적 담보 제공 금지" },
             "N": { "en": "Senior", "local": "선순위" },
-            "O": { "en": "Senior Subordinated", "local": "선순위 후순위" },
+            "O": { "en": "Senior subordinated", "local": "선순위 후순위" },
             "Q": { "en": "Junior", "local": "후순위" },
-            "J": { "en": "Junior Subordinated", "local": "후순위 후순위" },
+            "J": { "en": "Junior subordinated", "local": "후순위 후순위" },
             "C": { "en": "Supranational", "local": "초국가적" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         },
         "M": {
-          "en": "Others (Misc.)",
+          "en": "Others (misc.)",
           "local": "기타",
           "attribute1": {
-            "B": { "en": "Bank Loan", "local": "은행 대출" },
-            "P": { "en": "Promissory Note", "local": "약속어음" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "B": { "en": "Bank loan", "local": "은행 대출" },
+            "P": { "en": "Promissory note", "local": "약속어음" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
             "B": { "en": "Bearer", "local": "무기명식" },
             "R": { "en": "Registered", "local": "기명식" },
-            "N": { "en": "Bearer/Registered", "local": "무기명식/기명식" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Bearer/registered", "local": "무기명식/기명식" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           }
         }
       }
     },
     "C": {
-      "en": "Collective Investment Vehicles",
+      "en": "Collective investment vehicles",
       "local": "집합투자기구",
       "groups": {
         "I": {
-          "en": "Standard (Vanilla) Investment Funds/Mutual Funds",
+          "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "표준(바닐라) 투자 펀드/뮤추얼 펀드",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "개방형" },
-            "C": { "en": "Closed-End", "local": "폐쇄형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "O": { "en": "Open-end", "local": "개방형" },
+            "C": { "en": "Closed-end", "local": "폐쇄형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "수익형 펀드" },
-            "G": { "en": "Accumulation Funds", "local": "적립형 펀드" },
-            "J": { "en": "Mixed Funds", "local": "혼합형 펀드" }
+            "I": { "en": "Income funds", "local": "수익형 펀드" },
+            "G": { "en": "Accumulation funds", "local": "적립형 펀드" },
+            "J": { "en": "Mixed funds", "local": "혼합형 펀드" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "부동산" },
-            "B": { "en": "Debt Instruments", "local": "채무증권" },
+            "R": { "en": "Real estate", "local": "부동산" },
+            "B": { "en": "Debt instruments", "local": "채무증권" },
             "E": { "en": "Equities", "local": "주식" },
-            "V": { "en": "Convertible Securities", "local": "전환사채 및 기타 전환 증권" },
+            "V": { "en": "Convertible securities", "local": "전환사채 및 기타 전환 증권" },
             "L": { "en": "Mixed", "local": "혼합형" },
             "C": { "en": "Commodities", "local": "원자재" },
             "D": { "en": "Derivatives", "local": "파생상품" },
-            "F": { "en": "Referential Instruments", "local": "지수 연동 상품" },
+            "F": { "en": "Referential instruments", "local": "지수 연동 상품" },
             "K": { "en": "Credits", "local": "신용상품" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
@@ -831,43 +831,43 @@
           }
         },
         "H": {
-          "en": "Hedge Funds",
+          "en": "Hedge funds",
           "local": "헤지 펀드",
           "attribute1": {
             "D": { "en": "Directional", "local": "방향성 전략" },
-            "R": { "en": "Relative Value", "local": "상대 가치" },
-            "S": { "en": "Security Selection", "local": "증권 선정" },
-            "E": { "en": "Event-Driven", "local": "이벤트 드리븐" },
+            "R": { "en": "Relative value", "local": "상대 가치" },
+            "S": { "en": "Security selection", "local": "증권 선정" },
+            "E": { "en": "Event-driven", "local": "이벤트 드리븐" },
             "A": { "en": "Arbitrage", "local": "차익거래" },
-            "N": { "en": "Multi-Strategy", "local": "다중 전략" },
-            "L": { "en": "Asset-Based Lending", "local": "자산 담보 대출" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "N": { "en": "Multi-strategy", "local": "다중 전략" },
+            "L": { "en": "Asset-based lending", "local": "자산 담보 대출" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           }
         },
         "B": {
-          "en": "Real Estate Investment Trusts (REITs)",
+          "en": "Real estate investment trusts (REITs)",
           "local": "부동산 투자 신탁(REITs)",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "개방형" },
-            "C": { "en": "Closed-End", "local": "폐쇄형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "O": { "en": "Open-end", "local": "개방형" },
+            "C": { "en": "Closed-end", "local": "폐쇄형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "수익형 펀드" },
-            "G": { "en": "Accumulation Funds", "local": "적립형 펀드" },
-            "J": { "en": "Mixed Funds", "local": "혼합형 펀드" }
+            "I": { "en": "Income funds", "local": "수익형 펀드" },
+            "G": { "en": "Accumulation funds", "local": "적립형 펀드" },
+            "J": { "en": "Mixed funds", "local": "혼합형 펀드" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
@@ -877,29 +877,29 @@
           }
         },
         "E": {
-          "en": "Exchange-Traded Funds (ETFs)",
+          "en": "Exchange-traded funds (ETFs)",
           "local": "상장지수펀드(ETF)",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "개방형" },
-            "C": { "en": "Closed-End", "local": "폐쇄형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "O": { "en": "Open-end", "local": "개방형" },
+            "C": { "en": "Closed-end", "local": "폐쇄형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "수익형 펀드" },
-            "G": { "en": "Accumulation Funds", "local": "적립형 펀드" },
-            "J": { "en": "Mixed Funds", "local": "혼합형 펀드" }
+            "I": { "en": "Income funds", "local": "수익형 펀드" },
+            "G": { "en": "Accumulation funds", "local": "적립형 펀드" },
+            "J": { "en": "Mixed funds", "local": "혼합형 펀드" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "부동산" },
-            "B": { "en": "Debt Instruments", "local": "채무증권" },
+            "R": { "en": "Real estate", "local": "부동산" },
+            "B": { "en": "Debt instruments", "local": "채무증권" },
             "E": { "en": "Equities", "local": "주식" },
-            "V": { "en": "Convertible Securities", "local": "전환사채 및 기타 전환 증권" },
+            "V": { "en": "Convertible securities", "local": "전환사채 및 기타 전환 증권" },
             "L": { "en": "Mixed", "local": "혼합형" },
             "C": { "en": "Commodities", "local": "원자재" },
             "D": { "en": "Derivatives", "local": "파생상품" },
-            "F": { "en": "Referential Instruments", "local": "지수 연동 상품" },
+            "F": { "en": "Referential instruments", "local": "지수 연동 상품" },
             "K": { "en": "Credits", "local": "신용상품" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
@@ -907,23 +907,23 @@
           }
         },
         "S": {
-          "en": "Pension Funds",
+          "en": "Pension funds",
           "local": "연금 펀드",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "개방형" },
-            "C": { "en": "Closed-End", "local": "폐쇄형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "O": { "en": "Open-end", "local": "개방형" },
+            "C": { "en": "Closed-end", "local": "폐쇄형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "B": { "en": "Balanced/Conservative", "local": "균형형/보수형" },
+            "B": { "en": "Balanced/conservative", "local": "균형형/보수형" },
             "G": { "en": "Growth", "local": "성장형" },
-            "L": { "en": "Life Style", "local": "라이프스타일" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "L": { "en": "Life style", "local": "라이프스타일" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute3": {
-            "R": { "en": "Defined Benefit", "local": "확정급여형" },
-            "B": { "en": "Defined Contribution", "local": "확정기여형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "R": { "en": "Defined benefit", "local": "확정급여형" },
+            "B": { "en": "Defined contribution", "local": "확정기여형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
@@ -931,25 +931,25 @@
           }
         },
         "F": {
-          "en": "Funds of Funds",
+          "en": "Funds of funds",
           "local": "펀드 오브 펀드",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "개방형" },
-            "C": { "en": "Closed-End", "local": "폐쇄형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "O": { "en": "Open-end", "local": "개방형" },
+            "C": { "en": "Closed-end", "local": "폐쇄형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "수익형 펀드" },
-            "G": { "en": "Accumulation Funds", "local": "적립형 펀드" },
-            "J": { "en": "Mixed Funds", "local": "혼합형 펀드" }
+            "I": { "en": "Income funds", "local": "수익형 펀드" },
+            "G": { "en": "Accumulation funds", "local": "적립형 펀드" },
+            "J": { "en": "Mixed funds", "local": "혼합형 펀드" }
           },
           "attribute3": {
-            "I": { "en": "Standard (Vanilla) Investment Funds/Mutual Funds", "local": "표준(바닐라) 투자 펀드/뮤추얼 펀드" },
-            "H": { "en": "Hedge Funds", "local": "헤지 펀드" },
+            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "표준(바닐라) 투자 펀드/뮤추얼 펀드" },
+            "H": { "en": "Hedge funds", "local": "헤지 펀드" },
             "B": { "en": "REITs", "local": "REITs" },
             "E": { "en": "ETFs", "local": "ETF" },
-            "P": { "en": "Private Equity Funds", "local": "사모펀드" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "P": { "en": "Private equity funds", "local": "사모펀드" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
@@ -959,29 +959,29 @@
           }
         },
         "P": {
-          "en": "Private Equity Funds",
+          "en": "Private equity funds",
           "local": "사모펀드",
           "attribute1": {
-            "O": { "en": "Open-End", "local": "개방형" },
-            "C": { "en": "Closed-End", "local": "폐쇄형" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "O": { "en": "Open-end", "local": "개방형" },
+            "C": { "en": "Closed-end", "local": "폐쇄형" },
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute2": {
-            "I": { "en": "Income Funds", "local": "수익형 펀드" },
-            "G": { "en": "Accumulation Funds", "local": "적립형 펀드" },
-            "J": { "en": "Mixed Funds", "local": "혼합형 펀드" }
+            "I": { "en": "Income funds", "local": "수익형 펀드" },
+            "G": { "en": "Accumulation funds", "local": "적립형 펀드" },
+            "J": { "en": "Mixed funds", "local": "혼합형 펀드" }
           },
           "attribute3": {
-            "R": { "en": "Real Estate", "local": "부동산" },
-            "B": { "en": "Debt Instruments", "local": "채무증권" },
+            "R": { "en": "Real estate", "local": "부동산" },
+            "B": { "en": "Debt instruments", "local": "채무증권" },
             "E": { "en": "Equities", "local": "주식" },
-            "V": { "en": "Convertible Securities", "local": "전환사채 및 기타 전환 증권" },
+            "V": { "en": "Convertible securities", "local": "전환사채 및 기타 전환 증권" },
             "L": { "en": "Mixed", "local": "혼합형" },
             "C": { "en": "Commodities", "local": "원자재" },
             "D": { "en": "Derivatives", "local": "파생상품" },
-            "F": { "en": "Referential Instruments", "local": "지수 연동 상품" },
+            "F": { "en": "Referential instruments", "local": "지수 연동 상품" },
             "K": { "en": "Credits", "local": "신용상품" },
-            "M": { "en": "Others (Misc.)", "local": "기타" }
+            "M": { "en": "Others (misc.)", "local": "기타" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
@@ -991,16 +991,16 @@
           }
         },
         "M": {
-          "en": "Others (Misc.)",
+          "en": "Others (misc.)",
           "local": "기타",
           "attribute1": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute2": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute3": {
-            "X": { "en": "Not Applicable/Undefined", "local": "해당 없음/미정의" }
+            "X": { "en": "Not applicable/undefined", "local": "해당 없음/미정의" }
           },
           "attribute4": {
             "S": { "en": "Shares", "local": "주식" },
