@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "מניות (רגילות/רגילות)",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "מגבלות" },
-            "U": { "en": "Free", "local": "חופשי" }
+            "T": {
+              "en": "Restrictions",
+              "local": "מגבלות"
+            },
+            "U": {
+              "en": "Free",
+              "local": "חופשי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "שולם באופן מלא" },
-            "O": { "en": "Nil paid", "local": "לא שולם" },
-            "P": { "en": "Partly paid", "local": "שולם חלקית" }
+            "F": {
+              "en": "Fully paid",
+              "local": "שולם באופן מלא"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "לא שולם"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "שולם חלקית"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "מניות בכורה",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "ניתן לפדיון" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" },
-            "T": { "en": "Redeemable/extendible", "local": "ניתן לפדיון/להארכה" },
-            "G": { "en": "Exchangeable", "local": "ניתן להחלפה" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "ניתן לפדיון/החלפה/להארכה" },
-            "C": { "en": "Redeemable/exchangeable", "local": "ניתן לפדיון/החלפה" },
-            "N": { "en": "Perpetual", "local": "תמידי" }
+            "R": {
+              "en": "Redeemable",
+              "local": "ניתן לפדיון"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "ניתן לפדיון/להארכה"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "ניתן להחלפה"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "ניתן לפדיון/החלפה/להארכה"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "ניתן לפדיון/החלפה"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "C": { "en": "Cumulative, fixed rate", "local": "מצטבר, שיעור קבוע" },
-            "P": { "en": "Participating", "local": "דיבידנדים משתתפים" },
-            "Q": { "en": "Cumulative, participating", "local": "מצטבר, משתתף" },
-            "A": { "en": "Adjustable/variable rate", "local": "ריבית מתכווננת / משתנה" },
-            "N": { "en": "Normal rate", "local": "ריבית רגילה" },
-            "U": { "en": "Auction rate", "local": "ריבית מכרז" },
-            "D": { "en": "Dividends", "local": "דיבידנדים" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "מצטבר, שיעור קבוע"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "דיבידנדים משתתפים"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "מצטבר, משתתף"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "ריבית מתכווננת / משתנה"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "ריבית רגילה"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "ריבית מכרז"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "דיבידנדים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "מניות להמרה",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "מגבלות" },
-            "U": { "en": "Free", "local": "חופשי" }
+            "T": {
+              "en": "Restrictions",
+              "local": "מגבלות"
+            },
+            "U": {
+              "en": "Free",
+              "local": "חופשי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "שולם באופן מלא" },
-            "O": { "en": "Nil paid", "local": "לא שולם" },
-            "P": { "en": "Partly paid", "local": "שולם חלקית" }
+            "F": {
+              "en": "Fully paid",
+              "local": "שולם באופן מלא"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "לא שולם"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "שולם חלקית"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "מניות בכורה להמרה",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "ניתן לפדיון" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" },
-            "T": { "en": "Redeemable/extendible", "local": "ניתן לפדיון/להארכה" },
-            "G": { "en": "Exchangeable", "local": "ניתן להחלפה" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "ניתן לפדיון/החלפה/להארכה" },
-            "C": { "en": "Redeemable/exchangeable", "local": "ניתן לפדיון/החלפה" },
-            "N": { "en": "Perpetual", "local": "תמידי" }
+            "R": {
+              "en": "Redeemable",
+              "local": "ניתן לפדיון"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "ניתן לפדיון/להארכה"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "ניתן להחלפה"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "ניתן לפדיון/החלפה/להארכה"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "ניתן לפדיון/החלפה"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "C": { "en": "Cumulative, fixed rate", "local": "מצטבר, שיעור קבוע" },
-            "P": { "en": "Participating", "local": "דיבידנדים משתתפים" },
-            "Q": { "en": "Cumulative, participating", "local": "מצטבר, משתתף" },
-            "A": { "en": "Adjustable/variable rate", "local": "ריבית מתכווננת / משתנה" },
-            "N": { "en": "Normal rate", "local": "ריבית רגילה" },
-            "U": { "en": "Auction rate", "local": "ריבית מכרז" },
-            "D": { "en": "Dividends", "local": "דיבידנדים" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "מצטבר, שיעור קבוע"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "דיבידנדים משתתפים"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "מצטבר, משתתף"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "ריבית מתכווננת / משתנה"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "ריבית רגילה"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "ריבית מכרז"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "דיבידנדים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "יחידות שותפות מוגבלת",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "מגבלות" },
-            "U": { "en": "Free", "local": "חופשי" }
+            "T": {
+              "en": "Restrictions",
+              "local": "מגבלות"
+            },
+            "U": {
+              "en": "Free",
+              "local": "חופשי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "שולם באופן מלא" },
-            "O": { "en": "Nil paid", "local": "לא שולם" },
-            "P": { "en": "Partly paid", "local": "שולם חלקית" }
+            "F": {
+              "en": "Fully paid",
+              "local": "שולם באופן מלא"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "לא שולם"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "שולם חלקית"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "תעודות פיקדון על מניות",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "מניות רגילות" },
-            "P": { "en": "Preferred/preference shares", "local": "מניות מועדפות/מניות בכורה" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "מניות רגילות להמרה" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "מניות בכורה להמרה" },
-            "L": { "en": "Limited partnership units", "local": "יחידות שותפות מוגבלת" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "מניות רגילות"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "מניות מועדפות/מניות בכורה"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "מניות רגילות להמרה"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "מניות בכורה להמרה"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "יחידות שותפות מוגבלת"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "ניתן לפדיון" },
-            "N": { "en": "Perpetual", "local": "תמידי" },
-            "B": { "en": "Convertible", "local": "ניתן להמרה" },
-            "D": { "en": "Convertible/redeemable", "local": "ניתן להמרה/לפדיון" },
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "R": {
+              "en": "Redeemable",
+              "local": "ניתן לפדיון"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "ניתן להמרה"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "ניתן להמרה/לפדיון"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "C": { "en": "Cumulative, fixed rate", "local": "מצטבר, שיעור קבוע" },
-            "P": { "en": "Participating", "local": "דיבידנדים משתתפים" },
-            "Q": { "en": "Cumulative, participating", "local": "מצטבר, משתתף" },
-            "A": { "en": "Adjustable/variable rate", "local": "ריבית מתכווננת / משתנה" },
-            "N": { "en": "Normal rate", "local": "ריבית רגילה" },
-            "U": { "en": "Auction rate", "local": "ריבית מכרז" },
-            "D": { "en": "Dividends", "local": "דיבידנדים" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "מצטבר, שיעור קבוע"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "דיבידנדים משתתפים"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "מצטבר, משתתף"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "ריבית מתכווננת / משתנה"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "ריבית רגילה"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "ריבית מכרז"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "דיבידנדים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "מכשירים מובנים (השתתפות)",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "תעודת מעקב" },
-            "B": { "en": "Outperforming certificate", "local": "תעודת ביצוע יתר" },
-            "C": { "en": "Bonus certificate", "local": "תעודת בונוס" },
-            "D": { "en": "Outperformance bonus certificate", "local": "תעודת בונוס עם ביצוע יתר" },
-            "E": { "en": "Twin-win certificate", "local": "תעודת Twin-Win" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "תעודת מעקב"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "תעודת ביצוע יתר"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "תעודת בונוס"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "תעודת בונוס עם ביצוע יתר"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "תעודת Twin-Win"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "תשלומי דיבידנד" },
-            "Y": { "en": "No payments", "local": "ללא תשלומים" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "תשלומי דיבידנד"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "ללא תשלומים"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "פירעון במזומן" },
-            "V": { "en": "Physical repayment", "local": "פירעון פיזי" },
-            "E": { "en": "Elect at settlement", "local": "בחירה במועד הסליקה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "פירעון במזומן"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "פירעון פיזי"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "בחירה במועד הסליקה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "סלים" },
-            "S": { "en": "Equities", "local": "מניות" },
-            "D": { "en": "Debt instruments", "local": "מכשירי חוב" },
-            "G": { "en": "Derivatives", "local": "נגזרים" },
-            "T": { "en": "Commodities", "local": "סחורות" },
-            "C": { "en": "Currencies", "local": "מטבעות" },
-            "I": { "en": "Indices", "local": "מדדים" },
-            "N": { "en": "Interest rates", "local": "ריביות" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Baskets",
+              "local": "סלים"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "מניות"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "מכשירי חוב"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "נגזרים"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "סחורות"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "מטבעות"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "מדדים"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "ריביות"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "מניות בכורה/מועדפות",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "ניתן לפדיון" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" },
-            "T": { "en": "Redeemable/extendible", "local": "ניתן לפדיון/להארכה" },
-            "G": { "en": "Exchangeable", "local": "ניתן להחלפה" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "ניתן לפדיון/החלפה/להארכה" },
-            "C": { "en": "Redeemable/exchangeable", "local": "ניתן לפדיון/החלפה" },
-            "N": { "en": "Perpetual", "local": "תמידי" }
+            "R": {
+              "en": "Redeemable",
+              "local": "ניתן לפדיון"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "ניתן לפדיון/להארכה"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "ניתן להחלפה"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "ניתן לפדיון/החלפה/להארכה"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "ניתן לפדיון/החלפה"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "C": { "en": "Cumulative, fixed rate", "local": "מצטבר, שיעור קבוע" },
-            "P": { "en": "Participating", "local": "דיבידנדים משתתפים" },
-            "Q": { "en": "Cumulative, participating", "local": "מצטבר, משתתף" },
-            "A": { "en": "Adjustable/variable rate", "local": "ריבית מתכווננת / משתנה" },
-            "N": { "en": "Normal rate", "local": "ריבית רגילה" },
-            "U": { "en": "Auction rate", "local": "ריבית מכרז" },
-            "D": { "en": "Dividends", "local": "דיבידנדים" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "מצטבר, שיעור קבוע"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "דיבידנדים משתתפים"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "מצטבר, משתתף"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "ריבית מתכווננת / משתנה"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "ריבית רגילה"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "ריבית מכרז"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "דיבידנדים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "מניות בכורה להמרה",
           "attribute1": {
-            "V": { "en": "Voting", "local": "הצבעה" },
-            "N": { "en": "Non-voting", "local": "ללא זכות הצבעה" },
-            "R": { "en": "Restricted", "local": "מוגבלות" },
-            "E": { "en": "Enhanced voting", "local": "הצבעה משופרת" }
+            "V": {
+              "en": "Voting",
+              "local": "הצבעה"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "ללא זכות הצבעה"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "מוגבלות"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "הצבעה משופרת"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "ניתן לפדיון" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" },
-            "T": { "en": "Redeemable/extendible", "local": "ניתן לפדיון/להארכה" },
-            "G": { "en": "Exchangeable", "local": "ניתן להחלפה" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "ניתן לפדיון/החלפה/להארכה" },
-            "C": { "en": "Redeemable/exchangeable", "local": "ניתן לפדיון/החלפה" },
-            "N": { "en": "Perpetual", "local": "תמידי" }
+            "R": {
+              "en": "Redeemable",
+              "local": "ניתן לפדיון"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "ניתן לפדיון/להארכה"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "ניתן להחלפה"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "ניתן לפדיון/החלפה/להארכה"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "ניתן לפדיון/החלפה"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "C": { "en": "Cumulative, fixed rate", "local": "מצטבר, שיעור קבוע" },
-            "P": { "en": "Participating", "local": "דיבידנדים משתתפים" },
-            "Q": { "en": "Cumulative, participating", "local": "מצטבר, משתתף" },
-            "A": { "en": "Adjustable/variable rate", "local": "ריבית מתכווננת / משתנה" },
-            "N": { "en": "Normal rate", "local": "ריבית רגילה" },
-            "U": { "en": "Auction rate", "local": "ריבית מכרז" },
-            "D": { "en": "Dividends", "local": "דיבידנדים" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "מצטבר, שיעור קבוע"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "דיבידנדים משתתפים"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "מצטבר, משתתף"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "ריבית מתכווננת / משתנה"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "ריבית רגילה"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "ריבית מכרז"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "דיבידנדים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "יחידות (קרנות נאמנות, קרנות משותפות, OPCVM/OICVM)",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "O": { "en": "Open-end", "local": "קרן פתוחה" }
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "קרנות הכנסה" },
-            "G": { "en": "Growth funds", "local": "קרנות צמיחה" },
-            "M": { "en": "Mixed funds", "local": "קרנות מעורבות" }
+            "I": {
+              "en": "Income funds",
+              "local": "קרנות הכנסה"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "קרנות צמיחה"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "קרנות מעורבות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "נדל״ן" },
-            "S": { "en": "Securities", "local": "ניירות ערך" },
-            "M": { "en": "Mixed-general", "local": "מעורב-כללי" },
-            "C": { "en": "Commodities", "local": "סחורות" },
-            "D": { "en": "Derivatives", "local": "נגזרים" }
+            "R": {
+              "en": "Real estate",
+              "local": "נדל״ן"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "ניירות ערך"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "מעורב-כללי"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "סחורות"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "נגזרים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "Z": { "en": "Bearer depository receipt", "local": "תעודת פיקדון למוסר כתב זה" },
-            "A": { "en": "Registered depository receipt", "local": "קבלה רשומה לפיקדון" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "תעודת פיקדון למוסר כתב זה"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "קבלה רשומה לפיקדון"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "אחרות (שונות)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "איגרות חוב",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" },
-            "C": { "en": "Cash payment", "local": "תשלום במזומן" },
-            "K": { "en": "Payment in kind", "local": "תשלום בעין" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "תשלום במזומן"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "תשלום בעין"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "איגרות חוב להמרה",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" },
-            "C": { "en": "Cash payment", "local": "תשלום במזומן" },
-            "K": { "en": "Payment in kind", "local": "תשלום בעין" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "תשלום במזומן"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "תשלום בעין"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "אגרות חוב עם כתבי אופציה מצורפים",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" },
-            "C": { "en": "Cash payment", "local": "תשלום במזומן" },
-            "K": { "en": "Payment in kind", "local": "תשלום בעין" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "תשלום במזומן"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "תשלום בעין"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "אגרות חוב לטווח בינוני",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" },
-            "C": { "en": "Cash payment", "local": "תשלום במזומן" },
-            "K": { "en": "Payment in kind", "local": "תשלום בעין" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "תשלום במזומן"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "תשלום בעין"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "מוצרים מובנים (הגנת קרן)",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "תעודת הגנת הון עם השתתפות" },
-            "B": { "en": "Capital protection convertible certificate", "local": "תעודת הגנת הון להמרה" },
-            "C": { "en": "Barrier capital protection certificate", "local": "תעודת הגנת הון עם חסם" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "תעודת הגנת הון עם קופונים" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "תעודת הגנת הון עם השתתפות"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "תעודת הגנת הון להמרה"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "תעודת הגנת הון עם חסם"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "תעודת הגנת הון עם קופונים"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "תשלומי ריבית קבועים" },
-            "D": { "en": "Dividend payments", "local": "תשלומי דיבידנד" },
-            "V": { "en": "Variable interest payments", "local": "תשלומי ריבית משתנים" },
-            "Y": { "en": "No payments", "local": "ללא תשלומים" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "תשלומי ריבית קבועים"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "תשלומי דיבידנד"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "תשלומי ריבית משתנים"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "ללא תשלומים"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "החזר כספי קבוע (רמת ההון המוגן בלבד)" },
-            "V": { "en": "Variable cash repayment", "local": "החזר כספי משתנה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "החזר כספי קבוע (רמת ההון המוגן בלבד)"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "החזר כספי משתנה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "סלים" },
-            "S": { "en": "Equities", "local": "מניות" },
-            "D": { "en": "Debt instruments/interest rates", "local": "מכשירי חוב / ריביות" },
-            "T": { "en": "Commodities", "local": "סחורות" },
-            "C": { "en": "Currencies", "local": "מטבעות" },
-            "I": { "en": "Indices", "local": "מדדים" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Baskets",
+              "local": "סלים"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "מניות"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "מכשירי חוב / ריביות"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "סחורות"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "מטבעות"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "מדדים"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "מוצרים מובנים (ללא הגנת הון)",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "תעודת הנחה" },
-            "B": { "en": "Barrier discount certificate", "local": "תעודת הנחה מחסום" },
-            "C": { "en": "Reverse convertible", "local": "המרה הפוכה" },
-            "D": { "en": "Barrier reverse convertible", "local": "היפוך המרה מחסום" },
-            "E": { "en": "Express certificate", "local": "תעודת אקספרס" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "תעודת הנחה"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "תעודת הנחה מחסום"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "המרה הפוכה"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "היפוך המרה מחסום"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "תעודת אקספרס"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "החזר במזומן" },
-            "S": { "en": "Repayment in assets", "local": "החזר בנכסים" },
-            "C": { "en": "Repayment in assets and cash", "local": "החזר בנכסים ובמזומן" },
-            "T": { "en": "Repayment in assets or cash", "local": "החזר בנכסים או במזומן" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "החזר במזומן"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "החזר בנכסים"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "החזר בנכסים ובמזומן"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "החזר בנכסים או במזומן"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "ניירות ערך מגובי משכנתא (MBS)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "ניירות ערך מגובי נכסים (ABS)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "אגרות חוב מוניציפליות",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "תעודות פיקדון על מכשירי חוב",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "איגרות חוב" },
-            "C": { "en": "Convertible bonds", "local": "איגרות חוב להמרה" },
-            "W": { "en": "Bonds with warrants attached", "local": "אגרות חוב עם כתבי אופציה מצורפים" },
-            "T": { "en": "Medium-term notes", "local": "אגרות חוב לטווח בינוני" },
-            "Y": { "en": "Money market instruments", "local": "מכשירי שוק הכסף" },
-            "G": { "en": "Mortgage-backed securities", "local": "ניירות ערך מגובי משכנתאות" },
-            "Q": { "en": "Asset-backed securities", "local": "ניירות ערך מגובי נכסים" },
-            "N": { "en": "Municipal bonds", "local": "אגרות חוב מוניציפליות" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bonds",
+              "local": "איגרות חוב"
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "איגרות חוב להמרה"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "אגרות חוב עם כתבי אופציה מצורפים"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "אגרות חוב לטווח בינוני"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "מכשירי שוק הכסף"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "ניירות ערך מגובי משכנתאות"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "ניירות ערך מגובי נכסים"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "אגרות חוב מוניציפליות"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" },
-            "C": { "en": "Cash payment", "local": "תשלום במזומן" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "תשלום במזומן"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "מח״מ קבוע" },
-            "G": { "en": "Fixed maturity with call feature", "local": "מח״מ קבוע עם אופציית פירעון מוקדם" },
-            "C": { "en": "Fixed maturity with put feature", "local": "מח״מ קבוע עם אופציית מכירה" },
-            "D": { "en": "Fixed maturity with put and call", "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם" },
-            "A": { "en": "Amortization plan", "local": "תוכנית אמורטיזציה" },
-            "B": { "en": "Amortization plan with call feature", "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם" },
-            "T": { "en": "Amortization plan with put feature", "local": "תוכנית אמורטיזציה עם אופציית מכירה" },
-            "L": { "en": "Amortization plan with put and call", "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם" },
-            "P": { "en": "Perpetual", "local": "תמידי" },
-            "Q": { "en": "Perpetual with call feature", "local": "נצחי עם אופציית פדיון מוקדם" },
-            "R": { "en": "Perpetual with put feature", "local": "נצחי עם אופציית מכירה" },
-            "E": { "en": "Extendible", "local": "ניתן להארכה" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "מח״מ קבוע"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "מח״מ קבוע עם אופציית פירעון מוקדם"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "מח״מ קבוע עם אופציית מכירה"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "מח״מ קבוע עם אופציות מכירה ופדיון מוקדם"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "תוכנית אמורטיזציה"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "תוכנית אמורטיזציה עם אופציית פדיון מוקדם"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "תוכנית אמורטיזציה עם אופציית מכירה"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "תוכנית אמורטיזציה עם אופציות מכירה ופדיון מוקדם"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "תמידי"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "נצחי עם אופציית פדיון מוקדם"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "נצחי עם אופציית מכירה"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "ניתן להארכה"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "מכשירי שוק הכסף",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "שיעור קבוע" },
-            "Z": { "en": "Zero rate/discounted", "local": "ריבית אפס / בהנחה" },
-            "V": { "en": "Variable", "local": "משתנה" },
-            "K": { "en": "Payment in kind", "local": "תשלום בעין" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "שיעור קבוע"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ריבית אפס / בהנחה"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "משתנה"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "תשלום בעין"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "ערבות ממשלתית / מדינתית" },
-            "G": { "en": "Joint guarantee", "local": "ערבות משותפת" },
-            "S": { "en": "Secured", "local": "מובטח בשעבוד" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "ללא ביטחונות / ללא ערבות" },
-            "P": { "en": "Negative pledge", "local": "התחייבות לאי-שעבוד" },
-            "N": { "en": "Senior", "local": "בכיר" },
-            "O": { "en": "Senior subordinated", "local": "בכיר נחות" },
-            "Q": { "en": "Junior", "local": "זוטר" },
-            "J": { "en": "Junior subordinated", "local": "זוטר נחות" },
-            "C": { "en": "Supranational", "local": "על-לאומי" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "ערבות ממשלתית / מדינתית"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ערבות משותפת"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "מובטח בשעבוד"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "ללא ביטחונות / ללא ערבות"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "התחייבות לאי-שעבוד"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "בכיר"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "בכיר נחות"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "זוטר"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "זוטר נחות"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "על-לאומי"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "אחרות (שונות)",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "הלוואה בנקאית" },
-            "P": { "en": "Promissory note", "local": "שטר התחייבות" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bank loan",
+              "local": "הלוואה בנקאית"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "שטר התחייבות"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "נושא" },
-            "R": { "en": "Registered", "local": "רשומה" },
-            "N": { "en": "Bearer/registered", "local": "נושא/רשומה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Bearer",
+              "local": "נושא"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "רשומה"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "נושא/רשומה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "קרנות השקעה/קרנות נאמנות סטנדרטיות (וניל)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "קרן פתוחה" },
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "קרנות הכנסה" },
-            "G": { "en": "Accumulation funds", "local": "קרנות צבירה" },
-            "J": { "en": "Mixed funds", "local": "קרנות מעורבות" }
+            "I": {
+              "en": "Income funds",
+              "local": "קרנות הכנסה"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "קרנות צבירה"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "קרנות מעורבות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "נדל״ן" },
-            "B": { "en": "Debt instruments", "local": "מכשירי חוב" },
-            "E": { "en": "Equities", "local": "מניות" },
-            "V": { "en": "Convertible securities", "local": "ניירות ערך להמרה" },
-            "L": { "en": "Mixed", "local": "מעורב" },
-            "C": { "en": "Commodities", "local": "סחורות" },
-            "D": { "en": "Derivatives", "local": "נגזרים" },
-            "F": { "en": "Referential instruments", "local": "מכשירי ייחוס" },
-            "K": { "en": "Credits", "local": "אשראי" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "R": {
+              "en": "Real estate",
+              "local": "נדל״ן"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "מכשירי חוב"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "מניות"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "ניירות ערך להמרה"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "מעורב"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "סחורות"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "נגזרים"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "מכשירי ייחוס"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "אשראי"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "Q": { "en": "Shares for QI", "local": "מניות למשקיעים כשירים" },
-            "U": { "en": "Units", "local": "יחידות" },
-            "Y": { "en": "Units for QI", "local": "יחידות למשקיעים כשירים" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "מניות למשקיעים כשירים"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "יחידות למשקיעים כשירים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "קרנות גידור",
           "attribute1": {
-            "D": { "en": "Directional", "local": "כיוונית" },
-            "R": { "en": "Relative value", "local": "ערך יחסי" },
-            "S": { "en": "Security selection", "local": "בחירת ניירות ערך" },
-            "E": { "en": "Event-driven", "local": "מונעת אירועים" },
-            "A": { "en": "Arbitrage", "local": "ארביטראז׳" },
-            "N": { "en": "Multi-strategy", "local": "רב-אסטרטגיה" },
-            "L": { "en": "Asset-based lending", "local": "הלוואות מגובות נכסים" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "D": {
+              "en": "Directional",
+              "local": "כיוונית"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "ערך יחסי"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "בחירת ניירות ערך"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "מונעת אירועים"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "ארביטראז׳"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "רב-אסטרטגיה"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "הלוואות מגובות נכסים"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "קרנות השקעה בנדל״ן (REITs)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "קרן פתוחה" },
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "קרנות הכנסה" },
-            "G": { "en": "Accumulation funds", "local": "קרנות צבירה" },
-            "J": { "en": "Mixed funds", "local": "קרנות מעורבות" }
+            "I": {
+              "en": "Income funds",
+              "local": "קרנות הכנסה"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "קרנות צבירה"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "קרנות מעורבות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "Q": { "en": "Shares for QI", "local": "מניות למשקיעים כשירים" },
-            "U": { "en": "Units", "local": "יחידות" },
-            "Y": { "en": "Units for QI", "local": "יחידות למשקיעים כשירים" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "מניות למשקיעים כשירים"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "יחידות למשקיעים כשירים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "קרנות סל (ETFs)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "קרן פתוחה" },
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "קרנות הכנסה" },
-            "G": { "en": "Accumulation funds", "local": "קרנות צבירה" },
-            "J": { "en": "Mixed funds", "local": "קרנות מעורבות" }
+            "I": {
+              "en": "Income funds",
+              "local": "קרנות הכנסה"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "קרנות צבירה"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "קרנות מעורבות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "נדל״ן" },
-            "B": { "en": "Debt instruments", "local": "מכשירי חוב" },
-            "E": { "en": "Equities", "local": "מניות" },
-            "V": { "en": "Convertible securities", "local": "ניירות ערך להמרה" },
-            "L": { "en": "Mixed", "local": "מעורב" },
-            "C": { "en": "Commodities", "local": "סחורות" },
-            "D": { "en": "Derivatives", "local": "נגזרים" },
-            "F": { "en": "Referential instruments", "local": "מכשירי ייחוס" },
-            "K": { "en": "Credits", "local": "אשראי" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "R": {
+              "en": "Real estate",
+              "local": "נדל״ן"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "מכשירי חוב"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "מניות"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "ניירות ערך להמרה"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "מעורב"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "סחורות"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "נגזרים"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "מכשירי ייחוס"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "אשראי"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "U": { "en": "Units", "local": "יחידות" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "קרנות פנסיה",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "קרן פתוחה" },
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "מאוזן / שמרני" },
-            "G": { "en": "Growth", "local": "צמיחה" },
-            "L": { "en": "Life style", "local": "סגנון חיים" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "מאוזן / שמרני"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "צמיחה"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "סגנון חיים"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "הטבה מוגדרת" },
-            "B": { "en": "Defined contribution", "local": "הפקדה מוגדרת" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "הטבה מוגדרת"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "הפקדה מוגדרת"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "U": { "en": "Units", "local": "יחידות" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "קרנות של קרנות",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "קרן פתוחה" },
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "קרנות הכנסה" },
-            "G": { "en": "Accumulation funds", "local": "קרנות צבירה" },
-            "J": { "en": "Mixed funds", "local": "קרנות מעורבות" }
+            "I": {
+              "en": "Income funds",
+              "local": "קרנות הכנסה"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "קרנות צבירה"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "קרנות מעורבות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "קרנות השקעה/קרנות נאמנות סטנדרטיות (וניל)" },
-            "H": { "en": "Hedge funds", "local": "קרנות גידור" },
-            "B": { "en": "REITs", "local": "נדל\"ן" },
-            "E": { "en": "ETFs", "local": "קרנות סל" },
-            "P": { "en": "Private equity funds", "local": "קרנות השקעה פרטית" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "קרנות השקעה/קרנות נאמנות סטנדרטיות (וניל)"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "קרנות גידור"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "נדל\"ן"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "קרנות סל"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "קרנות השקעה פרטית"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "Q": { "en": "Shares for QI", "local": "מניות למשקיעים כשירים" },
-            "U": { "en": "Units", "local": "יחידות" },
-            "Y": { "en": "Units for QI", "local": "יחידות למשקיעים כשירים" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "מניות למשקיעים כשירים"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "יחידות למשקיעים כשירים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "קרנות השקעה פרטית",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "קרן פתוחה" },
-            "C": { "en": "Closed-end", "local": "קרן סגורה" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "O": {
+              "en": "Open-end",
+              "local": "קרן פתוחה"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "קרן סגורה"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "קרנות הכנסה" },
-            "G": { "en": "Accumulation funds", "local": "קרנות צבירה" },
-            "J": { "en": "Mixed funds", "local": "קרנות מעורבות" }
+            "I": {
+              "en": "Income funds",
+              "local": "קרנות הכנסה"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "קרנות צבירה"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "קרנות מעורבות"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "נדל״ן" },
-            "B": { "en": "Debt instruments", "local": "מכשירי חוב" },
-            "E": { "en": "Equities", "local": "מניות" },
-            "V": { "en": "Convertible securities", "local": "ניירות ערך להמרה" },
-            "L": { "en": "Mixed", "local": "מעורב" },
-            "C": { "en": "Commodities", "local": "סחורות" },
-            "D": { "en": "Derivatives", "local": "נגזרים" },
-            "F": { "en": "Referential instruments", "local": "מכשירי ייחוס" },
-            "K": { "en": "Credits", "local": "אשראי" },
-            "M": { "en": "Others (misc.)", "local": "אחרות (שונות)" }
+            "R": {
+              "en": "Real estate",
+              "local": "נדל״ן"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "מכשירי חוב"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "מניות"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "ניירות ערך להמרה"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "מעורב"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "סחורות"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "נגזרים"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "מכשירי ייחוס"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "אשראי"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "אחרות (שונות)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "Q": { "en": "Shares for QI", "local": "מניות למשקיעים כשירים" },
-            "U": { "en": "Units", "local": "יחידות" },
-            "Y": { "en": "Units for QI", "local": "יחידות למשקיעים כשירים" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "מניות למשקיעים כשירים"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "יחידות למשקיעים כשירים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "אחרות (שונות)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "לא רלוונטי/לא מוגדר" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "מניות" },
-            "Q": { "en": "Shares for QI", "local": "מניות למשקיעים כשירים" },
-            "U": { "en": "Units", "local": "יחידות" },
-            "Y": { "en": "Units for QI", "local": "יחידות למשקיעים כשירים" }
+            "S": {
+              "en": "Shares",
+              "local": "מניות"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "מניות למשקיעים כשירים"
+            },
+            "U": {
+              "en": "Units",
+              "local": "יחידות"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "יחידות למשקיעים כשירים"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "לא רלוונטי/לא מוגדר"
+            }
           }
         }
       }

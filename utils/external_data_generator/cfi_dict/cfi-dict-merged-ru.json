@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "Акции (обыкновенные/простые)",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Ограничения имеются" },
-            "U": { "en": "Free", "local": "Ограничения отсутствуют" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Ограничения имеются"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Ограничения отсутствуют"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Оплачены полностью" },
-            "O": { "en": "Nil paid", "local": "Не оплачены" },
-            "P": { "en": "Partly paid", "local": "Оплачены частично" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Оплачены полностью"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Не оплачены"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Оплачены частично"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "Привилегированные акции",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "С возможностью выкупа" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" },
-            "T": { "en": "Redeemable/extendible", "local": "С возможностью выкупа/продления" },
-            "G": { "en": "Exchangeable", "local": "С возможностью обмена" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "С возможностью выкупа/продления/обмена" },
-            "C": { "en": "Redeemable/exchangeable", "local": "С возможностью выкупа/обмена" },
-            "N": { "en": "Perpetual", "local": "Бессрочные" }
+            "R": {
+              "en": "Redeemable",
+              "local": "С возможностью выкупа"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "С возможностью выкупа/продления"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "С возможностью обмена"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "С возможностью выкупа/продления/обмена"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "С возможностью выкупа/обмена"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Кумулятивные, с фиксированной ставкой" },
-            "P": { "en": "Participating", "local": "С участием в прибыли" },
-            "Q": { "en": "Cumulative, participating", "local": "Кумулятивные, с участием в прибыли" },
-            "A": { "en": "Adjustable/variable rate", "local": "Плавающая (регулируемая) ставка" },
-            "N": { "en": "Normal rate", "local": "Обыкновенная ставка" },
-            "U": { "en": "Auction rate", "local": "Аукционная ставка" },
-            "D": { "en": "Dividends", "local": "Дивиденды" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Кумулятивные, с фиксированной ставкой"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "С участием в прибыли"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Кумулятивные, с участием в прибыли"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Плавающая (регулируемая) ставка"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Обыкновенная ставка"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Аукционная ставка"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Дивиденды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "Конвертируемые акции",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Ограничения имеются" },
-            "U": { "en": "Free", "local": "Ограничения отсутствуют" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Ограничения имеются"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Ограничения отсутствуют"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Оплачены полностью" },
-            "O": { "en": "Nil paid", "local": "Не оплачены" },
-            "P": { "en": "Partly paid", "local": "Оплачены частично" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Оплачены полностью"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Не оплачены"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Оплачены частично"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "Привилегированные конвертируемые акции",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "С возможностью выкупа" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" },
-            "T": { "en": "Redeemable/extendible", "local": "С возможностью выкупа/продления" },
-            "G": { "en": "Exchangeable", "local": "С возможностью обмена" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "С возможностью выкупа/продления/обмена" },
-            "C": { "en": "Redeemable/exchangeable", "local": "С возможностью выкупа/обмена" },
-            "N": { "en": "Perpetual", "local": "Бессрочные" }
+            "R": {
+              "en": "Redeemable",
+              "local": "С возможностью выкупа"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "С возможностью выкупа/продления"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "С возможностью обмена"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "С возможностью выкупа/продления/обмена"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "С возможностью выкупа/обмена"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Кумулятивные, с фиксированной ставкой" },
-            "P": { "en": "Participating", "local": "С участием в прибыли" },
-            "Q": { "en": "Cumulative, participating", "local": "Кумулятивные, с участием в прибыли" },
-            "A": { "en": "Adjustable/variable rate", "local": "Плавающая (регулируемая) ставка" },
-            "N": { "en": "Normal rate", "local": "Обыкновенная ставка" },
-            "U": { "en": "Auction rate", "local": "Аукционная ставка" },
-            "D": { "en": "Dividends", "local": "Дивиденды" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Кумулятивные, с фиксированной ставкой"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "С участием в прибыли"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Кумулятивные, с участием в прибыли"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Плавающая (регулируемая) ставка"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Обыкновенная ставка"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Аукционная ставка"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Дивиденды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "Доли в ограниченном партнёрстве",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Ограничения имеются" },
-            "U": { "en": "Free", "local": "Ограничения отсутствуют" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Ограничения имеются"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Ограничения отсутствуют"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Оплачены полностью" },
-            "O": { "en": "Nil paid", "local": "Не оплачены" },
-            "P": { "en": "Partly paid", "local": "Оплачены частично" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Оплачены полностью"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Не оплачены"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Оплачены частично"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "Депозитарные расписки на долевые инструменты",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "Обыкновенные/простые акции" },
-            "P": { "en": "Preferred/preference shares", "local": "Привилегированные/преференциальные акции" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "Конвертируемые обыкновенные/простые акции" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "Конвертируемые привилегированные/преференциальные акции" },
-            "L": { "en": "Limited partnership units", "local": "Доли в ограниченном партнёрстве" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "Обыкновенные/простые акции"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "Привилегированные/преференциальные акции"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "Конвертируемые обыкновенные/простые акции"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "Конвертируемые привилегированные/преференциальные акции"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "Доли в ограниченном партнёрстве"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "С возможностью выкупа" },
-            "N": { "en": "Perpetual", "local": "Бессрочные" },
-            "B": { "en": "Convertible", "local": "Конвертируемый" },
-            "D": { "en": "Convertible/redeemable", "local": "Конверсия/выкуп" },
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "R": {
+              "en": "Redeemable",
+              "local": "С возможностью выкупа"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "Конвертируемый"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "Конверсия/выкуп"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Кумулятивные, с фиксированной ставкой" },
-            "P": { "en": "Participating", "local": "С участием в прибыли" },
-            "Q": { "en": "Cumulative, participating", "local": "Кумулятивные, с участием в прибыли" },
-            "A": { "en": "Adjustable/variable rate", "local": "Плавающая (регулируемая) ставка" },
-            "N": { "en": "Normal rate", "local": "Обыкновенная ставка" },
-            "U": { "en": "Auction rate", "local": "Аукционная ставка" },
-            "D": { "en": "Dividends", "local": "Дивиденды" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Кумулятивные, с фиксированной ставкой"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "С участием в прибыли"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Кумулятивные, с участием в прибыли"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Плавающая (регулируемая) ставка"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Обыкновенная ставка"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Аукционная ставка"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Дивиденды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "Структурированные инструменты (участие)",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "Трекерный сертификат" },
-            "B": { "en": "Outperforming certificate", "local": "Сертификат с повышенным участием в доходности" },
-            "C": { "en": "Bonus certificate", "local": "Бонусный сертификат" },
-            "D": { "en": "Outperformance bonus certificate", "local": "Бонусный сертификат с повышенным участием в доходности" },
-            "E": { "en": "Twin-win certificate", "local": "Сертификат Twin-Win" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "Трекерный сертификат"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "Сертификат с повышенным участием в доходности"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "Бонусный сертификат"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "Бонусный сертификат с повышенным участием в доходности"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "Сертификат Twin-Win"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "Выплата дивидендов" },
-            "Y": { "en": "No payments", "local": "Выплаты отсутствуют" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "Выплата дивидендов"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "Выплаты отсутствуют"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "Погашение за счёт денежных средств" },
-            "V": { "en": "Physical repayment", "local": "Физический" },
-            "E": { "en": "Elect at settlement", "local": "На выбор в момент расчётов" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "Погашение за счёт денежных средств"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "Физический"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "На выбор в момент расчётов"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "Корзины" },
-            "S": { "en": "Equities", "local": "Долевые инструменты" },
-            "D": { "en": "Debt instruments", "local": "Долговые инструменты" },
-            "G": { "en": "Derivatives", "local": "Деривативы" },
-            "T": { "en": "Commodities", "local": "Товары" },
-            "C": { "en": "Currencies", "local": "Валюты" },
-            "I": { "en": "Indices", "local": "Индексы" },
-            "N": { "en": "Interest rates", "local": "Процентные ставки" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Baskets",
+              "local": "Корзины"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "Долевые инструменты"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "Долговые инструменты"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "Деривативы"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "Товары"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "Валюты"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "Индексы"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "Процентные ставки"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "Преференциальные акции",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "С возможностью выкупа" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" },
-            "T": { "en": "Redeemable/extendible", "local": "С возможностью выкупа/продления" },
-            "G": { "en": "Exchangeable", "local": "С возможностью обмена" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "С возможностью выкупа/продления/обмена" },
-            "C": { "en": "Redeemable/exchangeable", "local": "С возможностью выкупа/обмена" },
-            "N": { "en": "Perpetual", "local": "Бессрочные" }
+            "R": {
+              "en": "Redeemable",
+              "local": "С возможностью выкупа"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "С возможностью выкупа/продления"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "С возможностью обмена"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "С возможностью выкупа/продления/обмена"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "С возможностью выкупа/обмена"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Кумулятивные, с фиксированной ставкой" },
-            "P": { "en": "Participating", "local": "С участием в прибыли" },
-            "Q": { "en": "Cumulative, participating", "local": "Кумулятивные, с участием в прибыли" },
-            "A": { "en": "Adjustable/variable rate", "local": "Плавающая (регулируемая) ставка" },
-            "N": { "en": "Normal rate", "local": "Обыкновенная ставка" },
-            "U": { "en": "Auction rate", "local": "Аукционная ставка" },
-            "D": { "en": "Dividends", "local": "Дивиденды" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Кумулятивные, с фиксированной ставкой"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "С участием в прибыли"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Кумулятивные, с участием в прибыли"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Плавающая (регулируемая) ставка"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Обыкновенная ставка"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Аукционная ставка"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Дивиденды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "Преференциальные конвертируемые акции",
           "attribute1": {
-            "V": { "en": "Voting", "local": "С правом голоса" },
-            "N": { "en": "Non-voting", "local": "Без права голоса" },
-            "R": { "en": "Restricted", "local": "С ограниченнием" },
-            "E": { "en": "Enhanced voting", "local": "С расширенным правом голоса" }
+            "V": {
+              "en": "Voting",
+              "local": "С правом голоса"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Без права голоса"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "С ограниченнием"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "С расширенным правом голоса"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "С возможностью выкупа" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" },
-            "T": { "en": "Redeemable/extendible", "local": "С возможностью выкупа/продления" },
-            "G": { "en": "Exchangeable", "local": "С возможностью обмена" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "С возможностью выкупа/продления/обмена" },
-            "C": { "en": "Redeemable/exchangeable", "local": "С возможностью выкупа/обмена" },
-            "N": { "en": "Perpetual", "local": "Бессрочные" }
+            "R": {
+              "en": "Redeemable",
+              "local": "С возможностью выкупа"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "С возможностью выкупа/продления"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "С возможностью обмена"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "С возможностью выкупа/продления/обмена"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "С возможностью выкупа/обмена"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Кумулятивные, с фиксированной ставкой" },
-            "P": { "en": "Participating", "local": "С участием в прибыли" },
-            "Q": { "en": "Cumulative, participating", "local": "Кумулятивные, с участием в прибыли" },
-            "A": { "en": "Adjustable/variable rate", "local": "Плавающая (регулируемая) ставка" },
-            "N": { "en": "Normal rate", "local": "Обыкновенная ставка" },
-            "U": { "en": "Auction rate", "local": "Аукционная ставка" },
-            "D": { "en": "Dividends", "local": "Дивиденды" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Кумулятивные, с фиксированной ставкой"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "С участием в прибыли"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Кумулятивные, с участием в прибыли"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Плавающая (регулируемая) ставка"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Обыкновенная ставка"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Аукционная ставка"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Дивиденды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "Паи/доли (паевые фонды, взаимные фонды, инвестиционные фонды OPCVM/OICVM)",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "O": { "en": "Open-end", "local": "Открытые" }
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Фонды дохода" },
-            "G": { "en": "Growth funds", "local": "Фонды роста" },
-            "M": { "en": "Mixed funds", "local": "Смешанные фонды" }
+            "I": {
+              "en": "Income funds",
+              "local": "Фонды дохода"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "Фонды роста"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "Смешанные фонды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Недвижимость" },
-            "S": { "en": "Securities", "local": "Ценные бумаги" },
-            "M": { "en": "Mixed-general", "local": "Смешанные активы" },
-            "C": { "en": "Commodities", "local": "Товары" },
-            "D": { "en": "Derivatives", "local": "Деривативы" }
+            "R": {
+              "en": "Real estate",
+              "local": "Недвижимость"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "Ценные бумаги"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "Смешанные активы"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Товары"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Деривативы"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "Z": { "en": "Bearer depository receipt", "local": "Депозитарная расписка на предъявителя" },
-            "A": { "en": "Registered depository receipt", "local": "Именная депозитарная расписка" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "Депозитарная расписка на предъявителя"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "Именная депозитарная расписка"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Прочее (другое)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "Облигации",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" },
-            "C": { "en": "Cash payment", "local": "Денежные выплаты" },
-            "K": { "en": "Payment in kind", "local": "Выплаты в натуральной форме" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Денежные выплаты"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Выплаты в натуральной форме"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "Конвертируемые облигации",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" },
-            "C": { "en": "Cash payment", "local": "Денежные выплаты" },
-            "K": { "en": "Payment in kind", "local": "Выплаты в натуральной форме" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Денежные выплаты"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Выплаты в натуральной форме"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "Облигации с прикреплёнными варрантами",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" },
-            "C": { "en": "Cash payment", "local": "Денежные выплаты" },
-            "K": { "en": "Payment in kind", "local": "Выплаты в натуральной форме" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Денежные выплаты"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Выплаты в натуральной форме"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "Среднесрочные облигации",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" },
-            "C": { "en": "Cash payment", "local": "Денежные выплаты" },
-            "K": { "en": "Payment in kind", "local": "Выплаты в натуральной форме" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Денежные выплаты"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Выплаты в натуральной форме"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "Структурированные продукты (защита капитала)",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "Сертификат с защитой капитала и участием" },
-            "B": { "en": "Capital protection convertible certificate", "local": "Конвертируемый сертификат с защитой капитала" },
-            "C": { "en": "Barrier capital protection certificate", "local": "Сертификат с защитой капитала и барьером" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "Сертификат с защитой капитала и выплатой купонов" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "Сертификат с защитой капитала и участием"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "Конвертируемый сертификат с защитой капитала"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "Сертификат с защитой капитала и барьером"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "Сертификат с защитой капитала и выплатой купонов"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "Фиксированные процентные выплаты" },
-            "D": { "en": "Dividend payments", "local": "Выплата дивидендов" },
-            "V": { "en": "Variable interest payments", "local": "Переменные процентные выплаты" },
-            "Y": { "en": "No payments", "local": "Выплаты отсутствуют" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "Фиксированные процентные выплаты"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "Выплата дивидендов"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "Переменные процентные выплаты"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "Выплаты отсутствуют"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "Фиксированное денежное погашение (в пределах защищённого уровня капитала)" },
-            "V": { "en": "Variable cash repayment", "local": "Переменное денежное погашение" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "Фиксированное денежное погашение (в пределах защищённого уровня капитала)"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "Переменное денежное погашение"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "Корзины" },
-            "S": { "en": "Equities", "local": "Долевые инструменты" },
-            "D": { "en": "Debt instruments/interest rates", "local": "Долговые инструменты / процентные ставки" },
-            "T": { "en": "Commodities", "local": "Товары" },
-            "C": { "en": "Currencies", "local": "Валюты" },
-            "I": { "en": "Indices", "local": "Индексы" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Baskets",
+              "local": "Корзины"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "Долевые инструменты"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "Долговые инструменты / процентные ставки"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "Товары"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "Валюты"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "Индексы"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "Структурированные продукты (без защиты капитала)",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "Дисконтный сертификат" },
-            "B": { "en": "Barrier discount certificate", "local": "Дисконтный сертификат с барьером" },
-            "C": { "en": "Reverse convertible", "local": "Обратный конвертируемый сертификат" },
-            "D": { "en": "Barrier reverse convertible", "local": "Обратный конвертируемый сертификат с барьером" },
-            "E": { "en": "Express certificate", "local": "Экспресс-сертификат" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "Дисконтный сертификат"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "Дисконтный сертификат с барьером"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "Обратный конвертируемый сертификат"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "Обратный конвертируемый сертификат с барьером"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "Экспресс-сертификат"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "Погашение в денежной форме" },
-            "S": { "en": "Repayment in assets", "local": "Погашение активами" },
-            "C": { "en": "Repayment in assets and cash", "local": "Погашение в форме активов и денежных средств" },
-            "T": { "en": "Repayment in assets or cash", "local": "Погашение в форме активов или денежных средств" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "Погашение в денежной форме"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "Погашение активами"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "Погашение в форме активов и денежных средств"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "Погашение в форме активов или денежных средств"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "Ипотечные ценные бумаги",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "Ценные бумаги, обеспеченные активами",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "Муниципальные облигации",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "Депозитарные расписки на долговые инструменты",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "Облигации" },
-            "C": { "en": "Convertible bonds", "local": "Конвертируемые облигации" },
-            "W": { "en": "Bonds with warrants attached", "local": "Облигации с прикреплёнными варрантами" },
-            "T": { "en": "Medium-term notes", "local": "Среднесрочные облигации" },
-            "Y": { "en": "Money market instruments", "local": "Инструменты денежного рынка" },
-            "G": { "en": "Mortgage-backed securities", "local": "Ипотечные ценные бумаги" },
-            "Q": { "en": "Asset-backed securities", "local": "Ценные бумаги, обеспеченные активами" },
-            "N": { "en": "Municipal bonds", "local": "Муниципальные облигации" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bonds",
+              "local": "Облигации"
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "Конвертируемые облигации"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "Облигации с прикреплёнными варрантами"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "Среднесрочные облигации"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "Инструменты денежного рынка"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "Ипотечные ценные бумаги"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "Ценные бумаги, обеспеченные активами"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "Муниципальные облигации"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" },
-            "C": { "en": "Cash payment", "local": "Денежные выплаты" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Денежные выплаты"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "Фиксированный срок погашения" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "A": { "en": "Amortization plan", "local": "План амортизации" },
-            "B": { "en": "Amortization plan with call feature", "local": "Амортизация с правом досрочного выкупа эмитентом (колл)" },
-            "T": { "en": "Amortization plan with put feature", "local": "Амортизация с правом досрочного погашения инвестором (пут)" },
-            "L": { "en": "Amortization plan with put and call", "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)" },
-            "P": { "en": "Perpetual", "local": "Бессрочные" },
-            "Q": { "en": "Perpetual with call feature", "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)" },
-            "R": { "en": "Perpetual with put feature", "local": "Бессрочные с правом досрочного погашения инвестором (пут)" },
-            "E": { "en": "Extendible", "local": "С возможностью продления" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Фиксированный срок погашения"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Фиксированный срок погашения с правом досрочного выкупа эмитентом (колл)"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Фиксированный срок с правом досрочного погашения инвестором (пут)"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Фиксированный срок погашения с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "План амортизации"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Амортизация с правом досрочного выкупа эмитентом (колл)"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Амортизация с правом досрочного погашения инвестором (пут)"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Амортизация с правом досрочного погашения эмитентом и инвестором (колл и пут)"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Бессрочные"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Бессрочные с правом досрочного выкупа эмитентом (колл)"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Бессрочные с правом досрочного погашения инвестором (пут)"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "С возможностью продления"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "Инструменты денежного рынка",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Фиксированная ставка" },
-            "Z": { "en": "Zero rate/discounted", "local": "Нулевая ставка / дисконт" },
-            "V": { "en": "Variable", "local": "Плавающая ставка" },
-            "K": { "en": "Payment in kind", "local": "Выплаты в натуральной форме" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Фиксированная ставка"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Нулевая ставка / дисконт"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Плавающая ставка"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Выплаты в натуральной форме"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Государственная гарантия" },
-            "G": { "en": "Joint guarantee", "local": "Совместная гарантия" },
-            "S": { "en": "Secured", "local": "Обеспеченные" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Без обеспечения/гарантии" },
-            "P": { "en": "Negative pledge", "local": "Отказ от залога" },
-            "N": { "en": "Senior", "local": "Старший долг" },
-            "O": { "en": "Senior subordinated", "local": "Старший субординированный долг" },
-            "Q": { "en": "Junior", "local": "Младший долг" },
-            "J": { "en": "Junior subordinated", "local": "Младший субординированный долг" },
-            "C": { "en": "Supranational", "local": "Наднациональные" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Государственная гарантия"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Совместная гарантия"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Обеспеченные"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Без обеспечения/гарантии"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Отказ от залога"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Старший долг"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Старший субординированный долг"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Младший долг"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Младший субординированный долг"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Наднациональные"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Прочее (другое)",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "Банковский заём" },
-            "P": { "en": "Promissory note", "local": "Вексель" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bank loan",
+              "local": "Банковский заём"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "Вексель"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "На предъявителя" },
-            "R": { "en": "Registered", "local": "Именные" },
-            "N": { "en": "Bearer/registered", "local": "На предъявителя/именные" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Bearer",
+              "local": "На предъявителя"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Именные"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "На предъявителя/именные"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "Стандартные (традиционные) инвестиционные фонды / паевые фонды",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Открытые" },
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Фонды дохода" },
-            "G": { "en": "Accumulation funds", "local": "Накопительные фонды" },
-            "J": { "en": "Mixed funds", "local": "Смешанные фонды" }
+            "I": {
+              "en": "Income funds",
+              "local": "Фонды дохода"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Накопительные фонды"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Смешанные фонды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Недвижимость" },
-            "B": { "en": "Debt instruments", "local": "Долговые инструменты" },
-            "E": { "en": "Equities", "local": "Долевые инструменты" },
-            "V": { "en": "Convertible securities", "local": "Конвертируемые ценные бумаги" },
-            "L": { "en": "Mixed", "local": "Смешанные" },
-            "C": { "en": "Commodities", "local": "Товары" },
-            "D": { "en": "Derivatives", "local": "Деривативы" },
-            "F": { "en": "Referential instruments", "local": "Референсные инструменты" },
-            "K": { "en": "Credits", "local": "Кредиты" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "R": {
+              "en": "Real estate",
+              "local": "Недвижимость"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Долговые инструменты"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Долевые инструменты"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Конвертируемые ценные бумаги"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Смешанные"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Товары"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Деривативы"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Референсные инструменты"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Кредиты"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "Q": { "en": "Shares for QI", "local": "Акции для квалифицированных инвесторов" },
-            "U": { "en": "Units", "local": "Паи/доли" },
-            "Y": { "en": "Units for QI", "local": "Паи/доли для квалифицированных инвесторов" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Акции для квалифицированных инвесторов"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Паи/доли для квалифицированных инвесторов"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "Хедж-фонды",
           "attribute1": {
-            "D": { "en": "Directional", "local": "Направленная" },
-            "R": { "en": "Relative value", "local": "Относительная стоимость" },
-            "S": { "en": "Security selection", "local": "Выбор ценных бумаг" },
-            "E": { "en": "Event-driven", "local": "Основанные на событиях" },
-            "A": { "en": "Arbitrage", "local": "Арбитраж" },
-            "N": { "en": "Multi-strategy", "local": "Смешанные" },
-            "L": { "en": "Asset-based lending", "local": "Кредитование под обеспечение активами" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "D": {
+              "en": "Directional",
+              "local": "Направленная"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "Относительная стоимость"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "Выбор ценных бумаг"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "Основанные на событиях"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "Арбитраж"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "Смешанные"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "Кредитование под обеспечение активами"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "Инвестиционные фонды недвижимости",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Открытые" },
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Фонды дохода" },
-            "G": { "en": "Accumulation funds", "local": "Накопительные фонды" },
-            "J": { "en": "Mixed funds", "local": "Смешанные фонды" }
+            "I": {
+              "en": "Income funds",
+              "local": "Фонды дохода"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Накопительные фонды"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Смешанные фонды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "Q": { "en": "Shares for QI", "local": "Акции для квалифицированных инвесторов" },
-            "U": { "en": "Units", "local": "Паи/доли" },
-            "Y": { "en": "Units for QI", "local": "Паи/доли для квалифицированных инвесторов" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Акции для квалифицированных инвесторов"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Паи/доли для квалифицированных инвесторов"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "Биржевые инвестиционные фонды (ETF)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Открытые" },
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Фонды дохода" },
-            "G": { "en": "Accumulation funds", "local": "Накопительные фонды" },
-            "J": { "en": "Mixed funds", "local": "Смешанные фонды" }
+            "I": {
+              "en": "Income funds",
+              "local": "Фонды дохода"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Накопительные фонды"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Смешанные фонды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Недвижимость" },
-            "B": { "en": "Debt instruments", "local": "Долговые инструменты" },
-            "E": { "en": "Equities", "local": "Долевые инструменты" },
-            "V": { "en": "Convertible securities", "local": "Конвертируемые ценные бумаги" },
-            "L": { "en": "Mixed", "local": "Смешанные" },
-            "C": { "en": "Commodities", "local": "Товары" },
-            "D": { "en": "Derivatives", "local": "Деривативы" },
-            "F": { "en": "Referential instruments", "local": "Референсные инструменты" },
-            "K": { "en": "Credits", "local": "Кредиты" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "R": {
+              "en": "Real estate",
+              "local": "Недвижимость"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Долговые инструменты"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Долевые инструменты"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Конвертируемые ценные бумаги"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Смешанные"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Товары"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Деривативы"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Референсные инструменты"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Кредиты"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "U": { "en": "Units", "local": "Паи/доли" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "Пенсионные фонды",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Открытые" },
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "Сбалансированный/консервативный" },
-            "G": { "en": "Growth", "local": "Рост" },
-            "L": { "en": "Life style", "local": "Стиль жизни" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "Сбалансированный/консервативный"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "Рост"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "Стиль жизни"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "С установленными выплатами" },
-            "B": { "en": "Defined contribution", "local": "С установленными взносами" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "С установленными выплатами"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "С установленными взносами"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "U": { "en": "Units", "local": "Паи/доли" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "Фонды фондов",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Открытые" },
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Фонды дохода" },
-            "G": { "en": "Accumulation funds", "local": "Накопительные фонды" },
-            "J": { "en": "Mixed funds", "local": "Смешанные фонды" }
+            "I": {
+              "en": "Income funds",
+              "local": "Фонды дохода"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Накопительные фонды"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Смешанные фонды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "Стандартные (традиционные) инвестиционные фонды / паевые фонды" },
-            "H": { "en": "Hedge funds", "local": "Хедж-фонды" },
-            "B": { "en": "REITs", "local": "Инвестиционные фонды недвижимости (REIT)" },
-            "E": { "en": "ETFs", "local": "ETF" },
-            "P": { "en": "Private equity funds", "local": "Фонды прямых инвестиций" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "Стандартные (традиционные) инвестиционные фонды / паевые фонды"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "Хедж-фонды"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "Инвестиционные фонды недвижимости (REIT)"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "ETF"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "Фонды прямых инвестиций"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "Q": { "en": "Shares for QI", "local": "Акции для квалифицированных инвесторов" },
-            "U": { "en": "Units", "local": "Паи/доли" },
-            "Y": { "en": "Units for QI", "local": "Паи/доли для квалифицированных инвесторов" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Акции для квалифицированных инвесторов"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Паи/доли для квалифицированных инвесторов"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "Фонды прямых инвестиций",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Открытые" },
-            "C": { "en": "Closed-end", "local": "Закрытые" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Открытые"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Закрытые"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Фонды дохода" },
-            "G": { "en": "Accumulation funds", "local": "Накопительные фонды" },
-            "J": { "en": "Mixed funds", "local": "Смешанные фонды" }
+            "I": {
+              "en": "Income funds",
+              "local": "Фонды дохода"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Накопительные фонды"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Смешанные фонды"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Недвижимость" },
-            "B": { "en": "Debt instruments", "local": "Долговые инструменты" },
-            "E": { "en": "Equities", "local": "Долевые инструменты" },
-            "V": { "en": "Convertible securities", "local": "Конвертируемые ценные бумаги" },
-            "L": { "en": "Mixed", "local": "Смешанные" },
-            "C": { "en": "Commodities", "local": "Товары" },
-            "D": { "en": "Derivatives", "local": "Деривативы" },
-            "F": { "en": "Referential instruments", "local": "Референсные инструменты" },
-            "K": { "en": "Credits", "local": "Кредиты" },
-            "M": { "en": "Others (misc.)", "local": "Прочее (другое)" }
+            "R": {
+              "en": "Real estate",
+              "local": "Недвижимость"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Долговые инструменты"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Долевые инструменты"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Конвертируемые ценные бумаги"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Смешанные"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Товары"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Деривативы"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Референсные инструменты"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Кредиты"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Прочее (другое)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "Q": { "en": "Shares for QI", "local": "Акции для квалифицированных инвесторов" },
-            "U": { "en": "Units", "local": "Паи/доли" },
-            "Y": { "en": "Units for QI", "local": "Паи/доли для квалифицированных инвесторов" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Акции для квалифицированных инвесторов"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Паи/доли для квалифицированных инвесторов"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Прочее (другое)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Неприменимо / неопределено" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Акции" },
-            "Q": { "en": "Shares for QI", "local": "Акции для квалифицированных инвесторов" },
-            "U": { "en": "Units", "local": "Паи/доли" },
-            "Y": { "en": "Units for QI", "local": "Паи/доли для квалифицированных инвесторов" }
+            "S": {
+              "en": "Shares",
+              "local": "Акции"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Акции для квалифицированных инвесторов"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Паи/доли"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Паи/доли для квалифицированных инвесторов"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Неприменимо / неопределено"
+            }
           }
         }
       }

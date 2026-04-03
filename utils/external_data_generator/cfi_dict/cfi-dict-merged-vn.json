@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "Cổ phiếu phổ thông (common/ordinary shares)",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Các hạn chế" },
-            "U": { "en": "Free", "local": "Tự do" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Các hạn chế"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Tự do"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Đã thanh toán đầy đủ" },
-            "O": { "en": "Nil paid", "local": "Chưa thanh toán" },
-            "P": { "en": "Partly paid", "local": "Thanh toán một phần" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Đã thanh toán đầy đủ"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Chưa thanh toán"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Thanh toán một phần"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "Cổ phiếu ưu đãi",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Có thể hoàn lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" },
-            "T": { "en": "Redeemable/extendible", "local": "Có thể hoàn lại / có thể gia hạn" },
-            "G": { "en": "Exchangeable", "local": "Có thể hoán đổi" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Hoàn lại / hoán đổi / gia hạn" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Có thể hoàn lại/có thể hoán đổi" },
-            "N": { "en": "Perpetual", "local": "Vĩnh viễn" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Có thể hoàn lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Có thể hoàn lại / có thể gia hạn"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Có thể hoán đổi"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Hoàn lại / hoán đổi / gia hạn"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Có thể hoàn lại/có thể hoán đổi"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Tích lũy, lãi suất cố định" },
-            "P": { "en": "Participating", "local": "Tham gia" },
-            "Q": { "en": "Cumulative, participating", "local": "Tích lũy, tham gia" },
-            "A": { "en": "Adjustable/variable rate", "local": "Lãi suất điều chỉnh / biến đổi" },
-            "N": { "en": "Normal rate", "local": "Lãi suất thông thường" },
-            "U": { "en": "Auction rate", "local": "Lãi suất đấu giá" },
-            "D": { "en": "Dividends", "local": "Cổ tức" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Tích lũy, lãi suất cố định"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Tham gia"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Tích lũy, tham gia"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Lãi suất điều chỉnh / biến đổi"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Lãi suất thông thường"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Lãi suất đấu giá"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Cổ tức"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "Cổ phiếu phổ thông chuyển đổi",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Các hạn chế" },
-            "U": { "en": "Free", "local": "Tự do" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Các hạn chế"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Tự do"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Đã thanh toán đầy đủ" },
-            "O": { "en": "Nil paid", "local": "Chưa thanh toán" },
-            "P": { "en": "Partly paid", "local": "Thanh toán một phần" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Đã thanh toán đầy đủ"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Chưa thanh toán"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Thanh toán một phần"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "Cổ phiếu ưu đãi chuyển đổi",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Có thể hoàn lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" },
-            "T": { "en": "Redeemable/extendible", "local": "Có thể hoàn lại / có thể gia hạn" },
-            "G": { "en": "Exchangeable", "local": "Có thể hoán đổi" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Hoàn lại / hoán đổi / gia hạn" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Có thể hoàn lại/có thể hoán đổi" },
-            "N": { "en": "Perpetual", "local": "Vĩnh viễn" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Có thể hoàn lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Có thể hoàn lại / có thể gia hạn"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Có thể hoán đổi"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Hoàn lại / hoán đổi / gia hạn"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Có thể hoàn lại/có thể hoán đổi"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Tích lũy, lãi suất cố định" },
-            "P": { "en": "Participating", "local": "Tham gia" },
-            "Q": { "en": "Cumulative, participating", "local": "Tích lũy, tham gia" },
-            "A": { "en": "Adjustable/variable rate", "local": "Lãi suất điều chỉnh / biến đổi" },
-            "N": { "en": "Normal rate", "local": "Lãi suất thông thường" },
-            "U": { "en": "Auction rate", "local": "Lãi suất đấu giá" },
-            "D": { "en": "Dividends", "local": "Cổ tức" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Tích lũy, lãi suất cố định"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Tham gia"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Tích lũy, tham gia"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Lãi suất điều chỉnh / biến đổi"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Lãi suất thông thường"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Lãi suất đấu giá"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Cổ tức"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "Đơn vị hợp danh hữu hạn",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Các hạn chế" },
-            "U": { "en": "Free", "local": "Tự do" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Các hạn chế"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Tự do"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Đã thanh toán đầy đủ" },
-            "O": { "en": "Nil paid", "local": "Chưa thanh toán" },
-            "P": { "en": "Partly paid", "local": "Thanh toán một phần" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Đã thanh toán đầy đủ"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Chưa thanh toán"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Thanh toán một phần"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "Chứng chỉ lưu ký cổ phiếu",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "Cổ phiếu phổ thông" },
-            "P": { "en": "Preferred/preference shares", "local": "Có ưu đãi/Cổ phiếu ưu đãi" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "Cổ phiếu phổ thông chuyển đổi" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "Cổ phiếu ưu đãi chuyển đổi" },
-            "L": { "en": "Limited partnership units", "local": "Đơn vị hợp danh hữu hạn" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "Cổ phiếu phổ thông"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "Có ưu đãi/Cổ phiếu ưu đãi"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "Cổ phiếu phổ thông chuyển đổi"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "Cổ phiếu ưu đãi chuyển đổi"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "Đơn vị hợp danh hữu hạn"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Có thể hoàn lại" },
-            "N": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "B": { "en": "Convertible", "local": "Có thể chuyển đổi" },
-            "D": { "en": "Convertible/redeemable", "local": "Chuyển đổi / hoàn lại" },
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Có thể hoàn lại"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "Có thể chuyển đổi"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "Chuyển đổi / hoàn lại"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Tích lũy, lãi suất cố định" },
-            "P": { "en": "Participating", "local": "Tham gia" },
-            "Q": { "en": "Cumulative, participating", "local": "Tích lũy, tham gia" },
-            "A": { "en": "Adjustable/variable rate", "local": "Lãi suất điều chỉnh / biến đổi" },
-            "N": { "en": "Normal rate", "local": "Lãi suất thông thường" },
-            "U": { "en": "Auction rate", "local": "Lãi suất đấu giá" },
-            "D": { "en": "Dividends", "local": "Cổ tức" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Tích lũy, lãi suất cố định"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Tham gia"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Tích lũy, tham gia"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Lãi suất điều chỉnh / biến đổi"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Lãi suất thông thường"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Lãi suất đấu giá"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Cổ tức"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "Công cụ cấu trúc (tham gia)",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "Chứng chỉ theo dõi" },
-            "B": { "en": "Outperforming certificate", "local": "Chứng chỉ vượt trội" },
-            "C": { "en": "Bonus certificate", "local": "Chứng chỉ thưởng" },
-            "D": { "en": "Outperformance bonus certificate", "local": "Chứng chỉ thưởng vượt trội" },
-            "E": { "en": "Twin-win certificate", "local": "Chứng chỉ hai bên cùng có lợi" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "Chứng chỉ theo dõi"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "Chứng chỉ vượt trội"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "Chứng chỉ thưởng"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "Chứng chỉ thưởng vượt trội"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "Chứng chỉ hai bên cùng có lợi"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "Chi trả cổ tức" },
-            "Y": { "en": "No payments", "local": "Không chi trả" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "Chi trả cổ tức"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "Không chi trả"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "Hoàn trả bằng tiền mặt" },
-            "V": { "en": "Physical repayment", "local": "Hoàn trả bằng tài sản" },
-            "E": { "en": "Elect at settlement", "local": "Lựa chọn khi thanh toán" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "Hoàn trả bằng tiền mặt"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "Hoàn trả bằng tài sản"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "Lựa chọn khi thanh toán"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "Rổ tài sản" },
-            "S": { "en": "Equities", "local": "Vốn chủ sở hữu" },
-            "D": { "en": "Debt instruments", "local": "Công cụ nợ" },
-            "G": { "en": "Derivatives", "local": "Công cụ phái sinh" },
-            "T": { "en": "Commodities", "local": "Hàng hóa" },
-            "C": { "en": "Currencies", "local": "Tiền tệ" },
-            "I": { "en": "Indices", "local": "Chỉ số" },
-            "N": { "en": "Interest rates", "local": "Lãi suất" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Baskets",
+              "local": "Rổ tài sản"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "Vốn chủ sở hữu"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "Công cụ nợ"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "Công cụ phái sinh"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "Hàng hóa"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "Tiền tệ"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "Chỉ số"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "Lãi suất"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "Cổ phiếu ưu tiên",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Có thể hoàn lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" },
-            "T": { "en": "Redeemable/extendible", "local": "Có thể hoàn lại / có thể gia hạn" },
-            "G": { "en": "Exchangeable", "local": "Có thể hoán đổi" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Hoàn lại / hoán đổi / gia hạn" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Có thể hoàn lại/có thể hoán đổi" },
-            "N": { "en": "Perpetual", "local": "Vĩnh viễn" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Có thể hoàn lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Có thể hoàn lại / có thể gia hạn"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Có thể hoán đổi"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Hoàn lại / hoán đổi / gia hạn"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Có thể hoàn lại/có thể hoán đổi"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Tích lũy, lãi suất cố định" },
-            "P": { "en": "Participating", "local": "Tham gia" },
-            "Q": { "en": "Cumulative, participating", "local": "Tích lũy, tham gia" },
-            "A": { "en": "Adjustable/variable rate", "local": "Lãi suất điều chỉnh / biến đổi" },
-            "N": { "en": "Normal rate", "local": "Lãi suất thông thường" },
-            "U": { "en": "Auction rate", "local": "Lãi suất đấu giá" },
-            "D": { "en": "Dividends", "local": "Cổ tức" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Tích lũy, lãi suất cố định"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Tham gia"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Tích lũy, tham gia"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Lãi suất điều chỉnh / biến đổi"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Lãi suất thông thường"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Lãi suất đấu giá"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Cổ tức"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "Cổ phiếu ưu tiên chuyển đổi",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Biểu quyết" },
-            "N": { "en": "Non-voting", "local": "Không biểu quyết" },
-            "R": { "en": "Restricted", "local": "Bị hạn chế" },
-            "E": { "en": "Enhanced voting", "local": "Quyền biểu quyết tăng cường" }
+            "V": {
+              "en": "Voting",
+              "local": "Biểu quyết"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Không biểu quyết"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Bị hạn chế"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Quyền biểu quyết tăng cường"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Có thể hoàn lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" },
-            "T": { "en": "Redeemable/extendible", "local": "Có thể hoàn lại / có thể gia hạn" },
-            "G": { "en": "Exchangeable", "local": "Có thể hoán đổi" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Hoàn lại / hoán đổi / gia hạn" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Có thể hoàn lại/có thể hoán đổi" },
-            "N": { "en": "Perpetual", "local": "Vĩnh viễn" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Có thể hoàn lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Có thể hoàn lại / có thể gia hạn"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Có thể hoán đổi"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Hoàn lại / hoán đổi / gia hạn"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Có thể hoàn lại/có thể hoán đổi"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Tích lũy, lãi suất cố định" },
-            "P": { "en": "Participating", "local": "Tham gia" },
-            "Q": { "en": "Cumulative, participating", "local": "Tích lũy, tham gia" },
-            "A": { "en": "Adjustable/variable rate", "local": "Lãi suất điều chỉnh / biến đổi" },
-            "N": { "en": "Normal rate", "local": "Lãi suất thông thường" },
-            "U": { "en": "Auction rate", "local": "Lãi suất đấu giá" },
-            "D": { "en": "Dividends", "local": "Cổ tức" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Tích lũy, lãi suất cố định"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Tham gia"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Tích lũy, tham gia"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Lãi suất điều chỉnh / biến đổi"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Lãi suất thông thường"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Lãi suất đấu giá"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Cổ tức"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "Chứng chỉ quỹ (quỹ tín thác, quỹ tương hỗ, OPCVM/OICVM)",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "O": { "en": "Open-end", "local": "Quỹ mở" }
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Quỹ thu nhập" },
-            "G": { "en": "Growth funds", "local": "Quỹ tăng trưởng" },
-            "M": { "en": "Mixed funds", "local": "Quỹ hỗn hợp" }
+            "I": {
+              "en": "Income funds",
+              "local": "Quỹ thu nhập"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "Quỹ tăng trưởng"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "Quỹ hỗn hợp"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Bất động sản" },
-            "S": { "en": "Securities", "local": "Chứng khoán" },
-            "M": { "en": "Mixed-general", "local": "Hỗn hợp – tổng hợp" },
-            "C": { "en": "Commodities", "local": "Hàng hóa" },
-            "D": { "en": "Derivatives", "local": "Công cụ phái sinh" }
+            "R": {
+              "en": "Real estate",
+              "local": "Bất động sản"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "Chứng khoán"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "Hỗn hợp – tổng hợp"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Hàng hóa"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Công cụ phái sinh"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "Z": { "en": "Bearer depository receipt", "local": "Chứng chỉ lưu ký vô danh" },
-            "A": { "en": "Registered depository receipt", "local": "Chứng chỉ lưu ký ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "Chứng chỉ lưu ký vô danh"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "Chứng chỉ lưu ký ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Khác (loại khác)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "Trái phiếu",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" },
-            "C": { "en": "Cash payment", "local": "Thanh toán bằng tiền mặt" },
-            "K": { "en": "Payment in kind", "local": "Thanh toán bằng hiện vật" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Thanh toán bằng tiền mặt"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Thanh toán bằng hiện vật"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "Trái phiếu chuyển đổi",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" },
-            "C": { "en": "Cash payment", "local": "Thanh toán bằng tiền mặt" },
-            "K": { "en": "Payment in kind", "local": "Thanh toán bằng hiện vật" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Thanh toán bằng tiền mặt"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Thanh toán bằng hiện vật"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "Trái phiếu kèm chứng quyền",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" },
-            "C": { "en": "Cash payment", "local": "Thanh toán bằng tiền mặt" },
-            "K": { "en": "Payment in kind", "local": "Thanh toán bằng hiện vật" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Thanh toán bằng tiền mặt"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Thanh toán bằng hiện vật"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "Trái phiếu trung hạn",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" },
-            "C": { "en": "Cash payment", "local": "Thanh toán bằng tiền mặt" },
-            "K": { "en": "Payment in kind", "local": "Thanh toán bằng hiện vật" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Thanh toán bằng tiền mặt"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Thanh toán bằng hiện vật"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "Sản phẩm cấu trúc (bảo vệ vốn)",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "Chứng chỉ bảo vệ vốn kèm tham gia" },
-            "B": { "en": "Capital protection convertible certificate", "local": "Chứng chỉ bảo vệ vốn chuyển đổi" },
-            "C": { "en": "Barrier capital protection certificate", "local": "Chứng chỉ bảo vệ vốn có rào cản" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "Chứng chỉ bảo vệ vốn kèm coupon" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "Chứng chỉ bảo vệ vốn kèm tham gia"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "Chứng chỉ bảo vệ vốn chuyển đổi"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "Chứng chỉ bảo vệ vốn có rào cản"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "Chứng chỉ bảo vệ vốn kèm coupon"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "Thanh toán lãi cố định" },
-            "D": { "en": "Dividend payments", "local": "Chi trả cổ tức" },
-            "V": { "en": "Variable interest payments", "local": "Thanh toán lãi biến đổi" },
-            "Y": { "en": "No payments", "local": "Không chi trả" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "Thanh toán lãi cố định"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "Chi trả cổ tức"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "Thanh toán lãi biến đổi"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "Không chi trả"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "Hoàn trả tiền mặt cố định (chỉ ở mức vốn được bảo vệ)" },
-            "V": { "en": "Variable cash repayment", "local": "Hoàn trả tiền mặt biến đổi" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "Hoàn trả tiền mặt cố định (chỉ ở mức vốn được bảo vệ)"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "Hoàn trả tiền mặt biến đổi"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "Rổ tài sản" },
-            "S": { "en": "Equities", "local": "Vốn chủ sở hữu" },
-            "D": { "en": "Debt instruments/interest rates", "local": "Công cụ nợ / lãi suất" },
-            "T": { "en": "Commodities", "local": "Hàng hóa" },
-            "C": { "en": "Currencies", "local": "Tiền tệ" },
-            "I": { "en": "Indices", "local": "Chỉ số" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Baskets",
+              "local": "Rổ tài sản"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "Vốn chủ sở hữu"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "Công cụ nợ / lãi suất"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "Hàng hóa"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "Tiền tệ"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "Chỉ số"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "Sản phẩm cấu trúc (không bảo vệ vốn)",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "Chứng chỉ chiết khấu" },
-            "B": { "en": "Barrier discount certificate", "local": "Chứng chỉ chiết khấu có rào cản" },
-            "C": { "en": "Reverse convertible", "local": "Chứng chỉ chuyển đổi ngược" },
-            "D": { "en": "Barrier reverse convertible", "local": "Chứng chỉ chuyển đổi ngược có rào cản" },
-            "E": { "en": "Express certificate", "local": "Chứng chỉ tất toán sớm tự động" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "Chứng chỉ chiết khấu"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "Chứng chỉ chiết khấu có rào cản"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "Chứng chỉ chuyển đổi ngược"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "Chứng chỉ chuyển đổi ngược có rào cản"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "Chứng chỉ tất toán sớm tự động"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "Hoàn trả bằng tiền mặt" },
-            "S": { "en": "Repayment in assets", "local": "Hoàn trả bằng tài sản" },
-            "C": { "en": "Repayment in assets and cash", "local": "Hoàn trả bằng tài sản và tiền mặt" },
-            "T": { "en": "Repayment in assets or cash", "local": "Hoàn trả bằng tài sản hoặc tiền mặt" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "Hoàn trả bằng tiền mặt"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "Hoàn trả bằng tài sản"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "Hoàn trả bằng tài sản và tiền mặt"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "Hoàn trả bằng tài sản hoặc tiền mặt"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "Chứng khoán bảo đảm bằng thế chấp",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "Chứng khoán bảo đảm bằng tài sản",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "Trái phiếu đô thị",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "Chứng chỉ lưu ký công cụ nợ",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "Trái phiếu" },
-            "C": { "en": "Convertible bonds", "local": "Trái phiếu chuyển đổi" },
-            "W": { "en": "Bonds with warrants attached", "local": "Trái phiếu kèm chứng quyền" },
-            "T": { "en": "Medium-term notes", "local": "Trái phiếu trung hạn" },
-            "Y": { "en": "Money market instruments", "local": "Công cụ thị trường tiền tệ" },
-            "G": { "en": "Mortgage-backed securities", "local": "Chứng khoán bảo đảm bằng thế chấp" },
-            "Q": { "en": "Asset-backed securities", "local": "Chứng khoán bảo đảm bằng tài sản" },
-            "N": { "en": "Municipal bonds", "local": "Trái phiếu đô thị" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bonds",
+              "local": "Trái phiếu"
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "Trái phiếu chuyển đổi"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "Trái phiếu kèm chứng quyền"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "Trái phiếu trung hạn"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "Công cụ thị trường tiền tệ"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "Chứng khoán bảo đảm bằng thế chấp"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "Chứng khoán bảo đảm bằng tài sản"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "Trái phiếu đô thị"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" },
-            "C": { "en": "Cash payment", "local": "Thanh toán bằng tiền mặt" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Thanh toán bằng tiền mặt"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "Đáo hạn cố định" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Đáo hạn cố định kèm quyền mua lại" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Đáo hạn cố định kèm quyền bán lại" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Đáo hạn cố định kèm quyền mua và bán" },
-            "A": { "en": "Amortization plan", "local": "Kế hoạch khấu hao" },
-            "B": { "en": "Amortization plan with call feature", "local": "Kế hoạch khấu hao kèm quyền mua lại" },
-            "T": { "en": "Amortization plan with put feature", "local": "Kế hoạch khấu hao kèm quyền bán lại" },
-            "L": { "en": "Amortization plan with put and call", "local": "Kế hoạch khấu hao kèm quyền mua và bán" },
-            "P": { "en": "Perpetual", "local": "Vĩnh viễn" },
-            "Q": { "en": "Perpetual with call feature", "local": "Vĩnh viễn kèm quyền mua lại" },
-            "R": { "en": "Perpetual with put feature", "local": "Vĩnh viễn kèm quyền bán lại" },
-            "E": { "en": "Extendible", "local": "Có thể gia hạn" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Đáo hạn cố định"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Đáo hạn cố định kèm quyền mua lại"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Đáo hạn cố định kèm quyền bán lại"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Đáo hạn cố định kèm quyền mua và bán"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Kế hoạch khấu hao"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Kế hoạch khấu hao kèm quyền mua lại"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Kế hoạch khấu hao kèm quyền bán lại"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Kế hoạch khấu hao kèm quyền mua và bán"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Vĩnh viễn"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Vĩnh viễn kèm quyền mua lại"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Vĩnh viễn kèm quyền bán lại"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Có thể gia hạn"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "Công cụ thị trường tiền tệ",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Lãi suất cố định" },
-            "Z": { "en": "Zero rate/discounted", "local": "Không lãi suất / chiết khấu" },
-            "V": { "en": "Variable", "local": "Lãi suất biến đổi" },
-            "K": { "en": "Payment in kind", "local": "Thanh toán bằng hiện vật" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Lãi suất cố định"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Không lãi suất / chiết khấu"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Lãi suất biến đổi"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Thanh toán bằng hiện vật"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Bảo lãnh của chính phủ / nhà nước" },
-            "G": { "en": "Joint guarantee", "local": "Bảo lãnh chung" },
-            "S": { "en": "Secured", "local": "Có tài sản bảo đảm" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Không bảo đảm / không bảo lãnh" },
-            "P": { "en": "Negative pledge", "local": "Cam kết không thế chấp" },
-            "N": { "en": "Senior", "local": "Nợ cao cấp" },
-            "O": { "en": "Senior subordinated", "local": "Nợ thứ cấp cao" },
-            "Q": { "en": "Junior", "local": "Nợ cấp thấp" },
-            "J": { "en": "Junior subordinated", "local": "Nợ thứ cấp cấp thấp" },
-            "C": { "en": "Supranational", "local": "Tổ chức siêu quốc gia" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Bảo lãnh của chính phủ / nhà nước"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Bảo lãnh chung"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Có tài sản bảo đảm"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Không bảo đảm / không bảo lãnh"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Cam kết không thế chấp"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Nợ cao cấp"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Nợ thứ cấp cao"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Nợ cấp thấp"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Nợ thứ cấp cấp thấp"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Tổ chức siêu quốc gia"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Khác (loại khác)",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "Khoản vay ngân hàng" },
-            "P": { "en": "Promissory note", "local": "Giấy hứa thanh toán" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bank loan",
+              "local": "Khoản vay ngân hàng"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "Giấy hứa thanh toán"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Vô danh" },
-            "R": { "en": "Registered", "local": "Ghi danh" },
-            "N": { "en": "Bearer/registered", "local": "Vô danh / ghi danh" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Bearer",
+              "local": "Vô danh"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Ghi danh"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Vô danh / ghi danh"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "Quỹ đầu tư tiêu chuẩn (quỹ tương hỗ)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Quỹ mở" },
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Quỹ thu nhập" },
-            "G": { "en": "Accumulation funds", "local": "Quỹ tích lũy" },
-            "J": { "en": "Mixed funds", "local": "Quỹ hỗn hợp" }
+            "I": {
+              "en": "Income funds",
+              "local": "Quỹ thu nhập"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Quỹ tích lũy"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Quỹ hỗn hợp"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Bất động sản" },
-            "B": { "en": "Debt instruments", "local": "Công cụ nợ" },
-            "E": { "en": "Equities", "local": "Vốn chủ sở hữu" },
-            "V": { "en": "Convertible securities", "local": "Chứng khoán chuyển đổi" },
-            "L": { "en": "Mixed", "local": "Hỗn hợp" },
-            "C": { "en": "Commodities", "local": "Hàng hóa" },
-            "D": { "en": "Derivatives", "local": "Công cụ phái sinh" },
-            "F": { "en": "Referential instruments", "local": "Công cụ tham chiếu" },
-            "K": { "en": "Credits", "local": "Tín dụng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "R": {
+              "en": "Real estate",
+              "local": "Bất động sản"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Công cụ nợ"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Vốn chủ sở hữu"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Chứng khoán chuyển đổi"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Hỗn hợp"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Hàng hóa"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Công cụ phái sinh"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Công cụ tham chiếu"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Tín dụng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "Q": { "en": "Shares for QI", "local": "Cổ phần cho nhà đầu tư đủ điều kiện" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" },
-            "Y": { "en": "Units for QI", "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Cổ phần cho nhà đầu tư đủ điều kiện"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "Quỹ phòng hộ",
           "attribute1": {
-            "D": { "en": "Directional", "local": "Theo hướng biến động của thị trường" },
-            "R": { "en": "Relative value", "local": "Giá trị tương đối" },
-            "S": { "en": "Security selection", "local": "Lựa chọn chứng khoán" },
-            "E": { "en": "Event-driven", "local": "Theo sự kiện" },
-            "A": { "en": "Arbitrage", "local": "Giao dịch chênh lệch giá" },
-            "N": { "en": "Multi-strategy", "local": "Đa chiến lược" },
-            "L": { "en": "Asset-based lending", "local": "Cho vay dựa trên tài sản" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "D": {
+              "en": "Directional",
+              "local": "Theo hướng biến động của thị trường"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "Giá trị tương đối"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "Lựa chọn chứng khoán"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "Theo sự kiện"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "Giao dịch chênh lệch giá"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "Đa chiến lược"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "Cho vay dựa trên tài sản"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "Quỹ đầu tư bất động sản (REIT)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Quỹ mở" },
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Quỹ thu nhập" },
-            "G": { "en": "Accumulation funds", "local": "Quỹ tích lũy" },
-            "J": { "en": "Mixed funds", "local": "Quỹ hỗn hợp" }
+            "I": {
+              "en": "Income funds",
+              "local": "Quỹ thu nhập"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Quỹ tích lũy"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Quỹ hỗn hợp"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "Q": { "en": "Shares for QI", "local": "Cổ phần cho nhà đầu tư đủ điều kiện" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" },
-            "Y": { "en": "Units for QI", "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Cổ phần cho nhà đầu tư đủ điều kiện"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "Quỹ hoán đổi danh mục",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Quỹ mở" },
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Quỹ thu nhập" },
-            "G": { "en": "Accumulation funds", "local": "Quỹ tích lũy" },
-            "J": { "en": "Mixed funds", "local": "Quỹ hỗn hợp" }
+            "I": {
+              "en": "Income funds",
+              "local": "Quỹ thu nhập"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Quỹ tích lũy"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Quỹ hỗn hợp"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Bất động sản" },
-            "B": { "en": "Debt instruments", "local": "Công cụ nợ" },
-            "E": { "en": "Equities", "local": "Vốn chủ sở hữu" },
-            "V": { "en": "Convertible securities", "local": "Chứng khoán chuyển đổi" },
-            "L": { "en": "Mixed", "local": "Hỗn hợp" },
-            "C": { "en": "Commodities", "local": "Hàng hóa" },
-            "D": { "en": "Derivatives", "local": "Công cụ phái sinh" },
-            "F": { "en": "Referential instruments", "local": "Công cụ tham chiếu" },
-            "K": { "en": "Credits", "local": "Tín dụng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "R": {
+              "en": "Real estate",
+              "local": "Bất động sản"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Công cụ nợ"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Vốn chủ sở hữu"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Chứng khoán chuyển đổi"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Hỗn hợp"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Hàng hóa"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Công cụ phái sinh"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Công cụ tham chiếu"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Tín dụng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "Quỹ hưu trí",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Quỹ mở" },
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "Cân bằng / thận trọng" },
-            "G": { "en": "Growth", "local": "Tăng trưởng" },
-            "L": { "en": "Life style", "local": "Vòng đời" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "Cân bằng / thận trọng"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "Tăng trưởng"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "Vòng đời"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "Mức quyền lợi xác định" },
-            "B": { "en": "Defined contribution", "local": "Mức đóng góp xác định" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "Mức quyền lợi xác định"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "Mức đóng góp xác định"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "Quỹ đầu tư vào quỹ",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Quỹ mở" },
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Quỹ thu nhập" },
-            "G": { "en": "Accumulation funds", "local": "Quỹ tích lũy" },
-            "J": { "en": "Mixed funds", "local": "Quỹ hỗn hợp" }
+            "I": {
+              "en": "Income funds",
+              "local": "Quỹ thu nhập"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Quỹ tích lũy"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Quỹ hỗn hợp"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "Quỹ đầu tư tiêu chuẩn (quỹ tương hỗ)" },
-            "H": { "en": "Hedge funds", "local": "Quỹ phòng hộ" },
-            "B": { "en": "REITs", "local": "REIT" },
-            "E": { "en": "ETFs", "local": "ETF" },
-            "P": { "en": "Private equity funds", "local": "Quỹ đầu tư vốn tư nhân" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "Quỹ đầu tư tiêu chuẩn (quỹ tương hỗ)"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "Quỹ phòng hộ"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "REIT"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "ETF"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "Quỹ đầu tư vốn tư nhân"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "Q": { "en": "Shares for QI", "local": "Cổ phần cho nhà đầu tư đủ điều kiện" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" },
-            "Y": { "en": "Units for QI", "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Cổ phần cho nhà đầu tư đủ điều kiện"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "Quỹ đầu tư vốn tư nhân",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Quỹ mở" },
-            "C": { "en": "Closed-end", "local": "Quỹ đóng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "O": {
+              "en": "Open-end",
+              "local": "Quỹ mở"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Quỹ đóng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Quỹ thu nhập" },
-            "G": { "en": "Accumulation funds", "local": "Quỹ tích lũy" },
-            "J": { "en": "Mixed funds", "local": "Quỹ hỗn hợp" }
+            "I": {
+              "en": "Income funds",
+              "local": "Quỹ thu nhập"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Quỹ tích lũy"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Quỹ hỗn hợp"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Bất động sản" },
-            "B": { "en": "Debt instruments", "local": "Công cụ nợ" },
-            "E": { "en": "Equities", "local": "Vốn chủ sở hữu" },
-            "V": { "en": "Convertible securities", "local": "Chứng khoán chuyển đổi" },
-            "L": { "en": "Mixed", "local": "Hỗn hợp" },
-            "C": { "en": "Commodities", "local": "Hàng hóa" },
-            "D": { "en": "Derivatives", "local": "Công cụ phái sinh" },
-            "F": { "en": "Referential instruments", "local": "Công cụ tham chiếu" },
-            "K": { "en": "Credits", "local": "Tín dụng" },
-            "M": { "en": "Others (misc.)", "local": "Khác (loại khác)" }
+            "R": {
+              "en": "Real estate",
+              "local": "Bất động sản"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Công cụ nợ"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Vốn chủ sở hữu"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Chứng khoán chuyển đổi"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Hỗn hợp"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Hàng hóa"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Công cụ phái sinh"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Công cụ tham chiếu"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Tín dụng"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Khác (loại khác)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "Q": { "en": "Shares for QI", "local": "Cổ phần cho nhà đầu tư đủ điều kiện" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" },
-            "Y": { "en": "Units for QI", "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Cổ phần cho nhà đầu tư đủ điều kiện"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Khác (loại khác)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Không áp dụng / không xác định" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Cổ phần" },
-            "Q": { "en": "Shares for QI", "local": "Cổ phần cho nhà đầu tư đủ điều kiện" },
-            "U": { "en": "Units", "local": "Chứng chỉ quỹ" },
-            "Y": { "en": "Units for QI", "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện" }
+            "S": {
+              "en": "Shares",
+              "local": "Cổ phần"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Cổ phần cho nhà đầu tư đủ điều kiện"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Chứng chỉ quỹ"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Chứng chỉ quỹ cho nhà đầu tư đủ điều kiện"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Không áp dụng / không xác định"
+            }
           }
         }
       }

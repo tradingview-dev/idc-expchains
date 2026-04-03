@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "股份（普通股/普通股）",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "限制" },
-            "U": { "en": "Free", "local": "自由" }
+            "T": {
+              "en": "Restrictions",
+              "local": "限制"
+            },
+            "U": {
+              "en": "Free",
+              "local": "自由"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "全额缴付" },
-            "O": { "en": "Nil paid", "local": "未缴付" },
-            "P": { "en": "Partly paid", "local": "部分缴付" }
+            "F": {
+              "en": "Fully paid",
+              "local": "全额缴付"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "未缴付"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "部分缴付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "优先股",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "可赎回" },
-            "E": { "en": "Extendible", "local": "可延期" },
-            "T": { "en": "Redeemable/extendible", "local": "可赎回/可延期" },
-            "G": { "en": "Exchangeable", "local": "可兑换" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "可兑换/可兑换/可延期" },
-            "C": { "en": "Redeemable/exchangeable", "local": "可赎回/可兑换" },
-            "N": { "en": "Perpetual", "local": "永续" }
+            "R": {
+              "en": "Redeemable",
+              "local": "可赎回"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "可赎回/可延期"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "可兑换"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "可兑换/可兑换/可延期"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "可赎回/可兑换"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累计，固定利率" },
-            "P": { "en": "Participating", "local": "参与" },
-            "Q": { "en": "Cumulative, participating", "local": "累计，参与" },
-            "A": { "en": "Adjustable/variable rate", "local": "可调/可变利率" },
-            "N": { "en": "Normal rate", "local": "正常利率" },
-            "U": { "en": "Auction rate", "local": "拍卖利率" },
-            "D": { "en": "Dividends", "local": "股息" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累计，固定利率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参与"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累计，参与"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "可调/可变利率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "正常利率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "拍卖利率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "股息"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "可转换股份",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "限制" },
-            "U": { "en": "Free", "local": "自由" }
+            "T": {
+              "en": "Restrictions",
+              "local": "限制"
+            },
+            "U": {
+              "en": "Free",
+              "local": "自由"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "全额缴付" },
-            "O": { "en": "Nil paid", "local": "未缴付" },
-            "P": { "en": "Partly paid", "local": "部分缴付" }
+            "F": {
+              "en": "Fully paid",
+              "local": "全额缴付"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "未缴付"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "部分缴付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "优先可转换股份",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "可赎回" },
-            "E": { "en": "Extendible", "local": "可延期" },
-            "T": { "en": "Redeemable/extendible", "local": "可赎回/可延期" },
-            "G": { "en": "Exchangeable", "local": "可兑换" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "可兑换/可兑换/可延期" },
-            "C": { "en": "Redeemable/exchangeable", "local": "可赎回/可兑换" },
-            "N": { "en": "Perpetual", "local": "永续" }
+            "R": {
+              "en": "Redeemable",
+              "local": "可赎回"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "可赎回/可延期"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "可兑换"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "可兑换/可兑换/可延期"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "可赎回/可兑换"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累计，固定利率" },
-            "P": { "en": "Participating", "local": "参与" },
-            "Q": { "en": "Cumulative, participating", "local": "累计，参与" },
-            "A": { "en": "Adjustable/variable rate", "local": "可调/可变利率" },
-            "N": { "en": "Normal rate", "local": "正常利率" },
-            "U": { "en": "Auction rate", "local": "拍卖利率" },
-            "D": { "en": "Dividends", "local": "股息" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累计，固定利率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参与"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累计，参与"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "可调/可变利率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "正常利率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "拍卖利率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "股息"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "有限合伙单位",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "限制" },
-            "U": { "en": "Free", "local": "自由" }
+            "T": {
+              "en": "Restrictions",
+              "local": "限制"
+            },
+            "U": {
+              "en": "Free",
+              "local": "自由"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "全额缴付" },
-            "O": { "en": "Nil paid", "local": "未缴付" },
-            "P": { "en": "Partly paid", "local": "部分缴付" }
+            "F": {
+              "en": "Fully paid",
+              "local": "全额缴付"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "未缴付"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "部分缴付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "股权存托凭证",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "普通股/普通股" },
-            "P": { "en": "Preferred/preference shares", "local": "优先股/优先分配股" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "普通/可转换股份" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "优先股/优先可转换股" },
-            "L": { "en": "Limited partnership units", "local": "有限合伙单位" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "普通股/普通股"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "优先股/优先分配股"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "普通/可转换股份"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "优先股/优先可转换股"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "有限合伙单位"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "可赎回" },
-            "N": { "en": "Perpetual", "local": "永续" },
-            "B": { "en": "Convertible", "local": "可转换" },
-            "D": { "en": "Convertible/redeemable", "local": "可转换/可赎回" },
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "R": {
+              "en": "Redeemable",
+              "local": "可赎回"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "可转换"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "可转换/可赎回"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累计，固定利率" },
-            "P": { "en": "Participating", "local": "参与" },
-            "Q": { "en": "Cumulative, participating", "local": "累计，参与" },
-            "A": { "en": "Adjustable/variable rate", "local": "可调/可变利率" },
-            "N": { "en": "Normal rate", "local": "正常利率" },
-            "U": { "en": "Auction rate", "local": "拍卖利率" },
-            "D": { "en": "Dividends", "local": "股息" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累计，固定利率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参与"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累计，参与"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "可调/可变利率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "正常利率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "拍卖利率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "股息"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "结构化工具（参与式）",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "跟踪证书" },
-            "B": { "en": "Outperforming certificate", "local": "超额业绩证书" },
-            "C": { "en": "Bonus certificate", "local": "奖金证书" },
-            "D": { "en": "Outperformance bonus certificate", "local": "超额业绩奖金证书" },
-            "E": { "en": "Twin-win certificate", "local": "双赢证书" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "跟踪证书"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "超额业绩证书"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "奖金证书"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "超额业绩奖金证书"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "双赢证书"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "股息支付" },
-            "Y": { "en": "No payments", "local": "无支付" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "股息支付"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "无支付"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "现金偿还" },
-            "V": { "en": "Physical repayment", "local": "实物偿还" },
-            "E": { "en": "Elect at settlement", "local": "在结算时选举" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "现金偿还"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "实物偿还"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "在结算时选举"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "篮子" },
-            "S": { "en": "Equities", "local": "股权" },
-            "D": { "en": "Debt instruments", "local": "债务工具" },
-            "G": { "en": "Derivatives", "local": "衍生品" },
-            "T": { "en": "Commodities", "local": "大宗商品" },
-            "C": { "en": "Currencies", "local": "货币" },
-            "I": { "en": "Indices", "local": "指数" },
-            "N": { "en": "Interest rates", "local": "利率" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Baskets",
+              "local": "篮子"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "股权"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "债务工具"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "衍生品"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "大宗商品"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "货币"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "指数"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "利率"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "优先股",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "可赎回" },
-            "E": { "en": "Extendible", "local": "可延期" },
-            "T": { "en": "Redeemable/extendible", "local": "可赎回/可延期" },
-            "G": { "en": "Exchangeable", "local": "可兑换" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "可兑换/可兑换/可延期" },
-            "C": { "en": "Redeemable/exchangeable", "local": "可赎回/可兑换" },
-            "N": { "en": "Perpetual", "local": "永续" }
+            "R": {
+              "en": "Redeemable",
+              "local": "可赎回"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "可赎回/可延期"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "可兑换"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "可兑换/可兑换/可延期"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "可赎回/可兑换"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累计，固定利率" },
-            "P": { "en": "Participating", "local": "参与" },
-            "Q": { "en": "Cumulative, participating", "local": "累计，参与" },
-            "A": { "en": "Adjustable/variable rate", "local": "可调/可变利率" },
-            "N": { "en": "Normal rate", "local": "正常利率" },
-            "U": { "en": "Auction rate", "local": "拍卖利率" },
-            "D": { "en": "Dividends", "local": "股息" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累计，固定利率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参与"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累计，参与"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "可调/可变利率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "正常利率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "拍卖利率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "股息"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "优先可转换股份",
           "attribute1": {
-            "V": { "en": "Voting", "local": "投票" },
-            "N": { "en": "Non-voting", "local": "非投票" },
-            "R": { "en": "Restricted", "local": "受限" },
-            "E": { "en": "Enhanced voting", "local": "增强型投票" }
+            "V": {
+              "en": "Voting",
+              "local": "投票"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "非投票"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "受限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "增强型投票"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "可赎回" },
-            "E": { "en": "Extendible", "local": "可延期" },
-            "T": { "en": "Redeemable/extendible", "local": "可赎回/可延期" },
-            "G": { "en": "Exchangeable", "local": "可兑换" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "可兑换/可兑换/可延期" },
-            "C": { "en": "Redeemable/exchangeable", "local": "可赎回/可兑换" },
-            "N": { "en": "Perpetual", "local": "永续" }
+            "R": {
+              "en": "Redeemable",
+              "local": "可赎回"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "可赎回/可延期"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "可兑换"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "可兑换/可兑换/可延期"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "可赎回/可兑换"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累计，固定利率" },
-            "P": { "en": "Participating", "local": "参与" },
-            "Q": { "en": "Cumulative, participating", "local": "累计，参与" },
-            "A": { "en": "Adjustable/variable rate", "local": "可调/可变利率" },
-            "N": { "en": "Normal rate", "local": "正常利率" },
-            "U": { "en": "Auction rate", "local": "拍卖利率" },
-            "D": { "en": "Dividends", "local": "股息" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累计，固定利率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参与"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累计，参与"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "可调/可变利率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "正常利率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "拍卖利率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "股息"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "单位（单位信托、共同基金、OPCVM/OICVM）",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "O": { "en": "Open-end", "local": "开放式" }
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "收益型基金" },
-            "G": { "en": "Growth funds", "local": "成长型基金" },
-            "M": { "en": "Mixed funds", "local": "混合型基金" }
+            "I": {
+              "en": "Income funds",
+              "local": "收益型基金"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "成长型基金"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "混合型基金"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "房地产" },
-            "S": { "en": "Securities", "local": "证券" },
-            "M": { "en": "Mixed-general", "local": "混合型-普通型" },
-            "C": { "en": "Commodities", "local": "大宗商品" },
-            "D": { "en": "Derivatives", "local": "衍生品" }
+            "R": {
+              "en": "Real estate",
+              "local": "房地产"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "证券"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "混合型-普通型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "大宗商品"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "衍生品"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "Z": { "en": "Bearer depository receipt", "local": "无记名存托凭证" },
-            "A": { "en": "Registered depository receipt", "local": "记名存托凭证" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "无记名存托凭证"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "记名存托凭证"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "其他（杂项）",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "债券",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" },
-            "C": { "en": "Cash payment", "local": "现金支付" },
-            "K": { "en": "Payment in kind", "local": "实物支付" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "现金支付"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "实物支付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "可转换债券",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" },
-            "C": { "en": "Cash payment", "local": "现金支付" },
-            "K": { "en": "Payment in kind", "local": "实物支付" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "现金支付"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "实物支付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "附带认股权证的债券",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" },
-            "C": { "en": "Cash payment", "local": "现金支付" },
-            "K": { "en": "Payment in kind", "local": "实物支付" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "现金支付"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "实物支付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "中期票据",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" },
-            "C": { "en": "Cash payment", "local": "现金支付" },
-            "K": { "en": "Payment in kind", "local": "实物支付" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "现金支付"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "实物支付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "结构性产品（保本）",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "参与保本证书" },
-            "B": { "en": "Capital protection convertible certificate", "local": "保本可转换证书" },
-            "C": { "en": "Barrier capital protection certificate", "local": "障碍保本证书" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "带息保本证书" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "参与保本证书"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "保本可转换证书"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "障碍保本证书"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "带息保本证书"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "固定利息支付" },
-            "D": { "en": "Dividend payments", "local": "股息支付" },
-            "V": { "en": "Variable interest payments", "local": "可变利息支付" },
-            "Y": { "en": "No payments", "local": "无支付" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "固定利息支付"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "股息支付"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "可变利息支付"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "无支付"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "固定现金偿还（仅限保本水平）" },
-            "V": { "en": "Variable cash repayment", "local": "可变现金偿还" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "固定现金偿还（仅限保本水平）"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "可变现金偿还"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "篮子" },
-            "S": { "en": "Equities", "local": "股权" },
-            "D": { "en": "Debt instruments/interest rates", "local": "债务工具/利率" },
-            "T": { "en": "Commodities", "local": "大宗商品" },
-            "C": { "en": "Currencies", "local": "货币" },
-            "I": { "en": "Indices", "local": "指数" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Baskets",
+              "local": "篮子"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "股权"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "债务工具/利率"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "大宗商品"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "货币"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "指数"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "结构性产品（无保本）",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "折扣券" },
-            "B": { "en": "Barrier discount certificate", "local": "障碍折扣券" },
-            "C": { "en": "Reverse convertible", "local": "反向可转换" },
-            "D": { "en": "Barrier reverse convertible", "local": "障碍反向可转换" },
-            "E": { "en": "Express certificate", "local": "速动证书" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "折扣券"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "障碍折扣券"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "反向可转换"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "障碍反向可转换"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "速动证书"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "现金偿还" },
-            "S": { "en": "Repayment in assets", "local": "资产偿还" },
-            "C": { "en": "Repayment in assets and cash", "local": "以资产和现金偿还" },
-            "T": { "en": "Repayment in assets or cash", "local": "以资产或现金偿还" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "现金偿还"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "资产偿还"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "以资产和现金偿还"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "以资产或现金偿还"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "抵押贷款支持证券（MBS）",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "资产支持证券（ABS）",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "市政债券",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "债务工具存托凭证",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "债券" },
-            "C": { "en": "Convertible bonds", "local": "可转换债券" },
-            "W": { "en": "Bonds with warrants attached", "local": "附带认股权证的债券" },
-            "T": { "en": "Medium-term notes", "local": "中期票据" },
-            "Y": { "en": "Money market instruments", "local": "货币市场工具" },
-            "G": { "en": "Mortgage-backed securities", "local": "抵押贷款支持证券" },
-            "Q": { "en": "Asset-backed securities", "local": "资产支持证券" },
-            "N": { "en": "Municipal bonds", "local": "市政债券" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bonds",
+              "local": "债券"
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "可转换债券"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "附带认股权证的债券"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "中期票据"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "货币市场工具"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "抵押贷款支持证券"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "资产支持证券"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "市政债券"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" },
-            "C": { "en": "Cash payment", "local": "现金支付" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "现金支付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "固定到期日" },
-            "G": { "en": "Fixed maturity with call feature", "local": "固定到期日带赎回条件" },
-            "C": { "en": "Fixed maturity with put feature", "local": "固定到期日带认沽条件" },
-            "D": { "en": "Fixed maturity with put and call", "local": "认沽和赎回固定到期日" },
-            "A": { "en": "Amortization plan", "local": "分期偿还计划" },
-            "B": { "en": "Amortization plan with call feature", "local": "分期偿还计划带赎回条件" },
-            "T": { "en": "Amortization plan with put feature", "local": "分期偿还计划带认沽条件" },
-            "L": { "en": "Amortization plan with put and call", "local": "认沽和赎回分期偿还" },
-            "P": { "en": "Perpetual", "local": "永续" },
-            "Q": { "en": "Perpetual with call feature", "local": "带赎回功能的永续" },
-            "R": { "en": "Perpetual with put feature", "local": "永续带认沽条件" },
-            "E": { "en": "Extendible", "local": "可延期" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定到期日"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "固定到期日带赎回条件"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "固定到期日带认沽条件"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "认沽和赎回固定到期日"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分期偿还计划"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "分期偿还计划带赎回条件"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "分期偿还计划带认沽条件"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "认沽和赎回分期偿还"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永续"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "带赎回功能的永续"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "永续带认沽条件"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "可延期"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "货币市场工具",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定利率" },
-            "Z": { "en": "Zero rate/discounted", "local": "零利率/折扣利率" },
-            "V": { "en": "Variable", "local": "可变" },
-            "K": { "en": "Payment in kind", "local": "实物支付" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定利率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "零利率/折扣利率"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "可变"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "实物支付"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府/国家担保" },
-            "G": { "en": "Joint guarantee", "local": "共同担保" },
-            "S": { "en": "Secured", "local": "保险" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "无保险/无担保" },
-            "P": { "en": "Negative pledge", "local": "负面承诺" },
-            "N": { "en": "Senior", "local": "优先" },
-            "O": { "en": "Senior subordinated", "local": "优先次顺位" },
-            "Q": { "en": "Junior", "local": "次级" },
-            "J": { "en": "Junior subordinated", "local": "次级次顺位" },
-            "C": { "en": "Supranational", "local": "超国家" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府/国家担保"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同担保"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "保险"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "无保险/无担保"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "负面承诺"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "优先"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "优先次顺位"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "次级"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "次级次顺位"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "超国家"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "其他（杂项）",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "银行贷款" },
-            "P": { "en": "Promissory note", "local": "期票" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bank loan",
+              "local": "银行贷款"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "期票"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "无记名" },
-            "R": { "en": "Registered", "local": "记名形式" },
-            "N": { "en": "Bearer/registered", "local": "无记名/记名" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Bearer",
+              "local": "无记名"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "记名形式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "无记名/记名"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "标准（普通）投资基金/共同基金",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "开放式" },
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "收益型基金" },
-            "G": { "en": "Accumulation funds", "local": "累积型资金" },
-            "J": { "en": "Mixed funds", "local": "混合型基金" }
+            "I": {
+              "en": "Income funds",
+              "local": "收益型基金"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累积型资金"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型基金"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "房地产" },
-            "B": { "en": "Debt instruments", "local": "债务工具" },
-            "E": { "en": "Equities", "local": "股权" },
-            "V": { "en": "Convertible securities", "local": "可转换证券" },
-            "L": { "en": "Mixed", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "大宗商品" },
-            "D": { "en": "Derivatives", "local": "衍生品" },
-            "F": { "en": "Referential instruments", "local": "参考工具" },
-            "K": { "en": "Credits", "local": "信贷" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "R": {
+              "en": "Real estate",
+              "local": "房地产"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "债务工具"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "股权"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "可转换证券"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "大宗商品"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "衍生品"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "参考工具"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "信贷"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "Q": { "en": "Shares for QI", "local": "合格投资者股份" },
-            "U": { "en": "Units", "local": "单位" },
-            "Y": { "en": "Units for QI", "local": "合格投资者单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "合格投资者股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "合格投资者单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "对冲基金",
           "attribute1": {
-            "D": { "en": "Directional", "local": "定向" },
-            "R": { "en": "Relative value", "local": "相对价值" },
-            "S": { "en": "Security selection", "local": "证券选择" },
-            "E": { "en": "Event-driven", "local": "事件驱动" },
-            "A": { "en": "Arbitrage", "local": "套利" },
-            "N": { "en": "Multi-strategy", "local": "多策略" },
-            "L": { "en": "Asset-based lending", "local": "资产抵押贷款" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "D": {
+              "en": "Directional",
+              "local": "定向"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "相对价值"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "证券选择"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "事件驱动"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "套利"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "多策略"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "资产抵押贷款"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "房地产投资信托基金（REITs）",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "开放式" },
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "收益型基金" },
-            "G": { "en": "Accumulation funds", "local": "累积型资金" },
-            "J": { "en": "Mixed funds", "local": "混合型基金" }
+            "I": {
+              "en": "Income funds",
+              "local": "收益型基金"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累积型资金"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型基金"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "Q": { "en": "Shares for QI", "local": "合格投资者股份" },
-            "U": { "en": "Units", "local": "单位" },
-            "Y": { "en": "Units for QI", "local": "合格投资者单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "合格投资者股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "合格投资者单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "交易所交易基金（ETF）",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "开放式" },
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "收益型基金" },
-            "G": { "en": "Accumulation funds", "local": "累积型资金" },
-            "J": { "en": "Mixed funds", "local": "混合型基金" }
+            "I": {
+              "en": "Income funds",
+              "local": "收益型基金"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累积型资金"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型基金"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "房地产" },
-            "B": { "en": "Debt instruments", "local": "债务工具" },
-            "E": { "en": "Equities", "local": "股权" },
-            "V": { "en": "Convertible securities", "local": "可转换证券" },
-            "L": { "en": "Mixed", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "大宗商品" },
-            "D": { "en": "Derivatives", "local": "衍生品" },
-            "F": { "en": "Referential instruments", "local": "参考工具" },
-            "K": { "en": "Credits", "local": "信贷" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "R": {
+              "en": "Real estate",
+              "local": "房地产"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "债务工具"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "股权"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "可转换证券"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "大宗商品"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "衍生品"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "参考工具"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "信贷"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "U": { "en": "Units", "local": "单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "养老基金",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "开放式" },
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "平衡/保守" },
-            "G": { "en": "Growth", "local": "成长" },
-            "L": { "en": "Life style", "local": "生活方式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "平衡/保守"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "成长"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "生活方式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "固定收益" },
-            "B": { "en": "Defined contribution", "local": "固定缴款额" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "固定收益"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "固定缴款额"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "U": { "en": "Units", "local": "单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "组合型基金",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "开放式" },
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "收益型基金" },
-            "G": { "en": "Accumulation funds", "local": "累积型资金" },
-            "J": { "en": "Mixed funds", "local": "混合型基金" }
+            "I": {
+              "en": "Income funds",
+              "local": "收益型基金"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累积型资金"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型基金"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "标准（普通）投资基金/共同基金" },
-            "H": { "en": "Hedge funds", "local": "对冲基金" },
-            "B": { "en": "REITs", "local": "REITs" },
-            "E": { "en": "ETFs", "local": "ETF" },
-            "P": { "en": "Private equity funds", "local": "私募股权基金" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "标准（普通）投资基金/共同基金"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "对冲基金"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "REITs"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "ETF"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "私募股权基金"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "Q": { "en": "Shares for QI", "local": "合格投资者股份" },
-            "U": { "en": "Units", "local": "单位" },
-            "Y": { "en": "Units for QI", "local": "合格投资者单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "合格投资者股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "合格投资者单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "私募股权基金",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "开放式" },
-            "C": { "en": "Closed-end", "local": "封闭式" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "O": {
+              "en": "Open-end",
+              "local": "开放式"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "封闭式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "收益型基金" },
-            "G": { "en": "Accumulation funds", "local": "累积型资金" },
-            "J": { "en": "Mixed funds", "local": "混合型基金" }
+            "I": {
+              "en": "Income funds",
+              "local": "收益型基金"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累积型资金"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型基金"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "房地产" },
-            "B": { "en": "Debt instruments", "local": "债务工具" },
-            "E": { "en": "Equities", "local": "股权" },
-            "V": { "en": "Convertible securities", "local": "可转换证券" },
-            "L": { "en": "Mixed", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "大宗商品" },
-            "D": { "en": "Derivatives", "local": "衍生品" },
-            "F": { "en": "Referential instruments", "local": "参考工具" },
-            "K": { "en": "Credits", "local": "信贷" },
-            "M": { "en": "Others (misc.)", "local": "其他（杂项）" }
+            "R": {
+              "en": "Real estate",
+              "local": "房地产"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "债务工具"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "股权"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "可转换证券"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "大宗商品"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "衍生品"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "参考工具"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "信贷"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "其他（杂项）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "Q": { "en": "Shares for QI", "local": "合格投资者股份" },
-            "U": { "en": "Units", "local": "单位" },
-            "Y": { "en": "Units for QI", "local": "合格投资者单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "合格投资者股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "合格投资者单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "其他（杂项）",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "不适用/未定义" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "股份" },
-            "Q": { "en": "Shares for QI", "local": "合格投资者股份" },
-            "U": { "en": "Units", "local": "单位" },
-            "Y": { "en": "Units for QI", "local": "合格投资者单位" }
+            "S": {
+              "en": "Shares",
+              "local": "股份"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "合格投资者股份"
+            },
+            "U": {
+              "en": "Units",
+              "local": "单位"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "合格投资者单位"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "不适用/未定义"
+            }
           }
         }
       }
