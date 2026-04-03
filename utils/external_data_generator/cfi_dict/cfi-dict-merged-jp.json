@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "普通株式",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "制限あり" },
-            "U": { "en": "Free", "local": "制限なし" }
+            "T": {
+              "en": "Restrictions",
+              "local": "制限あり"
+            },
+            "U": {
+              "en": "Free",
+              "local": "制限なし"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "全額払込済" },
-            "O": { "en": "Nil paid", "local": "未払込" },
-            "P": { "en": "Partly paid", "local": "一部払込済" }
+            "F": {
+              "en": "Fully paid",
+              "local": "全額払込済"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "未払込"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "一部払込済"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "優先株式",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "償還可能" },
-            "E": { "en": "Extendible", "local": "延長可能" },
-            "T": { "en": "Redeemable/extendible", "local": "償還可能・延長可能" },
-            "G": { "en": "Exchangeable", "local": "交換可能" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "償還可能・交換可能・延長可能" },
-            "C": { "en": "Redeemable/exchangeable", "local": "償還可能・交換可能" },
-            "N": { "en": "Perpetual", "local": "永久" }
+            "R": {
+              "en": "Redeemable",
+              "local": "償還可能"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "償還可能・延長可能"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "交換可能"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "償還可能・交換可能・延長可能"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "償還可能・交換可能"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累積型・固定配当率" },
-            "P": { "en": "Participating", "local": "参加型" },
-            "Q": { "en": "Cumulative, participating", "local": "累積型・参加型" },
-            "A": { "en": "Adjustable/variable rate", "local": "調整・変動配当率" },
-            "N": { "en": "Normal rate", "local": "通常配当率" },
-            "U": { "en": "Auction rate", "local": "入札配当率" },
-            "D": { "en": "Dividends", "local": "配当" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累積型・固定配当率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参加型"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累積型・参加型"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "調整・変動配当率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "通常配当率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "入札配当率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "配当"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "転換株式",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "制限あり" },
-            "U": { "en": "Free", "local": "制限なし" }
+            "T": {
+              "en": "Restrictions",
+              "local": "制限あり"
+            },
+            "U": {
+              "en": "Free",
+              "local": "制限なし"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "全額払込済" },
-            "O": { "en": "Nil paid", "local": "未払込" },
-            "P": { "en": "Partly paid", "local": "一部払込済" }
+            "F": {
+              "en": "Fully paid",
+              "local": "全額払込済"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "未払込"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "一部払込済"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "転換型優先株式",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "償還可能" },
-            "E": { "en": "Extendible", "local": "延長可能" },
-            "T": { "en": "Redeemable/extendible", "local": "償還可能・延長可能" },
-            "G": { "en": "Exchangeable", "local": "交換可能" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "償還可能・交換可能・延長可能" },
-            "C": { "en": "Redeemable/exchangeable", "local": "償還可能・交換可能" },
-            "N": { "en": "Perpetual", "local": "永久" }
+            "R": {
+              "en": "Redeemable",
+              "local": "償還可能"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "償還可能・延長可能"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "交換可能"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "償還可能・交換可能・延長可能"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "償還可能・交換可能"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累積型・固定配当率" },
-            "P": { "en": "Participating", "local": "参加型" },
-            "Q": { "en": "Cumulative, participating", "local": "累積型・参加型" },
-            "A": { "en": "Adjustable/variable rate", "local": "調整・変動配当率" },
-            "N": { "en": "Normal rate", "local": "通常配当率" },
-            "U": { "en": "Auction rate", "local": "入札配当率" },
-            "D": { "en": "Dividends", "local": "配当" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累積型・固定配当率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参加型"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累積型・参加型"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "調整・変動配当率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "通常配当率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "入札配当率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "配当"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "リミテッド・パートナーシップ・ユニット",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "制限あり" },
-            "U": { "en": "Free", "local": "制限なし" }
+            "T": {
+              "en": "Restrictions",
+              "local": "制限あり"
+            },
+            "U": {
+              "en": "Free",
+              "local": "制限なし"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "全額払込済" },
-            "O": { "en": "Nil paid", "local": "未払込" },
-            "P": { "en": "Partly paid", "local": "一部払込済" }
+            "F": {
+              "en": "Fully paid",
+              "local": "全額払込済"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "未払込"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "一部払込済"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "株式預託証券",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "普通株式" },
-            "P": { "en": "Preferred/preference shares", "local": "優先株式" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "普通転換型株式" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "転換型優先株式" },
-            "L": { "en": "Limited partnership units", "local": "リミテッド・パートナーシップ・ユニット" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "普通株式"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "優先株式"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "普通転換型株式"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "転換型優先株式"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "リミテッド・パートナーシップ・ユニット"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "償還可能" },
-            "N": { "en": "Perpetual", "local": "永久" },
-            "B": { "en": "Convertible", "local": "転換可能" },
-            "D": { "en": "Convertible/redeemable", "local": "転換可能・償還可能" },
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "R": {
+              "en": "Redeemable",
+              "local": "償還可能"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "転換可能"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "転換可能・償還可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累積型・固定配当率" },
-            "P": { "en": "Participating", "local": "参加型" },
-            "Q": { "en": "Cumulative, participating", "local": "累積型・参加型" },
-            "A": { "en": "Adjustable/variable rate", "local": "調整・変動配当率" },
-            "N": { "en": "Normal rate", "local": "通常配当率" },
-            "U": { "en": "Auction rate", "local": "入札配当率" },
-            "D": { "en": "Dividends", "local": "配当" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累積型・固定配当率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参加型"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累積型・参加型"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "調整・変動配当率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "通常配当率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "入札配当率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "配当"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "仕組商品（参加型）",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "トラッカー証券" },
-            "B": { "en": "Outperforming certificate", "local": "アウトパフォーム証券" },
-            "C": { "en": "Bonus certificate", "local": "ボーナス証券" },
-            "D": { "en": "Outperformance bonus certificate", "local": "アウトパフォーム・ボーナス証券" },
-            "E": { "en": "Twin-win certificate", "local": "ツインウィン証券" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "トラッカー証券"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "アウトパフォーム証券"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "ボーナス証券"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "アウトパフォーム・ボーナス証券"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "ツインウィン証券"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "分配あり" },
-            "Y": { "en": "No payments", "local": "無分配" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "分配あり"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "無分配"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "現金償還" },
-            "V": { "en": "Physical repayment", "local": "現物償還" },
-            "E": { "en": "Elect at settlement", "local": "決済時選択" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "現金償還"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "現物償還"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "決済時選択"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "バスケット" },
-            "S": { "en": "Equities", "local": "株式" },
-            "D": { "en": "Debt instruments", "local": "負債性商品" },
-            "G": { "en": "Derivatives", "local": "デリバティブ" },
-            "T": { "en": "Commodities", "local": "コモディティ" },
-            "C": { "en": "Currencies", "local": "通貨" },
-            "I": { "en": "Indices", "local": "指数" },
-            "N": { "en": "Interest rates", "local": "金利" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Baskets",
+              "local": "バスケット"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "株式"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "負債性商品"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "デリバティブ"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "コモディティ"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "通貨"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "指数"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "金利"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "優先株式",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "償還可能" },
-            "E": { "en": "Extendible", "local": "延長可能" },
-            "T": { "en": "Redeemable/extendible", "local": "償還可能・延長可能" },
-            "G": { "en": "Exchangeable", "local": "交換可能" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "償還可能・交換可能・延長可能" },
-            "C": { "en": "Redeemable/exchangeable", "local": "償還可能・交換可能" },
-            "N": { "en": "Perpetual", "local": "永久" }
+            "R": {
+              "en": "Redeemable",
+              "local": "償還可能"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "償還可能・延長可能"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "交換可能"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "償還可能・交換可能・延長可能"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "償還可能・交換可能"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累積型・固定配当率" },
-            "P": { "en": "Participating", "local": "参加型" },
-            "Q": { "en": "Cumulative, participating", "local": "累積型・参加型" },
-            "A": { "en": "Adjustable/variable rate", "local": "調整・変動配当率" },
-            "N": { "en": "Normal rate", "local": "通常配当率" },
-            "U": { "en": "Auction rate", "local": "入札配当率" },
-            "D": { "en": "Dividends", "local": "配当" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累積型・固定配当率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参加型"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累積型・参加型"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "調整・変動配当率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "通常配当率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "入札配当率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "配当"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "転換型優先株式",
           "attribute1": {
-            "V": { "en": "Voting", "local": "議決権有" },
-            "N": { "en": "Non-voting", "local": "議決権無" },
-            "R": { "en": "Restricted", "local": "議決権制限" },
-            "E": { "en": "Enhanced voting", "local": "多議決権" }
+            "V": {
+              "en": "Voting",
+              "local": "議決権有"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "議決権無"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "議決権制限"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "多議決権"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "償還可能" },
-            "E": { "en": "Extendible", "local": "延長可能" },
-            "T": { "en": "Redeemable/extendible", "local": "償還可能・延長可能" },
-            "G": { "en": "Exchangeable", "local": "交換可能" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "償還可能・交換可能・延長可能" },
-            "C": { "en": "Redeemable/exchangeable", "local": "償還可能・交換可能" },
-            "N": { "en": "Perpetual", "local": "永久" }
+            "R": {
+              "en": "Redeemable",
+              "local": "償還可能"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "償還可能・延長可能"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "交換可能"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "償還可能・交換可能・延長可能"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "償還可能・交換可能"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "C": { "en": "Cumulative, fixed rate", "local": "累積型・固定配当率" },
-            "P": { "en": "Participating", "local": "参加型" },
-            "Q": { "en": "Cumulative, participating", "local": "累積型・参加型" },
-            "A": { "en": "Adjustable/variable rate", "local": "調整・変動配当率" },
-            "N": { "en": "Normal rate", "local": "通常配当率" },
-            "U": { "en": "Auction rate", "local": "入札配当率" },
-            "D": { "en": "Dividends", "local": "配当" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "累積型・固定配当率"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "参加型"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "累積型・参加型"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "調整・変動配当率"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "通常配当率"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "入札配当率"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "配当"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "ユニット（ユニット・トラスト、ミューチュアル・ファンド、欧州型投資信託（UCITS））",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "O": { "en": "Open-end", "local": "オープンエンド" }
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "分配型ファンド" },
-            "G": { "en": "Growth funds", "local": "成長型ファンド" },
-            "M": { "en": "Mixed funds", "local": "混合型ファンド" }
+            "I": {
+              "en": "Income funds",
+              "local": "分配型ファンド"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "成長型ファンド"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "混合型ファンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "不動産" },
-            "S": { "en": "Securities", "local": "有価証券" },
-            "M": { "en": "Mixed-general", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "コモディティ" },
-            "D": { "en": "Derivatives", "local": "デリバティブ" }
+            "R": {
+              "en": "Real estate",
+              "local": "不動産"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "有価証券"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "コモディティ"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "デリバティブ"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "Z": { "en": "Bearer depository receipt", "local": "無記名式預託証券" },
-            "A": { "en": "Registered depository receipt", "local": "記名式預託証券" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "無記名式預託証券"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "記名式預託証券"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "その他",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "債券",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" },
-            "C": { "en": "Cash payment", "local": "現金支払" },
-            "K": { "en": "Payment in kind", "local": "現物支払" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "現金支払"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "現物支払"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "転換社債",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" },
-            "C": { "en": "Cash payment", "local": "現金支払" },
-            "K": { "en": "Payment in kind", "local": "現物支払" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "現金支払"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "現物支払"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "ワラント付債券",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" },
-            "C": { "en": "Cash payment", "local": "現金支払" },
-            "K": { "en": "Payment in kind", "local": "現物支払" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "現金支払"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "現物支払"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "中期債",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" },
-            "C": { "en": "Cash payment", "local": "現金支払" },
-            "K": { "en": "Payment in kind", "local": "現物支払" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "現金支払"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "現物支払"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "仕組商品（元本確保型）",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "参加権付元本確保型証券" },
-            "B": { "en": "Capital protection convertible certificate", "local": "転換型元本確保型証券" },
-            "C": { "en": "Barrier capital protection certificate", "local": "バリア付元本確保型証券" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "クーポン付元本確保型証券" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "参加権付元本確保型証券"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "転換型元本確保型証券"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "バリア付元本確保型証券"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "クーポン付元本確保型証券"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "固定利払" },
-            "D": { "en": "Dividend payments", "local": "分配あり" },
-            "V": { "en": "Variable interest payments", "local": "変動利払" },
-            "Y": { "en": "No payments", "local": "無分配" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "固定利払"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "分配あり"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "変動利払"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "無分配"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "固定現金償還（保護元本レベルのみ）" },
-            "V": { "en": "Variable cash repayment", "local": "変動現金償還" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "固定現金償還（保護元本レベルのみ）"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "変動現金償還"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "バスケット" },
-            "S": { "en": "Equities", "local": "株式" },
-            "D": { "en": "Debt instruments/interest rates", "local": "負債性商品・金利" },
-            "T": { "en": "Commodities", "local": "コモディティ" },
-            "C": { "en": "Currencies", "local": "通貨" },
-            "I": { "en": "Indices", "local": "指数" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Baskets",
+              "local": "バスケット"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "株式"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "負債性商品・金利"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "コモディティ"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "通貨"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "指数"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "仕組商品（元本非確保型）",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "ディスカウント証券" },
-            "B": { "en": "Barrier discount certificate", "local": "バリア付ディスカウント証券" },
-            "C": { "en": "Reverse convertible", "local": "リバース・コンバーティブル" },
-            "D": { "en": "Barrier reverse convertible", "local": "バリア付リバース・コンバーティブル" },
-            "E": { "en": "Express certificate", "local": "エクスプレス証券" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "ディスカウント証券"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "バリア付ディスカウント証券"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "リバース・コンバーティブル"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "バリア付リバース・コンバーティブル"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "エクスプレス証券"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "現金償還" },
-            "S": { "en": "Repayment in assets", "local": "現物償還" },
-            "C": { "en": "Repayment in assets and cash", "local": "現物および現金償還" },
-            "T": { "en": "Repayment in assets or cash", "local": "現物または現金償還" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "現金償還"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "現物償還"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "現物および現金償還"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "現物または現金償還"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "モーゲージ担保証券（MBS）",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "資産担保証券（ABS）",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "地方債",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "負債性商品預託証券",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "債券" },
-            "C": { "en": "Convertible bonds", "local": "転換社債" },
-            "W": { "en": "Bonds with warrants attached", "local": "ワラント付債券" },
-            "T": { "en": "Medium-term notes", "local": "中期債" },
-            "Y": { "en": "Money market instruments", "local": "短期金融商品" },
-            "G": { "en": "Mortgage-backed securities", "local": "モーゲージ担保証券" },
-            "Q": { "en": "Asset-backed securities", "local": "資産担保証券" },
-            "N": { "en": "Municipal bonds", "local": "地方債" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bonds",
+              "local": "債券"
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "転換社債"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "ワラント付債券"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "中期債"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "短期金融商品"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "モーゲージ担保証券"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "資産担保証券"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "地方債"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" },
-            "C": { "en": "Cash payment", "local": "現金支払" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "現金支払"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "固定満期" },
-            "G": { "en": "Fixed maturity with call feature", "local": "コール条項付固定満期" },
-            "C": { "en": "Fixed maturity with put feature", "local": "プット条項付固定満期" },
-            "D": { "en": "Fixed maturity with put and call", "local": "プット・コール両条項付固定満期" },
-            "A": { "en": "Amortization plan", "local": "分割償還プラン" },
-            "B": { "en": "Amortization plan with call feature", "local": "コール条項付分割償還プラン" },
-            "T": { "en": "Amortization plan with put feature", "local": "プット条項付分割償還プラン" },
-            "L": { "en": "Amortization plan with put and call", "local": "プット・コール両条項付分割償還プラン" },
-            "P": { "en": "Perpetual", "local": "永久" },
-            "Q": { "en": "Perpetual with call feature", "local": "コール条項付永久債" },
-            "R": { "en": "Perpetual with put feature", "local": "プット条項付永久債" },
-            "E": { "en": "Extendible", "local": "延長可能" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "固定満期"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "コール条項付固定満期"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "プット条項付固定満期"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "プット・コール両条項付固定満期"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "分割償還プラン"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "コール条項付分割償還プラン"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "プット条項付分割償還プラン"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "プット・コール両条項付分割償還プラン"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "永久"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "コール条項付永久債"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "プット条項付永久債"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "延長可能"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "短期金融商品",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "固定配当率" },
-            "Z": { "en": "Zero rate/discounted", "local": "ゼロクーポン・ディスカウント" },
-            "V": { "en": "Variable", "local": "変動金利" },
-            "K": { "en": "Payment in kind", "local": "現物支払" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "固定配当率"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "ゼロクーポン・ディスカウント"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "変動金利"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "現物支払"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "政府・国家保証" },
-            "G": { "en": "Joint guarantee", "local": "共同保証" },
-            "S": { "en": "Secured", "local": "担保付" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "無担保・無保証" },
-            "P": { "en": "Negative pledge", "local": "ネガティブ・プレッジ" },
-            "N": { "en": "Senior", "local": "シニア" },
-            "O": { "en": "Senior subordinated", "local": "シニア劣後" },
-            "Q": { "en": "Junior", "local": "ジュニア" },
-            "J": { "en": "Junior subordinated", "local": "ジュニア劣後" },
-            "C": { "en": "Supranational", "local": "国際機関" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "政府・国家保証"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "共同保証"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "担保付"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "無担保・無保証"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "ネガティブ・プレッジ"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "シニア"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "シニア劣後"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "ジュニア"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ジュニア劣後"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "国際機関"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "その他",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "バンクローン" },
-            "P": { "en": "Promissory note", "local": "約束手形" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bank loan",
+              "local": "バンクローン"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "約束手形"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "無記名式" },
-            "R": { "en": "Registered", "local": "記名式" },
-            "N": { "en": "Bearer/registered", "local": "無記名式・記名式" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Bearer",
+              "local": "無記名式"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "記名式"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "無記名式・記名式"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "標準型投資ファンド・ミューチュアルファンド",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "オープンエンド" },
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "分配型ファンド" },
-            "G": { "en": "Accumulation funds", "local": "累積投資型ファンド" },
-            "J": { "en": "Mixed funds", "local": "混合型ファンド" }
+            "I": {
+              "en": "Income funds",
+              "local": "分配型ファンド"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累積投資型ファンド"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型ファンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "不動産" },
-            "B": { "en": "Debt instruments", "local": "負債性商品" },
-            "E": { "en": "Equities", "local": "株式" },
-            "V": { "en": "Convertible securities", "local": "転換証券" },
-            "L": { "en": "Mixed", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "コモディティ" },
-            "D": { "en": "Derivatives", "local": "デリバティブ" },
-            "F": { "en": "Referential instruments", "local": "参照指標連動商品" },
-            "K": { "en": "Credits", "local": "クレジット" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "R": {
+              "en": "Real estate",
+              "local": "不動産"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "負債性商品"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "株式"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "転換証券"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "コモディティ"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "デリバティブ"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "参照指標連動商品"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "クレジット"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "Q": { "en": "Shares for QI", "local": "株式（適格投資家向け）" },
-            "U": { "en": "Units", "local": "ユニット" },
-            "Y": { "en": "Units for QI", "local": "ユニット（適格投資家向け）" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "株式（適格投資家向け）"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "ユニット（適格投資家向け）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "ヘッジファンド",
           "attribute1": {
-            "D": { "en": "Directional", "local": "ディレクショナル" },
-            "R": { "en": "Relative value", "local": "レラティブ・バリュー" },
-            "S": { "en": "Security selection", "local": "証券選択" },
-            "E": { "en": "Event-driven", "local": "イベント・ドリブン" },
-            "A": { "en": "Arbitrage", "local": "アービトラージ" },
-            "N": { "en": "Multi-strategy", "local": "マルチストラテジー" },
-            "L": { "en": "Asset-based lending", "local": "資産担保融資" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "D": {
+              "en": "Directional",
+              "local": "ディレクショナル"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "レラティブ・バリュー"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "証券選択"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "イベント・ドリブン"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "アービトラージ"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "マルチストラテジー"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "資産担保融資"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "不動産投資信託（REIT）",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "オープンエンド" },
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "分配型ファンド" },
-            "G": { "en": "Accumulation funds", "local": "累積投資型ファンド" },
-            "J": { "en": "Mixed funds", "local": "混合型ファンド" }
+            "I": {
+              "en": "Income funds",
+              "local": "分配型ファンド"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累積投資型ファンド"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型ファンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "Q": { "en": "Shares for QI", "local": "株式（適格投資家向け）" },
-            "U": { "en": "Units", "local": "ユニット" },
-            "Y": { "en": "Units for QI", "local": "ユニット（適格投資家向け）" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "株式（適格投資家向け）"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "ユニット（適格投資家向け）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "上場投資信託（ETF）",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "オープンエンド" },
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "分配型ファンド" },
-            "G": { "en": "Accumulation funds", "local": "累積投資型ファンド" },
-            "J": { "en": "Mixed funds", "local": "混合型ファンド" }
+            "I": {
+              "en": "Income funds",
+              "local": "分配型ファンド"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累積投資型ファンド"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型ファンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "不動産" },
-            "B": { "en": "Debt instruments", "local": "負債性商品" },
-            "E": { "en": "Equities", "local": "株式" },
-            "V": { "en": "Convertible securities", "local": "転換証券" },
-            "L": { "en": "Mixed", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "コモディティ" },
-            "D": { "en": "Derivatives", "local": "デリバティブ" },
-            "F": { "en": "Referential instruments", "local": "参照指標連動商品" },
-            "K": { "en": "Credits", "local": "クレジット" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "R": {
+              "en": "Real estate",
+              "local": "不動産"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "負債性商品"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "株式"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "転換証券"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "コモディティ"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "デリバティブ"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "参照指標連動商品"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "クレジット"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "U": { "en": "Units", "local": "ユニット" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "年金基金",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "オープンエンド" },
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "バランス型・保守型" },
-            "G": { "en": "Growth", "local": "成長型" },
-            "L": { "en": "Life style", "local": "ライフスタイル" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "バランス型・保守型"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "成長型"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "ライフスタイル"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "確定給付年金（DB）" },
-            "B": { "en": "Defined contribution", "local": "確定拠出年金（DC）" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "確定給付年金（DB）"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "確定拠出年金（DC）"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "U": { "en": "Units", "local": "ユニット" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "ファンド・オブ・ファンズ",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "オープンエンド" },
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "分配型ファンド" },
-            "G": { "en": "Accumulation funds", "local": "累積投資型ファンド" },
-            "J": { "en": "Mixed funds", "local": "混合型ファンド" }
+            "I": {
+              "en": "Income funds",
+              "local": "分配型ファンド"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累積投資型ファンド"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型ファンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "標準型投資ファンド・ミューチュアルファンド" },
-            "H": { "en": "Hedge funds", "local": "ヘッジファンド" },
-            "B": { "en": "REITs", "local": "REIT" },
-            "E": { "en": "ETFs", "local": "ETF" },
-            "P": { "en": "Private equity funds", "local": "プライベート・エクイティ・ファンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "標準型投資ファンド・ミューチュアルファンド"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "ヘッジファンド"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "REIT"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "ETF"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "プライベート・エクイティ・ファンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "Q": { "en": "Shares for QI", "local": "株式（適格投資家向け）" },
-            "U": { "en": "Units", "local": "ユニット" },
-            "Y": { "en": "Units for QI", "local": "ユニット（適格投資家向け）" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "株式（適格投資家向け）"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "ユニット（適格投資家向け）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "プライベート・エクイティ・ファンド",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "オープンエンド" },
-            "C": { "en": "Closed-end", "local": "クローズドエンド" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "O": {
+              "en": "Open-end",
+              "local": "オープンエンド"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "クローズドエンド"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "分配型ファンド" },
-            "G": { "en": "Accumulation funds", "local": "累積投資型ファンド" },
-            "J": { "en": "Mixed funds", "local": "混合型ファンド" }
+            "I": {
+              "en": "Income funds",
+              "local": "分配型ファンド"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "累積投資型ファンド"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "混合型ファンド"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "不動産" },
-            "B": { "en": "Debt instruments", "local": "負債性商品" },
-            "E": { "en": "Equities", "local": "株式" },
-            "V": { "en": "Convertible securities", "local": "転換証券" },
-            "L": { "en": "Mixed", "local": "混合型" },
-            "C": { "en": "Commodities", "local": "コモディティ" },
-            "D": { "en": "Derivatives", "local": "デリバティブ" },
-            "F": { "en": "Referential instruments", "local": "参照指標連動商品" },
-            "K": { "en": "Credits", "local": "クレジット" },
-            "M": { "en": "Others (misc.)", "local": "その他" }
+            "R": {
+              "en": "Real estate",
+              "local": "不動産"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "負債性商品"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "株式"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "転換証券"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "混合型"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "コモディティ"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "デリバティブ"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "参照指標連動商品"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "クレジット"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "その他"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "Q": { "en": "Shares for QI", "local": "株式（適格投資家向け）" },
-            "U": { "en": "Units", "local": "ユニット" },
-            "Y": { "en": "Units for QI", "local": "ユニット（適格投資家向け）" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "株式（適格投資家向け）"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "ユニット（適格投資家向け）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "その他",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "該当なし・未分類" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "株式" },
-            "Q": { "en": "Shares for QI", "local": "株式（適格投資家向け）" },
-            "U": { "en": "Units", "local": "ユニット" },
-            "Y": { "en": "Units for QI", "local": "ユニット（適格投資家向け）" }
+            "S": {
+              "en": "Shares",
+              "local": "株式"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "株式（適格投資家向け）"
+            },
+            "U": {
+              "en": "Units",
+              "local": "ユニット"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "ユニット（適格投資家向け）"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "該当なし・未分類"
+            }
           }
         }
       }
