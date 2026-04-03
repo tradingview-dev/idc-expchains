@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "الأسهم (العادية)",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "القيود" },
-            "U": { "en": "Free", "local": "حر" }
+            "T": {
+              "en": "Restrictions",
+              "local": "القيود"
+            },
+            "U": {
+              "en": "Free",
+              "local": "حر"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "مدفوعة بالكامل" },
-            "O": { "en": "Nil paid", "local": "لا يوجد دفع" },
-            "P": { "en": "Partly paid", "local": "مدفوع جزئياً" }
+            "F": {
+              "en": "Fully paid",
+              "local": "مدفوعة بالكامل"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "لا يوجد دفع"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "مدفوع جزئياً"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "الأسهم الممتازة",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "قابلة للاسترداد" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" },
-            "T": { "en": "Redeemable/extendible", "local": "قابلة للاسترداد/قابلة للتمديد" },
-            "G": { "en": "Exchangeable", "local": "قابلة للتبديل" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد" },
-            "C": { "en": "Redeemable/exchangeable", "local": "قابلة للاسترداد/الاستبدال" },
-            "N": { "en": "Perpetual", "local": "دائم" }
+            "R": {
+              "en": "Redeemable",
+              "local": "قابلة للاسترداد"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "قابلة للاسترداد/قابلة للتمديد"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "قابلة للتبديل"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "قابلة للاسترداد/الاستبدال"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "C": { "en": "Cumulative, fixed rate", "local": "معدل تراكمي ثابت" },
-            "P": { "en": "Participating", "local": "المشاركة" },
-            "Q": { "en": "Cumulative, participating", "local": "تراكمي، مشارك" },
-            "A": { "en": "Adjustable/variable rate", "local": "معدل قابل للتعديل/متغير" },
-            "N": { "en": "Normal rate", "local": "المعدل الطبيعي" },
-            "U": { "en": "Auction rate", "local": "سعر المزاد" },
-            "D": { "en": "Dividends", "local": "توزيعات الأرباح" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "معدل تراكمي ثابت"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "المشاركة"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "تراكمي، مشارك"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "معدل قابل للتعديل/متغير"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "المعدل الطبيعي"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "سعر المزاد"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "توزيعات الأرباح"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "الأسهم القابلة للتحويل",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "القيود" },
-            "U": { "en": "Free", "local": "حر" }
+            "T": {
+              "en": "Restrictions",
+              "local": "القيود"
+            },
+            "U": {
+              "en": "Free",
+              "local": "حر"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "مدفوعة بالكامل" },
-            "O": { "en": "Nil paid", "local": "لا يوجد دفع" },
-            "P": { "en": "Partly paid", "local": "مدفوع جزئياً" }
+            "F": {
+              "en": "Fully paid",
+              "local": "مدفوعة بالكامل"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "لا يوجد دفع"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "مدفوع جزئياً"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "أسهم ممتازة قابلة للتحويل",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "قابلة للاسترداد" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" },
-            "T": { "en": "Redeemable/extendible", "local": "قابلة للاسترداد/قابلة للتمديد" },
-            "G": { "en": "Exchangeable", "local": "قابلة للتبديل" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد" },
-            "C": { "en": "Redeemable/exchangeable", "local": "قابلة للاسترداد/الاستبدال" },
-            "N": { "en": "Perpetual", "local": "دائم" }
+            "R": {
+              "en": "Redeemable",
+              "local": "قابلة للاسترداد"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "قابلة للاسترداد/قابلة للتمديد"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "قابلة للتبديل"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "قابلة للاسترداد/الاستبدال"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "C": { "en": "Cumulative, fixed rate", "local": "معدل تراكمي ثابت" },
-            "P": { "en": "Participating", "local": "المشاركة" },
-            "Q": { "en": "Cumulative, participating", "local": "تراكمي، مشارك" },
-            "A": { "en": "Adjustable/variable rate", "local": "معدل قابل للتعديل/متغير" },
-            "N": { "en": "Normal rate", "local": "المعدل الطبيعي" },
-            "U": { "en": "Auction rate", "local": "سعر المزاد" },
-            "D": { "en": "Dividends", "local": "توزيعات الأرباح" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "معدل تراكمي ثابت"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "المشاركة"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "تراكمي، مشارك"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "معدل قابل للتعديل/متغير"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "المعدل الطبيعي"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "سعر المزاد"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "توزيعات الأرباح"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "وحدات الشراكة المحدودة",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "القيود" },
-            "U": { "en": "Free", "local": "حر" }
+            "T": {
+              "en": "Restrictions",
+              "local": "القيود"
+            },
+            "U": {
+              "en": "Free",
+              "local": "حر"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "مدفوعة بالكامل" },
-            "O": { "en": "Nil paid", "local": "لا يوجد دفع" },
-            "P": { "en": "Partly paid", "local": "مدفوع جزئياً" }
+            "F": {
+              "en": "Fully paid",
+              "local": "مدفوعة بالكامل"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "لا يوجد دفع"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "مدفوع جزئياً"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "إيصالات إيداع الأسهم",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "الأسهم العادية" },
-            "P": { "en": "Preferred/preference shares", "local": "الأسهم الممتازة/التفضيلية" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "الأسهم العادية القابلة للتحويل" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "الأسهم المفضلة/الممتازة القابلة للتحويل" },
-            "L": { "en": "Limited partnership units", "local": "وحدات الشراكة المحدودة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "الأسهم العادية"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "الأسهم الممتازة/التفضيلية"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "الأسهم العادية القابلة للتحويل"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "الأسهم المفضلة/الممتازة القابلة للتحويل"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "وحدات الشراكة المحدودة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "قابلة للاسترداد" },
-            "N": { "en": "Perpetual", "local": "دائم" },
-            "B": { "en": "Convertible", "local": "قابل للتحويل" },
-            "D": { "en": "Convertible/redeemable", "local": "قابلة للتحويل/الاسترداد" },
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "R": {
+              "en": "Redeemable",
+              "local": "قابلة للاسترداد"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "قابل للتحويل"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "قابلة للتحويل/الاسترداد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "C": { "en": "Cumulative, fixed rate", "local": "معدل تراكمي ثابت" },
-            "P": { "en": "Participating", "local": "المشاركة" },
-            "Q": { "en": "Cumulative, participating", "local": "تراكمي، مشارك" },
-            "A": { "en": "Adjustable/variable rate", "local": "معدل قابل للتعديل/متغير" },
-            "N": { "en": "Normal rate", "local": "المعدل الطبيعي" },
-            "U": { "en": "Auction rate", "local": "سعر المزاد" },
-            "D": { "en": "Dividends", "local": "توزيعات الأرباح" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "معدل تراكمي ثابت"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "المشاركة"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "تراكمي، مشارك"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "معدل قابل للتعديل/متغير"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "المعدل الطبيعي"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "سعر المزاد"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "توزيعات الأرباح"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "الأدوات المنظمة (المشاركة)",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "شهادة التتبع" },
-            "B": { "en": "Outperforming certificate", "local": "شهادة التفوق" },
-            "C": { "en": "Bonus certificate", "local": "شهادة المكافأة" },
-            "D": { "en": "Outperformance bonus certificate", "local": "شهادة مكافأة الأداء المتميز" },
-            "E": { "en": "Twin-win certificate", "local": "شهادة الفوز المزدوج" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "شهادة التتبع"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "شهادة التفوق"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "شهادة المكافأة"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "شهادة مكافأة الأداء المتميز"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "شهادة الفوز المزدوج"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "توزيعات الأرباح" },
-            "Y": { "en": "No payments", "local": "لا توجد مدفوعات" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "توزيعات الأرباح"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "لا توجد مدفوعات"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "سداد نقدي" },
-            "V": { "en": "Physical repayment", "local": "السداد المادي" },
-            "E": { "en": "Elect at settlement", "local": "الانتخاب عند التسوية" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "سداد نقدي"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "السداد المادي"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "الانتخاب عند التسوية"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "سلال" },
-            "S": { "en": "Equities", "local": "الأسهم" },
-            "D": { "en": "Debt instruments", "local": "أدوات الدين" },
-            "G": { "en": "Derivatives", "local": "المشتقات" },
-            "T": { "en": "Commodities", "local": "السلع" },
-            "C": { "en": "Currencies", "local": "العملات" },
-            "I": { "en": "Indices", "local": "المؤشرات" },
-            "N": { "en": "Interest rates", "local": "أسعار الفائدة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Baskets",
+              "local": "سلال"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "الأسهم"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "أدوات الدين"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "المشتقات"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "السلع"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "العملات"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "المؤشرات"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "أسعار الفائدة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "أسهم ممتازة",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "قابلة للاسترداد" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" },
-            "T": { "en": "Redeemable/extendible", "local": "قابلة للاسترداد/قابلة للتمديد" },
-            "G": { "en": "Exchangeable", "local": "قابلة للتبديل" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد" },
-            "C": { "en": "Redeemable/exchangeable", "local": "قابلة للاسترداد/الاستبدال" },
-            "N": { "en": "Perpetual", "local": "دائم" }
+            "R": {
+              "en": "Redeemable",
+              "local": "قابلة للاسترداد"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "قابلة للاسترداد/قابلة للتمديد"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "قابلة للتبديل"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "قابلة للاسترداد/الاستبدال"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "C": { "en": "Cumulative, fixed rate", "local": "معدل تراكمي ثابت" },
-            "P": { "en": "Participating", "local": "المشاركة" },
-            "Q": { "en": "Cumulative, participating", "local": "تراكمي، مشارك" },
-            "A": { "en": "Adjustable/variable rate", "local": "معدل قابل للتعديل/متغير" },
-            "N": { "en": "Normal rate", "local": "المعدل الطبيعي" },
-            "U": { "en": "Auction rate", "local": "سعر المزاد" },
-            "D": { "en": "Dividends", "local": "توزيعات الأرباح" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "معدل تراكمي ثابت"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "المشاركة"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "تراكمي، مشارك"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "معدل قابل للتعديل/متغير"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "المعدل الطبيعي"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "سعر المزاد"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "توزيعات الأرباح"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "أسهم ممتازة قابلة للتحويل",
           "attribute1": {
-            "V": { "en": "Voting", "local": "التصويت" },
-            "N": { "en": "Non-voting", "local": "عدم التصويت" },
-            "R": { "en": "Restricted", "local": "مقيد" },
-            "E": { "en": "Enhanced voting", "local": "التصويت المحسن" }
+            "V": {
+              "en": "Voting",
+              "local": "التصويت"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "عدم التصويت"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "مقيد"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "التصويت المحسن"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "قابلة للاسترداد" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" },
-            "T": { "en": "Redeemable/extendible", "local": "قابلة للاسترداد/قابلة للتمديد" },
-            "G": { "en": "Exchangeable", "local": "قابلة للتبديل" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد" },
-            "C": { "en": "Redeemable/exchangeable", "local": "قابلة للاسترداد/الاستبدال" },
-            "N": { "en": "Perpetual", "local": "دائم" }
+            "R": {
+              "en": "Redeemable",
+              "local": "قابلة للاسترداد"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "قابلة للاسترداد/قابلة للتمديد"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "قابلة للتبديل"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "قابل للاسترداد/قابل للاستبدال/قابل للتمديد"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "قابلة للاسترداد/الاستبدال"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "C": { "en": "Cumulative, fixed rate", "local": "معدل تراكمي ثابت" },
-            "P": { "en": "Participating", "local": "المشاركة" },
-            "Q": { "en": "Cumulative, participating", "local": "تراكمي، مشارك" },
-            "A": { "en": "Adjustable/variable rate", "local": "معدل قابل للتعديل/متغير" },
-            "N": { "en": "Normal rate", "local": "المعدل الطبيعي" },
-            "U": { "en": "Auction rate", "local": "سعر المزاد" },
-            "D": { "en": "Dividends", "local": "توزيعات الأرباح" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "معدل تراكمي ثابت"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "المشاركة"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "تراكمي، مشارك"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "معدل قابل للتعديل/متغير"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "المعدل الطبيعي"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "سعر المزاد"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "توزيعات الأرباح"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "الوحدات (صناديق الوحدة، الصناديق المشتركة، OPCVM/OICVM)",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" }
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "صناديق الدخل" },
-            "G": { "en": "Growth funds", "local": "صناديق النمو" },
-            "M": { "en": "Mixed funds", "local": "الصناديق المختلطة" }
+            "I": {
+              "en": "Income funds",
+              "local": "صناديق الدخل"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "صناديق النمو"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "الصناديق المختلطة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "العقارات" },
-            "S": { "en": "Securities", "local": "الأوراق المالية" },
-            "M": { "en": "Mixed-general", "local": "مختلط - عام" },
-            "C": { "en": "Commodities", "local": "السلع" },
-            "D": { "en": "Derivatives", "local": "المشتقات" }
+            "R": {
+              "en": "Real estate",
+              "local": "العقارات"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "الأوراق المالية"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "مختلط - عام"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "السلع"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "المشتقات"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "Z": { "en": "Bearer depository receipt", "local": "إيصال إيداع لحامله" },
-            "A": { "en": "Registered depository receipt", "local": "إيصال إيداع مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "إيصال إيداع لحامله"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "إيصال إيداع مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "أخرى (متفرقات)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "السندات.",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" },
-            "C": { "en": "Cash payment", "local": "الدفع النقدي" },
-            "K": { "en": "Payment in kind", "local": "الدفع العيني" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "الدفع النقدي"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "الدفع العيني"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "السندات القابلة للتحويل",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" },
-            "C": { "en": "Cash payment", "local": "الدفع النقدي" },
-            "K": { "en": "Payment in kind", "local": "الدفع العيني" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "الدفع النقدي"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "الدفع العيني"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "السندات مع الضمانات المرفقة",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" },
-            "C": { "en": "Cash payment", "local": "الدفع النقدي" },
-            "K": { "en": "Payment in kind", "local": "الدفع العيني" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "الدفع النقدي"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "الدفع العيني"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "سندات متوسطة المدى",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" },
-            "C": { "en": "Cash payment", "local": "الدفع النقدي" },
-            "K": { "en": "Payment in kind", "local": "الدفع العيني" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "الدفع النقدي"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "الدفع العيني"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "المنتجات المهيكلة (حماية رأس المال)",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "شهادة حماية رأس المال مع المشاركة" },
-            "B": { "en": "Capital protection convertible certificate", "local": "شهادة قابلة للتحويل لحماية رأس المال" },
-            "C": { "en": "Barrier capital protection certificate", "local": "شهادة حماية رأس المال الحاجز" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "شهادة حماية رأس المال مع قسائم" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "شهادة حماية رأس المال مع المشاركة"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "شهادة قابلة للتحويل لحماية رأس المال"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "شهادة حماية رأس المال الحاجز"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "شهادة حماية رأس المال مع قسائم"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "مدفوعات الفائدة الثابتة" },
-            "D": { "en": "Dividend payments", "local": "توزيعات الأرباح" },
-            "V": { "en": "Variable interest payments", "local": "مدفوعات الفائدة المتغيرة" },
-            "Y": { "en": "No payments", "local": "لا توجد مدفوعات" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "مدفوعات الفائدة الثابتة"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "توزيعات الأرباح"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "مدفوعات الفائدة المتغيرة"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "لا توجد مدفوعات"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "سداد نقدي ثابت (مستوى رأس المال المحمي فقط)" },
-            "V": { "en": "Variable cash repayment", "local": "سداد نقدي متغير" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "سداد نقدي ثابت (مستوى رأس المال المحمي فقط)"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "سداد نقدي متغير"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "سلال" },
-            "S": { "en": "Equities", "local": "الأسهم" },
-            "D": { "en": "Debt instruments/interest rates", "local": "أدوات الدين / أسعار الفائدة" },
-            "T": { "en": "Commodities", "local": "السلع" },
-            "C": { "en": "Currencies", "local": "العملات" },
-            "I": { "en": "Indices", "local": "المؤشرات" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Baskets",
+              "local": "سلال"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "الأسهم"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "أدوات الدين / أسعار الفائدة"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "السلع"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "العملات"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "المؤشرات"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "المنتجات المهيكلة (بدون حماية رأس المال)",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "شهادة خصم" },
-            "B": { "en": "Barrier discount certificate", "local": "شهادة خصم الحاجز" },
-            "C": { "en": "Reverse convertible", "local": "قابل للتحويل العكسي" },
-            "D": { "en": "Barrier reverse convertible", "local": "حاجز قابل للتحويل عكسي" },
-            "E": { "en": "Express certificate", "local": "شهادة سريعة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "شهادة خصم"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "شهادة خصم الحاجز"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "قابل للتحويل العكسي"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "حاجز قابل للتحويل عكسي"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "شهادة سريعة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "السداد نقداً" },
-            "S": { "en": "Repayment in assets", "local": "السداد بالأصول" },
-            "C": { "en": "Repayment in assets and cash", "local": "السداد بالأصول والنقد" },
-            "T": { "en": "Repayment in assets or cash", "local": "السداد بالأصول أو نقداً" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "السداد نقداً"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "السداد بالأصول"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "السداد بالأصول والنقد"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "السداد بالأصول أو نقداً"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "الأوراق المالية المدعومة بالرهن العقاري (MBS)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "الأوراق المالية المدعومة بالأصول (ABS)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "السندات البلدية",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "إيصالات إيداع أدوات الدين",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "السندات." },
-            "C": { "en": "Convertible bonds", "local": "السندات القابلة للتحويل" },
-            "W": { "en": "Bonds with warrants attached", "local": "السندات مع الضمانات المرفقة" },
-            "T": { "en": "Medium-term notes", "local": "سندات متوسطة المدى" },
-            "Y": { "en": "Money market instruments", "local": "أدوات سوق المال" },
-            "G": { "en": "Mortgage-backed securities", "local": "الأوراق المالية المدعومة بالرهن العقاري" },
-            "Q": { "en": "Asset-backed securities", "local": "الأوراق المالية المدعومة بالأصول" },
-            "N": { "en": "Municipal bonds", "local": "السندات البلدية" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bonds",
+              "local": "السندات."
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "السندات القابلة للتحويل"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "السندات مع الضمانات المرفقة"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "سندات متوسطة المدى"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "أدوات سوق المال"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "الأوراق المالية المدعومة بالرهن العقاري"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "الأوراق المالية المدعومة بالأصول"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "السندات البلدية"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" },
-            "C": { "en": "Cash payment", "local": "الدفع النقدي" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "الدفع النقدي"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "استحقاق ثابت" },
-            "G": { "en": "Fixed maturity with call feature", "local": "استحقاق ثابت مع خيار الاستدعاء" },
-            "C": { "en": "Fixed maturity with put feature", "local": "تاريخ استحقاق ثابت مع ميزة البيع" },
-            "D": { "en": "Fixed maturity with put and call", "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء" },
-            "A": { "en": "Amortization plan", "local": "خطة سداد" },
-            "B": { "en": "Amortization plan with call feature", "local": "خطة سداد مع ميزة الاستدعاء" },
-            "T": { "en": "Amortization plan with put feature", "local": "خطة سداد مع ميزة البيع" },
-            "L": { "en": "Amortization plan with put and call", "local": "خطة سداد مع خياري البيع والشراء" },
-            "P": { "en": "Perpetual", "local": "دائم" },
-            "Q": { "en": "Perpetual with call feature", "local": "دائم مع خيار الاستدعاء" },
-            "R": { "en": "Perpetual with put feature", "local": "دائم مع ميزة الإيداع" },
-            "E": { "en": "Extendible", "local": "قابل للتمديد" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "استحقاق ثابت"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "استحقاق ثابت مع خيار الاستدعاء"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "تاريخ استحقاق ثابت مع ميزة البيع"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "تاريخ استحقاق ثابت مع خياري البيع والشراء"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "خطة سداد"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "خطة سداد مع ميزة الاستدعاء"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "خطة سداد مع ميزة البيع"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "خطة سداد مع خياري البيع والشراء"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "دائم"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "دائم مع خيار الاستدعاء"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "دائم مع ميزة الإيداع"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "قابل للتمديد"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "أدوات سوق المال",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "معدل ثابت" },
-            "Z": { "en": "Zero rate/discounted", "local": "معدل فائدة صفري/مخفض" },
-            "V": { "en": "Variable", "local": "المتغير" },
-            "K": { "en": "Payment in kind", "local": "الدفع العيني" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "معدل ثابت"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "معدل فائدة صفري/مخفض"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "المتغير"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "الدفع العيني"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "الضمان الحكومي/ضمان الدولة" },
-            "G": { "en": "Joint guarantee", "local": "ضمان مشترك" },
-            "S": { "en": "Secured", "local": "مضمون" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "غير مضمون/غير مكفول" },
-            "P": { "en": "Negative pledge", "local": "تعهد سلبي" },
-            "N": { "en": "Senior", "local": "ممتاز" },
-            "O": { "en": "Senior subordinated", "local": "ثانوية ممتازة" },
-            "Q": { "en": "Junior", "local": "صغرى" },
-            "J": { "en": "Junior subordinated", "local": "ثانوية صغرى" },
-            "C": { "en": "Supranational", "local": "فوق الوطنية" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "الضمان الحكومي/ضمان الدولة"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "ضمان مشترك"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "مضمون"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "غير مضمون/غير مكفول"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "تعهد سلبي"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "ممتاز"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "ثانوية ممتازة"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "صغرى"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "ثانوية صغرى"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "فوق الوطنية"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "أخرى (متفرقات)",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "القرض البنكي" },
-            "P": { "en": "Promissory note", "local": "السند الإذني" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bank loan",
+              "local": "القرض البنكي"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "السند الإذني"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "حامل" },
-            "R": { "en": "Registered", "local": "مسجلة" },
-            "N": { "en": "Bearer/registered", "local": "حامل/مسجل" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Bearer",
+              "local": "حامل"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "مسجلة"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "حامل/مسجل"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "صناديق الاستثمار/الصناديق المشتركة القياسية (التقليدية)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" },
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "صناديق الدخل" },
-            "G": { "en": "Accumulation funds", "local": "صناديق التراكم" },
-            "J": { "en": "Mixed funds", "local": "الصناديق المختلطة" }
+            "I": {
+              "en": "Income funds",
+              "local": "صناديق الدخل"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "صناديق التراكم"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "الصناديق المختلطة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "العقارات" },
-            "B": { "en": "Debt instruments", "local": "أدوات الدين" },
-            "E": { "en": "Equities", "local": "الأسهم" },
-            "V": { "en": "Convertible securities", "local": "الأوراق المالية القابلة للتحويل" },
-            "L": { "en": "Mixed", "local": "مختلط" },
-            "C": { "en": "Commodities", "local": "السلع" },
-            "D": { "en": "Derivatives", "local": "المشتقات" },
-            "F": { "en": "Referential instruments", "local": "الأدوات المرجعية" },
-            "K": { "en": "Credits", "local": "الائتمانات" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "R": {
+              "en": "Real estate",
+              "local": "العقارات"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "أدوات الدين"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "الأسهم"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "الأوراق المالية القابلة للتحويل"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "مختلط"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "السلع"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "المشتقات"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "الأدوات المرجعية"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "الائتمانات"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "Q": { "en": "Shares for QI", "local": "أسهم للمستثمرين المؤهلين" },
-            "U": { "en": "Units", "local": "الوحدات" },
-            "Y": { "en": "Units for QI", "local": "وحدات للمستثمرين المؤهلين" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "أسهم للمستثمرين المؤهلين"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "وحدات للمستثمرين المؤهلين"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "صناديق التحوط",
           "attribute1": {
-            "D": { "en": "Directional", "local": "اِتِّجاهِي" },
-            "R": { "en": "Relative value", "local": "القيمة النسبية" },
-            "S": { "en": "Security selection", "local": "اختيار الأدوات" },
-            "E": { "en": "Event-driven", "local": "مدفوع بالأحداث" },
-            "A": { "en": "Arbitrage", "local": "المراجحة" },
-            "N": { "en": "Multi-strategy", "local": "استراتيجيات متعددة" },
-            "L": { "en": "Asset-based lending", "local": "الإقراض المضمون بالأصول" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "D": {
+              "en": "Directional",
+              "local": "اِتِّجاهِي"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "القيمة النسبية"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "اختيار الأدوات"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "مدفوع بالأحداث"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "المراجحة"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "استراتيجيات متعددة"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "الإقراض المضمون بالأصول"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "صناديق الاستثمار العقاري (REITs)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" },
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "صناديق الدخل" },
-            "G": { "en": "Accumulation funds", "local": "صناديق التراكم" },
-            "J": { "en": "Mixed funds", "local": "الصناديق المختلطة" }
+            "I": {
+              "en": "Income funds",
+              "local": "صناديق الدخل"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "صناديق التراكم"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "الصناديق المختلطة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "Q": { "en": "Shares for QI", "local": "أسهم للمستثمرين المؤهلين" },
-            "U": { "en": "Units", "local": "الوحدات" },
-            "Y": { "en": "Units for QI", "local": "وحدات للمستثمرين المؤهلين" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "أسهم للمستثمرين المؤهلين"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "وحدات للمستثمرين المؤهلين"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "صناديق الاستثمار المتداولة (ETFs)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" },
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "صناديق الدخل" },
-            "G": { "en": "Accumulation funds", "local": "صناديق التراكم" },
-            "J": { "en": "Mixed funds", "local": "الصناديق المختلطة" }
+            "I": {
+              "en": "Income funds",
+              "local": "صناديق الدخل"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "صناديق التراكم"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "الصناديق المختلطة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "العقارات" },
-            "B": { "en": "Debt instruments", "local": "أدوات الدين" },
-            "E": { "en": "Equities", "local": "الأسهم" },
-            "V": { "en": "Convertible securities", "local": "الأوراق المالية القابلة للتحويل" },
-            "L": { "en": "Mixed", "local": "مختلط" },
-            "C": { "en": "Commodities", "local": "السلع" },
-            "D": { "en": "Derivatives", "local": "المشتقات" },
-            "F": { "en": "Referential instruments", "local": "الأدوات المرجعية" },
-            "K": { "en": "Credits", "local": "الائتمانات" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "R": {
+              "en": "Real estate",
+              "local": "العقارات"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "أدوات الدين"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "الأسهم"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "الأوراق المالية القابلة للتحويل"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "مختلط"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "السلع"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "المشتقات"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "الأدوات المرجعية"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "الائتمانات"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "U": { "en": "Units", "local": "الوحدات" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "صناديق التقاعد",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" },
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "متوازن/محافظ" },
-            "G": { "en": "Growth", "local": "النمو" },
-            "L": { "en": "Life style", "local": "نمط الحياة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "متوازن/محافظ"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "النمو"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "نمط الحياة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "مزايا محددة" },
-            "B": { "en": "Defined contribution", "local": "المساهمة المحددة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "مزايا محددة"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "المساهمة المحددة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "U": { "en": "Units", "local": "الوحدات" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "صناديق الصناديق",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" },
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "صناديق الدخل" },
-            "G": { "en": "Accumulation funds", "local": "صناديق التراكم" },
-            "J": { "en": "Mixed funds", "local": "الصناديق المختلطة" }
+            "I": {
+              "en": "Income funds",
+              "local": "صناديق الدخل"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "صناديق التراكم"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "الصناديق المختلطة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "صناديق الاستثمار/الصناديق المشتركة القياسية (التقليدية)" },
-            "H": { "en": "Hedge funds", "local": "صناديق التحوط" },
-            "B": { "en": "REITs", "local": "صناديق الاستثمار العقارية:" },
-            "E": { "en": "ETFs", "local": "صناديق الاستثمار المتداولة" },
-            "P": { "en": "Private equity funds", "local": "صناديق الأسهم الخاصة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "صناديق الاستثمار/الصناديق المشتركة القياسية (التقليدية)"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "صناديق التحوط"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "صناديق الاستثمار العقارية:"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "صناديق الاستثمار المتداولة"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "صناديق الأسهم الخاصة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "Q": { "en": "Shares for QI", "local": "أسهم للمستثمرين المؤهلين" },
-            "U": { "en": "Units", "local": "الوحدات" },
-            "Y": { "en": "Units for QI", "local": "وحدات للمستثمرين المؤهلين" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "أسهم للمستثمرين المؤهلين"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "وحدات للمستثمرين المؤهلين"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "صناديق الأسهم الخاصة",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "نهاية مفتوحة" },
-            "C": { "en": "Closed-end", "local": "نهاية مغلقة" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "O": {
+              "en": "Open-end",
+              "local": "نهاية مفتوحة"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "نهاية مغلقة"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "صناديق الدخل" },
-            "G": { "en": "Accumulation funds", "local": "صناديق التراكم" },
-            "J": { "en": "Mixed funds", "local": "الصناديق المختلطة" }
+            "I": {
+              "en": "Income funds",
+              "local": "صناديق الدخل"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "صناديق التراكم"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "الصناديق المختلطة"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "العقارات" },
-            "B": { "en": "Debt instruments", "local": "أدوات الدين" },
-            "E": { "en": "Equities", "local": "الأسهم" },
-            "V": { "en": "Convertible securities", "local": "الأوراق المالية القابلة للتحويل" },
-            "L": { "en": "Mixed", "local": "مختلط" },
-            "C": { "en": "Commodities", "local": "السلع" },
-            "D": { "en": "Derivatives", "local": "المشتقات" },
-            "F": { "en": "Referential instruments", "local": "الأدوات المرجعية" },
-            "K": { "en": "Credits", "local": "الائتمانات" },
-            "M": { "en": "Others (misc.)", "local": "أخرى (متفرقات)" }
+            "R": {
+              "en": "Real estate",
+              "local": "العقارات"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "أدوات الدين"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "الأسهم"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "الأوراق المالية القابلة للتحويل"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "مختلط"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "السلع"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "المشتقات"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "الأدوات المرجعية"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "الائتمانات"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "أخرى (متفرقات)"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "Q": { "en": "Shares for QI", "local": "أسهم للمستثمرين المؤهلين" },
-            "U": { "en": "Units", "local": "الوحدات" },
-            "Y": { "en": "Units for QI", "local": "وحدات للمستثمرين المؤهلين" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "أسهم للمستثمرين المؤهلين"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "وحدات للمستثمرين المؤهلين"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "أخرى (متفرقات)",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "غير قابل للتطبيق/غير محدد" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "الأسهم" },
-            "Q": { "en": "Shares for QI", "local": "أسهم للمستثمرين المؤهلين" },
-            "U": { "en": "Units", "local": "الوحدات" },
-            "Y": { "en": "Units for QI", "local": "وحدات للمستثمرين المؤهلين" }
+            "S": {
+              "en": "Shares",
+              "local": "الأسهم"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "أسهم للمستثمرين المؤهلين"
+            },
+            "U": {
+              "en": "Units",
+              "local": "الوحدات"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "وحدات للمستثمرين المؤهلين"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "غير قابل للتطبيق/غير محدد"
+            }
           }
         }
       }

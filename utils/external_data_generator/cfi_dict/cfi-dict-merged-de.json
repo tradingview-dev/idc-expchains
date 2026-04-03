@@ -8,331 +8,1088 @@
           "en": "Shares (common/ordinary)",
           "local": "Aktien (Stammaktien)",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Beschränkungen" },
-            "U": { "en": "Free", "local": "Frei" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Beschränkungen"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Frei"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Vollständig gezahlt" },
-            "O": { "en": "Nil paid", "local": "Ohne Bezahlung" },
-            "P": { "en": "Partly paid", "local": "Teilweise gezahlt" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Vollständig gezahlt"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Ohne Bezahlung"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Teilweise gezahlt"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "P": {
           "en": "Preferred shares",
           "local": "Vorzugsaktien",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Rückkaufbar" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" },
-            "T": { "en": "Redeemable/extendible", "local": "Rückkaufbar/verlängerbar" },
-            "G": { "en": "Exchangeable", "local": "Umtauschbar" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Rückkaufbar/umtauschbar/verlängerbar" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Rückkaufbar/umtauschbar" },
-            "N": { "en": "Perpetual", "local": "Unbefristet" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Rückkaufbar"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Rückkaufbar/verlängerbar"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Umtauschbar"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Rückkaufbar/umtauschbar/verlängerbar"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Rückkaufbar/umtauschbar"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Kumulativ, Festzins" },
-            "P": { "en": "Participating", "local": "Beteiligt" },
-            "Q": { "en": "Cumulative, participating", "local": "Kumulativ, beteiligt" },
-            "A": { "en": "Adjustable/variable rate", "local": "Flexibel/variabler Zinssatz" },
-            "N": { "en": "Normal rate", "local": "Normalsatz" },
-            "U": { "en": "Auction rate", "local": "Auktionssatz" },
-            "D": { "en": "Dividends", "local": "Dividenden" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Kumulativ, Festzins"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Beteiligt"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Kumulativ, beteiligt"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Flexibel/variabler Zinssatz"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Normalsatz"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Auktionssatz"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Dividenden"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "C": {
           "en": "Convertible shares",
           "local": "Wandelaktien",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Beschränkungen" },
-            "U": { "en": "Free", "local": "Frei" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Beschränkungen"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Frei"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Vollständig gezahlt" },
-            "O": { "en": "Nil paid", "local": "Ohne Bezahlung" },
-            "P": { "en": "Partly paid", "local": "Teilweise gezahlt" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Vollständig gezahlt"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Ohne Bezahlung"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Teilweise gezahlt"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "F": {
           "en": "Preferred convertible shares",
           "local": "Vorzugsaktien (wandelbar)",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Rückkaufbar" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" },
-            "T": { "en": "Redeemable/extendible", "local": "Rückkaufbar/verlängerbar" },
-            "G": { "en": "Exchangeable", "local": "Umtauschbar" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Rückkaufbar/umtauschbar/verlängerbar" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Rückkaufbar/umtauschbar" },
-            "N": { "en": "Perpetual", "local": "Unbefristet" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Rückkaufbar"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Rückkaufbar/verlängerbar"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Umtauschbar"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Rückkaufbar/umtauschbar/verlängerbar"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Rückkaufbar/umtauschbar"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Kumulativ, Festzins" },
-            "P": { "en": "Participating", "local": "Beteiligt" },
-            "Q": { "en": "Cumulative, participating", "local": "Kumulativ, beteiligt" },
-            "A": { "en": "Adjustable/variable rate", "local": "Flexibel/variabler Zinssatz" },
-            "N": { "en": "Normal rate", "local": "Normalsatz" },
-            "U": { "en": "Auction rate", "local": "Auktionssatz" },
-            "D": { "en": "Dividends", "local": "Dividenden" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Kumulativ, Festzins"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Beteiligt"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Kumulativ, beteiligt"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Flexibel/variabler Zinssatz"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Normalsatz"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Auktionssatz"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Dividenden"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "L": {
           "en": "Limited partnership units",
           "local": "Kommanditgesellschaftseinheiten",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Restrictions", "local": "Beschränkungen" },
-            "U": { "en": "Free", "local": "Frei" }
+            "T": {
+              "en": "Restrictions",
+              "local": "Beschränkungen"
+            },
+            "U": {
+              "en": "Free",
+              "local": "Frei"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fully paid", "local": "Vollständig gezahlt" },
-            "O": { "en": "Nil paid", "local": "Ohne Bezahlung" },
-            "P": { "en": "Partly paid", "local": "Teilweise gezahlt" }
+            "F": {
+              "en": "Fully paid",
+              "local": "Vollständig gezahlt"
+            },
+            "O": {
+              "en": "Nil paid",
+              "local": "Ohne Bezahlung"
+            },
+            "P": {
+              "en": "Partly paid",
+              "local": "Teilweise gezahlt"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on equities",
           "local": "Hinterlegungsscheine für Aktien",
           "attribute1": {
-            "S": { "en": "Common/ordinary shares", "local": "Stammaktie" },
-            "P": { "en": "Preferred/preference shares", "local": "Vorzugsaktien" },
-            "C": { "en": "Common/ordinary convertible shares", "local": "Wandelbare Stammaktie" },
-            "F": { "en": "Preferred/preference convertible shares", "local": "Wandelbare Vorzugsaktie" },
-            "L": { "en": "Limited partnership units", "local": "Kommanditgesellschaftseinheiten" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "S": {
+              "en": "Common/ordinary shares",
+              "local": "Stammaktie"
+            },
+            "P": {
+              "en": "Preferred/preference shares",
+              "local": "Vorzugsaktien"
+            },
+            "C": {
+              "en": "Common/ordinary convertible shares",
+              "local": "Wandelbare Stammaktie"
+            },
+            "F": {
+              "en": "Preferred/preference convertible shares",
+              "local": "Wandelbare Vorzugsaktie"
+            },
+            "L": {
+              "en": "Limited partnership units",
+              "local": "Kommanditgesellschaftseinheiten"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Rückkaufbar" },
-            "N": { "en": "Perpetual", "local": "Unbefristet" },
-            "B": { "en": "Convertible", "local": "Wandelbar" },
-            "D": { "en": "Convertible/redeemable", "local": "Wandelbar/rückkaufbar" },
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Rückkaufbar"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "B": {
+              "en": "Convertible",
+              "local": "Wandelbar"
+            },
+            "D": {
+              "en": "Convertible/redeemable",
+              "local": "Wandelbar/rückkaufbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Kumulativ, Festzins" },
-            "P": { "en": "Participating", "local": "Beteiligt" },
-            "Q": { "en": "Cumulative, participating", "local": "Kumulativ, beteiligt" },
-            "A": { "en": "Adjustable/variable rate", "local": "Flexibel/variabler Zinssatz" },
-            "N": { "en": "Normal rate", "local": "Normalsatz" },
-            "U": { "en": "Auction rate", "local": "Auktionssatz" },
-            "D": { "en": "Dividends", "local": "Dividenden" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Kumulativ, Festzins"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Beteiligt"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Kumulativ, beteiligt"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Flexibel/variabler Zinssatz"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Normalsatz"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Auktionssatz"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Dividenden"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "Y": {
           "en": "Structured instruments (participation)",
           "local": "Strukturierte Instrumente (Beteiligung)",
           "attribute1": {
-            "A": { "en": "Tracker certificate", "local": "Tracker-Zertifikat" },
-            "B": { "en": "Outperforming certificate", "local": "Outperforming-Zertifikat" },
-            "C": { "en": "Bonus certificate", "local": "Bonus-Zertifikat" },
-            "D": { "en": "Outperformance bonus certificate", "local": "Outperformance-Bonus-Zertifikat" },
-            "E": { "en": "Twin-win certificate", "local": "Twin-Win-Zertifikat" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "A": {
+              "en": "Tracker certificate",
+              "local": "Tracker-Zertifikat"
+            },
+            "B": {
+              "en": "Outperforming certificate",
+              "local": "Outperforming-Zertifikat"
+            },
+            "C": {
+              "en": "Bonus certificate",
+              "local": "Bonus-Zertifikat"
+            },
+            "D": {
+              "en": "Outperformance bonus certificate",
+              "local": "Outperformance-Bonus-Zertifikat"
+            },
+            "E": {
+              "en": "Twin-win certificate",
+              "local": "Twin-Win-Zertifikat"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "D": { "en": "Dividend payments", "local": "Dividendenzahlungen" },
-            "Y": { "en": "No payments", "local": "Keine Zahlungen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "D": {
+              "en": "Dividend payments",
+              "local": "Dividendenzahlungen"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "Keine Zahlungen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Cash repayment", "local": "Barrückzahlung" },
-            "V": { "en": "Physical repayment", "local": "Physische Rückzahlung" },
-            "E": { "en": "Elect at settlement", "local": "Wählbar bei Abwicklung" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "F": {
+              "en": "Cash repayment",
+              "local": "Barrückzahlung"
+            },
+            "V": {
+              "en": "Physical repayment",
+              "local": "Physische Rückzahlung"
+            },
+            "E": {
+              "en": "Elect at settlement",
+              "local": "Wählbar bei Abwicklung"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "Baskets" },
-            "S": { "en": "Equities", "local": "Aktien" },
-            "D": { "en": "Debt instruments", "local": "Schuldverschreibungen" },
-            "G": { "en": "Derivatives", "local": "Derivate" },
-            "T": { "en": "Commodities", "local": "Rohstoffe" },
-            "C": { "en": "Currencies", "local": "Währungen" },
-            "I": { "en": "Indices", "local": "Indizes" },
-            "N": { "en": "Interest rates", "local": "Zinssätze" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Baskets",
+              "local": "Baskets"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "Aktien"
+            },
+            "D": {
+              "en": "Debt instruments",
+              "local": "Schuldverschreibungen"
+            },
+            "G": {
+              "en": "Derivatives",
+              "local": "Derivate"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "Rohstoffe"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "Währungen"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "Indizes"
+            },
+            "N": {
+              "en": "Interest rates",
+              "local": "Zinssätze"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "R": {
           "en": "Preference shares",
           "local": "Vorzugsaktien",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Rückkaufbar" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" },
-            "T": { "en": "Redeemable/extendible", "local": "Rückkaufbar/verlängerbar" },
-            "G": { "en": "Exchangeable", "local": "Umtauschbar" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Rückkaufbar/umtauschbar/verlängerbar" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Rückkaufbar/umtauschbar" },
-            "N": { "en": "Perpetual", "local": "Unbefristet" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Rückkaufbar"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Rückkaufbar/verlängerbar"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Umtauschbar"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Rückkaufbar/umtauschbar/verlängerbar"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Rückkaufbar/umtauschbar"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Kumulativ, Festzins" },
-            "P": { "en": "Participating", "local": "Beteiligt" },
-            "Q": { "en": "Cumulative, participating", "local": "Kumulativ, beteiligt" },
-            "A": { "en": "Adjustable/variable rate", "local": "Flexibel/variabler Zinssatz" },
-            "N": { "en": "Normal rate", "local": "Normalsatz" },
-            "U": { "en": "Auction rate", "local": "Auktionssatz" },
-            "D": { "en": "Dividends", "local": "Dividenden" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Kumulativ, Festzins"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Beteiligt"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Kumulativ, beteiligt"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Flexibel/variabler Zinssatz"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Normalsatz"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Auktionssatz"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Dividenden"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "V": {
           "en": "Preference convertible shares",
           "local": "Wandelbare Vorzugsaktien",
           "attribute1": {
-            "V": { "en": "Voting", "local": "Stimmabgabe" },
-            "N": { "en": "Non-voting", "local": "Ohne Stimmabgabe" },
-            "R": { "en": "Restricted", "local": "Beschränkt" },
-            "E": { "en": "Enhanced voting", "local": "Erweiterte Stimmabgabe" }
+            "V": {
+              "en": "Voting",
+              "local": "Stimmabgabe"
+            },
+            "N": {
+              "en": "Non-voting",
+              "local": "Ohne Stimmabgabe"
+            },
+            "R": {
+              "en": "Restricted",
+              "local": "Beschränkt"
+            },
+            "E": {
+              "en": "Enhanced voting",
+              "local": "Erweiterte Stimmabgabe"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "R": { "en": "Redeemable", "local": "Rückkaufbar" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" },
-            "T": { "en": "Redeemable/extendible", "local": "Rückkaufbar/verlängerbar" },
-            "G": { "en": "Exchangeable", "local": "Umtauschbar" },
-            "A": { "en": "Redeemable/exchangeable/extendible", "local": "Rückkaufbar/umtauschbar/verlängerbar" },
-            "C": { "en": "Redeemable/exchangeable", "local": "Rückkaufbar/umtauschbar" },
-            "N": { "en": "Perpetual", "local": "Unbefristet" }
+            "R": {
+              "en": "Redeemable",
+              "local": "Rückkaufbar"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "T": {
+              "en": "Redeemable/extendible",
+              "local": "Rückkaufbar/verlängerbar"
+            },
+            "G": {
+              "en": "Exchangeable",
+              "local": "Umtauschbar"
+            },
+            "A": {
+              "en": "Redeemable/exchangeable/extendible",
+              "local": "Rückkaufbar/umtauschbar/verlängerbar"
+            },
+            "C": {
+              "en": "Redeemable/exchangeable",
+              "local": "Rückkaufbar/umtauschbar"
+            },
+            "N": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "C": { "en": "Cumulative, fixed rate", "local": "Kumulativ, Festzins" },
-            "P": { "en": "Participating", "local": "Beteiligt" },
-            "Q": { "en": "Cumulative, participating", "local": "Kumulativ, beteiligt" },
-            "A": { "en": "Adjustable/variable rate", "local": "Flexibel/variabler Zinssatz" },
-            "N": { "en": "Normal rate", "local": "Normalsatz" },
-            "U": { "en": "Auction rate", "local": "Auktionssatz" },
-            "D": { "en": "Dividends", "local": "Dividenden" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "C": {
+              "en": "Cumulative, fixed rate",
+              "local": "Kumulativ, Festzins"
+            },
+            "P": {
+              "en": "Participating",
+              "local": "Beteiligt"
+            },
+            "Q": {
+              "en": "Cumulative, participating",
+              "local": "Kumulativ, beteiligt"
+            },
+            "A": {
+              "en": "Adjustable/variable rate",
+              "local": "Flexibel/variabler Zinssatz"
+            },
+            "N": {
+              "en": "Normal rate",
+              "local": "Normalsatz"
+            },
+            "U": {
+              "en": "Auction rate",
+              "local": "Auktionssatz"
+            },
+            "D": {
+              "en": "Dividends",
+              "local": "Dividenden"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "U": {
           "en": "Units (unit trusts, mutual funds, OPCVM/OICVM)",
           "local": "Anteile (Unit Trusts, Mutual Funds, OPCVM/OICVM)",
           "attribute1": {
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "O": { "en": "Open-end", "local": "Offen" }
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Einkommensfonds" },
-            "G": { "en": "Growth funds", "local": "Wachstumsfonds" },
-            "M": { "en": "Mixed funds", "local": "Gemischte Fonds" }
+            "I": {
+              "en": "Income funds",
+              "local": "Einkommensfonds"
+            },
+            "G": {
+              "en": "Growth funds",
+              "local": "Wachstumsfonds"
+            },
+            "M": {
+              "en": "Mixed funds",
+              "local": "Gemischte Fonds"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Immobilien" },
-            "S": { "en": "Securities", "local": "Wertpapiere" },
-            "M": { "en": "Mixed-general", "local": "Gemischt/allgemein" },
-            "C": { "en": "Commodities", "local": "Rohstoffe" },
-            "D": { "en": "Derivatives", "local": "Derivate" }
+            "R": {
+              "en": "Real estate",
+              "local": "Immobilien"
+            },
+            "S": {
+              "en": "Securities",
+              "local": "Wertpapiere"
+            },
+            "M": {
+              "en": "Mixed-general",
+              "local": "Gemischt/allgemein"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Rohstoffe"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Derivate"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "Z": { "en": "Bearer depository receipt", "local": "Inhaber-Hinterlegungsschein" },
-            "A": { "en": "Registered depository receipt", "local": "Eingetragener Hinterlegungsschein" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "Z": {
+              "en": "Bearer depository receipt",
+              "local": "Inhaber-Hinterlegungsschein"
+            },
+            "A": {
+              "en": "Registered depository receipt",
+              "local": "Eingetragener Hinterlegungsschein"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Sonstige",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         }
       }
@@ -345,451 +1102,1544 @@
           "en": "Bonds",
           "local": "Anleihen",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" },
-            "C": { "en": "Cash payment", "local": "Barzahlung" },
-            "K": { "en": "Payment in kind", "local": "Sachleistung" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Barzahlung"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Sachleistung"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "C": {
           "en": "Convertible bonds",
           "local": "Wandelanleihen",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" },
-            "C": { "en": "Cash payment", "local": "Barzahlung" },
-            "K": { "en": "Payment in kind", "local": "Sachleistung" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Barzahlung"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Sachleistung"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "W": {
           "en": "Bonds with warrants attached",
           "local": "Anleihen mit Bezugsrecht",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" },
-            "C": { "en": "Cash payment", "local": "Barzahlung" },
-            "K": { "en": "Payment in kind", "local": "Sachleistung" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Barzahlung"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Sachleistung"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "T": {
           "en": "Medium-term notes",
           "local": "Medium-Term Notes (mittelfristige Schuldtitel)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" },
-            "C": { "en": "Cash payment", "local": "Barzahlung" },
-            "K": { "en": "Payment in kind", "local": "Sachleistung" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Barzahlung"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Sachleistung"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "S": {
           "en": "Structured products (capital protection)",
           "local": "Strukturierte Produkte (Kapitalschutz)",
           "attribute1": {
-            "A": { "en": "Capital protection certificate with participation", "local": "Kapitalschutzzertifikat mit Beteiligung" },
-            "B": { "en": "Capital protection convertible certificate", "local": "Kapitalschutz wandelbares Zertifikat" },
-            "C": { "en": "Barrier capital protection certificate", "local": "Kapitalschutzzertifikat mit Barriere" },
-            "D": { "en": "Capital protection certificate with coupons", "local": "Kapitalschutzzertifikat mit Kupons" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "A": {
+              "en": "Capital protection certificate with participation",
+              "local": "Kapitalschutzzertifikat mit Beteiligung"
+            },
+            "B": {
+              "en": "Capital protection convertible certificate",
+              "local": "Kapitalschutz wandelbares Zertifikat"
+            },
+            "C": {
+              "en": "Barrier capital protection certificate",
+              "local": "Kapitalschutzzertifikat mit Barriere"
+            },
+            "D": {
+              "en": "Capital protection certificate with coupons",
+              "local": "Kapitalschutzzertifikat mit Kupons"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed interest payments", "local": "Festzinszahlungen" },
-            "D": { "en": "Dividend payments", "local": "Dividendenzahlungen" },
-            "V": { "en": "Variable interest payments", "local": "Variable Zinszahlungen" },
-            "Y": { "en": "No payments", "local": "Keine Zahlungen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "F": {
+              "en": "Fixed interest payments",
+              "local": "Festzinszahlungen"
+            },
+            "D": {
+              "en": "Dividend payments",
+              "local": "Dividendenzahlungen"
+            },
+            "V": {
+              "en": "Variable interest payments",
+              "local": "Variable Zinszahlungen"
+            },
+            "Y": {
+              "en": "No payments",
+              "local": "Keine Zahlungen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed cash repayment (only protected capital level)", "local": "Festgesetzte Barauszahlung (nur für das geschützte Kapitalniveau)" },
-            "V": { "en": "Variable cash repayment", "local": "Variable Barzahlung" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "F": {
+              "en": "Fixed cash repayment (only protected capital level)",
+              "local": "Festgesetzte Barauszahlung (nur für das geschützte Kapitalniveau)"
+            },
+            "V": {
+              "en": "Variable cash repayment",
+              "local": "Variable Barzahlung"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Baskets", "local": "Baskets" },
-            "S": { "en": "Equities", "local": "Aktien" },
-            "D": { "en": "Debt instruments/interest rates", "local": "Schuldtitel/Zinssätze" },
-            "T": { "en": "Commodities", "local": "Rohstoffe" },
-            "C": { "en": "Currencies", "local": "Währungen" },
-            "I": { "en": "Indices", "local": "Indizes" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Baskets",
+              "local": "Baskets"
+            },
+            "S": {
+              "en": "Equities",
+              "local": "Aktien"
+            },
+            "D": {
+              "en": "Debt instruments/interest rates",
+              "local": "Schuldtitel/Zinssätze"
+            },
+            "T": {
+              "en": "Commodities",
+              "local": "Rohstoffe"
+            },
+            "C": {
+              "en": "Currencies",
+              "local": "Währungen"
+            },
+            "I": {
+              "en": "Indices",
+              "local": "Indizes"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "E": {
           "en": "Structured products (without capital protection)",
           "local": "Strukturierte Produkte (ohne Kapitalschutz)",
           "attribute1": {
-            "A": { "en": "Discount certificate", "local": "Discountzertifikat" },
-            "B": { "en": "Barrier discount certificate", "local": "Discountzertifikat mit Barriere" },
-            "C": { "en": "Reverse convertible", "local": "Reverse Convertible" },
-            "D": { "en": "Barrier reverse convertible", "local": "Barrier Reverse Convertible" },
-            "E": { "en": "Express certificate", "local": "Express-Zertifikat" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "A": {
+              "en": "Discount certificate",
+              "local": "Discountzertifikat"
+            },
+            "B": {
+              "en": "Barrier discount certificate",
+              "local": "Discountzertifikat mit Barriere"
+            },
+            "C": {
+              "en": "Reverse convertible",
+              "local": "Reverse Convertible"
+            },
+            "D": {
+              "en": "Barrier reverse convertible",
+              "local": "Barrier Reverse Convertible"
+            },
+            "E": {
+              "en": "Express certificate",
+              "local": "Express-Zertifikat"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "R": { "en": "Repayment in cash", "local": "Rückzahlung in bar" },
-            "S": { "en": "Repayment in assets", "local": "Rückzahlung in Assets" },
-            "C": { "en": "Repayment in assets and cash", "local": "Rückzahlung in Assets und Bargeld" },
-            "T": { "en": "Repayment in assets or cash", "local": "Rückzahlung in Assets oder Bargeld" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "R": {
+              "en": "Repayment in cash",
+              "local": "Rückzahlung in bar"
+            },
+            "S": {
+              "en": "Repayment in assets",
+              "local": "Rückzahlung in Assets"
+            },
+            "C": {
+              "en": "Repayment in assets and cash",
+              "local": "Rückzahlung in Assets und Bargeld"
+            },
+            "T": {
+              "en": "Repayment in assets or cash",
+              "local": "Rückzahlung in Assets oder Bargeld"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "G": {
           "en": "Mortgage-backed securities (MBS)",
           "local": "Mortgage-Backed Securities (MBS)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "A": {
           "en": "Asset-backed securities (ABS)",
           "local": "Asset-Backed Securities (ABS)",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "N": {
           "en": "Municipal bonds",
           "local": "Kommunalanleihen",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "D": {
           "en": "Depository receipts on debt instruments",
           "local": "Hinterlegungsscheine für Schuldtitel",
           "attribute1": {
-            "B": { "en": "Bonds", "local": "Anleihen" },
-            "C": { "en": "Convertible bonds", "local": "Wandelanleihen" },
-            "W": { "en": "Bonds with warrants attached", "local": "Anleihen mit Bezugsrecht" },
-            "T": { "en": "Medium-term notes", "local": "Medium-Term Notes (mittelfristige Schuldtitel)" },
-            "Y": { "en": "Money market instruments", "local": "Geldmarktpapiere" },
-            "G": { "en": "Mortgage-backed securities", "local": "Mortgage-Backed Securities" },
-            "Q": { "en": "Asset-backed securities", "local": "Asset-Backed Securities" },
-            "N": { "en": "Municipal bonds", "local": "Kommunalanleihen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bonds",
+              "local": "Anleihen"
+            },
+            "C": {
+              "en": "Convertible bonds",
+              "local": "Wandelanleihen"
+            },
+            "W": {
+              "en": "Bonds with warrants attached",
+              "local": "Anleihen mit Bezugsrecht"
+            },
+            "T": {
+              "en": "Medium-term notes",
+              "local": "Medium-Term Notes (mittelfristige Schuldtitel)"
+            },
+            "Y": {
+              "en": "Money market instruments",
+              "local": "Geldmarktpapiere"
+            },
+            "G": {
+              "en": "Mortgage-backed securities",
+              "local": "Mortgage-Backed Securities"
+            },
+            "Q": {
+              "en": "Asset-backed securities",
+              "local": "Asset-Backed Securities"
+            },
+            "N": {
+              "en": "Municipal bonds",
+              "local": "Kommunalanleihen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" },
-            "C": { "en": "Cash payment", "local": "Barzahlung" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "C": {
+              "en": "Cash payment",
+              "local": "Barzahlung"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "F": { "en": "Fixed maturity", "local": "Feste Laufzeit" },
-            "G": { "en": "Fixed maturity with call feature", "local": "Feste Laufzeit mit Call-Option" },
-            "C": { "en": "Fixed maturity with put feature", "local": "Feste Laufzeit mit Put-Option" },
-            "D": { "en": "Fixed maturity with put and call", "local": "Feste Laufzeit mit Put- und Call-Option" },
-            "A": { "en": "Amortization plan", "local": "Amortisationsplan" },
-            "B": { "en": "Amortization plan with call feature", "local": "Amortisationsplan mit Call-Option" },
-            "T": { "en": "Amortization plan with put feature", "local": "Amortisationsplan mit Put-Option" },
-            "L": { "en": "Amortization plan with put and call", "local": "Amortisationsplan mit Call- und Put-Option" },
-            "P": { "en": "Perpetual", "local": "Unbefristet" },
-            "Q": { "en": "Perpetual with call feature", "local": "Unbefristet mit Call-Option" },
-            "R": { "en": "Perpetual with put feature", "local": "Unbefristet mit Put-Option" },
-            "E": { "en": "Extendible", "local": "Verlängerbar" }
+            "F": {
+              "en": "Fixed maturity",
+              "local": "Feste Laufzeit"
+            },
+            "G": {
+              "en": "Fixed maturity with call feature",
+              "local": "Feste Laufzeit mit Call-Option"
+            },
+            "C": {
+              "en": "Fixed maturity with put feature",
+              "local": "Feste Laufzeit mit Put-Option"
+            },
+            "D": {
+              "en": "Fixed maturity with put and call",
+              "local": "Feste Laufzeit mit Put- und Call-Option"
+            },
+            "A": {
+              "en": "Amortization plan",
+              "local": "Amortisationsplan"
+            },
+            "B": {
+              "en": "Amortization plan with call feature",
+              "local": "Amortisationsplan mit Call-Option"
+            },
+            "T": {
+              "en": "Amortization plan with put feature",
+              "local": "Amortisationsplan mit Put-Option"
+            },
+            "L": {
+              "en": "Amortization plan with put and call",
+              "local": "Amortisationsplan mit Call- und Put-Option"
+            },
+            "P": {
+              "en": "Perpetual",
+              "local": "Unbefristet"
+            },
+            "Q": {
+              "en": "Perpetual with call feature",
+              "local": "Unbefristet mit Call-Option"
+            },
+            "R": {
+              "en": "Perpetual with put feature",
+              "local": "Unbefristet mit Put-Option"
+            },
+            "E": {
+              "en": "Extendible",
+              "local": "Verlängerbar"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "Y": {
           "en": "Money market instruments",
           "local": "Geldmarktpapiere",
           "attribute1": {
-            "F": { "en": "Fixed rate", "local": "Festzins" },
-            "Z": { "en": "Zero rate/discounted", "local": "Nullsatz/diskontiert" },
-            "V": { "en": "Variable", "local": "Variabel" },
-            "K": { "en": "Payment in kind", "local": "Sachleistung" }
+            "F": {
+              "en": "Fixed rate",
+              "local": "Festzins"
+            },
+            "Z": {
+              "en": "Zero rate/discounted",
+              "local": "Nullsatz/diskontiert"
+            },
+            "V": {
+              "en": "Variable",
+              "local": "Variabel"
+            },
+            "K": {
+              "en": "Payment in kind",
+              "local": "Sachleistung"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "T": { "en": "Government/state guarantee", "local": "Staat/staatlich gebürgt" },
-            "G": { "en": "Joint guarantee", "local": "Gemeinsame Bürgschaft" },
-            "S": { "en": "Secured", "local": "Abgesichert" },
-            "U": { "en": "Unsecured/unguaranteed", "local": "Nicht gesichert/ohne Bürgschaft" },
-            "P": { "en": "Negative pledge", "local": "Negativerklärung" },
-            "N": { "en": "Senior", "local": "Senior" },
-            "O": { "en": "Senior subordinated", "local": "Senior Subordinate" },
-            "Q": { "en": "Junior", "local": "Junior" },
-            "J": { "en": "Junior subordinated", "local": "Junior Subordinate" },
-            "C": { "en": "Supranational", "local": "Supranational" }
+            "T": {
+              "en": "Government/state guarantee",
+              "local": "Staat/staatlich gebürgt"
+            },
+            "G": {
+              "en": "Joint guarantee",
+              "local": "Gemeinsame Bürgschaft"
+            },
+            "S": {
+              "en": "Secured",
+              "local": "Abgesichert"
+            },
+            "U": {
+              "en": "Unsecured/unguaranteed",
+              "local": "Nicht gesichert/ohne Bürgschaft"
+            },
+            "P": {
+              "en": "Negative pledge",
+              "local": "Negativerklärung"
+            },
+            "N": {
+              "en": "Senior",
+              "local": "Senior"
+            },
+            "O": {
+              "en": "Senior subordinated",
+              "local": "Senior Subordinate"
+            },
+            "Q": {
+              "en": "Junior",
+              "local": "Junior"
+            },
+            "J": {
+              "en": "Junior subordinated",
+              "local": "Junior Subordinate"
+            },
+            "C": {
+              "en": "Supranational",
+              "local": "Supranational"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Sonstige",
           "attribute1": {
-            "B": { "en": "Bank loan", "local": "Bankdarlehen" },
-            "P": { "en": "Promissory note", "local": "Schuldschein" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bank loan",
+              "local": "Bankdarlehen"
+            },
+            "P": {
+              "en": "Promissory note",
+              "local": "Schuldschein"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "B": { "en": "Bearer", "local": "Inhaber" },
-            "R": { "en": "Registered", "local": "Registriert" },
-            "N": { "en": "Bearer/registered", "local": "Inhaber/registriert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Bearer",
+              "local": "Inhaber"
+            },
+            "R": {
+              "en": "Registered",
+              "local": "Registriert"
+            },
+            "N": {
+              "en": "Bearer/registered",
+              "local": "Inhaber/registriert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         }
       }
@@ -802,211 +2652,656 @@
           "en": "Standard (vanilla) investment funds/mutual funds",
           "local": "Standard-Investmentfonds",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Offen" },
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Einkommensfonds" },
-            "G": { "en": "Accumulation funds", "local": "Akkumulierungsfonds" },
-            "J": { "en": "Mixed funds", "local": "Gemischte Fonds" }
+            "I": {
+              "en": "Income funds",
+              "local": "Einkommensfonds"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Akkumulierungsfonds"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Gemischte Fonds"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Immobilien" },
-            "B": { "en": "Debt instruments", "local": "Schuldverschreibungen" },
-            "E": { "en": "Equities", "local": "Aktien" },
-            "V": { "en": "Convertible securities", "local": "Wandelbare Wertpapiere" },
-            "L": { "en": "Mixed", "local": "Gemischt" },
-            "C": { "en": "Commodities", "local": "Rohstoffe" },
-            "D": { "en": "Derivatives", "local": "Derivate" },
-            "F": { "en": "Referential instruments", "local": "Referenzielle Instrumente" },
-            "K": { "en": "Credits", "local": "Kredite" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "R": {
+              "en": "Real estate",
+              "local": "Immobilien"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Schuldverschreibungen"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Aktien"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Wandelbare Wertpapiere"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Gemischt"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Rohstoffe"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Derivate"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Referenzielle Instrumente"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Kredite"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "Q": { "en": "Shares for QI", "local": "Anteile für QA" },
-            "U": { "en": "Units", "local": "Anteile" },
-            "Y": { "en": "Units for QI", "local": "Anteile für QA" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Anteile für QA"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Anteile für QA"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "H": {
           "en": "Hedge funds",
           "local": "Hedgefonds",
           "attribute1": {
-            "D": { "en": "Directional", "local": "Gerichtet" },
-            "R": { "en": "Relative value", "local": "Relativwert" },
-            "S": { "en": "Security selection", "local": "Wertpapierauswahl" },
-            "E": { "en": "Event-driven", "local": "Ereignisgesteuert" },
-            "A": { "en": "Arbitrage", "local": "Arbitrage" },
-            "N": { "en": "Multi-strategy", "local": "Multi-Strategien" },
-            "L": { "en": "Asset-based lending", "local": "Asset-basierte Kreditgeschäfte" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "D": {
+              "en": "Directional",
+              "local": "Gerichtet"
+            },
+            "R": {
+              "en": "Relative value",
+              "local": "Relativwert"
+            },
+            "S": {
+              "en": "Security selection",
+              "local": "Wertpapierauswahl"
+            },
+            "E": {
+              "en": "Event-driven",
+              "local": "Ereignisgesteuert"
+            },
+            "A": {
+              "en": "Arbitrage",
+              "local": "Arbitrage"
+            },
+            "N": {
+              "en": "Multi-strategy",
+              "local": "Multi-Strategien"
+            },
+            "L": {
+              "en": "Asset-based lending",
+              "local": "Asset-basierte Kreditgeschäfte"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "B": {
           "en": "Real estate investment trusts (REITs)",
           "local": "Real Estate Investment Trusts (REITs)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Offen" },
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Einkommensfonds" },
-            "G": { "en": "Accumulation funds", "local": "Akkumulierungsfonds" },
-            "J": { "en": "Mixed funds", "local": "Gemischte Fonds" }
+            "I": {
+              "en": "Income funds",
+              "local": "Einkommensfonds"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Akkumulierungsfonds"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Gemischte Fonds"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "Q": { "en": "Shares for QI", "local": "Anteile für QA" },
-            "U": { "en": "Units", "local": "Anteile" },
-            "Y": { "en": "Units for QI", "local": "Anteile für QA" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Anteile für QA"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Anteile für QA"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "E": {
           "en": "Exchange-traded funds (ETFs)",
           "local": "Börsengehandelte Fonds (ETFs)",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Offen" },
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Einkommensfonds" },
-            "G": { "en": "Accumulation funds", "local": "Akkumulierungsfonds" },
-            "J": { "en": "Mixed funds", "local": "Gemischte Fonds" }
+            "I": {
+              "en": "Income funds",
+              "local": "Einkommensfonds"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Akkumulierungsfonds"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Gemischte Fonds"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Immobilien" },
-            "B": { "en": "Debt instruments", "local": "Schuldverschreibungen" },
-            "E": { "en": "Equities", "local": "Aktien" },
-            "V": { "en": "Convertible securities", "local": "Wandelbare Wertpapiere" },
-            "L": { "en": "Mixed", "local": "Gemischt" },
-            "C": { "en": "Commodities", "local": "Rohstoffe" },
-            "D": { "en": "Derivatives", "local": "Derivate" },
-            "F": { "en": "Referential instruments", "local": "Referenzielle Instrumente" },
-            "K": { "en": "Credits", "local": "Kredite" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "R": {
+              "en": "Real estate",
+              "local": "Immobilien"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Schuldverschreibungen"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Aktien"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Wandelbare Wertpapiere"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Gemischt"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Rohstoffe"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Derivate"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Referenzielle Instrumente"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Kredite"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "U": { "en": "Units", "local": "Anteile" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "S": {
           "en": "Pension funds",
           "local": "Pensionsfonds",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Offen" },
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "B": { "en": "Balanced/conservative", "local": "Ausgeglichen/konservativ" },
-            "G": { "en": "Growth", "local": "Wachstum" },
-            "L": { "en": "Life style", "local": "Lebensstil" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "B": {
+              "en": "Balanced/conservative",
+              "local": "Ausgeglichen/konservativ"
+            },
+            "G": {
+              "en": "Growth",
+              "local": "Wachstum"
+            },
+            "L": {
+              "en": "Life style",
+              "local": "Lebensstil"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "R": { "en": "Defined benefit", "local": "Leistungszusage" },
-            "B": { "en": "Defined contribution", "local": "Beitragsorientiert" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "R": {
+              "en": "Defined benefit",
+              "local": "Leistungszusage"
+            },
+            "B": {
+              "en": "Defined contribution",
+              "local": "Beitragsorientiert"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "U": { "en": "Units", "local": "Anteile" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "F": {
           "en": "Funds of funds",
           "local": "Dachfonds",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Offen" },
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Einkommensfonds" },
-            "G": { "en": "Accumulation funds", "local": "Akkumulierungsfonds" },
-            "J": { "en": "Mixed funds", "local": "Gemischte Fonds" }
+            "I": {
+              "en": "Income funds",
+              "local": "Einkommensfonds"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Akkumulierungsfonds"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Gemischte Fonds"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "I": { "en": "Standard (vanilla) investment funds/mutual funds", "local": "Standard-Investmentfonds" },
-            "H": { "en": "Hedge funds", "local": "Hedgefonds" },
-            "B": { "en": "REITs", "local": "REITs" },
-            "E": { "en": "ETFs", "local": "ETFs" },
-            "P": { "en": "Private equity funds", "local": "Kapitalbeteiligungsfonds" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "I": {
+              "en": "Standard (vanilla) investment funds/mutual funds",
+              "local": "Standard-Investmentfonds"
+            },
+            "H": {
+              "en": "Hedge funds",
+              "local": "Hedgefonds"
+            },
+            "B": {
+              "en": "REITs",
+              "local": "REITs"
+            },
+            "E": {
+              "en": "ETFs",
+              "local": "ETFs"
+            },
+            "P": {
+              "en": "Private equity funds",
+              "local": "Kapitalbeteiligungsfonds"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "Q": { "en": "Shares for QI", "local": "Anteile für QA" },
-            "U": { "en": "Units", "local": "Anteile" },
-            "Y": { "en": "Units for QI", "local": "Anteile für QA" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Anteile für QA"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Anteile für QA"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "P": {
           "en": "Private equity funds",
           "local": "Kapitalbeteiligungsfonds",
           "attribute1": {
-            "O": { "en": "Open-end", "local": "Offen" },
-            "C": { "en": "Closed-end", "local": "Geschlossen" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "O": {
+              "en": "Open-end",
+              "local": "Offen"
+            },
+            "C": {
+              "en": "Closed-end",
+              "local": "Geschlossen"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "I": { "en": "Income funds", "local": "Einkommensfonds" },
-            "G": { "en": "Accumulation funds", "local": "Akkumulierungsfonds" },
-            "J": { "en": "Mixed funds", "local": "Gemischte Fonds" }
+            "I": {
+              "en": "Income funds",
+              "local": "Einkommensfonds"
+            },
+            "G": {
+              "en": "Accumulation funds",
+              "local": "Akkumulierungsfonds"
+            },
+            "J": {
+              "en": "Mixed funds",
+              "local": "Gemischte Fonds"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "R": { "en": "Real estate", "local": "Immobilien" },
-            "B": { "en": "Debt instruments", "local": "Schuldverschreibungen" },
-            "E": { "en": "Equities", "local": "Aktien" },
-            "V": { "en": "Convertible securities", "local": "Wandelbare Wertpapiere" },
-            "L": { "en": "Mixed", "local": "Gemischt" },
-            "C": { "en": "Commodities", "local": "Rohstoffe" },
-            "D": { "en": "Derivatives", "local": "Derivate" },
-            "F": { "en": "Referential instruments", "local": "Referenzielle Instrumente" },
-            "K": { "en": "Credits", "local": "Kredite" },
-            "M": { "en": "Others (misc.)", "local": "Sonstige" }
+            "R": {
+              "en": "Real estate",
+              "local": "Immobilien"
+            },
+            "B": {
+              "en": "Debt instruments",
+              "local": "Schuldverschreibungen"
+            },
+            "E": {
+              "en": "Equities",
+              "local": "Aktien"
+            },
+            "V": {
+              "en": "Convertible securities",
+              "local": "Wandelbare Wertpapiere"
+            },
+            "L": {
+              "en": "Mixed",
+              "local": "Gemischt"
+            },
+            "C": {
+              "en": "Commodities",
+              "local": "Rohstoffe"
+            },
+            "D": {
+              "en": "Derivatives",
+              "local": "Derivate"
+            },
+            "F": {
+              "en": "Referential instruments",
+              "local": "Referenzielle Instrumente"
+            },
+            "K": {
+              "en": "Credits",
+              "local": "Kredite"
+            },
+            "M": {
+              "en": "Others (misc.)",
+              "local": "Sonstige"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "Q": { "en": "Shares for QI", "local": "Anteile für QA" },
-            "U": { "en": "Units", "local": "Anteile" },
-            "Y": { "en": "Units for QI", "local": "Anteile für QA" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Anteile für QA"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Anteile für QA"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         },
         "M": {
           "en": "Others (misc.)",
           "local": "Sonstige",
           "attribute1": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute2": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute3": {
-            "X": { "en": "Not applicable/undefined", "local": "Nicht anwendbar/nicht definiert" }
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           },
           "attribute4": {
-            "S": { "en": "Shares", "local": "Aktien" },
-            "Q": { "en": "Shares for QI", "local": "Anteile für QA" },
-            "U": { "en": "Units", "local": "Anteile" },
-            "Y": { "en": "Units for QI", "local": "Anteile für QA" }
+            "S": {
+              "en": "Shares",
+              "local": "Aktien"
+            },
+            "Q": {
+              "en": "Shares for QI",
+              "local": "Anteile für QA"
+            },
+            "U": {
+              "en": "Units",
+              "local": "Anteile"
+            },
+            "Y": {
+              "en": "Units for QI",
+              "local": "Anteile für QA"
+            },
+            "X": {
+              "en": "Not applicable/undefined",
+              "local": "Nicht anwendbar/nicht definiert"
+            }
           }
         }
       }
