@@ -98,7 +98,7 @@ def upload_cfi(branch: str):
 
             s3.put_object(
                 Bucket=bucket,
-                Key=filename,
+                Key=f"cfi/{filename}",
                 Body=buf.getvalue(),
                 ContentType="application/json",
                 ContentEncoding="gzip",
