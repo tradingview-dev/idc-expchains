@@ -1,4 +1,10 @@
+import gzip
+import io
+import json
 import os
+
+import boto3
+from botocore.exceptions import ParamValidationError, NoCredentialsError, ClientError
 
 from DataGenerator import DataGenerator
 from lib.LoggableRequester import LoggableRequester
@@ -66,9 +72,46 @@ class CFIUploader(DataGenerator):
 
 
 def upload_cfi(branch: str):
-    for filename in os.listdir("cfi_dict"):
-        upload_state(f"cfi_dict/{filename}", get_bucket(branch), f"cfi/{filename}")
+    s3 = boto3.client(
+        "s3",
+        aws_access_key_id=os.environ.get("SOURCEDATA_AWS_ACCESS_KEY_ID"),
+        aws_secret_access_key=os.environ.get("SOURCEDATA_AWS_SECRET_ACCESS_KEY"),
+    )
 
+    bucket = get_bucket(branch)
+
+    try:
+        for filename in os.listdir("cfi_dict"):
+            if not filename.endswith(".json"):
+                continue
+
+            filepath = os.path.join("cfi_dict", filename)
+
+            with open(filepath, "rb") as file:
+                raw = file.read()
+
+            buf = io.BytesIO()
+            with gzip.GzipFile(fileobj=buf, mode="w") as f:
+                f.write(raw)
+
+            buf.seek(0)
+
+            s3.put_object(
+                Bucket=bucket,
+                Key=filename,
+                Body=buf.getvalue(),
+                ContentType="application/json",
+                ContentEncoding="gzip",
+            )
+
+    except ClientError as e:
+        raise e
+    except ParamValidationError as e:
+        raise e
+    except NoCredentialsError as e:
+        raise Exception("aws_access_key_id and/or aws_secret_access_key", e) from e
+    except Exception as e:
+        raise Exception("Unexpected exception has been occurred", e) from e
 
 def get_bucket(branch: str) -> str:
     buckets = {
