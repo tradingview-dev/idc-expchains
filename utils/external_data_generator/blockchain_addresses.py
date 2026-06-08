@@ -7,7 +7,7 @@ from DataGenerator import DataGenerator
 from utils import file_writer
 
 
-class BlockchainAddressesGenerator(DataGenerator):
+class CurrenciesGenerator(DataGenerator):
     def __init__(self, environment: str):
         super().__init__()
         self.environment = environment
@@ -51,7 +51,7 @@ class BlockchainAddressesGenerator(DataGenerator):
 
 if __name__ == "__main__":
     try:
-        BlockchainAddressesGenerator(environment="staging").generate()
+        CurrenciesGenerator(environment="staging").generate()
         exit(0)
     except OSError:
         exit(1)
