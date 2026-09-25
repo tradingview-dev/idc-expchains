@@ -34,6 +34,7 @@ SI_OTHER_GROUPS=(
   "abaxx_futures"
   "alor_rest_futures"
   "six_istanbul_futures"
+  "nse_currency_futures"
   )
 for GROUP in "${SI_OTHER_GROUPS[@]}"; do
     echo "Getting $GROUP"
