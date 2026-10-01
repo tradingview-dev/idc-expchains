@@ -3,22 +3,29 @@ import json
 
 from DataGenerator import DataGenerator
 from lib.LoggableRequester import LoggableRequester
-from s3_utils import read_state
 from utils import get_headers, unpack_data
 
 
 class CMCDataGenerator(DataGenerator):
 
-    def __init__(self, branch, profile_name=None):
+    def __init__(self, branch):
         super().__init__()
-        self._branch = "prod" if branch == "master" else branch
-        self._profile_name = profile_name
+        self._env = "prod" if branch == "master" else branch
 
-    def get_currencies(self, bucket_name):
-        compressed_data = read_state(bucket_name, "currencies.json", self._profile_name)
-        # unpack gzipped-data
-        content = unpack_data(compressed_data)
-        return json.loads(content)
+    def get_currencies(self, currencies_url):
+        requester = LoggableRequester(self._logger, retries=5, delay=5)
+        try:
+            resp = requester.request(LoggableRequester.Methods.GET,
+                                     currencies_url,
+                                     get_headers())
+
+            if resp.status_code != 200:
+                raise Exception("Unable to get currencies.json" + str(resp.status_code))
+
+            return json.loads(resp.text)
+        except OSError as e:
+            self._logger.error(e)
+            raise e
 
     def get_coinmarketcap_snapshot(self, cmc_id):
         requester = LoggableRequester(self._logger, retries=5, delay=5)
@@ -40,13 +47,13 @@ class CMCDataGenerator(DataGenerator):
             "stable": "d2daa136-eb61-420b-8dcd-d412928f2f92",
             "prod": "d2daa136-eb61-420b-8dcd-d412928f2f92"
         }
-        currencies_buckets = {
-            "staging": "tradingview-currencies-staging",
-            "stable": "tradingview-currencies",
-            "prod": "tradingview-currencies"
+        currencies_urls = {
+            "staging": "https://tradingview-currencies-staging.xstaging.tv/currencies.json",
+            "stable": "https://tradingview-currencies.tradingview.com/currencies.json",
+            "prod": "https://tradingview-currencies.tradingview.com/currencies.json"
         }
-        coinmarketcap_snapshot = self.get_coinmarketcap_snapshot(cmc_ids[self._branch])
-        currencies = self.get_currencies(currencies_buckets[self._branch])
+        coinmarketcap_snapshot = self.get_coinmarketcap_snapshot(cmc_ids[self._env])
+        currencies = self.get_currencies(currencies_urls[self._env])
         defi_typespec = "defi_typespec.csv"
         self.run(coinmarketcap_snapshot, currencies, defi_typespec)
         return [defi_typespec]
@@ -98,7 +105,7 @@ class CMCDataGenerator(DataGenerator):
 
 if __name__ == "__main__":
     try:
-        CMCDataGenerator("staging", "TeamIDCAdmin-staging").generate()
+        CMCDataGenerator("staging").generate()
         exit(0)
     except OSError:
         exit(1)
