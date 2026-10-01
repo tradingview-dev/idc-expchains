@@ -11,7 +11,7 @@ class CMCDataGenerator(DataGenerator):
 
     def __init__(self, branch, profile_name=None):
         super().__init__()
-        self._branch = branch
+        self._branch = "prod" if branch == "master" else branch
         self._profile_name = profile_name
 
     def get_currencies(self, bucket_name):
